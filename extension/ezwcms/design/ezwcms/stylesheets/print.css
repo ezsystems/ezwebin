@@ -1,0 +1,32 @@
+/* PRINT CSS - 20060522 */
+
+/* This CSS file hides unwanted elements when a page is printed out, 
+by overriding styles set in site.css */
+
+body
+{
+    font-size: 10pt;
+}
+
+div#searchbox, div#path, div#topmenu, div#sidemenu, div#extrainfo, div#footer
+{
+    display: none; /* Hide elments not wanted on a printed page */
+}
+
+body, div#page, div#header, div#main
+{   
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+div#columns
+{
+    padding: 0;
+}
+
+div#main-position, div.float-insert
+{
+    float: none;
+}

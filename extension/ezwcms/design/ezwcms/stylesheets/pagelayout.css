@@ -1,0 +1,604 @@
+/* PAGELAYOUT CSS - 20060522 */
+
+
+/* FULL PAGE */
+
+body
+{
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center; /* IE method for centering page if it has fixed width */
+}
+
+div#page
+{
+    width: auto; /* This can be changed to any fixed width if desired */
+    margin: 0 auto 0 auto; /* General method for centering content if fixed page width, for other browsers than IE */
+    text-align: left; /* Reset IE method for centering page, to stop all other content on the page from centering */
+}
+
+
+/* HEADER */
+
+div#header
+{
+}
+
+div#logo
+{
+    float: left;
+}
+
+div#searchbox
+{
+    width: 20em; /* Needs to be sufficient width to fit both text input and submit button to avoid Konqueror breaking the line between them */
+    margin-top: 1.25em;
+    text-align: right;
+    float: right;
+}
+
+input#searchtext
+{
+    width: 12em;
+}
+
+
+/* TOP MENU */
+
+div#topmenu
+{
+}
+
+div#topmenu ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+div#topmenu li
+{
+    margin: 0 1em 0 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+
+
+/* PATH */
+
+div#path
+{
+}
+
+div#path p
+{
+    margin: 0;
+}
+
+
+/* COLUMNS */
+
+div#columns
+{
+    padding: 0 12em 0 12em;
+}
+
+div.nosidemenu div#columns
+{
+    padding-left: 0;
+}
+
+div.noextrainfo div#columns
+{
+    padding-right: 0;
+}
+
+
+/* SIDE MENU */
+
+div#sidemenu-position
+{
+    width: 12em;
+    margin-left: -12em;
+    float: left;
+    display: inline; /* Fix for IE double margin bug */
+}
+
+div.nosidemenu div#sidemenu-position
+{
+    display: none;
+}
+
+div#sidemenu
+{
+}
+
+div#sidemenu ul
+{
+    margin: 1em 0 1em 0;  
+}
+
+div#sidemenu ul li
+{
+    margin: 1em 0 1em 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+
+/* MAIN AREA */
+
+div#main-position
+{
+    width: 100%;
+    float: left;
+}
+
+div#main
+{
+}
+
+div.nosidemenu div#main
+{
+    margin-left: 0;
+}
+
+div.noextrainfo div#main
+{
+    margin-right: 0;
+}
+
+
+/* EXTRA CONTENT */
+
+div#extrainfo-position
+{
+    width: 12em;
+    margin-right: -12em;
+    float: left;
+}
+
+div.noextrainfo div#extrainfo-position
+{
+    display: none;
+}
+
+div#extrainfo
+{
+}
+
+
+/* FOOTER */
+
+div#footer
+{
+    clear: both; /* Ensures that the footer is pushed properly below the columns */
+    text-align: center;
+}
+
+
+/* GENERAL DESIGN - Remove all the following styles to strip down the template before implementing a new design */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/body_bg.png);
+	background-repeat: repeat-x;
+}
+
+div#page
+{
+	width: 760px;
+}
+
+div#page, div#header, div#path, div#topmenu, div#sidemenu, div#extrainfo, div#main, div#footer
+{
+
+}
+
+div#page
+{
+
+}
+
+div#footer
+{
+    padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+div#footer
+{
+    margin: 0.25em;
+}
+
+div#main
+{
+    margin: 0 0.25em 0 0.25em; /* Space between main and other columns */
+}
+
+/* HEADER */
+
+div#header
+{
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	padding-top: 0.25em;
+	background: url(../images/bg_1px.png) left repeat;
+	padding-bottom: 0.75em;
+}
+
+div#header ul
+{
+    margin: 0;
+    padding: 0.25em 0 0.25em 0;
+}
+
+div#header ul li
+{
+	list-style-type: none;
+	list-style-image: none;
+    padding: 0;
+    display: inline;
+    margin-left: 1em;
+	margin-right: 1em;
+}
+
+div#logo
+{
+	margin: 1em 0 0 1.5em;
+}
+
+div#usermenu
+{
+	background-image: url(../images/header_bg.png);
+	background-position: top left;
+	background-repeat: repeat-x;
+	height: 25px;
+}
+
+div#languages
+{
+	background-image: url(../images/header_bg_left.png);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	float: left;
+	clear: left;
+	width: 24%;
+	height: 25px;
+	font-size: 0.85em;
+}
+
+div#links
+{
+	background-image: url(../images/header_bg_right.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	float: right;
+	clear: right;
+	text-align: right;
+	padding-right: 0;
+	font-size: 0.9em;
+	font-weight: bold;
+	height: 25px;
+	width: 75%;
+}
+
+div#links a
+{
+	color: #515346;
+	border-left: 1px solid #CECEC2;
+	display: block;
+	float: right;
+	padding-left: 1em;
+	padding-right: 1em;
+	height: 18px;
+}
+
+div#searchbox
+{
+	margin-top: 1.75em;
+	margin-right: 1em;
+}
+
+
+input#searchtext
+{
+	border: 1px solid #A5ACB2;
+	font-size: 0.85em;
+}
+
+input#searchbutton
+{
+	margin-top: -0.1em;
+}
+
+/* TOP MENU */
+
+div#topmenu
+{
+	margin: 0;
+	padding: 0;
+}
+
+div#topmenu ul
+{
+	background-image: url(../images/topmenu_bg.png);
+	background-repeat: repeat-x;
+	height: 33px;
+}
+
+div#topmenu li
+{
+	background-image: url(../images/topmenu_bg.png);
+	background-repeat: repeat-x;
+	height: 29px;
+	margin: 0;
+	padding: 4px 0px 0px 0px;
+	font-size: 0.85em;
+	font-weight: bold;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+div#topmenu li.selected
+{
+	background-image: url(../images/topmenu_bg_selected.png);
+	background-repeat: repeat-x;
+	height: 29px;
+	margin: 0;
+	padding: 4px 0px 0px 0px;
+	font-size: 0.85em;
+	font-weight: bold;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+div#topmenu li a
+{
+	text-decoration: none;
+	color: #4F5241;
+	border-right: 1px solid #C3C4B6;
+	display: block;
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	height: 20px;
+	background-color: transparent;
+}
+
+div#topmenu li a:hover
+{
+    border-bottom: 3px solid #ABAB9E;
+}
+
+div#topmenu li div.spacer
+{
+
+}
+
+div#topmenu div.topmenu-design
+{
+	background-color: #FFF;
+	padding: 0 0.25em 0 0.2em;
+}
+
+/* PATH */
+
+div#path
+{
+	padding: 0.5em 0.5em 0.5em 2em;
+	font-size: 0.85em;
+}
+
+/* COLUMNS */
+
+div#columns
+{
+    padding: 0 12em 0 14em;
+}
+
+/* SIDEMENU */
+
+div#sidemenu-position
+{
+    width: 14em;
+    margin-left: -14em;
+}
+
+div#sidemenu div.box-sm
+{
+    border: 1px solid #EAE8E1;
+	margin: 0;
+	padding: 0;
+	background: url(../images/bg_1px.png) left repeat;
+}
+
+div#sidemenu div.box-sm div.box-content
+{
+	padding-left: 0.75em;
+}
+
+div#sidemenu div.box-sm, div#sidemenu div.box-sm div.tl, div#sidemenu div.box-sm div.tr, div#sidemenu div.box-sm div.br, div#sidemenu div.box-sm div.bl
+{
+    position: relative;
+}
+
+div#sidemenu div.box-sm div.tl
+{
+    top: -1px;
+    left: -1px;
+    background: url(../images/sidemenu_tl.png) top left no-repeat;
+}
+
+div#sidemenu div.box-sm div.tr
+{
+    right: -2px;
+    background: url(../images/sidemenu_tr.png) top right no-repeat;
+}
+
+div#sidemenu div.box-sm div.br
+{
+    bottom: -2px;
+    background: url(../images/sidemenu_br.png) bottom right no-repeat;
+}
+
+div#sidemenu div.box-sm div.bl
+{
+    left: -2px;
+    background: url(../images/sidemenu_bl.png) bottom left no-repeat;
+    padding: 0.5em;
+}
+
+div#sidemenu h4
+{
+	margin: 0;
+}
+
+div#sidemenu ul
+{
+	list-style-type: none;
+    margin-left: 0;
+}
+
+div#sidemenu ul.submenu-list
+{
+	list-style-type: none;
+    margin-left: 1em;
+}
+
+div#sidemenu ul li
+{
+	margin: 0.5em 0 0.5em 0;
+}
+
+div#sidemenu ul li a
+{
+    background-image: url(../images/sidemenu_bullet.png);
+    background-position: 0.2em 0.5em;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    display: block;
+	font-size: 0.85em;
+}
+
+/* MAIN */
+
+div#main
+{
+	padding: 0;
+}
+
+div#main div.box-mc
+{
+    border: 1px solid #EAE8E1;
+	margin: 0;
+	padding: 0;
+	background: url(../images/bg_1px.png) left repeat;
+}
+
+div#main div.box-mc div.box-content
+{
+	padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+div#main div.box-mc, div#main div.box-mc div.tl, div#main div.box-mc div.tr, div#main div.box-mc div.br, div#main div.box-mc div.bl
+{
+    position: relative;
+}
+
+div#main div.box-mc div.tl
+{
+    top: -1px;
+    left: -1px;
+    background: url(../images/sidemenu_tl.png) top left no-repeat;
+}
+
+div#main div.box-mc div.tr
+{
+    right: -2px;
+    background: url(../images/sidemenu_tr.png) top right no-repeat;
+}
+
+div#main div.box-mc div.br
+{
+    bottom: -2px;
+    background: url(../images/sidemenu_br.png) bottom right no-repeat;
+}
+
+div#main div.box-mc div.bl
+{
+    left: -2px;
+    background: url(../images/sidemenu_bl.png) bottom left no-repeat;
+    padding: 0.5em;
+}
+
+/* EXTRA INFO */
+
+div#extrainfo
+{
+	padding: 0;
+}
+
+div#extrainfo div.box-ei
+{
+    border: 1px solid #EAE8E1;
+	margin: 0;
+	padding: 0;
+	background: url(../images/bg_1px.png) left repeat;
+}
+
+div#extrainfo div.box-ei div.box-content
+{
+	padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+div#extrainfo div.box-ei, div#extrainfo div.box-ei div.tl, div#extrainfo div.box-ei div.tr, div#extrainfo div.box-ei div.br, div#extrainfo div.box-ei div.bl
+{
+    position: relative;
+}
+
+div#extrainfo div.box-ei div.tl
+{
+    top: -1px;
+    left: -1px;
+    background: url(../images/sidemenu_tl.png) top left no-repeat;
+}
+
+div#extrainfo div.box-ei div.tr
+{
+    right: -2px;
+    background: url(../images/sidemenu_tr.png) top right no-repeat;
+}
+
+div#extrainfo div.box-ei div.br
+{
+    bottom: -2px;
+    background: url(../images/sidemenu_br.png) bottom right no-repeat;
+}
+
+div#extrainfo div.box-ei div.bl
+{
+    left: -2px;
+    background: url(../images/sidemenu_bl.png) bottom left no-repeat;
+    padding: 0.5em;
+}
+
+
+/* FOOTER */
+
+div#footer
+{
+	background-image: url(../images/footer_bg.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding-top: 2em;
+	font-size: 0.85em;
+	margin-top: 0.6em;
+}
+div#footer address
+{
+	font-style:normal;
+}

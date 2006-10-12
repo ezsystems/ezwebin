@@ -1,0 +1,1 @@
+{content_view_gui view=itemizedsubitems content_object=$object}
