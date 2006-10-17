@@ -18,13 +18,12 @@
 <link rel="stylesheet" type="text/css" href={"stylesheets/print.css"|ezdesign} media="print" />
 <!-- IE conditional comments; for bug fixes for different IE versions -->
 <!--[if IE 5]>     <style type="text/css"> @import url({"stylesheets/browsers/ie5.css"|ezdesign(no)});    </style> <![endif]-->
-<!--[if lte IE 6]> <style type="text/css"> @import url({"stylesheets/browsers/ie6lte.css"|ezdesign(no)}); </style> <![endif]-->
+<!--[if lte IE 7]> <style type="text/css"> @import url({"stylesheets/browsers/ie7lte.css"|ezdesign(no)}); </style> <![endif]-->
 <!--[if !IE]> -->
 <!-- Can be used to set styles and content IE should not get -->
 <!-- <![endif]-->
-<!--[if IE]> 	   <style type="text/css"> @import url({"stylesheets/browsers/ie.css"|ezdesign(no)}); 	 </style> <![endif]-->
 <!-- Height resize script; used for resizing columns to equal heights -->
-<script type="text/javascript" src={"javascript/heightresize.js"|ezdesign}></script>
+<!-- <script type="text/javascript" src={"javascript/heightresize.js"|ezdesign}></script> -->
 </head>
 <body>
 <!-- Complete page area: START -->
@@ -131,7 +130,6 @@
   {cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ))}
   <!-- Top menu area: START -->
   <div id="topmenu" class="float-break">
-    <h2 class="hide">Top menu</h2>
     {include uri='design:menu/flat_top.tpl'}
   </div>
   <!-- Top menu area: END -->
@@ -142,7 +140,6 @@
   <hr class="hide" />
   <!-- Path area: START -->
   <div id="path">
-    <h2 class="hide">Path2</h2>
     {include uri='design:parts/path.tpl'}
   </div>
   <!-- Path area: END -->
@@ -157,7 +154,6 @@
 	  <div id="sidemenu" {if eq( $isset_toolbar, '1' )}style="margin-top: 40px"{/if}>
 	    <div id="heightresize-sidemenu">
           <!-- Used only for height resize script -->
-          <h2 class="hide">Side menu</h2>
           {if gt($module_result.path|count, 1)}
           {include uri='design:menu/flat_left.tpl'}
           {/if}
@@ -190,7 +186,6 @@
       <div id="extrainfo" {if eq( $isset_toolbar, '1' )}style="margin-top: 40px"{/if}>
         <div id="heightresize-extrainfo">
           <!-- Used only for height resize script -->
-          <h2 class="hide">Extra info</h2>
           <!-- Extra content: START -->
 			{include uri='design:parts/extra_info.tpl'}
           <!-- Extra content: END -->

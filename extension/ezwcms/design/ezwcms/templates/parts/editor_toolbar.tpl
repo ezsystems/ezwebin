@@ -1,5 +1,3 @@
-
-
 {def $content_object = $node.object
 	 $can_edit_languages   = $content_object.can_edit_languages
      $can_create_languages = $content_object.can_create_languages
@@ -30,7 +28,7 @@
 {/if}
 
 {if $content_object.can_edit}
-	<input type="hidden" name="ContentObjectLanguageCode" value="{$content_object.initial_language_code}" />
+	<input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'Locale' , 'site.ini')}" />
   <input class="button" type="submit" name="EditButton" value="{'Edit'|i18n('design/standard/node/view')}" />
 {/if}
 

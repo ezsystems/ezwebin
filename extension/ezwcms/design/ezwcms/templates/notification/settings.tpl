@@ -11,15 +11,12 @@
 
 {def $handlers=fetch('notification','handler_list')}
 
-    <p>
     {foreach $handlers as $handler}
         {include handler=$handler uri=concat( "design:notification/handler/",$handler.id_string,"/settings/edit.tpl")}
     {/foreach}
-    </p>
 
-<div>
+
 <input class="button" type="submit" name="Store" value="{'Store'|i18n('design/standard/notification')}" />
-</div>
 </form>
 
 </div>

@@ -99,7 +99,7 @@ function checkAll()
         {$:item.modified|l10n(datetime)}
     </td>
     <td width="1">
-        <a href={concat("/content/edit/",$Draft:item.contentobject.id,"/",$Draft:item.version,"/")|ezurl}><img src={"edit.gif"|ezimage} border="0"></a>
+        <a href={concat("/content/edit/",$Draft:item.contentobject.id,"/",$Draft:item.version,"/")|ezurl}><img src={"edit.gif"|ezimage} border="0" alt="Edit" /></a>
     </td>
 </tr>
 {/section}
@@ -111,7 +111,7 @@ function checkAll()
     </td>
 </tr>
 </table>
-<input class="button" name="selectall" onclick=checkAll() type="button" value="{'Select all'|i18n('design/standard/content/view')}">
+<input class="button" name="selectall" onclick=checkAll() type="button" value="{'Select all'|i18n('design/standard/content/view')}" />
 {include name=navigator
          uri='design:navigator/google.tpl'
          page_uri='/content/draft'
@@ -127,6 +127,7 @@ function checkAll()
 
 {/section}
 
+</form>
 </div>
 
 </div></div></div></div></div>

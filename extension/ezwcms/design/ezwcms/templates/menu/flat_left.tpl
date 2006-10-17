@@ -3,7 +3,7 @@
 	 												  'sort_by', $root_node.sort_array,
 													  'class_filter_type', 'include',
 													  'class_filter_array', array( 'folder', 'forum', 'documentation_page', 'gallery', 'feedback_form', 'forums', 'event_calender' ) ) )}
-<div class="box-sm">
+<div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
 
 		<h4>{$module_result.path[1].text}</h4>
@@ -13,7 +13,7 @@
 		{if $left_menu_items|count}
         <ul class="menu-list">
        {foreach $left_menu_items as $item}
-	   		<li><a href={$item.url_alias|ezurl} {if eq( $item.node_id, $module_result.path[2].node_id )}class="selected"{/if}>{$item.name}</a>
+	   		<li><div><a href={$item.url_alias|ezurl} {if eq( $item.node_id, $module_result.path[2].node_id )}class="selected"{/if}>{$item.name}</a></div>
 
 	   		{if and( is_set( $module_result.path[2].node_id ), $item.node_id, eq( $module_result.path[2].node_id, $item.node_id ) )}
 	   		{def $left_menu_subitems=fetch( 'content', 'list', hash( 'parent_node_id', $item.node_id,
@@ -23,7 +23,7 @@
 			{if $left_menu_subitems|count}
 			<ul class="submenu-list">
 	   		{foreach $left_menu_subitems as $subitem}
-				<li><a href={$subitem.url_alias|ezurl} {if eq( $subitem.node_id, $module_result.path[3].node_id )}class="selected"{/if}>{$subitem.name}</a></li>
+				<li><div><a href={$subitem.url_alias|ezurl} {if eq( $subitem.node_id, $module_result.path[3].node_id )}class="selected"{/if}>{$subitem.name}</a></div></li>
 	   		{/foreach}
 	   		</ul>
 	   		{/if}
