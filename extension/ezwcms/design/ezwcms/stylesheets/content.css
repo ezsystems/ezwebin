@@ -2,6 +2,244 @@
 
 /* This stylesheet should contain all styles for content class templates */
 
+div.box
+{
+    border: 1px solid #eae8e1;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+div.box div.box-content
+{
+
+}
+
+div.box, div.box div.tl, div.box div.tr, div.box div.br, div.box div.bl
+{
+    position: relative;
+}
+
+div.box div.tl
+{
+    top: -1px;
+    left: -1px;
+    background: url(../images/corner_tl.png) top left no-repeat;
+}
+
+div.box div.tr
+{
+    right: -2px;
+    background: url(../images/corner_tr.png) top right no-repeat;
+}
+
+div.box div.br
+{
+    bottom: -2px;
+    background: url(../images/corner_br.png) bottom right no-repeat;
+}
+
+div.box div.bl
+{
+    left: -2px;
+    background: url(../images/corner_bl.png) bottom left no-repeat;
+    padding: 0.5em;
+}
+
+/* TABLES */
+
+table.cols
+{
+    width: 100%;
+    margin: 1em 0 1em 0;
+	border: none;
+}
+
+table.cols th, table.cols td
+{
+    padding: 0.5em;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    vertical-align: top;
+}
+
+table.cols th
+{
+    font-weight: bold;
+    color: #525345;
+    background-color: #DFDFDF;
+    white-space: nowrap;
+    text-align: left;
+	background-image: url(../images/th_bg.png);
+	background-repeat: repeat-x;
+	background-position: top left;
+}
+
+table.cols td
+{
+    font-weight: normal;
+}
+
+table.cols th:first-child, table.cols td:first-child
+{
+    border-left: 1px solid #ffffff;
+}
+
+table.cols col.bglight, div.bglight
+{
+    background-color: #F1F1ED;
+}
+
+table.cols col.bgdark, div.bgdark
+{
+    background-color: #EAE9E1;
+}
+
+table.cols tr.bglight:hover, table.cols tr.bgdark:hover
+{
+    background-color: #EAE9E1;
+}
+
+table.cols tr.bglight:hover td, table.cols tr.bgdark:hover td
+{
+	background-color: #F1F1ED;
+}
+
+table.cols a
+{
+    border-bottom-color: #EAE9E1;
+}
+
+table.renderedtable
+{
+    width: 100%;
+    margin: 1em 0 1em 0;
+	border: none;
+}
+
+table.renderedtable th, table.renderedtable td
+{
+    padding: 0.5em;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    vertical-align: top;
+}
+
+table.renderedtable th
+{
+    font-weight: bold;
+    color: #525345;
+    background-color: #DFDFDF;
+    white-space: nowrap;
+    text-align: left;
+	background-image: url(../images/th_bg.png);
+	background-repeat: repeat-x;
+	background-position: top left;
+}
+
+table.renderedtable td
+{
+    font-weight: normal;
+}
+
+table.renderedtable th:first-child, table.renderedtable td:first-child
+{
+    border-left: 1px solid #ffffff;
+}
+
+table.renderedtable tr.bglight, div.bglight
+{
+    background-color: #F1F1ED;
+}
+
+table.renderedtable tr.bgdark, div.bgdark
+{
+    background-color: #EAE9E1;
+}
+
+table.renderedtable tr.bglight:hover, table.renderedtable tr.bgdark:hover
+{
+    background-color: #EAE9E1;
+}
+
+table.renderedtable tr.bglight:hover td, table.renderedtable tr.bgdark:hover td
+{
+	background-color: #F1F1ED;
+}
+
+table.renderedtable a
+{
+    border-bottom-color: #EAE9E1;
+}
+
+
+
+table.comparison
+{
+    width: 100%;
+    margin: 1em 0 1em 0;
+	border: none;
+}
+
+table.comparison th, table.comparison td
+{
+    padding: 0.5em;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    vertical-align: top;
+}
+
+table.comparison th
+{
+    font-weight: bold;
+    color: #525345;
+    background-color: #DFDFDF;
+    white-space: nowrap;
+    text-align: left;
+	background-image: url(../images/th_bg.png);
+	background-repeat: repeat-x;
+	background-position: top left;
+}
+
+table.comparison td
+{
+    font-weight: normal;
+}
+
+table.comparison th:first-child, table.comparison td:first-child
+{
+    border-left: 1px solid #ffffff;
+}
+
+table.comparison col.bglight, div.bglight
+{
+    background-color: #F1F1ED;
+}
+
+table.comparison col.bgdark, div.bgdark
+{
+    font-weight: bold;
+    color: #525345;
+    background-color: #DFDFDF;
+    white-space: nowrap;
+    text-align: left;
+}
+
+table.comparison tr.bglight:hover, table.comparison tr.bgdark:hover
+{
+    background-color: #F1F1ED;
+}
+
+table.comparison tr.bglight:hover td, table.comparison tr.bgdark:hover td
+{
+	background-color: #EAE9E1;
+}
+
+table.comparison a
+{
+    border-bottom-color: #EAE9E1;
+}
+
 /* AUTHOR AND DATE FOR ALL FULL OBJECTS */
 
 div.content-view-full div.attribute-byline p.author
@@ -72,6 +310,24 @@ div.pagenavigator span.previous
 div.pagenavigator span.next
 {
     float: right;
+}
+
+/* ul */
+div#main ul
+{
+    list-style-type: none;
+}
+
+
+div#main ul li
+{
+    margin: 0 0 0.5em 0.25em;
+    padding: 0 0 0 14px;
+    background-image: url(../images/bullet_list.png);
+    background-repeat: no-repeat;
+    background-position: 0 0.3em;
+    line-height: 1.25em;
+	list-style-type: none;
 }
 
 /* AUTHOR AND DATE FOR ALL CHILD OBJECTS */
@@ -445,9 +701,6 @@ div.content-view-line div.class-comment p.date
 
 
 /* INFOBOX */
-
-/* Show only to IE PC \*/
-* html .class-infobox .attribute-header h2 {height: 1%;} /* For IE 5 PC */
 
 .class-infobox 
 {
@@ -1237,13 +1490,15 @@ div.itemized_sub_items div.content-view-embed h2 a
 div.itemized_sub_items div.content-view-embed div.box-em div.box-content ul
 {
     margin-left: 0;
+	list-style-type: none;
 }
 
-div.itemized_sub_items div.content-view-embed ul li
+div#main div.itemized_sub_items div.content-view-embed ul li
 {
 	margin: 0.5em 0 0.5em 0;
+	padding-left: 0;
 	list-style-type: none;
-	list-style-image: none;
+	background-image: none;
 }
 
 div.itemized_sub_items div.content-view-embed ul li a
@@ -1284,6 +1539,7 @@ div.itemized_sub_items div.content-view-embed div.class-gallery div.attribute-im
 	float: left;
 	clear: left;
 	margin: 0.6em 0.75em 0 0;
+	position: relative;
 }
 
 div.itemized_sub_items div.content-view-embed div.class-gallery div.attribute-image-cpation
@@ -1523,7 +1779,7 @@ div.break
 div.attribute-image
 {
 	float: left;
-	margin: 0.25em 1em 0.5em 0;
+	margin: 0.25em 0 0.5em 0;
 }
 
 /* AGENDA */

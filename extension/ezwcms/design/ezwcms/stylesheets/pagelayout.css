@@ -1,183 +1,6 @@
 /* PAGELAYOUT CSS - 20060522 */
 
-
 /* FULL PAGE */
-
-body
-{
-    margin: 0.5em;
-    padding: 0.5em;
-    text-align: center; /* IE method for centering page if it has fixed width */
-}
-
-div#page
-{
-    width: auto; /* This can be changed to any fixed width if desired */
-    margin: 0 auto 0 auto; /* General method for centering content if fixed page width, for other browsers than IE */
-    text-align: left; /* Reset IE method for centering page, to stop all other content on the page from centering */
-}
-
-
-/* HEADER */
-
-div#header
-{
-}
-
-div#logo
-{
-    float: left;
-}
-
-div#searchbox
-{
-    width: 20em; /* Needs to be sufficient width to fit both text input and submit button to avoid Konqueror breaking the line between them */
-    margin-top: 1.25em;
-    text-align: right;
-    float: right;
-}
-
-input#searchtext
-{
-    width: 12em;
-}
-
-
-/* TOP MENU */
-
-div#topmenu
-{
-}
-
-div#topmenu ul
-{
-    margin: 0;
-    padding: 0;
-}
-
-div#topmenu li
-{
-    margin: 0 1em 0 0;
-    padding: 0;
-    float: left;
-    list-style-type: none;
-}
-
-
-/* PATH */
-
-div#path
-{
-}
-
-div#path p
-{
-    margin: 0;
-}
-
-
-/* COLUMNS */
-
-div#columns
-{
-    padding: 0 12em 0 12em;
-}
-
-div.nosidemenu div#columns
-{
-    padding-left: 0;
-}
-
-div.noextrainfo div#columns
-{
-    padding-right: 0;
-}
-
-
-/* SIDE MENU */
-
-div#sidemenu-position
-{
-    width: 12em;
-    margin-left: -12em;
-    float: left;
-    display: inline; /* Fix for IE double margin bug */
-}
-
-div.nosidemenu div#sidemenu-position
-{
-    display: none;
-}
-
-div#sidemenu
-{
-}
-
-div#sidemenu ul
-{
-    margin: 1em 0 1em 0;  
-}
-
-div#sidemenu ul li
-{
-    margin: 1em 0 1em 0;
-	list-style-type: none;
-	list-style-image: none;
-}
-
-
-/* MAIN AREA */
-
-div#main-position
-{
-    width: 100%;
-    float: left;
-}
-
-div#main
-{
-}
-
-div.nosidemenu div#main
-{
-    margin-left: 0;
-}
-
-div.noextrainfo div#main
-{
-    margin-right: 0;
-}
-
-
-/* EXTRA CONTENT */
-
-div#extrainfo-position
-{
-    width: 12em;
-    margin-right: -12em;
-    float: left;
-}
-
-div.noextrainfo div#extrainfo-position
-{
-    display: none;
-}
-
-div#extrainfo
-{
-}
-
-
-/* FOOTER */
-
-div#footer
-{
-    clear: both; /* Ensures that the footer is pushed properly below the columns */
-    text-align: center;
-}
-
-
-/* GENERAL DESIGN - Remove all the following styles to strip down the template before implementing a new design */
 
 body
 {
@@ -185,36 +8,14 @@ body
 	padding: 0;
 	background-image: url(../images/body_bg.png);
 	background-repeat: repeat-x;
+    text-align: center; /* IE method for centering page if it has fixed width */
 }
 
 div#page
 {
-	width: 760px;
-}
-
-div#page, div#header, div#path, div#topmenu, div#sidemenu, div#extrainfo, div#main, div#footer
-{
-
-}
-
-div#page
-{
-
-}
-
-div#footer
-{
-    padding: 0.25em 0.5em 0.25em 0.5em;
-}
-
-div#footer
-{
-    margin: 0.25em;
-}
-
-div#main
-{
-    margin: 0 0.25em 0 0.25em; /* Space between main and other columns */
+    width: 760px; /* This can be changed to any fixed width if desired */
+    margin: 0 auto 0 auto; /* General method for centering content if fixed page width, for other browsers than IE */
+    text-align: left; /* Reset IE method for centering page, to stop all other content on the page from centering */
 }
 
 /* HEADER */
@@ -246,6 +47,7 @@ div#header ul li
 
 div#logo
 {
+    float: left;
 	margin: 1em 0 0 1.5em;
 }
 
@@ -297,15 +99,18 @@ div#links a
 
 div#searchbox
 {
-	margin-top: 1.75em;
+    width: 20em; /* Needs to be sufficient width to fit both text input and submit button to avoid Konqueror breaking the line between them */
+    margin-top: 1.75em;
 	margin-right: 1em;
+    text-align: right;
+    float: right;
 }
-
 
 input#searchtext
 {
 	border: 1px solid #A5ACB2;
 	font-size: 0.85em;
+    width: 12em;
 }
 
 input#searchbutton
@@ -323,6 +128,8 @@ div#topmenu
 
 div#topmenu ul
 {
+    margin: 0;
+    padding: 0;
 	background-image: url(../images/topmenu_bg.png);
 	background-repeat: repeat-x;
 	height: 33px;
@@ -334,11 +141,11 @@ div#topmenu li
 	background-repeat: repeat-x;
 	height: 29px;
 	margin: 0;
+	float: left;
 	padding: 4px 0px 0px 0px;
 	font-size: 0.85em;
 	font-weight: bold;
 	list-style-type: none;
-	list-style-image: none;
 }
 
 div#topmenu li.selected
@@ -374,11 +181,6 @@ div#topmenu li a:hover
     border-bottom: 3px solid #ABAB9E;
 }
 
-div#topmenu li div.spacer
-{
-
-}
-
 div#topmenu div.topmenu-design
 {
 	background-color: #FFF;
@@ -393,6 +195,11 @@ div#path
 	font-size: 0.85em;
 }
 
+div#path p
+{
+    margin: 0;
+}
+
 /* COLUMNS */
 
 div#columns
@@ -400,56 +207,47 @@ div#columns
     padding: 0 12em 0 14em;
 }
 
-/* SIDEMENU */
+div.nosidemenu div#columns
+{
+    padding-left: 0;
+}
+
+div.noextrainfo div#columns
+{
+    padding-right: 0;
+}
+
+/* SIDE MENU */
 
 div#sidemenu-position
 {
     width: 14em;
     margin-left: -14em;
+    float: left;
+    display: inline; /* Fix for IE double margin bug */
 }
 
-div#sidemenu div.box-sm
+div.nosidemenu div#sidemenu-position
 {
-    border: 1px solid #EAE8E1;
-	margin: 0;
-	padding: 0;
-	background: url(../images/bg_1px.png) left repeat;
+    display: none;
 }
 
-div#sidemenu div.box-sm div.box-content
+div#sidemenu ul
+{
+	list-style-type: none;
+    margin: 1em 0 1em 0;  
+}
+
+div#sidemenu ul li
+{
+    margin: 0.5em 0 0.5em 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+div#sidemenu div.box div.box-content
 {
 	padding-left: 0.75em;
-}
-
-div#sidemenu div.box-sm, div#sidemenu div.box-sm div.tl, div#sidemenu div.box-sm div.tr, div#sidemenu div.box-sm div.br, div#sidemenu div.box-sm div.bl
-{
-    position: relative;
-}
-
-div#sidemenu div.box-sm div.tl
-{
-    top: -1px;
-    left: -1px;
-    background: url(../images/sidemenu_tl.png) top left no-repeat;
-}
-
-div#sidemenu div.box-sm div.tr
-{
-    right: -2px;
-    background: url(../images/sidemenu_tr.png) top right no-repeat;
-}
-
-div#sidemenu div.box-sm div.br
-{
-    bottom: -2px;
-    background: url(../images/sidemenu_br.png) bottom right no-repeat;
-}
-
-div#sidemenu div.box-sm div.bl
-{
-    left: -2px;
-    background: url(../images/sidemenu_bl.png) bottom left no-repeat;
-    padding: 0.5em;
 }
 
 div#sidemenu h4
@@ -457,21 +255,10 @@ div#sidemenu h4
 	margin: 0;
 }
 
-div#sidemenu ul
-{
-	list-style-type: none;
-    margin-left: 0;
-}
-
 div#sidemenu ul.submenu-list
 {
 	list-style-type: none;
     margin-left: 1em;
-}
-
-div#sidemenu ul li
-{
-	margin: 0.5em 0 0.5em 0;
 }
 
 div#sidemenu ul li a
@@ -484,12 +271,72 @@ div#sidemenu ul li a
 	font-size: 0.85em;
 }
 
-/* MAIN */
+/* MAIN AREA */
+
+div#main-position
+{
+    width: 100%;
+    float: left;
+}
 
 div#main
 {
+    margin: 0 0.25em 0 0.25em; /* Space between main and other columns */
 	padding: 0;
 }
+
+div.nosidemenu div#main
+{
+    margin-left: 0;
+}
+
+div.noextrainfo div#main
+{
+    margin-right: 0;
+}
+
+/* EXTRA CONTENT */
+
+div#extrainfo-position
+{
+    width: 12em;
+    margin-right: -12em;
+    float: left;
+}
+
+div.noextrainfo div#extrainfo-position
+{
+    display: none;
+}
+
+div#extrainfo
+{
+	padding: 0;
+}
+
+/* FOOTER */
+
+div#footer
+{
+    clear: both; /* Ensures that the footer is pushed properly below the columns */
+    text-align: center;
+	padding-top: 1.25em;
+	background-image: url(../images/footer_bg.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	font-size: 0.85em;
+	margin-top: 0.6em;
+	margin-bottom: 0.25em;
+}
+
+div#footer address
+{
+	font-style:normal;
+}
+
+/* GENERAL DESIGN - Remove all the following styles to strip down the template before implementing a new design */
+
+/* MAIN */
 
 div#main div.box-mc
 {
@@ -533,72 +380,4 @@ div#main div.box-mc div.bl
     left: -2px;
     background: url(../images/sidemenu_bl.png) bottom left no-repeat;
     padding: 0.5em;
-}
-
-/* EXTRA INFO */
-
-div#extrainfo
-{
-	padding: 0;
-}
-
-div#extrainfo div.box-ei
-{
-    border: 1px solid #EAE8E1;
-	margin: 0;
-	padding: 0;
-	background: url(../images/bg_1px.png) left repeat;
-}
-
-div#extrainfo div.box-ei div.box-content
-{
-	padding: 0.25em 0.5em 0.25em 0.5em;
-}
-
-div#extrainfo div.box-ei, div#extrainfo div.box-ei div.tl, div#extrainfo div.box-ei div.tr, div#extrainfo div.box-ei div.br, div#extrainfo div.box-ei div.bl
-{
-    position: relative;
-}
-
-div#extrainfo div.box-ei div.tl
-{
-    top: -1px;
-    left: -1px;
-    background: url(../images/sidemenu_tl.png) top left no-repeat;
-}
-
-div#extrainfo div.box-ei div.tr
-{
-    right: -2px;
-    background: url(../images/sidemenu_tr.png) top right no-repeat;
-}
-
-div#extrainfo div.box-ei div.br
-{
-    bottom: -2px;
-    background: url(../images/sidemenu_br.png) bottom right no-repeat;
-}
-
-div#extrainfo div.box-ei div.bl
-{
-    left: -2px;
-    background: url(../images/sidemenu_bl.png) bottom left no-repeat;
-    padding: 0.5em;
-}
-
-
-/* FOOTER */
-
-div#footer
-{
-	background-image: url(../images/footer_bg.png);
-	background-position: top center;
-	background-repeat: no-repeat;
-	padding-top: 2em;
-	font-size: 0.85em;
-	margin-top: 0.6em;
-}
-div#footer address
-{
-	font-style:normal;
 }

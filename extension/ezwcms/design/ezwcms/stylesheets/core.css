@@ -7,7 +7,7 @@ body /* These becomes the initial settings for most other elements */
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
-    color: #000000;
+    color: #535548;
     background-color: #ffffff;
 }
 
@@ -24,18 +24,19 @@ h1, h2, h3, h4, h5, h6 /* Set general styles for all headings; some may be overr
 
 h1
 {
-    margin-top: 0.5em;
-    font-size: 2em;
+    margin-top: 0;
+    font-size: 1.4em;
+	font-weight: normal;
 }
 
 h2
 {
-    font-size: 1.6em;
+    font-size: 1.3em;
 }
 
 h3
 {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 h4
@@ -68,7 +69,7 @@ p
 
 a
 {
-    color: #305080;
+    color: #048FFD;
     text-decoration: underline;
 }
 
@@ -129,22 +130,27 @@ table.list /* Standard class usable for most regular tables presenting lists, wi
 {
     width: 100%;
     margin: 1em 0 1em 0;
-    border: 1px solid;
-    border-color: #f0f0f0 #e0e0e0 #e0e0e0 #f0f0f0;
+	border: none;
 }
 
 table.list th, table.list td
 {
-    padding: 0.25em;
-    text-align: left;
+    padding: 0.5em;
+    border-right: 1px solid #ffffff;
+    border-bottom: none;
     vertical-align: top;
 }
 
 table.list th
 {
     font-weight: bold;
-    background-color: #e0e0e0;
+    color: #525345;
+    background-color: #DFDFDF;
     white-space: nowrap;
+    text-align: left;
+	background-image: url(../images/th_bg.png);
+	background-repeat: repeat-x;
+	background-position: top left;
 }
 
 table.list td
@@ -153,19 +159,34 @@ table.list td
     font-weight: normal;
 }
 
+table.list th:first-child, table.list td:first-child
+{
+    border-left: 1px solid #ffffff;
+}
+
 table.list tr.bglight
 {
-    background-color: #f8f8f8;
+    background-color: #F1F1ED;
 }
 
 table.list tr.bgdark
 {
-    background-color: #f0f0f0;
+    background-color: #EAE9E1;
 }
 
-table.list tr.bglight:hover, tr.bgdark:hover /* This has no effect in IE6 and below */
+table.list tr.bglight:hover, table.list tr.bgdark:hover /* This has no effect in IE6 and below */
 {
     background-color: #ffffff;
+}
+
+table.list tr.bglight:hover td, table.list tr.bgdark:hover td
+{
+    border-color: #ffffff;
+}
+
+table.list a
+{
+    border-bottom-color: #EAE9E1;
 }
 
 th.tight, td.tight
@@ -182,7 +203,6 @@ td.number
 {
     text-align: right;
 }
-
 
 /* ORDERED AND UNORDERED LISTS */
 
@@ -433,333 +453,4 @@ div.break /* Old method for terminating floating elements flow; kept for backwar
 .spamfilter /* Simple fix for stopping spambots from getting correct e-mail addresses from a web page: info<span class="spamfilter>SPAMFILTER</span>@ez.no <span class="spamfilter>(Remove SPAMFILTER to reply)</span> */
 {
     display: none;
-}
-
-/* LS: ADDON */
-
-body
-{
-    color: #535548;
-}
-
-h1
-{
-    margin-top: 0;
-    font-size: 1.4em;
-	font-weight: normal;
-}
-
-h2
-{
-    font-size: 1.3em;
-}
-
-h3
-{
-    font-size: 1.2em;
-}
-
-a
-{
-	color: #048FFD;
-}
-
-ul li
-{
-	list-style-image: url(../images/bullet_list.png);
-}
-
-/* TABLES */
-
-table
-{ 
-    font-size: 1em;
-    margin: 0;
-    padding: 0;
-}
-
-th, td
-{
-    padding: 0;
-}
-
-table.list
-{
-    width: 100%;
-    margin: 1em 0 1em 0;
-	border: none;
-}
-
-table.list th, table.list td
-{
-    padding: 0.5em;
-    border-right: 1px solid #ffffff;
-    border-bottom: none;
-    vertical-align: top;
-}
-
-table.list th
-{
-    font-weight: bold;
-    color: #525345;
-    background-color: #DFDFDF;
-    white-space: nowrap;
-    text-align: left;
-	background-image: url(../images/th_bg.png);
-	background-repeat: repeat-x;
-	background-position: top left;
-}
-
-table.list td
-{
-    font-weight: normal;
-}
-
-table.list th:first-child, table.list td:first-child
-{
-    border-left: 1px solid #ffffff;
-}
-
-table.list tr.bglight, div.bglight
-{
-    background-color: #F1F1ED;
-}
-
-table.list tr.bgdark, div.bgdark
-{
-    background-color: #EAE9E1;
-}
-
-table.list tr.bglight:hover, table.list tr.bgdark:hover
-{
-    background-color: #ffffff;
-}
-
-table.list tr.bglight:hover td, table.list tr.bgdark:hover td
-{
-    border-color: #ffffff;
-}
-
-th.tight, td.tight
-{
-    width: 1%;
-}
-
-td.nowrap 
-{
-    white-space: nowrap;
-}
-
-td.number
-{
-    text-align: right;
-}
-
-table.list a
-{
-    border-bottom-color: #EAE9E1;
-}
-
-
-table.cols
-{
-    width: 100%;
-    margin: 1em 0 1em 0;
-	border: none;
-}
-
-table.cols th, table.cols td
-{
-    padding: 0.5em;
-    border-right: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
-    vertical-align: top;
-}
-
-table.cols th
-{
-    font-weight: bold;
-    color: #525345;
-    background-color: #DFDFDF;
-    white-space: nowrap;
-    text-align: left;
-	background-image: url(../images/th_bg.png);
-	background-repeat: repeat-x;
-	background-position: top left;
-}
-
-table.cols td
-{
-    font-weight: normal;
-}
-
-table.cols th:first-child, table.cols td:first-child
-{
-    border-left: 1px solid #ffffff;
-}
-
-table.cols col.bglight, div.bglight
-{
-    background-color: #F1F1ED;
-}
-
-table.cols col.bgdark, div.bgdark
-{
-    background-color: #EAE9E1;
-}
-
-table.cols tr.bglight:hover, table.cols tr.bgdark:hover
-{
-    background-color: #EAE9E1;
-}
-
-table.cols tr.bglight:hover td, table.cols tr.bgdark:hover td
-{
-	background-color: #F1F1ED;
-}
-
-table.cols a
-{
-    border-bottom-color: #EAE9E1;
-}
-
-table.renderedtable
-{
-    width: 100%;
-    margin: 1em 0 1em 0;
-	border: none;
-}
-
-table.renderedtable th, table.renderedtable td
-{
-    padding: 0.5em;
-    border-right: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
-    vertical-align: top;
-}
-
-table.renderedtable th
-{
-    font-weight: bold;
-    color: #525345;
-    background-color: #DFDFDF;
-    white-space: nowrap;
-    text-align: left;
-	background-image: url(../images/th_bg.png);
-	background-repeat: repeat-x;
-	background-position: top left;
-}
-
-table.renderedtable td
-{
-    font-weight: normal;
-}
-
-table.renderedtable th:first-child, table.renderedtable td:first-child
-{
-    border-left: 1px solid #ffffff;
-}
-
-table.renderedtable tr.bglight, div.bglight
-{
-    background-color: #F1F1ED;
-}
-
-table.renderedtable tr.bgdark, div.bgdark
-{
-    background-color: #EAE9E1;
-}
-
-table.renderedtable tr.bglight:hover, table.renderedtable tr.bgdark:hover
-{
-    background-color: #EAE9E1;
-}
-
-table.renderedtable tr.bglight:hover td, table.renderedtable tr.bgdark:hover td
-{
-	background-color: #F1F1ED;
-}
-
-table.renderedtable a
-{
-    border-bottom-color: #EAE9E1;
-}
-
-
-
-table.comparison
-{
-    width: 100%;
-    margin: 1em 0 1em 0;
-	border: none;
-}
-
-table.comparison th, table.comparison td
-{
-    padding: 0.5em;
-    border-right: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
-    vertical-align: top;
-}
-
-table.comparison th
-{
-    font-weight: bold;
-    color: #525345;
-    background-color: #DFDFDF;
-    white-space: nowrap;
-    text-align: left;
-	background-image: url(../images/th_bg.png);
-	background-repeat: repeat-x;
-	background-position: top left;
-}
-
-table.comparison td
-{
-    font-weight: normal;
-}
-
-table.comparison th:first-child, table.comparison td:first-child
-{
-    border-left: 1px solid #ffffff;
-}
-
-table.comparison col.bglight, div.bglight
-{
-    background-color: #F1F1ED;
-}
-
-table.comparison col.bgdark, div.bgdark
-{
-    font-weight: bold;
-    color: #525345;
-    background-color: #DFDFDF;
-    white-space: nowrap;
-    text-align: left;
-}
-
-table.comparison tr.bglight:hover, table.comparison tr.bgdark:hover
-{
-    background-color: #F1F1ED;
-}
-
-table.comparison tr.bglight:hover td, table.comparison tr.bgdark:hover td
-{
-	background-color: #EAE9E1;
-}
-
-table.comparison a
-{
-    border-bottom-color: #EAE9E1;
-}
-
-input.button, button
-{
-
-}
-
-div.input, div.textarea
-{
-    margin: 0.5em 0 0.5em 0;
-    padding: 0 0.25em 0 0.25em;
 }
