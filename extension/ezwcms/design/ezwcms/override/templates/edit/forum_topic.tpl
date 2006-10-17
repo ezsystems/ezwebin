@@ -17,7 +17,7 @@
         <input type="hidden" name="MainNodeID" value="{$main_node_id}" />
 		
 		<div class="block">
-        	<label>{'Subject'|i18n('design/base')}<label>
+        	<label>{'Subject'|i18n('design/base')}</label>
         	{attribute_edit_gui attribute=$object.data_map.subject}
 		</div>
 		
@@ -27,9 +27,9 @@
 		</div>
 
 		<div class="block">
-        	<label>{'Notify me about updates'|i18n('design/base')}<label>
+        	<label>{'Notify me about updates'|i18n('design/base')}</label>
         	{attribute_edit_gui attribute=$object.data_map.notify_me}
-		</label>
+		</div>
 
         {def $current_user=fetch( 'user', 'current_user' )
              $sticky_groups=ezini( 'ForumSettings', 'StickyUserGroupArray', 'forum.ini' )}
@@ -41,7 +41,7 @@
                 {/if}
             {/foreach}
 
-        <br/>
+        <br />
 
         <div class="buttonblock">
             <input class="defaultbutton" type="submit" name="PublishButton" value="{'Send for publishing'|i18n('design/base')}" />

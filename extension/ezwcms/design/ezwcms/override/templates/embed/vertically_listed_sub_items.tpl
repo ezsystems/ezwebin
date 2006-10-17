@@ -9,7 +9,7 @@
 											   'limit', 3,
 											   'sort_by', $object.main_node.sort_array ) ) }
 
-	<div class="content-view-children">
+	<div class="content-view-children float-break">
     {foreach $children as $child}
          {node_view_gui view=line content_node=$child}
     {/foreach}

@@ -12,7 +12,7 @@
     
 	<ul>
     {foreach $children as $child}
-       <li><a href={$child.url_alias|ezurl}>{$child.name|wash()}</a></li>
+       <li><div><a href={$child.url_alias|ezurl}>{$child.name|wash()}</a></div></li>
     {/foreach}
     </ul>
 	

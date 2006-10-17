@@ -7,7 +7,7 @@
     <h2>{$object.name|wash()}</h2>
 		<div class="box-embgv">
 	<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
-        <div class="split">
+         <div class="split float-break">
                                 <div class="three-left">
                                     <div class="split-content">
                                         <!-- Content: START -->
@@ -26,7 +26,7 @@
                                         <!-- Content: END -->
                                     </div>
                                 </div>
-                                <div class="three-center">
+                                <div class="three-center float-break">
                                     <div class="split-content">
                                         <!-- Content: START -->
 										{if is_set( $children.1 )}

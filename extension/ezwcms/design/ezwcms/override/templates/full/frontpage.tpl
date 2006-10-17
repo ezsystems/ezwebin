@@ -25,7 +25,7 @@
 		{content_view_gui view=billboard content_object=$node.object.data_map.billboard.content}
 	</div>
 
-	<div class="columns-frontpage">
+	<div class="columns-frontpage float-break">
 		<div class="left-column-position">
 			<div class="left-column">
         	<!-- Content: START -->

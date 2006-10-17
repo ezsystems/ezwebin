@@ -79,6 +79,7 @@
             <input class="button forum-keep-me-updated" type="submit" name="ActionAddToNotification" value="{'Keep me updated'|i18n( 'design/base' )}" />
             <input type="hidden" name="NodeID" value="{$node.node_id}" />
             <input type="hidden" name="ClassIdentifier" value="forum_reply" />
+			<input type="hidden" name="ContentLanguageCode" value="{$node.object.initial_language_code}" />
         </form>
         {section-else}
            <p>
@@ -127,6 +128,7 @@
                       <form method="post" action={"content/action/"|ezurl}>
                           <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
                           <input class="button forum-account-edit" type="submit" name="EditButton" value="{'Edit'|i18n('design/base')}" />
+						  <input type="hidden" name="ContentObjectLanguageCode" value="{$node.object.initial_language_code}" />
                       </form>
                   {/section}
                   {section show=$node.object.can_remove}
