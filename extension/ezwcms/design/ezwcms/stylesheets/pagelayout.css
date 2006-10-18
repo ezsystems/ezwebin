@@ -66,7 +66,7 @@ div#languages
 	background-repeat: no-repeat;
 	float: left;
 	clear: left;
-	width: 24%;
+	width: 29%;
 	height: 25px;
 	font-size: 0.85em;
 }
@@ -83,7 +83,7 @@ div#links
 	font-size: 0.9em;
 	font-weight: bold;
 	height: 25px;
-	width: 75%;
+	width: 70%;
 }
 
 div#links a
@@ -139,26 +139,20 @@ div#topmenu li
 {
 	background-image: url(../images/topmenu_bg.png);
 	background-repeat: repeat-x;
-	height: 29px;
+	height: 33px;
 	margin: 0;
 	float: left;
-	padding: 4px 0px 0px 0px;
+	padding: 0;
 	font-size: 0.85em;
 	font-weight: bold;
 	list-style-type: none;
+	list-style-image: none;
 }
 
 div#topmenu li.selected
 {
 	background-image: url(../images/topmenu_bg_selected.png);
-	background-repeat: repeat-x;
-	height: 29px;
-	margin: 0;
-	padding: 4px 0px 0px 0px;
-	font-size: 0.85em;
-	font-weight: bold;
-	list-style-type: none;
-	list-style-image: none;
+
 }
 
 div#topmenu li a
@@ -168,11 +162,13 @@ div#topmenu li a
 	border-right: 1px solid #C3C4B6;
 	display: block;
 	float: left;
-	padding-right: 15px;
-	padding-left: 15px;
-	padding-top: 4px;
-	padding-bottom: 0px;
-	height: 20px;
+	margin: 0;
+	padding: 15px;
+	margin-top: 4px;
+	padding-top: 2px;
+	padding-bottom: 0;
+	height: 22px;
+	line-height: 22px;
 	background-color: transparent;
 }
 
