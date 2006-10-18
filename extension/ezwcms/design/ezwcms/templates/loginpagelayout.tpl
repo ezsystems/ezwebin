@@ -1,8 +1,7 @@
-{cache-block keys=$uri_string}
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
+{cache-block keys=$uri_string}
 {include uri='design:page_head.tpl'}
 <style type="text/css">
     @import url({"stylesheets/core.css"|ezdesign(no)});
@@ -93,6 +92,8 @@
     <!-- Top menu content: END -->
 	</div>
   </div>
+  {/cache-block}
+  
   <!-- Top menu area: END -->
   {if or( ne( $module_result.content_info.class_identifier, 'frontpage' ), 
   				eq( $module_result.content_info.viewmode, 'sitemap' ) )}

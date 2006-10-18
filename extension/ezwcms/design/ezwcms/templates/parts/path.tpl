@@ -4,12 +4,10 @@
   {if $path.url}
     <a href={cond( is_set( $path.url_alias ), $path.url_alias,
                                         $path.url )|ezurl}>{$path.text|wash}</a>
-  {delimiter}
-		/
-  {/delimiter}
   {else}
 	{$path.text|wash}
   {/if}
+  {delimiter}/{/delimiter}
   {/foreach}
   </p>
   <!-- Path content: END -->

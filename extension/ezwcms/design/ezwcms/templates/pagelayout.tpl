@@ -3,7 +3,6 @@
 <head>
 {cache-block keys=$uri_string}
 {include uri='design:page_head.tpl'}
-{/cache-block}
 <style type="text/css">
     @import url({"stylesheets/core.css"|ezdesign(no)});
     @import url({"stylesheets/pagelayout.css"|ezdesign(no)});
@@ -25,6 +24,7 @@
 <!-- Height resize script; used for resizing columns to equal heights -->
 <!-- <script type="text/javascript" src={"javascript/heightresize.js"|ezdesign}></script> -->
 </head>
+{/cache-block}
 <body>
 <!-- Complete page area: START -->
 
@@ -33,12 +33,21 @@
 {/if}
 
 {cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ))}
-{def $pagestyle='nosidemenu noextrainfo'
+{def $pagerootdepth=1
+     $pagestyle='nosidemenu noextrainfo'
 	 $infobox_count=fetch( 'content', 'list_count', hash( 'parent_node_id', $module_result.node_id,
 	 													  'class_filter_type', 'include',
 														  'class_filter_array', array( 'infobox' ) ) )
 	 $pagedesign=fetch_alias( 'by_identifier', hash( 'attr_id', 'sitestyle_identifier' ) )
-	 $locales=fetch( 'content', 'translation_list' )}
+	 $locales=fetch( 'content', 'translation_list' )
+
+    $indexpagearr = ezini( 'SiteSettings', 'IndexPage', 'site.ini' )|explode( '/' )
+    $indexpage = 2}
+    {if $indexpagearr[$indexpagearr|count|sub(2)]|ne('')}
+        {set $indexpage = $indexpagearr[$indexpagearr|count|sub(2)]}
+    {elseif $indexpagearr[$indexpagearr|count|dec]|ne('')}
+        {set $indexpage = $indexpagearr[$indexpagearr|count|dec]}
+    {/if}
 
 {if and( is_set( $module_result.path[1] ), is_set( $module_result.node_id ) )}
 	{if ne( $infobox_count , 0 ) }
@@ -53,9 +62,9 @@
 {/if}
 
 <div id="page" class="{$pagestyle}">
-{/cache-block}
+{* /cache-block  ar: Merging cache blocks that uses the same keys *} 
   <!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
-  {cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ))}
+  {* cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' )) *}
   <!-- Header area: START -->
   <div id="header" class="float-break">
   <div id="usermenu">
@@ -125,16 +134,16 @@
     <p class="hide"><a href="#main">Skip to main content</a></p>
   </div>
   <!-- Header area: END -->
-  {/cache-block}
+  {* /cache-block  ar: same here *}
   <hr class="hide" />
-  {cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ))}
+  {* cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' )) *}
   <!-- Top menu area: START -->
   <div id="topmenu" class="float-break">
     {include uri='design:menu/flat_top.tpl'}
   </div>
   <!-- Top menu area: END -->
-  {/cache-block}
-  {cache-block keys=$uri_string}
+  {* /cache-block ar: and again, its better to have path inside cache block then break it up *}
+  {* cache-block keys=$uri_string *}
   {if or( ne( $module_result.content_info.class_identifier, 'frontpage' ), 
   				eq( $module_result.content_info.viewmode, 'sitemap' ) )}
   <hr class="hide" />
@@ -144,17 +153,17 @@
   </div>
   <!-- Path area: END -->
   {/if}
-  {/cache-block}
+  {* /cache-block ar: same here*}
   <hr class="hide" />
   <!-- Columns area: START -->
   <div id="columns" class="float-break">
-  {cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ), $isset_toolbar)}
+  {* cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' )) *}
     <!-- Side menu area: START -->
     <div id="sidemenu-position">
-	  <div id="sidemenu" {if eq( $isset_toolbar, '1' )}style="margin-top: 40px"{/if}>
+	  <div id="sidemenu" {if is_set( $isset_toolbar )}style="margin-top: 40px"{/if}>
 	    <div id="heightresize-sidemenu">
           <!-- Used only for height resize script -->
-          {if gt($module_result.path|count, 1)}
+          {if gt($module_result.path|count, $pagerootdepth)}
           {include uri='design:menu/flat_left.tpl'}
           {/if}
         </div>
@@ -180,10 +189,10 @@
     </div>
     <!-- Main area: END -->
     <hr class="hide" />
-	{cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ), $isset_toolbar)}
+	{cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ))}
     <!-- Extra area: START -->
     <div id="extrainfo-position">
-      <div id="extrainfo" {if eq( $isset_toolbar, '1' )}style="margin-top: 40px"{/if}>
+      <div id="extrainfo" {if is_set( $isset_toolbar )}style="margin-top: 40px"{/if}>
         <div id="heightresize-extrainfo">
           <!-- Used only for height resize script -->
           <!-- Extra content: START -->
@@ -194,11 +203,11 @@
       </div>
     </div>
     <!-- Extra area: END -->
-	{/cache-block}
+	{* /cache-block  merging cache-blocks *}
   </div>
   <!-- Columns area: END -->
   <hr class="hide" />
-  {cache-block keys=$uri_string}
+  {* cache-block keys=$uri_string *}
   <!-- Footer area: START -->
   <div id="footer">
     <address>
