@@ -1,5 +1,6 @@
 {def $page_limit=10
      $col_count=2
+     $sub_children=0
      $children=fetch('content','list',hash(parent_node_id,$node.node_id,limit,$page_limit,offset,$view_parameters.offset))}
 <div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
@@ -14,7 +15,7 @@
     <td>
     <h2><a href={$child.url_alias|ezurl}>{$child.name}</a></h2>
 
-    {def $sub_children=fetch('content','list',hash(parent_node_id,$child.node_id,limit,$page_limit))}
+    {set $sub_children=fetch('content','list',hash(parent_node_id,$child.node_id,limit,$page_limit))}
 
     <ul>
     {foreach $sub_children as $sub_child}
