@@ -298,7 +298,8 @@ div.content-navigator div.content-navigator-arrow
 
 div.pagenavigator
 {
-    text-align: center;    
+    text-align: center;
+    clear: both;
 }
 
 div.pagenavigator span.previous
@@ -793,8 +794,7 @@ div.content-view-line div.class-gallery div.attribute-image
 div.content-view-full div.class-gallery div.content-view-galleryline
 {
 	border: 1px solid #EFEEE9;
-	margin-right: 1.25em;
-	margin-bottom: 1em;
+	margin: 0 1.25em 1em auto;
 	padding: 5px;
 	float: left;
 }
@@ -803,16 +803,18 @@ div.content-view-full div.class-gallery div.content-view-galleryline div.attribu
 {
 	float: none;
 	margin: 0;
+	padding: 0;
 }
 
 div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-image p
 {
 	margin: 0;
+	padding: 0;
 }
 
 div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-image img
 {
-	display: inline;
+	display: block;
 	margin: 0;
 	padding: 0;
 }
@@ -821,26 +823,24 @@ div.content-view-full div.class-gallery div.content-view-galleryline div.attribu
 {
 	margin: 0;
 	padding: 0;
-}
-
-div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-image a
-{
 	display: inline;
 }
 
-div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-caption
+div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-name
 {
 	border-top: 1px solid #EFEEE9;
 	background-image: url(../images/img_caption_bg.png);
 	background-position: left top;
 	background-repeat: repeat-x;
-	padding: 0.5em;
-	text-align: center;
-}
-
-div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-caption p
-{
+	padding: 0;
 	margin: 0;
+	text-align: center;
+	overflow: hidden;
+}
+div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-name p
+{
+    margin: 0;
+	padding: 0.5em 0 0.4em 0;
 }
 
 div.content-view-full div.class-gallery div.content-view-children
@@ -848,8 +848,10 @@ div.content-view-full div.class-gallery div.content-view-children
 	background-image: url(../images/attribute_header_bg_medium.png);
 	background-position: bottom center;
 	background-repeat: no-repeat;
-	padding-bottom: 30px;
+	margin:0;
+	padding: 0 0 30px 0;
 	float:left;
+	width: 100%;
 	clear: both;
 } 
 
