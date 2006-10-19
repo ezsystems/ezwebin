@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{$site.http_equiv.Content-language|wash}" lang="{$site.http_equiv.Content-language|wash}">
 <head>
 {cache-block keys=$uri_string}
 {include uri='design:page_head.tpl'}
@@ -61,10 +61,8 @@
 	{set $pagestyle='nosidemenu noextrainfo'}
 {/if}
 
-<div id="page" class="{$pagestyle}">
-{* /cache-block  ar: Merging cache blocks that uses the same keys *} 
+<div id="page" class="{$pagestyle}"> 
   <!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
-  {* cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' )) *}
   <!-- Header area: START -->
   <div id="header" class="float-break">
   <div id="usermenu">
@@ -134,16 +132,12 @@
     <p class="hide"><a href="#main">Skip to main content</a></p>
   </div>
   <!-- Header area: END -->
-  {* /cache-block  ar: same here *}
   <hr class="hide" />
-  {* cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' )) *}
   <!-- Top menu area: START -->
   <div id="topmenu" class="float-break">
     {include uri='design:menu/flat_top.tpl'}
   </div>
   <!-- Top menu area: END -->
-  {* /cache-block ar: and again, its better to have path inside cache block then break it up *}
-  {* cache-block keys=$uri_string *}
   {if or( ne( $module_result.content_info.class_identifier, 'frontpage' ), 
   				eq( $module_result.content_info.viewmode, 'sitemap' ) )}
   <hr class="hide" />
@@ -153,14 +147,20 @@
   </div>
   <!-- Path area: END -->
   {/if}
-  {* /cache-block ar: same here*}
+  
+  <hr class="hide" />
+  <!-- Toolbar area: START -->
+  <div id="toolbar">
+  {include uri='design:parts/editor_toolbar.tpl'}
+  </div>
+  <!-- Toolbar area: END -->
+  
   <hr class="hide" />
   <!-- Columns area: START -->
   <div id="columns" class="float-break">
-  {* cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' )) *}
     <!-- Side menu area: START -->
     <div id="sidemenu-position">
-	  <div id="sidemenu" {if is_set( $isset_toolbar )}style="margin-top: 40px"{/if}>
+	  <div id="sidemenu">
 	    <div id="heightresize-sidemenu">
           <!-- Used only for height resize script -->
           {if gt($module_result.path|count, $pagerootdepth)}
@@ -192,7 +192,7 @@
 	{cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ))}
     <!-- Extra area: START -->
     <div id="extrainfo-position">
-      <div id="extrainfo" {if is_set( $isset_toolbar )}style="margin-top: 40px"{/if}>
+      <div id="extrainfo">
         <div id="heightresize-extrainfo">
           <!-- Used only for height resize script -->
           <!-- Extra content: START -->
@@ -203,11 +203,9 @@
       </div>
     </div>
     <!-- Extra area: END -->
-	{* /cache-block  merging cache-blocks *}
   </div>
   <!-- Columns area: END -->
   <hr class="hide" />
-  {* cache-block keys=$uri_string *}
   <!-- Footer area: START -->
   <div id="footer">
     <address>
