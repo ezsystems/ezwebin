@@ -39,19 +39,20 @@
             </div>
 
            <div class="content-view-children">
-               <table>
-               <tr>
+	           {def $filters = ezini( 'gallerythumbnail', 'Filters', 'image.ini' )}
+	           
+				{foreach $filters as $filter}
+				   {if or($filter|contains( "geometry/scale" ), $filter|contains( "geometry/scaledownonly" ), $filter|contains( "geometry/crop" ) )}
+				      {def $image_style = $filter|explode("=").1}
+				      {set $image_style = concat("width:", $image_style|explode(";").0, "px ;", "height:", $image_style|explode(";").1, "px")}
+				      {break}
+				   {/if}
+				{/foreach}
+           
                {foreach $children as $child}
-                   <td>
-                      {node_view_gui view=galleryline content_node=$child}
-                   </td>
-                   {delimiter modulo=4}
-                   </tr>
-                   <tr>
-                   {/delimiter}
+                   {node_view_gui view=galleryline content_node=$child}
                {/foreach}
-               </tr>
-               </table>
+
            </div>
         {/if}
 
