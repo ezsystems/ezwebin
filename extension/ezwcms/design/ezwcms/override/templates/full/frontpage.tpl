@@ -1,5 +1,3 @@
-{include uri='design:parts/editor_toolbar.tpl'}
-
 {def $frontpagestyle='noleftcolumn norightcolumn'}
 
 

@@ -3,10 +3,8 @@
                                              offset, $view_parameters.offset,
                                              sort_by, array( array( attribute, false(), 'forum_topic/sticky' ), array( 'modified_subnode', false() ) ) ) )
      topic_count=fetch('content','list_count',hash(parent_node_id,$node.node_id))}
-	 
-{include uri='design:parts/editor_toolbar.tpl'}
 
-<div class="box-mc">
+<div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
 <div class="content-view-full">

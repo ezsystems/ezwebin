@@ -1,3 +1,6 @@
+<div class="box">
+<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
+	
 <div class="content-view-embed">
 	<div class="class-event-calender">
 	
@@ -9,8 +12,6 @@
     <h2><a href={$object.main_node.url_alias|ezurl}>{$object.name|wash()}</a></h2>
 	
 	{if $children|count()}
-	<div class="box-em">
-	<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
     
 	<ul>
     {foreach $children as $child}
@@ -24,8 +25,9 @@
     {/foreach}
     </ul>
 	
-	</div></div></div></div></div>
-	</div>
 	{/if}
 	</div>
+</div>
+
+</div></div></div></div></div>
 </div>

@@ -3,7 +3,7 @@
     {def $children=fetch_alias( children, hash( parent_node_id, $object.main_node_id, limit, 5 ) ) }
 	
     <h2>{$object.name|wash()}</h2>
-	<div class="box-em">
+	<div class="box">
 	<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
 	
 	<div class="attribute-short">

@@ -7,7 +7,7 @@
     <h2><a href={$object.main_node.url_alias|ezurl}>{$object.name|wash()}</a></h2>
 	
 	{if $children|count()}
-	<div class="box-em">
+	<div class="box">
 	<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
     
 	<ul>

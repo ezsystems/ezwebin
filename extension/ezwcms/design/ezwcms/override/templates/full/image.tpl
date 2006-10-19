@@ -1,7 +1,5 @@
 {* Image - Full view *}
 
-{include uri='design:parts/editor_toolbar.tpl'}
-
 {def $sort_order=$node.parent.sort_array[0][1]
      $sort_column=$node.parent.sort_array[0][0]
      $sort_column_value=cond( $sort_column|eq( 'published' ), $node.object.published,
@@ -23,7 +21,7 @@
                                             attribute_filter, array( and, array( $sort_column, $sort_order|choose( '<', '>' ), $sort_column_value ) ),
                                             sort_by, array( $sort_column, $sort_order ) ) ) }
 
-<div class="box-mc">
+<div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
 <div class="content-view-full">

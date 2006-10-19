@@ -3,7 +3,7 @@
 											   'limit', 5,
 											   'sort_by', $object.main_node.sort_array ) ) }
     <h2>{$object.name|wash()}</h2>
-		<div class="box-em">
+		<div class="box">
 	<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
     <ul>
     {foreach $children as $child}

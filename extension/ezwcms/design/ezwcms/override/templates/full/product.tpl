@@ -1,8 +1,6 @@
 {* Product - Full view *}
 
-{include uri='design:parts/editor_toolbar.tpl'}
-
-<div class="box-mc">
+<div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
 <form method="post" action={"content/action"|ezurl}>
@@ -57,7 +55,6 @@
             <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
             <input type="hidden" name="ViewMode" value="full" />
         </div>
-
 
        {* Related products. *}
        {def $related_purchase=fetch( 'shop', 'related_purchase', hash( 'contentobject_id', $node.object.id, 'limit', 10 ) )}

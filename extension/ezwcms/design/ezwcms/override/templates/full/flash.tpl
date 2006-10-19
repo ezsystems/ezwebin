@@ -1,8 +1,6 @@
 {* Flash - Full view *}
 
-{include uri='design:parts/editor_toolbar.tpl'}
-
-<div class="box-mc">
+<div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
 <div class="content-view-full">
