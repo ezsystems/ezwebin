@@ -81,8 +81,12 @@
     </div>
     <div id="links">
 		<ul>
-			{if $pagedesign.data_map.site_map_url.has_content}
-    		<li><a href={$pagedesign.data_map.site_map_url.content|ezurl} title="{$pagedesign.data_map.site_map_url.data_text|wash}">{$pagedesign.data_map.site_map_url.data_text|wash}</a></li>
+			{if $pagedesign.data_map.site_map_url.data_text|ne('')}
+				{if $pagedesign.data_map.site_map_url.content|eq('')}
+				<li><a href={concat("/content/view/sitemap/", $indexpage)|ezurl} title="{$pagedesign.data_map.site_map_url.data_text|wash}">{$pagedesign.data_map.site_map_url.data_text|wash}</a></li>
+				{else}
+    			<li><a href={$pagedesign.data_map.site_map_url.content|ezurl} title="{$pagedesign.data_map.site_map_url.data_text|wash}">{$pagedesign.data_map.site_map_url.data_text|wash}</a></li>
+    			{/if}
 			{/if}
 			{def $basket=fetch( shop, basket )
          		 $basket_items=$basket.items}
