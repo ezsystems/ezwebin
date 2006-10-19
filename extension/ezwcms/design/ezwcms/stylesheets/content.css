@@ -861,10 +861,24 @@ div.content-view-embed div.class-gallery div.content-view-children
 
 /* IMAGE */
 
-div.content-view-full div.class-image div.attribute-image
+div.content-view-full div.class-image
+{
+    text-align: center;
+}
+
+div.content-view-full div.class-image div.attribute-header
+{
+    text-align: left;
+}
+
+div.content-view-full div.class-image div.attribute-image,
+div.content-view-full div.class-image div.content-navigator,
+div.content-view-full div.class-image div.attribute-caption
 {
 	float: none;
+	margin: auto;
 }
+
 
 /* FACTBOX */
 
