@@ -59,32 +59,32 @@ div.box-et
 	margin-bottom: 10px;
 }
 
-div#main div.box-et div.box-content div.block div.left img
+div.box-et div.box-content div.block div.left img
 {
 	top: -1px;
 }
 
-div#main div.box-et div.box-content div.block div.right img
+div.box-et div.box-content div.block div.right img
 {
 	top: -1px;
 }
 
-div#main div.box-et div.box-content div.block div.right img.oohelp
+div.box-et div.box-content div.block div.right img.oohelp
 {
 	top: -6px;
 }
 
-div#main div.box-et div.box-content div.block div.right img.help
+div.box-et div.box-content div.block div.right img.help
 {
 	top: -1px;
 }
 
-div#main div.box-et-content-edit div.box-content div.block div.right img.help
+div.box-et-content-edit div.box-content div.block div.right img.help
 {
 	top: -1px;
 }
 
-div#main div.box-et div.box-content div.block div.left form input
+div.box-et div.box-content div.block div.left form input
 {
 	display: inline;
 	margin: 0;
@@ -92,7 +92,7 @@ div#main div.box-et div.box-content div.block div.left form input
 	top: -4px;
 }
 
-div#main div.box-et div.box-content div.block div.right form input
+div.box-et div.box-content div.block div.right form input
 {
 	display: inline;
 	margin: 0;
@@ -100,7 +100,7 @@ div#main div.box-et div.box-content div.block div.right form input
 	top: -5px;
 }
 
-div#main div.box-et div.box-content div.block div.left form select
+div.box-et div.box-content div.block div.left form select
 {
 	font-size: 0.8em;
 	display: inline;
@@ -109,15 +109,11 @@ div#main div.box-et div.box-content div.block div.left form select
 	top: -2px;
 }
 
-div#main div.box-et div.bl
+div.box-et div.bl
 {
 	height: 16px;
 }
 
-div.box-et
-{
-	left: -180px;
-}
 
 div.frontpage-et
 {

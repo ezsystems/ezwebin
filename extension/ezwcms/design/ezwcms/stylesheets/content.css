@@ -2,6 +2,8 @@
 
 /* This stylesheet should contain all styles for content class templates */
 
+/* BOX GENERAL DESIGN */
+
 div.box
 {
     border: 1px solid #eae8e1;
@@ -12,7 +14,7 @@ div.box
 
 div.box div.box-content
 {
-
+	padding: 0.25em 0.5em 0.25em 0.5em;
 }
 
 div.box, div.box div.tl, div.box div.tr, div.box div.br, div.box div.bl
@@ -172,8 +174,6 @@ table.renderedtable a
     border-bottom-color: #EAE9E1;
 }
 
-
-
 table.comparison
 {
     width: 100%;
@@ -269,7 +269,6 @@ div.content-view-full div.attribute-byline p.count
     display: inline;
 }
 
-
 /* NAVIGATORS */
 
 div.content-navigator
@@ -318,7 +317,6 @@ div#main ul
     list-style-type: none;
 }
 
-
 div#main ul li
 {
     margin: 0 0 0.5em 0.25em;
@@ -351,7 +349,18 @@ div.attribute-header h1
 	margin-bottom: -0.25em;
 }
 
-div.content-edit div.attribute-header h1, div.content-diff div.attribute-header h1, div.content-view-sitemap div.attribute-header h1, div.content-draft div.attribute-header h1, div.shop-customerorderview div.attribute-header h1, div.shop-orderview div.attribute-header h1, div.shop-basket div.attribute-header h1, div.shop-userregister div.attribute-header h1, div.shop-confirmorder div.attribute-header h1, div.notification-settings div.attribute-header h1, div.content-search div.attribute-header h1, div.user-login div.attribute-header h1, div.user-forgotpassword div.attribute-header h1, div.content-advancedsearch div.attribute-header h1, div.content-edit-draft div.attribute-header h1, div.content-browse div.attribute-header h1
+div.attribute-header h1.long
+{
+	font-size: 1.8em;
+	font-weight: normal;
+	background-image: url(../images/attribute_header_bg_long.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	padding-bottom: 30px;
+	color: #000000;
+}
+
+div.content-draft div.attribute-header h1, div.shop-customerorderview div.attribute-header h1, div.shop-orderview div.attribute-header h1, div.shop-basket div.attribute-header h1, div.shop-userregister div.attribute-header h1, div.shop-confirmorder div.attribute-header h1, div.notification-settings div.attribute-header h1, div.content-search div.attribute-header h1, div.user-login div.attribute-header h1, div.user-forgotpassword div.attribute-header h1, div.content-advancedsearch div.attribute-header h1, div.content-edit-draft div.attribute-header h1, div.content-browse div.attribute-header h1
 {
 	font-size: 1.8em;
 	font-weight: normal;
@@ -1136,17 +1145,13 @@ div.box-et
     border: 1px solid #CDD2D6;
 	padding: 0;
 	background-image: url(../images/et_bg.png);
-	position: relative;
-	width: 758px;
 	height: 28px;
-	left: -185px;
 	clear: both;
 	margin-bottom: 10px;
 }
 
 div.frontpage-et
 {
-	left: 0px;
 	margin-top: 0.75em;
 }
 
@@ -1237,27 +1242,27 @@ div.box-et, div.box-et div.tl, div.box-et div.tr, div.box-et div.br, div.box-et 
 	height: 28px;
 }
 
-div#main div.box-et div.tl
+div.box-et div.tl
 {
     top: -1px;
     left: -1px;
     background: url(../images/et_tl.png) top left no-repeat;
 }
 
-div#main div.box-et div.tr
+div.box-et div.tr
 {
     right: -2px;
     background: url(../images/et_tr.png) top right no-repeat;
 }
 
-div#main div.box-et div.br
+div.box-et div.br
 {
     bottom: -2px;
     background: url(../images/et_br.png) bottom right no-repeat;
 	height: 28px;
 }
 
-div#main div.box-et div.bl
+div.box-et div.bl
 {
     left: -2px;
     background: url(../images/et_bl.png) bottom left no-repeat;
@@ -1286,55 +1291,9 @@ div.box-et-content-edit div.block div.right
 	width: 9%;
 }
 
-div#main div.box-et-content-edit div.block div.right img.help
+div.box-et-content-edit div.block div.right img.help
 {
 	top: -7px;
-}
-
-/* EMBED BOX */
-
-div.box-em
-{
-    border: 1px solid #EAE8E1;
-	margin: 0;
-	padding: 0;
-	background-color: #FFFFFF;
-	margin-bottom: 0.5em;
-}
-
-div.box-em div.box-content
-{
-}
-
-div.box-em, div.box-em div.tl, div.box-em div.tr, div.box-em div.br, div.box-em div.bl
-{
-    position: relative;
-}
-
-div.box-em div.tl
-{
-    top: -1px;
-    left: -1px;
-    background: url(../images/sidemenu_tl.png) top left no-repeat;
-}
-
-div.box-em div.tr
-{
-    right: -2px;
-    background: url(../images/sidemenu_tr.png) top right no-repeat;
-}
-
-div.box-em div.br
-{
-    bottom: -2px;
-    background: url(../images/sidemenu_br.png) bottom right no-repeat;
-}
-
-div.box-em div.bl
-{
-    left: -2px;
-    background: url(../images/sidemenu_bl.png) bottom left no-repeat;
-    padding: 0.5em;
 }
 
 /* EMBED BOX BG V */
@@ -1389,56 +1348,36 @@ div#main div.box-embgv div.br
     background: url(../images/embgv_br.png) bottom right no-repeat;
 }
 
-/* EMBED BOX BG H */
+/* EMBED - HIGHLIGHTED OBJECT */
 
-div.box-embgh
+div.highlighted_object div.box
 {
 	background-color: #D7D7DB;
 	background-image: url(../images/embgh_bg.png);
 	background-repeat: repeat-y;
 	background-position: right top;
     border: 1px solid #EAE8E1;
-	margin: 0;
-	padding: 0;
 }
 
-div.box-embgh div.box-content
+div.highlighted_object div.box div.tl
 {
-
-}
-
-div.box-embgh, div.box-embgh div.tl, div.box-embgh div.tr, div.box-embgh div.br, div.box-embgh div.bl
-{
-    position: relative;
-}
-
-div#main div.box-embgh div.tl
-{
-    top: -1px;
-    left: -1px;
     background: url(../images/embgh_tl.png) top left no-repeat;
 }
 
-div#main div.box-embgh div.tr
+div.highlighted_object div.box div.tr
 {
-    right: -2px;
     background: url(../images/embgh_tr.png) top right no-repeat;
 }
 
-div#main div.box-embgh div.bl
+div.highlighted_object div.box div.bl
 {
-    left: -2px;
     background: url(../images/embgh_bl.png) bottom left no-repeat;
-    padding: 0.5em;
 }
 
-div#main div.box-embgh div.br
+div.highlighted_object div.box div.br
 {
-    bottom: -2px;
     background: url(../images/embgh_br.png) bottom right no-repeat;
 }
-
-/* EMBED - HIGHLIGHTED OBJECT */
 
 div.highlighted_object
 {
@@ -1463,7 +1402,7 @@ div.highlighted_object h2 a
 	color: #525345;
 }
 
-div.content-view-embed div.class-article div.box-em div.box-content div.attribute-image
+div.content-view-embed div.class-article div.box div.box-content div.attribute-image
 {
 	float: left;
 	clear: left;
@@ -1472,28 +1411,34 @@ div.content-view-embed div.class-article div.box-em div.box-content div.attribut
 
 /* EMBED - ITEMIZED SUB ITEMS */
 
-div.itemized_sub_items div.content-view-embed h2
+div.itemized_sub_items
 {
-	padding-left: 1em;
-	font-size: 1.4em;
-	font-weight: normal;
-	font-family: Arial, Helvetica, sans-serif;
-	margin-top: 0;
+	margin-bottom: 0.5em;
+	margin-top: 3em;
 }
 
-div.itemized_sub_items div.content-view-embed h2 a
+div.itemized_sub_items h2
+{
+	font-size: 1.4em;
+	font-weight: normal;
+	position: relative;
+	top: -39px;
+}
+
+div.itemized_sub_items h2 a
 {
 	color: #535548;
 	text-decoration: none;
 }
 
-div.itemized_sub_items div.content-view-embed div.box-em div.box-content ul
+div#main div.itemized_sub_items ul
 {
     margin-left: 0;
+	margin-top: -2em;
 	list-style-type: none;
 }
 
-div#main div.itemized_sub_items div.content-view-embed ul li
+div#main div.itemized_sub_items ul li
 {
 	margin: 0.5em 0 0.5em 0;
 	padding-left: 0;
@@ -1501,7 +1446,7 @@ div#main div.itemized_sub_items div.content-view-embed ul li
 	background-image: none;
 }
 
-div.itemized_sub_items div.content-view-embed ul li a
+div#main div.itemized_sub_items ul li a
 {
     background-image: url(../images/sidemenu_bullet.png);
     background-position: 0.2em 0.5em;
@@ -1511,51 +1456,13 @@ div.itemized_sub_items div.content-view-embed ul li a
 	font-size: 0.9em;
 }
 
-div.itemized_sub_items div.content-view-embed div.class-forum div.attribute-byline
+div#main div.itemized_sub_items div.attribute-byline
 {
-	margin-left: 17px;
+	margin: 0 0 0 17px;
 	font-size: 0.9em;
-}
-
-div.itemized_sub_items div.content-view-embed div.class-event-calender div.attribute-text
-{
-	margin-left: 17px;
-	font-size: 0.9em;
-}
-
-div.itemized_sub_items div.content-view-embed div.class-event-calender div.attribute-byline
-{
-	margin-left: 17px;
-	font-size: 0.9em;
-}
-
-div.itemized_sub_items div.content-view-embed div.class-gallery div.box-content
-{
-	padding-bottom: 0.75em;
-}
-
-div.itemized_sub_items div.content-view-embed div.class-gallery div.attribute-image
-{
-	float: left;
-	clear: left;
-	margin: 0.6em 0.75em 0 0;
-	position: relative;
-}
-
-div.itemized_sub_items div.content-view-embed div.class-gallery div.attribute-image-cpation
-{
-	margin-top: 0;
-	border: 1px solid #FFF;	
-}
-
-div.itemized_sub_items div.content-view-embed div.class-documentation-page div.attribute-byline
-{
-	margin: 0;
 	padding: 0;
 	background: none;
-	font-size: 0.9em;
 	font-weight: normal;
-	margin-left: 17px;
 }
 
 /* EMBED - ITEMIZED SUBTREE ITEMS */

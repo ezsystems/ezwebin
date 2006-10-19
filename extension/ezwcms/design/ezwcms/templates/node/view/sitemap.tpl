@@ -2,13 +2,11 @@
      $col_count=2
      $children=fetch('content','list',hash(parent_node_id,$node.node_id,limit,$page_limit,offset,$view_parameters.offset))
      $child_count=fetch('content','list_count',hash(parent_node_id,$node.node_id))}
-<div class="box-mc">
+<div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
-<div class="content-view-sitemap">
-
 <div class="attribute-header">
-	<h1>{"Site map"|i18n("design/standard/node/view")} {$node.name|wash}</h1>
+	<h1 class="long">{"Site map"|i18n("design/standard/node/view")} {$node.name|wash}</h1>
 </div>
 
 <table width="100%" cellspacing="0" cellpadding="4">
@@ -33,8 +31,6 @@
 {/foreach}
 </tr>
 </table>
-
-</div>
 
 </div></div></div></div></div>
 </div>

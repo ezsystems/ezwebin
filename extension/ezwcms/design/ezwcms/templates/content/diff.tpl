@@ -4,13 +4,11 @@
      $languages=fetch( content, prioritized_languages )
      $initLang=false()
 }
-<div class="box-mc">
+<div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
-<div class="content-diff">
-
 <div class="attribute-header">
-	<h1>{'Versions for <%object_name> [%version_count]'|i18n( 'design/standard/content/diff',, hash( '%object_name', $object.name, '%version_count', $version_list|count ) )|wash}</h1>
+	<h1 class="long">{'Versions for <%object_name> [%version_count]'|i18n( 'design/standard/content/diff',, hash( '%object_name', $object.name, '%version_count', $version_list|count ) )|wash}</h1>
 </div>
 
 {if $version_list}
@@ -129,8 +127,6 @@ document.write('<div class="context-toolbar"><div class="block"><ul><li><a href=
 </div>
 
 {/if}
-
-</div>
 
 </div></div></div></div></div>
 </div>

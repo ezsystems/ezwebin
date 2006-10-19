@@ -1,23 +1,21 @@
-{def $content_object = $node.object
+{def $current_node = fetch( 'content', 'node', hash( 'node_id', $module_result.node_id ) )
+	 $content_object = $current_node.object
 	 $can_edit_languages   = $content_object.can_edit_languages
      $can_create_languages = $content_object.can_create_languages
-  	 $current_user=fetch( 'user', 'current_user' )
-	 $classes=array( 'folder', 'gallery', 'frontpage', 'event_calender', 'documentation_page', 'forums', 'forum' )}
+	 $available_for_classes = ezini( 'EditorToolbarSettings', 'AvailableForClasses', 'editortoolbar.ini' )
+	 $containers = ezini( 'EditorToolbarSettings', 'Containers', 'editortoolbar.ini' )}
 
-{if and( $current_user.is_logged_in, or( $current_user.groups|contains(13), $current_user.groups|contains(12) ) )}
+{if and( $current_user.is_logged_in, or( $current_user.groups|contains(13), $current_user.groups|contains(12) ), $available_for_classes|contains( $current_node.class_identifier ) )}
 
-{set-block variable=$isset_toolbar scope='root'}
-    {true()}
-{/set-block}
-
-<div class="box-et {if eq( $node.class_identifier, 'frontpage' )}frontpage-et{/if}">
+<div class="box-et {if eq( $current_node.class_identifier, 'frontpage' )}frontpage-et{/if}">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
+
 
 <div class="block">
 <div class="left">
 <form method="post" action={"content/action"|ezurl}>
 <a href={"/ezinfo/about"|ezurl}><img src={"ez_toolbar.png"|ezimage} alt="eZ Publish" width="49" height="16" /></a>
-{if and( $content_object.can_create,$classes|contains( $node.class_identifier ) )}
+{if and( $content_object.can_create,$containers|contains( $current_node.class_identifier ) )}
   <select name="ClassID">
   {foreach $content_object.can_create_class_list as $class}
 	<option value="{$class.id}">{$class.name|wash}</option>
@@ -41,8 +39,8 @@
 {/if}
 
   <input type="hidden" name="ContentObjectID" value="{$content_object.id}" />
-  <input type="hidden" name="NodeID" value="{$node.node_id}" />
-  <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
+  <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
+  <input type="hidden" name="ContentNodeID" value="{$current_node.node_id}" />
 </form>
 </div>
 
@@ -50,7 +48,7 @@
 
 {def $disable_oo=true()}
 
-{if array( 'documentation_page', 'folder', 'article', 'event' )|contains( $node.class_identifier )}
+{if array( 'documentation_page', 'folder', 'article', 'event' )|contains( $current_node.class_identifier )}
 	{set $disable_oo=false()}
 {/if}
 
@@ -60,19 +58,19 @@
 {if and( $content_object.content_class.is_container, ne( $content_object.content_class.identifier, 'article' ) )}
 {* Import OOo / OASIS document *}
 <form method="post" action={"/oo/import/"|ezurl}>
-  <input type="hidden" name="NodeID" value="{$node.node_id}" />
+  <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ObjectID" value="{$content_object.id}" />
   <input class="button" type="submit" name="ImportAction" value="{'Import'|i18n('design/standard/node/view')}" />
 </form>
 {/if}
 <form method="post" action={"/oo/export/"|ezurl}>
-  <input type="hidden" name="NodeID" value="{$node.node_id}" />
+  <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ObjectID" value="{$content_object.id}" />
   <input class="button" type="submit" name="ExportAction" value="{'Export'|i18n('design/standard/node/view')}" />
 </form>
 <form method="post" action={"/oo/import/"|ezurl}>
   <input type="hidden" name="ImportType" value="replace" />
-  <input type="hidden" name="NodeID" value="{$node.node_id}" />
+  <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ObjectID" value="{$content_object.id}" />
   <input class="button" type="submit" name="ReplaceAction" value="{'Replace'|i18n('design/standard/node/view')}" />
 </form>
@@ -86,8 +84,4 @@
 </div></div></div></div></div>
 </div>
 
-{else}
-{set-block variable=$isset_toolbar scope='root'}
-    {false()}
-{/set-block}
 {/if}

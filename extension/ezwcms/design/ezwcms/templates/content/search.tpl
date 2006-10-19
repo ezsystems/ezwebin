@@ -14,7 +14,7 @@
     {set search_data=$search}
 {/section}
 
-<div class="box-mc">
+<div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
 <div class="content-search">

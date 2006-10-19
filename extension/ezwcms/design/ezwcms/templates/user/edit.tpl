@@ -1,4 +1,4 @@
-<div class="box-mc">
+<div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
 <form action={concat($module.functions.edit.uri,"/",$userID)|ezurl} method="post" name="Edit">

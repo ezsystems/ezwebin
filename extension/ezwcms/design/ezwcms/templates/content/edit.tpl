@@ -1,5 +1,4 @@
 
-
 <div class="box-et box-et-content-edit">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
 
@@ -41,13 +40,11 @@
 
 <form enctype="multipart/form-data" method="post" action={concat("/content/edit/",$object.id,"/",$edit_version,"/",$edit_language|not|choose(concat($edit_language,"/"),''))|ezurl}>
 
-<div class="box-mc">
+<div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
-<div class="content-edit">
-
     <div class="attribute-header">
-    <h1>{"Edit %1 - %2"|i18n("design/standard/content/edit",,array($class.name|wash,$object.name|wash))}</h1>
+	    <h1 class="long">{"Edit %1 - %2"|i18n("design/standard/content/edit",,array($class.name|wash,$object.name|wash))}</h1>
     </div>
 
     {include uri="design:content/edit_validation.tpl"}
@@ -64,8 +61,6 @@
 	<input type="hidden" name="RedirectIfDiscarded" value="{ezhttp( 'LastAccessesURI', 'session' )}" />
 	<input type="hidden" name="RedirectURIAfterPublish" value="{ezhttp( 'LastAccessesURI', 'session' )}" />
     </div>
-
-</div>
 
 </div></div></div></div></div>
 </div>

@@ -244,6 +244,7 @@ div#sidemenu ul li
 div#sidemenu div.box div.box-content
 {
 	padding-left: 0.75em;
+	padding-right: 0;
 }
 
 div#sidemenu h4
@@ -328,52 +329,4 @@ div#footer
 div#footer address
 {
 	font-style:normal;
-}
-
-/* GENERAL DESIGN - Remove all the following styles to strip down the template before implementing a new design */
-
-/* MAIN */
-
-div#main div.box-mc
-{
-    border: 1px solid #EAE8E1;
-	margin: 0;
-	padding: 0;
-	background: url(../images/bg_1px.png) left repeat;
-}
-
-div#main div.box-mc div.box-content
-{
-	padding: 0.25em 0.5em 0.25em 0.5em;
-}
-
-div#main div.box-mc, div#main div.box-mc div.tl, div#main div.box-mc div.tr, div#main div.box-mc div.br, div#main div.box-mc div.bl
-{
-    position: relative;
-}
-
-div#main div.box-mc div.tl
-{
-    top: -1px;
-    left: -1px;
-    background: url(../images/sidemenu_tl.png) top left no-repeat;
-}
-
-div#main div.box-mc div.tr
-{
-    right: -2px;
-    background: url(../images/sidemenu_tr.png) top right no-repeat;
-}
-
-div#main div.box-mc div.br
-{
-    bottom: -2px;
-    background: url(../images/sidemenu_br.png) bottom right no-repeat;
-}
-
-div#main div.box-mc div.bl
-{
-    left: -2px;
-    background: url(../images/sidemenu_bl.png) bottom left no-repeat;
-    padding: 0.5em;
 }

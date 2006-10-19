@@ -1,8 +1,7 @@
-<div class="box-mc">
+<div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
-<div class="content-draft">
-<SCRIPT LANGUAGE="JavaScript" type="text/javascript">
+<script language="javascript" type="text/javascript">
 <!--
 {literal}
 function checkAll()
@@ -40,9 +39,9 @@ function checkAll()
 }
 {/literal}
 //-->
-</SCRIPT>
-{let page_limit=30
-     list_count=fetch('content','draft_count')}
+</script>
+{def $page_limit=30
+     $list_count=fetch('content','draft_count')}
 
 <form name="draftaction" action={concat("content/draft/")|ezurl} method="post" >
 
@@ -50,9 +49,9 @@ function checkAll()
 	<h1>{"My drafts"|i18n("design/standard/content/view")}</h1>
 </div>
 
-{let draft_list=fetch('content','draft_version_list',hash(limit,$page_limit,offset,$view_parameters.offset))}
+{def $draft_list=fetch('content','draft_version_list',hash(limit,$page_limit,offset,$view_parameters.offset))}
 
-{section show=$draft_list}
+{if $draft_list|count()}
 
 <div class="buttonblock">
 <input class="button" type="submit" name="EmptyButton" value="{'Empty Draft'|i18n('design/standard/content/view')}" />
@@ -75,34 +74,34 @@ function checkAll()
     <th>{"Edit"|i18n("design/standard/content/view")}</th>
 </tr>
 
-{section name=Draft loop=$draft_list sequence=array(bglight,bgdark)}
-<tr class="{$Draft:sequence}">
+{foreach $draft_list as $draft sequence array(bglight,bgdark) as $style}
+<tr class="{$style}">
     <td align="left" width="1">
-        <input type="checkbox" name="DeleteIDArray[]" value="{$Draft:item.id}" />
+        <input type="checkbox" name="DeleteIDArray[]" value="{$draft.id}" />
     </td>
     <td>
-        <a href={concat("/content/versionview/",$Draft:item.contentobject.id,"/",$Draft:item.version,"/")|ezurl}>{$Draft:item.version_name|wash}</a>
+        <a href={concat("/content/versionview/",$draft.contentobject.id,"/",$draft.version,"/")|ezurl}>{$draft.version_name|wash}</a>
     </td>
     <td>
-        {$Draft:item.contentobject.content_class.name|wash}
+        {$draft.contentobject.content_class.name|wash}
     </td>
     <td>
-        {$Draft:item.contentobject.section_id}
+        {$draft.contentobject.section_id}
     </td>
     <td>
-        {$Draft:item.version}
+        {$draft.version}
     </td>
     <td>
-        {$Draft:item.initial_language.name|wash}
+        {$draft.initial_language.name|wash}
     </td>
     <td>
-        {$:item.modified|l10n(datetime)}
+        {$draft.modified|l10n(datetime)}
     </td>
     <td width="1">
-        <a href={concat("/content/edit/",$Draft:item.contentobject.id,"/",$Draft:item.version,"/")|ezurl}><img src={"edit.gif"|ezimage} border="0" alt="Edit" /></a>
+        <a href={concat("/content/edit/",$draft.contentobject.id,"/",$draft.version,"/")|ezurl}><img src={"edit.gif"|ezimage} border="0" alt="Edit" /></a>
     </td>
 </tr>
-{/section}
+{/foreach}
 <tr class="bgdark">
     <td colspan="1" align="left" width="1">
         <input type="image" name="RemoveButton" value="{'Remove'|i18n('design/standard/content/view')}" src={"trash.png"|ezimage} />
@@ -119,16 +118,15 @@ function checkAll()
          view_parameters=$view_parameters
          item_limit=$page_limit}
 
-{section-else}
+{else}
 
 <div class="feedback">
 <h2>{"You have no drafts"|i18n("design/standard/content/view")}</h2>
 </div>
 
-{/section}
+{/if}
 
 </form>
-</div>
 
 </div></div></div></div></div>
 </div>
