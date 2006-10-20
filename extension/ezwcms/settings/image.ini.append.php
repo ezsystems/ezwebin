@@ -1,5 +1,8 @@
 <?php /* #?ini charset="iso-8859-1"?
 
+[ImageMagick]
+IsEnabled=false
+
 [AliasSettings]
 AliasList[]
 AliasList[]=small
