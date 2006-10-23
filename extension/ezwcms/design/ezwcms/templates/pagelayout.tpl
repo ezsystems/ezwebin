@@ -112,12 +112,8 @@
 			{/if}
     	{/if}
 
-    	{if eq( $current_user.contentobject_id, 14 )}
-			{if $pagedesign.data_map.site_settings_label.has_content}
+    	{if $pagedesign.can_edit}
     		<li><a href={concat( "/content/edit/", $pagedesign.id, "/f/", $pagedesign.current_language )|ezurl} title="{$pagedesign.data_map.site_settings_label.data_text|wash}">{$pagedesign.data_map.site_settings_label.data_text|wash}</a></li>
-			{else}
-			<li><a href={concat( "/content/edit/", $pagedesign.id, "/f/", $pagedesign.current_language )|ezurl} title="Site settings">Site settings</a></li>
-			{/if}
     	{/if}
 		</ul>
     </div>
