@@ -9,8 +9,8 @@
 <link rel="Author" href={"/ezinfo/about"|ezurl} />
 <link rel="alternate" type="application/rss+xml" title="RSS" href="{fetch_alias( 'by_identifier', hash( 'attr_id', 'sitestyle_identifier' ) ).data_map.rss_feed.data_text}" />
 
-{section show=$enable_print}
+{if $enable_print}
 <link rel="Alternate" href={concat("layout/set/print/",$site.uri.original_uri)|ezurl} media="print" title="{'Printable version'|i18n('design/standard/layout')}" />
-{/section}
+{/if}
 
 {/default}

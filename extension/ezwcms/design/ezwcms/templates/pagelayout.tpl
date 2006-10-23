@@ -41,14 +41,17 @@
 	 $pagedesign=fetch_alias( 'by_identifier', hash( 'attr_id', 'sitestyle_identifier' ) )
 	 $locales=fetch( 'content', 'translation_list' )
 
-    $indexpagearr = ezini( 'SiteSettings', 'IndexPage', 'site.ini' )|explode( '/' )
-    $indexpage = 2}
-    {if $indexpagearr[$indexpagearr|count|sub(2)]|ne('')}
-        {set $indexpage = $indexpagearr[$indexpagearr|count|sub(2)]}
-    {elseif $indexpagearr[$indexpagearr|count|dec]|ne('')}
-        {set $indexpage = $indexpagearr[$indexpagearr|count|dec]}
-    {/if}
+    $pagerootdepthINI = ezini( 'SiteSettings', 'RootNodeDepth', 'site.ini' )
+    $indexpage = 2
+}
+{if and($pagerootdepthINI,  $pagerootdepthINI|ne('') )}
+    {set $pagerootdepth = $pagerootdepthINI}
+{/if}
 
+{if and($module_result.path|count|gt($pagerootdepth|dec) , is_set( $module_result.node_id ))}
+    {set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
+{/if}
+    
 {if and( is_set( $module_result.path[1] ), is_set( $module_result.node_id ) )}
 	{if ne( $infobox_count , 0 ) }
 		{set $pagestyle='sidemenu extrainfo'}
