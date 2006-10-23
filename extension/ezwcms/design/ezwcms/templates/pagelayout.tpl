@@ -38,7 +38,7 @@
 	 $infobox_count=fetch( 'content', 'list_count', hash( 'parent_node_id', $module_result.node_id,
 	 													  'class_filter_type', 'include',
 														  'class_filter_array', array( 'infobox' ) ) )
-	 $pagedesign=fetch_alias( 'by_identifier', hash( 'attr_id', 'sitestyle_identifier' ) )
+	 $pagedesign=fetch( 'content', 'object', hash( 'object_id', '54' ) )
 	 $locales=fetch( 'content', 'translation_list' )
 
     $pagerootdepthINI = ezini( 'SiteSettings', 'RootNodeDepth', 'site.ini' )
