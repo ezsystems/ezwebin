@@ -10,11 +10,13 @@
         	<h1>{attribute_view_gui attribute=$node.data_map.name}</h1>
 		</div>
 		
-        {if $node.object.data_map.short_description.has_content}
-            <div class="attribute-short">
-                {attribute_view_gui attribute=$node.data_map.short_description}
-            </div>
-        {/if}
+		{if eq( ezini( 'folder', 'ImageInFullView', 'content.ini' ), 'enabled' )}
+        	{if $node.object.data_map.short_description.has_content}
+            	<div class="attribute-short">
+                	{attribute_view_gui attribute=$node.data_map.short_description}
+            	</div>
+        	{/if}
+		{/if}
 
         {if $node.object.data_map.description.has_content}
             <div class="attribute-long">

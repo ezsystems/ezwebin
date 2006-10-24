@@ -21,17 +21,21 @@
         </p>
         </div>
 
-        {if $node.data_map.image.has_content}
-            <div class="attribute-image">
-                {attribute_view_gui attribute=$node.data_map.image}
-            </div>
-        {/if}
+		{if eq( ezini( 'article', 'ImageInFullView', 'content.ini' ), 'enabled' )}
+        	{if $node.data_map.image.has_content}
+            	<div class="attribute-image">
+                	{attribute_view_gui attribute=$node.data_map.image}
+            	</div>
+        	{/if}
+		{/if}
 
-        {if $node.data_map.intro.content.is_empty|not}
-            <div class="attribute-short">
-                {attribute_view_gui attribute=$node.data_map.intro}
-            </div>
-        {/if}
+		{if eq( ezini( 'article', 'SummaryInFullView', 'content.ini' ), 'enabled' )}
+        	{if $node.data_map.intro.content.is_empty|not}
+            	<div class="attribute-short">
+                	{attribute_view_gui attribute=$node.data_map.intro}
+            	</div>
+        	{/if}
+		{/if}
 
         {if $node.data_map.body.content.is_empty|not}
             <div class="attribute-long">

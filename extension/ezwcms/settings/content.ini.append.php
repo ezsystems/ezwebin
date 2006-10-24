@@ -51,4 +51,12 @@ CustomAttributesDefaults[title]=factbox
 CustomAttributes[]=align
 CustomAttributesDefaults[align]=right
 
+
+[folder]
+SummaryInFullView=enabled
+
+[article]
+SummaryInFullView=enabled
+ImageInFullView=enabled
+
 */ ?>
