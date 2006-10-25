@@ -2,6 +2,16 @@
 
 /* This stylesheet should contain all styles for content class templates */
 
+/* Translation */
+
+div#main div.block div.original
+{
+    background-color: #ecece4;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0.2em;
+    border: 1px dashed #bfbeb6;
+}
+
 /* BOX GENERAL DESIGN */
 
 div.box
