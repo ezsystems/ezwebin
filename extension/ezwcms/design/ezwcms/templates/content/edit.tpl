@@ -38,10 +38,10 @@
 </div></div></div></div></div>
 </div>
 
-<form enctype="multipart/form-data" method="post" action={concat("/content/edit/",$object.id,"/",$edit_version,"/",$edit_language|not|choose(concat($edit_language,"/"),''))|ezurl}>
-
 <div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+
+<form enctype="multipart/form-data" method="post" action={concat("/content/edit/",$object.id,"/",$edit_version,"/",$edit_language|not|choose(concat($edit_language,"/"),''))|ezurl}>
 
     <div class="attribute-header">
 	    <h1 class="long">{"Edit %1 - %2"|i18n("design/standard/content/edit",,array($class.name|wash,$object.name|wash))}</h1>
