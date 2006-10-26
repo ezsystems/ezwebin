@@ -25,12 +25,12 @@
 <input {if $object.status|eq(0)}class="button-disabled" disabled="disabled"{else} class="button"{/if} type="submit" name="FromLanguageButton" value="{'Translate'|i18n( 'design/admin/content/edit' )}" title="{'Edit the current object showing the selected language as a reference.'|i18n( 'design/admin/content/edit' )}" />
 </form>
 
-		<form method="post" action={concat( "/content/diff/", $object.id )|ezurl}>
-  		<input class="button" type="submit" name="DiffAction" value="{'History'|i18n('design/standard/node/view')}" />
+    <form method="post" action={concat( "/content/diff/", $object.id )|ezurl}>
+        <input class="button" type="submit" name="DiffAction" value="{'History'|i18n('design/standard/node/view')}" />
 	</form>
 </div>
 <div class="right">
-<img src={"ezt_question_mark.gif"|ezimage} alt="Help" class="help"/>
+	<a href="http://ez.no/doc" title="Documentation"><img src={"ezt_question_mark.gif"|ezimage} alt="Help" class="help" /></a>
 </div>
 
 </div>
@@ -49,7 +49,7 @@
 
     {include uri="design:content/edit_validation.tpl"}
 
-    <br/>
+    <br />
 
     {include uri="design:content/edit_attribute.tpl"}
 
@@ -62,7 +62,7 @@
 	<input type="hidden" name="RedirectURIAfterPublish" value="{ezhttp( 'LastAccessesURI', 'session' )}" />
     </div>
 
+</form>
+
 </div></div></div></div></div>
 </div>
-
-</form>
