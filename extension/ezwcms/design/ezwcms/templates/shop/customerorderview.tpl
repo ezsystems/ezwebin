@@ -3,7 +3,7 @@
 
 <div class="shop-customerorderview">
 	<div class="attribute-header">
-		<h1>{"Customer Information"|i18n("design/standard/shop")}</h1>
+		<h1 class="long">{"Customer Information"|i18n("design/standard/shop")}</h1>
 	</div>
 	
 {shop_account_view_gui view=html order=$order_list[0]}

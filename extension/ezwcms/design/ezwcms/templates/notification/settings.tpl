@@ -6,7 +6,7 @@
 <form method="post" action={"/notification/settings/"|ezurl}>
 
 <div class="attribute-header">
-	<h1>{"Notification settings"|i18n('design/standard/notification')}</h1>
+	<h1 class="long">{"Notification settings"|i18n('design/standard/notification')}</h1>
 </div>
 
 {def $handlers=fetch('notification','handler_list')}

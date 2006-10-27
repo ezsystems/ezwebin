@@ -4,7 +4,7 @@
 <div class="shop-orderview">
 
 <div class="attribute-header">
-  <h1>{"Order %order_id [%order_status]"|i18n("design/standard/shop",,
+  <h1 class="long">{"Order %order_id [%order_status]"|i18n("design/standard/shop",,
        hash( '%order_id', $order.order_nr,
              '%order_status', $order.status_name ) )}</h1>
 </div>

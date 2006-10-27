@@ -1,6 +1,8 @@
 <div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
+<div class="content-browse">
+
 {let item_type=ezpreference( 'admin_list_limit' )
      number_of_items=min( $item_type, 3)|choose( 10, 10, 25, 50 )
      browse_list_count=fetch( content, list_count, hash( parent_node_id, $node_id, depth, 1))
@@ -69,5 +71,8 @@
 </form>
 
 {/let}
+
+</div>
+
 </div></div></div></div></div>
 </div>

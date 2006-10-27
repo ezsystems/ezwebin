@@ -1,6 +1,8 @@
 <div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
+<div class="content-draft">
+
 <script language="javascript" type="text/javascript">
 <!--
 {literal}
@@ -46,7 +48,7 @@ function checkAll()
 <form name="draftaction" action={concat("content/draft/")|ezurl} method="post" >
 
 <div class="attribute-header">
-	<h1>{"My drafts"|i18n("design/standard/content/view")}</h1>
+	<h1 class="long">{"My drafts"|i18n("design/standard/content/view")}</h1>
 </div>
 
 {def $draft_list=fetch('content','draft_version_list',hash(limit,$page_limit,offset,$view_parameters.offset))}
@@ -127,6 +129,8 @@ function checkAll()
 {/if}
 
 </form>
+
+</div>
 
 </div></div></div></div></div>
 </div>

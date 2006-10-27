@@ -1,9 +1,10 @@
+<div class="box">
+<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+
+<div class="content-versions">
 
 {let page_limit=30
      list_count=fetch('content','version_count', hash(contentobject, $object))}
-
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
 <form action={concat("/content/versions/",$object.id,"/")|ezurl} method="post">
 
@@ -123,8 +124,10 @@
 
 </form>
 
-</div></div></div></div></div>
+{/let}
+{/let}
+
 </div>
 
-{/let}
-{/let}
+</div></div></div></div></div>
+</div>

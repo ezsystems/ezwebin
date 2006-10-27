@@ -1,6 +1,8 @@
 <div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
+<div class="user-success">
+
 {if $verify_user_email}
 <div class="attribute-header">
 	<h1 class="long">{"User registered"|i18n("design/standard/user")}</h1>
@@ -22,6 +24,8 @@
 	<h2>{"Your account was successfully created."|i18n("design/standard/user")}</h2>
 </div>
 {/if}
+
+</div>
 
 </div></div></div></div></div>
 </div>

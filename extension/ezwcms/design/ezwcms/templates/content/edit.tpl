@@ -1,4 +1,3 @@
-
 <div class="box-et box-et-content-edit">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
 
@@ -41,6 +40,8 @@
 <div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
+<div class="content-edit">
+
 <form enctype="multipart/form-data" method="post" action={concat("/content/edit/",$object.id,"/",$edit_version,"/",$edit_language|not|choose(concat($edit_language,"/"),''))|ezurl}>
 
     <div class="attribute-header">
@@ -63,6 +64,8 @@
     </div>
 
 </form>
+
+</div>
 
 </div></div></div></div></div>
 </div>

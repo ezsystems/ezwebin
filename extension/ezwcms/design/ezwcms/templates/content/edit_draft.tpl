@@ -19,7 +19,7 @@
 <form method="post" action={concat('content/edit/',$object.id,'/',$edit_language,'/',$from_language)|ezurl}>
 
 <div class="attribute-header">
-<h1>{$object.name|wash}</h1>
+    <h1 class="long">{$object.name|wash}</h1>
 </div>
 
 <div class="object">

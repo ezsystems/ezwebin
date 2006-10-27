@@ -23,7 +23,7 @@
 <div class="shop-userregister">
 
 <div class="attribute-header">
-	<h1>{"Your account information"|i18n("design/standard/shop")}</h1>
+	<h1 class="long">{"Your account information"|i18n("design/standard/shop")}</h1>
 </div>
 
 {section show=$input_error}

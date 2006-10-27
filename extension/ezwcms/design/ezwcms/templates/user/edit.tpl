@@ -6,7 +6,7 @@
 <div class="user-edit">
 
 <div class="attribute-header">
-  <h1>{"User profile"|i18n("design/standard/user")}</h1>
+  <h1 class="long">{"User profile"|i18n("design/standard/user")}</h1>
 </div>
 
 <div class="block">

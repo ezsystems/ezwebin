@@ -279,6 +279,13 @@ div.content-view-full div.attribute-byline p.count
     display: inline;
 }
 
+/* AUTHOR AND DATE FOR ALL CHILD OBJECTS */
+
+div.content-view-full div.content-view-line div.attribute-byline p
+{ 
+    display: inline;
+}
+
 /* NAVIGATORS */
 
 div.content-navigator
@@ -322,7 +329,8 @@ div.pagenavigator span.next
     float: right;
 }
 
-/* ul */
+/* UL */
+
 div#main ul
 {
     list-style-type: none;
@@ -337,13 +345,6 @@ div#main ul li
     background-position: 0 0.3em;
     line-height: 1.25em;
 	list-style-type: none;
-}
-
-/* AUTHOR AND DATE FOR ALL CHILD OBJECTS */
-
-div.content-view-full div.content-view-line div.attribute-byline p
-{ 
-    display: inline;
 }
 
 /* ATTIRBUTE HEADER */
@@ -361,17 +362,6 @@ div.attribute-header h1
 }
 
 div.attribute-header h1.long
-{
-	font-size: 1.8em;
-	font-weight: normal;
-	background-image: url(../images/attribute_header_bg_long.png);
-	background-position: bottom center;
-	background-repeat: no-repeat;
-	padding-bottom: 30px;
-	color: #000000;
-}
-
-div.content-draft div.attribute-header h1, div.shop-customerorderview div.attribute-header h1, div.shop-orderview div.attribute-header h1, div.shop-basket div.attribute-header h1, div.shop-userregister div.attribute-header h1, div.shop-confirmorder div.attribute-header h1, div.notification-settings div.attribute-header h1, div.content-search div.attribute-header h1, div.user-login div.attribute-header h1, div.user-forgotpassword div.attribute-header h1, div.content-advancedsearch div.attribute-header h1, div.content-edit-draft div.attribute-header h1, div.content-browse div.attribute-header h1
 {
 	font-size: 1.8em;
 	font-weight: normal;
@@ -719,10 +709,9 @@ div.content-view-line div.class-comment p.date
 	display: block;
 }
 
-
 /* INFOBOX */
 
-.class-infobox 
+div.class-infobox 
 {
 	text-align: left;
 	background: url(../images/infobox_br.png) no-repeat bottom right;
@@ -731,7 +720,7 @@ div.content-view-line div.class-comment p.date
 	margin: 0 0 0.5em 0;
 }
 
-.class-infobox .attribute-header
+div.class-infobox .attribute-header
 {
 	background: url(../images/infobox_tr.png) no-repeat top right;
 	margin: 0;
@@ -739,12 +728,12 @@ div.content-view-line div.class-comment p.date
 	height: 31px;
 }
 
-.class-infobox .attribute-image
+div.class-infobox .attribute-image
 {
 	margin-top: 0.5em;
 }
 
-.class-infobox .attribute-header h2 
+div.class-infobox .attribute-header h2 
 {
 	background: url(../images/infobox_tl.png) no-repeat top left;
 	margin: 0;
@@ -754,7 +743,7 @@ div.content-view-line div.class-comment p.date
 	padding: 0.5em;
 }
 
-.class-infobox .attribute-content
+div.class-infobox .attribute-content
 {
 	text-align: left;
 	background: url(../images/infobox_bl.png) no-repeat bottom left;
@@ -762,21 +751,11 @@ div.content-view-line div.class-comment p.date
 	padding: 0.5em;
 }
 
-.class-infobox .attribute-content .attribute-url
-{
-
-}
-
-.class-infobox .attribute-content .controls
+div.class-infobox .attribute-content .controls
 {
 	padding-top: 0.5em;
 	text-align: right;
 	border-top: 1px dotted #EAE8E1;
-}
-
-.class-infobox .attribute-content .controls input
-{
-
 }
 
 /* GALLERY */
@@ -891,17 +870,16 @@ div.content-view-full div.class-image div.attribute-caption
 	margin: auto;
 }
 
-
 /* FACTBOX */
 
-.factbox 
+div.factbox 
 {
 	margin: 0 auto;
 	background: url(../images/fbox_br.png) no-repeat bottom right;
 	background-color: #ECECE3;
 }
 
-.factbox-header 
+div.factbox-header 
 {
 	background: url(../images/fbox_hr.png) no-repeat top right;
 	margin: 0;
@@ -909,7 +887,7 @@ div.content-view-full div.class-image div.attribute-caption
 	background-color: #D5D5C2;
 }
 
-.factbox h2 
+div.factbox h2 
 {
 	background: url(../images/fbox_hl.png) no-repeat top left;
 	margin: 0;
@@ -918,14 +896,13 @@ div.content-view-full div.class-image div.attribute-caption
 	text-align: left;
 }
 
-.factbox-content 
+div.factbox-content 
 {
 	background: url(../images/fbox_bl.png) no-repeat bottom left;
 	margin: 0;
 	padding: 0.15em 0.5em 0.15em 0.5em;
 	text-align: left;
 }
-
 
 /* FRONTPAGE */
 
@@ -1042,9 +1019,6 @@ div.user-edit div.attribute-header h1
 	margin-bottom: -0.25em;
 }
 
-
-/* FEEDBACK FORM */
-
 /* PRODUCT */
 
 div.content-view-line div.class-product
@@ -1074,7 +1048,6 @@ div.content-view-full div.class-product div.relatedorders
 div.content-view-full div.class-product div.attribute-price
 {
 	font-size: 1.4em;
-	
 }
 
 div.content-view-line div.class-product div.attribute-price
@@ -1123,11 +1096,6 @@ div.content-view-line div.class-product div.attribute-price p.ex-vat
 	display: none;
 }
 
-div.content-view-full div.class-product div.attribute-price
-{
-
-}
-
 div.content-view-full div.class-product div.attribute-image
 {
 	float: right;
@@ -1163,7 +1131,6 @@ div.horizontally_listed_sub_items div.content-view-embed div.content-view-horizo
 {
 	font-size: 1.2em;
 }
-
 
 /* EZ TOOLBAR BOX */
 
@@ -1260,8 +1227,6 @@ div.box-et div.box-content div.block input
 	border: none;
 	font-size: 0.9em;
 }
-
-
 
 div.box-et, div.box-et div.tl, div.box-et div.tr, div.box-et div.br, div.box-et div.bl
 {
@@ -1695,11 +1660,6 @@ div.split div.three-center
     margin: 0 35% 0 35%;
 }
 
-div.split div.three-center div.split-content
-{
-
-}
-
 div.break
 {
     clear: both;
@@ -1859,11 +1819,6 @@ td#ezagenda_day div.ezagenda_day_event h2
 	font-size: 1.1em;
 }
 
-table#ezagenda
-{
-
-}
-
 table#ezagenda td.ezagenda_month_label
 {
 	border-top: 1px solid #F1F1ED;
@@ -1991,29 +1946,9 @@ map#contentstructure ul li.topchapter ul li ul li div a, map#contentstructure ul
 	text-decoration: underline;
 }
 
-map#contentstructure li.topchapter-selected a
-{
-
-}
-
-map#contentstructure li.currentnode a:hover
-{
-
-}
-
 map#contentstructure li.topchapter-selected li a
 {  
 	font-weight: normal;
-}
-
-map#contentstructure li.topchapter-selected li a:hover
-{
-
-}
-
-map#contentstructure li.topchapter-selected li li a
-{
-
 }
 
 map#contentstructure li.topchapter-selected a:hover
@@ -2062,11 +1997,6 @@ map#contentstructure li.currentnode a, map#contentstructure li.topchapter-select
 map#contentstructure li.topchapter-selected li.currentnode ul a
 {
 		font-weight: normal;
-}
-	
-map#contentstructure li div a:hover, map#contentstructure li.topchapter-selected li.currentnode ul a:hover
-{
-
 }
 
 /* Diff styles */

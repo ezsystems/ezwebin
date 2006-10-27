@@ -25,7 +25,7 @@
 <form method="post" action={"/shop/basket/"|ezurl}>
 
 <div class="attribute-header">
-    <h1>{"Basket"|i18n("design/standard/shop")}</h1>
+    <h1 class="long">{"Basket"|i18n("design/standard/shop")}</h1>
 </div>
 {section show=$removed_items}
 <div class="warning">

@@ -1,12 +1,12 @@
 <div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
-<form method="post" action={"/user/login/"|ezurl}>
-
 <div class="user-login">
 
+<form method="post" action={"/user/login/"|ezurl}>
+
 <div class="attribute-header">
-	<h1>{"Login"|i18n("design/standard/user")}</h1>
+	<h1 class="long">{"Login"|i18n("design/standard/user")}</h1>
 </div>
 
 {if $User:warning.bad_login}
@@ -55,8 +55,9 @@
   {/foreach}
 {/if}
 
-</div>
 </form>
+
+</div>
 
 </div></div></div></div></div>
 </div>

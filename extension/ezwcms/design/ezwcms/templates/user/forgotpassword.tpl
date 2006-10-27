@@ -24,8 +24,9 @@
       </div>
       {else}
       <form method="post" name="forgotpassword" action={"/user/forgotpassword/"|ezurl}>
+	  
       <div class="attribute-header">
-      <h1>{"Have you forgotten your password?"|i18n('design/standard/user/forgotpassword')}</h1>
+      <h1 class="long">{"Have you forgotten your password?"|i18n('design/standard/user/forgotpassword')}</h1>
       </div>
 
       <p>

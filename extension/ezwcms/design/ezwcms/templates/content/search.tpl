@@ -22,7 +22,7 @@
 <form action={"/content/search/"|ezurl} method="get">
 
 <div class="attribute-header">
-	<h1>{"Search"|i18n("design/base")}</h1>
+	<h1 class="long">{"Search"|i18n("design/base")}</h1>
 </div>
 
 <p>
@@ -80,7 +80,8 @@
 
 </div>
 
-{/let}
 
 </div></div></div></div></div>
 </div>
+
+{/let}

@@ -25,7 +25,7 @@
 <form method="post" action={"/shop/confirmorder/"|ezurl}>
 
 <div class="attribute-header">
-	<h1>{"Confirm order"|i18n("design/standard/shop")}</h1>
+	<h1 class="long">{"Confirm order"|i18n("design/standard/shop")}</h1>
 </div>
 
 {shop_account_view_gui view=html order=$order}

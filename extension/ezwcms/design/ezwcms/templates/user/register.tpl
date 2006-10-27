@@ -1,10 +1,12 @@
 <div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
+<div class="user-register">
+
 <form enctype="multipart/form-data"  action={"/user/register/"|ezurl} method="post" name="Register">
 
 <div class="attribute-header">
-<h1>{"Register user"|i18n("design/standard/user")}</h1>
+    <h1 class="long">{"Register user"|i18n("design/standard/user")}</h1>
 </div>
 
 {if and( and( is_set( $checkErrNodeId ), $checkErrNodeId ), eq( $checkErrNodeId, true ) )}
@@ -57,6 +59,8 @@
 	<input class="button" type="submit" name="CancelButton" value="{'Back'|i18n('design/standard/user')}" />
 {/if}
 </form>
+
+</div>
 
 </div></div></div></div></div>
 </div>
