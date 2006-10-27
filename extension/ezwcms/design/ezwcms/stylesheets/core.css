@@ -336,6 +336,29 @@ div.input input, div.textarea textarea
     border: none;
 }
 
+fieldset
+{
+    border: 1px solid #ccccc3;
+    padding: 0.5em;
+}
+
+legend
+{
+    font-weight: bold;
+    color: #000000;
+    padding: 0 0.25em 0 0.25em;
+}
+
+fieldset label
+{
+    color: #000000;
+}
+
+fieldset input.button
+{
+    margin-top: 0.5em;
+}
+
 /* HORIZONTAL RULERS */
 
 hr /* General formatting for all horizontal rulers */

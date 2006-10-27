@@ -117,6 +117,8 @@
    {node_view_gui view=line sequence=$:sequence use_url_translation=$use_url_translation content_node=$:item}
 {/section}
 
+{/section}
+
 {include name=navigator
          uri='design:navigator/google.tpl'
          page_uri='/content/advancedsearch'
