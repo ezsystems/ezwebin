@@ -5,6 +5,8 @@
 <div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
+<div class="content-view-sitemap">
+
 <div class="attribute-header">
 	<h1 class="long">{"Site map"|i18n("design/standard/node/view")} {$node.name|wash}</h1>
 </div>
@@ -30,6 +32,8 @@
 {/foreach}
 </tr>
 </table>
+
+</div>
 
 </div></div></div></div></div>
 </div>
