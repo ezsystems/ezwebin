@@ -1716,6 +1716,18 @@ div.attribute-image
 	margin: 0.25em 0 0.5em 0;
 }
 
+div.content-view-line div.attribute-image
+{
+	float: left;
+	margin: 0.25em 0.5em 0.5em 0;
+}
+
+div.content-view-horizontallylistedsubitems div.class-article div.attribute-image
+{
+	float: left;
+	margin: 0.25em 0.5em 0.5em 0;
+}
+
 /* AGENDA */
 
 td#ezagenda_calender
