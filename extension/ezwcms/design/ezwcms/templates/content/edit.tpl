@@ -3,7 +3,7 @@
 
 <div class="block">
 <div class="left">
-    <a href={"/ezinfo/about"|ezurl}><img src={"ez_toolbar.png"|ezimage} border="0" /></a>
+    <a href={"/ezinfo/about"|ezurl}><img src={"ez_toolbar.png"|ezimage} alt="eZ publish Now" width="49" height="16" /></a>
 	<form enctype="multipart/form-data" method="post" action={concat("/content/edit/",$object.id,"/",$edit_version,"/",$edit_language|not|choose(concat($edit_language,"/"),''))|ezurl}>
     <input class="button" type="submit" name="VersionsButton" value="{'Versions'|i18n('design/standard/content/edit')}" />
 

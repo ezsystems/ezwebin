@@ -14,7 +14,7 @@
 <div class="block">
 <div class="left">
 <form method="post" action={"content/action"|ezurl}>
-<a href={"/ezinfo/about"|ezurl}><img src={"ez_toolbar.png"|ezimage} alt="eZ Publish" width="49" height="16" /></a>
+<a href={"/ezinfo/about"|ezurl}><img src={"ez_toolbar.png"|ezimage} alt="eZ publish Now" width="49" height="16" /></a>
 {if and( $content_object.can_create,$containers|contains( $current_node.class_identifier ) )}
   <select name="ClassID">
   {foreach $content_object.can_create_class_list as $class}
@@ -76,7 +76,7 @@
 </form>
 {/if}
 
-<a href="http://ez.no/doc"><img src={"ezt_question_mark.gif"|ezimage} alt="Help" {if $disable_oo|not}class="oohelp"{else}class="help"{/if}/></a>
+<a href="http://ez.no/doc" title="Documentation"><img src={"ezt_question_mark.gif"|ezimage} alt="Help" {if $disable_oo|not}class="oohelp"{else}class="help"{/if} /></a>
 
 </div>
 </div>
