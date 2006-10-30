@@ -1,4 +1,0 @@
-<?php /*
-[TemplateSettings]
-ExtensionAutoloadPath[]=ezclasstools
- */ ?> 
