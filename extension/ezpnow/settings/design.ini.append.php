@@ -2,5 +2,5 @@
 # eZ publish configuration file for modules
 
 [ExtensionSettings]
-DesignExtensions[]=ezwcms
+DesignExtensions[]=ezpnow
 */ ?>
