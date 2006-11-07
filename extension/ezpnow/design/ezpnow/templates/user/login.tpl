@@ -40,7 +40,7 @@
 
 <div class="buttonblock">
 <input class="defaultbutton" type="submit" name="LoginButton" value="{'Login'|i18n('design/standard/user','Button')}" tabindex="1" />
-<input class="button" type="submit" name="RegisterButton" value="{'Sign Up'|i18n('design/standard/user','Button')}" tabindex="1" />
+<input class="button" type="submit" name="RegisterButton" id="RegisterButton" value="{'Sign Up'|i18n('design/standard/user','Button')}" tabindex="1" />
 </div>
 
 {if ezini( 'SiteSettings', 'LoginPage' )|eq( 'custom' )}
