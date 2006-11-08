@@ -3,7 +3,7 @@
 
 <div class="user-login">
 
-<form method="post" action={"/user/login/"|ezurl}>
+<form method="post" action={"/user/login/"|ezurl} name="loginform">
 
 <div class="attribute-header">
 	<h1 class="long">{"Login"|i18n("design/standard/user")}</h1>
@@ -37,6 +37,10 @@
 <label for="id2">{"Password"|i18n("design/standard/user")}</label><div class="labelbreak"></div>
 <input class="halfbox" type="password" size="10" name="Password" id="id2" value="" tabindex="1" />
 </div>
+<div class="block">
+<label for="id3">{"Log in to the administration interface"|i18n("design/standard/user")}</label><div class="labelbreak"></div>
+<input type="checkbox" size="10" name="AdminSiteaccessURI" id="id3" value="" tabindex="1" onclick="AdminSiteaccessCheckbox(this);" />
+</div>
 
 <div class="buttonblock">
 <input class="defaultbutton" type="submit" name="LoginButton" value="{'Login'|i18n('design/standard/user','Button')}" tabindex="1" />
@@ -56,6 +60,28 @@
 {/if}
 
 </form>
+{*
+	Set siteaccess name for AdminSiteAccessName variable
+	site.ini.[SiteAccessSettings].AdminSiteAccessName
+*}
+<script type="text/javascript">
+<!--
+
+var loginForm = document.loginform;
+var loginFormDefaultAction = loginForm.action;
+
+function AdminSiteaccessCheckbox( val )
+{ldelim}
+
+	if( val.checked )
+		loginForm.action = '/{ezini( 'SiteAccessSettings', 'AdminSiteAccessName' )}/user/login';
+	else 
+		loginForm.action = loginFormDefaultAction;
+
+{rdelim} 
+
+-->
+</script>
 
 </div>
 
