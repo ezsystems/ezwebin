@@ -61,8 +61,8 @@
 
 </form>
 {*
-	Set siteaccess name for AdminSiteAccessName variable
-	site.ini.[SiteAccessSettings].AdminSiteAccessName
+	Set URL for login form action
+	site.ini.[SiteSettings].LoginFormActionURL
 *}
 <script type="text/javascript">
 <!--
@@ -74,7 +74,7 @@ function AdminSiteaccessCheckbox( val )
 {ldelim}
 
 	if( val.checked )
-		loginForm.action = '/{ezini( 'SiteAccessSettings', 'AdminSiteAccessName' )}/user/login';
+		loginForm.action = '{ezini( 'SiteSettings', 'LoginFormActionURL' )}';
 	else 
 		loginForm.action = loginFormDefaultAction;
 
