@@ -22,7 +22,7 @@
   {/foreach}
   </select>
   <input type="hidden" name="ContentLanguageCode" value="{$content_object.initial_language_code}" />
-  <input class="button" type="submit" name="NewButton" value="{'Create'|i18n('design/standard/node/view')}" />
+  <input class="button" type="submit" name="NewButton" value="{'Create here'|i18n('design/standard/node/view')}" />
 {/if}
 
 {if $content_object.can_edit}
