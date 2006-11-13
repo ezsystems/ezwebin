@@ -57,18 +57,18 @@
 
 {if and( $content_object.content_class.is_container, ne( $content_object.content_class.identifier, 'article' ) )}
 {* Import OOo / OASIS document *}
-<form method="post" action={"/oo/import/"|ezurl}>
+<form method="post" action={"/odf/import/"|ezurl}>
   <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ObjectID" value="{$content_object.id}" />
   <input class="button" type="submit" name="ImportAction" value="{'Import'|i18n('extension/ezodf')}" />
 </form>
 {/if}
-<form method="post" action={"/oo/export/"|ezurl}>
+<form method="post" action={"/odf/export/"|ezurl}>
   <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ObjectID" value="{$content_object.id}" />
   <input class="button" type="submit" name="ExportAction" value="{'Export'|i18n('extension/ezodf')}" />
 </form>
-<form method="post" action={"/oo/import/"|ezurl}>
+<form method="post" action={"/odf/import/"|ezurl}>
   <input type="hidden" name="ImportType" value="replace" />
   <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ObjectID" value="{$content_object.id}" />
