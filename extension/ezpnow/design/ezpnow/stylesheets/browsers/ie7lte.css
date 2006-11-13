@@ -109,6 +109,31 @@ div.box-et div.box-content div.block div.left form select
 	top: -2px;
 }
 
+div.box-et-content-edit div.box-content div.block div.left input
+{
+	display: inline;
+	margin: 0;
+	position: relative;
+	top: -4px;
+}
+
+div.box-et-content-edit div.box-content div.block div.right input
+{
+	display: inline;
+	margin: 0;
+	position: relative;
+	top: -5px;
+}
+
+div.box-et-content-edit div.box-content div.block div.left select
+{
+	font-size: 0.8em;
+	display: inline;
+	margin: 0;
+	position: relative;
+	top: -2px;
+}
+
 div.box-et div.bl
 {
 	height: 16px;

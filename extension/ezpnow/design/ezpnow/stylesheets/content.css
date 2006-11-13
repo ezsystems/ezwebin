@@ -1155,6 +1155,31 @@ div.box-et-content-edit
 	margin-bottom: 10px;
 }
 
+div.box-et-content-edit div.box-content div.block div.left input
+{
+	display: inline;
+	margin: 0;
+	position: relative;
+	top: -12px;
+}
+
+div.box-et-content-edit div.box-content div.block div.right input
+{
+	display: inline;
+	margin: 0;
+	position: relative;
+	top: -14px;
+}
+
+div.box-et-content-edit div.box-content div.block div.left select
+{
+	font-size: 0.8em;
+	display: inline;
+	margin: 0;
+	position: relative;
+	top: -12px;
+}
+
 div.box-et div.box-content div.block form
 {
 	display: inline;
@@ -2163,23 +2188,24 @@ div.shop-userregister ul li.selected
 
 /* SHOP - CONFIRMORDER */
 
-div.shop-confirmorder ul
+div#main div.shop-confirmorder ul
 {
 	margin: 0;
 	padding: 0;
 }
 
-div.shop-confirmorder ul li
+div#main  div.shop-confirmorder ul li
 {
 	display: block;
 	float: left;
 	margin-right: 1em;
 	list-style-type: none;
 	list-style-image: none;
+	background: none;
 	padding: 0;
 }
 
-div.shop-confirmorder ul li.selected
+div#main  div.shop-confirmorder ul li.selected
 {
 	font-weight: bold;
 }
