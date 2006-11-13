@@ -223,6 +223,9 @@
     <!-- Main area: END -->
     <hr class="hide" />
     {cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ))}
+    {if is_unset($pagedesign)}
+    {def $pagedesign = fetch( 'content', 'object', hash( 'object_id', '54' ) )}
+    {/if}
     <!-- Extra area: START -->
     <div id="extrainfo-position">
       <div id="extrainfo">
