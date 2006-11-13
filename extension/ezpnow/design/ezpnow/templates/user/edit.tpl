@@ -24,9 +24,10 @@
   <p class="box">{$userAccount.contentobject.name|wash}</p>
 </div>
 
-<p><a href={"content/draft"|ezurl}>My drafts</a></p>
-<p><a href={concat("/shop/customerorderview/", $userID, "/", $userAccount.email)|ezurl}>My orders</a></p>
-<p><a href={"notification/settings"|ezurl}>My notification settings</a></p>
+<p><a href={"content/draft"|ezurl}>{"My drafts"|i18n("design/standard/content/view")}</a></p>
+<p><a href={concat("/shop/customerorderview/", $userID, "/", $userAccount.email)|ezurl}>{"Orders"|i18n("design/admin/parts/shop/menu")}</a></p>
+<p><a href={"notification/settings"|ezurl}>{"My notification settings"|i18n("design/admin/notification/settings")}</a></p>
+<p><a href={"/shop/wishlist"|ezurl}>{"My wish list"|i18n("design/admin/parts/my/menu")}</a></p>
 
 <div class="buttonblock">
 <input class="button" type="submit" name="EditButton" value="{'Edit profile'|i18n('design/standard/user')}" />

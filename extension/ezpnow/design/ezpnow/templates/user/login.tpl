@@ -38,7 +38,7 @@
 <input class="halfbox" type="password" size="10" name="Password" id="id2" value="" tabindex="1" />
 </div>
 <div class="block">
-<label for="id3">{"Log in to the administration interface"|i18n("design/standard/user")}</label><div class="labelbreak"></div>
+<label for="id3">{"Log in to the administration interface of eZ publish"|i18n("design/admin/user/login")}</label><div class="labelbreak"></div>
 <input type="checkbox" size="10" name="AdminSiteaccessURI" id="id3" value="" tabindex="1" onclick="AdminSiteaccessCheckbox(this);" />
 </div>
 

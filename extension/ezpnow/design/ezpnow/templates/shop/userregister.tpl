@@ -4,10 +4,10 @@
 <div class="shop-userregister">
 
 <ul>
-	<li>1. Shopping basket</li>
-	<li class="selected">2. Account information
+	<li>1. {"Shopping basket"|i18n("design/standard/toolbar")}</li>
+	<li class="selected">2. {"Account information"|i18n("design/admin/shop/userregister")}
 </li>
-	<li>3. Confirm order</li>
+	<li>3. {"Confirm order"|i18n("design/base/shop")}</li>
 </ul>
 
 </div>

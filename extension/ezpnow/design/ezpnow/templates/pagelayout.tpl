@@ -13,7 +13,6 @@
     @import url({concat( 'stylesheets/', $css_file )|ezdesign});
     {/foreach}
 </style>
-<!-- Print stylesheet must be in this format as IE does not recognize alternative media stylesheets with the @import statement -->
 <link rel="stylesheet" type="text/css" href={"stylesheets/print.css"|ezdesign} media="print" />
 <!-- IE conditional comments; for bug fixes for different IE versions -->
 <!--[if IE 5]>     <style type="text/css"> @import url({"stylesheets/browsers/ie5.css"|ezdesign(no)});    </style> <![endif]-->
@@ -27,7 +26,6 @@
 {/cache-block}
 <body>
 <!-- Complete page area: START -->
-
 {if is_unset( $current_user )}
     {def $current_user=fetch( 'user', 'current_user' )}
 {/if}
@@ -63,9 +61,8 @@
 {if eq( $module_result.content_info.class_identifier, 'frontpage' )}
     {set $pagestyle='nosidemenu noextrainfo'}
 {/if}
-
+<!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
 <div id="page" class="{$pagestyle}">
-  <!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
   <!-- Header area: START -->
   <div id="header" class="float-break">
   <div id="usermenu">
@@ -129,7 +126,7 @@
       <form action={"/content/search"|ezurl}>
         <label for="searchtext" class="hide">Search text:</label>
         <input id="searchtext" name="SearchText" type="text" size="12" />
-        <input id="searchbutton" class="button" type="submit" value="Search" />
+        <input id="searchbutton" class="button" type="submit" value="{'Search'|i18n('design/standard/content/search')}" />
       </form>
     </div>
     <p class="hide"><a href="#main">Skip to main content</a></p>

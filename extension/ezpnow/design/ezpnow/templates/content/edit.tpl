@@ -1,10 +1,11 @@
+<form enctype="multipart/form-data" method="post" action={concat("/content/edit/",$object.id,"/",$edit_version,"/",$edit_language|not|choose(concat($edit_language,"/"),''))|ezurl}>
+
 <div class="box-et box-et-content-edit">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
 
 <div class="block">
 <div class="left">
     <a href={"/ezinfo/about"|ezurl}><img src={"ez_toolbar.png"|ezimage} alt="eZ publish Now" width="49" height="16" /></a>
-	<form enctype="multipart/form-data" method="post" action={concat("/content/edit/",$object.id,"/",$edit_version,"/",$edit_language|not|choose(concat($edit_language,"/"),''))|ezurl}>
     <input class="button" type="submit" name="VersionsButton" value="{'Versions'|i18n('design/standard/content/edit')}" />
 
     <input class="button" type="submit" name="StoreExitButton" value="{'Store and exit'|i18n( 'design/admin/content/edit' )}" title="{'Store the draft that is being edited and exit from edit mode.'|i18n( 'design/admin/content/edit' )}" />
@@ -22,11 +23,9 @@
 </select>
 
 <input {if $object.status|eq(0)}class="button-disabled" disabled="disabled"{else} class="button"{/if} type="submit" name="FromLanguageButton" value="{'Translate'|i18n( 'design/admin/content/edit' )}" title="{'Edit the current object showing the selected language as a reference.'|i18n( 'design/admin/content/edit' )}" />
-</form>
 
-    <form method="post" action={concat( "/content/diff/", $object.id )|ezurl}>
-        <input class="button" type="submit" name="DiffAction" value="{'History'|i18n('design/standard/node/view')}" />
-	</form>
+<input class="button" type="submit" name="DiffAction" value="{'Differences'|i18n('kernel/content')}" />
+
 </div>
 <div class="right">
 	<a href="http://ez.no/doc" title="Documentation"><img src={"ezt_question_mark.gif"|ezimage} alt="Help" class="help" /></a>
@@ -41,8 +40,6 @@
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
 <div class="content-edit">
-
-<form enctype="multipart/form-data" method="post" action={concat("/content/edit/",$object.id,"/",$edit_version,"/",$edit_language|not|choose(concat($edit_language,"/"),''))|ezurl}>
 
     <div class="attribute-header">
 	    <h1 class="long">{"Edit %1 - %2"|i18n("design/standard/content/edit",,array($class.name|wash,$object.name|wash))}</h1>
@@ -62,10 +59,9 @@
 	<input type="hidden" name="RedirectIfDiscarded" value="{ezhttp( 'LastAccessesURI', 'session' )}" />
 	<input type="hidden" name="RedirectURIAfterPublish" value="{ezhttp( 'LastAccessesURI', 'session' )}" />
     </div>
-
-</form>
-
 </div>
 
 </div></div></div></div></div>
 </div>
+
+</form>
