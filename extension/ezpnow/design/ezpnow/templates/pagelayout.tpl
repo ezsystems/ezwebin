@@ -110,7 +110,7 @@
         {/if}
 
         {if $pagedesign.can_edit}
-            <li><a href={concat( "/content/edit/", $pagedesign.id, "/f/", ezini( 'RegionalSettings', 'Locale' , 'site.ini'), "/", $pagedesign.initial_language_code )|ezurl} title="{$pagedesign.data_map.site_settings_label.data_text|wash}">{$pagedesign.data_map.site_settings_label.data_text|wash}</a></li>
+            <li><a href={concat( "/content/edit/", $pagedesign.id, "/", $pagedesign.current_version, "/", ezini( 'RegionalSettings', 'Locale' , 'site.ini'), "/", $pagedesign.initial_language_code )|ezurl} title="{$pagedesign.data_map.site_settings_label.data_text|wash}">{$pagedesign.data_map.site_settings_label.data_text|wash}</a></li>
         {/if}
         </ul>
     </div>
