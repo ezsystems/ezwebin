@@ -27,57 +27,83 @@
 <body>
 <!-- Complete page area: START -->
 {if is_unset( $current_user )}
-    {def $current_user=fetch( 'user', 'current_user' )}
+    {def $current_user = fetch( 'user', 'current_user' )}
 {/if}
+
+{def $current_node_id = first_set($module_result.node_id, 0)}
 
 {cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ))}
-{def $pagerootdepth = 1
-     $pagestyle='nosidemenu noextrainfo'
-     $infobox_count=fetch( 'content', 'list_count', hash( 'parent_node_id', $module_result.node_id,
-                                                          'class_filter_type', 'include',
-                                                          'class_filter_array', array( 'infobox' ) ) )
-     $pagedesign=fetch( 'content', 'object', hash( 'object_id', '54' ) )
-     $locales=fetch( 'content', 'translation_list' )
-
-    $pagerootdepthINI = ezini( 'SiteSettings', 'RootNodeDepth', 'site.ini' )
-    $indexpage = 2
+{def $pagestyle       = 'nosidemenu noextrainfo'
+     $infobox_count   = 0
+     $locales         = fetch( 'content', 'translation_list' )
+     $pagerootdepth   = ezini( 'SiteSettings', 'RootNodeDepth', 'site.ini' )
+     $indexpage       = 2
+     $path_normalized = ''
 }
-{if and($pagerootdepthINI,  $pagerootdepthINI|ne('') )}
-    {set $pagerootdepth = $pagerootdepthINI}
+{if is_unset($pagedesign)}
+    {def $pagedesign = fetch( 'content', 'object', hash( 'object_id', '54' ) )}
+{/if}
+{if $pagerootdepth|not}
+    {set $pagerootdepth = 1}
+{/if}
+{if $current_node_id}
+	{set $infobox_count = fetch( 'content', 'list_count', hash( 
+	                                        'parent_node_id', $current_node_id,
+                                            'class_filter_type', 'include',
+                                            'class_filter_array', array( 'infobox' ) ) )}
+	{if $module_result.path|count|gt($pagerootdepth|dec)}
+	    {set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
+	{/if}
+	    
+	{if is_set( $module_result.path[1] )}
+	    {if ne( $infobox_count , 0 ) }
+	        {set $pagestyle = 'sidemenu extrainfo'}
+	    {else}
+	        {set $pagestyle = 'sidemenu noextrainfo'}
+	    {/if}
+	{/if}
+	{if eq( $module_result.content_info.class_identifier, 'frontpage' )}
+	    {set $pagestyle = 'nosidemenu noextrainfo'}
+	{/if}
 {/if}
 
-{if and($module_result.path|count|gt($pagerootdepth|dec) , is_set( $module_result.node_id ))}
-    {set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
-{/if}
-    
-{if and( is_set( $module_result.path[1] ), is_set( $module_result.node_id ) )}
-    {if ne( $infobox_count , 0 ) }
-        {set $pagestyle='sidemenu extrainfo'}
-    {else}
-        {set $pagestyle='sidemenu noextrainfo'}
-    {/if}
+{if is_set($module_result.section_id)}
+{set $pagestyle = concat($pagestyle, " section_id_", $module_result.section_id)}
 {/if}
 
-{if eq( $module_result.content_info.class_identifier, 'frontpage' )}
-    {set $pagestyle='nosidemenu noextrainfo'}
+{foreach $module_result.path as $key => $path}
+{if is_set($path.node_id)}
+    {set $path_normalized = $path_normalized|append( concat('subtree_level_', $key, '_node_id_', $path.node_id, ' ' ))}
 {/if}
+{/foreach}
 <!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
-<div id="page" class="{$pagestyle}">
+<div id="page" class="{$pagestyle} {$path_normalized|trim()} current_node_id_{$current_node_id}">
+
   <!-- Header area: START -->
   <div id="header" class="float-break">
   <div id="usermenu">
     <div id="languages">
-        <ul>
         {if $locales|count|gt( 1 )}
+        <ul>
         {foreach $pagedesign.data_map.language_settings.content.rows.sequential as $row}
-            <li><a href={concat( "/",
-                     $row.columns[0], "/",
-                     $DesignKeys:used.url_alias
-                     )|ezroot}>{$row.columns[1]}</a>
-            </li>
+        {if $row.columns[0]}
+	        <li{if $row.columns[0]|downcase()|eq($access_type.name)} class="current_siteaccess"{/if}>
+	        {if is_set($DesignKeys:used.url_alias)}
+	            <a href={concat( "/",
+	                     $row.columns[0], "/",
+	                     $DesignKeys:used.url_alias
+	                     )|ezroot}>{$row.columns[1]}</a>
+	        {else}
+	            <a href={concat( "/",
+	                     $row.columns[0], "/",
+	                     $uri_string
+	                     )|ezroot}>{$row.columns[1]}</a>
+	        {/if}
+	        </li>
+	    {/if}
         {/foreach}
-        {/if}
         </ul>
+        {/if}
     </div>
     <div id="links">
         <ul>
@@ -138,8 +164,8 @@
     {include uri='design:menu/flat_top.tpl'}
   </div>
   <!-- Top menu area: END -->
-  {if or( ne( $module_result.content_info.class_identifier, 'frontpage' ),
-          eq( $module_result.content_info.viewmode, 'sitemap' ) )}
+  {if and($current_node_id, or( ne( $module_result.content_info.class_identifier, 'frontpage' ),
+          eq( $module_result.content_info.viewmode, 'sitemap' ) ))}
   <hr class="hide" />
   <!-- Path area: START -->
   <div id="path">
@@ -151,7 +177,9 @@
   <hr class="hide" />
   <!-- Toolbar area: START -->
   <div id="toolbar">
+  {if $current_node_id}
   {include uri='design:parts/editor_toolbar.tpl'}
+  {/if}
   </div>
   <!-- Toolbar area: END -->
 
@@ -163,7 +191,7 @@
       <div id="sidemenu">
         <div id="heightresize-sidemenu">
           <!-- Used only for height resize script -->
-          {if gt($module_result.path|count, $pagerootdepth)}
+          {if and($current_node_id, gt($module_result.path|count, $pagerootdepth))}
           {include uri='design:menu/flat_left.tpl'}
           {/if}
         </div>
@@ -173,40 +201,7 @@
     <hr class="hide" />
     <!-- Main area: START -->
     <div id="main-position">
-    {def $section=fetch( 'section', 'object', hash( 'section_id', $module_result.section_id ) )
-         $section_name_normalized = ''}
-
-    {foreach $section.name|explode( ' ' ) as $section_name_part}
-        {set $section_name_normalized = $section_name_normalized|append( $section_name_part|downcase() ) }
-        {delimiter}
-            {set $section_name_normalized = $section_name_normalized|append( '_' ) }
-        {/delimiter}
-     {/foreach}
-
-    {def $path_normalized = ''
-         $url_alias_normalized = ''}
-    {foreach $module_result.path as $path}
-        {foreach $path.url_alias|explode( '/' ) as $url_alias_part}
-            {set $url_alias_normalized = $url_alias_normalized|append( $url_alias_part )}
-            {delimiter}
-                {set $url_alias_normalized = $url_alias_normalized|append( '__' )}
-            {/delimiter}
-        {/foreach}
-        {set $path_normalized = $path_normalized|append( $url_alias_normalized )}
-        {delimiter}
-            {set $path_normalized = $path_normalized|append( ' ' )}
-        {/delimiter}
-        {set $url_alias_normalized = ''}
-    {/foreach}
-    {foreach $module_result.content_info.url_alias|explode( '/' ) as $url_alias_part}
-        {set $url_alias_normalized = $url_alias_normalized|append( $url_alias_part )}
-        {delimiter}
-            {set $url_alias_normalized = $url_alias_normalized|append( '__' )}
-        {/delimiter}
-    {/foreach}
-    {set $path_normalized = $path_normalized|append( $url_alias_normalized )}
-
-      <div id="main" class="float-break {$section_name_normalized|trim()} {$path_normalized|trim()}">
+      <div id="main" class="float-break">
         <div class="overflow-fix">
           <!-- Fix for IE 5&6 -->
           <div id="heightresize-main">
@@ -232,7 +227,9 @@
         <div id="heightresize-extrainfo">
           <!-- Used only for height resize script -->
           <!-- Extra content: START -->
+          {if $current_node_id}
             {include uri='design:parts/extra_info.tpl'}
+          {/if}
           <!-- Extra content: END -->
         </div>
         <!-- Used only for height resize script -->
