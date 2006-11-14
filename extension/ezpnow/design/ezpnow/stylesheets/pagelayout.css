@@ -252,10 +252,20 @@ div#sidemenu h4
 	margin: 0;
 }
 
+div#sidemenu ul.menu-list a.selected
+{
+	font-weight: bold;
+}
+
 div#sidemenu ul.submenu-list
 {
 	list-style-type: none;
-    margin-left: 1em;
+	margin-left: 1em;
+}
+
+div#sidemenu ul.submenu-list a.selected
+{
+	font-weight: bold;
 }
 
 div#sidemenu ul li a
