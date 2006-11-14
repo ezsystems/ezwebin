@@ -8,9 +8,9 @@
     {if $top_menu_items|gt(0)}
        {foreach $top_menu_items as $item}
             {if eq( $item.class_identifier, 'link')}
-            <li><a href={$item.data_map.location.content|ezurl} target="_blank">{$item.name|wash()}</a></li>
+            <li id="node_id_{$item.node_id}"><div><a href={$item.data_map.location.content|ezurl} target="_blank">{$item.name|wash()}</a></div></li>
             {else}
-      		<li {if and(gt($module_result.path|count, $pagerootdepth), eq( $item.node_id, $module_result.path[$pagerootdepth].node_id ))}class="selected"{/if}><a href={$item.url_alias|ezurl}>{$item.name}</a></li>
+      		<li id="node_id_{$item.node_id}" {if and(gt($module_result.path|count, $pagerootdepth), eq( $item.node_id, $module_result.path[$pagerootdepth].node_id ))}class="selected"{/if}><div><a href={$item.url_alias|ezurl}>{$item.name}</a></div></li>
     		{/if}
       	{/foreach}
     {/if}
