@@ -230,7 +230,7 @@
 	</h2>
 	<span>
 	{"Category"|i18n("design/standard/ezagenda")}:
-	{attribute_view_gui attribute=$event.object.data_map.category}<br />
+	{attribute_view_gui attribute=$day_event.object.data_map.category}<br />
 	{$day_event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
 	{if $day_event.object.data_map.to_time.has_content}
 		- {$day_event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
