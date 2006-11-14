@@ -14,7 +14,7 @@
 		{if $left_menu_items|count}
         <ul class="menu-list">
        {foreach $left_menu_items as $item}
-	   		<li><div><a href={$item.url_alias|ezurl} {if and($module_result.path|count|gt($pagerootdepth|inc), eq( $item.node_id, $module_result.path[$pagerootdepth|inc].node_id ))}class="selected"{/if}>{$item.name}</a></div>
+	   		<li><div><a href={$item.url_alias|ezurl} {if and($module_result.path|count|gt($pagerootdepth|inc), eq( $item.node_id, $module_result.path[$pagerootdepth|inc].node_id ))}class="selected"{/if}>{$item.name|wash()}</a></div>
 
 	   		{if and( is_set( $module_result.path[$pagerootdepth|inc].node_id ), $item.node_id, eq( $module_result.path[$pagerootdepth|inc].node_id, $item.node_id ) )}
 	   		{def $left_menu_subitems=fetch( 'content', 'list', hash( 'parent_node_id', $item.node_id,
@@ -24,7 +24,7 @@
 			{if $left_menu_subitems|count}
 			<ul class="submenu-list">
 	   		{foreach $left_menu_subitems as $subitem}
-				<li><div><a href={$subitem.url_alias|ezurl} {if eq( $subitem.node_id, $module_result.path[$pagerootdepth|sum(2)].node_id )}class="selected"{/if}>{$subitem.name}</a></div></li>
+				<li><div><a href={$subitem.url_alias|ezurl} {if eq( $subitem.node_id, $module_result.path[$pagerootdepth|sum(2)].node_id )}class="selected"{/if}>{$subitem.name|wash()}</a></div></li>
 	   		{/foreach}
 	   		</ul>
 	   		{/if}
