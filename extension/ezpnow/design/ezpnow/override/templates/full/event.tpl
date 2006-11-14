@@ -15,7 +15,7 @@
 	<p class="ezagenda_date">
 
 	{"Category"|i18n("design/standard/ezagenda")}:
-	{$node.data_map.category.class_content.options[$node.data_map.category.value[0]].name}<br />
+	{attribute_view_gui attribute=$node.object.data_map.category}<br />
 	{$node.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
 	{if $node.object.data_map.to_time.has_content}
 		  - {$node.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
@@ -23,22 +23,22 @@
 	</p>
 	</div>
 
-	{if $node.object.data_map.image.content}
+	{* if $node.object.data_map.image.content}
          <div class="attribute-image">
              {attribute_view_gui attribute=$node.object.data_map.image align=center image_class=imagelarge}
         </div>
-    {/if}
+    {/if *}
 
 	{if $node.object.data_map.text.has_content}
     	<div class="attribute-short">{attribute_view_gui attribute=$node.object.data_map.text}</div>
 	{/if}
 
 
-	{if $node.object.data_map.url.has_content}
+	{* if $node.object.data_map.url.has_content}
     	<p style="text-align:center;">
 		<a href={$node.object.data_map.url.content|ezurl}>{$node.object.data_map.url.data_text|wash()}</a>
 		</p>
-	{/if}
+	{/if *}
   </div>
 </div>
 
