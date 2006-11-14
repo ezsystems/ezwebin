@@ -9,8 +9,8 @@
 <link rel="Author" href={"/ezinfo/about"|ezurl} />
 
 {def $pagedesign=fetch( 'content', 'object', hash( 'object_id', '54' ) )}
-{if $site_settings.data_map.rss_feed.has_content}
-<link rel="alternate" type="application/rss+xml" title="RSS" href="{$site_settings.data_map.rss_feed.data_text}" />
+{if $pagedesign.data_map.rss_feed.has_content}
+<link rel="Alternate" type="application/rss+xml" title="RSS" href="{$pagedesign.data_map.rss_feed.data_text}" />
 {/if}
 
 {if $enable_print}
