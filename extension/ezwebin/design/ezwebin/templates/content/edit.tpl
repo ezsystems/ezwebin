@@ -45,8 +45,6 @@
 
     {include uri="design:content/edit_validation.tpl"}
 
-    <br />
-
     {include uri="design:content/edit_attribute.tpl"}
 
     <div class="buttonblock">

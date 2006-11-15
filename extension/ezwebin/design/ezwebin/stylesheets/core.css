@@ -372,7 +372,7 @@ hr /* General formatting for all horizontal rulers */
 
 /* MESSAGES TO THE USER */
 
-div.message-confirmation, div.message-feedback, div.message-warning, div.message-error
+div.message-confirmation, div.message-feedback, div.message-warning, div.message-error, div.warning
 {
     margin: 0.5em 0 1em 0;
     padding: 0.5em 1em 0.5em 1em;
@@ -385,7 +385,7 @@ div.message-feedback
     border-color: #40b040;
 }
 
-div.message-warning
+div.message-warning, div.warning
 {
     border-color: #c0c040;
 }

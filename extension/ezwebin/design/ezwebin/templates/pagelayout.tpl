@@ -159,7 +159,7 @@
     {include uri='design:menu/flat_top.tpl'}
   </div>
   <!-- Top menu area: END -->
-  {if and($current_node_id, or( ne( $module_result.content_info.class_identifier, 'frontpage' ),
+  {if and( or( ne( $module_result.content_info.class_identifier, 'frontpage' ),
           eq( $module_result.content_info.viewmode, 'sitemap' ) ))}
   <hr class="hide" />
   <!-- Path area: START -->

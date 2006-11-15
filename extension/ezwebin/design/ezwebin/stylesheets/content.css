@@ -372,11 +372,6 @@ div.attribute-header h1.long
 	color: #000000;
 }
 
-div.content-edit div.attribute-header h1
-{
-	margin-bottom: -1.25em;
-}
-
 /* IMAGE */
 
 div.object-center div.content-view-embed div.class-image
@@ -1153,7 +1148,6 @@ div.box-et-content-edit
 {
 	left: 0px;
 	margin-bottom: 10px;
-	margin-top: 0.75em;
 }
 
 div.box-et-content-edit div.box-content div.block div.left input
