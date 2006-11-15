@@ -8,7 +8,6 @@
 <link rel="Copyright" href={"/ezinfo/copyright"|ezurl} />
 <link rel="Author" href={"/ezinfo/about"|ezurl} />
 
-{def $pagedesign=fetch( 'content', 'object', hash( 'object_id', '54' ) )}
 {if $pagedesign.data_map.rss_feed.has_content}
 <link rel="Alternate" type="application/rss+xml" title="RSS" href="{$pagedesign.data_map.rss_feed.data_text}" />
 {/if}

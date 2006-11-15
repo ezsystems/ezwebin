@@ -1,7 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{$site.http_equiv.Content-language|wash}" lang="{$site.http_equiv.Content-language|wash}">
 <head>
-{cache-block keys=$uri_string}
+{def $current_node_id   = first_set($module_result.node_id, 0)
+     $current_cache_key = array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ))}
+
+{cache-block keys=$current_cache_key}
+{def $pagestyle       = 'nosidemenu noextrainfo'
+     $infobox_count   = 0
+     $locales         = fetch( 'content', 'translation_list' )
+     $pagerootdepth   = ezini( 'SiteSettings', 'RootNodeDepth', 'site.ini' )
+     $indexpage       = 2
+     $path_normalized = ''
+     $pagedesign      = fetch( 'content', 'object', hash( 'object_id', '54' ) )
+}
 {include uri='design:page_head.tpl'}
 <style type="text/css">
     @import url({"stylesheets/core.css"|ezdesign(no)});
@@ -23,26 +34,9 @@
 <!-- Height resize script; used for resizing columns to equal heights -->
 <!-- <script type="text/javascript" src={"javascript/heightresize.js"|ezdesign}></script> -->
 </head>
-{/cache-block}
 <body>
 <!-- Complete page area: START -->
-{if is_unset( $current_user )}
-    {def $current_user = fetch( 'user', 'current_user' )}
-{/if}
 
-{def $current_node_id = first_set($module_result.node_id, 0)}
-
-{cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ))}
-{def $pagestyle       = 'nosidemenu noextrainfo'
-     $infobox_count   = 0
-     $locales         = fetch( 'content', 'translation_list' )
-     $pagerootdepth   = ezini( 'SiteSettings', 'RootNodeDepth', 'site.ini' )
-     $indexpage       = 2
-     $path_normalized = ''
-}
-{if is_unset($pagedesign)}
-    {def $pagedesign = fetch( 'content', 'object', hash( 'object_id', '54' ) )}
-{/if}
 {if $pagerootdepth|not}
     {set $pagerootdepth = 1}
 {/if}
@@ -158,6 +152,7 @@
     <p class="hide"><a href="#main">Skip to main content</a></p>
   </div>
   <!-- Header area: END -->
+
   <hr class="hide" />
   <!-- Top menu area: START -->
   <div id="topmenu" class="float-break">
@@ -217,7 +212,7 @@
     </div>
     <!-- Main area: END -->
     <hr class="hide" />
-    {cache-block keys=array($uri_string, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ))}
+    {cache-block keys=$current_cache_key}
     {if is_unset($pagedesign)}
     {def $pagedesign = fetch( 'content', 'object', hash( 'object_id', '54' ) )}
     {/if}
