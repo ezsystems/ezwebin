@@ -3,9 +3,10 @@
 	 $can_edit_languages   = $content_object.can_edit_languages
      $can_create_languages = $content_object.can_create_languages
 	 $available_for_classes = ezini( 'EditorToolbarSettings', 'AvailableForClasses', 'editortoolbar.ini' )
-	 $containers = ezini( 'EditorToolbarSettings', 'Containers', 'editortoolbar.ini' )}
+	 $containers = ezini( 'EditorToolbarSettings', 'Containers', 'editortoolbar.ini' )
+	 $website_toolbar_access = fetch( 'content', 'object', hash( 'object_id', $current_user.groups[0] ) ).data_map.website_toolbar_access.data_int}
 
-{if and( $current_user.is_logged_in, or( $current_user.groups|contains(13), $current_user.groups|contains(12) ), $available_for_classes|contains( $current_node.class_identifier ) )}
+{if and( $current_user.is_logged_in, $website_toolbar_access, $available_for_classes|contains( $current_node.class_identifier ) )}
 
 <div class="box-et {if eq( $current_node.class_identifier, 'frontpage' )}frontpage-et{/if}">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">

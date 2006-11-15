@@ -6,7 +6,7 @@
 <div class="block">
 <div class="left">
     <a href={"/ezinfo/about"|ezurl}><img src={"ez_toolbar.png"|ezimage} alt="eZ publish Now" width="49" height="16" /></a>
-    <input class="button" type="submit" name="VersionsButton" value="{'Versions'|i18n('design/standard/content/edit')}" />
+    <input class="button" type="submit" name="VersionsButton" value="{'Manage versions'|i18n('design/admin/content/edit')}" />
 
     <input class="button" type="submit" name="StoreExitButton" value="{'Store and exit'|i18n( 'design/admin/content/edit' )}" title="{'Store the draft that is being edited and exit from edit mode.'|i18n( 'design/admin/content/edit' )}" />
     <input class="button" type="submit" name="PreviewButton" value="{'Preview'|i18n('design/standard/content/edit')}" />
@@ -23,8 +23,6 @@
 </select>
 
 <input {if $object.status|eq(0)}class="button-disabled" disabled="disabled"{else} class="button"{/if} type="submit" name="FromLanguageButton" value="{'Translate'|i18n( 'design/admin/content/edit' )}" title="{'Edit the current object showing the selected language as a reference.'|i18n( 'design/admin/content/edit' )}" />
-
-<input class="button" type="submit" name="DiffAction" value="{'Differences'|i18n('kernel/content')}" />
 
 </div>
 <div class="right">

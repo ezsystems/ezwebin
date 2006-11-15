@@ -1153,6 +1153,7 @@ div.box-et-content-edit
 {
 	left: 0px;
 	margin-bottom: 10px;
+	margin-top: 0.75em;
 }
 
 div.box-et-content-edit div.box-content div.block div.left input
@@ -1284,7 +1285,7 @@ div.box-et div.bl
     left: -2px;
     background: url(../images/et_bl.png) bottom left no-repeat;
     padding: 0.5em;
-	height: 14.6px;
+	height: 14.7px;
 }
 
 div.box-et div.block div.left

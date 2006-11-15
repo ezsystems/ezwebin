@@ -19,7 +19,7 @@
         </div>
         <form method="post" action={"content/action"|ezurl}>
 
-        <h4>{"Name"|i18n("design/base")}</h4>
+        <h4>{"Name"|i18n("design/admin/infocollector/overview")}</h4>
         <div class="attribute-sender-name">
                 {attribute_view_gui attribute=$node.data_map.sender_name}
         </div>
