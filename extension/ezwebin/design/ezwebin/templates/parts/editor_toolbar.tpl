@@ -22,7 +22,7 @@
 	<option value="{$class.id}">{$class.name|wash}</option>
   {/foreach}
   </select>
-  <input type="hidden" name="ContentLanguageCode" value="{$content_object.initial_language_code}" />
+  <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'Locale' , 'site.ini')}" />
   <input class="button" type="submit" name="NewButton" value="{'Create here'|i18n('design/standard/node/view')}" />
 {/if}
 
