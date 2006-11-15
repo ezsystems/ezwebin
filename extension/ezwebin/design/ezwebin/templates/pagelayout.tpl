@@ -159,8 +159,8 @@
     {include uri='design:menu/flat_top.tpl'}
   </div>
   <!-- Top menu area: END -->
-  {if and( or( ne( $module_result.content_info.class_identifier, 'frontpage' ),
-          eq( $module_result.content_info.viewmode, 'sitemap' ) ))}
+  {if or( ne( $module_result.content_info.class_identifier, 'frontpage' ),
+          eq( $module_result.content_info.viewmode, 'sitemap' ) )}
   <hr class="hide" />
   <!-- Path area: START -->
   <div id="path">
@@ -172,7 +172,7 @@
   <hr class="hide" />
   <!-- Toolbar area: START -->
   <div id="toolbar">
-  {if $current_node_id}
+  {if and( $current_node_id, ne( $module_result.content_info.viewmode, 'sitemap' ) )}
   {include uri='design:parts/editor_toolbar.tpl'}
   {/if}
   </div>
