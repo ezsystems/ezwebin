@@ -62,7 +62,7 @@
 </form>
 {*
 	Set URL for login form action
-	site.ini.[SiteSettings].LoginFormActionURL
+	site.ini.[SiteSettings].AdditionalLoginFormActionURL
 *}
 <script type="text/javascript">
 <!--
@@ -74,7 +74,7 @@ function AdminSiteaccessCheckbox( val )
 {ldelim}
 
 	if( val.checked )
-		loginForm.action = '{ezini( 'SiteSettings', 'LoginFormActionURL' )}';
+		loginForm.action = '{ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )}';
 	else 
 		loginForm.action = loginFormDefaultAction;
 
