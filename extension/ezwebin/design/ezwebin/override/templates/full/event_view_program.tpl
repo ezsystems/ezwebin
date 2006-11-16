@@ -116,7 +116,7 @@
 	<p>{attribute_view_gui attribute=$event.object.data_map.category}
 	<br />
 	{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}
-	{if and($event.object.data_map.to_time.has_content,  ne( $event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M"), $event.object.data_map.from_timet.content.timestamp|datetime(custom,"%j %M") ))}
+	{if and($event.object.data_map.to_time.has_content,  ne( $event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M"), $event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M") ))}
 	- {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}
 	{/if}
 	</p>
@@ -133,16 +133,16 @@
 <tr>
 <td>
 {if and($temp_oldest_event|ne(''), lt($oldest_event, $temp_oldest_event))}
-	<a href={concat("/content/view/full/",  $node.node_id,  "/month/", $temp_oldest_event|datetime(custom,"%n"), "/year/", $temp_oldest_event|datetime(custom,"%Y"), "/day/", $temp_oldest_event|datetime(custom,"%j"), "/offset/-1")|ezurl}>&lt;&lt;</a>
+	<a href={concat("/content/view/full/",  $node.node_id,  "/month/", $temp_oldest_event|datetime(custom,"%n"), "/year/", $temp_oldest_event|datetime(custom,"%Y"), "/day/", $temp_oldest_event|datetime(custom,"%j"), "/offset/-1")|ezurl}>&lt;&lt; {"Past events"|i18n("design/standard/ezagenda")}</a>
 {elseif and( $temp_oldest_event|eq(''), $oldest_event|ne(''), lt($oldest_event, $temp_ts) )}
-	<a href={concat("/content/view/full/",  $node.node_id,  "/month/", $temp_ts|datetime(custom,"%n"), "/year/", $temp_ts|datetime(custom,"%Y"), "/day/", $temp_ts|datetime(custom,"%j"), "/offset/-1")|ezurl}>&lt;&lt;</a>
+	<a href={concat("/content/view/full/",  $node.node_id,  "/month/", $temp_ts|datetime(custom,"%n"), "/year/", $temp_ts|datetime(custom,"%Y"), "/day/", $temp_ts|datetime(custom,"%j"), "/offset/-1")|ezurl}>&lt;&lt; {"Past events"|i18n("design/standard/ezagenda")}</a>
 {/if}
 </td>
 <td style=" text-align:right;">
 {if and($temp_newest_event|ne( '' ), gt($newest_event, $temp_newest_event))}
-	<a href={concat("/content/view/full/",  $node.node_id,  "/month/", $temp_newest_event|datetime(custom,"%n"), "/year/", $temp_newest_event|datetime(custom,"%Y"), "/day/", $temp_newest_event|datetime(custom,"%j"), "/offset/1")|ezurl}>&gt;&gt;</a>
+	<a href={concat("/content/view/full/",  $node.node_id,  "/month/", $temp_newest_event|datetime(custom,"%n"), "/year/", $temp_newest_event|datetime(custom,"%Y"), "/day/", $temp_newest_event|datetime(custom,"%j"), "/offset/1")|ezurl}>{"Future events"|i18n("design/standard/ezagenda")} &gt;&gt;</a>
 {elseif and( $temp_newest_event|eq(''), $newest_event|ne(''), gt($newest_event, $temp_ts) )}
-	<a href={concat("/content/view/full/",  $node.node_id,  "/month/", $temp_ts|datetime(custom,"%n"), "/year/", $temp_ts|datetime(custom,"%Y"), "/day/", $temp_ts|datetime(custom,"%j"), "/offset/1")|ezurl}>&gt;&gt;</a>
+	<a href={concat("/content/view/full/",  $node.node_id,  "/month/", $temp_ts|datetime(custom,"%n"), "/year/", $temp_ts|datetime(custom,"%Y"), "/day/", $temp_ts|datetime(custom,"%j"), "/offset/1")|ezurl}>{"Future events"|i18n("design/standard/ezagenda")} &gt;&gt;</a>
 {/if}
 </td>
 </tr>
