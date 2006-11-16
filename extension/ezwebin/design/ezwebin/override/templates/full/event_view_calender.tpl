@@ -1,5 +1,4 @@
-{* Event Calendar - Full view *}
-
+{* Event Calendar - Full Calendar view *}
 {def
 
 	$event_node = $node.node_id
@@ -92,7 +91,6 @@
 <div class="attribute-header">
 	<h1>{$node.name|wash()}</h1>
 </div>
-<!-- {$days} -->
 
 
 <table cellpadding="0" cellspacing="0" width="100%" id="ezagenda" summary="Event Calendar">
@@ -188,8 +186,7 @@
 		<h2>{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}</h2>
 	</td>
 	<td class="ezagenda_month_info">
-	<h2>
-		<a href={$event.url_alias|ezurl}>{$event.name|wash}</a></h2>
+	<h2><a href={$event.url_alias|ezurl}>{$event.name|wash}</a></h2>
 		
 	<p>{attribute_view_gui attribute=$event.object.data_map.category}</p>
 
