@@ -102,7 +102,7 @@
 {else}
 	{foreach $events as $event}
 	{set	$temp_month = $event.object.data_map.from_time.content.timestamp|datetime(custom,"%M")}
-	{set	$temp_year = $event.object.data_map.from_time.content.timestamp|datetime(custom,"%Y")}
+	{set	$temp_year = $event.object.data_map.from_time.content.timestamp|datetime(custom,"%y")}
 		<tr>
 		<td class="ezagenda_month_label"><h2>{$temp_month}<br />{$temp_year}</h2></td>
 		<td class="ezagenda_month">
