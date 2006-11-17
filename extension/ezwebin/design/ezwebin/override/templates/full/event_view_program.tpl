@@ -76,7 +76,7 @@
 		<tr>
 		<td  class="ezagenda_month_label"><h2>{$temp_month}</h2></td>
 		<td class="ezagenda_month">
-	 <table cellpadding="0" cellspacing="0" summary="Agenda Month preview event" {if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} width="98%">
+	 <table cellpadding="0" cellspacing="0" summary="Agenda Month preview event" {if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} width="99%">
 	<tr><td class="ezagenda_month_head">
 	<h2>
 		<a href={$event.url_alias|ezurl}>{$event.name|wash}</a>
@@ -106,7 +106,7 @@
 		<tr>
 		<td class="ezagenda_month_label"><h2>{$temp_month}<br />{$temp_year}</h2></td>
 		<td class="ezagenda_month">
-	 <table cellpadding="0" cellspacing="0" summary="Agenda Month preview event" {if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} width="100%">
+	 <table cellpadding="0" cellspacing="0" summary="Agenda Month preview event" {if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} width="99%">
 	<tr><td class="ezagenda_month_head">
 	<h2>
 		<a href={$event.url_alias|ezurl}>{$event.name|wash}</a>
