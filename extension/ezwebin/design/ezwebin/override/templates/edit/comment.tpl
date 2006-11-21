@@ -8,7 +8,7 @@
     <div class="class-comment">
 
 	<div class="attribute-header">
-    	<h1>{"Edit %1 - %2"|i18n("design/base",,array($class.name|wash,$object.name|wash))}</h1>
+    	<h1>{"Edit %1 - %2"|i18n("design/ezwebin/edit/comment",,array($class.name|wash,$object.name|wash))}</h1>
 	</div>
     {include uri="design:content/edit_validation.tpl"}
 
@@ -41,8 +41,8 @@
     </div>
 
     <div class="buttonblock">
-        <input class="defaultbutton" type="submit" name="PublishButton" value="{'Send for publishing'|i18n('design/base')}" />
-	    <input class="button" type="submit" name="DiscardButton" value="{'Discard'|i18n('design/base')}" />
+        <input class="defaultbutton" type="submit" name="PublishButton" value="{'Send for publishing'|i18n('design/ezwebin/edit/comment')}" />
+	    <input class="button" type="submit" name="DiscardButton" value="{'Discard'|i18n('design/ezwebin/edit/comment')}" />
         <input type="hidden" name="MainNodeID" value="{$main_node_id }" />
         <input type="hidden" name="DiscardConfirm" value="0" />
     </div>

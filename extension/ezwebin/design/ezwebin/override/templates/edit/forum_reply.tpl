@@ -11,7 +11,7 @@
     <div class="class-forum-reply">
 
 		<div class="attribute-header">
-        	<h1>{"Edit %1 - %2"|i18n("design/base",,array($class.name|wash,$object.name|wash))}</h1>
+        	<h1>{"Edit %1 - %2"|i18n("design/ezwebin/edit/forum_reply",,array($class.name|wash,$object.name|wash))}</h1>
 		</div>
 		
         {include uri="design:content/edit_validation.tpl"}
@@ -29,8 +29,8 @@
 		<br/>
 
         <div class="buttonblock">
-            <input class="defaultbutton" type="submit" name="PublishButton" value="{'Send for publishing'|i18n('design/base')}" />
-            <input class="button" type="submit" name="DiscardButton" value="{'Discard'|i18n('design/base')}" />
+            <input class="defaultbutton" type="submit" name="PublishButton" value="{'Send for publishing'|i18n('design/ezwebin/edit/forum_reply')}" />
+            <input class="button" type="submit" name="DiscardButton" value="{'Discard'|i18n('design/ezwebin/edit/forum_reply')}" />
             <input type="hidden" name="DiscardConfirm" value="0" />
         </div>
     </div>
