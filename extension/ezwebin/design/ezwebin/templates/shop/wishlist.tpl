@@ -5,7 +5,7 @@
 <form method="post" action={"/shop/wishlist/"|ezurl}>
 
 <div class="attribute-header">
-    <h1 class="long">{"Wish list"|i18n("design/standard/shop")}</h1>
+    <h1 class="long">{"Wish list"|i18n("design/ezwebin/shop/wishlist")}</h1>
 </div>
 
 {section show=$wish_list.items}
@@ -13,10 +13,10 @@
 <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
 	<th>
-	{"Product"|i18n("design/standard/shop")}
+	{"Product"|i18n("design/ezwebin/shop/wishlist")}
 	</th>
 	<th>
-	{"Count"|i18n("design/standard/shop")}
+	{"Count"|i18n("design/ezwebin/shop/wishlist")}
 	</th>
 	<th>&nbsp;
     
@@ -45,7 +45,7 @@
     <table class="shop-option_list">
     <tr>
         <td colspan='3'>
-        {"Selected options"|i18n("design/standard/shop")}
+        {"Selected options"|i18n("design/ezwebin/shop/wishlist")}
         </td>
     </tr>
     {section var=option_item loop=$ProductItem:item.item_object.option_list}
@@ -64,15 +64,15 @@
 </table>
 
 <div class="buttonblock">
-<input class="button" type="submit" name="StoreChangesButton" value="{'Store'|i18n('design/standard/shop')}" />
-<input class="button" type="submit" name="RemoveProductItemButton" value="{'Remove items'|i18n('design/standard/shop')}" />
+<input class="button" type="submit" name="StoreChangesButton" value="{'Store'|i18n('design/ezwebin/shop/wishlist')}" />
+<input class="button" type="submit" name="RemoveProductItemButton" value="{'Remove items'|i18n('design/ezwebin/shop/wishlist')}" />
 </div>
 
 {section-else}
 
 
 <div class="feedback">
-<h2>{"Empty wish list"|i18n("design/standard/shop")}</h2>
+<h2>{"Empty wish list"|i18n("design/ezwebin/shop/wishlist")}</h2>
 </div>
 {/section}
 </form>

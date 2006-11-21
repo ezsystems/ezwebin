@@ -4,10 +4,10 @@
 <div class="shop-confirmorder">
 
 <ul>
-	<li>1. {"Shopping basket"|i18n("design/standard/toolbar")}</li>
-	<li>2. {"Account information"|i18n("design/admin/shop/userregister")}
+	<li>1. {"Shopping basket"|i18n("design/ezwebin/shop/confirmorder")}</li>
+	<li>2. {"Account information"|i18n("design/ezwebin/shop/confirmorder")}
 </li>
-	<li class="selected">3. {"Confirm order"|i18n("design/base/shop")}</li>
+	<li class="selected">3. {"Confirm order"|i18n("design/ezwebin/shop/confirmorder")}</li>
 </ul>
 
 </div>
@@ -25,7 +25,7 @@
 <form method="post" action={"/shop/confirmorder/"|ezurl}>
 
 <div class="attribute-header">
-	<h1 class="long">{"Confirm order"|i18n("design/standard/shop")}</h1>
+	<h1 class="long">{"Confirm order"|i18n("design/ezwebin/shop/confirmorder")}</h1>
 </div>
 
 {shop_account_view_gui view=html order=$order}
@@ -40,26 +40,26 @@
 {/if}
 
 
-<h3>{"Product items"|i18n("design/standard/shop")}</h3>
+<h3>{"Product items"|i18n("design/ezwebin/shop/confirmorder")}</h3>
 <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
 	<th>
-	{"Count"|i18n("design/standard/shop")}
+	{"Count"|i18n("design/ezwebin/shop/confirmorder")}
 	</th>
 	<th>
-	{"VAT"|i18n("design/standard/shop")}
+	{"VAT"|i18n("design/ezwebin/shop/confirmorder")}
 	</th>
 	<th>
-	{"Price inc. VAT"|i18n("design/standard/shop")}
+	{"Price inc. VAT"|i18n("design/ezwebin/shop/confirmorder")}
 	</th>
 	<th>
-	{"Discount"|i18n("design/standard/shop")}
+	{"Discount"|i18n("design/ezwebin/shop/confirmorder")}
 	</th>
 	<th>
-	{"Total Price ex. VAT"|i18n("design/standard/shop")}
+	{"Total Price ex. VAT"|i18n("design/ezwebin/shop/confirmorder")}
 	</th>
 	<th>
-	{"Total Price inc. VAT"|i18n("design/standard/shop")}
+	{"Total Price inc. VAT"|i18n("design/ezwebin/shop/confirmorder")}
 	</th>
 </tr>
 {section name=ProductItem loop=$order.product_items show=$order.product_items sequence=array(bglight,bgdark)}
@@ -93,7 +93,7 @@
      <table width="100%" cellpadding="0" cellspacing="0">
 <tr>
 <td colspan="3">
-{"Selected options"|i18n("design/standard/shop")}
+{"Selected options"|i18n("design/ezwebin/shop/confirmorder")}
 </td>
 </tr>
      {section name=Options loop=$ProductItem:item.item_object.option_list}
@@ -113,7 +113,7 @@
 
 
 
-<h3>{"Order summary"|i18n("design/standard/shop")}:</h3>
+<h3>{"Order summary"|i18n("design/ezwebin/shop/confirmorder")}:</h3>
 <table class="list" cellspacing="0" cellpadding="0" border="0">
 <tr>
 	<th>Summary</th>
@@ -122,7 +122,7 @@
 </tr>
 <tr class="bglight">
     <td>
-    {"Subtotal of items"|i18n("design/standard/shop")}:
+    {"Subtotal of items"|i18n("design/ezwebin/shop/confirmorder")}:
     </td>
     <td>
     {$order.product_total_ex_vat|l10n( 'currency', $locale, $symbol )}
@@ -147,7 +147,7 @@
 {/section}
 <tr class="bgdark">
     <td>
-    {"Order total"|i18n("design/standard/shop")}:
+    {"Order total"|i18n("design/ezwebin/shop/confirmorder")}:
     </td>
     <td>
     {$order.total_ex_vat|l10n( 'currency', $locale, $symbol )}
@@ -159,8 +159,8 @@
 </table>
 
 <div class="buttonblock">
-<input class="button" type="submit" name="CancelButton" value="{'Cancel'|i18n('design/standard/shop')}" /> &nbsp;
-<input class="button" type="submit" name="ConfirmOrderButton" value="{'Confirm'|i18n('design/standard/shop')}" /> &nbsp;
+<input class="button" type="submit" name="CancelButton" value="{'Cancel'|i18n('design/ezwebin/shop/confirmorder')}" /> &nbsp;
+<input class="button" type="submit" name="ConfirmOrderButton" value="{'Confirm'|i18n('design/ezwebin/shop/confirmorder')}" /> &nbsp;
 </div>
 
 </form>

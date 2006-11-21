@@ -3,14 +3,14 @@
 
 <div class="shop-customerorderview">
 	<div class="attribute-header">
-		<h1 class="long">{"Customer Information"|i18n("design/standard/shop")}</h1>
+		<h1 class="long">{"Customer Information"|i18n("design/ezwebin/shop/customerorderview")}</h1>
 	</div>
 	
 {shop_account_view_gui view=html order=$order_list[0]}
 
 
 <div class="attribute-header">
-	<h1>{"Order list"|i18n("design/standard/shop")}</h1>
+	<h1>{"Order list"|i18n("design/ezwebin/shop/customerorderview")}</h1>
 </div>
 
 {def $currency = false()
@@ -22,16 +22,16 @@
 <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
 	<th>
-	{"ID"|i18n("design/standard/shop")}
+	{"ID"|i18n("design/ezwebin/shop/customerorderview")}
 	</th>
 	<th>
-	{"Date"|i18n("design/standard/shop")}
+	{"Date"|i18n("design/ezwebin/shop/customerorderview")}
 	</th>
 	<th>
-	{"Total ex. VAT"|i18n("design/standard/shop")}
+	{"Total ex. VAT"|i18n("design/ezwebin/shop/customerorderview")}
 	</th>
 	<th>
-	{"Total inc. VAT"|i18n("design/standard/shop")}
+	{"Total inc. VAT"|i18n("design/ezwebin/shop/customerorderview")}
 	</th>
     <th>
 	</th>
@@ -69,23 +69,23 @@
 
 
 <div class="attribute-header">
-  <h1>{"Purchase list"|i18n("design/standard/shop")}</h1>
+  <h1>{"Purchase list"|i18n("design/ezwebin/shop/customerorderview")}</h1>
 </div>
 
 {section show=$product_list}
 <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
 	<th>
-	{"Product"|i18n("design/standard/shop")}
+	{"Product"|i18n("design/ezwebin/shop/customerorderview")}
 	</th>
     <th>
-	{"Amount"|i18n("design/standard/shop")}
+	{"Amount"|i18n("design/ezwebin/shop/customerorderview")}
 	</th>
 	<th>
-	{"Total ex. VAT"|i18n("design/standard/shop")}
+	{"Total ex. VAT"|i18n("design/ezwebin/shop/customerorderview")}
 	</th>
 	<th>
-	{"Total inc. VAT"|i18n("design/standard/shop")}
+	{"Total inc. VAT"|i18n("design/ezwebin/shop/customerorderview")}
 	</th>
 </tr>
 

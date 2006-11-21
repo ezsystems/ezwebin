@@ -4,7 +4,7 @@
 <div class="shop-orderview">
 
 <div class="attribute-header">
-  <h1 class="long">{"Order %order_id [%order_status]"|i18n("design/standard/shop",,
+  <h1 class="long">{"Order %order_id [%order_status]"|i18n("design/ezwebin/shop/orderview",,
        hash( '%order_id', $order.order_nr,
              '%order_status', $order.status_name ) )}</h1>
 </div>
@@ -22,29 +22,29 @@
 
 <br />
 
-<h3>{"Product items"|i18n("design/standard/shop")}</h3>
+<h3>{"Product items"|i18n("design/ezwebin/shop/orderview")}</h3>
 <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
 	<th>
-	{"Product"|i18n("design/standard/shop")}
+	{"Product"|i18n("design/ezwebin/shop/orderview")}
 	</th>
 	<th>
-	{"Count"|i18n("design/standard/shop")}
+	{"Count"|i18n("design/ezwebin/shop/orderview")}
 	</th>
 	<th>
-	{"VAT"|i18n("design/standard/shop")}
+	{"VAT"|i18n("design/ezwebin/shop/orderview")}
 	</th>
 	<th>
-	{"Price inc. VAT"|i18n("design/standard/shop")}
+	{"Price inc. VAT"|i18n("design/ezwebin/shop/orderview")}
 	</th>
 	<th>
-	{"Discount"|i18n("design/standard/shop")}
+	{"Discount"|i18n("design/ezwebin/shop/orderview")}
 	</th>
 	<th>
-	{"Total Price ex. VAT"|i18n("design/standard/shop")}
+	{"Total Price ex. VAT"|i18n("design/ezwebin/shop/orderview")}
 	</th>
 	<th>
-	{"Total Price inc. VAT"|i18n("design/standard/shop")}
+	{"Total Price inc. VAT"|i18n("design/ezwebin/shop/orderview")}
 	</th>
 </tr>
 {section name=ProductItem loop=$order.product_items show=$order.product_items sequence=array(bglight,bgdark)}
@@ -76,11 +76,11 @@
 
 
 
-<h3>{"Order summary"|i18n("design/standard/shop")}:</h3>
+<h3>{"Order summary"|i18n("design/ezwebin/shop/orderview")}:</h3>
 <table class="list" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <th>
-    {"Summary"|i18n("design/standard/shop")}:
+    {"Summary"|i18n("design/ezwebin/shop/orderview")}:
     </th>
     <th>
     Total ex. VAT
@@ -91,7 +91,7 @@
 </tr>
 <tr class="bglight">
     <td>
-    {"Subtotal of items"|i18n("design/standard/shop")}:
+    {"Subtotal of items"|i18n("design/ezwebin/shop/orderview")}:
     </td>
     <td>
     {$order.product_total_ex_vat|l10n( 'currency', $locale, $symbol )}
@@ -116,7 +116,7 @@
 {/section}
 <tr class="bgdark">
     <td>
-    	{"Order total"|i18n("design/standard/shop")}
+    	{"Order total"|i18n("design/ezwebin/shop/orderview")}
     </td>
     <td>
     	{$order.total_ex_vat|l10n( 'currency', $locale, $symbol )}
@@ -128,7 +128,7 @@
 </table>
 
 
-<h3>{"Order history"|i18n("design/standard/shop")}:</h3>
+<h3>{"Order history"|i18n("design/ezwebin/shop/orderview")}:</h3>
 <table class="list" cellspacing="0" cellpadding="0" border="0">
 <tr>
 	<th>Date</th>
