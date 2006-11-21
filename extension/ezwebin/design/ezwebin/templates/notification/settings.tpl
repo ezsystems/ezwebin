@@ -6,7 +6,7 @@
 <form method="post" action={"/notification/settings/"|ezurl}>
 
 <div class="attribute-header">
-	<h1 class="long">{"Notification settings"|i18n('design/standard/notification')}</h1>
+	<h1 class="long">{"Notification settings"|i18n('design/ezwebin/notification/settings')}</h1>
 </div>
 
 {def $handlers=fetch('notification','handler_list')}
@@ -16,7 +16,7 @@
     {/foreach}
 
 
-<input class="button" type="submit" name="Store" value="{'Store'|i18n('design/standard/notification')}" />
+<input class="button" type="submit" name="Store" value="{'Store'|i18n('design/ezwebin/notification/settings')}" />
 </form>
 
 </div>

@@ -41,14 +41,14 @@
     {set $pagerootdepth = 1}
 {/if}
 {if $current_node_id}
-	{set $infobox_count = fetch( 'content', 'list_count', hash( 
+	{set $infobox_count = fetch( 'content', 'list_count', hash(
 	                                        'parent_node_id', $current_node_id,
                                             'class_filter_type', 'include',
                                             'class_filter_array', array( 'infobox' ) ) )}
 	{if $module_result.path|count|gt($pagerootdepth|dec)}
 	    {set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
 	{/if}
-	    
+
 	{if is_set( $module_result.path[1] )}
 	    {if ne( $infobox_count , 0 ) }
 	        {set $pagestyle = 'sidemenu extrainfo'}
@@ -146,7 +146,7 @@
       <form action={"/content/search"|ezurl}>
         <label for="searchtext" class="hide">Search text:</label>
         <input id="searchtext" name="SearchText" type="text" size="12" />
-        <input id="searchbutton" class="button" type="submit" value="{'Search'|i18n('design/standard/content/search')}" />
+        <input id="searchbutton" class="button" type="submit" value="{'Search'|i18n('design/ezwebin/templates/pagelayout')}" />
       </form>
     </div>
     <p class="hide"><a href="#main">Skip to main content</a></p>
@@ -173,7 +173,7 @@
   <!-- Toolbar area: START -->
   <div id="toolbar">
   {if and( $current_node_id, ne( $module_result.content_info.viewmode, 'sitemap' ) )}
-  {include uri='design:parts/editor_toolbar.tpl'}
+  {include uri='design:parts/website_toolbar.tpl'}
   {/if}
   </div>
   <!-- Toolbar area: END -->
@@ -238,7 +238,7 @@
   <div id="footer">
     <address>
     {if $pagedesign.data_map.footer_text.has_content}
-        {$pagedesign.data_map.footer_text.content} 
+        {$pagedesign.data_map.footer_text.content}
     {/if}
     <br />
     {if $pagedesign.data_map.hide_powered_by.data_int|not}

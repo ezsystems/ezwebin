@@ -1,21 +1,21 @@
 
 {let subscribed_nodes=$handler.rules}
 
-<h2>{"Node notification"|i18n("design/standard/notification")}</h2>
+<h2>{"Node notification"|i18n("design/ezwebin/settings/edit")}</h2>
 
 <table class="list" width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
 	<th width="69%">
-	{"Name"|i18n("design/standard/notification")}
+	{"Name"|i18n("design/ezwebin/settings/edit")}
 	</th>
 	<th width="30%">
-	{"Class"|i18n("design/standard/notification")}
+	{"Class"|i18n("design/ezwebin/settings/edit")}
 	</th>
 	<th width="30%">
-	{"Section"|i18n("design/standard/notification")}
+	{"Section"|i18n("design/ezwebin/settings/edit")}
 	</th>
 	<th width="1%">
-	{"Select"|i18n("design/standard/notification")}
+	{"Select"|i18n("design/ezwebin/settings/edit")}
 	</th>
 </tr>
 
@@ -41,7 +41,7 @@
 {/section}
 </table>
 <div class="buttonblock">
-<input class="button" type="submit" name="RemoveRule_{$handler.id_string}" value="{'Remove'|i18n('design/standard/notification')}" />
+<input class="button" type="submit" name="RemoveRule_{$handler.id_string}" value="{'Remove'|i18n('design/ezwebin/settings/edit')}" />
 </div>
 
 {/let}
