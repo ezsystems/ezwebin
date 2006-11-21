@@ -6,7 +6,7 @@
 <form enctype="multipart/form-data"  action={"/user/register/"|ezurl} method="post" name="Register">
 
 <div class="attribute-header">
-    <h1 class="long">{"Register user"|i18n("design/standard/user")}</h1>
+    <h1 class="long">{"Register user"|i18n("design/ezwebin/user/register")}</h1>
 </div>
 
 {if and( and( is_set( $checkErrNodeId ), $checkErrNodeId ), eq( $checkErrNodeId, true ) )}
@@ -19,7 +19,7 @@
 
 	{if $validation.attributes|count|gt(0)}
 		<div class="warning">
-		<h2>{"Input did not validate"|i18n("design/standard/user")}</h2>
+		<h2>{"Input did not validate"|i18n("design/ezwebin/user/register")}</h2>
 		<ul>
 		{foreach $validation.attributes as $attribute}
 			<li>{$attribute.name}: {$attribute.description}</li>
@@ -28,7 +28,7 @@
 		</div>
 	{else}
 		<div class="feedback">
-		<h2>{"Input was stored successfully"|i18n("design/standard/user")}</h2>
+		<h2>{"Input was stored successfully"|i18n("design/ezwebin/user/register")}</h2>
 		</div>
 	{/if}
 
@@ -46,17 +46,17 @@
     <div class="buttonblock">
          <input class="button" type="hidden" name="UserID" value="{$content_attributes[0].contentobject_id}" />
     {if and( is_set( $checkErrNodeId ), $checkErrNodeId )|not()}
-        <input class="button" type="submit" name="PublishButton" value="{'Register'|i18n('design/standard/user')}" />
+        <input class="button" type="submit" name="PublishButton" value="{'Register'|i18n('design/ezwebin/user/register')}" />
     {else}	
-       	<input class="button" type="submit" name="PublishButton" disabled="disabled" value="{'Register'|i18n('design/standard/user')}" />
+       	<input class="button" type="submit" name="PublishButton" disabled="disabled" value="{'Register'|i18n('design/ezwebin/user/register')}" />
     {/if}
-	<input class="button" type="submit" name="CancelButton" value="{'Discard'|i18n('design/standard/user')}" />
+	<input class="button" type="submit" name="CancelButton" value="{'Discard'|i18n('design/ezwebin/user/register')}" />
     </div>
 {else}
 	<div class="warning">
-		 <h2>{"Unable to register new user"|i18n("design/standard/user")}</h2>
+		 <h2>{"Unable to register new user"|i18n("design/ezwebin/user/register")}</h2>
 	</div>
-	<input class="button" type="submit" name="CancelButton" value="{'Back'|i18n('design/standard/user')}" />
+	<input class="button" type="submit" name="CancelButton" value="{'Back'|i18n('design/ezwebin/user/register')}" />
 {/if}
 </form>
 
