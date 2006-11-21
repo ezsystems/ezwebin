@@ -9,11 +9,11 @@
 function checkAll()
 {
 {/literal}
-    if ( document.draftaction.selectall.value == "{'Select all'|i18n('design/standard/content/view')}" )
+    if ( document.draftaction.selectall.value == "{'Select all'|i18n('design/ezwebin/content/draft')}" )
 {literal}
     {
 {/literal}
-        document.draftaction.selectall.value = "{'Deselect all'|i18n('design/standard/content/view')}";
+        document.draftaction.selectall.value = "{'Deselect all'|i18n('design/ezwebin/content/draft')}";
 {literal}
         with (document.draftaction) 
 	{
@@ -27,7 +27,7 @@ function checkAll()
      else
      {
 {/literal}
-         document.draftaction.selectall.value = "{'Select all'|i18n('design/standard/content/view')}";
+         document.draftaction.selectall.value = "{'Select all'|i18n('design/ezwebin/content/draft')}";
 {literal}
          with (document.draftaction) 
 	 {
@@ -48,7 +48,7 @@ function checkAll()
 <form name="draftaction" action={concat("content/draft/")|ezurl} method="post" >
 
 <div class="attribute-header">
-	<h1 class="long">{"My drafts"|i18n("design/standard/content/view")}</h1>
+	<h1 class="long">{"My drafts"|i18n("design/ezwebin/content/draft")}</h1>
 </div>
 
 {def $draft_list=fetch('content','draft_version_list',hash(limit,$page_limit,offset,$view_parameters.offset))}
@@ -56,24 +56,24 @@ function checkAll()
 {if $draft_list|count()}
 
 <div class="buttonblock">
-<input class="button" type="submit" name="EmptyButton" value="{'Empty Draft'|i18n('design/standard/content/view')}" />
+<input class="button" type="submit" name="EmptyButton" value="{'Empty Draft'|i18n('design/ezwebin/content/draft')}" />
 </div>
 
 <p>
     {"These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-      You can either edit the drafts or remove them if you don't need them any more."|i18n("design/standard/content/view")|nl2br}
+      You can either edit the drafts or remove them if you don't need them any more."|i18n("design/ezwebin/content/draft")|nl2br}
 </p>
 
 <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <th></th>
-    <th>{"Name"|i18n("design/standard/content/view")}</th>
-    <th>{"Class"|i18n("design/standard/content/view")}</th>
-    <th>{"Section"|i18n("design/standard/content/view")}</th>
-    <th>{"Version"|i18n("design/standard/content/view")}</th>
-    <th>{"Language"|i18n("design/standard/content/view")}</th>
-    <th>{"Last modified"|i18n("design/standard/content/view")}</th>
-    <th>{"Edit"|i18n("design/standard/content/view")}</th>
+    <th>{"Name"|i18n("design/ezwebin/content/draft")}</th>
+    <th>{"Class"|i18n("design/ezwebin/content/draft")}</th>
+    <th>{"Section"|i18n("design/ezwebin/content/draft")}</th>
+    <th>{"Version"|i18n("design/ezwebin/content/draft")}</th>
+    <th>{"Language"|i18n("design/ezwebin/content/draft")}</th>
+    <th>{"Last modified"|i18n("design/ezwebin/content/draft")}</th>
+    <th>{"Edit"|i18n("design/ezwebin/content/draft")}</th>
 </tr>
 
 {foreach $draft_list as $draft sequence array(bglight,bgdark) as $style}
@@ -106,13 +106,13 @@ function checkAll()
 {/foreach}
 <tr class="bgdark">
     <td colspan="1" align="left" width="1">
-        <input type="image" name="RemoveButton" value="{'Remove'|i18n('design/standard/content/view')}" src={"trash.png"|ezimage} />
+        <input type="image" name="RemoveButton" value="{'Remove'|i18n('design/ezwebin/content/draft')}" src={"trash.png"|ezimage} />
     </td>
     <td colspan="7">
     </td>
 </tr>
 </table>
-<input class="button" name="selectall" onclick=checkAll() type="button" value="{'Select all'|i18n('design/standard/content/view')}" />
+<input class="button" name="selectall" onclick=checkAll() type="button" value="{'Select all'|i18n('design/ezwebin/content/draft')}" />
 {include name=navigator
          uri='design:navigator/google.tpl'
          page_uri='/content/draft'
@@ -123,7 +123,7 @@ function checkAll()
 {else}
 
 <div class="feedback">
-<h2>{"You have no drafts"|i18n("design/standard/content/view")}</h2>
+<h2>{"You have no drafts"|i18n("design/ezwebin/content/draft")}</h2>
 </div>
 
 {/if}

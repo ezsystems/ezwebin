@@ -25,20 +25,20 @@
     {include name=Description uri=$browse.description_template browse=$browse main_node=$main_node}
 {section-else}
     <div class="attribute-header">
-    <h1 class="long">{"Browse"|i18n("design/standard/content/browse")} - {$main_node.name|wash}</h1>
+    <h1 class="long">{"Browse"|i18n("design/ezwebin/content/browse")} - {$main_node.name|wash}</h1>
     </div>
 
-    <p>{'To select objects, choose the appropriate radiobutton or checkbox(es), and click the "Select" button.'|i18n("design/standard/content/browse")}</p>
-    <p>{'To select an object that is a child of one of the displayed objects, click the object name and you will get a list of the children of the object.'|i18n("design/standard/content/browse")}</p>
+    <p>{'To select objects, choose the appropriate radiobutton or checkbox(es), and click the "Select" button.'|i18n("design/ezwebin/content/browse")}</p>
+    <p>{'To select an object that is a child of one of the displayed objects, click the object name and you will get a list of the children of the object.'|i18n("design/ezwebin/content/browse")}</p>
 {/section}
 
 {let current_node=fetch( content, node, hash( node_id, $browse.start_node ) )}
 {section show=$browse.start_node|gt( 1 )}
     <h2 class="context-title">
-    <a href={concat( '/content/browse/', $main_node.parent_node_id, '/' )|ezurl}><img src={'back-button-16x16.gif'|ezimage} alt="{'Back'|i18n( 'design/admin/content/browse' )}" /></a>
+    <a href={concat( '/content/browse/', $main_node.parent_node_id, '/' )|ezurl}><img src={'back-button-16x16.gif'|ezimage} alt="{'Back'|i18n( 'design/ezwebin/content/browse' )}" /></a>
     {$current_node.name|wash}&nbsp;[{$current_node.children_count}]</h2>
 {section-else}
-    <h2 class="context-title"><img src={'back-button-16x16.gif'|ezimage} alt="Back" />&nbsp;{'Top level'|i18n( 'design/admin/content/browse' )}&nbsp;[{$current_node.children_count}]</h2>
+    <h2 class="context-title"><img src={'back-button-16x16.gif'|ezimage} alt="Back" />&nbsp;{'Top level'|i18n( 'design/ezwebin/content/browse' )}&nbsp;[{$current_node.children_count}]</h2>
 {/section}
 {/let}
 
@@ -61,13 +61,13 @@
 <input type="hidden" name="{$browse.browse_custom_action.name}" value="{$browse.browse_custom_action.value}" />
 {/section}
 
-        <input class="button" type="submit" name="SelectButton" value="{'Select'|i18n('design/standard/content/browse')}" />
+        <input class="button" type="submit" name="SelectButton" value="{'Select'|i18n('design/ezwebin/content/browse')}" />
 
 
 {section show=$cancel_action}
 <input type="hidden" name="BrowseCancelURI" value="{$cancel_action}" />
 {/section}
- <input class="button" type="submit" name="BrowseCancelButton" value="{'Cancel'|i18n( 'design/standard/content/browse' )}" />
+ <input class="button" type="submit" name="BrowseCancelButton" value="{'Cancel'|i18n( 'design/ezwebin/content/browse' )}" />
 </form>
 
 {/let}

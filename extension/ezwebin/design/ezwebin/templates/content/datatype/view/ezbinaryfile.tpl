@@ -10,7 +10,7 @@
     {/case}
 {/switch}
 {section-else}
-	<div class="message-error"><h2>{"The file could not be found."|i18n("design/base")}</h2></div>
+	<div class="message-error"><h2>{"The file could not be found."|i18n("design/ezwebin/view/ezbinaryfile")}</h2></div>
 {/section}
 {/section}
 {/default}

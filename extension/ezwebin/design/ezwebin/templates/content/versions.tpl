@@ -9,34 +9,34 @@
 <form action={concat("/content/versions/",$object.id,"/")|ezurl} method="post">
 
 <div class="attribute-header">
-	<h1 class="long">{"Versions for: %1"|i18n("design/standard/content/version",,array($object.name|wash))}</h1>
+	<h1 class="long">{"Versions for: %1"|i18n("design/ezwebin/content/versions",,array($object.name|wash))}</h1>
 </div>
 
 {switch match=$edit_warning}
 {case match=1}
 <div class="warning">
-<h2>{"Version not a draft"|i18n("design/standard/content/version")}</h2>
+<h2>{"Version not a draft"|i18n("design/ezwebin/content/versions")}</h2>
 <ul>
-    <li>{"Version %1 is not available for editing any more, only drafts can be edited."|i18n("design/standard/content/version",,array($edit_version))}</li>
-    <li>{"To edit this version create a copy of it."|i18n("design/standard/content/version")}</li>
+    <li>{"Version %1 is not available for editing any more, only drafts can be edited."|i18n("design/ezwebin/content/versions",,array($edit_version))}</li>
+    <li>{"To edit this version create a copy of it."|i18n("design/ezwebin/content/versions")}</li>
 </ul>
 </div>
 {/case}
 {case match=2}
 <div class="warning">
-<h2>{"Version not yours"|i18n("design/standard/content/version")}</h2>
+<h2>{"Version not yours"|i18n("design/ezwebin/content/versions")}</h2>
 <ul>
-    <li>{"Version %1 was not created by you, only your own drafts can be edited."|i18n("design/standard/content/version",,array($edit_version))}</li>
-    <li>{"To edit this version create a copy of it."|i18n("design/standard/content/version")}</li>
+    <li>{"Version %1 was not created by you, only your own drafts can be edited."|i18n("design/ezwebin/content/versions",,array($edit_version))}</li>
+    <li>{"To edit this version create a copy of it."|i18n("design/ezwebin/content/versions")}</li>
 </ul>
 </div>
 {/case}
 {case match=3}
 <div class="warning">
-<h2>{"Unable to create new version"|i18n("design/standard/content/version")}</h2>
+<h2>{"Unable to create new version"|i18n("design/ezwebin/content/versions")}</h2>
 <ul>
-    <li>{"Version history limit has been exceeded and no archived version can be removed by the system."|i18n("design/standard/content/version")}</li>
-    <li>{"You can change your version history settings in content.ini, remove draft versions or edit existing drafts."|i18n("design/standard/content/version")}</li>
+    <li>{"Version history limit has been exceeded and no archived version can be removed by the system."|i18n("design/ezwebin/content/versions")}</li>
+    <li>{"You can change your version history settings in content.ini, remove draft versions or edit existing drafts."|i18n("design/ezwebin/content/versions")}</li>
 </ul>
 </div>
 {/case}
@@ -49,20 +49,20 @@
 <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
 	<th colspan="2">
-	{"Version"|i18n("design/standard/content/version")}:
+	{"Version"|i18n("design/ezwebin/content/versions")}:
 	</th>
 	<th>
-	{"Status"|i18n("design/standard/content/version")}:
+	{"Status"|i18n("design/ezwebin/content/versions")}:
 	</th>
 	<th>
-	{"Translations"|i18n("design/standard/content/version")}:
+	{"Translations"|i18n("design/ezwebin/content/versions")}:
 	</th>
 	<th>
-	{"Creator"|i18n("design/standard/content/version")}:
+	{"Creator"|i18n("design/ezwebin/content/versions")}:
 	</th>
 	{section show=$can_edit}
 	<th colspan="2">
-	{"Modified"|i18n("design/standard/content/version")}:
+	{"Modified"|i18n("design/ezwebin/content/versions")}:
 	</th>
 	{/section}
 </tr>
@@ -101,7 +101,7 @@
 {/section}
 <tr class="bgdark">
     <td colspan="1" align="left" width="1">
-        <input type="image" name="RemoveButton" value="{'Remove'|i18n('design/standard/content/view')}" src={"trash.png"|ezimage} />
+        <input type="image" name="RemoveButton" value="{'Remove'|i18n('design/ezwebin/content/versions')}" src={"trash.png"|ezimage} />
     </td>
     <td colspan="7">
     </td>
@@ -117,8 +117,8 @@
 
 {section show=$can_edit}
 <div class="buttonblock" align="right">
-<input class="button" type="submit" name="EditButton" value="{'Edit'|i18n('design/standard/content/version')}" />
-<input class="button" type="submit" name="CopyVersionButton" value="{'Copy and edit'|i18n('design/standard/content/version')}" />
+<input class="button" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/content/versions')}" />
+<input class="button" type="submit" name="CopyVersionButton" value="{'Copy and edit'|i18n('design/ezwebin/content/versions')}" />
 </div>
 {/section}
 

@@ -2,16 +2,16 @@
 <tr>
     <th class="tight">
     {section show=eq( $select_type, 'checkbox' )}
-        <img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection.'|i18n( 'design/admin/content/browse' )}" title="{'Invert selection.'|i18n( 'design/admin/content/browse' )}" onclick="ezjs_toggleCheckboxes( document.browse, '{$select_name}[]' ); return false;" />
+        <img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection.'|i18n( 'design/ezwebin/content/browse_mode_list' )}" title="{'Invert selection.'|i18n( 'design/ezwebin/content/browse_mode_list' )}" onclick="ezjs_toggleCheckboxes( document.browse, '{$select_name}[]' ); return false;" />
     {section-else}
         &nbsp;
     {/section}
     </th>
     <th class="wide">
-    {'Name'|i18n( 'design/admin/content/browse' )}
+    {'Name'|i18n( 'design/ezwebin/content/browse_mode_list' )}
     </th>
     <th class="tight">
-    {'Type'|i18n( 'design/admin/content/browse' )}
+    {'Type'|i18n( 'design/ezwebin/content/browse_mode_list' )}
     </th>
 </tr>
 

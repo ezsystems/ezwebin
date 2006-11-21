@@ -26,8 +26,8 @@
 
     {if $existing_languages_output|trim}
         <fieldset>
-        <legend>{'Existing languages'|i18n('design/standard/content/edit_languages')}</legend>
-        <p>{'Select the language you want to use when editing the object'|i18n('design/standard/content/edit_languages')}:</p>
+        <legend>{'Existing languages'|i18n('design/ezwebin/content/edit_languages')}</legend>
+        <p>{'Select the language you want to use when editing the object'|i18n('design/ezwebin/content/edit_languages')}:</p>
 
         {$existing_languages_output}
         </fieldset>
