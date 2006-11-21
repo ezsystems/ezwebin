@@ -17,7 +17,7 @@
 
 	{if gt(count($list_data),0)}
 	<div class="content-view-children">
-	<strong>{"Next events"|i18n("design/standard/ezagenda")}:</strong>
+	<strong>{"Next events"|i18n("design/ezwebin/line/event_calender")}:</strong>
 		{foreach $list_data as $event}
 		{if or( eq($event.object.data_map.to_time.content.timestamp|datetime( custom, '%j%m'), $event_ts|datetime( custom, '%j%m')),
 				eq($event.object.data_map.from_time.content.timestamp|datetime( custom, '%j%m'), $event_ts|datetime( custom, '%j%m')),

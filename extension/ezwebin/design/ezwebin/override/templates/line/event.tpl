@@ -11,7 +11,7 @@
 	</h2>
 	<div class="attribute-byline">
 	<p class="ezagenda_date">
-	{"Category"|i18n("design/standard/ezagenda")}:
+	{"Category"|i18n("design/ezwebin/line/event")}:
 	{$node.data_map.category.class_content.options[$node.data_map.category.value[0]].name|wash()}
 	<br />
 	{$node.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
