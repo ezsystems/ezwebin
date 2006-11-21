@@ -36,11 +36,11 @@
         <div class="content-navigator">
             {section show=$previous_topic}
                 <div class="content-navigator-previous">
-                    <div class="content-navigator-arrow">&laquo;&nbsp;</div><a href={$previous_topic[0].url_alias|ezurl} title="{$previous_topic[0].name|wash}">{'Previous topic'|i18n( 'design/base' )}</a>
+                    <div class="content-navigator-arrow">&laquo;&nbsp;</div><a href={$previous_topic[0].url_alias|ezurl} title="{$previous_topic[0].name|wash}">{'Previous topic'|i18n( 'design/ezwebin/full/forum_topic' )}</a>
                 </div>
             {section-else}
                 <div class="content-navigator-previous-disabled">
-                    <div class="content-navigator-arrow">&laquo;&nbsp;</div>{'Previous topic'|i18n( 'design/base' )}
+                    <div class="content-navigator-arrow">&laquo;&nbsp;</div>{'Previous topic'|i18n( 'design/ezwebin/full/forum_topic' )}
                 </div>
             {/section}
 
@@ -62,28 +62,28 @@
 
             {section show=$next_topic}
                 <div class="content-navigator-next">
-                    <a href={$next_topic[0].url_alias|ezurl} title="{$next_topic[0].name|wash}">{'Next topic'|i18n( 'design/base' )}</a><div class="content-navigator-arrow">&nbsp;&raquo;</div>
+                    <a href={$next_topic[0].url_alias|ezurl} title="{$next_topic[0].name|wash}">{'Next topic'|i18n( 'design/ezwebin/full/forum_topic' )}</a><div class="content-navigator-arrow">&nbsp;&raquo;</div>
                 </div>
             {section-else}
                 <div class="content-navigator-next-disabled">
-                    {'Next topic'|i18n( 'design/base' )}<div class="content-navigator-arrow">&nbsp;&raquo;</div>
+                    {'Next topic'|i18n( 'design/ezwebin/full/forum_topic' )}<div class="content-navigator-arrow">&nbsp;&raquo;</div>
                 </div>
             {/section}
         </div>
 
         {section show=$node.object.can_create}
         <form method="post" action={"content/action/"|ezurl}>
-            <input class="button forum-new-reply" type="submit" name="NewButton" value="{'New reply'|i18n( 'design/base' )}" />
+            <input class="button forum-new-reply" type="submit" name="NewButton" value="{'New reply'|i18n( 'design/ezwebin/full/forum_topic' )}" />
             <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
             <input type="hidden" name="ContentObjectID" value="{$node.contentobject_id}" />
-            <input class="button forum-keep-me-updated" type="submit" name="ActionAddToNotification" value="{'Keep me updated'|i18n( 'design/base' )}" />
+            <input class="button forum-keep-me-updated" type="submit" name="ActionAddToNotification" value="{'Keep me updated'|i18n( 'design/ezwebin/full/forum_topic' )}" />
             <input type="hidden" name="NodeID" value="{$node.node_id}" />
             <input type="hidden" name="ClassIdentifier" value="forum_reply" />
 			<input type="hidden" name="ContentLanguageCode" value="{$node.object.initial_language_code}" />
         </form>
         {section-else}
            <p>
-            {"You need to be logged in to get access to the forums. You can do so"|i18n("design/base")} <a href={"/user/login/"|ezurl}>{"here"|i18n("design/base")}</a>
+            {"You need to be logged in to get access to the forums. You can do so"|i18n("design/ezwebin/full/forum_topic")} <a href={"/user/login/"|ezurl}>{"here"|i18n("design/ezwebin/full/forum_topic")}</a>
            </p>
         {/section}
         {/section}
@@ -91,10 +91,10 @@
             <table class="list forum" cellspacing="0">
             <tr>
                 <th class="author">
-                    {"Author"|i18n("design/base")}
+                    {"Author"|i18n("design/ezwebin/full/forum_topic")}
                 </th>
                 <th class="message">
-                    {"Message"|i18n("design/base")}
+                    {"Message"|i18n("design/ezwebin/full/forum_topic")}
                  </th>
             </tr>
             {section show=$view_parameters.offset|lt( 1 )}
@@ -112,13 +112,13 @@
                    {/section}
 
                    {section show=is_set( $owner_map.location )}
-                       <p>{"Location"|i18n( "design/base" )}: {$owner_map.location.content|wash}</p>
+                       <p>{"Location"|i18n( "design/ezwebin/full/forum_topic" )}: {$owner_map.location.content|wash}</p>
                    {/section}
                    <p>
                       {let owner_id=$node.object.owner_id}
                           {section var=author loop=$node.object.author_array}
                               {section show=eq($owner_id,$author.contentobject_id)|not()}
-                                  {"Moderated by"|i18n( "design/base" )}: {$author.contentobject.name|wash}
+                                  {"Moderated by"|i18n( "design/ezwebin/full/forum_topic" )}: {$author.contentobject.name|wash}
                               {/section}
                           {/section}
                       {/let}
@@ -127,7 +127,7 @@
                   {section show=$node.object.can_edit}
                       <form method="post" action={"content/action/"|ezurl}>
                           <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
-                          <input class="button forum-account-edit" type="submit" name="EditButton" value="{'Edit'|i18n('design/base')}" />
+                          <input class="button forum-account-edit" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/full/forum_topic')}" />
 						  <input type="hidden" name="ContentObjectLanguageCode" value="{$node.object.initial_language_code}" />
                       </form>
                   {/section}
@@ -135,7 +135,7 @@
                       <form method="post" action={"content/action/"|ezurl}>
                           <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
                           <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
-						  <input class="button" type="submit" name="ActionRemove" value="{'Remove'|i18n( 'design/admin/node/view/full' )}" title="{'Remove this item.'|i18n( 'design/admin/node/view/full' )}" />                      </form>
+						  <input class="button" type="submit" name="ActionRemove" value="{'Remove'|i18n( 'design/ezwebin/full/forum_topic' )}" title="{'Remove this item.'|i18n( 'design/ezwebin/full/forum_topic' )}" />                      </form>
                   {/section}
 
                </td>

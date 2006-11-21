@@ -46,7 +46,7 @@
         {* Should we allow comments? *}
         {if is_unset( $versionview_mode )}
         {if $node.data_map.enable_comments.data_int}
-            <h1>{"Comments"|i18n("design/base")}</h1>
+            <h1>{"Comments"|i18n("design/ezwebin/full/article")}</h1>
                 <div class="content-view-children">
                     {foreach fetch_alias( comments, hash( parent_node_id, $node.node_id ) ) as $comment}
                         {node_view_gui view='line' content_node=$comment}
@@ -61,7 +61,7 @@
                     <form method="post" action={"content/action"|ezurl}>
                     <input type="hidden" name="ClassIdentifier" value="comment" />
                     <input type="hidden" name="NodeID" value="{$node.node_id}" />
-                    <input class="button new_comment" type="submit" name="NewButton" value="{'New Comment'|i18n( 'design/base' )}" />
+                    <input class="button new_comment" type="submit" name="NewButton" value="{'New Comment'|i18n( 'design/ezwebin/full/article' )}" />
                     </form>
                 {else}
                     <p><a href={"/user/login"|ezurl}>Log in</a> or <a href={"/user/register"|ezurl}>create a user account</a> to comment.</p>

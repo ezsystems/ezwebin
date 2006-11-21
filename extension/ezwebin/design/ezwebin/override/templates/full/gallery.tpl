@@ -34,7 +34,7 @@
         {if $children|count}
             <div class="attribute-link">
                 <p>
-                <a href={$children[0].url_alias|ezurl}>{'View as slideshow'|i18n( 'design/base' )}</a>
+                <a href={$children[0].url_alias|ezurl}>{'View as slideshow'|i18n( 'design/ezwebin/full/gallery' )}</a>
                 </p>
             </div>
 

@@ -105,13 +105,13 @@
 <th><a href={$url_forward|ezurl} title=" Next Month ">&gt;&gt;</a></th>
 </tr>
 <tr>
-	<th>{"Mon"|i18n("design/standard/ezagenda")}</th>
-	<th>{"Tue"|i18n("design/standard/ezagenda")}</th>
-	<th>{"Wed"|i18n("design/standard/ezagenda")}</th>
-	<th>{"Thu"|i18n("design/standard/ezagenda")}</th>
-	<th>{"Fri"|i18n("design/standard/ezagenda")}</th>
-	<th>{"Sat"|i18n("design/standard/ezagenda")}</th>
-	<th>{"Sun"|i18n("design/standard/ezagenda")}</th>
+	<th>{"Mon"|i18n("design/ezwebin/full/event_view_calender")}</th>
+	<th>{"Tue"|i18n("design/ezwebin/full/event_view_calender")}</th>
+	<th>{"Wed"|i18n("design/ezwebin/full/event_view_calender")}</th>
+	<th>{"Thu"|i18n("design/ezwebin/full/event_view_calender")}</th>
+	<th>{"Fri"|i18n("design/ezwebin/full/event_view_calender")}</th>
+	<th>{"Sat"|i18n("design/ezwebin/full/event_view_calender")}</th>
+	<th>{"Sun"|i18n("design/ezwebin/full/event_view_calender")}</th>
 </tr>
 </thead>
 <tbody>
@@ -212,7 +212,7 @@
 <tr>
 <td id="ezagenda_day">
 	{if eq($curr_ts|datetime( custom, '%j'),$temp_ts|datetime( custom, '%j'))}
-		<h2>{"Today"|i18n("design/standard/ezagenda")}:</h2>
+		<h2>{"Today"|i18n("design/ezwebin/full/event_view_calender")}:</h2>
 	{else}
 		<h2>{$temp_ts|datetime( custom, '%l %j')|upfirst()}:</h2>
 	{/if}
@@ -226,7 +226,7 @@
 		<a href={$day_event.url_alias|ezurl}>{$day_event.name|wash}</a>
 	</h2>
 	<span>
-	{"Category"|i18n("design/standard/ezagenda")}:
+	{"Category"|i18n("design/ezwebin/full/event_view_calender")}:
 	{attribute_view_gui attribute=$day_event.object.data_map.category}<br />
 	{$day_event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
 	{if $day_event.object.data_map.to_time.has_content}

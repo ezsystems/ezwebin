@@ -2,17 +2,17 @@
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
 <div class="attribute-header">
-	<h1>{"Message preview"|i18n("design/base")}</h1>
+	<h1>{"Message preview"|i18n("design/ezwebin/full/forum_reply")}</h1>
 </div>
 
 <div class="forum_level4">
 <table class="forum" cellspacing="0">
 <tr>
     <th class="author">
-    {"Author"|i18n("design/base")}
+    {"Author"|i18n("design/ezwebin/full/forum_reply")}
     </th>
     <th class="message">
-    {"Topic"|i18n("design/base")}
+    {"Topic"|i18n("design/ezwebin/full/forum_reply")}
     </th>
 </tr>
 <tr class="bglightforum">
@@ -30,13 +30,13 @@
         {/if}
 
         {if is_set( $owner_map.location )}
-            <p>{"Location"|i18n("design/base")}:{$owner_map.location.content|wash}</p>
+            <p>{"Location"|i18n("design/ezwebin/full/forum_reply")}:{$owner_map.location.content|wash}</p>
         {/if}
         <p>
         {def $owner_id=$node.object.owner.id}
             {foreach $node.object.author_array as $author}
                 {if eq($owner_id,$author.contentobject_id)|not()}
-                    {"Moderated by"|i18n("design/base")}: {$author.contentobject.name|wash}
+                    {"Moderated by"|i18n("design/ezwebin/full/forum_reply")}: {$author.contentobject.name|wash}
                  {/if}
              {/foreach}
         </p>
@@ -47,7 +47,7 @@
         <br/>
 
         <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
-        <input class="button forum-edit-reply" type="submit" name="EditButton" value="{'Edit'|i18n('design/base')}" />
+        <input class="button forum-edit-reply" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/full/forum_reply')}" />
 
         </form>
         {/if}

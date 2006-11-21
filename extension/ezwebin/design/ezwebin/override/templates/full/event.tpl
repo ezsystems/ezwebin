@@ -14,7 +14,7 @@
 	<div class="attribute-byline">
 	<p class="ezagenda_date">
 
-	{"Category"|i18n("design/standard/ezagenda")}:
+	{"Category"|i18n("design/ezwebin/full/event")}:
 	{attribute_view_gui attribute=$node.object.data_map.category}<br />
 	{$node.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
 	{if $node.object.data_map.to_time.has_content}

@@ -25,9 +25,9 @@
         <table class="list forum" cellspacing="0">
             <tr>
                 <th> Forum </th>
-                <th class="topic">{"Topics"|i18n( "design/base" )}</th>
-                <th class="replies">{"Posts"|i18n( "design/base" )}</th>
-                <th class="lastreply">{"Last reply"|i18n( "design/base" )}</th>
+                <th class="topic">{"Topics"|i18n( "design/ezwebin/full/forums" )}</th>
+                <th class="replies">{"Posts"|i18n( "design/ezwebin/full/forums" )}</th>
+                <th class="lastreply">{"Last reply"|i18n( "design/ezwebin/full/forums" )}</th>
             </tr>
                 {foreach $children as $child}               
             <tr>

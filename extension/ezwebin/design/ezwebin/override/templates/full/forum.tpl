@@ -22,17 +22,17 @@
     {section show=is_unset( $versionview_mode )}
     {section show=$node.object.can_create}
         <form method="post" action={"content/action/"|ezurl}>
-            <input class="button forum-new-topic" type="submit" name="NewButton" value="{'New topic'|i18n( 'design/base' )}" />
+            <input class="button forum-new-topic" type="submit" name="NewButton" value="{'New topic'|i18n( 'design/ezwebin/full/forum' )}" />
             <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
             <input type="hidden" name="ContentObjectID" value="{$node.contentobject_id.}" />
 			<input type="hidden" name="ContentLanguageCode" value="{$node.object.initial_language_code}" />
-            <input class="button forum-keep-me-updated" type="submit" name="ActionAddToNotification" value="{'Keep me updated'|i18n( 'design/base' )}" />
+            <input class="button forum-keep-me-updated" type="submit" name="ActionAddToNotification" value="{'Keep me updated'|i18n( 'design/ezwebin/full/forum' )}" />
             <input type="hidden" name="NodeID" value="{$node.node_id}" />
             <input type="hidden" name="ClassIdentifier" value="forum_topic" />
         </form>
     {section-else}
         <p>
-        {"You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%"|i18n( "design/base",,
+        {"You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%"|i18n( "design/ezwebin/full/forum",,
          hash( '%login_link_start%', concat( '<a href=', '/user/login/'|ezurl, '>' ), '%login_link_end%', '</a>' ) )}
         </p>
     {/section}
@@ -44,16 +44,16 @@
         <table class="list forum" cellspacing="0">
         <tr>
             <th class="topic">
-                {"Topic"|i18n( "design/base" )}
+                {"Topic"|i18n( "design/ezwebin/full/forum" )}
             </th>
             <th class="replies">
-                {"Replies"|i18n( "design/base" )}
+                {"Replies"|i18n( "design/ezwebin/full/forum" )}
             </th>
             <th class="author">
-                {"Author"|i18n( "design/base" )}
+                {"Author"|i18n( "design/ezwebin/full/forum" )}
             </th>
             <th class="lastreply">
-                {"Last reply"|i18n( "design/base" )}
+                {"Last reply"|i18n( "design/ezwebin/full/forum" )}
             </th>
         </tr>
 
@@ -66,7 +66,7 @@
                 <a href={$topic.url_alias|ezurl}>{$topic.object.name|wash}</a></p>
                 {section show=$topic_reply_count|gt( sub( 20, 1 ) )}
                     <p>
-                    {'Pages'|i18n( 'design/base' )}:
+                    {'Pages'|i18n( 'design/ezwebin/full/forum' )}:
                     {section show=$topic_reply_pages|gt( 5 )}
                         <a href={$topic.url_alias|ezurl}>1</a>...
                         {section var=reply_page loop=$topic_reply_pages offset=sub( $topic_reply_pages, sub( 5, 1 ) )}

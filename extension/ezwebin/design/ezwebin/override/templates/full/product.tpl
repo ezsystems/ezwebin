@@ -49,8 +49,8 @@
         {undef $product_category_attribute}
 
         <div class="content-action">
-            <input type="submit" class="defaultbutton" name="ActionAddToBasket" value="{"Add to basket"|i18n("design/base")}" />
-            <input class="button" type="submit" name="ActionAddToWishList" value="{"Add to wish list"|i18n("kernel/classes/datatypes")}" />
+            <input type="submit" class="defaultbutton" name="ActionAddToBasket" value="{"Add to basket"|i18n("design/ezwebin/full/product")}" />
+            <input class="button" type="submit" name="ActionAddToWishList" value="{"Add to wish list"|i18n("design/ezwebin/full/product")}" />
             <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
             <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
             <input type="hidden" name="ViewMode" value="full" />
@@ -60,7 +60,7 @@
        {def $related_purchase=fetch( 'shop', 'related_purchase', hash( 'contentobject_id', $node.object.id, 'limit', 10 ) )}
        {if $related_purchase}
 	    <div class="relatedorders">
-            <h2>{'People who bought this also bought'|i18n( 'design/admin/preview/product' )}</h2>
+            <h2>{'People who bought this also bought'|i18n( 'design/ezwebin/full/product' )}</h2>
 
 			<ul>
             {foreach $related_purchase as $product}

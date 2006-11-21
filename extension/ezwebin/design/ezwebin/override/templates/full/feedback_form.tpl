@@ -19,28 +19,28 @@
         </div>
         <form method="post" action={"content/action"|ezurl}>
 
-        <h4>{"Name"|i18n("design/admin/infocollector/overview")}</h4>
+        <h4>{"Name"|i18n("design/ezwebin/full/feedback_form")}</h4>
         <div class="attribute-sender-name">
                 {attribute_view_gui attribute=$node.data_map.sender_name}
         </div>
 
-        <h4>{"Your E-mail address"|i18n("design/base")}</h4>
+        <h4>{"Your E-mail address"|i18n("design/ezwebin/full/feedback_form")}</h4>
         <div class="attribute-email">
                 {attribute_view_gui attribute=$node.data_map.email}
         </div>
 
-        <h4>{"Subject"|i18n("design/base")}</h4>
+        <h4>{"Subject"|i18n("design/ezwebin/full/feedback_form")}</h4>
         <div class="attribute-subject">
                 {attribute_view_gui attribute=$node.data_map.subject}
         </div>
 
-        <h4>{"Message"|i18n("design/base")}</h4>
+        <h4>{"Message"|i18n("design/ezwebin/full/feedback_form")}</h4>
         <div class="attribute-message">
                 {attribute_view_gui attribute=$node.data_map.message}
         </div>
 
         <div class="content-action">
-            <input type="submit" class="defaultbutton" name="ActionCollectInformation" value="{"Send form"|i18n("design/base")}" />
+            <input type="submit" class="defaultbutton" name="ActionCollectInformation" value="{"Send form"|i18n("design/ezwebin/full/feedback_form")}" />
             <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
             <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
             <input type="hidden" name="ViewMode" value="full" />
