@@ -168,14 +168,14 @@
                    {/section}
 
                    {section show=is_set( $owner_map.location )}
-                       <p>{"Location"|i18n( "design/base" )}: {$owner_map.location.content|wash}</p>
+                       <p>{"Location"|i18n( "design/ezwebin/full/forum_topic" )}: {$owner_map.location.content|wash}</p>
                    {/section}
 
                    {let owner_id=$reply.object.owner.id}
                        {section var=author loop=$reply.object.author_array}
                            {section show=ne( $reply.object.owner_id, $author.contentobject_id )}
                                <p>
-                                   {'Moderated by'|i18n( 'design/base' )}: {$author.contentobject.name|wash}
+                                   {'Moderated by'|i18n( 'design/ezwebin/full/forum_topic' )}: {$author.contentobject.name|wash}
                                </p>
                            {/section}
                        {/section}
@@ -185,7 +185,7 @@
                    {case match=1}
                        <form method="post" action={"content/action/"|ezurl}>
                        <input type="hidden" name="ContentObjectID" value="{$reply.object.id}" />
-                       <input class="button" type="submit" name="EditButton" value="{'Edit'|i18n('design/base')}" />
+                       <input class="button" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/full/forum_topic')}" />
                        </form>
                    {/case}
                    {case match=0}
@@ -195,7 +195,7 @@
                       <form method="post" action={"content/action/"|ezurl}>
                           <input type="hidden" name="ContentObjectID" value="{$reply.object.id}" />
                           <input type="hidden" name="ContentNodeID" value="{$reply.node_id}" />
-						  <input class="button" type="submit" name="ActionRemove" value="{'Remove'|i18n( 'design/admin/node/view/full' )}" title="{'Remove this item.'|i18n( 'design/admin/node/view/full' )}" />                      
+						  <input class="button" type="submit" name="ActionRemove" value="{'Remove'|i18n( 'design/ezwebin/full/forum_topic' )}" title="{'Remove this item.'|i18n( 'design/ezwebin/full/forum_topic' )}" />                      
 						  </form>
                   {/section}
 

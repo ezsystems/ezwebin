@@ -53,10 +53,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Last month</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Last three months</source>
         <translation type="unfinished"></translation>
     </message>
@@ -98,6 +94,13 @@
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/advancedsearchh</name>
+    <message>
+        <source>Last month</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -246,7 +249,7 @@
     </message>
     <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -364,17 +367,17 @@ You can either edit the drafts or remove them if you don&apos;t need them any mo
     </message>
     <message>
         <source>This object is already being edited by someone else including you.
-You can either continue editing one of your drafts or you can create a new draft.</source>
+    You can either continue editing one of your drafts or you can create a new draft.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>This object is already being edited by you.
-You can either continue editing one of your drafts or you can create a new draft.</source>
+        You can either continue editing one of your drafts or you can create a new draft.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
-You should either contact the person about the draft or create a new draft for personal editing.</source>
+        You should either contact the person about the draft or create a new draft for personal editing.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -402,11 +405,11 @@ You should either contact the person about the draft or create a new draft for p
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>New draft</source>
+        <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Edit</source>
+        <source>New draft</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -465,10 +468,7 @@ You should either contact the person about the draft or create a new draft for p
     </message>
     <message>
         <source>For more options try the %1Advanced search%2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The parameters are link start and end tags.</source>
+        <comment>The parameters are link start and end tags.</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -997,6 +997,10 @@ You should either contact the person about the draft or create a new draft for p
     </message>
     <message>
         <source>%nodename and its %childcount children. %additionalwarning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%nodename %additionalwarning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1625,6 +1629,7 @@ You should either contact the person about the draft or create a new draft for p
     </message>
     <message>
         <source>Username</source>
+        <comment>User name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1636,11 +1641,17 @@ You should either contact the person about the draft or create a new draft for p
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign Up</source>
+        <source>Login</source>
+        <comment>Button</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>/user/forgotpassword&apos;|ezurl}&gt;{&apos;Forgot your password?</source>
+        <source>Sign Up</source>
+        <comment>Button</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Forgot your password?</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1682,7 +1693,9 @@ You should either contact the person about the draft or create a new draft for p
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>_missing_</source>
+        <source>Your account was successfully created. An e-mail will be sent to the specified
+<byte value="x9"/>e-mail address. You need to follow the instructions in that mail to activate
+<byte value="x9"/>your account.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
