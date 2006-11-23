@@ -161,11 +161,11 @@
     {include uri='design:menu/flat_top.tpl'}
   </div>
   <!-- Top menu area: END -->
-  {if or(
-          and( is_set( $module_result.content_info.class_identifier ), ne( $module_result.content_info.class_identifier, 'frontpage' ) ),
-          and( is_set( $module_result.content_info.viewmode ), eq( $module_result.content_info.viewmode, 'sitemap' ) ),
-	  or( eq( $ui_context, 'navigation' ), eq( $ui_context, 'edit' ), eq( $ui_context, 'browse' ) )
-	 )}
+  {if not( and( is_set( $module_result.content_info.class_identifier ),
+                eq( $module_result.content_info.class_identifier, 'frontpage' ),
+	        and( is_set( $module_result.content_info.viewmode ), ne( $module_result.content_info.viewmode, 'sitemap' ) )
+	      )
+         )}
   <hr class="hide" />
   <!-- Path area: START -->
   <div id="path">
