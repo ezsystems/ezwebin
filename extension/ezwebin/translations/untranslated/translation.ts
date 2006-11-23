@@ -1528,6 +1528,21 @@
     </message>
 </context>
 <context>
+    <name>design/ezwebin/user/activate</name>
+    <message>
+        <source>Activate account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/user/edit</name>
     <message>
         <source>User profile</source>
