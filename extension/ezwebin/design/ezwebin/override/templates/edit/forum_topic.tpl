@@ -36,8 +36,10 @@
 
             {foreach $sticky_groups as $sticky}
                 {if $current_user.groups|contains($sticky)}
-                <h3>{'Sticky'|i18n('design/ezwebin/edit/forum_topic')}</h3>
-                {attribute_edit_gui attribute=$object.data_map.sticky}
+				<div class="block">
+                	<label>{'Sticky'|i18n('design/ezwebin/edit/forum_topic')}</label>
+                		{attribute_edit_gui attribute=$object.data_map.sticky}
+					</div>
                 {/if}
             {/foreach}
 

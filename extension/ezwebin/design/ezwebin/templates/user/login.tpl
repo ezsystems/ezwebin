@@ -33,36 +33,21 @@
 <label for="id1">{"Username"|i18n("design/ezwebin/user/login",'User name')}</label><div class="labelbreak"></div>
 <input class="halfbox" type="text" size="10" name="Login" id="id1" value="{$User:login|wash}" tabindex="1" />
 </div>
+
 <div class="block">
 <label for="id2">{"Password"|i18n("design/ezwebin/user/login")}</label><div class="labelbreak"></div>
 <input class="halfbox" type="password" size="10" name="Password" id="id2" value="" tabindex="1" />
 </div>
+{if ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )}
 <div class="block">
 <label for="id3">{"Log in to the administration interface of eZ publish"|i18n("design/ezwebin/user/login")}</label><div class="labelbreak"></div>
 <input type="checkbox" size="10" name="AdminSiteaccessURI" id="id3" value="" tabindex="1" onclick="AdminSiteaccessCheckbox(this);" />
 </div>
 
-<div class="buttonblock">
-<input class="defaultbutton" type="submit" name="LoginButton" value="{'Login'|i18n('design/ezwebin/user/login','Button')}" tabindex="1" />
-<input class="button" type="submit" name="RegisterButton" id="RegisterButton" value="{'Sign Up'|i18n('design/ezwebin/user/login','Button')}" tabindex="1" />
-</div>
-
-{if ezini( 'SiteSettings', 'LoginPage' )|eq( 'custom' )}
-    <p><a href={'/user/forgotpassword'|ezurl}>{'Forgot your password?'|i18n( 'design/ezwebin/user/login' )}</a></p>
-{/if}
-
-<input type="hidden" name="RedirectURI" value="{$User:redirect_uri|wash}" />
-
-{if and( is_set( $User:post_data ), is_array( $User:post_data ) )}
-  {foreach $User:post_data as $key => $post_data}
-     <input name="Last_{$key}" value="{$postData}" type="hidden" /><br/>
-  {/foreach}
-{/if}
-
-</form>
 {*
 	Set URL for login form action
 	site.ini.[SiteSettings].AdditionalLoginFormActionURL
+	If empty then checkbox will not appear
 *}
 <script type="text/javascript">
 <!--
@@ -82,6 +67,31 @@ function AdminSiteaccessCheckbox( val )
 
 -->
 </script>
+{/if}
+{if ezini( 'Session', 'RememberMeTimeout' )}
+<div class="block">
+<input type="checkbox" tabindex="1" name="Cookie" id="id4" /><label for="id4" style="display:inline;">{"Remember me"|i18n("design/ezwebin/user/login")}</label>
+</div>
+{/if}
+
+<div class="buttonblock">
+<input class="defaultbutton" type="submit" name="LoginButton" value="{'Login'|i18n('design/ezwebin/user/login','Button')}" tabindex="1" />
+<input class="button" type="submit" name="RegisterButton" id="RegisterButton" value="{'Sign Up'|i18n('design/ezwebin/user/login','Button')}" tabindex="1" />
+</div>
+
+{if ezini( 'SiteSettings', 'LoginPage' )|eq( 'custom' )}
+    <p><a href={'/user/forgotpassword'|ezurl}>{'Forgot your password?'|i18n( 'design/ezwebin/user/login' )}</a></p>
+{/if}
+
+<input type="hidden" name="RedirectURI" value="{$User:redirect_uri|wash}" />
+
+{if and( is_set( $User:post_data ), is_array( $User:post_data ) )}
+  {foreach $User:post_data as $key => $post_data}
+     <input name="Last_{$key}" value="{$postData}" type="hidden" /><br/>
+  {/foreach}
+{/if}
+
+</form>
 
 </div>
 
