@@ -186,6 +186,7 @@
                        <form method="post" action={"content/action/"|ezurl}>
                        <input type="hidden" name="ContentObjectID" value="{$reply.object.id}" />
                        <input class="button" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/full/forum_topic')}" />
+					   <input type="hidden" name="ContentObjectLanguageCode" value="{$reply.object.initial_language_code}" />
                        </form>
                    {/case}
                    {case match=0}

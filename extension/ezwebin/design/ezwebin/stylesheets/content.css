@@ -397,6 +397,21 @@ div.content-view-sitemap table td
 
 /* FORUM */
 
+input.forum-new-reply
+{
+	margin: 0.75em 0.25em 0.25em 0;
+}
+
+input.forum-new-topic
+{
+	margin: 0.75em 0.25em 0.25em 0;
+}
+
+input.forum-keep-me-updated
+{
+	margin: 0.75em 0.25em 0.25em 0;
+}
+
 div.content-view-full div.class-forum-topic table.forum p.date
 {
 	font-weight: bold;
@@ -1792,7 +1807,7 @@ td#ezagenda_month td.ezagenda_month_head
 {
 	vertical-align: top;
 	padding-left: 0.5em;
-	width: 60px;
+	width: 50px;
 }
 
 td#ezagenda_month td.ezagenda_month_head h2

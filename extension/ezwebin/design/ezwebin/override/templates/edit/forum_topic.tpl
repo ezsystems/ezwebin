@@ -9,7 +9,7 @@
         <form enctype="multipart/form-data" method="post" action={concat( "/content/edit/", $object.id, "/", $edit_version, "/", $edit_language|not|choose( concat( $edit_language, "/" ), '' ) )|ezurl}>
 
 		<div class="attribute-header">
-        	<h1>{"Edit %1 - %2"|i18n("design/ezwebin/edit/forum_topic",,array($class.name|wash,$object.name|wash))}</h1>
+        	<h1 class="long">{"Edit %1 - %2"|i18n("design/ezwebin/edit/forum_topic",,array($class.name|wash,$object.name|wash))}</h1>
 		</div>
 
         {include uri="design:content/edit_validation.tpl"}

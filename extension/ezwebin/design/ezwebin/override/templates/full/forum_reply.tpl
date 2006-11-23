@@ -48,7 +48,7 @@
 
         <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
         <input class="button forum-edit-reply" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/full/forum_reply')}" />
-
+        <input type="hidden" name="ContentObjectLanguageCode" value="{$node.object.initial_language_code}" />
         </form>
         {/if}
 
