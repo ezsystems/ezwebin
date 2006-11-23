@@ -172,7 +172,7 @@
   <hr class="hide" />
   <!-- Toolbar area: START -->
   <div id="toolbar">
-  {if and( $current_node_id, ne( $module_result.content_info.viewmode, 'sitemap' ) )}
+  {if and( $current_node_id, or( ne( $module_result.content_info.viewmode, 'sitemap' ), $ui_context|ne( 'browse' ) ) )}
   {include uri='design:parts/website_toolbar.tpl'}
   {/if}
   </div>
