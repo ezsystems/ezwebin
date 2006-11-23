@@ -46,9 +46,9 @@
                                             'class_filter_type', 'include',
                                             'class_filter_array', array( 'infobox' ) ) )}
 	{if $module_result.path|count|gt($pagerootdepth|dec)}
-	    {if is_set( $module_result.path[$pagerootdepth|dec].node_id )}		
-	        {set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
-	    {/if}		
+	    {if is_set( $module_result.path[$pagerootdepth|dec].node_id )}	
+		{set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
+	    {/if}
 	{/if}
 
 	{if is_set( $module_result.path[1] )}
@@ -161,8 +161,11 @@
     {include uri='design:menu/flat_top.tpl'}
   </div>
   <!-- Top menu area: END -->
-  {if or( and( is_set( $module_result.content_info.class_identifier ), ne( $module_result.content_info.class_identifier, 'frontpage' ) ),
-          and( is_set( $module_result.content_info.viewmode ), eq( $module_result.content_info.viewmode, 'sitemap' ) ) )}
+  {if or(
+          and( is_set( $module_result.content_info.class_identifier ), ne( $module_result.content_info.class_identifier, 'frontpage' ) ),
+          and( is_set( $module_result.content_info.viewmode ), eq( $module_result.content_info.viewmode, 'sitemap' ) ),
+	  or( eq( $ui_context, 'navigation' ), eq( $ui_context, 'edit' ), eq( $ui_context, 'browse' ) )
+	 )}
   <hr class="hide" />
   <!-- Path area: START -->
   <div id="path">
@@ -174,7 +177,7 @@
   <hr class="hide" />
   <!-- Toolbar area: START -->
   <div id="toolbar">
-  {if and( $current_node_id, or( and( is_set( $module_result.content_info.viewmode ), ne( $module_result.content_info.viewmode, 'sitemap' ) ), $ui_context|ne( 'browse' ) ) )}
+  {if and( $current_node_id, and( is_set( $module_result.content_info.viewmode ), ne( $module_result.content_info.viewmode, 'sitemap' ) ) ) }
   {include uri='design:parts/website_toolbar.tpl'}
   {/if}
   </div>
