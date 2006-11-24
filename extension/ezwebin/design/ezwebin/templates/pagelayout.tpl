@@ -33,6 +33,9 @@
 <!-- <![endif]-->
 <!-- Height resize script; used for resizing columns to equal heights -->
 <!-- <script type="text/javascript" src={"javascript/heightresize.js"|ezdesign}></script> -->
+{foreach ezini( 'JavaScriptSettings', 'JavaScriptList', 'design.ini' ) as $script}
+    <script language="javascript" type="text/javascript" src={concat( 'javascript/', $script )|ezdesign}></script>
+{/foreach}
 </head>
 <body>
 <!-- Complete page area: START -->
