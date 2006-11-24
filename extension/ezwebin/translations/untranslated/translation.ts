@@ -1656,6 +1656,10 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Remember me</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Login</source>
         <comment>Button</comment>
         <translation type="unfinished"></translation>
@@ -1709,8 +1713,8 @@
     </message>
     <message>
         <source>Your account was successfully created. An e-mail will be sent to the specified
-<byte value="x9"/>e-mail address. You need to follow the instructions in that mail to activate
-<byte value="x9"/>your account.</source>
+e-mail address. You need to follow the instructions in that mail to activate
+your account.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
