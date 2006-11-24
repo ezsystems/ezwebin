@@ -9,11 +9,11 @@
 </div>
 
 <div class="feedback">
-	<p>
-	{'Your account was successfully created. An e-mail will be sent to the specified
-	e-mail address. You need to follow the instructions in that mail to activate
-	your account.'|i18n('design/ezwebin/user/success')}
-	</p>
+<p>
+{'Your account was successfully created. An e-mail will be sent to the specified
+e-mail address. You need to follow the instructions in that mail to activate
+your account.'|i18n('design/ezwebin/user/success')}
+</p>
 </div>
 {else}
 <div class="attribute-header">
