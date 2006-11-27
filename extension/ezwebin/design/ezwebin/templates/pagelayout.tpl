@@ -5,7 +5,7 @@
      $current_node_id   = first_set($module_result.node_id, 0)
      $user_hash         = concat($current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ))}
 
-{cache-block keys=array($uri_string, $basket.items, $user_hash)}
+{cache-block keys=array($uri_string, $basket.items|count|gt(0), $user_hash)}
 {def $pagestyle       = 'nosidemenu noextrainfo'
      $infobox_count   = 0
      $locales         = fetch( 'content', 'translation_list' )
