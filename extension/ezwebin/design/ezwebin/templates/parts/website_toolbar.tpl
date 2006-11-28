@@ -4,6 +4,7 @@
      $can_create_languages = $content_object.can_create_languages
 	 $available_for_classes = ezini( 'WebsiteToolbarSettings', 'AvailableForClasses', 'websitetoolbar.ini' )
 	 $containers = ezini( 'WebsiteToolbarSettings', 'Containers', 'websitetoolbar.ini' )
+	 $odf_display_classes = ezini( 'WebsiteToolbarSettings', 'ODFDisplayClasses', 'websitetoolbar.ini' )
 	 $website_toolbar_access = fetch( 'content', 'object', hash( 'object_id', $current_user.groups[0] ) ).data_map.website_toolbar_access.data_int}
 
 {if and( $current_user.is_logged_in, $website_toolbar_access, $available_for_classes|contains( $current_node.class_identifier ) )}
@@ -49,7 +50,7 @@
 
 {def $disable_oo=true()}
 
-{if array( 'documentation_page', 'folder', 'article', 'event' )|contains( $current_node.class_identifier )}
+{if $odf_display_classes|contains( $current_node.class_identifier )}
 	{set $disable_oo=false()}
 {/if}
 
