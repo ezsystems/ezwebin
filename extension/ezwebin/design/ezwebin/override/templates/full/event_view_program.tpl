@@ -155,27 +155,27 @@ $older_event_count  :{$older_event_count};
 {if $direction}{* '-' direction  *}
 	<td>
 	{if $older_event_count|gt(0)}
-		<a href={concat("/content/view/full/",  $node.node_id, "/offset/-", $temp_offset|sum(2))|ezurl}>&lt;&lt; {"Past events"|i18n(""design/ezwebin/full/event_view_program"")}</a>
+		<a href={concat("/content/view/full/",  $node.node_id, "/offset/-", $temp_offset|sum(2))|ezurl}>&lt;&lt; {"Past events"|i18n("design/ezwebin/full/event_view_program")}</a>
 	{/if}
 	</td>
 	<td style="text-align:right;">
 	{if $temp_offset|gt(0)}
-		<a href={concat("/content/view/full/",  $node.node_id, "/offset/-", $temp_offset)|ezurl}>{"Future events"|i18n(""design/ezwebin/full/event_view_program"")} &gt;&gt;</a>
+		<a href={concat("/content/view/full/",  $node.node_id, "/offset/-", $temp_offset)|ezurl}>{"Future events"|i18n("design/ezwebin/full/event_view_program")} &gt;&gt;</a>
 	{elseif $newer_event_count|gt(0)}
-		<a href={concat("/content/view/full/",  $node.node_id, "/offset/0")|ezurl}>{"Future events"|i18n(""design/ezwebin/full/event_view_program"")} &gt;&gt;</a>
+		<a href={concat("/content/view/full/",  $node.node_id, "/offset/0")|ezurl}>{"Future events"|i18n("design/ezwebin/full/event_view_program")} &gt;&gt;</a>
 	{/if}
 	</td>
 {else}
 	<td>
 	{if $temp_offset|gt(0)}
-		<a href={concat("/content/view/full/",  $node.node_id, "/offset/", $temp_offset|dec)|ezurl}>&lt;&lt; {"Past events"|i18n(""design/ezwebin/full/event_view_program"")}</a>
+		<a href={concat("/content/view/full/",  $node.node_id, "/offset/", $temp_offset|dec)|ezurl}>&lt;&lt; {"Past events"|i18n("design/ezwebin/full/event_view_program")}</a>
 	{elseif $older_event_count|gt(0)}
-		<a href={concat("/content/view/full/",  $node.node_id, "/offset/-1")|ezurl}>&lt;&lt; {"Past events"|i18n(""design/ezwebin/full/event_view_program"")}</a>
+		<a href={concat("/content/view/full/",  $node.node_id, "/offset/-1")|ezurl}>&lt;&lt; {"Past events"|i18n("design/ezwebin/full/event_view_program")}</a>
 	{/if}
 	</td>
 	<td style="text-align:right;">
 	{if $newer_event_count|gt(0)}
-		<a href={concat("/content/view/full/",  $node.node_id, "/offset/", $temp_offset|inc)|ezurl}>{"Future events"|i18n(""design/ezwebin/full/event_view_program"")} &gt;&gt;</a>
+		<a href={concat("/content/view/full/",  $node.node_id, "/offset/", $temp_offset|inc)|ezurl}>{"Future events"|i18n("design/ezwebin/full/event_view_program")} &gt;&gt;</a>
 	{/if}
 	</td>
 {/if}
