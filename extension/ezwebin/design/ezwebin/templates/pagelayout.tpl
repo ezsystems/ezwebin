@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{$site.http_equiv.Content-language|wash}" lang="{$site.http_equiv.Content-language|wash}">
 <head>
-{def $basket_is_emty    = fetch( shop, basket ).is_empty
+{def $basket_is_empty   = cond($current_user.is_logged_in, fetch( shop, basket ).is_empty, 1)
      $current_node_id   = first_set($module_result.node_id, 0)
      $user_hash         = concat($current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ))}
 
-{cache-block keys=array($uri_string, $basket_is_emty, $user_hash)}
+{cache-block keys=array($uri_string, $basket_is_empty, $user_hash)}
 {def $pagestyle       = 'nosidemenu noextrainfo'
      $infobox_count   = 0
      $locales         = fetch( 'content', 'translation_list' )
@@ -119,7 +119,7 @@
                 <li><a href={$pagedesign.data_map.site_map_url.content|ezurl} title="{$pagedesign.data_map.site_map_url.data_text|wash}">{$pagedesign.data_map.site_map_url.data_text|wash}</a></li>
                 {/if}
             {/if}
-            {if $basket_is_emty|not()}
+            {if $basket_is_empty|not()}
             <li><a href={"/shop/basket/"|ezurl} title="{$pagedesign.data_map.shopping_basket_label.data_text|wash}">{$pagedesign.data_map.shopping_basket_label.data_text|wash}</a></li>
            {/if}
         {if $current_user.is_logged_in}
