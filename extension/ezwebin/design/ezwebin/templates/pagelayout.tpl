@@ -86,21 +86,31 @@
         {if $locales|count|gt( 1 )}
         <ul>
         {foreach $pagedesign.data_map.language_settings.content.rows.sequential as $row}
+        {def $site_url = $row.columns[0]
+             $site_access = $row.columns[1]
+             $language = $row.columns[2]}
         {if $row.columns[0]}
-	        <li{if $row.columns[0]|downcase()|eq($access_type.name)} class="current_siteaccess"{/if}>
+            {set $site_url = $site_url|append( "/" )}
+        {/if}
+        {if $row.columns[1]}
+            {set $site_access = $site_access|append( "/" )}
+        {/if}
+        {if $row.columns[0]}
+	        <li{if $row.columns[1]|downcase()|eq($access_type.name)} class="current_siteaccess"{/if}>
 	        {if is_set($DesignKeys:used.url_alias)}
-	            <a href={concat( "/",
-	                     $row.columns[0], "/",
+	            <a href={concat( "http://", $site_url,
+	                     $site_access,
 	                     $DesignKeys:used.url_alias
-	                     )|ezroot}>{$row.columns[1]}</a>
+	                     )}>{$language}</a>
 	        {else}
-	            <a href={concat( "/",
-	                     $row.columns[0], "/",
+	            <a href={concat( "http://", $site_url,
+	                     $site_access,
 	                     $uri_string
-	                     )|ezroot}>{$row.columns[1]}</a>
-	        {/if}
-	        </li>
-	    {/if}
+                         )}>{$language}</a>
+            {/if}
+            </li>
+        {/if}
+        {undef $site_url $site_access $language}
         {/foreach}
         </ul>
         {/if}
