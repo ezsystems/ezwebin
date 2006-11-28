@@ -2,10 +2,14 @@
 
 /* FULL PAGE */
 
-body
+html, body, div
 {
 	margin: 0;
-	padding: 0;
+	padding: 0;	
+}
+
+body
+{
 	background-image: url(../images/body_bg.png);
 	background-repeat: repeat-x;
     text-align: center; /* IE method for centering page if it has fixed width */

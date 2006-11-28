@@ -93,11 +93,9 @@
 </div>
 
 
-<table cellpadding="0" cellspacing="0" width="100%" id="ezagenda" summary="Event Calendar">
-<tr>
-<td width="225" height="215" id="ezagenda_calender">
-
-<table cellspacing="0" cellpadding="0" border="0" summary="Events">
+<div id="ezagenda_calender_left">
+<div id="ezagenda_calender_container">
+<table cellspacing="0" cellpadding="0" border="0" summary="Event Calendar">
 <thead>
 <tr>
 <th><a href={$url_back|ezurl} title=" Previous month ">&lt;&lt;</a></th>
@@ -137,22 +135,12 @@
 			{set $col_counter=inc( $col_counter )}
 		{/while}
 	{/if}
-	<td>
-	{if and(eq( $counter, $temp_today ), and(eq( $counter, $curr_today ), eq($curr_month, $temp_month)))}
-		<span class="ezagenda_selected_current">
-	{elseif eq( $counter, $temp_today )}
-		<span class="ezagenda_selected">
-	{elseif and(eq( $counter, $curr_today ), eq($curr_month, $temp_month))}
-		<span class="ezagenda_current">
-	{else}
-		<span>
-	{/if}
+	<td class="{if eq($counter, $temp_today)}ezagenda_selected{/if} {if and(eq($counter, $curr_today), eq($curr_month, $temp_month))}ezagenda_current{/if}">
 	{if $day_array|contains(concat(' ', $counter, ',')) }
 		<a href={concat("/content/view/full/", $event_node,"/day/", $counter, "/month/", $temp_month, "/year/", $temp_year)|ezurl}>{$counter}</a>
 	{else}
 		{$counter}
 	{/if}
-	</span>
 	</td>
 	{if and( eq( $counter, $days ), $span2|gt( 0 ), $span2|ne(7))}
 		{set $col_counter=1}
@@ -168,18 +156,50 @@
 {/while}
 </tbody>
 </table>
-</td>
-<td id="ezagenda_month" rowspan="2">
-<h2>{$temp_ts|datetime( custom, '%F %Y' )|upfirst()}:</h2>
+</div>
+
+
+<div id="ezagenda_calender_today">
+	{if eq($curr_ts|datetime( custom, '%j'),$temp_ts|datetime( custom, '%j'))} 
+		<h2>{"Today"|i18n("design/ezwebin/full/event_view_calender")}:</h2> 
+	{else} 
+		<h2>{$temp_ts|datetime( custom, '%l %j')|upfirst()}:</h2> 
+	{/if} 
+{foreach $day_events as $day_event}
+	{if gt($curr_ts , $day_event.object.data_map.to_time.content.timestamp)}
+		<div class="ezagenda_day_event ezagenda_event_old">
+	{else}
+		<div class="ezagenda_day_event">
+	{/if}
+	<h2><a href={$day_event.url_alias|ezurl}>{$day_event.name|wash}</a></h2>
+	<span>
+	{if $day_event.object.data_map.category.has_content}
+	{"Category"|i18n("design/ezwebin/full/event_view_calender")}:
+	{attribute_view_gui attribute=$day_event.object.data_map.category}<br />
+	{/if}
+	
+	{$day_event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")} 
+	{section show=$day_event.object.data_map.to_time.has_content}
+		- {$day_event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
+	{/section}
+	</span>	
+	</div>
+{/foreach}
+</div>
+</div>
+
+
+<div id="ezagenda_calender_right">
+<h2>{$temp_ts|datetime( custom, '%F %Y' )|upfirst()}:</h2> 
 {foreach $events as $event}
 	{if and( ne($view_parameters.offset, 2), eq($loop_count, 8))}
 		<a id="ezagenda_month_hidden_show" href={$url_reload|ezurl} onclick="document.getElementById('ezagenda_month_hidden').style.display='';this.style.display='none';return false;">Show All Events..</a>
 		<div id="ezagenda_month_hidden" style="display:none;">
 	{/if}
 	{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)}
-		<table cellpadding="0" cellspacing="0" class="ezagenda_event_old" summary="Monthly events">
+		<table cellpadding="0" cellspacing="0" class="ezagenda_event_old" summary="Previw of event">
 	{else}
-		<table cellpadding="0" cellspacing="0" summary="Monthly events">
+		<table cellpadding="0" cellspacing="0" summary="Previw of event">
 	{/if}
 	<tr>
 	<td class="ezagenda_month_head">
@@ -187,8 +207,10 @@
 	</td>
 	<td class="ezagenda_month_info">
 	<h2><a href={$event.url_alias|ezurl}>{$event.name|wash}</a></h2>
-		
+	
+	{if $event.object.data_map.category.has_content}
 	<p>{attribute_view_gui attribute=$event.object.data_map.category}</p>
+	{/if}
 
 	<p>{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}
 	{if and($event.object.data_map.to_time.has_content,  ne( $event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M"), $event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M") ))}
@@ -207,37 +229,8 @@
 {if and(  ne($view_parameters.offset, 2) , gt($loop_count, 8))}
 	</div>
 {/if}
-</td>
-</tr>
-<tr>
-<td id="ezagenda_day">
-	{if eq($curr_ts|datetime( custom, '%j'),$temp_ts|datetime( custom, '%j'))}
-		<h2>{"Today"|i18n("design/ezwebin/full/event_view_calender")}:</h2>
-	{else}
-		<h2>{$temp_ts|datetime( custom, '%l %j')|upfirst()}:</h2>
-	{/if}
-{foreach $day_events as $day_event}
-	{if gt($curr_ts , $day_event.object.data_map.to_time.content.timestamp)}
-		<div class="ezagenda_day_event ezagenda_event_old">
-	{else}
-		<div class="ezagenda_day_event">
-	{/if}
-	<h2>
-		<a href={$day_event.url_alias|ezurl}>{$day_event.name|wash}</a>
-	</h2>
-	<span>
-	{"Category"|i18n("design/ezwebin/full/event_view_calender")}:
-	{attribute_view_gui attribute=$day_event.object.data_map.category}<br />
-	{$day_event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
-	{if $day_event.object.data_map.to_time.has_content}
-		- {$day_event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
-	{/if}
-	</span>
-	</div>
-{/foreach}
-</td>
-</tr>
-</table>
+</div>
+
 {undef}
 </div>
 </div>
