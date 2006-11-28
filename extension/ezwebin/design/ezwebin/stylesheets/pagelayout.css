@@ -204,17 +204,7 @@ div#path p
 
 div#columns
 {
-    padding: 0 12em 0 14em;
-}
 
-div.nosidemenu div#columns
-{
-    padding-left: 0;
-}
-
-div.noextrainfo div#columns
-{
-    padding-right: 0;
 }
 
 /* SIDE MENU */
@@ -222,9 +212,8 @@ div.noextrainfo div#columns
 div#sidemenu-position
 {
     width: 14em;
-    margin-left: -14em;
     float: left;
-    display: inline; /* Fix for IE double margin bug */
+    /*display: inline;  Fix for IE double margin bug */
 }
 
 div.nosidemenu div#sidemenu-position
@@ -286,22 +275,20 @@ div#sidemenu ul li a
 
 div#main-position
 {
-    width: 100%;
-    float: left;
+    margin: 0em 12.25em 0em 14.25em;
 }
 
 div#main
 {
-    margin: 0 0.25em 0 0.25em; /* Space between main and other columns */
-	padding: 0;
+
 }
 
-div.nosidemenu div#main
+div.nosidemenu div#main-position
 {
     margin-left: 0;
 }
 
-div.noextrainfo div#main
+div.noextrainfo div#main-position
 {
     margin-right: 0;
 }
@@ -311,8 +298,7 @@ div.noextrainfo div#main
 div#extrainfo-position
 {
     width: 12em;
-    margin-right: -12em;
-    float: left;
+    float: right;
 }
 
 div.noextrainfo div#extrainfo-position
@@ -322,7 +308,7 @@ div.noextrainfo div#extrainfo-position
 
 div#extrainfo
 {
-	padding: 0;
+
 }
 
 /* FOOTER */

@@ -29,11 +29,6 @@
 <!-- IE conditional comments; for bug fixes for different IE versions -->
 <!--[if IE 5]>     <style type="text/css"> @import url({"stylesheets/browsers/ie5.css"|ezdesign(no)});    </style> <![endif]-->
 <!--[if lte IE 7]> <style type="text/css"> @import url({"stylesheets/browsers/ie7lte.css"|ezdesign(no)}); </style> <![endif]-->
-<!--[if !IE]> -->
-<!-- Can be used to set styles and content IE should not get -->
-<!-- <![endif]-->
-<!-- Height resize script; used for resizing columns to equal heights -->
-<!-- <script type="text/javascript" src={"javascript/heightresize.js"|ezdesign}></script> -->
 {foreach ezini( 'JavaScriptSettings', 'JavaScriptList', 'design.ini' ) as $script}
     <script language="javascript" type="text/javascript" src={concat( 'javascript/', $script )|ezdesign}></script>
 {/foreach}
@@ -167,7 +162,7 @@
   </div>
   <!-- Header area: END -->
 
-  <hr class="hide" />
+  
   <!-- Top menu area: START -->
   <div id="topmenu" class="float-break">
     {include uri='design:menu/flat_top.tpl'}
@@ -178,7 +173,7 @@
 	        and( is_set( $module_result.content_info.viewmode ), ne( $module_result.content_info.viewmode, 'sitemap' ) )
 	      )
          )}
-  <hr class="hide" />
+
   <!-- Path area: START -->
   <div id="path">
     {include uri='design:parts/path.tpl'}
@@ -186,7 +181,7 @@
   <!-- Path area: END -->
   {/if}
 
-  <hr class="hide" />
+  
   <!-- Toolbar area: START -->
   <div id="toolbar">
   {if and( $current_node_id, and( is_set( $module_result.content_info.viewmode ), ne( $module_result.content_info.viewmode, 'sitemap' ) ) ) }
@@ -195,76 +190,53 @@
   </div>
   <!-- Toolbar area: END -->
 
-  <hr class="hide" />
+  
   <!-- Columns area: START -->
   <div id="columns" class="float-break">
     <!-- Side menu area: START -->
     <div id="sidemenu-position">
       <div id="sidemenu">
-        <div id="heightresize-sidemenu">
           <!-- Used only for height resize script -->
           {if and($current_node_id, gt($module_result.path|count, $pagerootdepth))}
           {include uri='design:menu/flat_left.tpl'}
           {/if}
-        </div>
        </div>
     </div>
     <!-- Side menu area: END -->
-    <hr class="hide" />
+    
+    <!-- Extra area: START -->
+    <div id="extrainfo-position">
+      <div id="extrainfo">
+          <!-- Extra content: START -->
+          {if $infobox_count}
+            {include uri='design:parts/extra_info.tpl'}
+          {/if}
+          <!-- Extra content: END -->
+      </div>
+    </div>
+    <!-- Extra area: END -->
+{/cache-block}
     <!-- Main area: START -->
     <div id="main-position">
       <div id="main" class="float-break">
         <div class="overflow-fix">
-          <!-- Fix for IE 5&6 -->
-          <div id="heightresize-main">
-    {/cache-block}
-            <!-- Used only for height resize script -->
-            <!-- Main area content: START -->
+          <!-- Main area content: START -->
           {$module_result.content}
-            <!-- Main area content: END -->
-          </div>
-          <!-- Used only for height resize script -->
+          <!-- Main area content: END -->
         </div>
       </div>
     </div>
     <!-- Main area: END -->
-    <hr class="hide" />
-    
-{cache-block keys=array($uri_string, $user_hash)}
-    {if is_unset($pagedesign)}
-    {def $pagedesign = fetch( 'content', 'object', hash( 'object_id', '54' ) )}
-    {/if}
-    <!-- Extra area: START -->
-    <div id="extrainfo-position">
-      <div id="extrainfo">
-        <div id="heightresize-extrainfo">
-          <!-- Used only for height resize script -->
-          <!-- Extra content: START -->
-          {if $current_node_id}
-            {include uri='design:parts/extra_info.tpl'}
-          {/if}
-          <!-- Extra content: END -->
-        </div>
-        <!-- Used only for height resize script -->
-      </div>
-    </div>
-    <!-- Extra area: END -->
   </div>
   <!-- Columns area: END -->
-  <hr class="hide" />
-  <!-- Footer area: START -->
-  <div id="footer">
-    <address>
-    {if $pagedesign.data_map.footer_text.has_content}
-        {$pagedesign.data_map.footer_text.content}
-    {/if}
-    <br />
-    {if $pagedesign.data_map.hide_powered_by.data_int|not}
-    Powered by <a href={"/ezinfo/about"|ezurl}>eZ publish&#8482;</a> Content Management System.
-    {/if}
-    </address>
-  </div>
-  <!-- Footer area: END -->
+  
+{cache-block keys=$access_type.name}
+  {if is_unset($pagedesign)}
+   {def $pagedesign = fetch( 'content', 'object', hash( 'object_id', '54' ) )}
+  {/if}
+  
+{include uri='design:page_footer.tpl'} 
+
 </div>
 <!-- Complete page area: END -->
 
