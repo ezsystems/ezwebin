@@ -23,12 +23,12 @@
 	<option value="{$class.id}">{$class.name|wash}</option>
   {/foreach}
   </select>
-  <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'Locale' , 'site.ini')}" />
+  <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
   <input class="button" type="submit" name="NewButton" value="{'Create here'|i18n('design/ezwebin/parts/website_toolbar')}" />
 {/if}
 
 {if $content_object.can_edit}
-	<input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'Locale' , 'site.ini')}" />
+	<input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
   <input class="button" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/parts/website_toolbar')}" />
 {/if}
 
@@ -59,18 +59,18 @@
 
 {if and( $content_object.content_class.is_container, ne( $content_object.content_class.identifier, 'article' ) )}
 {* Import OOo / OASIS document *}
-<form method="post" action={"/odf/import/"|ezurl}>
+<form method="post" action={"/ezodf/import/"|ezurl}>
   <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ObjectID" value="{$content_object.id}" />
   <input class="button" type="submit" name="ImportAction" value="{'Import'|i18n('design/ezwebin/parts/website_toolbar')}" />
 </form>
 {/if}
-<form method="post" action={"/odf/export/"|ezurl}>
+<form method="post" action={"/ezodf/export/"|ezurl}>
   <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ObjectID" value="{$content_object.id}" />
   <input class="button" type="submit" name="ExportAction" value="{'Export'|i18n('design/ezwebin/parts/website_toolbar')}" />
 </form>
-<form method="post" action={"/odf/import/"|ezurl}>
+<form method="post" action={"/ezodf/import/"|ezurl}>
   <input type="hidden" name="ImportType" value="replace" />
   <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ObjectID" value="{$content_object.id}" />
