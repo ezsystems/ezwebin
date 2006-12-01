@@ -19,9 +19,11 @@
 <div class="content-view-full">
 	<div class="class-frontpage {$frontpagestyle}">
 
+{if $node.object.data_map.billboard.content.has_content}
 	<div class="attribute-billboard">
 		{content_view_gui view=billboard content_object=$node.object.data_map.billboard.content}
 	</div>
+{/if}
 
 	<div class="columns-frontpage float-break">
 		<div class="left-column-position">
