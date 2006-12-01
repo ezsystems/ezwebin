@@ -19,7 +19,7 @@
 <div class="content-view-full">
 	<div class="class-frontpage {$frontpagestyle}">
 
-{if $node.object.data_map.billboard.content.has_content}
+{if $node.object.data_map.billboard.has_content}
 	<div class="attribute-billboard">
 		{content_view_gui view=billboard content_object=$node.object.data_map.billboard.content}
 	</div>
