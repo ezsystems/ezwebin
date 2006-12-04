@@ -3,9 +3,21 @@
 
 <div class="content-view-embed">
 	<div class="class-forum">
-	
-    {def $children=fetch( content, list, hash( 'parent_node_id', $object.main_node_id, 
-											   'limit', 5,
+	{def $children = array()
+	     $limit = 5
+	     $offset = 0}
+
+	{if is_set( $object_parameters.limit )}
+		{set $limit = $object_parameters.limit}
+	{/if}
+
+	{if is_set( $object_parameters.offset )}
+		{set $offset = $object_parameters.offset}
+	{/if}
+
+    {set $children=fetch( content, list, hash( 'parent_node_id', $object.main_node_id, 
+											   'limit', $limit,
+											   'offset', $offset,
 											   'sort_by', array( 'modified_subnode', false() ) ) ) }
     <h2><a href={$object.main_node.url_alias|ezurl}>{$object.name|wash()}</a></h2>
 	
