@@ -3,9 +3,21 @@
 	
 <div class="content-view-embed">
 	<div class="class-event-calender">
-	
-    {def $children=fetch( content, list, hash( 'parent_node_id', $object.main_node_id, 
-											   'limit', 5,
+	{def $children = array()
+	     $limit = 5
+	     $offset = 0}
+
+	{if is_set( $object_parameters.limit )}
+		{set $limit = $object_parameters.limit}
+	{/if}
+
+	{if is_set( $object_parameters.offset )}
+		{set $offset = $object_parameters.offset}
+	{/if}
+
+    {set $children=fetch( content, list, hash( 'parent_node_id', $object.main_node_id, 
+											   'limit', $limit,
+											   'offset', $offset,
 											   'class_filter_type', 'include',
 											   'class_filter_array', array( 'event' ),
 											   'sort_by', array( 'attribute', false(), 'event/from_time' ) ) ) }

@@ -1,11 +1,24 @@
 <div class="content-view-embed">
-    {def $children=fetch( 'content', 'list', hash( 'parent_node_id', $object.main_node_id, 
-											   'limit', 3, 
+	{def $children = array()
+	     $limit = 3
+	     $offset = 0}
+
+	{if is_set( $object_parameters.limit )}
+		{set $limit = $object_parameters.limit}
+	{/if}
+
+	{if is_set( $object_parameters.offset )}
+		{set $offset = $object_parameters.offset}
+	{/if}
+
+    {set $children=fetch( 'content', 'list', hash( 'parent_node_id', $object.main_node_id, 
+											   'limit', $limit,
+											   'offset', $offset, 
 											   'class_filter_type', 'exclude',
 											   'class_filter_array', array( 'infobox' ),
 											   'sort_by', $object.main_node.sort_array ) ) }
     <h2>{$object.name|wash()}</h2>
-		<div class="box-embgv">
+	<div class="box-embgv">
 	<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
          <div class="split float-break">
                                 <div class="three-left">

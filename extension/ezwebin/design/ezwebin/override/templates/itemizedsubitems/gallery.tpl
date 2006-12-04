@@ -3,9 +3,21 @@
 
 <div class="content-view-embed">
 	<div class="class-gallery">
+	{def $children = array()
+	     $limit = 5
+	     $offset = 0}
+
+	{if is_set( $object_parameters.limit )}
+		{set $limit = $object_parameters.limit}
+	{/if}
+
+	{if is_set( $object_parameters.offset )}
+		{set $offset = $object_parameters.offset}
+	{/if}
 	
-    {def $children=fetch( content, list, hash( 'parent_node_id', $object.main_node_id, 
-											   'limit', 5,
+    {set $children=fetch( content, list, hash( 'parent_node_id', $object.main_node_id, 
+											   'limit', $limit,
+											   'offset', $offset,
 											   'class_filter_type', 'include',
 											   'class_filter_array', array( 'image' ),
 											   'sort_by', $object.main_node.sort_array ) ) }
