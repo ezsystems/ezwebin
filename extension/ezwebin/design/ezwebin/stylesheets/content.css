@@ -2258,3 +2258,25 @@ span.discount-percent
 {
 	font-size: 0.9em;
 }
+
+/* HISTORY */
+div.content-history div.context-controls div.left
+{
+	width: 18%;
+}
+
+div.content-history div.context-controls div.right
+{
+	width: 80%;
+	text-align: right;
+}
+
+div.content-history div.context-controls div.right input.button
+{
+	display: inline;
+}
+
+div#diffview div.context-toolbar div.block ul li
+{
+	background: none;
+}
