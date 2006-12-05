@@ -22,7 +22,7 @@
         <input type="hidden" name="ContentObjectAttribute_ezstring_data_text_{$object.data_map.subject.id}" value="{concat("Re: ", $parent_node.name)|wash(xhtml)|shorten(50)}" />
 		
 		<div class="block">
-    		<label>Message:</label>
+    		<label>{$object.data_map.message.contentclass_attribute.name}</label>
     		{attribute_edit_gui attribute=$object.data_map.message}
 		</div>
         

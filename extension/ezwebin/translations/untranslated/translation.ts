@@ -798,22 +798,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Subject</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Notify me about updates</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sticky</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Send for publishing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -899,22 +883,6 @@
 </context>
 <context>
     <name>design/ezwebin/full/feedback_form</name>
-    <message>
-        <source>Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Your E-mail address</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Subject</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>Send form</source>
         <translation type="unfinished"></translation>

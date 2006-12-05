@@ -19,22 +19,22 @@
         </div>
         <form method="post" action={"content/action"|ezurl}>
 
-        <h4>{"Name"|i18n("design/ezwebin/full/feedback_form")}</h4>
+        <h4>{$node.data_map.sender_name.contentclass_attribute.name}</h4>
         <div class="attribute-sender-name">
                 {attribute_view_gui attribute=$node.data_map.sender_name}
         </div>
 
-        <h4>{"Your E-mail address"|i18n("design/ezwebin/full/feedback_form")}</h4>
+        <h4>{$node.data_map.email.contentclass_attribute.name}</h4>
         <div class="attribute-email">
                 {attribute_view_gui attribute=$node.data_map.email}
         </div>
 
-        <h4>{"Subject"|i18n("design/ezwebin/full/feedback_form")}</h4>
+        <h4>{$node.data_map.subject.contentclass_attribute.name}</h4>
         <div class="attribute-subject">
                 {attribute_view_gui attribute=$node.data_map.subject}
         </div>
 
-        <h4>{"Message"|i18n("design/ezwebin/full/feedback_form")}</h4>
+        <h4>{$node.data_map.message.contentclass_attribute.name}</h4>
         <div class="attribute-message">
                 {attribute_view_gui attribute=$node.data_map.message}
         </div>

@@ -17,17 +17,17 @@
         <input type="hidden" name="MainNodeID" value="{$main_node_id}" />
 		
 		<div class="block">
-        	<label>{'Subject'|i18n('design/ezwebin/edit/forum_topic')}</label>
+        	<label>{$object.data_map.subject.contentclass_attribute.name}</label>
         	{attribute_edit_gui attribute=$object.data_map.subject}
 		</div>
 		
 		<div class="block">
-        	<label>{'Message'|i18n('design/ezwebin/edit/forum_topic')}</label>
+        	<label>{$object.data_map.message.contentclass_attribute.name}</label>
         	{attribute_edit_gui attribute=$object.data_map.message}
 		</div>
 
 		<div class="block">
-        	<label>{'Notify me about updates'|i18n('design/ezwebin/edit/forum_topic')}</label>
+        	<label>{$object.data_map.notify_me.contentclass_attribute.name}</label>
         	{attribute_edit_gui attribute=$object.data_map.notify_me}
 		</div>
 
@@ -37,7 +37,7 @@
             {foreach $sticky_groups as $sticky}
                 {if $current_user.groups|contains($sticky)}
 				<div class="block">
-                	<label>{'Sticky'|i18n('design/ezwebin/edit/forum_topic')}</label>
+                	<label>{$object.data_map.sticky.contentclass_attribute.name}</label>
                 		{attribute_edit_gui attribute=$object.data_map.sticky}
 					</div>
                 {/if}
