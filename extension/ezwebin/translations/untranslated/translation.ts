@@ -461,6 +461,177 @@
     </message>
 </context>
 <context>
+    <name>design/ezwebin/content/history</name>
+    <message>
+        <source>Version not a draft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version %1 is not available for editing anymore, only drafts can be edited.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To edit this version create a copy of it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version not yours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version %1 was not created by you, only your own drafts can be edited.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to create new version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select version #%version_number for removal.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version #%version_number can not be removed because it is either the published version of the object or because you do not have permissions to remove it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View the contents of version #%version_number. Translation: %translation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Archived</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rejected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Untouched draft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a copy of version #%version_number.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can not make copies of versions because you do not have permissions to edit the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit the contents of version #%version_number.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can not edit the contents of version #%version_number either because it is not a draft or because you do not have permissions to edit the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object does not have any versions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove the selected versions from the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show differences</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Published version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New drafts [%newerDraftCount]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object does not have any drafts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Differences between versions %oldVersion and %newVersion</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Old version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Inline changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back to history</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/content/search</name>
     <message>
         <source>Search</source>
