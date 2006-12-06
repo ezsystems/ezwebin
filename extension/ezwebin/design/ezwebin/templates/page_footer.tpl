@@ -6,7 +6,7 @@
     {/if}
     <br />
     {if $pagedesign.data_map.hide_powered_by.data_int|not}
-    Powered by <a href={"/ezinfo/about"|ezurl}>eZ publish&#8482;</a> Content Management System.
+    Powered by <a href="http://ez.no/ezpublish/" title="eZ Publish Content Management System">eZ Publish&#8482;</a> Content Management System.
     {/if}
     </address>
   </div>
