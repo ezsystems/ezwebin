@@ -1152,6 +1152,21 @@
     </message>
 </context>
 <context>
+    <name>design/ezwebin/link</name>
+    <message>
+        <source>%sitetitle front page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search %sitetitle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Printable version</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/node/removeobject</name>
     <message>
         <source>Are you sure you want to remove these items?</source>
@@ -1213,6 +1228,13 @@
     </message>
     <message>
         <source>Store</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/pagelayout</name>
+    <message>
+        <source>Search</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1664,28 +1686,6 @@
     </message>
     <message>
         <source>Node ID: %node_id Visibility: %visibility</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/templates/link</name>
-    <message>
-        <source>%sitetitle front page</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Search %sitetitle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Printable version</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/templates/pagelayout</name>
-    <message>
-        <source>Search</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
