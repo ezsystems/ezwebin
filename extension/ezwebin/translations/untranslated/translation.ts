@@ -747,6 +747,29 @@
     </message>
 </context>
 <context>
+    <name>design/ezwebin/content/view/versionview</name>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit the draft that is being displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish the draft that is being displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This version is not a draft and thus it can not be edited.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
