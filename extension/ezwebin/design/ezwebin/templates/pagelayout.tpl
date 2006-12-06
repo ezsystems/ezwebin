@@ -155,7 +155,7 @@
       <form action={"/content/search"|ezurl}>
         <label for="searchtext" class="hide">Search text:</label>
         <input id="searchtext" name="SearchText" type="text" size="12" />
-        <input id="searchbutton" class="button" type="submit" value="{'Search'|i18n('design/ezwebin/templates/pagelayout')}" />
+        <input id="searchbutton" class="button" type="submit" value="{'Search'|i18n('design/ezwebin/pagelayout')}" />
       </form>
     </div>
     <p class="hide"><a href="#main">Skip to main content</a></p>
