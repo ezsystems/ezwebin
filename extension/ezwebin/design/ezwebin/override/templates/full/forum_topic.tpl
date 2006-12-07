@@ -79,7 +79,7 @@
             <input class="button forum-keep-me-updated" type="submit" name="ActionAddToNotification" value="{'Keep me updated'|i18n( 'design/ezwebin/full/forum_topic' )}" />
             <input type="hidden" name="NodeID" value="{$node.node_id}" />
             <input type="hidden" name="ClassIdentifier" value="forum_reply" />
-			<input type="hidden" name="ContentLanguageCode" value="{$node.object.initial_language_code}" />
+			<input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
         </form>
         {section-else}
            <p>
@@ -128,7 +128,7 @@
                       <form method="post" action={"content/action/"|ezurl}>
                           <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
                           <input class="button forum-account-edit" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/full/forum_topic')}" />
-						  <input type="hidden" name="ContentObjectLanguageCode" value="{$node.object.initial_language_code}" />
+						  <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
                       </form>
                   {/section}
                   {section show=$node.object.can_remove}
@@ -186,7 +186,7 @@
                        <form method="post" action={"content/action/"|ezurl}>
                        <input type="hidden" name="ContentObjectID" value="{$reply.object.id}" />
                        <input class="button" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/full/forum_topic')}" />
-					   <input type="hidden" name="ContentObjectLanguageCode" value="{$reply.object.initial_language_code}" />
+					   <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
                        </form>
                    {/case}
                    {case match=0}

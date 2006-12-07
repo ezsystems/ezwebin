@@ -7,16 +7,14 @@
     <div class="class-file">
 	
     <div class="attribute-header">
-    	<h1>{"Edit %1 - %2"|i18n("design/ezwebin/edit/file",,array($class.name|wash,$object.name|wash))}</h1>
+    	<h1 class="long">{"Edit %1 - %2"|i18n("design/ezwebin/edit/file",,array($class.name|wash,$object.name|wash))}</h1>
     </div>
 
     {include uri="design:content/edit_validation.tpl"}
 
     <input type="hidden" name="MainNodeID" value="{$main_node_id}" />
-    <br/>
 
     {include uri="design:content/edit_attribute.tpl"}
-    <br/>
 
     <div class="buttonblock">
     <input class="defaultbutton" type="submit" name="PublishButton" value="{'Send for publishing'|i18n('design/ezwebin/edit/file')}" />
