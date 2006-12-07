@@ -93,15 +93,13 @@
         {if $row.columns[0]}
 	        <li{if $row.columns[1]|downcase()|eq($access_type.name)} class="current_siteaccess"{/if}>
 	        {if is_set($DesignKeys:used.url_alias)}
-	            <a href={concat( "http://", $site_url,
-	                     $site_access,
+	            <a href="{concat( "http://", $site_url, $site_access, 
 	                     $DesignKeys:used.url_alias
-	                     )}>{$language}</a>
+	                     )}">{$language}</a>
 	        {else}
-	            <a href={concat( "http://", $site_url,
-	                     $site_access,
+	            <a href="{concat( "http://", $site_url, $site_access, 
 	                     $uri_string
-                         )}>{$language}</a>
+                         )}">{$language}</a>
             {/if}
             </li>
         {/if}
