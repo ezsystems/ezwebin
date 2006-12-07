@@ -182,7 +182,7 @@
   
   <!-- Toolbar area: START -->
   <div id="toolbar">
-  {if and( $current_node_id, and( is_set( $module_result.content_info.viewmode ), ne( $module_result.content_info.viewmode, 'sitemap' ) ) ) }
+  {if and( $current_node_id, $current_user.is_logged_in, is_set( $module_result.content_info.viewmode ), ne( $module_result.content_info.viewmode, 'sitemap' ) ) }
   {include uri='design:parts/website_toolbar.tpl'}
   {/if}
   </div>

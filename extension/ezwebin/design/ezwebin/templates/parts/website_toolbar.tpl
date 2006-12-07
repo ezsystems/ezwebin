@@ -7,7 +7,7 @@
 	 $odf_display_classes = ezini( 'WebsiteToolbarSettings', 'ODFDisplayClasses', 'websitetoolbar.ini' )
 	 $website_toolbar_access = fetch( 'content', 'object', hash( 'object_id', $current_user.groups[0] ) ).data_map.website_toolbar_access.data_int}
 
-{if and( $current_user.is_logged_in, $website_toolbar_access, $available_for_classes|contains( $current_node.class_identifier ) )}
+{if and( $website_toolbar_access, $available_for_classes|contains( $current_node.class_identifier ) )}
 
 <div class="box-et {if eq( $current_node.class_identifier, 'frontpage' )}frontpage-et{/if}">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
