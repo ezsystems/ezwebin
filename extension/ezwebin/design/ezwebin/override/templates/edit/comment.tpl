@@ -8,11 +8,9 @@
     <div class="class-comment">
 
 	<div class="attribute-header">
-    	<h1>{"Edit %1 - %2"|i18n("design/ezwebin/edit/comment",,array($class.name|wash,$object.name|wash))}</h1>
+    	<h1 class="long">{"Edit %1 - %2"|i18n("design/ezwebin/edit/comment",,array($class.name|wash,$object.name|wash))}</h1>
 	</div>
     {include uri="design:content/edit_validation.tpl"}
-
-    <br/>
 
     <div class="block">
        {def $attribute=$object.data_map.subject}
