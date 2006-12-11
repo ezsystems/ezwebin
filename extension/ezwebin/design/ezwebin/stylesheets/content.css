@@ -1739,7 +1739,7 @@ div#ezagenda_calendar_container
 	background-image:url(../images/cal_table_bg.png);
 	background-position: top left;
 	background-repeat: no-repeat;
-	text-aling: center;
+	text-align: center;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
@@ -1751,7 +1751,7 @@ div#ezagenda_calendar_left table
 	background-position: top left;
 	background-color: #F0F0F0;
 	margin: auto;
-	text-aling: left;
+	text-align: left;
 }
 
 div#ezagenda_calendar_left table th
