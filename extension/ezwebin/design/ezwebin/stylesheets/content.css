@@ -1724,14 +1724,14 @@ div.content-view-horizontallylistedsubitems div.class-article div.attribute-imag
 
 /* AGENDA */
 
-div#ezagenda_calender_left
+div#ezagenda_calendar_left
 {
 	vertical-align: top;
 	width: 214px;
 	float: left;
 }
 
-div#ezagenda_calender_container
+div#ezagenda_calendar_container
 {
 	background-color: #F4F4F4;
 	vertical-align: top;
@@ -1744,7 +1744,7 @@ div#ezagenda_calender_container
 	padding-bottom: 0.5em;
 }
 
-div#ezagenda_calender_left table
+div#ezagenda_calendar_left table
 {
 	background-image:url(../images/cal_bg.png);
 	background-repeat: repeat-x;
@@ -1754,14 +1754,14 @@ div#ezagenda_calender_left table
 	text-aling: left;
 }
 
-div#ezagenda_calender_left table th
+div#ezagenda_calendar_left table th
 {
 	font-weight: normal;
 	text-align: center;
 	height: 20px;
 }
 
-div#ezagenda_calender_left table td
+div#ezagenda_calendar_left table td
 {
 	padding: 0.55em;
 	background-image: url(../images/cal_td_bg.png);
@@ -1771,47 +1771,47 @@ div#ezagenda_calender_left table td
 }
 
 
-div#ezagenda_calender_left table tr.days
+div#ezagenda_calendar_left table tr.days
 {
 	background-image: url(../images/cal_tr_bg.png);
 	background-position: bottom center;
 	background-repeat: repeat-x;
 }
 
-div#ezagenda_calender_left table td.ezagenda_selected
+div#ezagenda_calendar_left table td.ezagenda_selected
 {
 	background-color: #E1E1E1;
 	margin-left: -0.6em;
 	padding: 0.25em;
 }
 
-div#ezagenda_calender_left table td.ezagenda_current, div#ezagenda_calender_left table td.ezagenda_current a
+div#ezagenda_calendar_left table td.ezagenda_current, div#ezagenda_calendar_left table td.ezagenda_current a
 {
 	color: #DF1D42;
 }
 
-div#ezagenda_calender_right
+div#ezagenda_calendar_right
 {
 	vertical-align: top;
 	padding-left: 1em;
 	margin-left: 210px;
 }
 
-div#ezagenda_calender_right table
+div#ezagenda_calendar_right table
 {
 	border: 1px solid #F1F1ED;
 	width: 90%;
 	margin-bottom: 0.25em;
 }
 
-div#ezagenda_calender_right td.ezagenda_month_head
+div#ezagenda_calendar_right td.ezagenda_month_head
 {
 	vertical-align: top;
 	padding-left: 0.5em;
 	width: 60px;
 }
 
-div#ezagenda_calender_right td.ezagenda_month_head h2
+div#ezagenda_calendar_right td.ezagenda_month_head h2
 {
 	border: 1px solid #D2D2C5;
 	padding: 0.15em;
@@ -1828,34 +1828,34 @@ div#ezagenda_calender_right td.ezagenda_month_head h2
 	text-align: center;
 }
 
-div#ezagenda_calender_right td.ezagenda_month_info h2
+div#ezagenda_calendar_right td.ezagenda_month_info h2
 {
 	margin-top: 0;
 	font-weight: normal;
 	font-size: 1.1em;
 }
 
-div#ezagenda_calender_right td.ezagenda_month_info p
+div#ezagenda_calendar_right td.ezagenda_month_info p
 {
 	margin-top: 0;
 	margin-bottom: 0.25em;
 }
 
-div#ezagenda_calender_today
+div#ezagenda_calendar_today
 {
 /*	float: left;*/
 	margin-top: 1.2em;
 	width: 214px;
 }
 
-div#ezagenda_calender_today div.ezagenda_day_event
+div#ezagenda_calendar_today div.ezagenda_day_event
 {
 	border: 1px solid #F1F1ED;
 	margin-bottom: 0.25em;
 	padding: 0.5em;
 }
 
-div#ezagenda_calender_today div.ezagenda_day_event h2
+div#ezagenda_calendar_today div.ezagenda_day_event h2
 {
 	margin-top: 0;
 	font-weight: normal;
@@ -1912,6 +1912,13 @@ table#ezagenda td.ezagenda_month_label h2
 
 table#ezagenda td.ezagenda_month_info
 {
+}
+
+span.ezagenda_keyword
+{
+ display: block;
+ font-size: 90%;
+ color: #888;
 }
 
 /* CONTENTSTRUCTURE */

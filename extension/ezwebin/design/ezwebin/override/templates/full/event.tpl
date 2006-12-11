@@ -12,14 +12,19 @@
 	</div>
 	
 	<div class="attribute-byline">
-	<p class="ezagenda_date">
-
+	<p>
+	{if $node.object.data_map.category.has_content}
+	<span class="ezagenda_keyword">
 	{"Category"|i18n("design/ezwebin/full/event")}:
-	{attribute_view_gui attribute=$node.object.data_map.category}<br />
-	{$node.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
+	{attribute_view_gui attribute=$node.object.data_map.category}
+	</span>
+	{/if}
+	
+	<span class="ezagenda_date">{$node.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
 	{if $node.object.data_map.to_time.has_content}
 		  - {$node.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
 	{/if}
+	</span>
 	</p>
 	</div>
 

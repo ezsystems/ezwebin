@@ -1,8 +1,8 @@
 {*?template charset=latin1?*}
-{* Event - Line view *}
+{* Event Calendar - Line view *}
 
 <div class="content-view-line">
-    <div class="class-event class-event-calender">
+    <div class="class-event-calendar">
 	<h2><a href={$node.url_alias|ezurl}>{$node.object.data_map.title.content|wash()}</a></h2>
 	{def 	$event_ts=currentdate()
 	 		$list_data=fetch( 'content', 'list', hash( 
@@ -17,7 +17,7 @@
 
 	{if gt(count($list_data),0)}
 	<div class="content-view-children">
-	<strong>{"Next events"|i18n("design/ezwebin/line/event_calender")}:</strong>
+	<strong>{"Next events"|i18n("design/ezwebin/line/event_calendar")}:</strong>
 		{foreach $list_data as $event}
 		{if or( eq($event.object.data_map.to_time.content.timestamp|datetime( custom, '%j%m'), $event_ts|datetime( custom, '%j%m')),
 				eq($event.object.data_map.from_time.content.timestamp|datetime( custom, '%j%m'), $event_ts|datetime( custom, '%j%m')),
@@ -28,7 +28,7 @@
 		{else}
 		<p>
 		{/if}
-		<span class="ezagneda_date">{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%d %M")}</span>
+		<span class="ezagenda_date">{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%d %M")}</span>
 		<a href={$event.url_alias|ezurl}>{$event.name|wash()}</a>
 		</p>
 		{/foreach}
