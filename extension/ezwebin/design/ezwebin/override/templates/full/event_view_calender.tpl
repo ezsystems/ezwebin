@@ -177,7 +177,7 @@
 	{if $day_event.object.data_map.category.has_content}
 	<span class="ezagenda_keyword">
 	{"Category"|i18n("design/ezwebin/full/event_view_calendar")}:
-	{attribute_view_gui attribute=$event.object.data_map.category}
+	{attribute_view_gui attribute=$day_event.object.data_map.category}
 	</span>
 	{/if}
 	
