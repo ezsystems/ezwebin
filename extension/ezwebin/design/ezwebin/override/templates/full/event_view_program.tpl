@@ -17,12 +17,18 @@
 			'parent_node_id', $event_node,
 			'class_filter_type',  'include',
             'class_filter_array', array( 'event' ),
-			'attribute_filter',	array( array( 'event/to_time', '>=', $curr_ts )) ))
+   			'attribute_filter',	array( 'or',
+					array( 'event/from_time', '>=', $curr_ts  ),
+					array( 'event/to_time', '>=', $curr_ts  )
+			)	))
 	$older_event_count = fetch( 'content', 'list_count', hash(
 			'parent_node_id', $event_node,
 			'class_filter_type',  'include',
             'class_filter_array', array( 'event' ),
-			'attribute_filter',	array( array( 'event/to_time', '<', $curr_ts )) ))
+   			'attribute_filter',
+			array( 'and', array( 'event/from_time', '<', $curr_ts  ),
+					array( 'event/to_time', '<', $curr_ts  )
+			)	))
 }
 {if ge($temp_offset,0)}
 {set $temp_offset = $temp_offset|abs}
@@ -33,7 +39,10 @@
             'class_filter_array', array( 'event' ),
 			'limitation', 15,
 			'offset', $temp_offset|mul(15),
-			'attribute_filter',	array( array( 'event/to_time', '>=', $curr_ts )) ))
+			'attribute_filter', array( 'or',
+					array( 'event/from_time', '>=', $curr_ts  ),
+					array( 'event/to_time', '>=', $curr_ts  )
+			)	))
 }
 {set $newer_event_count = $newer_event_count|sub( 15|mul( $temp_offset|inc ) )}
 {else}
@@ -46,7 +55,10 @@
             'class_filter_array', array( 'event' ),
 			'limitation', 15,
 			'offset', $temp_offset|mul(15),
-			'attribute_filter',	array( array( 'event/to_time', '<', $curr_ts )) ))
+			'attribute_filter', array( 'and',
+					array( 'event/from_time', '<', $curr_ts  ),
+					array( 'event/to_time', '<', $curr_ts  )
+			)	))
 }
 {set $older_event_count = $older_event_count|sub( 15|mul( $temp_offset|inc ) )}
 {/if}
