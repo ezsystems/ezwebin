@@ -871,7 +871,7 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/full/event_view_calender</name>
+    <name>design/ezwebin/full/event_view_calendar</name>
     <message>
         <source>Mon</source>
         <translation type="unfinished"></translation>
@@ -1123,7 +1123,7 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/line/event_calender</name>
+    <name>design/ezwebin/line/event_calendar</name>
     <message>
         <source>Next events</source>
         <translation type="unfinished"></translation>

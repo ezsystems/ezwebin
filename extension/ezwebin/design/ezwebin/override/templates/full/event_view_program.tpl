@@ -89,7 +89,7 @@ $older_event_count  :{$older_event_count};
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
 <div class="content-view-full">
- <div class="class-event class-ezagenda-program">
+ <div class="class-event-calendar event-calendar-programview">
 
 <div class="attribute-header">
 	<h1>{$node.name|wash()}</h1>
@@ -102,7 +102,7 @@ $older_event_count  :{$older_event_count};
 	<tr>
 	<td  class="ezagenda_month_label"><h2>{$temp_month}</h2></td>
 	<td class="ezagenda_month">
-	 <table cellpadding="0" cellspacing="0" summary="preview of event" {if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} width="99%">
+	<table cellpadding="0" cellspacing="0" summary="preview of event"{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} width="99%">
 	<tr><td class="ezagenda_month_head">
 	<h2>
 		<a href={$event.url_alias|ezurl}>{$event.name|wash}</a>
@@ -112,12 +112,18 @@ $older_event_count  :{$older_event_count};
 	{/if}
 	</td>
 	<td align="right" class="ezagenda_month_info">
-	<p>{attribute_view_gui attribute=$event.object.data_map.category}
-	<br />
+	<p>
+	{if $event.object.data_map.category.has_content}
+	<span class="ezagenda_keyword">
+	{attribute_view_gui attribute=$event.object.data_map.category}
+	</span>
+	{/if}
+	<span class="ezagenda_date">
 	{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%H:%i")}
 	{if and($event.object.data_map.to_time.has_content,  ne( $event.object.data_map.to_time.content.timestamp|datetime(custom,"%H:%i"), $event.object.data_map.from_time.content.timestamp|datetime(custom,"%H:%i") ))}
 	- {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%H:%i")}
 	{/if}
+	</span>
 	</p>
 	</td></tr>
 	</table>
@@ -140,12 +146,18 @@ $older_event_count  :{$older_event_count};
 	</h2>
 	</td>
 	<td align="right" class="ezagenda_month_info">
-	<p>{attribute_view_gui attribute=$event.object.data_map.category}
-	<br />
-	{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}
-	{if and($event.object.data_map.to_time.has_content,  ne( $event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M"), $event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M") ))}
-	- {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}
+	<p>
+	{if $event.object.data_map.category.has_content}
+	<span class="ezagenda_keyword">
+	{attribute_view_gui attribute=$event.object.data_map.category}
+	</span>
 	{/if}
+	<span class="ezagenda_date">
+	{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%H:%i")}
+	{if and($event.object.data_map.to_time.has_content,  ne( $event.object.data_map.to_time.content.timestamp|datetime(custom,"%H:%i"), $event.object.data_map.from_time.content.timestamp|datetime(custom,"%H:%i") ))}
+	- {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%H:%i")}
+	{/if}
+	</span>
 	</p>
 	</td>
 	</tr>

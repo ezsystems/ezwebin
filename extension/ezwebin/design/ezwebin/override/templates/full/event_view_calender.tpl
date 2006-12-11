@@ -86,15 +86,15 @@
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 
 <div class="content-view-full">
- <div class="class-event class-ezagenda-calender">
+ <div class="class-event-calendar event-calendar-calendarview">
 
 <div class="attribute-header">
 	<h1>{$node.name|wash()}</h1>
 </div>
 
 
-<div id="ezagenda_calender_left">
-<div id="ezagenda_calender_container">
+<div id="ezagenda_calendar_left">
+<div id="ezagenda_calendar_container">
 <table cellspacing="0" cellpadding="0" border="0" summary="Event Calendar">
 <thead>
 <tr>
@@ -103,13 +103,13 @@
 <th><a href={$url_forward|ezurl} title=" Next Month ">&gt;&gt;</a></th>
 </tr>
 <tr>
-	<th>{"Mon"|i18n("design/ezwebin/full/event_view_calender")}</th>
-	<th>{"Tue"|i18n("design/ezwebin/full/event_view_calender")}</th>
-	<th>{"Wed"|i18n("design/ezwebin/full/event_view_calender")}</th>
-	<th>{"Thu"|i18n("design/ezwebin/full/event_view_calender")}</th>
-	<th>{"Fri"|i18n("design/ezwebin/full/event_view_calender")}</th>
-	<th>{"Sat"|i18n("design/ezwebin/full/event_view_calender")}</th>
-	<th>{"Sun"|i18n("design/ezwebin/full/event_view_calender")}</th>
+	<th>{"Mon"|i18n("design/ezwebin/full/event_view_calendar")}</th>
+	<th>{"Tue"|i18n("design/ezwebin/full/event_view_calendar")}</th>
+	<th>{"Wed"|i18n("design/ezwebin/full/event_view_calendar")}</th>
+	<th>{"Thu"|i18n("design/ezwebin/full/event_view_calendar")}</th>
+	<th>{"Fri"|i18n("design/ezwebin/full/event_view_calendar")}</th>
+	<th>{"Sat"|i18n("design/ezwebin/full/event_view_calendar")}</th>
+	<th>{"Sun"|i18n("design/ezwebin/full/event_view_calendar")}</th>
 </tr>
 </thead>
 <tbody>
@@ -159,9 +159,9 @@
 </div>
 
 
-<div id="ezagenda_calender_today">
+<div id="ezagenda_calendar_today">
 	{if eq($curr_ts|datetime( custom, '%j'),$temp_ts|datetime( custom, '%j'))} 
-		<h2>{"Today"|i18n("design/ezwebin/full/event_view_calender")}:</h2> 
+		<h2>{"Today"|i18n("design/ezwebin/full/event_view_calendar")}:</h2> 
 	{else} 
 		<h2>{$temp_ts|datetime( custom, '%l %j')|upfirst()}:</h2> 
 	{/if} 
@@ -172,24 +172,29 @@
 		<div class="ezagenda_day_event">
 	{/if}
 	<h2><a href={$day_event.url_alias|ezurl}>{$day_event.name|wash}</a></h2>
-	<span>
+	
+	<p>
 	{if $day_event.object.data_map.category.has_content}
-	{"Category"|i18n("design/ezwebin/full/event_view_calender")}:
-	{attribute_view_gui attribute=$day_event.object.data_map.category}<br />
+	<span class="ezagenda_keyword">
+	{"Category"|i18n("design/ezwebin/full/event_view_calendar")}:
+	{attribute_view_gui attribute=$event.object.data_map.category}
+	</span>
 	{/if}
 	
+	<span class="ezagenda_date">
 	{$day_event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")} 
-	{section show=$day_event.object.data_map.to_time.has_content}
+	{if $day_event.object.data_map.to_time.has_content}
 		- {$day_event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
-	{/section}
-	</span>	
+	{/if}
+	</span>
+	</p>	
 	</div>
 {/foreach}
 </div>
 </div>
 
 
-<div id="ezagenda_calender_right">
+<div id="ezagenda_calendar_right">
 <h2>{$temp_ts|datetime( custom, '%F %Y' )|upfirst()}:</h2> 
 {foreach $events as $event}
 	{if and( ne($view_parameters.offset, 2), eq($loop_count, 8))}
@@ -208,14 +213,19 @@
 	<td class="ezagenda_month_info">
 	<h2><a href={$event.url_alias|ezurl}>{$event.name|wash}</a></h2>
 	
+	<p>
 	{if $event.object.data_map.category.has_content}
-	<p>{attribute_view_gui attribute=$event.object.data_map.category}</p>
+	<span class="ezagenda_keyword">
+	{attribute_view_gui attribute=$event.object.data_map.category}
+	</span>
 	{/if}
 
-	<p>{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}
+	<span class="ezagenda_date">
+	{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}
 	{if and($event.object.data_map.to_time.has_content,  ne( $event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M"), $event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M") ))}
 		- {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}
 	{/if}
+	</span>
 	</p>
 	
 	{if $event.object.data_map.text.has_content}
