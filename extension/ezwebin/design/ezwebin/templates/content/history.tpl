@@ -166,12 +166,12 @@
         </select>
         <select name="FromVersion">
             {foreach $object.versions as $ver}
-                <option {if eq( $ver.version, $selectOldVersion)}selected="selected"{/if} value="{$ver.version}">{$ver.version_name|shorten(35)|wash} [{$ver.version}]</option>
+                <option {if eq( $ver.version, $selectOldVersion)}selected="selected"{/if} value="{$ver.version}">{$ver.version}</option>
             {/foreach}
         </select>
         <select name="ToVersion">
             {foreach $object.versions as $ver}
-                <option {if eq( $ver.version, $selectNewVersion)}selected="selected"{/if} value="{$ver.version}">{$ver.version_name|shorten(35)|wash} [{$ver.version}]</option>
+                <option {if eq( $ver.version, $selectNewVersion)}selected="selected"{/if} value="{$ver.version}">{$ver.version}</option>
             {/foreach}
         </select>
     <input type="hidden" name="ObjectID" value="{$object.id}" />
