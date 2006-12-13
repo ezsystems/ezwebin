@@ -2,7 +2,7 @@
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
 	
 <div class="content-view-embed">
-	<div class="class-event-calender">
+	<div class="class-event-calendar">
 	{def $children = array()
 	     $limit = 5
 	     $offset = 0}

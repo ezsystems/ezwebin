@@ -1756,7 +1756,7 @@ div#ezagenda_calendar_left table
 
 div#ezagenda_calendar_left table th
 {
-	font-weight: normal;
+	font-weight: bold;
 	text-align: center;
 	height: 20px;
 }
