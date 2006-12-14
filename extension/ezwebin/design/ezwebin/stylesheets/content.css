@@ -1763,19 +1763,10 @@ div#ezagenda_calendar_left table th
 
 div#ezagenda_calendar_left table td
 {
-	padding: 0.55em;
-	background-image: url(../images/cal_td_bg.png);
-	background-position: right top;
-	background-repeat: repeat-y;
+	padding: 0.5em;
+    border: 1px solid;
+    border-color: #fefffc #dee0dd #dee0dd #fefffc;
 	text-align: center;
-}
-
-
-div#ezagenda_calendar_left table tr.days
-{
-	background-image: url(../images/cal_tr_bg.png);
-	background-position: bottom center;
-	background-repeat: repeat-x;
 }
 
 div#ezagenda_calendar_left table td.ezagenda_selected
