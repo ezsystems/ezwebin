@@ -97,12 +97,12 @@
 <div id="ezagenda_calendar_container">
 <table cellspacing="0" cellpadding="0" border="0" summary="Event Calendar">
 <thead>
-<tr>
-<th><a href={$url_back|ezurl} title=" Previous month ">&lt;&lt;</a></th>
-<th colspan="5">{$temp_ts|datetime( custom, '%F' )|upfirst()}&nbsp;{$temp_year}</th>
-<th><a href={$url_forward|ezurl} title=" Next Month ">&gt;&gt;</a></th>
+<tr class="calendar_heading">
+	<th class="calendar_heading_prev first_col"><a href={$url_back|ezurl} title=" Previous month ">&lt;&lt;</a></th>
+	<th class="calendar_heading_date" colspan="5">{$temp_ts|datetime( custom, '%F' )|upfirst()}&nbsp;{$temp_year}</th>
+	<th class="calendar_heading_next last_col"><a href={$url_forward|ezurl} title=" Next Month ">&gt;&gt;</a></th>
 </tr>
-<tr>
+<tr class="calendar_heading_days">
 	<th class="first_col">{"Mon"|i18n("design/ezwebin/full/event_view_calendar")}</th>
 	<th>{"Tue"|i18n("design/ezwebin/full/event_view_calendar")}</th>
 	<th>{"Wed"|i18n("design/ezwebin/full/event_view_calendar")}</th>
@@ -170,13 +170,9 @@
 		<h2>{$temp_ts|datetime( custom, '%l %j')|upfirst()}:</h2> 
 	{/if} 
 {foreach $day_events as $day_event}
-	{if gt($curr_ts , $day_event.object.data_map.to_time.content.timestamp)}
-		<div class="ezagenda_day_event ezagenda_event_old">
-	{else}
-		<div class="ezagenda_day_event">
-	{/if}
-	<h2><a href={$day_event.url_alias|ezurl}>{$day_event.name|wash}</a></h2>
 	
+	<div class="ezagenda_day_event{if gt($curr_ts , $day_event.object.data_map.to_time.content.timestamp)} ezagenda_event_old{/if}">
+	<h2><a href={$day_event.url_alias|ezurl}>{$day_event.name|wash}</a></h2>
 	<p>
 	{if $day_event.object.data_map.category.has_content}
 	<span class="ezagenda_keyword">
@@ -205,11 +201,8 @@
 		<a id="ezagenda_month_hidden_show" href={$url_reload|ezurl} onclick="document.getElementById('ezagenda_month_hidden').style.display='';this.style.display='none';return false;">Show All Events..</a>
 		<div id="ezagenda_month_hidden" style="display:none;">
 	{/if}
-	{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)}
-		<table cellpadding="0" cellspacing="0" class="ezagenda_event_old" summary="Previw of event">
-	{else}
-		<table cellpadding="0" cellspacing="0" summary="Previw of event">
-	{/if}
+	
+	<table cellpadding="0" cellspacing="0"{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} summary="Previw of event">
 	<tr>
 	<td class="ezagenda_month_head">
 		<h2>{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}</h2>
