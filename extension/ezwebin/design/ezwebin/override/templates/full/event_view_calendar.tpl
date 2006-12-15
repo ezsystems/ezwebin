@@ -121,7 +121,7 @@
 	     $css_col_class = ''
 	     $col_end       = or( eq( $dayofweek, 0 ), eq( $counter, $days ) )}
 	{if or( eq( $counter, 1 ), eq( $dayofweek, 1 ) )}
-		<tr class="days">
+		<tr class="days{if eq( $counter, 1 )} first_row{elseif le( $days|sub( $counter ), 7 )} last_row{/if}">
 		{set $css_col_class=' first_col'}
 	{elseif and($col_end, not(and(eq( $counter, $days ), $span2|gt( 0 ), $span2|ne(7))) )}
 		{set $css_col_class=' last_col'}
