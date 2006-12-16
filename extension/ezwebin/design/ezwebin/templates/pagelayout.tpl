@@ -82,28 +82,22 @@
         <ul>
         {foreach $pagedesign.data_map.language_settings.content.rows.sequential as $row}
         {def $site_url = $row.columns[0]
-             $site_access = $row.columns[1]
              $language = $row.columns[2]}
         {if $row.columns[0]}
             {set $site_url = $site_url|append( "/" )}
-        {/if}
-        {if $row.columns[1]}
-            {set $site_access = $site_access|append( "/" )}
-        {/if}
-        {if $row.columns[0]}
-	        <li{if $row.columns[1]|downcase()|eq($access_type.name)} class="current_siteaccess"{/if}>
+            <li{if $row.columns[1]|downcase()|eq($access_type.name)} class="current_siteaccess"{/if}>
 	        {if is_set($DesignKeys:used.url_alias)}
-	            <a href="{concat( "http://", $site_url, $site_access, 
+	            <a href="{concat( "http://", $site_url,
 	                     $DesignKeys:used.url_alias
 	                     )}">{$language}</a>
 	        {else}
-	            <a href="{concat( "http://", $site_url, $site_access, 
+	            <a href="{concat( "http://", $site_url,
 	                     $uri_string
                          )}">{$language}</a>
             {/if}
             </li>
         {/if}
-        {undef $site_url $site_access $language}
+        {undef $site_url $language}
         {/foreach}
         </ul>
         {/if}
@@ -168,7 +162,7 @@
   </div>
   <!-- Header area: END -->
 
-  
+
   <!-- Top menu area: START -->
   <div id="topmenu" class="float-break">
     {include uri='design:menu/flat_top.tpl'}
@@ -187,7 +181,7 @@
   <!-- Path area: END -->
   {/if}
 
-  
+
   <!-- Toolbar area: START -->
   <div id="toolbar">
   {if and( $current_node_id, $current_user.is_logged_in, is_set( $module_result.content_info.viewmode ), ne( $module_result.content_info.viewmode, 'sitemap' ) ) }
@@ -196,7 +190,7 @@
   </div>
   <!-- Toolbar area: END -->
 
-  
+
   <!-- Columns area: START -->
   <div id="columns" class="float-break">
     <!-- Side menu area: START -->
@@ -209,7 +203,7 @@
        </div>
     </div>
     <!-- Side menu area: END -->
-    
+
     <!-- Extra area: START -->
     <div id="extrainfo-position">
       <div id="extrainfo">
@@ -235,13 +229,13 @@
     <!-- Main area: END -->
   </div>
   <!-- Columns area: END -->
-  
+
 {cache-block keys=$access_type.name}
   {if is_unset($pagedesign)}
    {def $pagedesign = fetch( 'content', 'object', hash( 'object_id', '54' ) )}
   {/if}
-  
-{include uri='design:page_footer.tpl'} 
+
+{include uri='design:page_footer.tpl'}
 
 </div>
 <!-- Complete page area: END -->
