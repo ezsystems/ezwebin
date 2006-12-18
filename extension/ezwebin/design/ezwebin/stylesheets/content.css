@@ -1727,7 +1727,7 @@ div.content-view-horizontallylistedsubitems div.class-article div.attribute-imag
 div#ezagenda_calendar_left
 {
 	vertical-align: top;
-	width: 214px;
+	width: 215px;
 	float: left;
 }
 
@@ -1735,7 +1735,7 @@ div#ezagenda_calendar_container
 {
 	background-color: #F4F4F4;
 	vertical-align: top;
-	width: 214px;
+	width: 215px;
 	background-image:url(../images/cal_table_bg.png);
 	background-position: top left;
 	background-repeat: no-repeat;
@@ -1772,7 +1772,6 @@ div#ezagenda_calendar_container table td
 div#ezagenda_calendar_container table td.ezagenda_selected
 {
 	background-color: #E1E1E1;
-	margin-left: -0.6em;
 	padding: 0.25em;
 }
 
@@ -1785,7 +1784,7 @@ div#ezagenda_calendar_right
 {
 	vertical-align: top;
 	padding-left: 1em;
-	margin-left: 210px;
+	margin-left: 212px;
 }
 
 div#ezagenda_calendar_right table
