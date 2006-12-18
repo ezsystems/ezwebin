@@ -70,7 +70,11 @@
 		{set $loop_dayone = 1}
 	{/if}
 	{if eq($temp_month|int(), $event.data_map.to_time.content.month|int())}
-		{set $loop_daylast = $event.data_map.to_time.content.day}
+		{if $event.data_map.to_time.content.is_valid}
+			{set $loop_daylast = $event.data_map.to_time.content.day}
+		{else}
+			{set $loop_daylast = $loop_dayone}
+		{/if}
 	{else}
 		{set $loop_daylast = $days}
 	{/if}
