@@ -1817,10 +1817,9 @@ div#ezagenda_calendar_right td.ezagenda_month_head h2
 	text-align: center;
 }
 
-div#ezagenda_calendar_right td.ezagenda_month_info h2
+div#ezagenda_calendar_right td.ezagenda_month_info h4
 {
-	margin-top: 0;
-	font-weight: normal;
+	margin: 0;
 	font-size: 1.1em;
 }
 
@@ -1844,10 +1843,9 @@ div#ezagenda_calendar_today div.ezagenda_day_event
 	padding: 0.5em;
 }
 
-div#ezagenda_calendar_today div.ezagenda_day_event h2
+div#ezagenda_calendar_today div.ezagenda_day_event h4
 {
-	margin-top: 0;
-	font-weight: normal;
+	margin: 0;
 	font-size: 1.1em;
 }
 
