@@ -172,7 +172,7 @@
 {foreach $day_events as $day_event}
 	
 	<div class="ezagenda_day_event{if gt($curr_ts , $day_event.object.data_map.to_time.content.timestamp)} ezagenda_event_old{/if}">
-	<h2><a href={$day_event.url_alias|ezurl}>{$day_event.name|wash}</a></h2>
+	<h4><a href={$day_event.url_alias|ezurl}>{$day_event.name|wash}</a></h4>
 	<p>
 	{if $day_event.object.data_map.category.has_content}
 	<span class="ezagenda_keyword">
@@ -205,10 +205,13 @@
 	<table cellpadding="0" cellspacing="0"{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} summary="Previw of event">
 	<tr>
 	<td class="ezagenda_month_head">
-		<h2>{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}</h2>
+		<h2>
+		<span class="ezagenda_month_head_date">{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j")}</span>
+		{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%M")|extract_left( 3 )}
+		</h2>
 	</td>
 	<td class="ezagenda_month_info">
-	<h2><a href={$event.url_alias|ezurl}>{$event.name|wash}</a></h2>
+	<h4><a href={$event.url_alias|ezurl}>{$event.name|wash}</a></h4>
 	
 	<p>
 	{if $event.object.data_map.category.has_content}
