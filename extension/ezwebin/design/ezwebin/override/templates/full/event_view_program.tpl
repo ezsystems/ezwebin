@@ -104,9 +104,9 @@ $older_event_count  :{$older_event_count};
 	<td class="ezagenda_month">
 	<table cellpadding="0" cellspacing="0" summary="preview of event"{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} width="99%">
 	<tr><td class="ezagenda_month_head">
-	<h2>
+	<h4>
 		<a href={$event.url_alias|ezurl}>{$event.name|wash}</a>
-	</h2>
+	</h4>
 	{if $event.object.data_map.text.has_content}
 		<div class="attribute-short">{attribute_view_gui attribute=$event.object.data_map.text}</div>
 	{/if}
@@ -141,9 +141,9 @@ $older_event_count  :{$older_event_count};
 	<td class="ezagenda_month">
 	 <table cellpadding="0" cellspacing="0" summary="preview of event" {if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} width="99%">
 	<tr><td class="ezagenda_month_head">
-	<h2>
+	<h4>
 		<a href={$event.url_alias|ezurl}>{$event.name|wash}</a>
-	</h2>
+	</h4>
 	</td>
 	<td align="right" class="ezagenda_month_info">
 	<p>
