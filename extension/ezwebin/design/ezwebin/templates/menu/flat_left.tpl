@@ -1,7 +1,7 @@
 <div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
 
-		<h4>{$module_result.path[$pagerootdepth].text}</h4>
+		<h4><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $module_result.path[$pagerootdepth].node_id)|ezurl}{else}{$module_result.path[$pagerootdepth].url_alias|ezurl}{/if}>{$module_result.path[$pagerootdepth].text}</a></h4>
 	
 {if ne( $module_result.content_info.class_identifier, 'documentation_page' )}
    {def $root_node=fetch( 'content', 'node', hash( 'node_id', $module_result.path[$pagerootdepth].node_id ) )
