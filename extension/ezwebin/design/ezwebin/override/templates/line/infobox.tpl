@@ -4,9 +4,11 @@
             <h2>{attribute_view_gui attribute=$node.object.data_map.header}</h2>
         </div>
         <div class="attribute-content">
+			{if $node.object.data_map.image.has_content}
             <div class="attribute-image"> 
 				{attribute_view_gui attribute=$node.object.data_map.image href=$node.object.data_map.image_url.data_text image_class=articlethumbnail} 
 			</div>
+			{/if}
             
 			{attribute_view_gui attribute=$node.object.data_map.content}
             

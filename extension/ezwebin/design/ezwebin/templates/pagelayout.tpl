@@ -7,10 +7,10 @@
 
 {cache-block keys=array($uri_string, $basket_is_empty, $user_hash)}
 {def $pagestyle       = 'nosidemenu noextrainfo'
-     $infobox_count   = 0
      $locales         = fetch( 'content', 'translation_list' )
      $pagerootdepth   = ezini( 'SiteSettings', 'RootNodeDepth', 'site.ini' )
      $indexpage       = 2
+     $infobox_count   = 0
      $path_normalized = ''
      $pagedesign      = fetch( 'content', 'object', hash( 'object_id', '54' ) )
 }
@@ -49,7 +49,6 @@
 		{set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
 	    {/if}
 	{/if}
-
 	{if is_set( $module_result.path[1] )}
 	    {if ne( $infobox_count , 0 ) }
 	        {set $pagestyle = 'sidemenu extrainfo'}
@@ -203,18 +202,6 @@
        </div>
     </div>
     <!-- Side menu area: END -->
-
-    <!-- Extra area: START -->
-    <div id="extrainfo-position">
-      <div id="extrainfo">
-          <!-- Extra content: START -->
-          {if $infobox_count}
-            {include uri='design:parts/extra_info.tpl'}
-          {/if}
-          <!-- Extra content: END -->
-      </div>
-    </div>
-    <!-- Extra area: END -->
 {/cache-block}
     <!-- Main area: START -->
     <div id="main-position">
@@ -227,10 +214,22 @@
       </div>
     </div>
     <!-- Main area: END -->
+{cache-block keys=array($uri_string, $user_hash, $access_type.name)}
+    <!-- Extra area: START -->
+    <div id="extrainfo-position">
+      <div id="extrainfo">
+          <!-- Extra content: START -->
+          {if $infobox_count}
+            {include uri='design:parts/extra_info.tpl'}
+          {/if}
+          <!-- Extra content: END -->
+      </div>
+    </div>
+    <!-- Extra area: END -->
+
   </div>
   <!-- Columns area: END -->
 
-{cache-block keys=$access_type.name}
   {if is_unset($pagedesign)}
    {def $pagedesign = fetch( 'content', 'object', hash( 'object_id', '54' ) )}
   {/if}

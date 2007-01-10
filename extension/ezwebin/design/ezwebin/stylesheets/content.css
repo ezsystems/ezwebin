@@ -720,7 +720,7 @@ div.content-view-line div.class-comment p.date
 
 /* INFOBOX */
 
-div.class-infobox 
+div.class-infobox
 {
 	text-align: left;
 	background: url(../images/infobox_br.png) no-repeat bottom right;
@@ -729,7 +729,7 @@ div.class-infobox
 	margin: 0 0 0.5em 0;
 }
 
-div.class-infobox .attribute-header
+div.class-infobox div.attribute-header
 {
 	background: url(../images/infobox_tr.png) no-repeat top right;
 	margin: 0;
@@ -737,12 +737,12 @@ div.class-infobox .attribute-header
 	height: 31px;
 }
 
-div.class-infobox .attribute-image
+div.class-infobox div.attribute-image
 {
 	margin-top: 0.5em;
 }
 
-div.class-infobox .attribute-header h2 
+div.class-infobox div.attribute-header h2 
 {
 	background: url(../images/infobox_tl.png) no-repeat top left;
 	margin: 0;
@@ -752,7 +752,7 @@ div.class-infobox .attribute-header h2
 	padding: 0.5em;
 }
 
-div.class-infobox .attribute-content
+div.class-infobox div.attribute-content
 {
 	text-align: left;
 	background: url(../images/infobox_bl.png) no-repeat bottom left;
@@ -760,7 +760,7 @@ div.class-infobox .attribute-content
 	padding: 0.5em;
 }
 
-div.class-infobox .attribute-content .controls
+div.class-infobox div.attribute-content div.controls
 {
 	padding-top: 0.5em;
 	text-align: right;
@@ -769,9 +769,9 @@ div.class-infobox .attribute-content .controls
 
 /* GALLERY */
 
-div.content-view-line div.class-gallery
+div.content-view-children div.content-view-line
 {
-	clear: both;
+	clear: left;
 }
 
 div.content-view-full div.class-gallery div.attribute-link

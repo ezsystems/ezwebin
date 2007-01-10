@@ -2,17 +2,13 @@
 
 /* FULL PAGE */
 
-html, body, div
-{
-	margin: 0;
-	padding: 0;	
-}
-
 body
 {
 	background-image: url(../images/body_bg.png);
 	background-repeat: repeat-x;
     text-align: center; /* IE method for centering page if it has fixed width */
+	margin: 0;
+	padding: 0;
 }
 
 div#page
@@ -204,7 +200,17 @@ div#path p
 
 div#columns
 {
+   padding: 0 12em 0 14em;
+}
 
+div.nosidemenu div#columns
+{
+   padding-left: 0;
+}
+
+div.noextrainfo div#columns
+{
+   padding-right: 0;
 }
 
 /* SIDE MENU */
@@ -212,8 +218,9 @@ div#columns
 div#sidemenu-position
 {
     width: 14em;
+    margin-left: -14em;
     float: left;
-    /*display: inline;  Fix for IE double margin bug */
+    display: inline; /* Fix for IE double margin bug */
 }
 
 div.nosidemenu div#sidemenu-position
@@ -275,7 +282,8 @@ div#sidemenu ul li a
 
 div#main-position
 {
-    margin: 0em 12.25em 0em 14.25em;
+    width: 100%;
+    float: left;
 }
 
 div#main
@@ -298,7 +306,8 @@ div.noextrainfo div#main-position
 div#extrainfo-position
 {
     width: 12em;
-    float: right;
+    margin-right: -12em;
+    float: left;
 }
 
 div.noextrainfo div#extrainfo-position
@@ -329,4 +338,14 @@ div#footer
 div#footer address
 {
 	font-style:normal;
+}
+
+div#sidemenu
+{
+    padding: 0 0.25em 0 0;
+}
+
+div#extrainfo
+{
+    padding: 0 0 0 0.25em;
 }
