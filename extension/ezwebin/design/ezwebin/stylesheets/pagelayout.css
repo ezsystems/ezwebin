@@ -66,7 +66,7 @@ div#languages
 	background-repeat: no-repeat;
 	float: left;
 	clear: left;
-	width: 29%;
+	width: 24%;
 	height: 25px;
 	font-size: 0.85em;
 }
@@ -83,7 +83,7 @@ div#links
 	font-size: 0.9em;
 	font-weight: bold;
 	height: 25px;
-	width: 70%;
+	width: 75%;
 }
 
 div#links a
@@ -92,8 +92,8 @@ div#links a
 	border-left: 1px solid #CECEC2;
 	display: block;
 	float: right;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
 	height: 18px;
 }
 
