@@ -15,8 +15,8 @@
         <img usemap="#banner_map" src={$object.data_map.image.content[$size].full_path|ezroot} alt="{$alternative_text}" border="0" />
 {$object.data_map.image_map.content}
 {else}
-{if $object.data_map.link.content}
-            <a href={$object.data_map.link.content|ezurl}>
+{if $object.data_map.url.content}
+            <a href={$object.data_map.url.content|ezurl}>
             <img src={$object.data_map.image.content[$size].full_path|ezroot} alt="{$alternative_text}" border="0" />
             </a>
 {else}
