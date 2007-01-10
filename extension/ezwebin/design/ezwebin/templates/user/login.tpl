@@ -68,11 +68,6 @@ function AdminSiteaccessCheckbox( val )
 -->
 </script>
 {/if}
-{if ezini( 'Session', 'RememberMeTimeout' )}
-<div class="block">
-<input type="checkbox" tabindex="1" name="Cookie" id="id4" /><label for="id4" style="display:inline;">{"Remember me"|i18n("design/ezwebin/user/login")}</label>
-</div>
-{/if}
 
 <div class="buttonblock">
 <input class="defaultbutton" type="submit" name="LoginButton" value="{'Login'|i18n('design/ezwebin/user/login','Button')}" tabindex="1" />
