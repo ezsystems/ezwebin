@@ -1,7 +1,8 @@
 {* Event Calendar - Full Calendar view *}
 {def
 
-	$event_node = $node.node_id
+	$event_node    = $node
+	$event_node_id = $event_node.node_id
 
 	$curr_ts = currentdate()
 	$curr_today = $curr_ts|datetime( custom, '%j')
@@ -41,7 +42,7 @@
 {/if}
 
 {def	$events=fetch( 'content', 'list', hash(
-			'parent_node_id', $event_node,
+			'parent_node_id', $event_node_id,
 			'sort_by', array( 'attribute', true(), 'event/from_time'),
 			'class_filter_type',  'include',
             'class_filter_array', array( 'event' ),
@@ -52,15 +53,15 @@
 					array( 'event/to_time', 'between', array( sum($first_ts,1), sub($last_ts,1) )) )
 				))
 
-	$url_reload=concat("/content/view/full/",  $event_node, "/day/", $temp_today, "/month/", $temp_month, "/year/", $temp_year, "/offset/2")
-	$url_back=concat("/content/view/full/",  $event_node,  "/month/", sub($temp_month, 1), "/year/", $temp_year)
-	$url_forward=concat("/content/view/full/",  $event_node, "/month/", sum($temp_month, 1), "/year/", $temp_year)
+	$url_reload=concat( $event_node.url_alias, "/(day)/", $temp_today, "/(month)/", $temp_month, "/(year)/", $temp_year, "/offset/2")
+	$url_back=concat( $event_node.url_alias,  "/(month)/", sub($temp_month, 1), "/(year)/", $temp_year)
+	$url_forward=concat( $event_node.url_alias, "/(month)/", sum($temp_month, 1), "/(year)/", $temp_year)
 }
 
 {if eq($temp_month, 1)}
-	{set $url_back=concat("/content/view/full/",  $event_node,"/month/", "12", "/year/", sub($temp_year, 1))}
+	{set $url_back=concat( $event_node.url_alias,"/(month)/", "12", "/(year)/", sub($temp_year, 1))}
 {elseif eq($temp_month, 12)}
-	{set $url_forward=concat("/content/view/full/",  $event_node,"/month/", "1", "/year/", sum($temp_year, 1))}
+	{set $url_forward=concat( $event_node.url_alias,"/(month)/", "1", "/(year)/", sum($temp_year, 1))}
 {/if}
 
 {foreach $events as $event}
@@ -93,7 +94,7 @@
  <div class="class-event-calendar event-calendar-calendarview">
 
 <div class="attribute-header">
-	<h1>{$node.name|wash()}</h1>
+	<h1>{$event_node.name|wash()}</h1>
 </div>
 
 
@@ -145,7 +146,7 @@
 	{/if}
 	<td class="{if eq($counter, $temp_today)}ezagenda_selected{/if} {if and(eq($counter, $curr_today), eq($curr_month, $temp_month))}ezagenda_current{/if}{$css_col_class}">
 	{if $day_array|contains(concat(' ', $counter, ',')) }
-		<a href={concat("/content/view/full/", $event_node,"/day/", $counter, "/month/", $temp_month, "/year/", $temp_year)|ezurl}>{$counter}</a>
+		<a href={concat( $event_node.url_alias, "/(day)/", $counter, "/(month)/", $temp_month, "/(year)/", $temp_year)|ezurl}>{$counter}</a>
 	{else}
 		{$counter}
 	{/if}
