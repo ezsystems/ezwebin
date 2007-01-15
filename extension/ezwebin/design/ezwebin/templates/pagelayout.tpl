@@ -19,6 +19,7 @@
     @import url({"stylesheets/core.css"|ezdesign(no)});
     @import url({"stylesheets/pagelayout.css"|ezdesign(no)});
     @import url({"stylesheets/content.css"|ezdesign(no)});
+    @import url({"stylesheets/websitetoolbar.css"|ezdesign(no)});
     @import url({ezini('StylesheetSettings','ClassesCSS','design.ini')|ezroot(no)});
     @import url({ezini('StylesheetSettings','SiteCSS','design.ini')|ezroot(no)});
     {foreach ezini( 'StylesheetSettings', 'CSSFileList', 'design.ini' ) as $css_file}
@@ -137,9 +138,9 @@
     </div>
     <div id="logo">
     {if $pagedesign.data_map.image.content.is_valid|not()}
-        <h1><a href={"/"|ezurl}>{ezini('SiteSettings','SiteName')}</a></h1>
+        <h1><a href={"/"|ezurl} title="{ezini('SiteSettings','SiteName')}">{ezini('SiteSettings','SiteName')}</a></h1>
     {else}
-        <a href={"/"|ezurl}><img src={$pagedesign.data_map.image.content[logo].full_path|ezroot} alt="{$pagedesign.data_map.image.content[logo].text}" /></a>
+        <a href={"/"|ezurl} title="{ezini('SiteSettings','SiteName')}"><img src={$pagedesign.data_map.image.content[logo].full_path|ezroot} alt="{$pagedesign.data_map.image.content[logo].text}" width="{$pagedesign.data_map.image.content[logo].width}" height="{$pagedesign.data_map.image.content[logo].height}" /></a>
     {/if}
     </div>
     <div id="searchbox">
@@ -219,9 +220,7 @@
     <div id="extrainfo-position">
       <div id="extrainfo">
           <!-- Extra content: START -->
-          {if $infobox_count}
             {include uri='design:parts/extra_info.tpl'}
-          {/if}
           <!-- Extra content: END -->
       </div>
     </div>
