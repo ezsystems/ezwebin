@@ -1,4 +1,4 @@
-<div class="object-{$align}">
+<div class="object{if is_set($align)}-{$align}{/if}">
 	<div class="quote">
       <div class="quote-design">
       <div class="quote-begin"><span class="hide">"</span></div>

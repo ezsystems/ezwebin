@@ -1,4 +1,4 @@
-<div class="object-{$align}">
+<div class="object{if is_set($align)}-{$align}{/if}">
    <div class="factbox">
        <div class="factbox-header">
        	<h2>{$title}&nbsp;</h2>
