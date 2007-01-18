@@ -207,7 +207,7 @@
 		<div id="ezagenda_month_hidden" style="display:none;">
 	{/if}
 	
-	<table cellpadding="0" cellspacing="0"{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} summary="Previw of event">
+	<table class="ezagenda_month_event" cellpadding="0" cellspacing="0"{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} summary="Previw of event">
 	<tr>
 	<td class="ezagenda_month_head">
 		<h2>

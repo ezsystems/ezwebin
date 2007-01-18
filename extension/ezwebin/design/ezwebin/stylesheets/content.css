@@ -371,6 +371,35 @@ div.attribute-header h1.long
 	color: #000000;
 }
 
+
+/* GENERAL ICONS */
+.attribute-tipafriend a, .attribute-pdf a, .attribute-print a, .attribute-rss a
+{
+    padding-left: 22px;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.attribute-tipafriend a
+{
+    background-image: url('../images/icons/tip_icon.jpg');
+}
+
+.attribute-pdf a
+{
+    background-image: url('../images/icons/pdf_icon.jpg');
+}
+
+.attribute-print a
+{
+    background-image: url('../images/icons/print_icon.jpg');
+}
+
+.attribute-rss a
+{
+    background-image: url('../images/icons/rss_icon.jpg');
+}
+
 /* IMAGE */
 
 div.object-center div.content-view-embed div.class-image
@@ -1606,10 +1635,11 @@ div#ezagenda_calendar_right
 	margin-left: 212px;
 }
 
-div#ezagenda_calendar_right table
+div#ezagenda_calendar_right table.ezagenda_month_event
 {
 	border: 1px solid #F1F1ED;
 	margin-bottom: 0.25em;
+	width: 99%;
 }
 
 div#ezagenda_calendar_right td.ezagenda_month_head

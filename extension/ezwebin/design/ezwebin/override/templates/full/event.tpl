@@ -8,7 +8,11 @@
     <div class="class-event">
 	
 	<div class="attribute-header">
+	{if $node.data_map.title.has_content}
+		<h1>{$node.data_map.title.content|wash()}</h1>
+	{else}
 		<h1>{$node.name|wash()}</h1>
+	{/if}
 	</div>
 	
 	<div class="attribute-byline">
