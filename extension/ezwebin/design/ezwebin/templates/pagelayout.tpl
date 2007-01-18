@@ -5,6 +5,10 @@
      $current_node_id   = first_set($module_result.node_id, 0)
      $user_hash         = concat($current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ))}
 
+{if and( $current_node_id|eq(0), $module_result.path|count|gt(1) , is_set($module_result.path[$module_result.path|count|dec].node_id) )}
+	{set $current_node_id = $module_result.path[$module_result.path|count|dec].node_id}
+{/if}
+
 {cache-block keys=array($uri_string, $basket_is_empty, $user_hash)}
 {def $pagestyle       = 'nosidemenu noextrainfo'
      $locales         = fetch( 'content', 'translation_list' )
