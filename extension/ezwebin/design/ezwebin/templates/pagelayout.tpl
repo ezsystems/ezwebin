@@ -16,7 +16,9 @@
      $indexpage       = 2
      $infobox_count   = 0
      $path_normalized = ''
+     $path_array      = array()
      $pagedesign      = fetch( 'content', 'object', hash( 'object_id', '54' ) )
+     $pagedepth       = $module_result.path|count
 }
 {include uri='design:page_head.tpl'}
 <style type="text/css">
@@ -67,10 +69,13 @@
 {/if}
 
 {if is_set($module_result.section_id)}
-{set $pagestyle = concat($pagestyle, " section_id_", $module_result.section_id)}
+    {set $pagestyle = concat($pagestyle, " section_id_", $module_result.section_id)}
 {/if}
 
 {foreach $module_result.path as $key => $path}
+{if $key|ge($pagerootdepth)}
+    {set $path_array = $path_array|append($path)}
+{/if}
 {if is_set($path.node_id)}
     {set $path_normalized = $path_normalized|append( concat('subtree_level_', $key, '_node_id_', $path.node_id, ' ' ))}
 {/if}
