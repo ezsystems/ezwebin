@@ -1,4 +1,4 @@
-{def $infoboxes=fetch( 'content', 'list', hash( 'parent_node_id', $module_result.node_id,
+{def $infoboxes=fetch( 'content', 'list', hash( 'parent_node_id', $current_node_id,
 												'class_filter_type', 'include',
 												'class_filter_array', array( 'infobox' ),
 												'sort_by', array( 'priority', false() ) ) )}

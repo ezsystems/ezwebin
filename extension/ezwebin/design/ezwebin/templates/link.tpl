@@ -8,12 +8,12 @@
 <link rel="Copyright" href={"/ezinfo/copyright"|ezurl} />
 <link rel="Author" href={"/ezinfo/about"|ezurl} />
 
-{if $pagedesign.data_map.rss_feed.has_content}
+{if and( is_set($pagedesign), $pagedesign.data_map.rss_feed.has_content )}
 <link rel="Alternate" type="application/rss+xml" title="RSS" href="{$pagedesign.data_map.rss_feed.data_text}" />
 {/if}
 
 {if $enable_print}
-<link rel="Alternate" href={concat("layout/set/print/",$site.uri.original_uri)|ezurl} media="print" title="{'Printable version'|i18n('design/ezwebin/link')}" />
+<link rel="Alternate" href={concat("layout/set/print/", $site.uri.original_uri)|ezurl} media="print" title="{'Printable version'|i18n('design/ezwebin/link')}" />
 {/if}
 
 {/default}

@@ -229,7 +229,9 @@
     <div id="extrainfo-position">
       <div id="extrainfo">
           <!-- Extra content: START -->
+          {if $current_node_id}
             {include uri='design:parts/extra_info.tpl'}
+          {/if}
           <!-- Extra content: END -->
       </div>
     </div>
