@@ -3,7 +3,7 @@
 
 		<h4><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $module_result.path[$pagerootdepth].node_id)|ezurl}{else}{$module_result.path[$pagerootdepth].url_alias|ezurl}{/if}>{$module_result.path[$pagerootdepth].text}</a></h4>
 	
-{if ne( $module_result.content_info.class_identifier, 'documentation_page' )}
+{if or(is_unset($module_result.content_info.class_identifier), ne( $module_result.content_info.class_identifier, 'documentation_page' ))}
    {def $root_node=fetch( 'content', 'node', hash( 'node_id', $module_result.path[$pagerootdepth].node_id ) )
 	    $left_menu_items = fetch( 'content', 'list', hash( 'parent_node_id', $root_node.node_id,
 	 												  'sort_by', $root_node.sort_array,

@@ -3,9 +3,9 @@
 <head>
 {def $basket_is_empty   = cond($current_user.is_logged_in, fetch( shop, basket ).is_empty, 1)
      $current_node_id   = first_set($module_result.node_id, 0)
-     $user_hash         = concat($current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ))}
+     $user_hash         = concat($current_user.role_id_list|implode( ',' ), ",", $current_user.limited_assignment_value_list|implode( ',' ))}
 
-{if and( $current_node_id|eq(0), $module_result.path|count|gt(1) , is_set($module_result.path[$module_result.path|count|dec].node_id) )}
+{if and( $current_node_id|eq(0), is_set($module_result.path.0) , is_set($module_result.path[$module_result.path|count|dec].node_id) )}
 	{set $current_node_id = $module_result.path[$module_result.path|count|dec].node_id}
 {/if}
 
@@ -46,25 +46,27 @@
 {if $pagerootdepth|not}
     {set $pagerootdepth = 1}
 {/if}
-{if $current_node_id}
-	{set $infobox_count = fetch( 'content', 'list_count', hash(
+
+{if and( is_set( $module_result.content_info.class_identifier ), eq( $module_result.content_info.class_identifier, 'frontpage' ) )}
+    {set $pagestyle = 'nosidemenu noextrainfo'}
+{elseif and( eq( $ui_context, 'edit' ),  $uri_string|contains("content/versionview")|not )}
+    {set $pagestyle       = 'nosidemenu noextrainfo'}
+{elseif eq( $ui_context, 'browse' )}
+    {set $pagestyle       = 'nosidemenu noextrainfo'}
+{elseif $current_node_id}
+	{if is_set( $module_result.path[$pagerootdepth|dec].node_id )}	
+		{set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
+	{/if}
+	{if is_set( $module_result.path[1] )}
+	    {set $infobox_count = fetch( 'content', 'list_count', hash(
 	                                        'parent_node_id', $current_node_id,
                                             'class_filter_type', 'include',
                                             'class_filter_array', array( 'infobox' ) ) )}
-	{if $module_result.path|count|gt($pagerootdepth|dec)}
-	    {if is_set( $module_result.path[$pagerootdepth|dec].node_id )}	
-		{set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
-	    {/if}
-	{/if}
-	{if is_set( $module_result.path[1] )}
 	    {if ne( $infobox_count , 0 ) }
 	        {set $pagestyle = 'sidemenu extrainfo'}
 	    {else}
 	        {set $pagestyle = 'sidemenu noextrainfo'}
 	    {/if}
-	{/if}
-	{if and( is_set( $module_result.content_info.class_identifier ), eq( $module_result.content_info.class_identifier, 'frontpage' ) )}
-	    {set $pagestyle = 'nosidemenu noextrainfo'}
 	{/if}
 {/if}
 
@@ -73,13 +75,14 @@
 {/if}
 
 {foreach $module_result.path as $key => $path}
-{if $key|ge($pagerootdepth)}
-    {set $path_array = $path_array|append($path)}
-{/if}
-{if is_set($path.node_id)}
-    {set $path_normalized = $path_normalized|append( concat('subtree_level_', $key, '_node_id_', $path.node_id, ' ' ))}
-{/if}
+    {if $key|ge($pagerootdepth)}
+        {set $path_array = $path_array|append($path)}
+    {/if}
+    {if is_set($path.node_id)}
+        {set $path_normalized = $path_normalized|append( concat('subtree_level_', $key, '_node_id_', $path.node_id, ' ' ))}
+    {/if}
 {/foreach}
+
 <!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
 <div id="page" class="{$pagestyle} {$path_normalized|trim()} current_node_id_{$current_node_id}">
 
@@ -241,7 +244,7 @@
   <!-- Columns area: END -->
 
   {if is_unset($pagedesign)}
-   {def $pagedesign = fetch( 'content', 'object', hash( 'object_id', '54' ) )}
+      {def $pagedesign = fetch( 'content', 'object', hash( 'object_id', '54' ) )}
   {/if}
 
 {include uri='design:page_footer.tpl'}
@@ -253,7 +256,7 @@
 <script language="javascript" type="text/javascript">
 <!--
 
-{$pagedesign.data_map.footer_script.content}
+    {$pagedesign.data_map.footer_script.content}
 
 -->
 </script>
