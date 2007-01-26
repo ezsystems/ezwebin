@@ -7,8 +7,12 @@
                              $sort_column|eq( 'name' ), $node.object.name,
                              $sort_column|eq( 'priority' ), $node.priority,
                              $sort_column|eq( 'modified_subnode' ), $node.modified_subnode,
-                             false() )
-     $previous_image=fetch_alias( subtree, hash( parent_node_id, $node.parent_node_id,
+                             false() ) }
+{if $sort_column_value|eq( false() )}
+    {set $sort_column_value = $node.object.published
+         $sort_column = 'published'}
+{/if}
+{def $previous_image=fetch_alias( subtree, hash( parent_node_id, $node.parent_node_id,
                                                 class_filter_type, include,
                                                 class_filter_array, array( 'image' ),
                                                 limit, 1,
