@@ -864,6 +864,21 @@
     </message>
 </context>
 <context>
+    <name>design/ezwebin/full/documentation_page</name>
+    <message>
+        <source>Table of Contents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Created:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/full/event</name>
     <message>
         <source>Category</source>
@@ -1112,7 +1127,7 @@
     <name>design/ezwebin/horizontallylistedsubitems/event</name>
     <message>
         <source>Category</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete"></translation>
     </message>
 </context>
 <context>
@@ -1851,7 +1866,7 @@
     </message>
     <message>
         <source>Remember me</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete"></translation>
     </message>
     <message>
         <source>Login</source>
@@ -1942,6 +1957,25 @@ your account.</source>
     <name>design/ezwebin/view/sitemap</name>
     <message>
         <source>Site map</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/edit</name>
+    <message>
+        <source>Feedback from %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following feedback was collected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Collected information from %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following information was collected</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
