@@ -842,6 +842,37 @@
     </message>
 </context>
 <context>
+    <name>design/ezwebin/ezinfo/about</name>
+    <message>
+        <source>eZ Publish information: %version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What is eZ publish?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Licence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Contributors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copyright Notice</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Third-Party Software</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extensions</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/full/article</name>
     <message>
         <source>Comments</source>
@@ -850,6 +881,21 @@
     <message>
         <source>New Comment</source>
         <translation>新規コメント</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/documentation_page</name>
+    <message>
+        <source>Table of Contents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Created:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1085,7 +1131,7 @@
     <name>design/ezwebin/horizontallylistedsubitems/event</name>
     <message>
         <source>Category</source>
-        <translation>カテゴリー</translation>
+        <translation type="obsolete">カテゴリー</translation>
     </message>
 </context>
 <context>
@@ -1917,6 +1963,25 @@ your account.</source>
     <message>
         <source>Site map</source>
         <translation>サイトマップ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/edit</name>
+    <message>
+        <source>Feedback from %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following feedback was collected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Collected information from %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following information was collected</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

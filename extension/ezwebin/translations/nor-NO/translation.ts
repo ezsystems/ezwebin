@@ -839,6 +839,37 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
 </context>
 <context>
+    <name>design/ezwebin/ezinfo/about</name>
+    <message>
+        <source>eZ Publish information: %version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What is eZ publish?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Licence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Contributors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copyright Notice</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Third-Party Software</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extensions</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/full/article</name>
     <message>
         <source>Comments</source>
@@ -847,6 +878,21 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     <message>
         <source>New Comment</source>
         <translation>Ny kommentar</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/documentation_page</name>
+    <message>
+        <source>Table of Contents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Created:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1082,7 +1128,7 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     <name>design/ezwebin/horizontallylistedsubitems/event</name>
     <message>
         <source>Category</source>
-        <translation>Kategori</translation>
+        <translation type="obsolete">Kategori</translation>
     </message>
 </context>
 <context>
@@ -1915,6 +1961,25 @@ kontoen din.</translation>
     <message>
         <source>Site map</source>
         <translation>Sidekart</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/edit</name>
+    <message>
+        <source>Feedback from %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following feedback was collected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Collected information from %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following information was collected</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
