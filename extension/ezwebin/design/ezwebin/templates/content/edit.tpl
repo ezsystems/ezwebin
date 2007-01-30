@@ -50,7 +50,7 @@
     <div class="buttonblock">
     <input class="defaultbutton" type="submit" name="PublishButton" value="{'Send for publishing'|i18n('design/ezwebin/content/edit')}" />
     <input class="button" type="submit" name="StoreButton" value="{'Store draft'|i18n('design/ezwebin/content/edit')}" />
-    <input class="button" type="submit" name="DiscardButton" value="{'Discard'|i18n('design/ezwebin/content/edit')}" />
+    <input class="button" type="submit" name="DiscardButton" value="{'Discard draft'|i18n('design/ezwebin/content/edit')}" />
     <input type="hidden" name="DiscardConfirm" value="0" />
 	<input type="hidden" name="RedirectIfDiscarded" value="{ezhttp( 'LastAccessesURI', 'session' )}" />
 	<input type="hidden" name="RedirectURIAfterPublish" value="{ezhttp( 'LastAccessesURI', 'session' )}" />
