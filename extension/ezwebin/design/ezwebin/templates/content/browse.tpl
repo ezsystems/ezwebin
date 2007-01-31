@@ -3,9 +3,7 @@
 
 <div class="content-browse">
 
-{let item_type=ezpreference( 'admin_list_limit' )
-     page_limit=15
-     number_of_items=min( $item_type, 3)|choose( 10, 10, 25, 50 )
+{let number_of_items=10
      browse_list_count=fetch( content, list_count, hash( parent_node_id, $node_id, depth, 1))
      node_array=fetch( content, list, hash( parent_node_id, $node_id, depth, 1, offset, $view_parameters.offset, limit, $number_of_items, sort_by, $main_node.sort_array ) )
      select_name='SelectedObjectIDArray'
@@ -50,7 +48,7 @@
          page_uri=concat('/content/browse/',$main_node.node_id)
          item_count=$browse_list_count
          view_parameters=$view_parameters
-         item_limit=$page_limit}
+         item_limit=$number_of_items}
 
 
 {section name=Persistent show=$browse.persistent_data loop=$browse.persistent_data}
