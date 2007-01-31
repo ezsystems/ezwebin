@@ -387,7 +387,7 @@ div.attribute-header h1.long
 
 .attribute-pdf a
 {
-    background-image: url('../images/icons/pdf_icon.jpg');
+    background-image: url('../images/icons/pdf_icon.gif');
 }
 
 .attribute-print a
@@ -397,7 +397,7 @@ div.attribute-header h1.long
 
 .attribute-rss a
 {
-    background-image: url('../images/icons/rss_icon.jpg');
+    background-image: url('../images/icons/rss_icon.gif');
 }
 
 /* IMAGE */
