@@ -5,7 +5,8 @@
 	<div class="class-event-calendar">
 	{def $children = array()
 	     $limit = 5
-	     $offset = 0}
+	     $offset = 0
+	     $curr_ts = currentdate()}
 
 	{if is_set( $object_parameters.limit )}
 		{set $limit = $object_parameters.limit}
@@ -20,7 +21,11 @@
 											   'offset', $offset,
 											   'class_filter_type', 'include',
 											   'class_filter_array', array( 'event' ),
-											   'sort_by', array( 'attribute', false(), 'event/from_time' ) ) ) }
+			                                   'sort_by', array( 'attribute', true(), 'event/from_time' ),
+											   'attribute_filter', array( 'or',
+					                              array( 'event/from_time', '>=', $curr_ts  ),
+					                              array( 'event/to_time', '>=', $curr_ts  )
+			)	)) }
     <h2><a href={$object.main_node.url_alias|ezurl}>{$object.name|wash()}</a></h2>
 	
 	{if $children|count()}
