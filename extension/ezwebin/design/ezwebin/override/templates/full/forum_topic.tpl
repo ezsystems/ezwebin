@@ -12,14 +12,14 @@
                                                 class_filter_type, include,
                                                 class_filter_array, array( 'forum_topic' ),
                                                 limit, 1,
-                                                attribute_filter, array( and, array( 'published', '<', $node.object.published ) ),
-                                                sort_by, array( array( 'published', false() ) ) ) )
+                                                attribute_filter, array( and, array( 'modified_subnode', '<', $node.modified_subnode ) ),
+                                                sort_by, array( array( 'modified_subnode', false() ) ) ) )
      next_topic=fetch_alias( subtree, hash( parent_node_id, $node.parent_node_id,
                                             class_filter_type, include,
                                             class_filter_array, array( 'forum_topic' ),
                                             limit, 1,
-                                            attribute_filter, array( and, array( 'published', '>', $node.object.published ) ),
-                                            sort_by, array( array( 'published', true() ) ) ) ) }
+                                            attribute_filter, array( and, array( 'modified_subnode', '>', $node.modified_subnode ) ),
+                                            sort_by, array( array( 'modified_subnode', true() ) ) ) ) }
 
 
 <div class="box">
