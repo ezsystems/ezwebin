@@ -17,9 +17,13 @@
      $infobox_count   = 0
      $path_normalized = ''
      $path_array      = array()
-     $pagedesign      = fetch( 'content', 'object', hash( 'object_id', '54' ) )
+     $pagedesign_class = fetch( 'content', 'class', hash( 'class_id', 'template_look' ) )
      $pagedepth       = $module_result.path|count
 }
+{if $pagedesign_class.object_count|eq( 0 )|not}
+    {def $pagedesign = $pagedesign_class.object_list[0]}
+{/if}
+    
 {include uri='design:page_head.tpl'}
 <style type="text/css">
     @import url({"stylesheets/core.css"|ezdesign(no)});
@@ -243,8 +247,8 @@
   </div>
   <!-- Columns area: END -->
 
-  {if is_unset($pagedesign)}
-      {def $pagedesign = fetch( 'content', 'object', hash( 'object_id', '54' ) )}
+  {if and( is_unset($pagedesign), $pagedesign_class.object_count|eq( 0 )|not )}
+      {def $pagedesign = $pagedesign_class.object_list[0]}
   {/if}
 
 {include uri='design:page_footer.tpl'}
