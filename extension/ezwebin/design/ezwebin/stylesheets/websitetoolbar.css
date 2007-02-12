@@ -1,180 +1,173 @@
 /* Website Toolbar */
 
-div.frontpage-et
+div#ezwt
 {
-	margin-top: 0.75em;
+    margin: 0.5em 0 0.5em 0;
 }
 
-div.box-et
+div#ezwt div.tl
 {
-    border: 1px solid #CDD2D6;
-	padding: 0;
-	background-image: url(../images/websitetoolbar/et_bg.png);
-	height: 28px;
-	clear: both;
-	margin-bottom: 10px;
+    background: url(../images/websitetoolbar/ezwt-tl.gif) no-repeat top left;
 }
 
-div.box-et-content-edit
+div#ezwt div.tr
 {
-	left: 0px;
-	margin-bottom: 10px;
+    background: url(../images/websitetoolbar/ezwt-tr.gif) no-repeat top right;
 }
 
-div.box-et-content-edit div.box-content div.block div.left input
+div#ezwt div.tc
 {
-	display: inline;
-	margin: 0;
-	position: relative;
-	top: -12px;
+    background: url(../images/websitetoolbar/ezwt-tc.gif) repeat-x top left;
 }
 
-div.box-et-content-edit div.box-content div.block div.right input
+div#ezwt div.mc
 {
-	display: inline;
-	margin: 0;
-	position: relative;
-	top: -14px;
+    background: #e8eaec url(../images/websitetoolbar/ezwt-mc.gif) repeat-x center left;
 }
 
-div.box-et-content-edit div.box-content div.block div.left select
+div#ezwt div.ml
 {
-	font-size: 0.8em;
-	display: inline;
-	margin: 0;
-	position: relative;
-	top: -12px;
+    background: url(../images/websitetoolbar/ezwt-ml.gif) repeat-y center left;
 }
 
-div.box-et div.box-content div.block form
+div#ezwt div.mr
 {
-	display: inline;
-	margin: 0;
-	padding: 0;
+    background: url(../images/websitetoolbar/ezwt-mr.gif) repeat-y center right;
 }
 
-div.box-et div.box-content div.block div.left img
+div#ezwt div.bl
 {
-	border: none;
-	position: relative;
-	top: -8px;
-	margin-right: 0.25em;
+    background: url(../images/websitetoolbar/ezwt-bl.gif) no-repeat bottom left;
 }
 
-div.box-et div.box-content div.block div.right img
+div#ezwt div.br
 {
-	border: none;
-	position: relative;
-	top: -8px;
-	margin-right: 0.25em;
+    background: url(../images/websitetoolbar/ezwt-br.gif) no-repeat bottom right;
 }
 
-div.box-et div.box-content div.block div.right img.oohelp
+div#ezwt div.bc
 {
-	border: none;
-	position: relative;
-	top: -13px;
-	margin-left: 0.5em;
-	margin-right: 0.5em;
+    background: url(../images/websitetoolbar/ezwt-bc.gif) repeat-x bottom left;
 }
 
-div.box-et div.box-content div.block div.right img.help
+div#ezwt div.tc, div#ezwt div.bc
 {
-	border: none;
-	position: relative;
-	top: -6px;
-	margin-left: 0.5em;
-	margin-right: 0.5em;
+    height: 4px;
+    font-size: 0;
 }
 
-div.box-et div.box-content div.block div.left form input
+div#ezwt div.tr, div#ezwt div.mr, div#ezwt div.br
 {
-	display: inline;
-	margin: 0;
-	position: relative;
-	top: -12px;
+    padding: 0 4px 0 4px;
 }
 
-div.box-et div.box-content div.block div.right form input
+div#ezwt-ezlogo
 {
-	display: inline;
-	margin: 0;
-	position: relative;
-	top: -14px;
+    margin: 3px 4px 2px 2px;
+    float: left;
+    display: inline; /* Fix for IE */
 }
 
-div.box-et div.box-content div.block div.left form select
+div#ezwt-oologo
 {
-	font-size: 0.8em;
-	display: inline;
-	margin: 0;
-	position: relative;
-	top: -12px;
+    margin: 2px 4px 0 2px;
+    float: right;
 }
 
-div.box-et div.box-content div.block input
+div#ezwt form
 {
-	background-color: #DCE0E3;
-	border: none;
-	font-size: 0.9em;
+    margin: 0;
+    padding: 0;
 }
 
-div.box-et, div.box-et div.tl, div.box-et div.tr, div.box-et div.br, div.box-et div.bl
+div#ezwt .left
 {
-    position: relative;
-	height: 28px;
+    margin-left: 4px;
+    float: left;
+    display: inline; /* Fix for IE */
 }
 
-div.box-et div.tl
+div#ezwt .right
 {
-    top: -1px;
-    left: -1px;
-    background: url(../images/websitetoolbar/et_tl.png) top left no-repeat;
+    margin-right: 4px;
+    float: right;
+    display: inline; /* Fix for IE */
 }
 
-div.box-et div.tr
+div#ezwt select, div#ezwt input
 {
-    right: -2px;
-    background: url(../images/websitetoolbar/et_tr.png) top right no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85em;
 }
 
-div.box-et div.br
+div#ezwt select
 {
-    bottom: -2px;
-    background: url(../images/websitetoolbar/et_br.png) bottom right no-repeat;
-	height: 28px;
+    color: #4a5054;
+    background-color: #f0f2f4;
+    margin: 2px 0 2px 0;
+    padding: 0;
+    border: 1px solid #ccd2d6;
+    border-color: #abb1b5 #ffffff #ffffff #abb1b5;
+    vertical-align: top;
 }
 
-div.box-et div.bl
+div#ezwt input
 {
-    left: -2px;
-    background: url(../images/websitetoolbar/et_bl.png) bottom left no-repeat;
-    padding: 0.5em;
-	height: 14.8px;
+    margin: 1px 0 0 0;
 }
 
-div.box-et div.block div.left
+div#ezwt input.button
 {
-	width: 62%;
+    color: #4a5054;
+    background: #f2f4f6 url(../images/websitetoolbar/ezwt-button-bg.gif) repeat-x center left;
+    margin: 2px 0 1px 0;
+    padding: 0 0.25em 0 0.25em;
+    border: 1px solid;
+    border-color: #ffffff #abb1b5 #abb1b5 #ffffff;
+    overflow: visible;
 }
 
-div.box-et div.block div.right
+div#ezwt-help
 {
-	text-align: right;
-	width: 38%;
+    margin: 2px 3px 0 3px;
+    float: right;
+    display: inline; /* Fix for IE */
 }
 
-div.box-et-content-edit div.block div.left
+div#ezwt-help p
 {
-	width: 90%;
+    margin: 0;
+    vertical-align: middle;
 }
 
-div.box-et-content-edit div.block div.right
+div#ezwt-help a
 {
-	width: 9%;
+    font-weight: bold;
+    color: #4a5054;
+    padding: 0 2px 0 2px;
+    text-decoration: none;
+    display: block;
 }
 
-div.box-et-content-edit div.block div.right img.help
+
+/* General styles */
+
+.hide
 {
-	top: -7px;
+    display: none;
+}
+
+.float-break
+{
+    height: 1%;
+}
+
+.float-break:after
+{
+    content: "-";
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+    display: block; 
+    clear: both; 
 }
