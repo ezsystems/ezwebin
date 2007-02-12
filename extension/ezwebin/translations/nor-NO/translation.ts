@@ -1751,6 +1751,14 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation>Beklager, aktiveringsnøkkelen var ikke gyldig. Kontoen ble ikke aktivert.</translation>
     </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="unfinished">OK</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/edit</name>

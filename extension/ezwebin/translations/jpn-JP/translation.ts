@@ -1755,6 +1755,14 @@
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation>パスワードが無効なためアカウントを有効に出来ません。</translation>
     </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="unfinished">OK</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/edit</name>
