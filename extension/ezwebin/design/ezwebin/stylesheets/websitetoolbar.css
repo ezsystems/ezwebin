@@ -113,18 +113,18 @@ div#ezwt select
 
 div#ezwt input
 {
-    margin: 1px 0 0 0;
+   margin: 1px 0 0 0;
 }
 
 div#ezwt input.button
 {
-    color: #4a5054;
-    background: #f2f4f6 url(../images/websitetoolbar/ezwt-button-bg.gif) repeat-x center left;
-    margin: 2px 0 1px 0;
-    padding: 0 0.25em 0 0.25em;
-    border: 1px solid;
-    border-color: #ffffff #abb1b5 #abb1b5 #ffffff;
-    overflow: visible;
+   color: #4a5054;
+   height: 1.8em;
+   background: #f2f4f6 url(../images/websitetoolbar/ezwt-button-bg.gif) repeat-x center left;
+   padding: 0 0.25em 0 0.25em;
+   border: 1px solid;
+   border-color: #ffffff #abb1b5 #abb1b5 #ffffff;
+   overflow: visible;
 }
 
 div#ezwt-help

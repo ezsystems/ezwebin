@@ -18,7 +18,7 @@
 <!-- eZ website toolbar content: START -->
 
 <div id="ezwt-ezlogo">
-<img src={"websitetoolbar/ezwt-logo.gif"|ezimage} width="50" height="16" alt="eZ" />
+<a href={"/ezinfo/about"|ezurl} title="{'About'|i18n('design/ezwebin/parts/website_toolbar')}" target="_blank"><img src={"websitetoolbar/ezwt-logo.gif"|ezimage} width="50" height="16" alt="eZ" /></a>
 </div>
 
 <div id="ezwt-standardactions">
@@ -56,7 +56,7 @@
 </div>
 
 <div id="ezwt-help">
-<p><a href="http://ez.no/doc" title="Help"><span class="hide">Help</span>?</a></p>
+<p><a href="http://ez.no/doc" title="{'Documentation'|i18n( 'design/ezwebin/parts/website_toolbar' )}" target="_blank"><span class="hide">{'Documentation'|i18n( 'design/ezwebin/parts/website_toolbar' )}</span>?</a></p>
 </div>
 
 <div id="ezwt-openoffice">
@@ -90,7 +90,7 @@
 {/if}
 
 <div id="ezwt-oologo">
-<img src={"websitetoolbar/ezwt-oo-logo.gif"|ezimage} width="58" height="18" alt="Open Office" />
+<img src={"websitetoolbar/ezwt-oo-logo.gif"|ezimage} width="58" height="18" alt="OpenOffice.org" />
 </div>
 {/if}
 </div>
