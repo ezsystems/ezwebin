@@ -1570,6 +1570,7 @@ div.content-view-horizontallylistedsubitems div.class-article div.attribute-imag
 	margin: 0.25em 0.5em 0.5em 0;
 }
 
+
 /* AGENDA */
 
 div#ezagenda_calendar_left
@@ -1607,6 +1608,9 @@ div#ezagenda_calendar_container table th
 	font-weight: bold;
 	text-align: center;
 	height: 20px;
+	border: 1px solid;
+    border-color: #fefffc #dee0dd #dee0dd #fefffc;
+    border-top: 0px;
 }
 
 div#ezagenda_calendar_container table td
@@ -1615,6 +1619,27 @@ div#ezagenda_calendar_container table td
     border: 1px solid;
     border-color: #fefffc #dee0dd #dee0dd #fefffc;
 	text-align: center;
+}
+
+div#ezagenda_calendar_container table .first_col
+{
+    border-left: 0px;
+}
+
+div#ezagenda_calendar_container table .last_col
+{
+    border-right: 0px;
+}
+
+div#ezagenda_calendar_container table  tr.calendar_heading th
+{
+    border: 0px;
+    padding-bottom: 1em;
+}
+
+div#ezagenda_calendar_container table  tr.calendar_heading th a
+{
+    text-decoration: none;
 }
 
 div#ezagenda_calendar_container table td.ezagenda_selected
