@@ -1198,27 +1198,27 @@ div#main div.box-embgv, div.box-embgv div.tl, div.box-embgv div.tr, div.box-embg
 
 div#main div.box-embgv div.tl
 {
-    top: -1px;
-    left: -1px;
+    top: 0px;
+    left: 0px;
     background: url(../images/embgv_tl.png) top left no-repeat;
 }
 
 div#main div.box-embgv div.tr
 {
-    right: -2px;
+    right: 0px;
     background: url(../images/embgv_tr.png) top right no-repeat;
 }
 
 div#main div.box-embgv div.bl
 {
-    left: -2px;
+    left: 0px;
     background: url(../images/embgv_bl.png) bottom left no-repeat;
     padding: 0.5em;
 }
 
 div#main div.box-embgv div.br
 {
-    bottom: -2px;
+    bottom: -1px;
     background: url(../images/embgv_br.png) bottom right no-repeat;
 }
 
