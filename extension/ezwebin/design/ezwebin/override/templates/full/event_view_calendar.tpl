@@ -69,14 +69,14 @@
 	{else}
 		{set $loop_dayone = 1}
 	{/if}
-	{if eq($temp_month|int(), $event.data_map.to_time.content.month|int())}
-		{if $event.data_map.to_time.content.is_valid}
+	{if $event.data_map.to_time.content.is_valid}
+	   {if eq($temp_month|int(), $event.data_map.to_time.content.month|int())}
 			{set $loop_daylast = $event.data_map.to_time.content.day}
 		{else}
-			{set $loop_daylast = $loop_dayone}
+			{set $loop_daylast = $days}
 		{/if}
 	{else}
-		{set $loop_daylast = $days}
+		 {set $loop_daylast = $loop_dayone}
 	{/if}
 	{for $loop_dayone|int() to $loop_daylast|int() as $counter}
 		{set $day_array = concat($day_array, $counter, ', ')}
