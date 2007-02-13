@@ -96,13 +96,13 @@
 	<th class="calendar_heading_next last_col"><a href={$url_forward|ezurl} title=" Next Month ">&#8250;&#8250;</a></th>
 </tr>
 <tr class="calendar_heading_days">
-	<th class="first_col">M</th>
-	<th>T</th>
-	<th>O</th>
-	<th>T</th>
-	<th>F</th>
-	<th>L</th>
-	<th class="last_col">S</th>
+	<th class="first_col">{"Mon"|i18n("design/ezwebin/full/event_view_calendar")}</th>
+	<th>{"Tue"|i18n("design/ezwebin/full/event_view_calendar")}</th>
+	<th>{"Wed"|i18n("design/ezwebin/full/event_view_calendar")}</th>
+	<th>{"Thu"|i18n("design/ezwebin/full/event_view_calendar")}</th>
+	<th>{"Fri"|i18n("design/ezwebin/full/event_view_calendar")}</th>
+	<th>{"Sat"|i18n("design/ezwebin/full/event_view_calendar")}</th>
+	<th class="last_col">{"Sun"|i18n("design/ezwebin/full/event_view_calendar")}</th>
 </tr>
 </thead>
 <tbody>
@@ -159,9 +159,18 @@
 	{if is_set($day_events.0.name)}
 	<div id="sidebar_calendar_today">
 	<h5>{"Today"|i18n("design/ezwebin/full/event_view_calendar")}:</h5>
+	<div class="float-break">
 	{foreach $day_events  as $event}
-	<a href={$event.url_alias|ezurl}>{$event.name|wash}</a>
+	<a href={$event.url_alias|ezurl}>{$event.name|wash}
+	<span class="ezagenda_time">
+	{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%H:%i")}
+	{if $event.object.data_map.to_time.has_content}
+		- {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%H:%i")}
+	{/if}
+	</span>
+	</a>
 	{/foreach}
+	</div>
 	</div>
 	{/if}
 </div>

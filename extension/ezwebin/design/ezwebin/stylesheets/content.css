@@ -1576,15 +1576,15 @@ div.content-view-horizontallylistedsubitems div.class-article div.attribute-imag
 div#ezagenda_calendar_left
 {
 	vertical-align: top;
-	width: 215px;
+	width: 228px;
 	float: left;
 }
 
 div#ezagenda_calendar_container
 {
-	background-color: #F4F4F4;
 	vertical-align: top;
-	width: 215px;
+	width: 228px;
+	background-color: #F4F4F4;
 	background-image:url(../images/cal_table_bg.png);
 	background-position: top left;
 	background-repeat: no-repeat;
@@ -1595,10 +1595,10 @@ div#ezagenda_calendar_container
 
 div#ezagenda_calendar_container table
 {
-	background-image:url(../images/cal_bg.png);
+	/* background-image:url(../images/cal_bg.png); 
 	background-repeat: repeat-x;
 	background-position: top left;
-	background-color: #F0F0F0;
+	background-color: #F0F0F0; */
 	margin: auto;
 	text-align: left;
 }
@@ -1615,7 +1615,7 @@ div#ezagenda_calendar_container table th
 
 div#ezagenda_calendar_container table td
 {
-	padding: 0.5em;
+	padding: 0.65em;
     border: 1px solid;
     border-color: #fefffc #dee0dd #dee0dd #fefffc;
 	text-align: center;
@@ -1651,13 +1651,14 @@ div#ezagenda_calendar_container table td.ezagenda_selected
 div#ezagenda_calendar_container table td.ezagenda_current, div#ezagenda_calendar_container table td.ezagenda_current a
 {
 	color: #DF1D42;
+	font-weight: bold;
 }
 
 div#ezagenda_calendar_right
 {
 	vertical-align: top;
 	padding-left: 1em;
-	margin-left: 212px;
+	margin-left: 225px;
 }
 
 div#ezagenda_calendar_right table.ezagenda_month_event
@@ -1707,7 +1708,7 @@ div#ezagenda_calendar_today
 {
 /*	float: left;*/
 	margin-top: 1.2em;
-	width: 215px;
+	width: 228px;
 }
 
 div#ezagenda_calendar_today div.ezagenda_day_event
@@ -1775,11 +1776,36 @@ table#ezagenda td.ezagenda_month_info
 {
 }
 
-span.ezagenda_keyword
+span.ezagenda_keyword, span.ezagenda_time
 {
  display: block;
  font-size: 90%;
  color: #888;
+}
+
+div.content-view-embed div#ezagenda_calendar_container
+{
+	width: auto;
+}
+
+div#sidebar_calendar_today div
+{
+    text-align: left;
+    padding-left: 0.8em
+}
+
+div#sidebar_calendar_today a
+{
+    display: block;
+    text-decoration: none;
+    position: relative
+}
+
+div#sidebar_calendar_today a span.ezagenda_time
+{
+    position: absolute;
+    right: 0.8em;
+    top: 0em;
 }
 
 /* CONTENTSTRUCTURE */
