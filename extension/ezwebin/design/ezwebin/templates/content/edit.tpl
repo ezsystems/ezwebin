@@ -9,7 +9,7 @@
 <!-- eZ website toolbar content: START -->
 
 <div id="ezwt-ezlogo">
-<a href={"/ezinfo/about"|ezurl} title="{'About'|i18n('design/ezwebin/content/edit')}" target="_blank"><img src={"websitetoolbar/ezwt-logo.gif"|ezimage} width="50" height="16" alt="eZ" /></a>
+<a href={"/ezinfo/about"|ezurl} title="{'About'|i18n('design/ezwebin/parts/website_toolbar')}" target="_blank"><img src={"websitetoolbar/ezwt-logo.gif"|ezimage} width="50" height="16" alt="eZ" /></a>
 </div>
 
 <div id="ezwt-standardactions" class="left">
@@ -35,7 +35,7 @@
 </div>
 
 <div id="ezwt-help">
-<p><a href="http://ez.no/doc" title="{'Documentation'|i18n( 'design/ezwebin/content/edit' )}" target="_blank"><span class="hide">{'Documentation'|i18n( 'design/ezwebin/content/edit' )}</span>?</a></p>
+<p><a href="http://ez.no/doc" title="{'Documentation'|i18n( 'design/ezwebin/parts/website_toolbar' )}" target="_blank"><span class="hide">{'Documentation'|i18n( 'design/ezwebin/content/edit' )}</span>?</a></p>
 </div>
 
 <!-- eZ website toolbar content: END -->
