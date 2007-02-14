@@ -162,7 +162,7 @@
 	<div class="float-break">
 	{foreach $day_events  as $event}
 	<a href={$event.url_alias|ezurl}>{$event.name|wash}
-	<span class="ezagenda_time">
+	<span class="ezagenda_date">
 	{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%H:%i")}
 	{if $event.object.data_map.to_time.has_content}
 	    {if $event.object.data_map.to_time.content.day|int()|eq( $event.object.data_map.from_time.content.day|int() )}

@@ -209,33 +209,35 @@
 	
 	<table class="ezagenda_month_event" cellpadding="0" cellspacing="0"{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} summary="Previw of event">
 	<tr>
-	<td class="ezagenda_month_head">
+	<td class="ezagenda_month_label">
 		<h2>
-		<span class="ezagenda_month_head_date">{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j")}</span>
+		<span class="ezagenda_month_label_date">{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j")}</span>
 		{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%M")|extract_left( 3 )}
 		</h2>
 	</td>
 	<td class="ezagenda_month_info">
+
 	<h4><a href={$event.url_alias|ezurl}>{$event.name|wash}</a></h4>
 	
 	<p>
-	{if $event.object.data_map.category.has_content}
-	<span class="ezagenda_keyword">
-	{attribute_view_gui attribute=$event.object.data_map.category}
-	</span>
-	{/if}
-
 	<span class="ezagenda_date">
 	{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}
 	{if and($event.object.data_map.to_time.has_content,  ne( $event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M"), $event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M") ))}
 		- {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M")|shorten( 6 , '')}
 	{/if}
 	</span>
+	
+	{if $event.object.data_map.category.has_content}
+	<span class="ezagenda_keyword">
+	{attribute_view_gui attribute=$event.object.data_map.category}
+	</span>
+	{/if}
 	</p>
 	
 	{if $event.object.data_map.text.has_content}
 		<div class="attribute-short">{attribute_view_gui attribute=$event.object.data_map.text}</div>
 	{/if}
+
 	</td>
 	</tr>
 	</table>
