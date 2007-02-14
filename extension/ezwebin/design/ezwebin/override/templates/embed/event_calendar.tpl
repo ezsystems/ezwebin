@@ -165,7 +165,11 @@
 	<span class="ezagenda_time">
 	{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%H:%i")}
 	{if $event.object.data_map.to_time.has_content}
-		- {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%H:%i")}
+	    {if $event.object.data_map.to_time.content.day|int()|eq( $event.object.data_map.from_time.content.day|int() )}
+	    - {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%H:%i")}
+	    {else}
+	    - {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
+	    {/if}
 	{/if}
 	</span>
 	</a>
