@@ -1583,21 +1583,33 @@ div#ezagenda_calendar_left
 div#ezagenda_calendar_container
 {
 	width: 228px;
-	background-color: #F4F4F4;
-	background-image:url(../images/cal_table_bg.png);
-	background-position: top left;
-	background-repeat: no-repeat;
 	text-align: center;
 	padding-top: 6px;
 	padding-bottom: 6px;
 }
 
+div#ezagenda_calendar_container div.box-embgv div.box-content, div#ezagenda_calendar_container div.box-embgv div.bl
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+div#ezagenda_calendar_left div.box-embgv div.bl, div#ezagenda_calendar_left div.box-embgv div.br
+{
+    background-image: none;
+}
+
+div#ezagenda_calendar_left div.box-embgv
+{
+    border-bottom: 0px;
+}
+
 div#ezagenda_calendar_container table
 {
-	/* background-image:url(../images/cal_bg.png); 
+	background-image:url(../images/cal_bg.png); 
 	background-repeat: repeat-x;
 	background-position: top left;
-	background-color: #F0F0F0; */
+	background-color: #F0F0F0;
 	margin: auto;
 	text-align: left;
 	vertical-align: top;
@@ -1644,7 +1656,7 @@ div#ezagenda_calendar_container table  tr.calendar_heading th a
 
 div#ezagenda_calendar_container table td.ezagenda_selected
 {
-	background-color: #e1e1e1;
+	background-color: #e4e5e4;
 }
 
 div#ezagenda_calendar_container table td.ezagenda_current, div#ezagenda_calendar_container table td.ezagenda_current a

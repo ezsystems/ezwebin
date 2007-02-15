@@ -100,6 +100,8 @@
 
 <div id="ezagenda_calendar_left">
 <div id="ezagenda_calendar_container">
+<div class="box-embgv">
+<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
 <table cellspacing="0" cellpadding="0" border="0" summary="Event Calendar">
 <thead>
 <tr class="calendar_heading">
@@ -165,6 +167,8 @@
 {/while}
 </tbody>
 </table>
+</div>
+</div></div></div></div></div>
 </div>
 
 
