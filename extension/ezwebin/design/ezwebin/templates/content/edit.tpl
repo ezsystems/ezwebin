@@ -2,12 +2,6 @@
 
 {include uri='design:parts/website_toolbar_edit.tpl'}
 
-</div></div></div>
-<div class="bl"><div class="br"><div class="bc"></div></div></div>
-</div>
-
-<!-- eZ website toolbar: END -->
-
 <div class="box">
 <div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
 

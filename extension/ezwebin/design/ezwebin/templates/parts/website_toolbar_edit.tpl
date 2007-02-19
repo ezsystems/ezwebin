@@ -37,3 +37,9 @@
 </div>
 
 <!-- eZ website toolbar content: END -->
+
+</div></div></div>
+<div class="bl"><div class="br"><div class="bc"></div></div></div>
+</div>
+
+<!-- eZ website toolbar: END -->
