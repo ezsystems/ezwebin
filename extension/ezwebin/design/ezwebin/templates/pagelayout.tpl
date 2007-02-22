@@ -78,12 +78,12 @@
     {set $pagestyle = concat($pagestyle, " section_id_", $module_result.section_id)}
 {/if}
 
-{foreach $module_result.path as $key => $path}
-    {if $key|ge($pagerootdepth)}
+{foreach $module_result.path as $index => $path}
+    {if $index|ge($pagerootdepth)}
         {set $path_array = $path_array|append($path)}
     {/if}
     {if is_set($path.node_id)}
-        {set $path_normalized = $path_normalized|append( concat('subtree_level_', $key, '_node_id_', $path.node_id, ' ' ))}
+        {set $path_normalized = $path_normalized|append( concat('subtree_level_', $index, '_node_id_', $path.node_id, ' ' ))}
     {/if}
 {/foreach}
 
@@ -247,8 +247,13 @@
   </div>
   <!-- Columns area: END -->
 
-  {if and( is_unset($pagedesign), $pagedesign_class.object_count|eq( 0 )|not )}
-      {def $pagedesign = $pagedesign_class.object_list[0]}
+  {if is_unset($pagedesign)}
+      {if is_unset($pagedesign_class)}
+          {def $pagedesign_class = fetch( 'content', 'class', hash( 'class_id', 'template_look' ) )}
+      {/if}
+      {if $pagedesign_class.object_count|gt( 0 )}
+          {def $pagedesign = $pagedesign_class.object_list[0]}
+      {/if}
   {/if}
 
 {include uri='design:page_footer.tpl'}
