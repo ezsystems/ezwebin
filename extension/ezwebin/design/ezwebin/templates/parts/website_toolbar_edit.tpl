@@ -12,10 +12,12 @@
 
 <div id="ezwt-standardactions" class="left">
 
-    <input class="button" type="submit" name="VersionsButton" value="{'Manage versions'|i18n('design/ezwebin/content/edit')}" />
+	<input type="image" src={"websitetoolbar/ezwt-icon-versions.gif"|ezimage} name="VersionsButton" title="{'Manage versions'|i18n('design/ezwebin/content/edit')}" />
 
-    <input class="button" type="submit" name="StoreExitButton" value="{'Store and exit'|i18n( 'design/ezwebin/content/edit' )}" title="{'Store the draft that is being edited and exit from edit mode.'|i18n( 'design/ezwebin/content/edit' )}" />
-    <input class="button" type="submit" name="PreviewButton" value="{'Preview'|i18n('design/ezwebin/content/edit')}" />
+	<input type="image" src={"websitetoolbar/ezwt-icon-exit.gif"|ezimage} name="StoreExitButton" title="{'Store and exit'|i18n( 'design/ezwebin/content/edit' )}" />
+
+	<input type="image" src={"websitetoolbar/ezwt-icon-preview.gif"|ezimage} name="PreviewButton" title="{'Preview'|i18n('design/ezwebin/content/edit')}" />
+
 <select name="FromLanguage">
 <option value=""{if $from_language|not} selected="selected"{/if}> {'No translation'|i18n( 'design/ezwebin/content/edit' )}</option>
 
@@ -28,8 +30,11 @@
 {/if}
 </select>
 
-<input {if $object.status|eq(0)}class="button-disabled" disabled="disabled"{else} class="button"{/if} type="submit" name="FromLanguageButton" value="{'Translate'|i18n( 'design/ezwebin/content/edit' )}" title="{'Edit the current object showing the selected language as a reference.'|i18n( 'design/ezwebin/content/edit' )}" />
-
+{if $object.status|eq(0)}
+	<input disabled="disabled" type="image" src={"websitetoolbar/ezwt-icon-add_translation-disabled.gif"|ezimage} name="FromLanguageButton" title="{'Translate'|i18n( 'design/ezwebin/content/edit' )}" />
+{else} 
+	<input type="image" src={"websitetoolbar/ezwt-icon-add_translation.gif"|ezimage} name="FromLanguageButton" title="{'Translate'|i18n( 'design/ezwebin/content/edit' )}" />
+{/if}
 </div>
 
 <div id="ezwt-help">
