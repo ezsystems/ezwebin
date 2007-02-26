@@ -22,10 +22,10 @@
 {if or( and( eq( $version.status, 0 ), $is_creator, $object.can_edit ),
                   and( eq( $object.status, 2 ), $object.can_edit ) )}
 <input type="image" src={"websitetoolbar/ezwt-icon-edit.gif"|ezimage} name="EditButton" title="{'Edit'|i18n( 'design/ezwebin/content/view/versionview' )}" />
-<input type="image" src={"websitetoolbar/ezwt-icon-new.gif"|ezimage} name="PreviewPublishButton" title="{'Publish'|i18n( 'design/ezwebin/content/view/versionview' )}" />
+<input type="image" src={"websitetoolbar/ezwt-icon-publish.gif"|ezimage} name="PreviewPublishButton" title="{'Publish'|i18n( 'design/ezwebin/content/view/versionview' )}" />
 {else}
 <input disabled="disabled" type="image" src={"websitetoolbar/ezwt-icon-edit-disabled.gif"|ezimage} name="EditButton" title="{'Edit'|i18n( 'design/ezwebin/content/view/versionview' )}" />
-<input disabled="disabled" type="image" src={"websitetoolbar/ezwt-icon-new-disabled.gif"|ezimage} name="PreviewPublishButton" title="{'Publish'|i18n( 'design/ezwebin/content/view/versionview' )}" />
+<input disabled="disabled" type="image" src={"websitetoolbar/ezwt-icon-publish-disabled.gif"|ezimage} name="PreviewPublishButton" title="{'Publish'|i18n( 'design/ezwebin/content/view/versionview' )}" />
 {/if}
 </form>
 
