@@ -52,7 +52,7 @@
     <th class="tight"><img src={'toggle-button-16x16.gif'|ezimage} alt="{'Toggle selection'|i18n( 'design/ezwebin/content/history' )}" onclick="ezjs_toggleCheckboxes( document.versionsform, 'DeleteIDArray[]' ); return false;" /></th>
     <th>{'Version'|i18n( 'design/ezwebin/content/history' )}</th>
 	<th>{'Status'|i18n( 'design/ezwebin/content/history' )}</th>
-	<th>{'Edited language'i18n( 'design/ezwebin/content/history' )}</th>
+	<th>{'Edited language'|i18n( 'design/ezwebin/content/history' )}</th>
 	<th>{'Creator'|i18n( 'design/ezwebin/content/history' )}</th>
 	<th>{'Created'|i18n( 'design/ezwebin/content/history' )}</th>
 	<th>{'Modified'|i18n( 'design/ezwebin/content/history' )}</th>
@@ -281,7 +281,7 @@
 <table class="list" cellspacing="0">
 <tr>
     <th>{'Version'|i18n( 'design/ezwebin/content/history' )}</th>
-	<th>{'Edited language'i18n( 'design/ezwebin/content/history' )}</th>
+	<th>{'Edited language'|i18n( 'design/ezwebin/content/history' )}</th>
 	<th>{'Creator'|i18n( 'design/ezwebin/content/history' )}</th>
 	<th>{'Created'|i18n( 'design/ezwebin/content/history' )}</th>
 	<th>{'Modified'|i18n( 'design/ezwebin/content/history' )}</th>

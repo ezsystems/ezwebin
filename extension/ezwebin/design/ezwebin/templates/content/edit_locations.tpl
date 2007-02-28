@@ -72,7 +72,7 @@
     {$:nameStart}
 	{switch match=$Node:parent_node.node_id}
 	{case match=1}
-	{'Top node'i18n( 'design/ezwebin/content/edit' )}
+	{'Top node'|i18n( 'design/ezwebin/content/edit' )}
 	{/case}
 	{case}
     {section name=Path loop=$Node:parent_node.path}
