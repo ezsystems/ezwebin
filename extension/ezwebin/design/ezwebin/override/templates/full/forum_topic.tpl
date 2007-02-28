@@ -83,7 +83,8 @@
         </form>
         {section-else}
            <p>
-            {"You need to be logged in to get access to the forums. You can do so"|i18n("design/ezwebin/full/forum_topic")} <a href={"/user/login/"|ezurl}>{"here"|i18n("design/ezwebin/full/forum_topic")}</a>
+            {"You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%"|i18n( "design/ezwebin/full/forum_topic",,
+         hash( '%login_link_start%', concat( '<a href=', '/user/login/'|ezurl, '>' ), '%login_link_end%', '</a>' ) )}
            </p>
         {/section}
         {/section}
@@ -196,7 +197,7 @@
                       <form method="post" action={"content/action/"|ezurl}>
                           <input type="hidden" name="ContentObjectID" value="{$reply.object.id}" />
                           <input type="hidden" name="ContentNodeID" value="{$reply.node_id}" />
-						  <input class="button" type="submit" name="ActionRemove" value="{'Remove'|i18n( 'design/ezwebin/full/forum_topic' )}" title="{'Remove this item.'|i18n( 'design/ezwebin/full/forum_topic' )}" />                      
+						  <input class="button" type="submit" name="ActionRemove" value="{'Remove'|i18n( 'design/ezwebin/full/forum_topic' )}" title="{'Remove this item.'|i18n( 'design/ezwebin/full/forum_topic' )}" />
 						  </form>
                   {/section}
 

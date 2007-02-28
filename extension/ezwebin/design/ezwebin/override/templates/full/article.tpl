@@ -25,6 +25,12 @@
         	{if $node.data_map.image.has_content}
             	<div class="attribute-image">
                 	{attribute_view_gui attribute=$node.data_map.image image_class=medium}
+					
+					{if $node.data_map.caption.has_content}
+					<div class="caption">
+						{attribute_view_gui attribute=$node.data_map.caption}
+					</div>
+					{/if}
             	</div>
         	{/if}
 		{/if}
@@ -65,10 +71,15 @@
                     <input class="button new_comment" type="submit" name="NewButton" value="{'New Comment'|i18n( 'design/ezwebin/full/article' )}" />
                     </form>
                 {else}
-                    <p><a href={"/user/login"|ezurl}>Log in</a> or <a href={"/user/register"|ezurl}>create a user account</a> to comment.</p>
+                    <p>{'%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.'|i18n( 'design/ezwebin/full/article', , hash( '%login_link_start', concat( '<a href="', '/user/login'|ezurl(no), '">' ), '%login_link_end', '</a>', '%create_link_start', concat( '<a href="', "/user/register"|ezurl(no), '">' ), '%create_link_end', '</a>' ) )}</p>
                 {/if}
         {/if}
         {/if}
+		
+		
+		<div class="links">
+			<p class="tipafriend"><a href={concat( "/content/tipafriend/", $node.node_id )|ezurl} title="{'Tip a friend'|i18n( 'design/ezwebin/full/article' )}">{'Tip a friend'|i18n( 'design/ezwebin/full/article' )}</a></p>
+		</div>
     </div>
 </div>
 

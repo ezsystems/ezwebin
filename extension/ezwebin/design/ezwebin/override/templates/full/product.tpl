@@ -11,11 +11,16 @@
         <h1>{$node.name|wash()}</h1>
 		</div>
 		
-    	{section show=$node.data_map.image.content}
+    	{if $node.data_map.image.has_content}
         <div class="attribute-image">
             {attribute_view_gui image_class=medium attribute=$node.data_map.image}
+            {if $node.data_map.caption.has_content}
+            <div class="caption">
+                {attribute_view_gui attribute=$node.data_map.caption}
+            </div>
+            {/if}
         </div>
-    	{/section}
+    	{/if}
 
         <div class="attribute-product-number">
            {attribute_view_gui attribute=$node.object.data_map.product_number}

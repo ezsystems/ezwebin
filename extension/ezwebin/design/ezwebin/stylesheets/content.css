@@ -400,15 +400,6 @@ div.attribute-header h1.long
     background-image: url('../images/icons/rss_icon.gif');
 }
 
-/* IMAGE */
-
-div.object-center div.content-view-embed div.class-image
-{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
 /* BROWSE */
 
 div.context-toolbar div.block div.right
@@ -555,6 +546,97 @@ div.content-view-full div.class-forums table.forum td
 	background-color: #F2F1ED;
 }
 
+/* IMAGE */
+
+div.attribute-image
+{
+	margin: 0.25em 0 0.5em 0;
+}
+
+div.content-view-full div.attribute-image
+{
+	float: right;
+	margin-left: 0.5em;
+	margin-right: 0;
+}
+
+div.content-view-full div.class-image div.attribute-image
+{
+	margin-left: 0;
+	float: none;
+}
+
+div.content-view-full div.attribute-image div.caption
+{
+	background-color: #EAE9E1;
+	font-size: 0.8em;
+	text-align: center;
+	margin: 2px 0 0 0;
+}
+
+div.content-view-full div.attribute-image div.caption p
+{
+	padding: 3px;
+	margin: 0;
+}
+
+div.content-view-line div.attribute-image
+{
+	float: left;
+	margin-right: 0.5em;
+	margin-left: 0;
+}
+
+div.content-view-embed div.attribute-image
+{
+	float: left;
+	margin-right: 0.5em;
+	margin-left: 0;
+}
+
+div.object-left div.content-view-embed div.class-image div.attribute-image
+{
+	margin: 0;
+	float: none;
+}
+
+div.object-right div.content-view-embed div.class-image div.attribute-image
+{
+	margin: 0;
+	float: none;
+}
+
+div.object-center div.class-image
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div.object-center div.content-view-embed div.class-image div.attribute-image
+{
+	margin: 0;
+	float: none;
+}
+
+div.content-view-embed div.class-image div.attribute-caption
+{
+	background-color: #EAE9E1;
+	font-size: 0.8em;
+	text-align: center;
+	margin: 2px 0 0 0;
+}
+
+div.object-center div.content-view-embed div.class-image div.attribute-caption
+{
+	margin: 2px auto 0 auto;
+}
+
+div.content-view-embed div.class-image div.attribute-caption p
+{
+	padding: 3px;
+	margin: 0;
+}
 
 /* ARTICLE */
 
@@ -573,26 +655,6 @@ div.content-view-full div.class-article div.attribute-byline
 	padding-bottom: 30px;
 	margin-bottom: -0.25em;
 	display: block;
-}
-
-div.content-view-full div.class-article div.attribute-image
-{
-	float: right;
-}
-
-div.content-view-line div.class-article div.attribute-image
-{
-	float: left;
-}
-
-div.content-view-horizontallylistedsubitems div.class-article
-{
-	text-align: left;
-}
-
-div.content-view-horizontallylistedsubitems div.class-article div.attribute-image
-{
-	float: left;
 }
 
 div.content-view-full div.class-article div.attribute-short
@@ -618,9 +680,294 @@ div.content-view-full div.class-article div.attribute-long
 	padding-bottom: 56px;
 }
 
-div.content-view-embed div.class-image div.attribute-image
+div.links
 {
-	float: none;
+	background-image: url(../images/attribute_header_bg_medium.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin-top: 2em;
+}
+
+div.links p.tipafriend
+{
+	padding-top: 2em;
+}
+
+div.links p.tipafriend a
+{
+	background-image: url(../images/tipafriend.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 27px;
+}
+
+
+/* ARTICLE (main-page)*/
+
+div.content-view-full div.class-article-mainpage div.attribute-short
+{
+	font-weight: bold;
+}
+
+div.content-view-line div.class-article-mainpage div.attribute-short
+{
+	font-weight: normal;
+}
+
+div.content-view-full div.class-article-mainpage div.attribute-header h1
+{
+	background: none;
+	padding-bottom: 0;
+	margin-bottom: 0.25em;
+}
+
+div.content-view-full div.class-article-mainpage div.attribute-byline
+{
+	background-image: url(../images/attribute_header_bg_medium.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	padding-bottom: 30px;
+	margin-bottom: -0.25em;
+	display: block;
+}
+
+div.content-view-full div.class-article-mainpage div.pagenavigator
+{
+	background-image: url(../images/attribute_header_bg_medium.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	padding-bottom: 56px;
+}
+
+/* BLOG */
+
+div.class-blog
+{
+    width: auto; /* This can be changed to any fixed width if desired */
+    margin: 0 auto 0 auto; /* General method for centering content if fixed page width, for other browsers than IE */
+    text-align: left; /* Reset IE method for centering page, to stop all other content on the page from centering */
+}
+
+div.columns-blog
+{
+    padding: 0 17em 0 0;
+}
+
+div#main div.noextrainfo div.columns-blog
+{
+    padding-right: 0;
+}
+
+div.main-column-position
+{
+    width: 100%;
+    float: left;
+}
+
+div.main-column
+{
+}
+
+div#main div.noextrainfo div.main-column
+{
+    margin-right: 0;
+}
+
+div.extrainfo-column-position
+{
+    width: 17em;
+    margin-right: -17em;
+    float: left;
+}
+
+div#main div.noextrainfo div.extrainfo-column-position
+{
+    display: none;
+}
+
+div.main-column
+{
+    margin: 0 0.25em 0 0; /* Space between main and other columns */
+}
+
+div.class-blog div.attribute-byline p.tags
+{ 
+    margin-right: 0.2em;
+    display: inline;
+	font-size: 0.9em;
+}
+
+div.class-blog div.attribute-byline p.author
+{ 
+    margin-right: 0.2em;
+    display: inline;
+	font-size: 0.9em;
+}
+
+div.class-blog div.attribute-byline p.date
+{ 
+    margin: 0 0.2em 0 0;
+    display: inline;
+	color: #CCCCCC;
+	font-size: 0.9em;
+}
+
+div.content-view-line div.class-blog-post div.attribute-header a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+div.content-view-line div.class-blog-post div.attribute-header a:hover
+{
+	color: #000000;
+}
+
+/* BLOG - CALENDAR*/
+
+div.calendar
+{
+   width: 195px;
+   background-color: #f4f4f4;
+}
+
+div.calendar div.calendar-tl
+{
+    background: url(../images/calendar-corner-tl.gif) no-repeat top left;
+}
+
+div.calendar div.calendar-tr
+{
+    background: url(../images/calendar-corner-tr.gif) no-repeat top right;
+}
+
+div.calendar div.calendar-bl
+{
+    background: url(../images/calendar-corner-bl.gif) no-repeat bottom left;
+}
+
+div.calendar div.calendar-br
+{
+    background: url(../images/calendar-corner-br.gif) no-repeat bottom right;
+    padding: 6px;
+}
+
+div.calendar div.content
+{
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+div.calendar div.month h2
+{
+    font-size: 1em;
+    font-weight: bold;
+    color: #525345;
+    margin: 0 0 0.25em 0;
+    padding-top: 3px;
+    text-align: center;
+}
+
+div.calendar div.month a
+{
+    color: #525345;
+    text-decoration: none;
+}
+
+div.calendar div.previous, div.calendar div.next
+{
+    font-weight: bold;
+    margin: 0 4px 0 4px;
+    padding-top: 0.1em;
+    display: inline; /* Fix for IE */
+}
+
+div.calendar div.previous
+{
+    float: left;
+}
+
+div.calendar div.next
+{
+    float: right;
+}
+
+div.calendar div.previous p, div.calendar div.next p
+{
+    display: inline;
+}
+
+div.calendar div.table
+{
+    padding: 4px;
+}
+
+div.calendar table
+{
+    width: 100%;
+}
+
+div.calendar th, div.calendar td
+{
+    color: #525345;
+    width: 14%;
+    padding: 0.25em 0 0.25em 0;
+    border: 1px solid;
+    border-color: #ffffff #e0e0e0 #e0e0e0 #ffffff;
+    text-align: center;
+}
+
+div.calendar th
+{
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+div.calendar td
+{
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+div.calendar th.left, div.calendar td.left
+{
+    border-left: none;
+}
+
+div.calendar th.right, div.calendar td.right
+{
+    border-right: none;
+}
+
+div.calendar tr.top th
+{
+    border-top: none;
+}
+
+div.calendar tr.bottom td
+{
+    border-bottom: none;
+}
+
+div.calendar td a
+{
+    text-decoration: none;
+}
+
+div.calendar td.today
+{
+    font-weight: bold;
+    color: #d02020;
+}
+
+div.calendar td.currentselected
+{
+    background-color: #e0e0e0;
+}
+
+div.calendar td em
+{
+    font-style: normal;
 }
 
 /* DOCUMENTATION PAGE */
@@ -745,6 +1092,10 @@ div.content-view-line div.class-comment p.date
 	clear: left;
 	width: 48%;
 	display: block;
+	margin: 0 0.2em 0 0.2em;
+	display: inline;
+	color: #CCCCCC;
+	font-size: 0.9em;
 }
 
 /* INFOBOX */
@@ -764,11 +1115,6 @@ div.class-infobox div.attribute-header
 	margin: 0;
 	padding: 0;
 	height: 31px;
-}
-
-div.class-infobox div.attribute-image
-{
-	margin-top: 0.5em;
 }
 
 div.class-infobox div.attribute-header h2 
@@ -806,16 +1152,6 @@ div.content-view-children div.content-view-line
 div.content-view-full div.class-gallery div.attribute-link
 {
 	clear: both;
-}
-
-div.content-view-full div.class-gallery div.attribute-image
-{
-	float: right;
-}
-
-div.content-view-line div.class-gallery div.attribute-image
-{
-	float: left;
 }
 
 div.content-view-full div.class-gallery div.content-view-galleryline
@@ -885,27 +1221,6 @@ div.content-view-full div.class-gallery div.content-view-children
 div.content-view-embed div.class-gallery div.content-view-children
 {
 	background: none;
-}
-
-
-/* IMAGE */
-
-div.content-view-full div.class-image
-{
-    text-align: center;
-}
-
-div.content-view-full div.class-image div.attribute-header
-{
-    text-align: left;
-}
-
-div.content-view-full div.class-image div.attribute-image,
-div.content-view-full div.class-image div.content-navigator,
-div.content-view-full div.class-image div.attribute-caption
-{
-	float: none;
-	margin: auto;
 }
 
 /* FACTBOX */
@@ -1134,11 +1449,6 @@ div.content-view-line div.class-product div.attribute-price p.ex-vat
 	display: none;
 }
 
-div.content-view-full div.class-product div.attribute-image
-{
-	float: right;
-}
-
 div.vertically_listed_sub_items div.content-view-embed div.content-view-line div.class-product div.attribute-image
 {
 	float: right;
@@ -1154,6 +1464,7 @@ div.horizontally_listed_sub_items div.content-view-embed div.content-view-horizo
 div.horizontally_listed_sub_items div.content-view-embed div.content-view-horizontallylistedsubitems div.class-product div.attribute-image
 {
 	float: none;
+	margin: 0;
 }
 
 div.horizontally_listed_sub_items div.content-view-embed div.content-view-horizontallylistedsubitems div.class-product h2
@@ -1274,13 +1585,6 @@ div.highlighted_object h2
 div.highlighted_object h2 a
 {
 	color: #525345;
-}
-
-div.content-view-embed div.class-article div.box div.box-content div.attribute-image
-{
-	float: left;
-	clear: left;
-	margin: 0.25em 0.5em 0 0;
 }
 
 /* EMBED - ITEMIZED SUB ITEMS */
@@ -1447,48 +1751,132 @@ div.horizontally_listed_sub_items div.content-view-embed div.content-view-horizo
 	font-size: 1.2em;
 }
 
+/* POLL STYLES */
 
-/* EMBED - FOLDER - PRODUCTS */
-
-div.products div.content-view-embed div.class-folder h2
+div.poll-result td.poll-resultbar td.poll-percentage, div.poll-result td.poll-resultbar td.poll-votecount
 {
-	padding-left: 1em;
-	font-size: 1.4em;
-	font-weight: normal;
-	font-family: Arial, Helvetica, sans-serif;
-	background-image: url(../images/products_top_bg.png);
-	background-position: top center;
-	background-repeat: no-repeat;
-	padding-top: 1em;
-	margin-top: 0.2em;
+    font-style: italic;
+    font-size: 85%;
 }
 
-div.products div.content-view-embed div.class-folder div.content-view-productitem
+div.poll-result td.poll-resultbar td.poll-percentage
 {
-	text-align: center;
+    text-align: left;
 }
 
-div.products div.content-view-embed div.class-folder div.content-view-productitem div.attribute-image
+div.poll-result td.poll-resultbar td.poll-votecount
 {
-	float: none;
+    text-align: right;
 }
 
-div.products div.content-view-embed div.class-folder div.content-view-productitem h2
+div.poll-result p
 {
-	padding-left: 0;
-	font-size: 1.1em;
-	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;
-	background-image: url(../images/productitem_header_bg.png);
-	background-position: top center;
-	background-repeat: no-repeat;
-	padding-top: 10px;
+    font-weight: bold;
 }
 
-div.products div.content-view-embed div.class-folder div.content-view-productitem div.attribute-price
+div.poll-result div.chart-bar-resultbox
 {
-	font-size: 1em;
+    margin: 0.5em 0 0.5em 0;
+    width: 100%;
 }
+
+div.poll-result div.chart-bar-resultbar
+{
+    height: 14px;
+}
+
+div.poll-result td.poll-resultname
+{
+    padding-right: 5px;
+}
+
+div.poll-result td.poll-resultbar
+{
+    padding-left: 5px;
+}
+
+div.poll-result td.poll-resultbar table
+{
+    width: 300px;
+}
+
+div.poll-result div.chart-bar-resultbox
+{
+    background-color: #eeeeee;
+}
+
+div.poll-result div.chart-bar-resultbar
+{
+    background-color: #444;
+}
+
+
+div.content-poll-results
+{
+    width: 100%;
+}
+
+div.content-poll-results ul
+{
+    margin-left: 0;
+}
+
+div.content-poll-results li
+{
+    list-style-type: none;
+}
+
+div.content-poll-results span.option
+{
+    font-weight: bold;
+    float: left;
+}
+
+div.content-poll-results span.votes
+{
+    font-weight: normal;
+}
+
+div.content-poll-results span.value
+{
+    font-weight: bold;
+    margin-top: 1.7em;
+    float: right;
+}
+
+div.content-poll-results div.resultblock
+{
+    width: 100%;
+    margin: -1.2em 0 0.5em 0;
+    float: left;
+}
+
+div.content-poll-results div.resultedge-start
+{
+    padding-right: 4em;
+}
+
+div.content-poll-results div.resultedge-end
+{
+    border: 1px solid black;
+}
+
+div.content-poll-results div.resultbox
+{
+    background-color: #bcbbaf;
+    width: 100%;
+}
+
+div.content-poll-results div.resultbar
+{
+    background-color: #4b7198;
+    height: 20px;
+}
+
+div.content-poll-results div.result-divider
+{
+    height: 20px;
+} 
 
 /* QUOTE */
 
@@ -1549,27 +1937,6 @@ div.break
     height: 1px;
     margin-bottom: -1px;
 }
-
-/* IMAGE */
-
-div.attribute-image
-{
-	float: left;
-	margin: 0.25em 0 0.5em 0;
-}
-
-div.content-view-line div.attribute-image
-{
-	float: left;
-	margin: 0.25em 0.5em 0.5em 0;
-}
-
-div.content-view-horizontallylistedsubitems div.class-article div.attribute-image
-{
-	float: left;
-	margin: 0.25em 0.5em 0.5em 0;
-}
-
 
 /* AGENDA */
 
@@ -1829,7 +2196,6 @@ map#contentstructure li
     background-image: url(../images/left-line.gif);
     background-repeat: repeat-y;
     background-position: left;
-    white-space: nowrap;
 }
 
 map#contentstructure ul ul div

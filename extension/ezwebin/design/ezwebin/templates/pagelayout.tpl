@@ -3,7 +3,7 @@
 <head>
 {def $basket_is_empty   = cond($current_user.is_logged_in, fetch( shop, basket ).is_empty, 1)
      $current_node_id   = first_set($module_result.node_id, 0)
-     $user_hash         = concat($current_user.role_id_list|implode( ',' ), ",", $current_user.limited_assignment_value_list|implode( ',' ))}
+     $user_hash         = concat( $current_user.role_id_list|implode( ',' ), ",", $current_user.limited_assignment_value_list|implode( ',' ) )}
 
 {if and( $current_node_id|eq(0), is_set($module_result.path.0) , is_set($module_result.path[$module_result.path|count|dec].node_id) )}
 	{set $current_node_id = $module_result.path[$module_result.path|count|dec].node_id}
@@ -51,9 +51,12 @@
     {set $pagerootdepth = 1}
 {/if}
 
-{if and( is_set( $module_result.content_info.class_identifier ), eq( $module_result.content_info.class_identifier, 'frontpage' ) )}
+{if and( is_set( $module_result.content_info.class_identifier ), 
+                or( eq( $module_result.content_info.class_identifier, 'frontpage' ), 
+                    eq( $module_result.content_info.class_identifier, 'blog' ),
+                    eq( $module_result.content_info.class_identifier, 'blog_post' ) ) )}
     {set $pagestyle = 'nosidemenu noextrainfo'}
-{elseif and( eq( $ui_context, 'edit' ),  $uri_string|contains("content/versionview")|not )}
+{elseif and( eq( $ui_context, 'edit' ), $uri_string|contains("content/versionview")|not )}
     {set $pagestyle       = 'nosidemenu noextrainfo'}
 {elseif eq( $ui_context, 'browse' )}
     {set $pagestyle       = 'nosidemenu noextrainfo'}

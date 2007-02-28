@@ -8,7 +8,7 @@
 	    $left_menu_items = fetch( 'content', 'list', hash( 'parent_node_id', $root_node.node_id,
 	 												  'sort_by', $root_node.sort_array,
 													  'class_filter_type', 'include',
-													  'class_filter_array', array( 'folder', 'forum', 'documentation_page', 'gallery', 'feedback_form', 'forums', 'event_calendar' ) ) )
+													  'class_filter_array', array( 'folder', 'forum', 'documentation_page', 'gallery', 'feedback_form', 'forums', 'event_calendar', 'multicalendar' ) ) )
 	     $left_menu_items_count = $left_menu_items|count()
 		 $li_class = array()
 		 $a_class = array()

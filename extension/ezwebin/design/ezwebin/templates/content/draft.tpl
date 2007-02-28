@@ -100,7 +100,7 @@ function checkAll()
         {$draft.modified|l10n(datetime)}
     </td>
     <td width="1">
-        <a href={concat("/content/edit/",$draft.contentobject.id,"/",$draft.version,"/")|ezurl}><img src={"edit.gif"|ezimage} border="0" alt="Edit" /></a>
+        <a href={concat("/content/edit/",$draft.contentobject.id,"/",$draft.version,"/")|ezurl}><img src={"edit.gif"|ezimage} border="0" alt="{'Edit'|i18n('design/ezwebin/content/draft')}" /></a>
     </td>
 </tr>
 {/foreach}

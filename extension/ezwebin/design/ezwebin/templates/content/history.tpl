@@ -49,7 +49,7 @@
 {if $version_list}
 <table class="list" cellspacing="0">
 <tr>
-    <th class="tight"><img src={'toggle-button-16x16.gif'|ezimage} alt="Toggle selection" onclick="ezjs_toggleCheckboxes( document.versionsform, 'DeleteIDArray[]' ); return false;" /></th>
+    <th class="tight"><img src={'toggle-button-16x16.gif'|ezimage} alt="{'Toggle selection'|i18n( 'design/ezwebin/content/history' )}" onclick="ezjs_toggleCheckboxes( document.versionsform, 'DeleteIDArray[]' ); return false;" /></th>
     <th>{'Version'|i18n( 'design/ezwebin/content/history' )}</th>
 	<th>{'Status'|i18n( 'design/ezwebin/content/history' )}</th>
 	<th>{'Edited language'i18n( 'design/ezwebin/content/history' )}</th>

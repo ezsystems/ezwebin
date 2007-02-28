@@ -10,7 +10,9 @@
 			</div>
 			{/if}
             
-			{attribute_view_gui attribute=$node.object.data_map.content}
+			<div class="attribute-long">
+				{attribute_view_gui attribute=$node.object.data_map.content}
+			</div>
             
 			<div class="attribute-url">
 				<p>{attribute_view_gui attribute=$node.object.data_map.url}</p>
