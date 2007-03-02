@@ -22,16 +22,17 @@
                                             sort_by, array( array( 'modified_subnode', true() ) ) ) ) }
 
 
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="content-view-full">
     <div class="class-forum-topic">
 
-		<div class="attribute-header">
-        	<h1>{$node.name|wash}</h1>
-		</div>
-		
+        <div class="attribute-header">
+            <h1>{$node.name|wash}</h1>
+        </div>
+        
         {section show=is_unset( $versionview_mode )}
         <div class="content-navigator">
             {section show=$previous_topic}
@@ -79,7 +80,7 @@
             <input class="button forum-keep-me-updated" type="submit" name="ActionAddToNotification" value="{'Keep me updated'|i18n( 'design/ezwebin/full/forum_topic' )}" />
             <input type="hidden" name="NodeID" value="{$node.node_id}" />
             <input type="hidden" name="ClassIdentifier" value="forum_reply" />
-			<input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
+            <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
         </form>
         {section-else}
            <p>
@@ -129,14 +130,14 @@
                       <form method="post" action={"content/action/"|ezurl}>
                           <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
                           <input class="button forum-account-edit" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/full/forum_topic')}" />
-						  <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
+                          <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
                       </form>
                   {/section}
                   {section show=$node.object.can_remove}
                       <form method="post" action={"content/action/"|ezurl}>
                           <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
                           <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
-						  <input class="button" type="submit" name="ActionRemove" value="{'Remove'|i18n( 'design/ezwebin/full/forum_topic' )}" title="{'Remove this item.'|i18n( 'design/ezwebin/full/forum_topic' )}" />                      </form>
+                          <input class="button" type="submit" name="ActionRemove" value="{'Remove'|i18n( 'design/ezwebin/full/forum_topic' )}" title="{'Remove this item.'|i18n( 'design/ezwebin/full/forum_topic' )}" />                      </form>
                   {/section}
 
                </td>
@@ -187,7 +188,7 @@
                        <form method="post" action={"content/action/"|ezurl}>
                        <input type="hidden" name="ContentObjectID" value="{$reply.object.id}" />
                        <input class="button" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/full/forum_topic')}" />
-					   <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
+                       <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
                        </form>
                    {/case}
                    {case match=0}
@@ -197,8 +198,8 @@
                       <form method="post" action={"content/action/"|ezurl}>
                           <input type="hidden" name="ContentObjectID" value="{$reply.object.id}" />
                           <input type="hidden" name="ContentNodeID" value="{$reply.node_id}" />
-						  <input class="button" type="submit" name="ActionRemove" value="{'Remove'|i18n( 'design/ezwebin/full/forum_topic' )}" title="{'Remove this item.'|i18n( 'design/ezwebin/full/forum_topic' )}" />
-						  </form>
+                          <input class="button" type="submit" name="ActionRemove" value="{'Remove'|i18n( 'design/ezwebin/full/forum_topic' )}" title="{'Remove this item.'|i18n( 'design/ezwebin/full/forum_topic' )}" />
+                          </form>
                   {/section}
 
 
@@ -221,8 +222,7 @@
 
            </table>
 
-    </div>
-</div>
+
 
 {include name=navigator
          uri='design:navigator/google.tpl'
@@ -231,6 +231,9 @@
          view_parameters=$view_parameters
          item_limit=$page_limit}
 
+    </div>
+</div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

@@ -1,20 +1,21 @@
 {* Gallery - Full view *}
 
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="content-view-full">
     <div class="class-gallery">
 
-		<div class="attribute-header">
-        	<h1>{$node.name|wash()}</h1>
-		</div>
+        <div class="attribute-header">
+            <h1>{$node.name|wash()}</h1>
+        </div>
 
-    	{if $node.data_map.image.content}
-        	<div class="attribute-image">
-            	{attribute_view_gui image_class=medium attribute=$node.data_map.image.content.data_map.image}
-        	</div>
-    	{/if}
+        {if $node.data_map.image.content}
+            <div class="attribute-image">
+                {attribute_view_gui image_class=medium attribute=$node.data_map.image.content.data_map.image}
+            </div>
+        {/if}
 
         <div class="attribute-short">
            {attribute_view_gui attribute=$node.data_map.short_description}
@@ -39,15 +40,15 @@
             </div>
 
            <div class="content-view-children">
-	           {def $filters = ezini( 'gallerythumbnail', 'Filters', 'image.ini' )}
-	           
-				{foreach $filters as $filter}
-				   {if or($filter|contains( "geometry/scale" ), $filter|contains( "geometry/scaledownonly" ), $filter|contains( "geometry/crop" ) )}
-				      {def $image_style = $filter|explode("=").1}
-				      {set $image_style = concat("width:", $image_style|explode(";").0, "px ;", "height:", $image_style|explode(";").1, "px")}
-				      {break}
-				   {/if}
-				{/foreach}
+               {def $filters = ezini( 'gallerythumbnail', 'Filters', 'image.ini' )}
+               
+                {foreach $filters as $filter}
+                   {if or($filter|contains( "geometry/scale" ), $filter|contains( "geometry/scaledownonly" ), $filter|contains( "geometry/crop" ) )}
+                      {def $image_style = $filter|explode("=").1}
+                      {set $image_style = concat("width:", $image_style|explode(";").0, "px ;", "height:", $image_style|explode(";").1, "px")}
+                      {break}
+                   {/if}
+                {/foreach}
            
                {foreach $children as $child}
                    {node_view_gui view=galleryline content_node=$child}
@@ -65,5 +66,6 @@
     </div>
 </div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

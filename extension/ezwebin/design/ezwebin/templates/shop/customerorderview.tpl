@@ -1,16 +1,17 @@
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="shop-customerorderview">
-	<div class="attribute-header">
-		<h1 class="long">{"Customer Information"|i18n("design/ezwebin/shop/customerorderview")}</h1>
-	</div>
-	
+    <div class="attribute-header">
+        <h1 class="long">{"Customer Information"|i18n("design/ezwebin/shop/customerorderview")}</h1>
+    </div>
+    
 {shop_account_view_gui view=html order=$order_list[0]}
 
 
 <div class="attribute-header">
-	<h1>{"Order list"|i18n("design/ezwebin/shop/customerorderview")}</h1>
+    <h1>{"Order list"|i18n("design/ezwebin/shop/customerorderview")}</h1>
 </div>
 
 {def $currency = false()
@@ -21,20 +22,20 @@
 {section show=$order_list}
 <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
-	<th>
-	{"ID"|i18n("design/ezwebin/shop/customerorderview")}
-	</th>
-	<th>
-	{"Date"|i18n("design/ezwebin/shop/customerorderview")}
-	</th>
-	<th>
-	{"Total ex. VAT"|i18n("design/ezwebin/shop/customerorderview")}
-	</th>
-	<th>
-	{"Total inc. VAT"|i18n("design/ezwebin/shop/customerorderview")}
-	</th>
     <th>
-	</th>
+    {"ID"|i18n("design/ezwebin/shop/customerorderview")}
+    </th>
+    <th>
+    {"Date"|i18n("design/ezwebin/shop/customerorderview")}
+    </th>
+    <th>
+    {"Total ex. VAT"|i18n("design/ezwebin/shop/customerorderview")}
+    </th>
+    <th>
+    {"Total inc. VAT"|i18n("design/ezwebin/shop/customerorderview")}
+    </th>
+    <th>
+    </th>
 </tr>
 {section var=Order loop=$order_list sequence=array(bglight,bgdark)}
 {set currency = fetch( 'shop', 'currency', hash( 'code', $Order.item.productcollection.currency_code ) ) }
@@ -47,21 +48,21 @@
 {/if}
 
 <tr class="{$Order.sequence}">
-	<td>
-	{$Order.item.order_nr}
-	</td>
-	<td>
-	{$Order.item.created|l10n(shortdatetime)}
-	</td>
-	<td>
-	{$Order.item.total_ex_vat|l10n( 'currency', $locale, $symbol )}
-	</td>
-	<td>
-	{$Order.item.total_inc_vat|l10n( 'currency', $locale, $symbol )}
-	</td>
-	<td>
-	<a href={concat("/shop/orderview/",$Order.item.id,"/")|ezurl}>view</a>
-	</td>
+    <td>
+    {$Order.item.order_nr}
+    </td>
+    <td>
+    {$Order.item.created|l10n(shortdatetime)}
+    </td>
+    <td>
+    {$Order.item.total_ex_vat|l10n( 'currency', $locale, $symbol )}
+    </td>
+    <td>
+    {$Order.item.total_inc_vat|l10n( 'currency', $locale, $symbol )}
+    </td>
+    <td>
+    <a href={concat("/shop/orderview/",$Order.item.id,"/")|ezurl}>view</a>
+    </td>
 </tr>
 {/section}
 </table>
@@ -75,18 +76,18 @@
 {section show=$product_list}
 <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
-	<th>
-	{"Product"|i18n("design/ezwebin/shop/customerorderview")}
-	</th>
     <th>
-	{"Amount"|i18n("design/ezwebin/shop/customerorderview")}
-	</th>
-	<th>
-	{"Total ex. VAT"|i18n("design/ezwebin/shop/customerorderview")}
-	</th>
-	<th>
-	{"Total inc. VAT"|i18n("design/ezwebin/shop/customerorderview")}
-	</th>
+    {"Product"|i18n("design/ezwebin/shop/customerorderview")}
+    </th>
+    <th>
+    {"Amount"|i18n("design/ezwebin/shop/customerorderview")}
+    </th>
+    <th>
+    {"Total ex. VAT"|i18n("design/ezwebin/shop/customerorderview")}
+    </th>
+    <th>
+    {"Total inc. VAT"|i18n("design/ezwebin/shop/customerorderview")}
+    </th>
 </tr>
 
 {def $quantity_text = ''
@@ -139,5 +140,6 @@
 
 </div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

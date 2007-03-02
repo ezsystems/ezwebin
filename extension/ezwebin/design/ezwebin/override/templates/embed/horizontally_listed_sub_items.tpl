@@ -18,8 +18,10 @@
 											   'class_filter_array', array( 'infobox' ),
 											   'sort_by', $object.main_node.sort_array ) ) }
     <h2>{$object.name|wash()}</h2>
-	<div class="box-embgv">
-	<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
+<div class="border-box box-3">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
+
          <div class="split float-break">
                                 <div class="three-left">
                                     <div class="split-content">
@@ -50,7 +52,9 @@
                                 </div>
                                 <div class="break"></div>
                             </div>
-	</div></div></div></div></div>
+
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
 
 </div>

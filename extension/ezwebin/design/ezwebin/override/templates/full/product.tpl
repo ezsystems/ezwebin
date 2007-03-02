@@ -1,17 +1,18 @@
 {* Product - Full view *}
 
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <form method="post" action={"content/action"|ezurl}>
 <div class="content-view-full">
     <div class="class-product">
 
-		<div class="attribute-header">
+        <div class="attribute-header">
         <h1>{$node.name|wash()}</h1>
-		</div>
-		
-    	{if $node.data_map.image.has_content}
+        </div>
+        
+        {if $node.data_map.image.has_content}
         <div class="attribute-image">
             {attribute_view_gui image_class=medium attribute=$node.data_map.image}
             {if $node.data_map.caption.has_content}
@@ -20,7 +21,7 @@
             </div>
             {/if}
         </div>
-    	{/if}
+        {/if}
 
         <div class="attribute-product-number">
            {attribute_view_gui attribute=$node.object.data_map.product_number}
@@ -64,14 +65,14 @@
        {* Related products. *}
        {def $related_purchase=fetch( 'shop', 'related_purchase', hash( 'contentobject_id', $node.object.id, 'limit', 10 ) )}
        {if $related_purchase}
-	    <div class="relatedorders">
+        <div class="relatedorders">
             <h2>{'People who bought this also bought'|i18n( 'design/ezwebin/full/product' )}</h2>
 
-			<ul>
+            <ul>
             {foreach $related_purchase as $product}
                 <li>{content_view_gui view=text_linked content_object=$product}</li>
             {/foreach}
-			</ul>
+            </ul>
         </div>
        {/if}
        {undef $related_purchase}
@@ -79,5 +80,6 @@
 </div>
 </form>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

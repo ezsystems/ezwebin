@@ -1,5 +1,6 @@
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="user-forgotpassword">
 
@@ -24,7 +25,7 @@
       </div>
       {else}
       <form method="post" name="forgotpassword" action={"/user/forgotpassword/"|ezurl}>
-	  
+
       <div class="attribute-header">
       <h1 class="long">{"Have you forgotten your password?"|i18n('design/ezwebin/user/forgotpassword')}</h1>
       </div>
@@ -32,7 +33,7 @@
       <p>
       {"If you have forgotten your password we can generate a new one for you. All you need to do is to enter your e-mail address and we will create a new password for you."|i18n('design/ezwebin/user/forgotpassword')}
       </p>
-    
+
       <div class="block">
       <label for="email">{"E-mail"|i18n('design/ezwebin/user/forgotpassword')}:</label>
       <div class="labelbreak"></div>
@@ -49,5 +50,6 @@
 
 </div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

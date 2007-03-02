@@ -1,29 +1,30 @@
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="shop-userregister">
 
 <ul>
-	<li>1. {"Shopping basket"|i18n("design/ezwebin/shop/userregister")}</li>
-	<li class="selected">2. {"Account information"|i18n("design/ezwebin/shop/userregister")}
+     <li>1. {"Shopping basket"|i18n("design/ezwebin/shop/userregister")}</li>
+     <li class="selected">2. {"Account information"|i18n("design/ezwebin/shop/userregister")}
 </li>
-	<li>3. {"Confirm order"|i18n("design/ezwebin/shop/userregister")}</li>
+     <li>3. {"Confirm order"|i18n("design/ezwebin/shop/userregister")}</li>
 </ul>
 
 </div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
 
-<br />
-
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="shop-userregister">
 
 <div class="attribute-header">
-	<h1 class="long">{"Your account information"|i18n("design/ezwebin/shop/userregister")}</h1>
+     <h1 class="long">{"Your account information"|i18n("design/ezwebin/shop/userregister")}</h1>
 </div>
 
 {section show=$input_error}
@@ -125,5 +126,6 @@
 
 </div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

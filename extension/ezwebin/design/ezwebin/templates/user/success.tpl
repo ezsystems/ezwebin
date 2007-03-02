@@ -1,11 +1,12 @@
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="user-success">
 
 {if $verify_user_email}
 <div class="attribute-header">
-	<h1 class="long">{"User registered"|i18n("design/ezwebin/user/success")}</h1>
+    <h1 class="long">{"User registered"|i18n("design/ezwebin/user/success")}</h1>
 </div>
 
 <div class="feedback">
@@ -17,15 +18,16 @@ your account.'|i18n('design/ezwebin/user/success')}
 </div>
 {else}
 <div class="attribute-header">
-	<h1 class="long">{"User registered"|i18n("design/ezwebin/user/success")}</h1>
+    <h1 class="long">{"User registered"|i18n("design/ezwebin/user/success")}</h1>
 </div>
 
 <div class="feedback">
-	<h2>{"Your account was successfully created."|i18n("design/ezwebin/user/success")}</h2>
+    <h2>{"Your account was successfully created."|i18n("design/ezwebin/user/success")}</h2>
 </div>
 {/if}
 
 </div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

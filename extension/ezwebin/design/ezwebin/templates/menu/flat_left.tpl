@@ -1,5 +1,6 @@
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc">
 
 		<h4><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $module_result.path[$pagerootdepth].node_id)|ezurl}{else}{$module_result.path[$pagerootdepth].url_alias|ezurl}{/if}>{$module_result.path[$pagerootdepth].text}</a></h4>
 	
@@ -59,8 +60,7 @@
    {undef $root_node $left_menu_items $left_menu_items_count $a_class $li_class $current_node_in_path_2 $current_node_in_path_3}
 {else}
 
-	<div class="boxcontent">
-		<map id="contentstructure">
+	<div class="contentstructure">
 
    {def $current_node=fetch( content, node, hash( node_id, $module_result.node_id ) )
 	    $chapter_container=fetch( content, node, hash( node_id, $current_node.path_array[$pagerootdepth|inc] ) )
@@ -72,8 +72,9 @@
 	{include uri='design:simplified_treemenu/show_simplified_menu.tpl' contentStructureTree=$contentStructureTree is_root_node=true() skip_self_node=true() current_node_id=$module_result.node_id unfold_node=$node_to_unfold chapter_level=0}
 
     {undef $current_node $chapter_container $class_filter $depth $node_to_unfold $contentStructureTree}
-		</map>
 	</div>
 {/if}
-</div></div></div></div></div>
+
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

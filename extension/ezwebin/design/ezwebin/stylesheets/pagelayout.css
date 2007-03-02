@@ -2,15 +2,6 @@
 
 /* FULL PAGE */
 
-body
-{
-	background-image: url(../images/body_bg.png);
-	background-repeat: repeat-x;
-    text-align: center; /* IE method for centering page if it has fixed width */
-	margin: 0;
-	padding: 0;
-}
-
 div#page
 {
     width: 760px; /* This can be changed to any fixed width if desired */
@@ -268,7 +259,7 @@ div#sidemenu ul.submenu-list a.selected
 	font-weight: bold;
 }
 
-div#sidemenu ul li a
+div#sidemenu ul.menu-list li a, div#sidemenu ul.submenu-list li a
 {
     background-image: url(../images/sidemenu_bullet.png);
     background-position: 0.2em 0.5em;

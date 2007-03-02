@@ -1,4 +1,5 @@
 {* Article - Line view *}
+
 <div class="content-view-line">
     <div class="class-article float-break">
 

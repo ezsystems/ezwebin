@@ -87,8 +87,9 @@
 	{/for}
 {/foreach}
 
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="content-view-full">
  <div class="class-event-calendar event-calendar-calendarview">
@@ -100,8 +101,7 @@
 
 <div id="ezagenda_calendar_left">
 <div id="ezagenda_calendar_container">
-<div class="box-embgv">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
+
 <table cellspacing="0" cellpadding="0" border="0" summary="Event Calendar">
 <thead>
 <tr class="calendar_heading">
@@ -167,8 +167,7 @@
 {/while}
 </tbody>
 </table>
-</div>
-</div></div></div></div></div>
+
 </div>
 
 
@@ -256,5 +255,6 @@
 </div>
 </div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

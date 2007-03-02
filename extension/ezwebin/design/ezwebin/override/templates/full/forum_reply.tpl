@@ -1,8 +1,9 @@
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="attribute-header">
-	<h1>{"Message preview"|i18n("design/ezwebin/full/forum_reply")}</h1>
+    <h1>{"Message preview"|i18n("design/ezwebin/full/forum_reply")}</h1>
 </div>
 
 <div class="forum_level4">
@@ -18,7 +19,7 @@
 <tr class="bglightforum">
     <td class="author">
     {def $owner=$node.object.owner
-		 $owner_map=$owner.data_map}
+         $owner_map=$owner.data_map}
         <p class="author">{$owner.name|wash}
         {if is_set( $owner_map.title )}
             <br />{$owner_map.title.content|wash}
@@ -69,6 +70,6 @@
 </table>
 </div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
-

@@ -1,42 +1,44 @@
-{let topic_list=fetch('content','list',hash( parent_node_id, $node.node_id,
-                                             limit, 20,
-                                             offset, $view_parameters.offset,
-                                             sort_by, array( array( attribute, false(), 'forum_topic/sticky' ), array( 'modified_subnode', false() ) ) ) )
-     topic_count=fetch('content','list_count',hash(parent_node_id,$node.node_id))}
+{def $page_limit = 20
+     $topic_list = fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
+                                                  'limit', $page_limit,
+                                                  'offset', $view_parameters.offset,
+                                                  'sort_by', array( array( attribute, false(), 'forum_topic/sticky' ), array( 'modified_subnode', false() ) ) ) )
+     $topic_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id ) )}
 
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="content-view-full">
     <div class="class-forum">
-	
-	<div class="attribute-header">
-    	<h1>{$node.name|wash}</h1>
-	</div>
+
+    <div class="attribute-header">
+        <h1>{$node.name|wash}</h1>
+    </div>
 
     <div class="attribute-short">
-    {attribute_view_gui attribute=$node.data_map.description}
+        {attribute_view_gui attribute=$node.data_map.description}
     </div>
 
 
-    {section show=is_unset( $versionview_mode )}
-    {section show=$node.object.can_create}
+    {if is_unset( $versionview_mode )}
+    {if $node.object.can_create}
         <form method="post" action={"content/action/"|ezurl}>
             <input class="button forum-new-topic" type="submit" name="NewButton" value="{'New topic'|i18n( 'design/ezwebin/full/forum' )}" />
             <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
             <input type="hidden" name="ContentObjectID" value="{$node.contentobject_id.}" />
-			<input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
+            <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
             <input class="button forum-keep-me-updated" type="submit" name="ActionAddToNotification" value="{'Keep me updated'|i18n( 'design/ezwebin/full/forum' )}" />
             <input type="hidden" name="NodeID" value="{$node.node_id}" />
             <input type="hidden" name="ClassIdentifier" value="forum_topic" />
         </form>
-    {section-else}
+    {else}
         <p>
         {"You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%"|i18n( "design/ezwebin/full/forum",,
          hash( '%login_link_start%', concat( '<a href=', '/user/login/'|ezurl, '>' ), '%login_link_end%', '</a>' ) )}
         </p>
-    {/section}
-    {/section}
+    {/if}
+    {/if}
 
 
     <div class="content-view-children">
@@ -101,9 +103,9 @@
                     <a href={concat( $reply.parent.url_alias, '/(offset)/', sub( $topic_reply_count, mod( $topic_reply_count, 20 ) ) , '#msg', $reply.node_id )|ezurl}>Last reply by:</a> 
                 {section-else}
                     <a href={concat( $reply.parent.url_alias, '#msg', $reply.node_id )|ezurl}>Last reply by:</a> 
-                {/section}				   
-				   {$reply.object.owner.name|wash}
-				   </p>
+                {/section}                   
+                   {$reply.object.owner.name|wash}
+                   </p>
                 </div>
                 
                 {/section}
@@ -123,9 +125,8 @@
          page_uri=concat('/content/view','/full/',$node.node_id)
          item_count=$topic_count
          view_parameters=$view_parameters
-         item_limit=20}
+         item_limit=$page_limit}
 
-{/let}
-
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

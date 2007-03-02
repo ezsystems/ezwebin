@@ -1,12 +1,13 @@
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="user-login">
 
 <form method="post" action={"/user/login/"|ezurl} name="loginform">
 
 <div class="attribute-header">
-	<h1 class="long">{"Login"|i18n("design/ezwebin/user/login")}</h1>
+    <h1 class="long">{"Login"|i18n("design/ezwebin/user/login")}</h1>
 </div>
 
 {if $User:warning.bad_login}
@@ -45,9 +46,9 @@
 </div>
 
 {*
-	Set URL for login form action
-	site.ini.[SiteSettings].AdditionalLoginFormActionURL
-	If empty then checkbox will not appear
+    Set URL for login form action
+    site.ini.[SiteSettings].AdditionalLoginFormActionURL
+    If empty then checkbox will not appear
 *}
 <script type="text/javascript">
 <!--
@@ -58,10 +59,10 @@ var loginFormDefaultAction = loginForm.action;
 function AdminSiteaccessCheckbox( val )
 {ldelim}
 
-	if( val.checked )
-		loginForm.action = '{ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )}';
-	else 
-		loginForm.action = loginFormDefaultAction;
+    if( val.checked )
+        loginForm.action = '{ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )}';
+    else 
+        loginForm.action = loginFormDefaultAction;
 
 {rdelim} 
 
@@ -95,5 +96,6 @@ function AdminSiteaccessCheckbox( val )
 
 </div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

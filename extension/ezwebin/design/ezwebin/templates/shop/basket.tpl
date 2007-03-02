@@ -1,24 +1,25 @@
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="shop-basket">
 
 <ul>
-	<li class="selected">1. {"Shopping basket"|i18n("design/ezwebin/shop/basket")}</li>
-	<li>2. {"Account information"|i18n("design/ezwebin/shop/basket")}
+    <li class="selected">1. {"Shopping basket"|i18n("design/ezwebin/shop/basket")}</li>
+    <li>2. {"Account information"|i18n("design/ezwebin/shop/basket")}
 </li>
-	<li>3. {"Confirm order"|i18n("design/ezwebin/shop/basket")}</li>
+    <li>3. {"Confirm order"|i18n("design/ezwebin/shop/basket")}</li>
 </ul>
 
 </div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
 
-<br />
-
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content float-break">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="shop-basket">
 
@@ -76,63 +77,63 @@
 
 <table class="list"  width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
-	<th>
-	{"Count"|i18n("design/ezwebin/shop/basket")}
-	</th>
-	<th>
-	{"VAT"|i18n("design/ezwebin/shop/basket")}
-	</th>
-	<th>
-	{"Price inc. VAT"|i18n("design/ezwebin/shop/basket")}
-	</th>
-	<th>
-	{"Discount"|i18n("design/ezwebin/shop/basket")}
-	</th>
-	<th>
-	{"Total Price ex. VAT"|i18n("design/ezwebin/shop/basket")}
-	</th>
-	<th>
-	{"Total Price inc. VAT"|i18n("design/ezwebin/shop/basket")}
-	</th>
-	<th>&nbsp;
-	</th>
+    <th>
+    {"Count"|i18n("design/ezwebin/shop/basket")}
+    </th>
+    <th>
+    {"VAT"|i18n("design/ezwebin/shop/basket")}
+    </th>
+    <th>
+    {"Price inc. VAT"|i18n("design/ezwebin/shop/basket")}
+    </th>
+    <th>
+    {"Discount"|i18n("design/ezwebin/shop/basket")}
+    </th>
+    <th>
+    {"Total Price ex. VAT"|i18n("design/ezwebin/shop/basket")}
+    </th>
+    <th>
+    {"Total Price inc. VAT"|i18n("design/ezwebin/shop/basket")}
+    </th>
+    <th>&nbsp;
+    </th>
 </tr>
 {section name=ProductItem loop=$basket.items sequence=array(bgdark, bglight)}
 <tr class="bglight">
-	<td colspan="7"><input type="hidden" name="ProductItemIDList[]" value="{$Basket:ProductItem:item.id}" />
-	{*{$Basket:ProductItem:item.id}-*}
-	<a href={concat("/content/view/full/",$Basket:ProductItem:item.node_id,"/")|ezurl}>{$Basket:ProductItem:item.object_name}</a></td>
+    <td colspan="7"><input type="hidden" name="ProductItemIDList[]" value="{$Basket:ProductItem:item.id}" />
+    {*{$Basket:ProductItem:item.id}-*}
+    <a href={concat("/content/view/full/",$Basket:ProductItem:item.node_id,"/")|ezurl}>{$Basket:ProductItem:item.object_name}</a></td>
 </tr>
 <tr class="bgdark">
-	<td>
-	<input type="text" name="ProductItemCountList[]" value="{$Basket:ProductItem:item.item_count}" size="5" />
-	</td>
-	<td>
-	{if ne( $Basket:ProductItem:item.vat_value, -1 )}
-		{$Basket:ProductItem:item.vat_value} %
-	{else}
-		{'unknown'|i18n( 'design/ezwebin/shop/basket' )}
-	{/if}
-	</td>
-	<td>
-	{$Basket:ProductItem:item.price_inc_vat|l10n( 'currency', $locale, $symbol )}
-	</td>
-	<td>
-	{$Basket:ProductItem:item.discount_percent}%
-	</td>
-	<td>
-	{$Basket:ProductItem:item.total_price_ex_vat|l10n( 'currency', $locale, $symbol )}
-	</td>
-	<td>
-	{$Basket:ProductItem:item.total_price_inc_vat|l10n( 'currency', $locale, $symbol )}
-	</td>
-	<td>
-	<input type="checkbox" name="RemoveProductItemDeleteList[]" value="{$Basket:ProductItem:item.id}" />
-	</td>
+    <td>
+    <input type="text" name="ProductItemCountList[]" value="{$Basket:ProductItem:item.item_count}" size="5" />
+    </td>
+    <td>
+    {if ne( $Basket:ProductItem:item.vat_value, -1 )}
+        {$Basket:ProductItem:item.vat_value} %
+    {else}
+        {'unknown'|i18n( 'design/ezwebin/shop/basket' )}
+    {/if}
+    </td>
+    <td>
+    {$Basket:ProductItem:item.price_inc_vat|l10n( 'currency', $locale, $symbol )}
+    </td>
+    <td>
+    {$Basket:ProductItem:item.discount_percent}%
+    </td>
+    <td>
+    {$Basket:ProductItem:item.total_price_ex_vat|l10n( 'currency', $locale, $symbol )}
+    </td>
+    <td>
+    {$Basket:ProductItem:item.total_price_inc_vat|l10n( 'currency', $locale, $symbol )}
+    </td>
+    <td>
+    <input type="checkbox" name="RemoveProductItemDeleteList[]" value="{$Basket:ProductItem:item.id}" />
+    </td>
 </tr>
 <tr class="bglight">
-	<td colspan="6"><input class="button" type="submit" name="StoreChangesButton" value="{'Update'|i18n('design/ezwebin/shop/basket')}" /></td>
-	<td colspan="1"><input class="button" type="submit" name="RemoveProductItemButton" value="{'Remove'|i18n('design/ezwebin/shop/basket')}" /> </td>
+    <td colspan="6"><input class="button" type="submit" name="StoreChangesButton" value="{'Update'|i18n('design/ezwebin/shop/basket')}" /></td>
+    <td colspan="1"><input class="button" type="submit" name="RemoveProductItemButton" value="{'Remove'|i18n('design/ezwebin/shop/basket')}" /> </td>
 </tr>
 {section show=$Basket:ProductItem:item.item_object.option_list}
 <tr>
@@ -171,14 +172,14 @@
      </td>
 </tr>
 <tr>
-	<td colspan="5">
-	</td>
-	<td>
-		{$basket.total_ex_vat|l10n( 'currency', $locale, $symbol )}
-	</td>
-	<td>
-	{$basket.total_inc_vat|l10n( 'currency', $locale, $symbol )}
-	</td>
+    <td colspan="5">
+    </td>
+    <td>
+        {$basket.total_ex_vat|l10n( 'currency', $locale, $symbol )}
+    </td>
+    <td>
+    {$basket.total_inc_vat|l10n( 'currency', $locale, $symbol )}
+    </td>
 </tr>
 {if is_set( $shipping_info )}
 {* Show shipping type/cost. *}
@@ -228,5 +229,6 @@
 
 </div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

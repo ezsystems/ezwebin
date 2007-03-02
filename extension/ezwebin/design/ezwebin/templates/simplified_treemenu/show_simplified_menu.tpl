@@ -12,14 +12,15 @@
 {section show=$skip_self_node|not()}
          <li {* id="n{$:parentNode.node.node_id}"*}
 {section show=eq($chapter_level,1)}
-{section show=eq($unfold_node,$parentNode.node.node_id)}
-{section show=eq($parentNode.node.node_id, $current_node_id)}
-class="topchapter-selected currentnode"
+{section show=and($:last_item, eq($parentNode.node.node_id, $current_node_id))}
+class="last currentnode"
 {section-else}
-class="topchapter-selected"
+{section show=$:last_item}
+class="last"
 {/section}
-{section-else}
-class="topchapter"
+{section show=eq($parentNode.node.node_id, $current_node_id)}
+class="currentnode"
+{/section}
 {/section}
 {section-else}
 {section show=and($:last_item, eq($parentNode.node.node_id, $current_node_id))}
@@ -31,8 +32,30 @@ class="last"
 {section show=eq($parentNode.node.node_id, $current_node_id)}
 class="currentnode"
 {/section}
-{/section}{/section}>
-         <div> {* Fold/Unfold/Empty: [-]/[+]/[ ] *}
+{/section}
+{/section}>
+         <div {section show=eq($chapter_level,1)}
+{section show=eq($unfold_node,$parentNode.node.node_id)}
+{section show=eq($parentNode.node.node_id, $current_node_id)}
+class="first-selected currentnode"
+{section-else}
+class="first-selected"
+{/section}
+{section-else}
+{section show=and($:last_item, eq($parentNode.node.node_id, $current_node_id))}
+class="last currentnode"
+{section-else}
+{section show=$:last_item}
+{section-else}
+class="first"
+{/section}
+{section show=eq($parentNode.node.node_id, $current_node_id)}
+class="currentnode"
+{/section}
+{/section}
+{/section}
+{section-else}
+{/section}> {* Fold/Unfold/Empty: [-]/[+]/[ ] *}
     {section show=or($:haveChildren, $:isRootNode)}
     {*<a class="openclose" href="#" title="{'Fold/Unfold'|i18n('design/ezwebin/simplified_treemenu/show_simplified_menu')}"></a>*}
     {section-else}

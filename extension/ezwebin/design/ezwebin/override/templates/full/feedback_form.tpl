@@ -1,15 +1,16 @@
 {* Feedback form - Full view *}
 
-<div class="box">
-<div class="tl"><div class="tr"><div class="br"><div class="bl"><div class="box-content">
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="content-view-full">
     <div class="class-feedback-form">
-	
-		<div class="attribute-header">
-        	<h1>{$node.name|wash()}</h1>
-		</div>
-		
+
+        <div class="attribute-header">
+            <h1>{$node.name|wash()}</h1>
+        </div>
+
         {include name=Validation uri='design:content/collectedinfo_validation.tpl'
                  class='message-warning'
                  validation=$validation collection_attributes=$collection_attributes}
@@ -50,5 +51,6 @@
     </div>
 </div>
 
-</div></div></div></div></div>
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
