@@ -12,6 +12,7 @@
      $indexpage       = 2
      $infobox_count   = 0
      $path_normalized = ''
+     $pagedepth       = $module_result.path|count
      $pagedesign      = fetch( 'content', 'object', hash( 'object_id', '54' ) )
 }
 {include uri='design:page_head.tpl'}
