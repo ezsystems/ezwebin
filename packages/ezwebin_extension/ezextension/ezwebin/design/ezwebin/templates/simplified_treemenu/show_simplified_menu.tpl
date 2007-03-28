@@ -34,7 +34,7 @@ class="currentnode"
 {/section}{/section}><div>
 {* Fold/Unfold/Empty: [-]/[+]/[ ] *}
 {section show=or($:haveChildren, $:isRootNode)}
-{*<a class="openclose" href="#" title="{'Fold/Unfold'|i18n('design/admin/simplified_treemenu')}"></a>*}
+{*<a class="openclose" href="#" title="{'Fold/Unfold'|i18n('design/ezwebin/simplified_treemenu/show_simplified_menu')}"></a>*}
 {section-else}
 {*<span class="openclose"></span>*}
 {/section}
@@ -46,7 +46,7 @@ class="currentnode"
 {section show=$:parentNode.node.is_hidden}
 {set visibility='Hidden'}
 {/section}
-{set toolTip='Node ID: %node_id Visibility: %visibility'|i18n("design/ezwebin/design/ezwebin/simplified_treemenu/show_simplified_menu", , hash( '%node_id'      , $:parentNode.node.node_id, '%visibility'   , $:visibility ) ) }
+{set toolTip='Node ID: %node_id Visibility: %visibility'|i18n("design/ezwebin/simplified_treemenu/show_simplified_menu", , hash( '%node_id'      , $:parentNode.node.node_id, '%visibility'   , $:visibility ) ) }
 {section-else}
 {set toolTip=''}
 {/section}
@@ -58,7 +58,7 @@ class="currentnode"
 {section show=$:haveChildren}
 <ul>
 {section var=child loop=$:children}
-{include name=SubMenu uri="design:design/ezwebin/simplified_treemenu/show_simplified_menu.tpl" contentStructureTree=$:child last_item=eq( $child.number, $:numChildren ) skip_self_node=false() current_node_id=$current_node_id chapter_level=$chapter_level unfold_node=$unfold_node}
+{include name=SubMenu uri="design:simplified_treemenu/show_simplified_menu.tpl" contentStructureTree=$:child last_item=eq( $child.number, $:numChildren ) skip_self_node=false() current_node_id=$current_node_id chapter_level=$chapter_level unfold_node=$unfold_node}
 {/section}
 </ul>
 {/section}
