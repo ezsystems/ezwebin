@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.5.2"
+         development="false"
+         install_type="install">
+  <name>ezwebin_banners</name>
+  <summary>Demo content (banners) for the ezwebin extension</summary>
+  <description>This package contains the following nodes :
+Banners - subtree
+</description>
+  <vendor>eZ systems</vendor>
+  <type value="contentobject" />
+  <ezpublish>
+    <version>3.8.4</version>
+    <named-version>3.8</named-version>
+  </ezpublish>
+  <maintainers>
+    <maintainer>
+      <name>Administrator User</name>
+      <email>nospam@ez.no</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <packaging>
+    <timestamp>1159989540</timestamp>
+    <host>www.ezpublish.no</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain"
+              name="LICENCE" />
+  </documents>
+  <changelog>
+    <entry timestamp="1159989540"
+           person="Administrator User"
+           email="nospam@ez.no"
+           release="1">
+      <change>Creation of package.</change>
+    </entry>
+  </changelog>
+  <simple-files>
+    <simple-file key="65af9ec2b290954c4a1a49531b843c15"
+                 original-path="var/storage/images/media/banners/happy_exotic_woman/1341-2-eng-GB/happy_exotic_woman.jpg"
+                 package-path="simplefiles/38e8791e.jpg" />
+    <simple-file key="04299c42c63f788f5833b3ea03694edd"
+                 original-path="var/storage/images/media/banners/happy_woman/1351-1-eng-GB/happy_woman.jpg"
+                 package-path="simplefiles/062f27ba.jpg" />
+    <simple-file key="89b4f28fb33be8c7468a9a2314e8bb9b"
+                 original-path="var/storage/images/media/banners/hummingbird/1355-1-eng-GB/hummingbird.jpg"
+                 package-path="simplefiles/f2a028e6.jpg" />
+    <simple-file key="574f9ae6ce92b478447273e43cd67650"
+                 original-path="var/storage/images/media/banners/woman_with_hat/1359-1-eng-GB/woman_with_hat.jpg"
+                 package-path="simplefiles/0541dc67.jpg" />
+    <simple-file key="e3d83d9fbbc5345f4cfac5b109e363f0"
+                 original-path="var/storage/images/media/banners/yellow_notebooks/1363-1-eng-GB/yellow_notebooks.jpg"
+                 package-path="simplefiles/e0e6eac1.jpg" />
+    <simple-file key="ba23eb15396716f9f0e95c882d473bdc"
+                 original-path="var/storage/images/media/banners/green_apple/1367-1-eng-GB/green_apple.jpg"
+                 package-path="simplefiles/159f1ec3.jpg" />
+    <simple-file key="fd4154aec6ddf0ca6965ac90014ae43e"
+                 original-path="var/storage/images/media/banners/green_grass/1371-1-eng-GB/green_grass.jpg"
+                 package-path="simplefiles/02d09f34.jpg" />
+    <simple-file key="50a6404d4b939337536bd40c178be032"
+                 original-path="var/storage/images/media/banners/yellow_oranges/1375-1-eng-GB/yellow_oranges.jpg"
+                 package-path="simplefiles/c3e6482e.jpg" />
+    <simple-file key="780f89d0402de20e1374d6cac234f36b"
+                 original-path="var/storage/images/media/banners/autumn_leaves/1379-1-eng-GB/autumn_leaves.jpg"
+                 package-path="simplefiles/d6c4c263.jpg" />
+    <simple-file key="835516ab69010b97b379431b68859a32"
+                 original-path="var/storage/images/media/banners/corporate_banner/1562-1-eng-GB/corporate_banner.jpg"
+                 package-path="simplefiles/6ddf7c02.jpg" />
+    <simple-file key="b04a08ac2f163c9c9860ed9fa848cf0d"
+                 original-path="var/storage/images/media/banners/partner_banner/1566-1-eng-GB/partner_banner.jpg"
+                 package-path="simplefiles/78ad1268.jpg" />
+  </simple-files>
+  <version>
+    <number>1.1</number>
+    <release>1</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides />
+    <requires />
+    <obsoletes />
+    <conflicts />
+  </dependencies>
+  <install>
+    <item type="ezcontentobject"
+          filename="contentobjects"
+          sub-directory="ezcontentobject" />
+  </install>
+  <uninstall>
+    <item type="ezcontentobject"
+          filename="contentobjects"
+          sub-directory="ezcontentobject" />
+  </uninstall>
+</package>
