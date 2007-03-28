@@ -83,11 +83,11 @@
     </message>
     <message>
         <source>Thank you for your feedback.</source>
-        <translation>Obrigada por sua resposta.</translation>
+        <translation>Agradecemos o seu feedback.</translation>
     </message>
     <message>
         <source>You have already submitted data to this form. The previously submitted data was the following.</source>
-        <translation type="obsolete">Você ja submeteu este dado neste formulário. Os dados submetidos anteriormente foram os seguintes.</translation>
+        <translation type="obsolete">Você já submeteu dados neste formulário. Os dados submetidos anteriormente foram os seguintes.</translation>
     </message>
     <message>
         <source>Return to site</source>
@@ -133,22 +133,22 @@
     <name>design/ezwebin/collectedinfomail/feedback</name>
     <message>
         <source>Feedback from %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Feedback de %1</translation>
     </message>
     <message>
         <source>The following feedback was collected</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">O seguinte feedback foi colectado</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfomail/form</name>
     <message>
         <source>Collected information from %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Informação colectada de %1</translation>
     </message>
     <message>
         <source>The following information was collected</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">A seguinte informação foi colectada</translation>
     </message>
 </context>
 <context>
@@ -167,7 +167,7 @@
     </message>
     <message>
         <source>Search with at least one of the words</source>
-        <translation>Buscar com pelo menos uma das palavras</translation>
+        <translation>Buscar com ao menos uma das palavras</translation>
     </message>
     <message>
         <source>Published</source>
@@ -245,11 +245,11 @@
     </message>
     <message>
         <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the &quot;Select&quot; button.</source>
-        <translation>Para selecionar objetos, escolha o botão rádio apropriado ou caixa(s) de verificacão e clique no botão &quot;Selecionar&quot;.</translation>
+        <translation>Para selecionar objetos, escolha o botão rádio apropriado ou caixa(s) de verificação e clique no botão &quot;Selecionar&quot;.</translation>
     </message>
     <message>
         <source>To select an object that is a child of one of the displayed objects, click the object name and you will get a list of the children of the object.</source>
-        <translation type="obsolete">Para selecionar um objeto que é filho de um dos objetos mostrados, clique no nome do objeto e você obterá uma lista dos filhos deste objeto.</translation>
+        <translation type="obsolete">Para selecionar um objeto que é filho de um dos objetos mostrados, clique no nome do objeto e você obterá uma lista dos filhos deste.</translation>
     </message>
     <message>
         <source>Back</source>
@@ -378,7 +378,7 @@
     </message>
     <message>
         <source>Deselect all</source>
-        <translation>Não selecionar tudo</translation>
+        <translation>Desmarcar tudo</translation>
     </message>
     <message>
         <source>My drafts</source>
@@ -392,7 +392,7 @@
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
         <translation>Estes são os objetos que você está trabalhando atualmente. Os rascunhos pertencem à você e só podem ser vistos por você.(new line)
-(sp)(sp)(sp)(sp)(sp)(sp) Você pode ou editar os rascunhos ou removê-los se você não precisa mais deles.</translation>
+(sp)(sp)(sp)(sp)(sp)(sp) Você pode ou editar os rascunhos ou removê-los se não precisa mais deles.</translation>
     </message>
     <message>
         <source>Name</source>
@@ -506,7 +506,7 @@
     </message>
     <message>
         <source>information collector</source>
-        <translation type="obsolete">Colector de informação</translation>
+        <translation type="obsolete">colector de informação</translation>
     </message>
     <message>
         <source>Not translatable</source>
@@ -525,20 +525,33 @@
     <name>design/ezwebin/content/edit_draft</name>
     <message>
         <source>The currently published version is %version and was published at %time.</source>
-        <translation type="unfinished"></translation>
+        <translation>A versão atualmente publicada é %version e foi publicada às %time.</translation>
     </message>
     <message>
         <source>The last modification was done at %modified.</source>
-        <translation type="unfinished"></translation>
+        <translation>A última modificacão foi feita em %modified.</translation>
     </message>
     <message>
         <source>The object is owned by %owner.</source>
-        <translation type="unfinished"></translation>
+        <translation>O objeto pertence à %owner.</translation>
+    </message>
+    <message>
+        <source>This object is already being edited by someone else including you.
+    You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="obsolete">Este objeto já está sendo editado por outra pessoa, incluindo você.(new line)
+(sp)(sp)(sp)(sp)Você pode continuar editando um dos rascunhos ou pode criar um novo.</translation>
     </message>
     <message>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation>O objeto já está sendo editado por você.(new line)
+(sp)(sp)(sp)(sp)(sp)(sp)(sp)(sp)Você pode ou continuar editando um dos rascunhos ou pode criar um novo.</translation>
+    </message>
+    <message>
+        <source>This object is already being edited by someone else.
+        You should either contact the person about the draft or create a new draft for personal editing.</source>
+        <translation type="obsolete">Este objeto já está sendo editado por outra pessoa.(new line)
+(sp)(sp)(sp)(sp)(sp)(sp)(sp)(sp)Você deve contatar a pessoa sobre o rascunho ou criar um novo para edição pessoal.</translation>
     </message>
     <message>
         <source>Current drafts</source>
@@ -558,7 +571,7 @@
     </message>
     <message>
         <source>Created</source>
-        <translation>Criado</translation>
+        <translation>Criado por</translation>
     </message>
     <message>
         <source>Last modified</source>
@@ -590,12 +603,36 @@
         <translation>Idiomas existentes</translation>
     </message>
     <message>
+        <source>Select the language you want to use when editing the object</source>
+        <translation type="obsolete">Selecione o idioma que você quer utilizar quando editar o objeto</translation>
+    </message>
+    <message>
         <source>New languages</source>
         <translation>Novos idiomas</translation>
     </message>
     <message>
+        <source>Select the language you want to add to the object</source>
+        <translation type="obsolete">Selecione o idioma que você deseja adicionar ao objeto</translation>
+    </message>
+    <message>
+        <source>Select the language the added translation will be based on</source>
+        <translation type="obsolete">Selecione o idioma no qual a tradução adicionada será baseada</translation>
+    </message>
+    <message>
+        <source>use an empty, untranslated draft</source>
+        <translation type="obsolete">use um rascunho vazio, não traduzido</translation>
+    </message>
+    <message>
+        <source>You do not have sufficient permissions to create a translation in another language.</source>
+        <translation type="obsolete">Você não tem permissões suficientes para criar uma tradução em outro idioma.</translation>
+    </message>
+    <message>
+        <source>However you can select one of the following languages for editing</source>
+        <translation type="obsolete">No entanto você pode selecionar um dos seguintes idiomas para edição</translation>
+    </message>
+    <message>
         <source>You do not have permission to edit the object in any available languages.</source>
-        <translation type="unfinished"></translation>
+        <translation>Você não tem permissão para editar o objeto em nenhum dos idiomas disponíveis.</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -634,23 +671,39 @@
     <name>design/ezwebin/content/history</name>
     <message>
         <source>Version not a draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta versão não é rascunho</translation>
+    </message>
+    <message>
+        <source>Version %1 is not available for editing anymore, only drafts can be edited.</source>
+        <translation type="obsolete">A versão %1 não está mais disponível para edição, somente rascunhos podem ser editados.</translation>
+    </message>
+    <message>
+        <source>To edit this version create a copy of it.</source>
+        <translation type="obsolete">Para editar esta versão, crie uma cópia desta.</translation>
     </message>
     <message>
         <source>Version not yours</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta versão não é sua</translation>
+    </message>
+    <message>
+        <source>Version %1 was not created by you, only your own drafts can be edited.</source>
+        <translation type="obsolete">A versão %1 não foi criada por você, somente seus próprios rascunhos podem ser editados.</translation>
     </message>
     <message>
         <source>Unable to create new version</source>
-        <translation type="unfinished"></translation>
+        <translation>Não é possível criar nova versão</translation>
     </message>
     <message>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Limite do histórico de versões foi excedido e a versão não arquivada pode ser removida pelo sistema.</translation>
+    </message>
+    <message>
+        <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
+        <translation type="obsolete">Você pode modificar as configurações do seu histórico de versão em content.ini, remover rascunhos de versões ou editar rascunhos atuais.</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="unfinished">Versões para &lt;%object_name&gt; [%version_count]</translation>
+        <translation>Versões para &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
@@ -674,11 +727,15 @@
     </message>
     <message>
         <source>Select version #%version_number for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecionar versão #%version_number para remoção.</translation>
+    </message>
+    <message>
+        <source>Version #%version_number can not be removed because it is either the published version of the object or because you do not have permissions to remove it.</source>
+        <translation type="obsolete">A versão #%version_number não pode ser removida porque é a versão publicada do objeto ou porque você não tem permissões para removê-la.</translation>
     </message>
     <message>
         <source>View the contents of version #%version_number. Translation: %translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ver os conteúdos da versão #%version_number. Tradução: %translation.</translation>
     </message>
     <message>
         <source>Draft</source>
@@ -706,15 +763,23 @@
     </message>
     <message>
         <source>Create a copy of version #%version_number.</source>
-        <translation type="unfinished"></translation>
+        <translation>Criar uma cópia da versão #%version_number. </translation>
+    </message>
+    <message>
+        <source>You can not make copies of versions because you do not have permissions to edit the object.</source>
+        <translation type="obsolete">Você não pode fazer cópias das versões porque você não tem permissão para editar o objeto.</translation>
     </message>
     <message>
         <source>Edit the contents of version #%version_number.</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar os conteúdos da versão #%version_number.</translation>
+    </message>
+    <message>
+        <source>You can not edit the contents of version #%version_number either because it is not a draft or because you do not have permissions to edit the object.</source>
+        <translation type="obsolete">Você não pode editar os conteúdos da versão #%version_number porque não é rascunho ou porque você não tem permissões para editar o objeto.</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation type="unfinished">Este objeto não tem nenhuma versão.</translation>
+        <translation>Este objeto não tem nenhuma versão.</translation>
     </message>
     <message>
         <source>Remove selected</source>
@@ -722,7 +787,7 @@
     </message>
     <message>
         <source>Remove the selected versions from the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Remover as versões selecionadas do objeto.</translation>
     </message>
     <message>
         <source>Show differences</source>
@@ -734,7 +799,7 @@
     </message>
     <message>
         <source>Published version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versão publicada</translation>
     </message>
     <message>
         <source>Translations</source>
@@ -742,15 +807,15 @@
     </message>
     <message>
         <source>New drafts [%newerDraftCount]</source>
-        <translation type="unfinished"></translation>
+        <translation>Novos rascunhos [%newerDraftCount]</translation>
     </message>
     <message>
         <source>This object does not have any drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Este objeto não tem nenhum rascunho.</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="unfinished">Diferenças entre as versões %oldVersion e %newVersion</translation>
+        <translation>Diferenças entre as versões %oldVersion e %newVersion</translation>
     </message>
     <message>
         <source>Old version</source>
@@ -770,7 +835,15 @@
     </message>
     <message>
         <source>Back to history</source>
-        <translation type="unfinished"></translation>
+        <translation>Voltar ao histórico</translation>
+    </message>
+    <message>
+        <source>Edited language</source>
+        <translation>Idioma editado</translation>
+    </message>
+    <message>
+        <source>There is no need to do a copies of untouched drafts.</source>
+        <translation>Não há necessidade para fazer cópias dos rascunhos não tocados.</translation>
     </message>
     <message>
         <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
@@ -793,15 +866,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Edited language</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>There is no need to do a copies of untouched drafts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -837,19 +902,39 @@
     <message>
         <source>For more options try the %1Advanced search%2</source>
         <comment>The parameters are link start and end tags.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Para mais opções tente %1Advanced search%2</translation>
+    </message>
+    <message>
+        <source>The following words were excluded from the search</source>
+        <translation type="obsolete">As seguintes palavras foram excluídas da busca</translation>
+    </message>
+    <message>
+        <source>No results were found when searching for &quot;%1&quot;</source>
+        <translation type="obsolete">Nenhum resultado foi encontrado ao buscar por &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Search tips</source>
-        <translation type="unfinished"></translation>
+        <translation>Dicas de busca</translation>
     </message>
     <message>
         <source>Check spelling of keywords.</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificar ortografia das palavras-chave.</translation>
+    </message>
+    <message>
+        <source>Try changing some keywords eg. car instead of cars.</source>
+        <translation type="obsolete">Tente modificar algumas palavras-chave. Ex: carro ao invés de carros.</translation>
+    </message>
+    <message>
+        <source>Try more general keywords.</source>
+        <translation type="obsolete">Tente palavras-chave mais gerais.</translation>
+    </message>
+    <message>
+        <source>Fewer keywords gives more results, try reducing keywords until you get a result.</source>
+        <translation type="obsolete">Menos palavras-chave trás mais resultados. Tente reduzir as palavras-chave até você chegar a um resultado.</translation>
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation type="unfinished">A buscar por &quot;%1&quot; retornou %2 resultados</translation>
+        <translation>A buscar por &quot;%1&quot; retornou %2 resultados</translation>
     </message>
     <message>
         <source>The following words were excluded from the search:</source>
@@ -912,7 +997,7 @@
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Comentário</translation>
     </message>
     <message>
         <source>Send</source>
@@ -925,6 +1010,42 @@
 </context>
 <context>
     <name>design/ezwebin/content/versions</name>
+    <message>
+        <source>Versions for: %1</source>
+        <translation type="obsolete">Versões para: %1</translation>
+    </message>
+    <message>
+        <source>Version not a draft</source>
+        <translation type="obsolete">Esta versão não é rascunho</translation>
+    </message>
+    <message>
+        <source>Version %1 is not available for editing any more, only drafts can be edited.</source>
+        <translation type="obsolete">A versão %1 não está mais disponível para edição, somente rascunhos podem ser editados.</translation>
+    </message>
+    <message>
+        <source>To edit this version create a copy of it.</source>
+        <translation type="obsolete">Para editar esta versão, crie uma cópia desta.</translation>
+    </message>
+    <message>
+        <source>Version not yours</source>
+        <translation type="obsolete">Esta versão não é sua</translation>
+    </message>
+    <message>
+        <source>Version %1 was not created by you, only your own drafts can be edited.</source>
+        <translation type="obsolete">A versão %1 não foi criada por você, somente seus próprios rascunhos podem ser editados.</translation>
+    </message>
+    <message>
+        <source>Unable to create new version</source>
+        <translation type="obsolete">Não é possível criar nova versão</translation>
+    </message>
+    <message>
+        <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
+        <translation type="obsolete">Limite do histórico de versão foi excedido e a versão não arquivada pode ser removida pelo sistema.</translation>
+    </message>
+    <message>
+        <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
+        <translation type="obsolete">Você pode modificar as configurações do seu histórico de versão em content.ini, remover rascunhos de versões ou editar rascunhos atuais.</translation>
+    </message>
     <message>
         <source>Version</source>
         <translation type="obsolete">Versão</translation>
@@ -965,8 +1086,20 @@
         <translation>Editar</translation>
     </message>
     <message>
+        <source>Edit the draft that is being displayed.</source>
+        <translation type="obsolete">Editar o rascunho que está sendo mostrado.</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publicar</translation>
+    </message>
+    <message>
+        <source>Publish the draft that is being displayed.</source>
+        <translation type="obsolete">Publilcar o rascunho que está sendo mostrado.</translation>
+    </message>
+    <message>
+        <source>This version is not a draft and thus it can not be edited.</source>
+        <translation type="obsolete">Esta versão não é um rascunho e então não pode ser editada.</translation>
     </message>
     <message>
         <source>Manage versions</source>
@@ -1051,30 +1184,34 @@
     <name>design/ezwebin/ezinfo/about</name>
     <message>
         <source>eZ Publish information: %version</source>
-        <translation type="unfinished"></translation>
+        <translation>Informações sobre o eZ Publish: %version</translation>
     </message>
     <message>
-        <source>What is eZ Publish?</source>
-        <translation type="unfinished"></translation>
+        <source>What is eZ publish?</source>
+        <translation type="obsolete">O que é eZ Publish?</translation>
     </message>
     <message>
         <source>Licence</source>
-        <translation type="unfinished"></translation>
+        <translation>Licença</translation>
     </message>
     <message>
         <source>Contributors</source>
-        <translation type="unfinished"></translation>
+        <translation>Contribuidores</translation>
     </message>
     <message>
         <source>Copyright Notice</source>
-        <translation type="unfinished"></translation>
+        <translation>Copyright Notice</translation>
     </message>
     <message>
         <source>Third-Party Software</source>
-        <translation type="unfinished"></translation>
+        <translation>Software de terceira parte</translation>
     </message>
     <message>
         <source>Extensions</source>
+        <translation>Extensões</translation>
+    </message>
+    <message>
+        <source>What is eZ Publish?</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1133,15 +1270,19 @@
 <context>
     <name>design/ezwebin/full/documentation_page</name>
     <message>
-        <source>Table of contents</source>
-        <translation type="unfinished"></translation>
+        <source>Table of Contents</source>
+        <translation type="obsolete">Tabela de conteúdos</translation>
     </message>
     <message>
         <source>Created:</source>
-        <translation type="unfinished"></translation>
+        <translation>Criado:</translation>
     </message>
     <message>
         <source>Modified:</source>
+        <translation>Modificado:</translation>
+    </message>
+    <message>
+        <source>Table of contents</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1409,13 +1550,6 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/horizontallylistedsubitems/event</name>
-    <message>
-        <source>Category</source>
-        <translation type="obsolete">Categoria</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/line/event</name>
     <message>
         <source>Category</source>
@@ -1444,7 +1578,7 @@
     </message>
     <message>
         <source>Number of Posts</source>
-        <translation type="obsolete">Número de posts</translation>
+        <translation type="obsolete">Número de Posts</translation>
     </message>
     <message>
         <source>Last reply</source>
@@ -1521,23 +1655,27 @@
     <name>design/ezwebin/node/removeobject</name>
     <message>
         <source>Are you sure you want to remove these items?</source>
-        <translation type="unfinished"></translation>
+        <translation>Você tem certeza que deseja remover estes itens?</translation>
     </message>
     <message>
         <source>%nodename and its %childcount children. %additionalwarning</source>
-        <translation type="unfinished"></translation>
+        <translation>%nodename e seu filho %childcount. %additionalwarning</translation>
     </message>
     <message>
         <source>%nodename %additionalwarning</source>
-        <translation type="unfinished"></translation>
+        <translation>%nodename %additionalwarning</translation>
     </message>
     <message>
         <source>Move to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Mover para lixeira</translation>
     </message>
     <message>
         <source>Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota</translation>
+    </message>
+    <message>
+        <source>If %trashname is checked you will find the removed items in the trash afterwards.</source>
+        <translation type="obsolete">Se %trashname está marcado você encontrará os itens removidos na lixeira depois.</translation>
     </message>
     <message>
         <source>Confirm</source>
@@ -1556,15 +1694,15 @@
     <name>design/ezwebin/notification/addingresult</name>
     <message>
         <source>Add to my notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar às minhas notificações</translation>
     </message>
     <message>
         <source>Notification for node &lt;%node_name&gt; already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>A notificação para o nó &lt;%node_name&gt; já existe.</translation>
     </message>
     <message>
         <source>Notification for node &lt;%node_name&gt; was added successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>A notificação para o nó &lt;%node_name&gt; foi adicionada com sucesso.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -1575,7 +1713,7 @@
     <name>design/ezwebin/notification/settings</name>
     <message>
         <source>Notification settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Configurações de notificação</translation>
     </message>
     <message>
         <source>Store</source>
@@ -1640,7 +1778,7 @@
     <name>design/ezwebin/settings/edit</name>
     <message>
         <source>Node notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Notificacão do nó</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1667,55 +1805,67 @@
     <name>design/ezwebin/shop/basket</name>
     <message>
         <source>Shopping basket</source>
-        <translation type="unfinished"></translation>
+        <translation>Cesta de compras</translation>
     </message>
     <message>
         <source>Account information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informações da conta</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation type="unfinished"></translation>
+        <translation>Confirmar encomenda</translation>
     </message>
     <message>
         <source>Basket</source>
         <translation>Cesta</translation>
     </message>
     <message>
+        <source>The following items were removed from your basket, because the products were changed</source>
+        <translation type="obsolete">Os seguintes itens foram removidos de sua cesta, porque os produtos foram modificados</translation>
+    </message>
+    <message>
         <source>VAT is unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>ICM é desconhecida</translation>
     </message>
     <message>
         <source>VAT percentage is not yet known for some of the items being purchased.</source>
-        <translation type="unfinished"></translation>
+        <translation>A percentagem de ICM ainda não é conhecida por algum dos itens sendo comprados.</translation>
     </message>
     <message>
         <source>This probably means that some information about you is not yet available and will be obtained during checkout.</source>
-        <translation type="unfinished"></translation>
+        <translation>Isto provavelmente significa que alguma informação sobre você ainda não está disponível e será obtida durante o checkout.</translation>
     </message>
     <message>
         <source>Attempted to add object without price to basket.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tentativa de adicionar objeto sem preço na cesta.</translation>
     </message>
     <message>
         <source>Your payment was aborted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seu pagamento foi abortado.</translation>
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Contar</translation>
     </message>
     <message>
         <source>VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>ICM</translation>
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Preço incl. ICM</translation>
     </message>
     <message>
         <source>Discount</source>
-        <translation type="unfinished"></translation>
+        <translation>Desconto</translation>
+    </message>
+    <message>
+        <source>Total Price ex. VAT</source>
+        <translation type="obsolete">Preço total excl ICM</translation>
+    </message>
+    <message>
+        <source>Total Price inc. VAT</source>
+        <translation type="obsolete">Preço total incl ICM</translation>
     </message>
     <message>
         <source>unknown</source>
@@ -1731,23 +1881,35 @@
     </message>
     <message>
         <source>Selected options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opções selecionadas</translation>
+    </message>
+    <message>
+        <source>Subtotal Ex. VAT</source>
+        <translation type="obsolete">Subtotal Excl. ICM</translation>
+    </message>
+    <message>
+        <source>Subtotal Inc. VAT</source>
+        <translation type="obsolete">Subtotal Incl. ICM</translation>
     </message>
     <message>
         <source>Shipping</source>
-        <translation type="unfinished"></translation>
+        <translation>Frete</translation>
     </message>
     <message>
         <source>Order total</source>
-        <translation type="unfinished"></translation>
+        <translation>Total da encomenda</translation>
     </message>
     <message>
         <source>Continue shopping</source>
-        <translation type="unfinished"></translation>
+        <translation>Continuar comprando</translation>
     </message>
     <message>
         <source>Checkout</source>
-        <translation type="unfinished"></translation>
+        <translation>Checkout</translation>
+    </message>
+    <message>
+        <source>You have no products in your basket</source>
+        <translation type="obsolete">Você não tem nenhum produto em sua cesta</translation>
     </message>
     <message>
         <source>The following items were removed from your basket because the products were changed.</source>
@@ -1782,59 +1944,67 @@
     <name>design/ezwebin/shop/confirmorder</name>
     <message>
         <source>Shopping basket</source>
-        <translation type="unfinished"></translation>
+        <translation>Cesta de compras</translation>
     </message>
     <message>
         <source>Account information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informações da conta</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation type="unfinished"></translation>
+        <translation>Confirmar encomenda</translation>
     </message>
     <message>
         <source>Product items</source>
-        <translation type="unfinished"></translation>
+        <translation>Itens de produtos</translation>
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Contar</translation>
     </message>
     <message>
         <source>VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>ICM</translation>
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Preço incl ICM</translation>
     </message>
     <message>
         <source>Discount</source>
-        <translation type="unfinished"></translation>
+        <translation>Desconto</translation>
+    </message>
+    <message>
+        <source>Total Price ex. VAT</source>
+        <translation type="obsolete">Preço total excl ICM</translation>
+    </message>
+    <message>
+        <source>Total Price inc. VAT</source>
+        <translation type="obsolete">Preço total incl ICM</translation>
     </message>
     <message>
         <source>Selected options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opções selecionadas</translation>
     </message>
     <message>
         <source>Order summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Resumo da encomenda</translation>
     </message>
     <message>
         <source>Subtotal of items</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtotal dos itens</translation>
     </message>
     <message>
         <source>Order total</source>
-        <translation type="unfinished"></translation>
+        <translation>Total da encomenda</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Cancelar</translation>
+        <translation>Cancelar</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation type="unfinished">Confirmar</translation>
+        <translation>Confirmar</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
@@ -1848,36 +2018,40 @@
 <context>
     <name>design/ezwebin/shop/customerorderview</name>
     <message>
+        <source>Customer Information</source>
+        <translation type="obsolete">Informações do cliente</translation>
+    </message>
+    <message>
         <source>Order list</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista de encomendas</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Total excl ICM</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Total incl. ICM</translation>
     </message>
     <message>
         <source>Purchase list</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista de compras</translation>
     </message>
     <message>
         <source>Product</source>
-        <translation type="unfinished"></translation>
+        <translation>Produto</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Quantidade</translation>
     </message>
     <message>
         <source>Customer information</source>
@@ -1888,7 +2062,7 @@
     <name>design/ezwebin/shop/orderlist</name>
     <message>
         <source>Order list</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lista de encomendas</translation>
     </message>
     <message>
         <source>Sort result by</source>
@@ -1928,11 +2102,11 @@
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ID</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Data</translation>
     </message>
     <message>
         <source>Customer</source>
@@ -1940,11 +2114,11 @@
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Total excl ICM</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Total incl. ICM</translation>
     </message>
     <message>
         <source>The order list is empty</source>
@@ -1959,51 +2133,59 @@
     <name>design/ezwebin/shop/orderview</name>
     <message>
         <source>Order %order_id [%order_status]</source>
-        <translation type="unfinished"></translation>
+        <translation>Encomenda %order_id [%order_status]</translation>
     </message>
     <message>
         <source>Product items</source>
-        <translation type="unfinished"></translation>
+        <translation>Itens de produtos</translation>
     </message>
     <message>
         <source>Product</source>
-        <translation type="unfinished"></translation>
+        <translation>Produto</translation>
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Contar</translation>
     </message>
     <message>
         <source>VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>ICM</translation>
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Preço incl. ICM</translation>
     </message>
     <message>
         <source>Discount</source>
-        <translation type="unfinished"></translation>
+        <translation>Desconto</translation>
+    </message>
+    <message>
+        <source>Total Price ex. VAT</source>
+        <translation type="obsolete">Preço total excl. ICM</translation>
+    </message>
+    <message>
+        <source>Total Price inc. VAT</source>
+        <translation type="obsolete">Preço total incl ICM</translation>
     </message>
     <message>
         <source>Order summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Resumo da encomenda</translation>
     </message>
     <message>
         <source>Summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Resumo</translation>
     </message>
     <message>
         <source>Subtotal of items</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtotal dos itens</translation>
     </message>
     <message>
         <source>Order total</source>
-        <translation type="unfinished"></translation>
+        <translation>Total da encomenda</translation>
     </message>
     <message>
         <source>Order history</source>
-        <translation type="unfinished"></translation>
+        <translation>Histórico da encomenda</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
@@ -2018,67 +2200,75 @@
     <name>design/ezwebin/shop/userregister</name>
     <message>
         <source>Shopping basket</source>
-        <translation type="unfinished"></translation>
+        <translation>Cesta de compras</translation>
     </message>
     <message>
         <source>Account information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informações da conta</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation type="unfinished"></translation>
+        <translation>Confirmar encomenda</translation>
     </message>
     <message>
         <source>Your account information</source>
-        <translation type="unfinished"></translation>
+        <translation>Suas informações da conta</translation>
+    </message>
+    <message>
+        <source>Input did not validate, all fields marked with * must be filled in</source>
+        <translation type="obsolete">Informação não aceita, todos os campos marcados com * devem ser preenchidos</translation>
     </message>
     <message>
         <source>First name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>Last name</source>
-        <translation type="unfinished"></translation>
+        <translation>Sobrenome</translation>
+    </message>
+    <message>
+        <source>E-mail</source>
+        <translation type="obsolete">E-mail</translation>
     </message>
     <message>
         <source>Company</source>
-        <translation type="unfinished"></translation>
+        <translation>Empresa</translation>
     </message>
     <message>
         <source>Street</source>
-        <translation type="unfinished"></translation>
+        <translation>Rua</translation>
     </message>
     <message>
         <source>Zip</source>
-        <translation type="unfinished"></translation>
+        <translation>Cep</translation>
     </message>
     <message>
         <source>Place</source>
-        <translation type="unfinished"></translation>
+        <translation>Local</translation>
     </message>
     <message>
         <source>State</source>
-        <translation type="unfinished"></translation>
+        <translation>Estado</translation>
     </message>
     <message>
         <source>Country</source>
-        <translation type="unfinished"></translation>
+        <translation>País</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Comentário</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Cancelar</translation>
+        <translation>Cancelar</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Continuar</translation>
     </message>
     <message>
         <source>All fields marked with * must be filled in.</source>
-        <translation type="unfinished"></translation>
+        <translation>Todos os campos marcados com * devem ser preenchidos.</translation>
     </message>
     <message>
         <source>Input did not validate. All fields marked with * must be filled in.</source>
@@ -2093,65 +2283,65 @@
     <name>design/ezwebin/shop/wishlist</name>
     <message>
         <source>Wish list</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista de preferidos</translation>
     </message>
     <message>
         <source>Product</source>
-        <translation type="unfinished"></translation>
+        <translation>Produto</translation>
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Contar</translation>
     </message>
     <message>
         <source>Selected options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opções selecionadas</translation>
     </message>
     <message>
         <source>Store</source>
-        <translation type="unfinished">Armazenar</translation>
+        <translation>Armazenar</translation>
     </message>
     <message>
         <source>Remove items</source>
-        <translation type="unfinished"></translation>
+        <translation>Remover itens</translation>
     </message>
     <message>
         <source>Empty wish list</source>
-        <translation type="unfinished"></translation>
+        <translation>Esvaziar lista de preferidos</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/simplified_treemenu/show_simplified_menu</name>
     <message>
         <source>Fold/Unfold</source>
-        <translation type="unfinished"></translation>
+        <translation>Dobrar/Desdobrar</translation>
     </message>
     <message>
         <source>Node ID: %node_id Visibility: %visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>ID do nó %node_id Visibilidade %visibility</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/activate</name>
     <message>
         <source>Activate account</source>
-        <translation type="unfinished"></translation>
+        <translation>Conta ativa</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sua conta está ativa agora.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Desculpa, a chave submetida não é válida. A conta não foi ativada.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sua conta já está ativa.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -2178,11 +2368,11 @@
     </message>
     <message>
         <source>My orders</source>
-        <translation>Meus pedidos</translation>
+        <translation>Minhas encomendas</translation>
     </message>
     <message>
         <source>My notification settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Minhas configurações de notificação</translation>
     </message>
     <message>
         <source>My wish list</source>
@@ -2204,16 +2394,28 @@
 <context>
     <name>design/ezwebin/user/forgotpassword</name>
     <message>
+        <source>A mail has been sent to the following e-mail address: %1. This e-mail contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
+        <translation type="obsolete">Um e-mail foi enviado para os seguintes endereços de e-mail: %1. Este e-mail contém um link que você precisa clicar para que possamos confirmar se o usuário correto está recebendo uma nova senha.</translation>
+    </message>
+    <message>
+        <source>There is no registered user with that e-mail address.</source>
+        <translation type="obsolete">Não existem usuário registrado com este endereço de e-mail.</translation>
+    </message>
+    <message>
         <source>Password was successfully generated and sent to: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>A senha foi gerada com sucesso e enviada para: %1</translation>
     </message>
     <message>
         <source>The key is invalid or has been used. </source>
-        <translation type="unfinished"></translation>
+        <translation>A chave é inválida ou está em uso.</translation>
     </message>
     <message>
         <source>Have you forgotten your password?</source>
-        <translation type="unfinished"></translation>
+        <translation>Você esqueceu sua senha?</translation>
+    </message>
+    <message>
+        <source>If you have forgotten your password we can generate a new one for you. All you need to do is to enter your e-mail address and we will create a new password for you.</source>
+        <translation type="obsolete">Se você esqueceu sua senha nós podemos gerar uma nova. Você só precisa escrever seu endereço de e-mail e nós criaremos uma nova senha para você.</translation>
     </message>
     <message>
         <source>E-mail</source>
@@ -2248,19 +2450,19 @@
     </message>
     <message>
         <source>Could not login</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível realizar o login</translation>
     </message>
     <message>
         <source>A valid username and password is required to login.</source>
-        <translation type="unfinished"></translation>
+        <translation>É obrigatório ter nome de usuário e senha válidos para realizar o login.</translation>
     </message>
     <message>
         <source>Access not allowed</source>
-        <translation type="unfinished"></translation>
+        <translation>Acesso não permitido</translation>
     </message>
     <message>
         <source>You are not allowed to access %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Você não tem permissão para acessar %1.</translation>
     </message>
     <message>
         <source>Username</source>
@@ -2272,8 +2474,12 @@
         <translation>Senha</translation>
     </message>
     <message>
+        <source>Log in to the administration interface of eZ publish</source>
+        <translation type="obsolete">Acessar a interface administrativa do eZ Publish</translation>
+    </message>
+    <message>
         <source>Remember me</source>
-        <translation type="unfinished"></translation>
+        <translation>Lembre-me</translation>
     </message>
     <message>
         <source>Login</source>
@@ -2283,11 +2489,11 @@
     <message>
         <source>Sign Up</source>
         <comment>Button</comment>
-        <translation type="obsolete">Sign Up</translation>
+        <translation type="obsolete">Conectar</translation>
     </message>
     <message>
         <source>Forgot your password?</source>
-        <translation>Esqueceu a senha?</translation>
+        <translation>Esqueceu sua senha?</translation>
     </message>
     <message>
         <source>Log in to the eZ Publish Administration Interface</source>
@@ -2307,11 +2513,11 @@
     </message>
     <message>
         <source>Input did not validate</source>
-        <translation type="unfinished"></translation>
+        <translation>A entrada não é válida</translation>
     </message>
     <message>
         <source>Input was stored successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>A entrada foi armazenada com sucesso</translation>
     </message>
     <message>
         <source>Register</source>
@@ -2323,7 +2529,7 @@
     </message>
     <message>
         <source>Unable to register new user</source>
-        <translation type="unfinished"></translation>
+        <translation>Não é possível registrar novo usuário</translation>
     </message>
     <message>
         <source>Back</source>
@@ -2337,8 +2543,16 @@
         <translation>Usuário registrado</translation>
     </message>
     <message>
+        <source>Your account was successfully created. An e-mail will be sent to the specified
+e-mail address. You need to follow the instructions in that mail to activate
+your account.</source>
+        <translation type="obsolete">Sua conta foi criada com sucesso. Um e-mail será enviado para o(new line)
+endereço especificado. Você precisa seguir as instruções naquele e-mail para ativar(new line)
+sua conta.</translation>
+    </message>
+    <message>
         <source>Your account was successfully created.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sua conta foi criada com sucesso.</translation>
     </message>
     <message>
         <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
@@ -2349,22 +2563,22 @@
     <name>design/ezwebin/view/ezbinaryfile</name>
     <message>
         <source>The file could not be found.</source>
-        <translation type="unfinished"></translation>
+        <translation>O arquivo não pôde ser encontrado.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/view/ezprice</name>
     <message>
         <source>Price</source>
-        <translation>Valor</translation>
+        <translation>Preço</translation>
     </message>
     <message>
         <source>Your price</source>
-        <translation type="unfinished"></translation>
+        <translation>Seu preço</translation>
     </message>
     <message>
         <source>You save</source>
-        <translation type="unfinished"></translation>
+        <translation>Você economiza</translation>
     </message>
 </context>
 <context>
@@ -2372,6 +2586,25 @@
     <message>
         <source>Site map</source>
         <translation>Mapa do site</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/edit</name>
+    <message>
+        <source>Feedback from %1</source>
+        <translation type="obsolete">Feedback de %1</translation>
+    </message>
+    <message>
+        <source>The following feedback was collected</source>
+        <translation type="obsolete">O seguinte feedback foi colectado</translation>
+    </message>
+    <message>
+        <source>Collected information from %1</source>
+        <translation type="obsolete">Informação colectada de %1</translation>
+    </message>
+    <message>
+        <source>The following information was collected</source>
+        <translation type="obsolete">A seguinte informação foi colectada</translation>
     </message>
 </context>
 </TS>
