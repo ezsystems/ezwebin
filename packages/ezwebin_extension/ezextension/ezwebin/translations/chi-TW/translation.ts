@@ -1,5 +1,81 @@
 <!DOCTYPE TS><TS>
 <context>
+    <name>design/ezwebin/article/article_index</name>
+    <message>
+        <source>Article index</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/article/comments</name>
+    <message>
+        <source>Comments</source>
+        <translation type="unfinished">註釋</translation>
+    </message>
+    <message>
+        <source>New comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/blog/calendar</name>
+    <message>
+        <source>Previous month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mon</source>
+        <translation type="unfinished">一</translation>
+    </message>
+    <message>
+        <source>Tue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fri</source>
+        <translation type="unfinished">五</translation>
+    </message>
+    <message>
+        <source>Sat</source>
+        <translation type="unfinished">六</translation>
+    </message>
+    <message>
+        <source>Sun</source>
+        <translation type="unfinished">日</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/blog/extra_info</name>
+    <message>
+        <source>Tags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/collectedinfo/form</name>
     <message>
         <source>Form %formname</source>
@@ -11,11 +87,68 @@
     </message>
     <message>
         <source>You have already submitted data to this form. The previously submitted data was the following.</source>
-        <translation>您已經提交資料給此表單。以下是之前提交的資料。</translation>
+        <translation type="obsolete">您已經提交資料給此表單。以下是之前提交的資料。</translation>
     </message>
     <message>
         <source>Return to site</source>
         <translation>回到站台</translation>
+    </message>
+    <message>
+        <source>You have already submitted this form. The data you entered was:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/collectedinfo/poll</name>
+    <message>
+        <source>Poll %pollname</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please log in to vote on this poll.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have already voted for this poll.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Votes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count total votes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back to poll</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/collectedinfomail/feedback</name>
+    <message>
+        <source>Feedback from %1</source>
+        <translation type="unfinished">從 %1 得到的回饋訊息</translation>
+    </message>
+    <message>
+        <source>The following feedback was collected</source>
+        <translation type="unfinished">下列是已收集的回饋訊息</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/collectedinfomail/form</name>
+    <message>
+        <source>Collected information from %1</source>
+        <translation type="unfinished">從 %1 收集的資訊</translation>
+    </message>
+    <message>
+        <source>The following information was collected</source>
+        <translation type="unfinished">下列是已收集的資訊</translation>
     </message>
 </context>
 <context>
@@ -116,7 +249,7 @@
     </message>
     <message>
         <source>To select an object that is a child of one of the displayed objects, click the object name and you will get a list of the children of the object.</source>
-        <translation>要選取顯示物件之一的子物件，就按一下物件名稱，您將取得物件子項目的清單。</translation>
+        <translation type="obsolete">要選取顯示物件之一的子物件，就按一下物件名稱，您將取得物件子項目的清單。</translation>
     </message>
     <message>
         <source>Back</source>
@@ -134,12 +267,16 @@
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
+    <message>
+        <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/browse_mode_list</name>
     <message>
         <source>Invert selection.</source>
-        <translation>反向選擇。</translation>
+        <translation type="obsolete">反向選擇。</translation>
     </message>
     <message>
         <source>Name</source>
@@ -148,6 +285,10 @@
     <message>
         <source>Type</source>
         <translation>型態</translation>
+    </message>
+    <message>
+        <source>Invert selection</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -245,7 +386,7 @@
     </message>
     <message>
         <source>Empty Draft</source>
-        <translation>清空草稿</translation>
+        <translation type="obsolete">清空草稿</translation>
     </message>
     <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
@@ -289,6 +430,10 @@
         <source>You have no drafts</source>
         <translation>您沒有草稿</translation>
     </message>
+    <message>
+        <source>Empty draft</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
@@ -302,7 +447,7 @@
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode.</source>
-        <translation>儲存被編輯的草稿，然後從編輯模式離開。</translation>
+        <translation type="obsolete">儲存被編輯的草稿，然後從編輯模式離開。</translation>
     </message>
     <message>
         <source>Preview</source>
@@ -310,7 +455,7 @@
     </message>
     <message>
         <source>No translation</source>
-        <translation>沒有翻譯</translation>
+        <translation type="obsolete">沒有翻譯</translation>
     </message>
     <message>
         <source>Translate</source>
@@ -318,7 +463,7 @@
     </message>
     <message>
         <source>Edit the current object showing the selected language as a reference.</source>
-        <translation>編輯目前顯示所選語言做為參考的物件。</translation>
+        <translation type="obsolete">編輯目前顯示所選語言做為參考的物件。</translation>
     </message>
     <message>
         <source>Edit %1 - %2</source>
@@ -334,22 +479,46 @@
     </message>
     <message>
         <source>Discard</source>
-        <translation>捨棄</translation>
+        <translation type="obsolete">捨棄</translation>
+    </message>
+    <message>
+        <source>Discard draft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Documentation</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
-        <translation>無法翻譯</translation>
+        <translation type="obsolete">無法翻譯</translation>
     </message>
     <message>
         <source>required</source>
-        <translation>必要的</translation>
+        <translation type="obsolete">必要的</translation>
     </message>
     <message>
         <source>information collector</source>
-        <translation>資訊收集器</translation>
+        <translation type="obsolete">資訊收集器</translation>
+    </message>
+    <message>
+        <source>Not translatable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Information collector</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -369,7 +538,7 @@
     <message>
         <source>This object is already being edited by someone else including you.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>此物件已由其他以及您所編輯過。
+        <translation type="obsolete">此物件已由其他以及您所編輯過。
     您可以繼續編輯您的草稿之一，或是您可以建立新的草稿。</translation>
     </message>
     <message>
@@ -381,7 +550,7 @@
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about the draft or create a new draft for personal editing.</source>
-        <translation>此物件已由其他人所編輯過。
+        <translation type="obsolete">此物件已由其他人所編輯過。
         您應該連絡與草稿相關的人員，或是建立新的草稿以用於個人編輯。</translation>
     </message>
     <message>
@@ -416,6 +585,16 @@
         <source>New draft</source>
         <translation>新增草稿</translation>
     </message>
+    <message>
+        <source>This object is already being edited by yourself and others.
+    You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by someone else.
+        You should either contact the person about their draft or create a new draft for your own use.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_languages</name>
@@ -425,7 +604,7 @@
     </message>
     <message>
         <source>Select the language you want to use when editing the object</source>
-        <translation>選取您要編輯物件時所使用的語言</translation>
+        <translation type="obsolete">選取您要編輯物件時所使用的語言</translation>
     </message>
     <message>
         <source>New languages</source>
@@ -433,23 +612,23 @@
     </message>
     <message>
         <source>Select the language you want to add to the object</source>
-        <translation>選取您要加入到物件的語言</translation>
+        <translation type="obsolete">選取您要加入到物件的語言</translation>
     </message>
     <message>
         <source>Select the language the added translation will be based on</source>
-        <translation>選取被加入的翻譯將使用的語言</translation>
+        <translation type="obsolete">選取被加入的翻譯將使用的語言</translation>
     </message>
     <message>
         <source>use an empty, untranslated draft</source>
-        <translation>使用空的、未翻譯的草稿</translation>
+        <translation type="obsolete">使用空的、未翻譯的草稿</translation>
     </message>
     <message>
         <source>You do not have sufficient permissions to create a translation in another language.</source>
-        <translation>您沒有充分的權限以在其他語言中建立翻譯。</translation>
+        <translation type="obsolete">您沒有充分的權限以在其他語言中建立翻譯。</translation>
     </message>
     <message>
         <source>However you can select one of the following languages for editing</source>
-        <translation>然而您可以選取下列的語言之一用於編輯</translation>
+        <translation type="obsolete">然而您可以選取下列的語言之一用於編輯</translation>
     </message>
     <message>
         <source>You do not have permission to edit the object in any available languages.</source>
@@ -463,6 +642,30 @@
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
+    <message>
+        <source>Select the language you want to use when editing the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select the language you want to add to the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select the language the new translation will be based on.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use an empty, untranslated draft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You do not have permission to create a translation in another language.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>However, you can select one of the following languages for editing.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/history</name>
@@ -472,11 +675,11 @@
     </message>
     <message>
         <source>Version %1 is not available for editing anymore, only drafts can be edited.</source>
-        <translation>版本 %1 不再可用於編輯，只有草稿可以被編輯。</translation>
+        <translation type="obsolete">版本 %1 不再可用於編輯，只有草稿可以被編輯。</translation>
     </message>
     <message>
         <source>To edit this version create a copy of it.</source>
-        <translation>要編輯此版本，就建立它的複本。</translation>
+        <translation type="obsolete">要編輯此版本，就建立它的複本。</translation>
     </message>
     <message>
         <source>Version not yours</source>
@@ -484,7 +687,7 @@
     </message>
     <message>
         <source>Version %1 was not created by you, only your own drafts can be edited.</source>
-        <translation>版本 %1 並非由您所建立，只有您自己的草稿可以被編輯。</translation>
+        <translation type="obsolete">版本 %1 並非由您所建立，只有您自己的草稿可以被編輯。</translation>
     </message>
     <message>
         <source>Unable to create new version</source>
@@ -496,7 +699,7 @@
     </message>
     <message>
         <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation>您可以在 content.ini 中變更您的版本歷史記錄設定值、移除草稿版本或者編輯現有草稿。</translation>
+        <translation type="obsolete">您可以在 content.ini 中變更您的版本歷史記錄設定值、移除草稿版本或者編輯現有草稿。</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
@@ -528,7 +731,7 @@
     </message>
     <message>
         <source>Version #%version_number can not be removed because it is either the published version of the object or because you do not have permissions to remove it.</source>
-        <translation>無法移除版本 #%version_number，因為它是已發布的物件版本，或是因為您沒有權限去移除它。</translation>
+        <translation type="obsolete">無法移除版本 #%version_number，因為它是已發布的物件版本，或是因為您沒有權限去移除它。</translation>
     </message>
     <message>
         <source>View the contents of version #%version_number. Translation: %translation.</source>
@@ -564,7 +767,7 @@
     </message>
     <message>
         <source>You can not make copies of versions because you do not have permissions to edit the object.</source>
-        <translation>您無法製作版本的複本，因為您沒有編輯物件的權限。</translation>
+        <translation type="obsolete">您無法製作版本的複本，因為您沒有編輯物件的權限。</translation>
     </message>
     <message>
         <source>Edit the contents of version #%version_number.</source>
@@ -572,7 +775,7 @@
     </message>
     <message>
         <source>You can not edit the contents of version #%version_number either because it is not a draft or because you do not have permissions to edit the object.</source>
-        <translation>您無法編輯版本 #%version_number 的內容，若非因為它不是草稿，就是因為您沒有編輯物件的權限。</translation>
+        <translation type="obsolete">您無法編輯版本 #%version_number 的內容，若非因為它不是草稿，就是因為您沒有編輯物件的權限。</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
@@ -634,6 +837,61 @@
         <source>Back to history</source>
         <translation>回到歷史記錄</translation>
     </message>
+    <message>
+        <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To edit this version, first create a copy of it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version %1 was not created by you. Only your own drafts can be edited.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can either change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Toggle selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edited language</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no need to do a copies of untouched drafts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/keyword</name>
+    <message>
+        <source>Keyword: %keyword</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">型態</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/search</name>
@@ -648,11 +906,11 @@
     </message>
     <message>
         <source>The following words were excluded from the search</source>
-        <translation>下列的字詞已從搜尋排除</translation>
+        <translation type="obsolete">下列的字詞已從搜尋排除</translation>
     </message>
     <message>
         <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation>搜尋「%1」時找不到任何結果</translation>
+        <translation type="obsolete">搜尋「%1」時找不到任何結果</translation>
     </message>
     <message>
         <source>Search tips</source>
@@ -664,90 +922,161 @@
     </message>
     <message>
         <source>Try changing some keywords eg. car instead of cars.</source>
-        <translation>試著變更某些關鍵字，例如：以 car 代替 cars。</translation>
+        <translation type="obsolete">試著變更某些關鍵字，例如：以 car 代替 cars。</translation>
     </message>
     <message>
         <source>Try more general keywords.</source>
-        <translation>試試多些一般性的關鍵字。</translation>
+        <translation type="obsolete">試試多些一般性的關鍵字。</translation>
     </message>
     <message>
         <source>Fewer keywords gives more results, try reducing keywords until you get a result.</source>
-        <translation>較少的關鍵字得出較多結果，試著減少關鍵字直到您取得一個結果。</translation>
+        <translation type="obsolete">較少的關鍵字得出較多結果，試著減少關鍵字直到您取得一個結果。</translation>
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
         <translation>搜尋「%1」時回傳 %2 項相符</translation>
+    </message>
+    <message>
+        <source>The following words were excluded from the search:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No results were found when searching for &quot;%1&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Try searching with less specific keywords.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reduce number of keywords to get more results.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/tipafriend</name>
+    <message>
+        <source>Tip a friend</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The message was sent.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click here to return to the original page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The message was not sent.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The message was not sent due to an unknown error. Please notify the site administrator about this error.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please correct the following errors:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your email address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recipient&apos;s email address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation type="unfinished">註釋</translation>
+    </message>
+    <message>
+        <source>Send</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">取消</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/versions</name>
     <message>
         <source>Versions for: %1</source>
-        <translation>版本用於：%1</translation>
+        <translation type="obsolete">版本用於：%1</translation>
     </message>
     <message>
         <source>Version not a draft</source>
-        <translation>版本不是草稿</translation>
+        <translation type="obsolete">版本不是草稿</translation>
     </message>
     <message>
         <source>Version %1 is not available for editing any more, only drafts can be edited.</source>
-        <translation>版本 %1 不再可用於編輯，只有草稿可以被編輯。</translation>
+        <translation type="obsolete">版本 %1 不再可用於編輯，只有草稿可以被編輯。</translation>
     </message>
     <message>
         <source>To edit this version create a copy of it.</source>
-        <translation>要編輯此版本，就建立它的複本。</translation>
+        <translation type="obsolete">要編輯此版本，就建立它的複本。</translation>
     </message>
     <message>
         <source>Version not yours</source>
-        <translation>不是您的版本</translation>
+        <translation type="obsolete">不是您的版本</translation>
     </message>
     <message>
         <source>Version %1 was not created by you, only your own drafts can be edited.</source>
-        <translation>版本 %1 不是由您建立，只有您自己的草稿可以被編輯。</translation>
+        <translation type="obsolete">版本 %1 不是由您建立，只有您自己的草稿可以被編輯。</translation>
     </message>
     <message>
         <source>Unable to create new version</source>
-        <translation>無法建立新的版本</translation>
+        <translation type="obsolete">無法建立新的版本</translation>
     </message>
     <message>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation>版本歷史記錄已超出限制，沒有歸檔的版本可以被系統移除。</translation>
+        <translation type="obsolete">版本歷史記錄已超出限制，沒有歸檔的版本可以被系統移除。</translation>
     </message>
     <message>
         <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation>您可以在 content.ini 中變更您的版本歷史記錄設定值、移除草稿版本或者編輯現有草稿。</translation>
+        <translation type="obsolete">您可以在 content.ini 中變更您的版本歷史記錄設定值、移除草稿版本或者編輯現有草稿。</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>版本</translation>
+        <translation type="obsolete">版本</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>狀態</translation>
+        <translation type="obsolete">狀態</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>翻譯</translation>
+        <translation type="obsolete">翻譯</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>建立者</translation>
+        <translation type="obsolete">建立者</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>已修改</translation>
+        <translation type="obsolete">已修改</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>移除</translation>
+        <translation type="obsolete">移除</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>編輯</translation>
+        <translation type="obsolete">編輯</translation>
     </message>
     <message>
         <source>Copy and edit</source>
-        <translation>複製和編輯</translation>
+        <translation type="obsolete">複製和編輯</translation>
     </message>
 </context>
 <context>
@@ -758,7 +1087,7 @@
     </message>
     <message>
         <source>Edit the draft that is being displayed.</source>
-        <translation>編輯正被顯示的草稿。</translation>
+        <translation type="obsolete">編輯正被顯示的草稿。</translation>
     </message>
     <message>
         <source>Publish</source>
@@ -766,11 +1095,15 @@
     </message>
     <message>
         <source>Publish the draft that is being displayed.</source>
-        <translation>發布正被顯示的草稿。</translation>
+        <translation type="obsolete">發布正被顯示的草稿。</translation>
     </message>
     <message>
         <source>This version is not a draft and thus it can not be edited.</source>
-        <translation>此版本並非草稿，因而無法編輯它。</translation>
+        <translation type="obsolete">此版本並非草稿，因而無法編輯它。</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation type="unfinished">管理版本</translation>
     </message>
 </context>
 <context>
@@ -841,6 +1174,13 @@
     </message>
 </context>
 <context>
+    <name>design/ezwebin/embed/poll</name>
+    <message>
+        <source>Vote</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/ezinfo/about</name>
     <message>
         <source>eZ Publish information: %version</source>
@@ -848,7 +1188,7 @@
     </message>
     <message>
         <source>What is eZ publish?</source>
-        <translation>eZ publish 是什麼？</translation>
+        <translation type="obsolete">eZ publish 是什麼？</translation>
     </message>
     <message>
         <source>Licence</source>
@@ -870,6 +1210,10 @@
         <source>Extensions</source>
         <translation>擴充功能</translation>
     </message>
+    <message>
+        <source>What is eZ Publish?</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/article</name>
@@ -879,14 +1223,55 @@
     </message>
     <message>
         <source>New Comment</source>
-        <translation>新增註釋</translation>
+        <translation type="obsolete">新增註釋</translation>
+    </message>
+    <message>
+        <source>New comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tip a friend</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/article_mainpage</name>
+    <message>
+        <source>Tip a friend</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/article_subpage</name>
+    <message>
+        <source>Tip a friend</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/blog_post</name>
+    <message>
+        <source>Tags:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation type="unfinished">註釋</translation>
+    </message>
+    <message>
+        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/documentation_page</name>
     <message>
         <source>Table of Contents</source>
-        <translation>目錄</translation>
+        <translation type="obsolete">目錄</translation>
     </message>
     <message>
         <source>Created:</source>
@@ -895,6 +1280,10 @@
     <message>
         <source>Modified:</source>
         <translation>已修改：</translation>
+    </message>
+    <message>
+        <source>Table of contents</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1043,11 +1432,11 @@
     </message>
     <message>
         <source>You need to be logged in to get access to the forums. You can do so</source>
-        <translation>您需要被登入以取得論壇的存取權限。您可以如此做</translation>
+        <translation type="obsolete">您需要被登入以取得論壇的存取權限。您可以如此做</translation>
     </message>
     <message>
         <source>here</source>
-        <translation>這裏</translation>
+        <translation type="obsolete">這裏</translation>
     </message>
     <message>
         <source>Author</source>
@@ -1076,6 +1465,10 @@
     <message>
         <source>Remove this item.</source>
         <translation>移除此項目。</translation>
+    </message>
+    <message>
+        <source>You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%</source>
+        <translation type="unfinished">您需要登入以取得論壇的存取權限。您可以如此做 %login_link_start%這裏%login_link_end%</translation>
     </message>
 </context>
 <context>
@@ -1109,6 +1502,36 @@
     <message>
         <source>Next image</source>
         <translation>下一個圖像</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/multicalendar</name>
+    <message>
+        <source>Event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/poll</name>
+    <message>
+        <source>Vote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1159,11 +1582,11 @@
     <name>design/ezwebin/line/forum</name>
     <message>
         <source>Number of Topics</source>
-        <translation>主題數量</translation>
+        <translation type="obsolete">主題數量</translation>
     </message>
     <message>
         <source>Number of Posts</source>
-        <translation>張貼數量</translation>
+        <translation type="obsolete">張貼數量</translation>
     </message>
     <message>
         <source>Last reply</source>
@@ -1173,12 +1596,31 @@
         <source>Enter forum</source>
         <translation>進入論壇</translation>
     </message>
+    <message>
+        <source>Number of topics</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of posts</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum_reply</name>
     <message>
         <source>Reply to:</source>
         <translation>回覆到：</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/poll</name>
+    <message>
+        <source>%count votes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vote</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1241,7 +1683,7 @@
     </message>
     <message>
         <source>If %trashname is checked you will find the removed items in the trash afterwards.</source>
-        <translation>如果 %trashname 已勾選，之後您將可在垃圾桶中找到被移除的項目。</translation>
+        <translation type="obsolete">如果 %trashname 已勾選，之後您將可在垃圾桶中找到被移除的項目。</translation>
     </message>
     <message>
         <source>Confirm</source>
@@ -1250,6 +1692,10 @@
     <message>
         <source>Cancel</source>
         <translation>取消</translation>
+    </message>
+    <message>
+        <source>If %trashname is checked, removed items can be found in the trash.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1297,7 +1743,7 @@
     </message>
     <message>
         <source>Edit</source>
-        <translation>編輯</translation>
+        <translation type="obsolete">編輯</translation>
     </message>
     <message>
         <source>Move</source>
@@ -1318,6 +1764,22 @@
     <message>
         <source>Replace</source>
         <translation>置換</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit: %node_name [%class_name]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add locations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Documentation</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1367,7 +1829,7 @@
     </message>
     <message>
         <source>The following items were removed from your basket, because the products were changed</source>
-        <translation>下列的項目已從您的購物籃移除，因為產品已變更</translation>
+        <translation type="obsolete">下列的項目已從您的購物籃移除，因為產品已變更</translation>
     </message>
     <message>
         <source>VAT is unknown</source>
@@ -1407,15 +1869,15 @@
     </message>
     <message>
         <source>Total Price ex. VAT</source>
-        <translation>稅前價格總計</translation>
+        <translation type="obsolete">稅前價格總計</translation>
     </message>
     <message>
         <source>Total Price inc. VAT</source>
-        <translation>稅後價格總計</translation>
+        <translation type="obsolete">稅後價格總計</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>不明</translation>
+        <translation type="obsolete">不明</translation>
     </message>
     <message>
         <source>Update</source>
@@ -1431,11 +1893,11 @@
     </message>
     <message>
         <source>Subtotal Ex. VAT</source>
-        <translation>稅前小計</translation>
+        <translation type="obsolete">稅前小計</translation>
     </message>
     <message>
         <source>Subtotal Inc. VAT</source>
-        <translation>稅後小計</translation>
+        <translation type="obsolete">稅後小計</translation>
     </message>
     <message>
         <source>Shipping</source>
@@ -1455,7 +1917,35 @@
     </message>
     <message>
         <source>You have no products in your basket</source>
-        <translation>在您的購物籃中沒有任何產品</translation>
+        <translation type="obsolete">在您的購物籃中沒有任何產品</translation>
+    </message>
+    <message>
+        <source>The following items were removed from your basket because the products were changed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total price ex. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subtotal ex. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subtotal inc. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have no products in your basket.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1494,11 +1984,11 @@
     </message>
     <message>
         <source>Total Price ex. VAT</source>
-        <translation>稅前價格總計</translation>
+        <translation type="obsolete">稅前價格總計</translation>
     </message>
     <message>
         <source>Total Price inc. VAT</source>
-        <translation>稅後價格總計</translation>
+        <translation type="obsolete">稅後價格總計</translation>
     </message>
     <message>
         <source>Selected options</source>
@@ -1524,12 +2014,20 @@
         <source>Confirm</source>
         <translation>確認</translation>
     </message>
+    <message>
+        <source>Total price ex. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/customerorderview</name>
     <message>
         <source>Customer Information</source>
-        <translation>客戶資訊</translation>
+        <translation type="obsolete">客戶資訊</translation>
     </message>
     <message>
         <source>Order list</source>
@@ -1562,6 +2060,81 @@
     <message>
         <source>Amount</source>
         <translation>金額</translation>
+    </message>
+    <message>
+        <source>Customer information</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/shop/orderlist</name>
+    <message>
+        <source>Order list</source>
+        <translation type="unfinished">訂單清單</translation>
+    </message>
+    <message>
+        <source>Sort result by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Order time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Order ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ascending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sort ascending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Descending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sort descending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation type="unfinished">ID</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished">日期</translation>
+    </message>
+    <message>
+        <source>Customer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total ex. VAT</source>
+        <translation type="unfinished">稅前總計</translation>
+    </message>
+    <message>
+        <source>Total inc. VAT</source>
+        <translation type="unfinished">稅後總計</translation>
+    </message>
+    <message>
+        <source>The order list is empty</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1596,11 +2169,11 @@
     </message>
     <message>
         <source>Total Price ex. VAT</source>
-        <translation>稅前價格總計</translation>
+        <translation type="obsolete">稅前價格總計</translation>
     </message>
     <message>
         <source>Total Price inc. VAT</source>
-        <translation>稅後價格總計</translation>
+        <translation type="obsolete">稅後價格總計</translation>
     </message>
     <message>
         <source>Order summary</source>
@@ -1621,6 +2194,14 @@
     <message>
         <source>Order history</source>
         <translation>訂單歷史記錄</translation>
+    </message>
+    <message>
+        <source>Total price ex. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1643,7 +2224,7 @@
     </message>
     <message>
         <source>Input did not validate, all fields marked with * must be filled in</source>
-        <translation>輸入未通過驗證，必須填寫所有標記*的欄位</translation>
+        <translation type="obsolete">輸入未通過驗證，必須填寫所有標記*的欄位</translation>
     </message>
     <message>
         <source>First name</source>
@@ -1655,7 +2236,7 @@
     </message>
     <message>
         <source>E-mail</source>
-        <translation>電子郵件</translation>
+        <translation type="obsolete">電子郵件</translation>
     </message>
     <message>
         <source>Company</source>
@@ -1696,6 +2277,14 @@
     <message>
         <source>All fields marked with * must be filled in.</source>
         <translation>必須填寫所有標記*的欄位。</translation>
+    </message>
+    <message>
+        <source>Input did not validate. All fields marked with * must be filled in.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Email</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1775,7 +2364,7 @@
     </message>
     <message>
         <source>E-mail</source>
-        <translation>電子郵件</translation>
+        <translation type="obsolete">電子郵件</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1805,16 +2394,20 @@
         <source>Change password</source>
         <translation>變更密碼</translation>
     </message>
+    <message>
+        <source>Email</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/forgotpassword</name>
     <message>
         <source>A mail has been sent to the following e-mail address: %1. This e-mail contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
-        <translation>郵件已寄送到下列的電子郵件位址：%1。此電子郵件含有您需要按一下的鏈結，以便我們可以確認是正確的使用者將會取得新密碼。</translation>
+        <translation type="obsolete">郵件已寄送到下列的電子郵件位址：%1。此電子郵件含有您需要按一下的鏈結，以便我們可以確認是正確的使用者將會取得新密碼。</translation>
     </message>
     <message>
         <source>There is no registered user with that e-mail address.</source>
-        <translation>沒有任何已註冊的使用者具備該電子郵件位址。</translation>
+        <translation type="obsolete">沒有任何已註冊的使用者具備該電子郵件位址。</translation>
     </message>
     <message>
         <source>Password was successfully generated and sent to: %1</source>
@@ -1830,15 +2423,31 @@
     </message>
     <message>
         <source>If you have forgotten your password we can generate a new one for you. All you need to do is to enter your e-mail address and we will create a new password for you.</source>
-        <translation>如果您忘記了您的密碼，我們可以為您產生一個新的。所有您需要做的，就是輸入您的電子郵件位址，而我們將為您建立新的密碼。</translation>
+        <translation type="obsolete">如果您忘記了您的密碼，我們可以為您產生一個新的。所有您需要做的，就是輸入您的電子郵件位址，而我們將為您建立新的密碼。</translation>
     </message>
     <message>
         <source>E-mail</source>
-        <translation>電子郵件</translation>
+        <translation type="obsolete">電子郵件</translation>
     </message>
     <message>
         <source>Generate new password</source>
         <translation>產生新的密碼</translation>
+    </message>
+    <message>
+        <source>An email has been sent to the following address: %1. It contains a link you need to click so that we can confirm that the correct user has received the new password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no registered user with that email address.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have forgotten your password, enter your email address and we will create a new password and send it to you.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Email</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1874,7 +2483,7 @@
     </message>
     <message>
         <source>Log in to the administration interface of eZ publish</source>
-        <translation>登入 eZ publish 的管理介面</translation>
+        <translation type="obsolete">登入 eZ publish 的管理介面</translation>
     </message>
     <message>
         <source>Remember me</source>
@@ -1883,7 +2492,7 @@
     <message>
         <source>Sign Up</source>
         <comment>Button</comment>
-        <translation>註冊</translation>
+        <translation type="obsolete">註冊</translation>
     </message>
     <message>
         <source>Forgot your password?</source>
@@ -1893,6 +2502,15 @@
         <source>Login</source>
         <comment>Button</comment>
         <translation type="unfinished">登入</translation>
+    </message>
+    <message>
+        <source>Log in to the eZ Publish Administration Interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign up</source>
+        <comment>Button</comment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1936,13 +2554,17 @@
         <source>Your account was successfully created. An e-mail will be sent to the specified
 e-mail address. You need to follow the instructions in that mail to activate
 your account.</source>
-        <translation>您的帳號已成功建立。一封電子郵件將會寄到指定的
+        <translation type="obsolete">您的帳號已成功建立。一封電子郵件將會寄到指定的
 電子郵件地址。您需要照著郵件中的指令以啟動
 您的帳號。</translation>
     </message>
     <message>
         <source>Your account was successfully created.</source>
         <translation>您的帳號已成功建立。</translation>
+    </message>
+    <message>
+        <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1978,19 +2600,19 @@ your account.</source>
     <name>design/standard/content/edit</name>
     <message>
         <source>Feedback from %1</source>
-        <translation>從 %1 得到的回饋訊息</translation>
+        <translation type="obsolete">從 %1 得到的回饋訊息</translation>
     </message>
     <message>
         <source>The following feedback was collected</source>
-        <translation>下列是已收集的回饋訊息</translation>
+        <translation type="obsolete">下列是已收集的回饋訊息</translation>
     </message>
     <message>
         <source>Collected information from %1</source>
-        <translation>從 %1 收集的資訊</translation>
+        <translation type="obsolete">從 %1 收集的資訊</translation>
     </message>
     <message>
         <source>The following information was collected</source>
-        <translation>下列是已收集的資訊</translation>
+        <translation type="obsolete">下列是已收集的資訊</translation>
     </message>
 </context>
 </TS>

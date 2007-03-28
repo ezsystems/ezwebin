@@ -1,5 +1,81 @@
 <!DOCTYPE TS><TS>
 <context>
+    <name>design/ezwebin/article/article_index</name>
+    <message>
+        <source>Article index</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/article/comments</name>
+    <message>
+        <source>Comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/blog/calendar</name>
+    <message>
+        <source>Previous month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fri</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sun</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/blog/extra_info</name>
+    <message>
+        <source>Tags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/collectedinfo/form</name>
     <message>
         <source>Form %formname</source>
@@ -11,11 +87,68 @@
     </message>
     <message>
         <source>You have already submitted data to this form. The previously submitted data was the following.</source>
-        <translation type="unfinished">Sie haben schon Daten &amp;uuml;bermittelt. Die vorher &amp;uuml;bermittelten Daten sind die folgenden.</translation>
+        <translation type="obsolete">Sie haben schon Daten &amp;uuml;bermittelt. Die vorher &amp;uuml;bermittelten Daten sind die folgenden.</translation>
     </message>
     <message>
         <source>Return to site</source>
         <translation type="unfinished">zur Seite zur&amp;uuml;ckkehren</translation>
+    </message>
+    <message>
+        <source>You have already submitted this form. The data you entered was:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/collectedinfo/poll</name>
+    <message>
+        <source>Poll %pollname</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please log in to vote on this poll.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have already voted for this poll.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Votes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count total votes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back to poll</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/collectedinfomail/feedback</name>
+    <message>
+        <source>Feedback from %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following feedback was collected</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/collectedinfomail/form</name>
+    <message>
+        <source>Collected information from %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following information was collected</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -116,7 +249,7 @@
     </message>
     <message>
         <source>To select an object that is a child of one of the displayed objects, click the object name and you will get a list of the children of the object.</source>
-        <translation type="unfinished">Um ein Objekt auszuw&amp;auml;hlen, dass unterhalb eines angezeigten Objekts liegt, klicken Sie auf den Namen dieses Objekts, um eine Liste der untergeordeneten Objekte angezeigt zu bekommen.</translation>
+        <translation type="obsolete">Um ein Objekt auszuw&amp;auml;hlen, dass unterhalb eines angezeigten Objekts liegt, klicken Sie auf den Namen dieses Objekts, um eine Liste der untergeordeneten Objekte angezeigt zu bekommen.</translation>
     </message>
     <message>
         <source>Back</source>
@@ -134,12 +267,16 @@
         <source>Cancel</source>
         <translation type="unfinished">Abbrechen</translation>
     </message>
+    <message>
+        <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/browse_mode_list</name>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished">Auswahl umkehren.</translation>
+        <translation type="obsolete">Auswahl umkehren.</translation>
     </message>
     <message>
         <source>Name</source>
@@ -148,6 +285,10 @@
     <message>
         <source>Type</source>
         <translation type="unfinished">Typ</translation>
+    </message>
+    <message>
+        <source>Invert selection</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -245,7 +386,7 @@
     </message>
     <message>
         <source>Empty Draft</source>
-        <translation type="unfinished">Entw&amp;uuml;rfe l&amp;ouml;schen</translation>
+        <translation type="obsolete">Entw&amp;uuml;rfe l&amp;ouml;schen</translation>
     </message>
     <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
@@ -289,6 +430,10 @@ Sie k&amp;ouml;nnen einen Entwurf bearbeiten oder Entw&amp;uuml;rfe l&amp;ouml;s
         <source>You have no drafts</source>
         <translation type="unfinished">Sie haben keine Entw&amp;uuml;rfe</translation>
     </message>
+    <message>
+        <source>Empty draft</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
@@ -302,7 +447,7 @@ Sie k&amp;ouml;nnen einen Entwurf bearbeiten oder Entw&amp;uuml;rfe l&amp;ouml;s
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode.</source>
-        <translation type="unfinished">Den derzeitigen Entwurf speichern und den Bearbeitungsmodus verlassen.</translation>
+        <translation type="obsolete">Den derzeitigen Entwurf speichern und den Bearbeitungsmodus verlassen.</translation>
     </message>
     <message>
         <source>Preview</source>
@@ -310,7 +455,7 @@ Sie k&amp;ouml;nnen einen Entwurf bearbeiten oder Entw&amp;uuml;rfe l&amp;ouml;s
     </message>
     <message>
         <source>No translation</source>
-        <translation type="unfinished">Keine &amp;Uuml;bersetzung</translation>
+        <translation type="obsolete">Keine &amp;Uuml;bersetzung</translation>
     </message>
     <message>
         <source>Translate</source>
@@ -318,7 +463,7 @@ Sie k&amp;ouml;nnen einen Entwurf bearbeiten oder Entw&amp;uuml;rfe l&amp;ouml;s
     </message>
     <message>
         <source>Edit the current object showing the selected language as a reference.</source>
-        <translation type="unfinished">Aktuelles Objekt bearbeiten, dass die ausgew&amp;auml;hlte Sprache als Referenz hat.</translation>
+        <translation type="obsolete">Aktuelles Objekt bearbeiten, dass die ausgew&amp;auml;hlte Sprache als Referenz hat.</translation>
     </message>
     <message>
         <source>Edit %1 - %2</source>
@@ -334,22 +479,46 @@ Sie k&amp;ouml;nnen einen Entwurf bearbeiten oder Entw&amp;uuml;rfe l&amp;ouml;s
     </message>
     <message>
         <source>Discard</source>
-        <translation type="unfinished">Verwerfen</translation>
+        <translation type="obsolete">Verwerfen</translation>
+    </message>
+    <message>
+        <source>Discard draft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Documentation</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
-        <translation type="unfinished">nicht &amp;uuml;bersetzbar</translation>
+        <translation type="obsolete">nicht &amp;uuml;bersetzbar</translation>
     </message>
     <message>
         <source>required</source>
-        <translation type="unfinished">erforderlich</translation>
+        <translation type="obsolete">erforderlich</translation>
     </message>
     <message>
         <source>information collector</source>
-        <translation type="unfinished">Informationssammler</translation>
+        <translation type="obsolete">Informationssammler</translation>
+    </message>
+    <message>
+        <source>Not translatable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Information collector</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -369,7 +538,7 @@ Sie k&amp;ouml;nnen einen Entwurf bearbeiten oder Entw&amp;uuml;rfe l&amp;ouml;s
     <message>
         <source>This object is already being edited by someone else including you.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished">Das Objekt wird gerade von jemand anderen (oder Ihnen selbst) bearbeitet.Sie k&amp;ouml;nnen entweder einen Ihrer Entw&amp;uuml;rfe weiter bearbeiten oder einen neuen erstellen.</translation>
+        <translation type="obsolete">Das Objekt wird gerade von jemand anderen (oder Ihnen selbst) bearbeitet.Sie k&amp;ouml;nnen entweder einen Ihrer Entw&amp;uuml;rfe weiter bearbeiten oder einen neuen erstellen.</translation>
     </message>
     <message>
         <source>This object is already being edited by you.
@@ -379,7 +548,7 @@ Sie k&amp;ouml;nnen einen Entwurf bearbeiten oder Entw&amp;uuml;rfe l&amp;ouml;s
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about the draft or create a new draft for personal editing.</source>
-        <translation type="unfinished">Das Objekt wird schon von jemand anderen bearbeitet.
+        <translation type="obsolete">Das Objekt wird schon von jemand anderen bearbeitet.
 Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf zum pers&amp;ouml;nlichen Bearbeiten erstellen.</translation>
     </message>
     <message>
@@ -414,6 +583,16 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
         <source>New draft</source>
         <translation type="unfinished">Neuer Entwurf</translation>
     </message>
+    <message>
+        <source>This object is already being edited by yourself and others.
+    You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by someone else.
+        You should either contact the person about their draft or create a new draft for your own use.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_languages</name>
@@ -423,7 +602,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Select the language you want to use when editing the object</source>
-        <translation type="unfinished">W&amp;auml;hlen Sie die Sprache, die zum Bearbeiten des Objekts verwendet werden soll</translation>
+        <translation type="obsolete">W&amp;auml;hlen Sie die Sprache, die zum Bearbeiten des Objekts verwendet werden soll</translation>
     </message>
     <message>
         <source>New languages</source>
@@ -431,23 +610,23 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Select the language you want to add to the object</source>
-        <translation type="unfinished">W&amp;auml;hlen Sie die Sprache die Sie dem Objekt hinzuf&amp;uuml;gen m&amp;ouml;chten</translation>
+        <translation type="obsolete">W&amp;auml;hlen Sie die Sprache die Sie dem Objekt hinzuf&amp;uuml;gen m&amp;ouml;chten</translation>
     </message>
     <message>
         <source>Select the language the added translation will be based on</source>
-        <translation type="unfinished">W&amp;auml;hlen Sie die Sprache, auf der die hinzugef&amp;uuml;gte &amp;Uuml;bersetzung basieren soll</translation>
+        <translation type="obsolete">W&amp;auml;hlen Sie die Sprache, auf der die hinzugef&amp;uuml;gte &amp;Uuml;bersetzung basieren soll</translation>
     </message>
     <message>
         <source>use an empty, untranslated draft</source>
-        <translation type="unfinished">einen leeren, nicht &amp;uuml;bersetzten Entwurf verwenden</translation>
+        <translation type="obsolete">einen leeren, nicht &amp;uuml;bersetzten Entwurf verwenden</translation>
     </message>
     <message>
         <source>You do not have sufficient permissions to create a translation in another language.</source>
-        <translation type="unfinished">Sie haben nicht die Berechtigung, um eine &amp;Uuml;bersetzung in eine andre Sprache zu erstellen</translation>
+        <translation type="obsolete">Sie haben nicht die Berechtigung, um eine &amp;Uuml;bersetzung in eine andre Sprache zu erstellen</translation>
     </message>
     <message>
         <source>However you can select one of the following languages for editing</source>
-        <translation type="unfinished">Sie k&amp;ouml;nnen eine der aufgef&amp;uuml;hrten Sprachen f&amp;uuml;r die Bearbeitung ausw&amp;auml;hlen</translation>
+        <translation type="obsolete">Sie k&amp;ouml;nnen eine der aufgef&amp;uuml;hrten Sprachen f&amp;uuml;r die Bearbeitung ausw&amp;auml;hlen</translation>
     </message>
     <message>
         <source>You do not have permission to edit the object in any available languages.</source>
@@ -461,6 +640,30 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
         <source>Cancel</source>
         <translation type="unfinished">Abbrechen</translation>
     </message>
+    <message>
+        <source>Select the language you want to use when editing the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select the language you want to add to the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select the language the new translation will be based on.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use an empty, untranslated draft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You do not have permission to create a translation in another language.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>However, you can select one of the following languages for editing.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/history</name>
@@ -470,11 +673,11 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Version %1 is not available for editing anymore, only drafts can be edited.</source>
-        <translation type="unfinished">Version %1 wurde nicht von Ihnen erstellt. Sie k&amp;ouml;nnen nur Ihre eigenen Entw&amp;uuml;rfe bearbeiten.</translation>
+        <translation type="obsolete">Version %1 wurde nicht von Ihnen erstellt. Sie k&amp;ouml;nnen nur Ihre eigenen Entw&amp;uuml;rfe bearbeiten.</translation>
     </message>
     <message>
         <source>To edit this version create a copy of it.</source>
-        <translation type="unfinished">Um diese Version zu bearbeiten erstellen Sie eine Kopie.</translation>
+        <translation type="obsolete">Um diese Version zu bearbeiten erstellen Sie eine Kopie.</translation>
     </message>
     <message>
         <source>Version not yours</source>
@@ -482,7 +685,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Version %1 was not created by you, only your own drafts can be edited.</source>
-        <translation type="unfinished">Version %1 wurde nicht von Ihnen erstellt. Sie k&amp;ouml;nnen nur Ihre eigenen Entw&amp;uuml;rfe bearbeiten.</translation>
+        <translation type="obsolete">Version %1 wurde nicht von Ihnen erstellt. Sie k&amp;ouml;nnen nur Ihre eigenen Entw&amp;uuml;rfe bearbeiten.</translation>
     </message>
     <message>
         <source>Unable to create new version</source>
@@ -494,7 +697,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="unfinished">Sie k&amp;ouml;nnen die Einstellungen des Versionsverlaufs im content.ini &amp;aUML;ndern, Entw&amp;uuml;rfe l&amp;ouml;schen oder bestehende Entw&amp;uuml;rfe &amp;Auml;ndern.</translation>
+        <translation type="obsolete">Sie k&amp;ouml;nnen die Einstellungen des Versionsverlaufs im content.ini &amp;aUML;ndern, Entw&amp;uuml;rfe l&amp;ouml;schen oder bestehende Entw&amp;uuml;rfe &amp;Auml;ndern.</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
@@ -526,7 +729,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Version #%version_number can not be removed because it is either the published version of the object or because you do not have permissions to remove it.</source>
-        <translation type="unfinished">Version #%version_number kann nicht entfernt werden, da sie entweder die ver&amp;ouml;ffentlichte Version ist oder weil Sie keine Rechte besitzen sie zu entfernen.</translation>
+        <translation type="obsolete">Version #%version_number kann nicht entfernt werden, da sie entweder die ver&amp;ouml;ffentlichte Version ist oder weil Sie keine Rechte besitzen sie zu entfernen.</translation>
     </message>
     <message>
         <source>View the contents of version #%version_number. Translation: %translation.</source>
@@ -562,7 +765,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>You can not make copies of versions because you do not have permissions to edit the object.</source>
-        <translation type="unfinished">Sie k&amp;ouml;nnen keine Kopien von Versionen erstellen, da Sie keine Rechte besitzen das Objekt zu bearbeiten.</translation>
+        <translation type="obsolete">Sie k&amp;ouml;nnen keine Kopien von Versionen erstellen, da Sie keine Rechte besitzen das Objekt zu bearbeiten.</translation>
     </message>
     <message>
         <source>Edit the contents of version #%version_number.</source>
@@ -570,7 +773,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>You can not edit the contents of version #%version_number either because it is not a draft or because you do not have permissions to edit the object.</source>
-        <translation type="unfinished">Sie k&amp;ouml;nnen die Inhalte von Version #%version_number nicht bearbeiten, da es kein Entwurf ist oder weil Sie keine Rechte besitzen das Objekt zu bearbeiten.</translation>
+        <translation type="obsolete">Sie k&amp;ouml;nnen die Inhalte von Version #%version_number nicht bearbeiten, da es kein Entwurf ist oder weil Sie keine Rechte besitzen das Objekt zu bearbeiten.</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
@@ -632,6 +835,61 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
         <source>Back to history</source>
         <translation type="unfinished">Zur&amp;uuml;ck zum Versionsverlauf</translation>
     </message>
+    <message>
+        <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To edit this version, first create a copy of it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version %1 was not created by you. Only your own drafts can be edited.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can either change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Toggle selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edited language</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no need to do a copies of untouched drafts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/keyword</name>
+    <message>
+        <source>Keyword: %keyword</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/search</name>
@@ -646,11 +904,11 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>The following words were excluded from the search</source>
-        <translation type="unfinished">Die folgenden W&amp;ouml;rter wurden von der Suche ausgeschlossen</translation>
+        <translation type="obsolete">Die folgenden W&amp;ouml;rter wurden von der Suche ausgeschlossen</translation>
     </message>
     <message>
         <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation type="unfinished">Bei der Suche nach &quot;%1&quot; wurden keine Ergebnisse gefunden.</translation>
+        <translation type="obsolete">Bei der Suche nach &quot;%1&quot; wurden keine Ergebnisse gefunden.</translation>
     </message>
     <message>
         <source>Search tips</source>
@@ -662,90 +920,161 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Try changing some keywords eg. car instead of cars.</source>
-        <translation type="unfinished">Wandeln Sie einige Suchw&amp;ouml;rter ab, z. B. Auto anstatt von Autos.</translation>
+        <translation type="obsolete">Wandeln Sie einige Suchw&amp;ouml;rter ab, z. B. Auto anstatt von Autos.</translation>
     </message>
     <message>
         <source>Try more general keywords.</source>
-        <translation type="unfinished">Versuchen Sie es mit allgemeineren Worten.</translation>
+        <translation type="obsolete">Versuchen Sie es mit allgemeineren Worten.</translation>
     </message>
     <message>
         <source>Fewer keywords gives more results, try reducing keywords until you get a result.</source>
-        <translation type="unfinished">Weniger Suchw&amp;ouml;rter geben mehr Ergebnisse. Versuchen Sie die Suchw&amp;ouml;rter zu reduzieren, bis Sie ein Ergebnis bekommen.</translation>
+        <translation type="obsolete">Weniger Suchw&amp;ouml;rter geben mehr Ergebnisse. Versuchen Sie die Suchw&amp;ouml;rter zu reduzieren, bis Sie ein Ergebnis bekommen.</translation>
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
         <translation type="unfinished">Die Suche nach &amp;lt;%1&amp;gt; ergab %2 Treffer</translation>
+    </message>
+    <message>
+        <source>The following words were excluded from the search:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No results were found when searching for &quot;%1&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Try searching with less specific keywords.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reduce number of keywords to get more results.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/tipafriend</name>
+    <message>
+        <source>Tip a friend</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The message was sent.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click here to return to the original page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The message was not sent.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The message was not sent due to an unknown error. Please notify the site administrator about this error.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please correct the following errors:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your email address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recipient&apos;s email address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/versions</name>
     <message>
         <source>Versions for: %1</source>
-        <translation type="unfinished">Versionen f&amp;uuml;r: %1</translation>
+        <translation type="obsolete">Versionen f&amp;uuml;r: %1</translation>
     </message>
     <message>
         <source>Version not a draft</source>
-        <translation type="unfinished">Version ist kein Entwurf</translation>
+        <translation type="obsolete">Version ist kein Entwurf</translation>
     </message>
     <message>
         <source>Version %1 is not available for editing any more, only drafts can be edited.</source>
-        <translation type="unfinished">Version %1 ist nicht mehr verf&amp;uuml;gbar zum &amp;Auml;ndern, nur Entw&amp;uuml;rfe k&amp;ouml;nnen ge&amp;auml;ndert werden.</translation>
+        <translation type="obsolete">Version %1 ist nicht mehr verf&amp;uuml;gbar zum &amp;Auml;ndern, nur Entw&amp;uuml;rfe k&amp;ouml;nnen ge&amp;auml;ndert werden.</translation>
     </message>
     <message>
         <source>To edit this version create a copy of it.</source>
-        <translation type="unfinished">Um diese Version zu bearbeiten erstellen Sie eine Kopie.</translation>
+        <translation type="obsolete">Um diese Version zu bearbeiten erstellen Sie eine Kopie.</translation>
     </message>
     <message>
         <source>Version not yours</source>
-        <translation type="unfinished">Diese Version geh&amp;ouml;rt Ihnen nicht</translation>
+        <translation type="obsolete">Diese Version geh&amp;ouml;rt Ihnen nicht</translation>
     </message>
     <message>
         <source>Version %1 was not created by you, only your own drafts can be edited.</source>
-        <translation type="unfinished">Version %1 wurde nicht von Ihnen erstellt. Sie k&amp;ouml;nnen nur Ihre eigenen Entw&amp;uuml;rfe bearbeiten.</translation>
+        <translation type="obsolete">Version %1 wurde nicht von Ihnen erstellt. Sie k&amp;ouml;nnen nur Ihre eigenen Entw&amp;uuml;rfe bearbeiten.</translation>
     </message>
     <message>
         <source>Unable to create new version</source>
-        <translation type="unfinished">Neue Version kann nicht erstellt werden</translation>
+        <translation type="obsolete">Neue Version kann nicht erstellt werden</translation>
     </message>
     <message>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation type="unfinished">Der Versionsverlauf hat sein Limit erreicht und keine archivierte Version kann vom System entfernt werden.</translation>
+        <translation type="obsolete">Der Versionsverlauf hat sein Limit erreicht und keine archivierte Version kann vom System entfernt werden.</translation>
     </message>
     <message>
         <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="unfinished">Sie k&amp;ouml;nnen die Einstellungen des Versionsverlaufs im content.ini &amp;auml;ndern, Entw&amp;uuml;rfe l&amp;ouml;schen oder bestehende Entw&amp;uuml;rfe &amp;auml;ndern.</translation>
+        <translation type="obsolete">Sie k&amp;ouml;nnen die Einstellungen des Versionsverlaufs im content.ini &amp;auml;ndern, Entw&amp;uuml;rfe l&amp;ouml;schen oder bestehende Entw&amp;uuml;rfe &amp;auml;ndern.</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">Version</translation>
+        <translation type="obsolete">Version</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished">Status</translation>
+        <translation type="obsolete">Status</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation type="unfinished">&amp;Uuml;bersetzungen</translation>
+        <translation type="obsolete">&amp;Uuml;bersetzungen</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation type="unfinished">Ersteller</translation>
+        <translation type="obsolete">Ersteller</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished">Ver&amp;auml;ndert</translation>
+        <translation type="obsolete">Ver&amp;auml;ndert</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">Entfernen</translation>
+        <translation type="obsolete">Entfernen</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Bearbeiten</translation>
+        <translation type="obsolete">Bearbeiten</translation>
     </message>
     <message>
         <source>Copy and edit</source>
-        <translation type="unfinished">Kopieren und bearbeiten</translation>
+        <translation type="obsolete">Kopieren und bearbeiten</translation>
     </message>
 </context>
 <context>
@@ -756,7 +1085,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Edit the draft that is being displayed.</source>
-        <translation type="unfinished">Den Entwurf bearbeiten, der gerade angezeigt wird.</translation>
+        <translation type="obsolete">Den Entwurf bearbeiten, der gerade angezeigt wird.</translation>
     </message>
     <message>
         <source>Publish</source>
@@ -764,11 +1093,15 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Publish the draft that is being displayed.</source>
-        <translation type="unfinished">Den Entwurf publizieren, der gerade angezeigt wird.</translation>
+        <translation type="obsolete">Den Entwurf publizieren, der gerade angezeigt wird.</translation>
     </message>
     <message>
         <source>This version is not a draft and thus it can not be edited.</source>
-        <translation type="unfinished">Die Version ist kein Entwurf und kann daher nicht bearbeitet werden.</translation>
+        <translation type="obsolete">Die Version ist kein Entwurf und kann daher nicht bearbeitet werden.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -839,6 +1172,13 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
 </context>
 <context>
+    <name>design/ezwebin/embed/poll</name>
+    <message>
+        <source>Vote</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/ezinfo/about</name>
     <message>
         <source>eZ Publish information: %version</source>
@@ -846,7 +1186,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>What is eZ publish?</source>
-        <translation type="unfinished">Was ist eZ publish?</translation>
+        <translation type="obsolete">Was ist eZ publish?</translation>
     </message>
     <message>
         <source>Licence</source>
@@ -868,6 +1208,10 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
         <source>Extensions</source>
         <translation type="unfinished">Erweiterungen</translation>
     </message>
+    <message>
+        <source>What is eZ Publish?</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/article</name>
@@ -877,14 +1221,55 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>New Comment</source>
-        <translation type="unfinished">Neuer Kommentar</translation>
+        <translation type="obsolete">Neuer Kommentar</translation>
+    </message>
+    <message>
+        <source>New comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tip a friend</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/article_mainpage</name>
+    <message>
+        <source>Tip a friend</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/article_subpage</name>
+    <message>
+        <source>Tip a friend</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/blog_post</name>
+    <message>
+        <source>Tags:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/documentation_page</name>
     <message>
         <source>Table of Contents</source>
-        <translation>Inhaltsangabe</translation>
+        <translation type="obsolete">Inhaltsangabe</translation>
     </message>
     <message>
         <source>Created:</source>
@@ -893,6 +1278,10 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     <message>
         <source>Modified:</source>
         <translation>Geändert:</translation>
+    </message>
+    <message>
+        <source>Table of contents</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1041,11 +1430,11 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>You need to be logged in to get access to the forums. You can do so</source>
-        <translation type="unfinished">Um Zugang zu den Foren zu erhalten, m&amp;uuml;ssen Sie angemeldet sein. Machen Sie das</translation>
+        <translation type="obsolete">Um Zugang zu den Foren zu erhalten, m&amp;uuml;ssen Sie angemeldet sein. Machen Sie das</translation>
     </message>
     <message>
         <source>here</source>
-        <translation type="unfinished">hier</translation>
+        <translation type="obsolete">hier</translation>
     </message>
     <message>
         <source>Author</source>
@@ -1074,6 +1463,10 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     <message>
         <source>Remove this item.</source>
         <translation type="unfinished">Diesen Eintrag entfernen.</translation>
+    </message>
+    <message>
+        <source>You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1107,6 +1500,36 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     <message>
         <source>Next image</source>
         <translation type="unfinished">N&amp;auml;chstes Bild</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/multicalendar</name>
+    <message>
+        <source>Event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished">Kategorie</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/poll</name>
+    <message>
+        <source>Vote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1156,11 +1579,11 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     <name>design/ezwebin/line/forum</name>
     <message>
         <source>Number of Topics</source>
-        <translation type="unfinished">Anzahl der Themen</translation>
+        <translation type="obsolete">Anzahl der Themen</translation>
     </message>
     <message>
         <source>Number of Posts</source>
-        <translation type="unfinished">Zahl der &amp;Uuml;bermittlungen</translation>
+        <translation type="obsolete">Zahl der &amp;Uuml;bermittlungen</translation>
     </message>
     <message>
         <source>Last reply</source>
@@ -1170,12 +1593,31 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
         <source>Enter forum</source>
         <translation type="unfinished">Forum &amp;Ouml;ffnen</translation>
     </message>
+    <message>
+        <source>Number of topics</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of posts</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum_reply</name>
     <message>
         <source>Reply to:</source>
         <translation type="unfinished">Antworten auf:</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/poll</name>
+    <message>
+        <source>%count votes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vote</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1238,7 +1680,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>If %trashname is checked you will find the removed items in the trash afterwards.</source>
-        <translation type="unfinished">Wenn %trashname ausgew&amp;auml;hlt ist, werden Sie die entfernten Eintr&amp;auml;ge sp&amp;auml;ter im Papierkorb finden.</translation>
+        <translation type="obsolete">Wenn %trashname ausgew&amp;auml;hlt ist, werden Sie die entfernten Eintr&amp;auml;ge sp&amp;auml;ter im Papierkorb finden.</translation>
     </message>
     <message>
         <source>Confirm</source>
@@ -1247,6 +1689,10 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     <message>
         <source>Cancel</source>
         <translation type="unfinished">Abbrechen</translation>
+    </message>
+    <message>
+        <source>If %trashname is checked, removed items can be found in the trash.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1294,7 +1740,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Bearbeiten</translation>
+        <translation type="obsolete">Bearbeiten</translation>
     </message>
     <message>
         <source>Move</source>
@@ -1315,6 +1761,22 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     <message>
         <source>Replace</source>
         <translation type="unfinished">Ersetzen</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit: %node_name [%class_name]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add locations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Documentation</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1364,7 +1826,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>The following items were removed from your basket, because the products were changed</source>
-        <translation type="unfinished">Die folgenden Positionen wurden von Ihrem Warenkorb entfernt, da die Produkte ge&amp;auml;ndert wurden</translation>
+        <translation type="obsolete">Die folgenden Positionen wurden von Ihrem Warenkorb entfernt, da die Produkte ge&amp;auml;ndert wurden</translation>
     </message>
     <message>
         <source>VAT is unknown</source>
@@ -1404,15 +1866,15 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Total Price ex. VAT</source>
-        <translation type="unfinished">Insgesamt ohne MwSt.</translation>
+        <translation type="obsolete">Insgesamt ohne MwSt.</translation>
     </message>
     <message>
         <source>Total Price inc. VAT</source>
-        <translation type="unfinished">Insgesamt mit MwSt.</translation>
+        <translation type="obsolete">Insgesamt mit MwSt.</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation type="unfinished">unbekannt</translation>
+        <translation type="obsolete">unbekannt</translation>
     </message>
     <message>
         <source>Update</source>
@@ -1428,11 +1890,11 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Subtotal Ex. VAT</source>
-        <translation type="unfinished">Zwischensumme ohne MwSt.</translation>
+        <translation type="obsolete">Zwischensumme ohne MwSt.</translation>
     </message>
     <message>
         <source>Subtotal Inc. VAT</source>
-        <translation type="unfinished">Zwischensumme mit MwSt.</translation>
+        <translation type="obsolete">Zwischensumme mit MwSt.</translation>
     </message>
     <message>
         <source>Shipping</source>
@@ -1452,7 +1914,35 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>You have no products in your basket</source>
-        <translation type="unfinished">Sie haben keine Produkte im Einkaufskorb</translation>
+        <translation type="obsolete">Sie haben keine Produkte im Einkaufskorb</translation>
+    </message>
+    <message>
+        <source>The following items were removed from your basket because the products were changed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total price ex. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subtotal ex. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subtotal inc. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have no products in your basket.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1491,11 +1981,11 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Total Price ex. VAT</source>
-        <translation type="unfinished">Insgesamt ohne MwSt.</translation>
+        <translation type="obsolete">Insgesamt ohne MwSt.</translation>
     </message>
     <message>
         <source>Total Price inc. VAT</source>
-        <translation type="unfinished">Insgesamt mit MwSt.</translation>
+        <translation type="obsolete">Insgesamt mit MwSt.</translation>
     </message>
     <message>
         <source>Selected options</source>
@@ -1521,12 +2011,20 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
         <source>Confirm</source>
         <translation type="unfinished">Best&amp;auml;tigen</translation>
     </message>
+    <message>
+        <source>Total price ex. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/customerorderview</name>
     <message>
         <source>Customer Information</source>
-        <translation type="unfinished">Kundeninformation</translation>
+        <translation type="obsolete">Kundeninformation</translation>
     </message>
     <message>
         <source>Order list</source>
@@ -1559,6 +2057,81 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     <message>
         <source>Amount</source>
         <translation type="unfinished">Anzahl</translation>
+    </message>
+    <message>
+        <source>Customer information</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/shop/orderlist</name>
+    <message>
+        <source>Order list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sort result by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Order time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Order ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ascending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sort ascending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Descending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sort descending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Customer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total ex. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total inc. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The order list is empty</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1593,11 +2166,11 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Total Price ex. VAT</source>
-        <translation type="unfinished">Insgesamt ohne MwSt.</translation>
+        <translation type="obsolete">Insgesamt ohne MwSt.</translation>
     </message>
     <message>
         <source>Total Price inc. VAT</source>
-        <translation type="unfinished">Insgesamt mit MwSt.</translation>
+        <translation type="obsolete">Insgesamt mit MwSt.</translation>
     </message>
     <message>
         <source>Order summary</source>
@@ -1618,6 +2191,14 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     <message>
         <source>Order history</source>
         <translation type="unfinished">Bestellverlauf</translation>
+    </message>
+    <message>
+        <source>Total price ex. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1640,7 +2221,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Input did not validate, all fields marked with * must be filled in</source>
-        <translation type="unfinished">Die Eingaben konnten nicht validiert werden. Alle mit * markierten Felder m&amp;uuml;ssen ausgef&amp;uuml;llt werden</translation>
+        <translation type="obsolete">Die Eingaben konnten nicht validiert werden. Alle mit * markierten Felder m&amp;uuml;ssen ausgef&amp;uuml;llt werden</translation>
     </message>
     <message>
         <source>First name</source>
@@ -1652,7 +2233,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>E-mail</source>
-        <translation type="unfinished">Email</translation>
+        <translation type="obsolete">Email</translation>
     </message>
     <message>
         <source>Company</source>
@@ -1692,6 +2273,14 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>All fields marked with * must be filled in.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input did not validate. All fields marked with * must be filled in.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Email</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1772,7 +2361,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>E-mail</source>
-        <translation type="unfinished">Email</translation>
+        <translation type="obsolete">Email</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1802,16 +2391,20 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
         <source>Change password</source>
         <translation type="unfinished">Passwort &amp;auml;ndern</translation>
     </message>
+    <message>
+        <source>Email</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/forgotpassword</name>
     <message>
         <source>A mail has been sent to the following e-mail address: %1. This e-mail contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
-        <translation type="unfinished">Eine Email wurde an die folgender Emailadresse versendet: %1. Diese Email beinhaltet einen Link, den Sie anklicken m&amp;uuml;ssen, damit wir sicherstellen k&amp;ouml;nnen, dass der richtige Benutzer das neue Passwort erh&amp;auml;lt.</translation>
+        <translation type="obsolete">Eine Email wurde an die folgender Emailadresse versendet: %1. Diese Email beinhaltet einen Link, den Sie anklicken m&amp;uuml;ssen, damit wir sicherstellen k&amp;ouml;nnen, dass der richtige Benutzer das neue Passwort erh&amp;auml;lt.</translation>
     </message>
     <message>
         <source>There is no registered user with that e-mail address.</source>
-        <translation type="unfinished">Es existiert kein registrierter Benutzer mit dieser Emailadresse.</translation>
+        <translation type="obsolete">Es existiert kein registrierter Benutzer mit dieser Emailadresse.</translation>
     </message>
     <message>
         <source>Password was successfully generated and sent to: %1</source>
@@ -1827,15 +2420,31 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>If you have forgotten your password we can generate a new one for you. All you need to do is to enter your e-mail address and we will create a new password for you.</source>
-        <translation type="unfinished">Falls Sie Ihr Passwort vergesen haben k&amp;ouml;nnen wir ein neues f&amp;uuml;r Sie generieren. Sie m&amp;uuml;ssen lediglich Ihre Emailadresse eingeben und wir erstellen ein neues f&amp;uuml;r Sie.</translation>
+        <translation type="obsolete">Falls Sie Ihr Passwort vergesen haben k&amp;ouml;nnen wir ein neues f&amp;uuml;r Sie generieren. Sie m&amp;uuml;ssen lediglich Ihre Emailadresse eingeben und wir erstellen ein neues f&amp;uuml;r Sie.</translation>
     </message>
     <message>
         <source>E-mail</source>
-        <translation type="unfinished">Email</translation>
+        <translation type="obsolete">Email</translation>
     </message>
     <message>
         <source>Generate new password</source>
         <translation type="unfinished">Generiere neues Passwort</translation>
+    </message>
+    <message>
+        <source>An email has been sent to the following address: %1. It contains a link you need to click so that we can confirm that the correct user has received the new password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no registered user with that email address.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have forgotten your password, enter your email address and we will create a new password and send it to you.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Email</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1871,7 +2480,7 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     </message>
     <message>
         <source>Log in to the administration interface of eZ publish</source>
-        <translation type="unfinished">Anmelden am Administration Interface</translation>
+        <translation type="obsolete">Anmelden am Administration Interface</translation>
     </message>
     <message>
         <source>Remember me</source>
@@ -1885,11 +2494,20 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
     <message>
         <source>Sign Up</source>
         <comment>Button</comment>
-        <translation type="unfinished">Anmelden</translation>
+        <translation type="obsolete">Anmelden</translation>
     </message>
     <message>
         <source>Forgot your password?</source>
         <translation type="unfinished">Passwort vergessen?</translation>
+    </message>
+    <message>
+        <source>Log in to the eZ Publish Administration Interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign up</source>
+        <comment>Button</comment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1933,13 +2551,17 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
         <source>Your account was successfully created. An e-mail will be sent to the specified
 e-mail address. You need to follow the instructions in that mail to activate
 your account.</source>
-        <translation type="unfinished">Ihr Benutzerkonto wurde erfolgreich erstellt. Eine Email wird an die angegebene 
+        <translation type="obsolete">Ihr Benutzerkonto wurde erfolgreich erstellt. Eine Email wird an die angegebene 
 Email gesendet. Sie m&amp;uuml;ssen den Instruktionen in der Email folgen, um Ihr 
 Benutzerkonto zu aktivieren.</translation>
     </message>
     <message>
         <source>Your account was successfully created.</source>
         <translation type="unfinished">Ihr Benutzerkonto wurde erfolgreich erstellt.</translation>
+    </message>
+    <message>
+        <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1973,21 +2595,5 @@ Benutzerkonto zu aktivieren.</translation>
 </context>
 <context>
     <name>design/standard/content/edit</name>
-    <message>
-        <source>Feedback from %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The following feedback was collected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Collected information from %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The following information was collected</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 </TS>
