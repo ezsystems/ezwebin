@@ -62,8 +62,8 @@ div.border-box div.border-mc:before, div.border-box div.border-mc:after /* Preve
     content: "-";
     height: 0;
     visibility: hidden;
-    display: block; 
-    clear: both; 
+    display: block;
+    clear: both;
 }
 
 div.border-box div.border-bl
@@ -487,14 +487,14 @@ table.comparison a
 /* AUTHOR AND DATE FOR ALL FULL OBJECTS */
 
 div.content-view-full div.attribute-byline p.author
-{ 
+{
     margin-right: 0.2em;
     display: inline;
 	font-size: 0.9em;
 }
 
 div.content-view-full div.attribute-byline p.date
-{ 
+{
     margin: 0 0.2em 0 0.2em;
     display: inline;
 	color: #CCCCCC;
@@ -502,13 +502,13 @@ div.content-view-full div.attribute-byline p.date
 }
 
 div.content-view-full div.attribute-byline p.placement
-{ 
+{
     margin-left: 0.2em;
     display: inline;
 }
 
 div.content-view-full div.attribute-byline p.count
-{ 
+{
     margin-left: 0.2em;
     display: inline;
 }
@@ -516,7 +516,7 @@ div.content-view-full div.attribute-byline p.count
 /* AUTHOR AND DATE FOR ALL CHILD OBJECTS */
 
 div.content-view-full div.content-view-line div.attribute-byline p
-{ 
+{
     display: inline;
 }
 
@@ -650,7 +650,7 @@ div.context-toolbar div.block div.right
 
 /* SITEMAP */
 
-div.content-view-sitemap table td 
+div.content-view-sitemap table td
 {
 	vertical-align: top;
 }
@@ -1092,21 +1092,21 @@ div.main-column
 }
 
 div.class-blog div.attribute-byline p.tags
-{ 
+{
     margin-right: 0.2em;
     display: inline;
 	font-size: 0.9em;
 }
 
 div.class-blog div.attribute-byline p.author
-{ 
+{
     margin-right: 0.2em;
     display: inline;
 	font-size: 0.9em;
 }
 
 div.class-blog div.attribute-byline p.date
-{ 
+{
     margin: 0 0.2em 0 0;
     display: inline;
 	color: #CCCCCC;
@@ -1482,7 +1482,7 @@ div.content-view-full div.class-gallery div.content-view-children
 	float:left;
 	width: 100%;
 	clear: both;
-} 
+}
 
 div.content-view-embed div.class-gallery div.content-view-children
 {
@@ -1491,14 +1491,14 @@ div.content-view-embed div.class-gallery div.content-view-children
 
 /* FACTBOX */
 
-div.factbox 
+div.factbox
 {
 	margin: 0 auto 1em auto;
 	background: url(../images/fbox_br.png) no-repeat bottom right;
 	background-color: #ECECE3;
 }
 
-div.factbox-header 
+div.factbox-header
 {
 	background: url(../images/fbox_hr.png) no-repeat top right;
 	margin: 0;
@@ -1506,7 +1506,7 @@ div.factbox-header
 	background-color: #D5D5C2;
 }
 
-div.factbox h2 
+div.factbox h2
 {
 	background: url(../images/fbox_hl.png) no-repeat top left;
 	margin: 0;
@@ -1515,7 +1515,7 @@ div.factbox h2
 	text-align: left;
 }
 
-div.factbox-content 
+div.factbox-content
 {
 	background: url(../images/fbox_bl.png) no-repeat bottom left;
 	margin: 0;
@@ -1675,19 +1675,19 @@ div.content-view-line div.class-product div.attribute-price
 	font-weight: bold;
 }
 
-div.products div.content-view-embed div.class-product div.attribute-price 
+div.products div.content-view-embed div.class-product div.attribute-price
 {
 	font-size: 1.1em;
 	font-weight: normal;
 }
 
-div.horizontally_listed_sub_items div.content-view-embed div.class-product div.attribute-price 
+div.horizontally_listed_sub_items div.content-view-embed div.class-product div.attribute-price
 {
 	font-size: 1.1em;
 	font-weight: normal;
 }
 
-div.content-view-embed div.class-product div.attribute-price 
+div.content-view-embed div.class-product div.attribute-price
 {
 	font-size: 1.1em;
 	font-weight: normal;
@@ -2158,7 +2158,7 @@ div.content-poll-results div.resultbar
 div.content-poll-results div.result-divider
 {
     height: 20px;
-} 
+}
 
 /* QUOTE */
 
@@ -2254,7 +2254,7 @@ div#ezagenda_calendar_container
 
 div#ezagenda_calendar_container table
 {
-	background-image:url(../images/cal_bg.png); 
+	background-image:url(../images/cal_bg.png);
 	background-repeat: repeat-x;
 	background-position: top left;
 	background-color: #F0F0F0;
@@ -2447,89 +2447,139 @@ div#sidebar_calendar_today a span.ezagenda_date
 
 /* CONTENTSTRUCTURE */
 
-div#sidemenu div.contentstructure
+div#sidemenu div.contentstructure ul li a
 {
-	margin-top:0.5em;
+    border: none;
 }
 
 div#sidemenu div.contentstructure ul
 {
-    margin: 0 0 0 0;
+    margin: 0;
     padding: 0;
 }
 
 div#sidemenu div.contentstructure ul ul
 {
-    margin-left: 0.5em;
+    margin: 0.25em 0 0 0.5em;
+}
+
+div#sidemenu div.contentstructure ul ul ul
+{
+    margin: 0 0 0 1em;
 }
 
 div#sidemenu div.contentstructure li
 {
     list-style-type: none;
-    background: url(../images/left-line.gif) repeat-y left;
-    margin: 0 0 0 0.5em;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/left-line.gif);
+    background-repeat: repeat-y;
+    background-position: left;
+}
+
+div#sidemenu div.contentstructure ul ul div
+{
+    color: #000000;
+    text-decoration: none;
+    padding: 2px 0 2px 0;
 }
 
 div#sidemenu div.contentstructure li div a
 {
-    color: #000000;
-    padding: 4px 2px 4px 4px;
+    font-size: 0.9em;
     text-decoration: none;
-    display: block;
+    color: #000;
+    padding: 0 2px 0 4px;
 }
 
-div#sidemenu div.contentstructure ul li div a
+div#sidemenu div.contentstructure li.topchapter, div#sidemenu div.contentstructure li.topchapter-selected
 {
-	color: #000000;
-	font-weight: bold;
-	font-size: 0.9em;
-	text-decoration: none;
+    font-weight: bold;
+    margin: 0.5em 0 0.5em 0;
+    padding-left: 10px;
+    background-image: url(../images/linklist-bullet.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0.4em;
 }
 
-div#sidemenu div.contentstructure ul li div.currentnode a
+div#sidemenu div.contentstructure li.topchapter-selected a
 {
-	text-decoration: underline;
+    color: #000;
+    text-decoration: none;
 }
 
-div#sidemenu div.contentstructure ul ul li div a
+div#sidemenu div.contentstructure li.currentnode a:hover
 {
-	font-size: 0.9em;
-	color: #328F00;
-	font-weight: bold;
+
 }
 
-div#sidemenu div.contentstructure ul ul li.currentnode div a
+div#sidemenu div.contentstructure li.topchapter-selected li a
 {
-	text-decoration: underline;
+    font-weight: bold;
+    color: #328F00;
+    text-decoration: none;
 }
 
-div#sidemenu div.contentstructure ul ul ul li div a
+div#sidemenu div.contentstructure li.topchapter-selected li a:hover
 {
-	font-size: 0.9em;
-	color: #0090FF;
-	font-weight: normal;
-	text-decoration: underline;
+
 }
 
-div#sidemenu div.contentstructure ul ul ul li.currentnode div a
+div#sidemenu div.contentstructure li.topchapter-selected li li a
 {
-	font-weight:bold;
+    color: #0090FF;
+    font-weight: normal;
+    text-decoration: none;
 }
 
-div#sidemenu div.contentstructure li div
+div#sidemenu div.contentstructure li.topchapter-selected a:hover
 {
-    background: url(../images/left-item.gif) no-repeat top left;
+
+}
+
+div#sidemenu div.contentstructure li
+{
+    font-weight: normal;
+}
+
+div#sidemenu div.contentstructure li ul div
+{
+    background-image: url(../images/left-item.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
     padding-left: 8px;
 }
 
-div#sidemenu div.contentstructure li div.first, div#sidemenu div.contentstructure li div.first-selected
+div#sidemenu div.contentstructure li div.first
 {
-    background: url(../images/left-corner-top.gif) no-repeat top left;
+    background-image: url(../images/left-corner-top.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
 }
 
-div#sidemenu div.contentstructure li.last, div#sidemenu div.contentstructure li.last div.first-selected
+div#sidemenu div.contentstructure li.last
 {
-    background: url(../images/left-corner-end.gif) no-repeat top left;
+    background-image: url(../images/left-corner-end.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+div#sidemenu div.contentstructure li.currentnode a, div#sidemenu div.contentstructure li.topchapter-selected li.currentnode a
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div#sidemenu div.contentstructure li.topchapter-selected li.currentnode ul a
+{
+    font-weight: normal;
+    text-decoration: none;
+}
+
+div#sidemenu div.contentstructure li div a:hover, div#sidemenu div.contentstructure li.topchapter-selected li.currentnode ul a:hover
+{
+
 }
 
 /* Diff styles */
@@ -2632,7 +2682,7 @@ div.previous del
     color: #000000;
     background-color: #ffff00;
     border-bottom: none;
-    text-decoration: none   
+    text-decoration: none
 }
 
 div.latest del

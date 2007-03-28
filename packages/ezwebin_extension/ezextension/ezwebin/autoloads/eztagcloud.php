@@ -59,8 +59,7 @@ class eZTagCloud
 
                     $languageFilter = "AND " . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
 
-                    $rs = $db->arrayQuery( "SELECT ezkeyword.keyword,
-												count( ezkeyword.keyword ) AS count
+                    $rs = $db->arrayQuery( "SELECT DISTINCT ezkeyword.keyword
 											FROM ezkeyword,
 													ezkeyword_attribute_link,
 													ezcontentobject,
@@ -71,17 +70,22 @@ class eZTagCloud
 												AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
 												AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
 												AND ezkeyword.class_id = ezcontentclass.id
+												AND ezcontentclass.id = ezcontentobject.contentclass_id
+												AND ezcontentclass.version = '0'
+												AND ezcontentobject.status = '".EZ_CONTENT_OBJECT_STATUS_PUBLISHED."'
+												AND ezcontentobject_attribute.version = ezcontentobject.current_version
+												AND ezcontentobject_tree.main_node_id = ezcontentobject_tree.node_id
 												$pathString
 												$parentNodeIDSQL
 												$classIdentifierSQL
                                                 $languageFilter
-											GROUP BY ezkeyword.keyword
 											ORDER BY ezkeyword.keyword ASC" );
 
+                    include_once ('lib/ezutils/classes/ezfunctionhandler.php');
 
                     foreach( $rs as $row )
                     {
-                        $tags[$row['keyword']] = $row['count'];
+                        $tags[$row['keyword']] = eZFunctionHandler::execute( 'content', 'keyword_count', array( 'alphabet' => $row['keyword'] ) );
                     }
 
                     $maxFontSize = 200;
