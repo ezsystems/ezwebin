@@ -9,8 +9,12 @@ body /* These becomes the initial settings for most other elements */
     font-size: 0.8em;
     color: #535548;
     background-color: #ffffff;
+	background-image: url(../images/body_bg.png);
+	background-repeat: repeat-x;
+    text-align: center; /* IE method for centering page if it has fixed width */
+	margin: 0;
+	padding: 0;
 }
-
 
 /* HEADINGS */
 
