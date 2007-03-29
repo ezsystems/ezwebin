@@ -46,6 +46,13 @@
         path="/translations"
         md5sum="d41d8cd98f00b204e9800998ecf8427e"
         type="dir" />
+  <file name="por-BR"
+        path="/translations"
+        md5sum="d41d8cd98f00b204e9800998ecf8427e"
+        type="dir" />
+  <file name="translation.ts"
+        path="/translations/por-BR"
+        md5sum="7f424377a72a751f9e54fb1f5d2443d8" />
   <file name="translation.ts"
         path="/translations/chi-TW"
         md5sum="5b3924cce795ed027e0015942c72064c" />
