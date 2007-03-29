@@ -52,7 +52,7 @@ function parse_cl_parameters
 ## main ################################################
 
 # "Declare" all variables used in the script.
-OUTPUT_DIR='/tmp/ezwebin'
+OUTPUT_DIR='/tmp/ezwebin/packages'
 EXCLUDE_FILES="--exclude .svn --exclude .cache --exclude pack_and_publish.bat"
 
 # Do the work.
@@ -60,13 +60,14 @@ parse_cl_parameters $*
 
 if [ ! -d "$OUTPUT_DIR" ];then
     echo "Creating output dir: '$OUTPUT_DIR'"
-    mkdir "$OUTPUT_DIR"
+    mkdir -p "$OUTPUT_DIR"
 else
     echo "Output dir: '$OUTPUT_DIR'"
 fi
 
+cd packages
 
-for dir in ./packages/*; do
+for dir in *; do
     if [ -d "$dir" -a ! "$dir" = "package_set" ]; then
         echo "Packing $dir.ezpkg";
         rm -rf "$OUTPUT_DIR/$dir.ezpkg"
