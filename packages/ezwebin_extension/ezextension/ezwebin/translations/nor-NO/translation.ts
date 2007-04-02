@@ -3,76 +3,76 @@
     <name>design/ezwebin/article/article_index</name>
     <message>
         <source>Article index</source>
-        <translation type="unfinished"></translation>
+        <translation>Artikkelindeks</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/article/comments</name>
     <message>
         <source>Comments</source>
-        <translation type="unfinished">Kommentarer</translation>
+        <translation>Kommentarer</translation>
     </message>
     <message>
         <source>New comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny kommentar</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startLogg inn%login_link_end eller %create_link_startopprett brukerkonto%create_link_end for å kommentere.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/blog/calendar</name>
     <message>
         <source>Previous month</source>
-        <translation type="unfinished"></translation>
+        <translation>Forrige måned</translation>
     </message>
     <message>
         <source>Next month</source>
-        <translation type="unfinished"></translation>
+        <translation>Neste måned</translation>
     </message>
     <message>
         <source>Calendar</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalender</translation>
     </message>
     <message>
         <source>Mon</source>
-        <translation type="unfinished">Man</translation>
+        <translation>Man</translation>
     </message>
     <message>
         <source>Tue</source>
-        <translation type="unfinished">Tir</translation>
+        <translation>Tir</translation>
     </message>
     <message>
         <source>Wed</source>
-        <translation type="unfinished">Ons</translation>
+        <translation>Ons</translation>
     </message>
     <message>
         <source>Thu</source>
-        <translation type="unfinished">Tor</translation>
+        <translation>Tor</translation>
     </message>
     <message>
         <source>Fri</source>
-        <translation type="unfinished">Fre</translation>
+        <translation>Fre</translation>
     </message>
     <message>
         <source>Sat</source>
-        <translation type="unfinished">Lør</translation>
+        <translation>Lør</translation>
     </message>
     <message>
         <source>Sun</source>
-        <translation type="unfinished">Søn</translation>
+        <translation>Søn</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/blog/extra_info</name>
     <message>
         <source>Tags</source>
-        <translation type="unfinished"></translation>
+        <translation>Tags</translation>
     </message>
     <message>
         <source>Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Arkiv</translation>
     </message>
 </context>
 <context>
@@ -95,60 +95,60 @@
     </message>
     <message>
         <source>You have already submitted this form. The data you entered was:</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har allerede sendt inn dette skjemaet. Dataene du la inn var:</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfo/poll</name>
     <message>
         <source>Poll %pollname</source>
-        <translation type="unfinished"></translation>
+        <translation>Avstemning %pollname</translation>
     </message>
     <message>
         <source>Results</source>
-        <translation type="unfinished"></translation>
+        <translation>Resultater</translation>
     </message>
     <message>
         <source>Please log in to vote on this poll.</source>
-        <translation type="unfinished"></translation>
+        <translation>Logg inn for å avgi din stemme.</translation>
     </message>
     <message>
         <source>You have already voted for this poll.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har allerede stemt i denne avstemningen.</translation>
     </message>
     <message>
         <source>Votes</source>
-        <translation type="unfinished"></translation>
+        <translation>Stemmer</translation>
     </message>
     <message>
         <source>%count total votes</source>
-        <translation type="unfinished"></translation>
+        <translation>%count stemmer totalt</translation>
     </message>
     <message>
         <source>Back to poll</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilbake til avstemning</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfomail/feedback</name>
     <message>
         <source>Feedback from %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilbakemelding fra %1</translation>
     </message>
     <message>
         <source>The following feedback was collected</source>
-        <translation type="unfinished"></translation>
+        <translation>Følgende tilbakemelding ble registrert</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfomail/form</name>
     <message>
         <source>Collected information from %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Innsamlet informasjon fra %1</translation>
     </message>
     <message>
         <source>The following information was collected</source>
-        <translation type="unfinished"></translation>
+        <translation>Følgende informasjon ble registrert</translation>
     </message>
 </context>
 <context>
@@ -269,7 +269,7 @@
     </message>
     <message>
         <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
-        <translation type="unfinished"></translation>
+        <translation>For å velge et objekt som er plassert under et av de viste objektene, klikk det for å vise en liste over underobjekter.</translation>
     </message>
 </context>
 <context>
@@ -288,7 +288,7 @@
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Motsatt valg</translation>
     </message>
 </context>
 <context>
@@ -432,7 +432,7 @@ Du kan redigere utkastene, eller fjerne dem hvis du ikke trenger dem lengre.</tr
     </message>
     <message>
         <source>Empty draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Tøm utkast</translation>
     </message>
 </context>
 <context>
@@ -483,15 +483,15 @@ Du kan redigere utkastene, eller fjerne dem hvis du ikke trenger dem lengre.</tr
     </message>
     <message>
         <source>Discard draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Forkast utkast</translation>
     </message>
     <message>
         <source>Translate from</source>
-        <translation type="unfinished"></translation>
+        <translation>Oversett fra</translation>
     </message>
     <message>
         <source>Documentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentasjon</translation>
     </message>
 </context>
 <context>
@@ -510,15 +510,15 @@ Du kan redigere utkastene, eller fjerne dem hvis du ikke trenger dem lengre.</tr
     </message>
     <message>
         <source>Not translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan ikke oversettes</translation>
     </message>
     <message>
         <source>Required</source>
-        <translation type="unfinished"></translation>
+        <translation>Obligatorisk</translation>
     </message>
     <message>
         <source>Information collector</source>
-        <translation type="unfinished"></translation>
+        <translation>Informasjonsinnhenter</translation>
     </message>
 </context>
 <context>
@@ -586,12 +586,14 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     <message>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation>Objektet blir allerede redigert av deg selv og andre.
+Du kan enten fortsette med å redigere et av utkastene dine, eller du kan lage et nytt utkast.</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Objektet blir redigert av en annen.
+Kontakt vedkommende om dette, eller lagt et nytt utkast til ditt eget bruk.</translation>
     </message>
 </context>
 <context>
@@ -642,27 +644,27 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>Select the language you want to use when editing the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Velg språket du ønsker å bruke når du redigerer objektet.</translation>
     </message>
     <message>
         <source>Select the language you want to add to the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Velg språket du ønsker å legge til objektet.</translation>
     </message>
     <message>
         <source>Select the language the new translation will be based on.</source>
-        <translation type="unfinished"></translation>
+        <translation>Velg språket den nye oversettelsen skal baseres på.</translation>
     </message>
     <message>
         <source>Use an empty, untranslated draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruk et tomt, ikke oversatt utkast</translation>
     </message>
     <message>
         <source>You do not have permission to create a translation in another language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har ikke tillatelse til å opprette oversettelser til andre språk.</translation>
     </message>
     <message>
         <source>However, you can select one of the following languages for editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan imidlertid velge et av følgende språk for redigering.</translation>
     </message>
 </context>
 <context>
@@ -837,58 +839,58 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versjon %1 kan ikke lenger redigeres. Det er bare utkast som kan redigeres.</translation>
     </message>
     <message>
         <source>To edit this version, first create a copy of it.</source>
-        <translation type="unfinished"></translation>
+        <translation>For å redigere denne versjonen må du først lage en kopi av den.</translation>
     </message>
     <message>
         <source>Version %1 was not created by you. Only your own drafts can be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versjon %1 ble ikke opprettet av deg. Du kan bare redigere dine egne utkast.</translation>
     </message>
     <message>
         <source>You can either change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan endre innstillingene for versjonshistorie i content.ini, fjerne utkast eller redigere eksisterende utkast.</translation>
     </message>
     <message>
         <source>Toggle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Motsatt valg</translation>
     </message>
     <message>
         <source>Edited language</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigert språk</translation>
     </message>
     <message>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versjon #%version_number kan ikke fjernes fordi den enten er den publiserte versjonen av objektet, eller fordi du ikke har tillatelse til å fjerne den.</translation>
     </message>
     <message>
         <source>There is no need to do a copies of untouched drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det er ikke nødvendlig å lage kopier av urørte utkast.</translation>
     </message>
     <message>
         <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan ikke lage kopier av versjoner fordi du ikke har tillatelse til å redigere objektet.</translation>
     </message>
     <message>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan ikke redigere versjon #%version_number enten fordi den ikke er et utkast, eller fordi du ikke har tillatelse til å redigere objektet.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/keyword</name>
     <message>
         <source>Keyword: %keyword</source>
-        <translation type="unfinished"></translation>
+        <translation>Nøkkelord: %keyword</translation>
     </message>
     <message>
         <source>Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Lenke</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Type</translation>
+        <translation>Type</translation>
     </message>
 </context>
 <context>
@@ -936,74 +938,74 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>The following words were excluded from the search:</source>
-        <translation type="unfinished"></translation>
+        <translation>Følgende ord ble ikke tatt med i søket:</translation>
     </message>
     <message>
         <source>No results were found when searching for &quot;%1&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen resultater ble funnet ved søk etter &quot;%1&quot;.</translation>
     </message>
     <message>
         <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Prøv å endre noen nøkkelord (f.eks. &quot;bil&quot; i stedet for &quot;biler&quot;).</translation>
     </message>
     <message>
         <source>Try searching with less specific keywords.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prøv å søke med mindre spesifikke nøkkelord.</translation>
     </message>
     <message>
         <source>Reduce number of keywords to get more results.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruk færre søkeord for å få flere resultater.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/tipafriend</name>
     <message>
         <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
+        <translation>Tips en venn</translation>
     </message>
     <message>
         <source>The message was sent.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meldingen ble sendt.</translation>
     </message>
     <message>
         <source>Click here to return to the original page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikk her for å gå tilbake til siden du kom fra.</translation>
     </message>
     <message>
         <source>The message was not sent.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meldingen ble ikke sendt.</translation>
     </message>
     <message>
         <source>The message was not sent due to an unknown error. Please notify the site administrator about this error.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meldingen ble ikke sendt, årsaken er ukjent. Vennligst kontakt nettstedsadministratoren angående dette.</translation>
     </message>
     <message>
         <source>Please correct the following errors:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vennligst rett følgende feil:</translation>
     </message>
     <message>
         <source>Your name</source>
-        <translation type="unfinished"></translation>
+        <translation>Ditt navn</translation>
     </message>
     <message>
         <source>Your email address</source>
-        <translation type="unfinished"></translation>
+        <translation>Din e-postadresse</translation>
     </message>
     <message>
         <source>Recipient&apos;s email address</source>
-        <translation type="unfinished"></translation>
+        <translation>Mottagerens e-postadresse</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished">Kommentar</translation>
+        <translation>Kommentar</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation type="unfinished"></translation>
+        <translation>Send</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Avbryt</translation>
+        <translation>Avbryt</translation>
     </message>
 </context>
 <context>
@@ -1101,7 +1103,7 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>Manage versions</source>
-        <translation type="unfinished">Behandle versjoner</translation>
+        <translation>Behandle versjoner</translation>
     </message>
 </context>
 <context>
@@ -1175,38 +1177,38 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     <name>design/ezwebin/embed/poll</name>
     <message>
         <source>Vote</source>
-        <translation type="unfinished"></translation>
+        <translation>Stem</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezinfo/about</name>
     <message>
         <source>eZ Publish information: %version</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>What is eZ Publish?</source>
-        <translation type="unfinished"></translation>
+        <translation>eZ Publish informasjon: %version</translation>
     </message>
     <message>
         <source>Licence</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisens</translation>
     </message>
     <message>
         <source>Contributors</source>
-        <translation type="unfinished"></translation>
+        <translation>Bidragsytere</translation>
     </message>
     <message>
         <source>Copyright Notice</source>
-        <translation type="unfinished"></translation>
+        <translation>Informasjon om copyright</translation>
     </message>
     <message>
         <source>Third-Party Software</source>
-        <translation type="unfinished"></translation>
+        <translation>Tredjeparts software</translation>
     </message>
     <message>
         <source>Extensions</source>
-        <translation type="unfinished"></translation>
+        <translation>Utvidelser</translation>
+    </message>
+    <message>
+        <source>What is eZ Publish?</source>
+        <translation>Hva er eZ Publish?</translation>
     </message>
 </context>
 <context>
@@ -1221,59 +1223,59 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>New comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny kommentar</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startLogg inn%login_link_end eller %create_link_startopprett brukerkonto%create_link_end for å kommentere.</translation>
     </message>
     <message>
         <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
+        <translation>Tips en venn</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_mainpage</name>
     <message>
         <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
+        <translation>Tips en venn</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_subpage</name>
     <message>
         <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
+        <translation>Tips en venn</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/blog_post</name>
     <message>
         <source>Tags:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tags:</translation>
     </message>
     <message>
         <source>Comments</source>
-        <translation type="unfinished">Kommentarer</translation>
+        <translation>Kommentarer</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startLogg inn%login_link_end eller %create_link_startopprett brukerkonto%create_link_end for å kommentere.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/documentation_page</name>
     <message>
-        <source>Table of contents</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Created:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opprettet:</translation>
     </message>
     <message>
         <source>Modified:</source>
-        <translation type="unfinished"></translation>
+        <translation>Endret:</translation>
+    </message>
+    <message>
+        <source>Table of contents</source>
+        <translation>Innholdsfortegnelse</translation>
     </message>
 </context>
 <context>
@@ -1458,7 +1460,7 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%</source>
-        <translation type="unfinished">Du må være logget inn for å få tilgang til forum. Du kan gjøre det %login_link_start%her%login_link_end%</translation>
+        <translation>Du må være logget inn for å få tilgang til forum. Du kan gjøre det %login_link_start%her%login_link_end%</translation>
     </message>
 </context>
 <context>
@@ -1498,30 +1500,30 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     <name>design/ezwebin/full/multicalendar</name>
     <message>
         <source>Event</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrangement</translation>
     </message>
     <message>
         <source>Start date</source>
-        <translation type="unfinished"></translation>
+        <translation>Startdato</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">Kategori</translation>
+        <translation>Kategori</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Beskrivelse</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/poll</name>
     <message>
         <source>Vote</source>
-        <translation type="unfinished"></translation>
+        <translation>Stem</translation>
     </message>
     <message>
         <source>Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Resultat</translation>
     </message>
 </context>
 <context>
@@ -1587,11 +1589,11 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>Number of topics</source>
-        <translation type="unfinished"></translation>
+        <translation>Antall emner</translation>
     </message>
     <message>
         <source>Number of posts</source>
-        <translation type="unfinished"></translation>
+        <translation>Antall poster</translation>
     </message>
 </context>
 <context>
@@ -1605,11 +1607,11 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     <name>design/ezwebin/line/poll</name>
     <message>
         <source>%count votes</source>
-        <translation type="unfinished"></translation>
+        <translation>%count stemmer</translation>
     </message>
     <message>
         <source>Vote</source>
-        <translation type="unfinished"></translation>
+        <translation>Stem</translation>
     </message>
 </context>
 <context>
@@ -1684,7 +1686,7 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>If %trashname is checked, removed items can be found in the trash.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis det er krysset av for %trashname, så kan slettet innhold bli gjenfunnet i papirkurven.</translation>
     </message>
 </context>
 <context>
@@ -1756,19 +1758,19 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Om</translation>
     </message>
     <message>
         <source>Edit: %node_name [%class_name]</source>
-        <translation type="unfinished"></translation>
+        <translation>Rediger: %node_name [%class_name]</translation>
     </message>
     <message>
         <source>Add locations</source>
-        <translation type="unfinished"></translation>
+        <translation>Legg til plasseringer</translation>
     </message>
     <message>
         <source>Documentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentasjon</translation>
     </message>
 </context>
 <context>
@@ -1910,31 +1912,31 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>The following items were removed from your basket because the products were changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Følgende ble fjernet fra handlekurven din fordi produktene er blitt endret.</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Total pris eks. MVA</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Total pris inkl. MVA</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukjent</translation>
     </message>
     <message>
         <source>Subtotal ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtotal eks. MVA</translation>
     </message>
     <message>
         <source>Subtotal inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtotal inkl. MVA</translation>
     </message>
     <message>
         <source>You have no products in your basket.</source>
-        <translation type="unfinished"></translation>
+        <translation>Handlekurven din er tom.</translation>
     </message>
 </context>
 <context>
@@ -2005,11 +2007,11 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Total pris eks. MVA</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Total pris inkl. MVA</translation>
     </message>
 </context>
 <context>
@@ -2052,78 +2054,78 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>Customer information</source>
-        <translation type="unfinished"></translation>
+        <translation>Kundeinformasjon</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderlist</name>
     <message>
         <source>Order list</source>
-        <translation type="unfinished">Ordreliste</translation>
+        <translation>Ordreliste</translation>
     </message>
     <message>
         <source>Sort result by</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorter resultater etter</translation>
     </message>
     <message>
         <source>Order time</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordretidspunkt</translation>
     </message>
     <message>
         <source>User name</source>
-        <translation type="unfinished"></translation>
+        <translation>Brukernavn</translation>
     </message>
     <message>
         <source>Order ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordre-ID</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>Stigende</translation>
     </message>
     <message>
         <source>Sort ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorter i stigende rekkefølge</translation>
     </message>
     <message>
         <source>Descending</source>
-        <translation type="unfinished"></translation>
+        <translation>Synkende</translation>
     </message>
     <message>
         <source>Sort descending</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorter i synkende rekkefølge</translation>
     </message>
     <message>
         <source>Sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorter</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished">ID</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">Dato</translation>
+        <translation>Dato</translation>
     </message>
     <message>
         <source>Customer</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished">Total eks. MVA</translation>
+        <translation>Total eks. MVA</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished">Total inkl. MVA</translation>
+        <translation>Total inkl. MVA</translation>
     </message>
     <message>
         <source>The order list is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordrelisten er tom</translation>
     </message>
     <message>
         <source>Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Arkiv</translation>
     </message>
 </context>
 <context>
@@ -2186,11 +2188,11 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Total pris eks. MVA</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Total pris inkl. MVA</translation>
     </message>
 </context>
 <context>
@@ -2269,11 +2271,11 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>Input did not validate. All fields marked with * must be filled in.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innlagte data er ikke gyldige. Alle felter merket med * må fylles inn.</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>E-post</translation>
     </message>
 </context>
 <context>
@@ -2334,11 +2336,11 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontoen din er alt aktivert.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -2385,7 +2387,7 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>E-post</translation>
     </message>
 </context>
 <context>
@@ -2424,19 +2426,19 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>An email has been sent to the following address: %1. It contains a link you need to click so that we can confirm that the correct user has received the new password.</source>
-        <translation type="unfinished"></translation>
+        <translation>En e-post har blitt sendt til denne adressen: %1. E-posten inneholder en link du må klikke på for å bekrefte at rett person har mottatt det nye passordet.</translation>
     </message>
     <message>
         <source>There is no registered user with that email address.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det er ingen registrert bruker med den e-postadressen.</translation>
     </message>
     <message>
         <source>If you have forgotten your password, enter your email address and we will create a new password and send it to you.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis du har glemt passordet ditt kan vi sende deg et nytt. Alt du trenger å gjøre er å skrive inn e-postadressen din og vi lager et nytt passord til deg.</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>E-post</translation>
     </message>
 </context>
 <context>
@@ -2494,12 +2496,12 @@ Du kan enten fortsette med å redigere ett av dine utkast eller du kan lage et n
     </message>
     <message>
         <source>Log in to the eZ Publish Administration Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>Logg inn til administrasjonssidene til eZ publish</translation>
     </message>
     <message>
         <source>Sign up</source>
         <comment>Button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ny bruker</translation>
     </message>
 </context>
 <context>
@@ -2553,7 +2555,7 @@ kontoen din.</translation>
     </message>
     <message>
         <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontoen din er opprettet. En e-post vil bli sendt til den spesifiserte e-postadressen. Du må følge instruksjonene i denne e-posten for å aktivere kontoen din.</translation>
     </message>
 </context>
 <context>
