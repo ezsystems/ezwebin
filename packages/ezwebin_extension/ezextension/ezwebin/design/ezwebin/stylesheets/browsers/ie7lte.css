@@ -1,0 +1,141 @@
+/* IE5 + IE6 + IE7 SPECIAL CSS - 20060522 */
+
+div#searchbox
+{
+	margin-top: 1.5em;
+}
+
+div#columns
+{ 
+    margin-bottom: 0.5em;
+}
+
+div.columns-frontpage
+{
+	margin-bottom: 2em;
+}
+
+div.overflow-fix /* Hides long non-breaking lines and terminates bugs */
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+div#heightresize-main
+{
+    border-bottom: 1px solid #ffffff;  /* Fix if height script is used */
+}
+
+input.button
+{
+    padding: 0 0.5em 0 0.5em;
+    overflow: visible;  /* Fix for %-padding on input buttons */
+}
+
+div.box-et
+{
+	margin-bottom: 10px;
+}
+
+div.box-et div.box-content div.block div.left img
+{
+	top: -1px;
+}
+
+div.box-et div.box-content div.block div.right img
+{
+	top: -1px;
+}
+
+div.box-et div.box-content div.block div.right img.oohelp
+{
+	top: -6px;
+}
+
+div.box-et div.box-content div.block div.right img.help
+{
+	top: -1px;
+}
+
+div.box-et-content-edit div.box-content div.block div.right img.help
+{
+	top: -1px;
+}
+
+div.box-et div.box-content div.block div.left form input
+{
+	display: inline;
+	margin: 0;
+	position: relative;
+	top: -4px;
+}
+
+div.box-et div.box-content div.block div.right form input
+{
+	display: inline;
+	margin: 0;
+	position: relative;
+	top: -5px;
+}
+
+div.box-et div.box-content div.block div.left form select
+{
+	font-size: 0.8em;
+	display: inline;
+	margin: 0;
+	position: relative;
+	top: -2px;
+}
+
+div.box-et-content-edit div.box-content div.block div.left input
+{
+	display: inline;
+	margin: 0;
+	position: relative;
+	top: -4px;
+}
+
+div.box-et-content-edit div.box-content div.block div.right input
+{
+	display: inline;
+	margin: 0;
+	position: relative;
+	top: -5px;
+}
+
+div.box-et-content-edit div.box-content div.block div.left select
+{
+	font-size: 0.8em;
+	display: inline;
+	margin: 0;
+	position: relative;
+	top: -2px;
+}
+
+div.box-et div.bl
+{
+	height: 16px;
+}
+
+div.frontpage-et
+{
+	left: 0px;
+	margin-top: 0.75em;
+}
+
+div.box-et-content-edit
+{
+	left: 0px;
+	margin-bottom: 1em
+}
+
+div#path
+{
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+}
+
+div.content-view-full div.class-frontpage div.attribute-billboard
+{
+	padding-top: 0.2em;
+}

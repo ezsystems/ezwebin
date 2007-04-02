@@ -1,0 +1,7 @@
+<?php /*
+
+[RegionalSettings]
+TranslationExtensions[]=ezwebin
+
+
+*/ ?>
