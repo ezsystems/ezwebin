@@ -1,231 +1,283 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS><TS version="1.1" language="de_DE">
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Article index</source>
-        <translation type="unfinished"></translation>
+        <translation>Artikel Übersicht</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/article/comments</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentare</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>New comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Neuer Kommentar</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte melden Sie sich %login_link_startLogan%login_link_end oder %create_link_startregistrieren%create_link_end Sie sich um kommentieren zu können.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/blog/calendar</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Previous month</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorheriger Monat</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Next month</source>
-        <translation type="unfinished"></translation>
+        <translation>Nächster Monat</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Calendar</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalender</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Mon</source>
-        <translation type="unfinished"></translation>
+        <translation>Mon</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Tue</source>
-        <translation type="unfinished"></translation>
+        <translation>Di</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Wed</source>
-        <translation type="unfinished"></translation>
+        <translation>Mi</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Thu</source>
-        <translation type="unfinished"></translation>
+        <translation>Do</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Fri</source>
-        <translation type="unfinished"></translation>
+        <translation>Fr</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Sat</source>
-        <translation type="unfinished"></translation>
+        <translation>Sa</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Sun</source>
-        <translation type="unfinished"></translation>
+        <translation>So</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/blog/extra_info</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Tags</source>
-        <translation type="unfinished"></translation>
+        <translation>Tags</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Archiv</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfo/form</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Form %formname</source>
         <translation>Formular %formname</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Thank you for your feedback.</source>
-        <translation type="unfinished">Vielen Dank f&amp;uuml; Ihre R&amp;uuml;ckmeldung</translation>
+        <translation>Vielen Dank für Ihre Rückmeldung.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You have already submitted data to this form. The previously submitted data was the following.</source>
-        <translation type="obsolete">Sie haben schon Daten &amp;uuml;bermittelt. Die vorher &amp;uuml;bermittelten Daten sind die folgenden.</translation>
+        <translation type="obsolete">Sie haben schon Daten übermittelt. Die vorher übermittelten Daten sind die folgenden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Return to site</source>
-        <translation type="unfinished">zur Seite zur&amp;uuml;ckkehren</translation>
+        <translation>zur Seite zurückkehren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You have already submitted this form. The data you entered was:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie haben dieses Formular bereits abgesendet. Der Inhalt war folgendermaßen:</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfo/poll</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Poll %pollname</source>
-        <translation type="unfinished"></translation>
+        <translation>Umfrage %pollname</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Results</source>
-        <translation type="unfinished"></translation>
+        <translation>Ergebnisse</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Please log in to vote on this poll.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte melden Sie sich an um an dieser Umfrage teilzunehmen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You have already voted for this poll.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie haben in dieser Umfrage bereits abgestimmt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Votes</source>
-        <translation type="unfinished"></translation>
+        <translation>Stimmen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>%count total votes</source>
-        <translation type="unfinished"></translation>
+        <translation>%count Stimmen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Back to poll</source>
-        <translation type="unfinished"></translation>
+        <translation>Zurück zur Umfrage</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfomail/feedback</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Feedback from %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Rückmeldung vom %1</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The following feedback was collected</source>
-        <translation type="unfinished"></translation>
+        <translation>Folgende Rückmeldungen wurden gesammelt</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfomail/form</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Collected information from %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesammelte Information from %1</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The following information was collected</source>
-        <translation type="unfinished"></translation>
+        <translation>Die folgende Information wurde gesammelt</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/advancedsearch</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Advanced search</source>
         <translation>Erweiterte Suche</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Search all the words</source>
-        <translation type="unfinished">Suche alle W&amp;ouml;rter</translation>
+        <translation>Suche alle Wörter</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Search the exact phrase</source>
         <translation>Suche exakten Ausdruck</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Search with at least one of the words</source>
-        <translation type="unfinished">Suche mit mindestens einem dieser W&amp;ouml;rter</translation>
+        <translation>Suchen nach mindestens einem dieser Wörter</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Published</source>
-        <translation type="unfinished">Ver&amp;ouml;ffentlicht</translation>
+        <translation>Veröffentlicht</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Any time</source>
         <translation>Beliebige Zeit</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Last day</source>
         <translation>Letzter Tag</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Last week</source>
         <translation>Letzte Woche</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Last three months</source>
         <translation>Letzten drei Monate</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Last year</source>
         <translation>Letztes Jahr</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Display per page</source>
         <translation>Pro Seite anzeigen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>5 items</source>
-        <translation type="unfinished">5 St&amp;uuml;ck</translation>
+        <translation>5 Stück</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>10 items</source>
-        <translation type="unfinished">10 St&amp;uuml;ck</translation>
+        <translation>10 Stück</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>20 items</source>
-        <translation type="unfinished">20 St&amp;uuml;ck</translation>
+        <translation>20 Stück</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>30 items</source>
-        <translation type="unfinished">30 St&amp;uuml;ck</translation>
+        <translation>30 Stück</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>50 items</source>
-        <translation type="unfinished">50 St&amp;uuml;ck</translation>
+        <translation>50 Stück</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Search</source>
         <translation>Suchen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation type="unfinished">Bei der Suche nach &quot;%1&quot; wurden keine Ergebnisse gefunden.</translation>
+        <translation>Bei der Suche nach &quot;%1&quot; wurden keine Ergebnisse gefunden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
         <translation>Die Suche nach &quot;%1&quot; ergab %2 Treffer</translation>
     </message>
@@ -233,6 +285,7 @@
 <context>
     <name>design/ezwebin/content/advancedsearchh</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Last month</source>
         <translation>Letzter Monat</translation>
     </message>
@@ -240,839 +293,1038 @@
 <context>
     <name>design/ezwebin/content/browse</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Browse</source>
-        <translation type="unfinished">Durchsuchen</translation>
+        <translation>Durchsuchen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the &quot;Select&quot; button.</source>
-        <translation type="unfinished">Um Objekte auszuw&amp;auml;hlen, markieren Sie die zgeh&amp;ouml;rigen Auswahlfelder und dr&amp;uuml;cken auf Ausw&amp;auml;hlen</translation>
+        <translation>Um Objekte auszuwählen, markieren Sie die zugehörigen Auswahlfelder und klicken Sie auf Auswählen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>To select an object that is a child of one of the displayed objects, click the object name and you will get a list of the children of the object.</source>
-        <translation type="obsolete">Um ein Objekt auszuw&amp;auml;hlen, dass unterhalb eines angezeigten Objekts liegt, klicken Sie auf den Namen dieses Objekts, um eine Liste der untergeordeneten Objekte angezeigt zu bekommen.</translation>
+        <translation type="obsolete">Um ein Objekt auszuwählen, dass unterhalb eines angezeigten Objekts liegt, klicken Sie auf den Namen dieses Objekts, um eine Liste der untergeordeneten Objekte angezeigt zu bekommen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Back</source>
-        <translation type="unfinished">Zur&amp;uuml;ck</translation>
+        <translation>Zurück</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Top level</source>
-        <translation type="unfinished">Oberste Ebene</translation>
+        <translation>Oberste Ebene</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Select</source>
-        <translation type="unfinished">Ausw&amp;auml;hlen</translation>
+        <translation>Auswählen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Cancel</source>
-        <translation type="unfinished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicken Sie auf den Namen eines Objektes, um dessen Kindobjekte auswählen zu können.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/browse_mode_list</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Invert selection.</source>
         <translation type="obsolete">Auswahl umkehren.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Name</source>
-        <translation type="unfinished">Name</translation>
+        <translation>Name</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Type</source>
-        <translation type="unfinished">Typ</translation>
+        <translation>Typ</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Invert selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl invertieren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="unfinished">version f&amp;uuml;r &lt;%object_name&gt; [%version_count]</translation>
+        <translation>Versionen für &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version</source>
-        <translation type="unfinished">Version</translation>
+        <translation>Version</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Status</source>
-        <translation type="unfinished">Status</translation>
+        <translation>Status</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Translations</source>
-        <translation type="unfinished">&amp;Uuml;bersetzungen</translation>
+        <translation>Übersetzungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Creator</source>
-        <translation type="unfinished">Ersteller</translation>
+        <translation>Ersteller</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Modified</source>
-        <translation type="unfinished">Ge&amp;auml;ndert</translation>
+        <translation>Geändert</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Draft</source>
-        <translation type="unfinished">Entwurf</translation>
+        <translation>Entwurf</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Published</source>
-        <translation type="unfinished">Ver&amp;ouml;ffentlicht</translation>
+        <translation>Veröffentlicht</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Pending</source>
-        <translation type="unfinished">Schwebend</translation>
+        <translation>Schwebend</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Archived</source>
-        <translation type="unfinished">Archiviert</translation>
+        <translation>Archiviert</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Rejected</source>
-        <translation type="unfinished">Abgelehnt</translation>
+        <translation>Abgelehnt</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Untouched draft</source>
-        <translation type="unfinished">Unber&amp;uuml;hrter Entwurf</translation>
+        <translation>Unberührter Entwurf</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>This object does not have any versions.</source>
-        <translation type="unfinished">Das Objekt hat keine Versionen.</translation>
+        <translation>Das Objekt hat keine Versionen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Show differences</source>
-        <translation type="unfinished">Unterschiede zeigen</translation>
+        <translation>Unterschiede anzeigen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="unfinished">Unterschiede zwischen der Version %oldVersion und %newVersion</translation>
+        <translation>Unterschiede zwischen den Versionen %oldVersion und %newVersion</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Old version</source>
-        <translation type="unfinished">Alte Version</translation>
+        <translation>Alte Version</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Inline changes</source>
-        <translation type="unfinished">Inhalt ver&amp;auml;ndert</translation>
+        <translation>Teiländerungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Block changes</source>
-        <translation type="unfinished">Block ver&amp;auml;ndert</translation>
+        <translation>Blockänderungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>New version</source>
-        <translation type="unfinished">Neue Version</translation>
+        <translation>Neue Version</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/draft</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Select all</source>
-        <translation type="unfinished">Alle ausw&amp;auml;hlen</translation>
+        <translation>Alle auswählen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Deselect all</source>
-        <translation type="unfinished">Alle abw&amp;auml;hlen</translation>
+        <translation>Alle abwählen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>My drafts</source>
-        <translation type="unfinished">Meine Entw&amp;uuml;rfe</translation>
+        <translation>Meine Entwürfe</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Empty Draft</source>
-        <translation type="obsolete">Entw&amp;uuml;rfe l&amp;ouml;schen</translation>
+        <translation type="obsolete">Entwürfe löschen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation type="unfinished">Dies sind die Objekte, an denen Sie gerade arbeiten. Die Entw&amp;uuml;rfe geh&amp;ouml;ren Ihnen und k&amp;ouml;nnen nur von Ihnen gesehen werden.
-Sie k&amp;ouml;nnen einen Entwurf bearbeiten oder Entw&amp;uuml;rfe l&amp;ouml;schen, die Sie nicht mehr brauchen.</translation>
+        <translation>Diese Objekte werden derzeit durch Sie bearbeitet. Die Entwürfe gehören Ihnen und können nur von Ihnen gesehen werden.
+Sie können hier Entwürfe bearbeiten und nicht mehr benötigte löschen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Name</source>
-        <translation type="unfinished">Name</translation>
+        <translation>Name</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Class</source>
-        <translation type="unfinished">Klasse</translation>
+        <translation>Klasse</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Section</source>
-        <translation type="unfinished">Sektion</translation>
+        <translation>Sektion</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version</source>
-        <translation type="unfinished">Version</translation>
+        <translation>Version</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Language</source>
-        <translation type="unfinished">Sprache</translation>
+        <translation>Sprache</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Last modified</source>
-        <translation type="unfinished">Zuletzt ge&amp;auml;ndert</translation>
+        <translation>Zuletzt geändert</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit</source>
-        <translation type="unfinished">Bearbeiten</translation>
+        <translation>Bearbeiten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Remove</source>
-        <translation type="unfinished">Entfernen</translation>
+        <translation>Entfernen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You have no drafts</source>
-        <translation type="unfinished">Sie haben keine Entw&amp;uuml;rfe</translation>
+        <translation>Sie haben keine Entwürfe</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Empty draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Leerer Entwurf</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Manage versions</source>
-        <translation type="unfinished">Versionen verwalten</translation>
+        <translation>Versionen verwalten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Store and exit</source>
-        <translation type="unfinished">Speichern und verlassen</translation>
+        <translation>Speichern und verlassen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Store the draft that is being edited and exit from edit mode.</source>
         <translation type="obsolete">Den derzeitigen Entwurf speichern und den Bearbeitungsmodus verlassen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Preview</source>
-        <translation type="unfinished">Vorschau</translation>
+        <translation>Vorschau</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>No translation</source>
-        <translation type="obsolete">Keine &amp;Uuml;bersetzung</translation>
+        <translation type="obsolete">Keine Übersetzung</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Translate</source>
-        <translation type="unfinished">&amp;Uuml;bersetzen</translation>
+        <translation>Übersetzen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit the current object showing the selected language as a reference.</source>
-        <translation type="obsolete">Aktuelles Objekt bearbeiten, dass die ausgew&amp;auml;hlte Sprache als Referenz hat.</translation>
+        <translation type="obsolete">Aktuelles Objekt bearbeiten, dass die ausgewählte Sprache als Referenz hat.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit %1 - %2</source>
-        <translation type="unfinished">Bearbeiten %1 - %2</translation>
+        <translation>Bearbeiten %1 - %2</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Send for publishing</source>
-        <translation type="unfinished">Zur Ver&amp;ouml;ffentlichung schicken</translation>
+        <translation>Zur Veröffentlichung schicken</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Store draft</source>
-        <translation type="unfinished">Entwurf speichern</translation>
+        <translation>Entwurf speichern</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Discard</source>
         <translation type="obsolete">Verwerfen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Discard draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Entwurf verwerfen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Translate from</source>
-        <translation type="unfinished"></translation>
+        <translation>Übersetzen vom </translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Documentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentation</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_attribute</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>not translatable</source>
-        <translation type="obsolete">nicht &amp;uuml;bersetzbar</translation>
+        <translation type="obsolete">nicht übersetzbar</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>required</source>
         <translation type="obsolete">erforderlich</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>information collector</source>
         <translation type="obsolete">Informationssammler</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Not translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht übersetzbar</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Required</source>
-        <translation type="unfinished"></translation>
+        <translation>Erforderlich</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Information collector</source>
-        <translation type="unfinished"></translation>
+        <translation>Informationssammler</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_draft</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>The currently published version is %version and was published at %time.</source>
-        <translation type="unfinished">Die derzeitige ver&amp;ouml;ffentlichte Version ist %version und wurde ver&amp;ouml;ffendlicht am %time.</translation>
+        <translation>Die derzeitige veröffentlichte Version ist %version und wurde am %time veröffentlicht.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The last modification was done at %modified.</source>
-        <translation type="unfinished">Die letzte &amp;Auml;nderung wurde get&amp;auml;tigt am %modified.</translation>
+        <translation>Die letzte Änderung wurde am %modified vorgenommen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The object is owned by %owner.</source>
-        <translation type="unfinished">Das Objekt geh&amp;ouml;rt %owner.</translation>
+        <translation>Dieses Objekt gehört %owner.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>This object is already being edited by someone else including you.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="obsolete">Das Objekt wird gerade von jemand anderen (oder Ihnen selbst) bearbeitet.Sie k&amp;ouml;nnen entweder einen Ihrer Entw&amp;uuml;rfe weiter bearbeiten oder einen neuen erstellen.</translation>
+        <translation type="obsolete">Das Objekt wird gerade von jemand anderen (oder Ihnen selbst) bearbeitet.Sie können entweder einen Ihrer Entwürfe weiter bearbeiten oder einen neuen erstellen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished">Das Objekt wird schon von Ihnen editiert.Sie k&amp;ouml;nnen entweder einen Ihrer Entw&amp;uuml;rfe weiter bearbeiten oder einen neuen erstellen.</translation>
+        <translation>Das Objekt wird bereits von Ihnen bearbeitet.Sie können entweder einen Ihrer Entwürfe weiter bearbeiten oder einen neuen erstellen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>This object is already being edited by someone else.
         You should either contact the person about the draft or create a new draft for personal editing.</source>
         <translation type="obsolete">Das Objekt wird schon von jemand anderen bearbeitet.
-Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf zum pers&amp;ouml;nlichen Bearbeiten erstellen.</translation>
+Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf zum persönlichen Bearbeiten erstellen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Current drafts</source>
-        <translation type="unfinished">Derzeitiger Entwurf</translation>
+        <translation>Derzeitige Entwürfe</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version</source>
-        <translation type="unfinished">Version</translation>
+        <translation>Version</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Name</source>
-        <translation type="unfinished">Name</translation>
+        <translation>Name</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Owner</source>
-        <translation type="unfinished">Besitzer</translation>
+        <translation>Besitzer</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Created</source>
-        <translation type="unfinished">Erstellt</translation>
+        <translation>Erstellt</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Last modified</source>
-        <translation type="unfinished">Zuletzt ge&amp;auml;ndert</translation>
+        <translation>Zuletzt geändert</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit</source>
-        <translation type="unfinished">Bearbeiten</translation>
+        <translation>Bearbeiten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>New draft</source>
-        <translation type="unfinished">Neuer Entwurf</translation>
+        <translation>Neuer Entwurf</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Objekt wird bereits durch Sie und andere bearbeitet
+Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf erstellen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Objekt wird schon von jemand anderem bearbeitet.Sie sollten entweder die Person kontaktieren oder einen neuen eigenen Entwurf erstellen.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_languages</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Existing languages</source>
-        <translation type="unfinished">Verf&amp;uuml;gbare Sprachen</translation>
+        <translation>Verfügbare Sprachen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Select the language you want to use when editing the object</source>
-        <translation type="obsolete">W&amp;auml;hlen Sie die Sprache, die zum Bearbeiten des Objekts verwendet werden soll</translation>
+        <translation type="obsolete">Wählen Sie die Sprache, die zum Bearbeiten des Objekts verwendet werden soll</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>New languages</source>
-        <translation type="unfinished">Neue Sprachen</translation>
+        <translation>Neue Sprachen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Select the language you want to add to the object</source>
-        <translation type="obsolete">W&amp;auml;hlen Sie die Sprache die Sie dem Objekt hinzuf&amp;uuml;gen m&amp;ouml;chten</translation>
+        <translation type="obsolete">Wählen Sie die Sprache die Sie dem Objekt hinzufügen möchten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Select the language the added translation will be based on</source>
-        <translation type="obsolete">W&amp;auml;hlen Sie die Sprache, auf der die hinzugef&amp;uuml;gte &amp;Uuml;bersetzung basieren soll</translation>
+        <translation type="obsolete">Wählen Sie die Sprache, auf der die hinzugefügte Übersetzung basieren soll</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>use an empty, untranslated draft</source>
-        <translation type="obsolete">einen leeren, nicht &amp;uuml;bersetzten Entwurf verwenden</translation>
+        <translation type="obsolete">einen leeren, nicht übersetzten Entwurf verwenden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You do not have sufficient permissions to create a translation in another language.</source>
-        <translation type="obsolete">Sie haben nicht die Berechtigung, um eine &amp;Uuml;bersetzung in eine andre Sprache zu erstellen</translation>
+        <translation type="obsolete">Sie haben nicht die Berechtigung, um eine Übersetzung in eine andre Sprache zu erstellen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>However you can select one of the following languages for editing</source>
-        <translation type="obsolete">Sie k&amp;ouml;nnen eine der aufgef&amp;uuml;hrten Sprachen f&amp;uuml;r die Bearbeitung ausw&amp;auml;hlen</translation>
+        <translation type="obsolete">Sie können eine der aufgeführten Sprachen für die Bearbeitung auswählen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You do not have permission to edit the object in any available languages.</source>
-        <translation type="unfinished">Sie haben nicht die Berechtigung um das Objekt in einer beliebigen Sprache zu bearbeiten</translation>
+        <translation>Sie haben nicht die Berechtigung um das Objekt in irgendeiner Sprache zu bearbeiten.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit</source>
-        <translation type="unfinished">Bearbeiten</translation>
+        <translation>Bearbeiten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Cancel</source>
-        <translation type="unfinished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Select the language you want to use when editing the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wählen Sie die Sprache, die zum Bearbeiten des Objekts verwendet werden soll.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Select the language you want to add to the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wählen Sie die Sprache die Sie dem Objekt hinzufügen möchten.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Select the language the new translation will be based on.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wählen Sie die Sprache, auf der die hinzugefügte Übersetzung basieren soll.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Use an empty, untranslated draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzen Sie einen leeren und nicht übersetzten Entwurf</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You do not have permission to create a translation in another language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie haben nicht die Berechtigung eine Übersetzung in einer anderen Sprache zu erstellen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>However, you can select one of the following languages for editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Allerdings können Sie eine der folgenden Sprachen editieren.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/history</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version not a draft</source>
         <translation>Version ist kein Entwurf</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version %1 is not available for editing anymore, only drafts can be edited.</source>
-        <translation type="obsolete">Version %1 wurde nicht von Ihnen erstellt. Sie k&amp;ouml;nnen nur Ihre eigenen Entw&amp;uuml;rfe bearbeiten.</translation>
+        <translation type="obsolete">Version %1 wurde nicht von Ihnen erstellt. Sie können nur Ihre eigenen Entwürfe bearbeiten.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>To edit this version create a copy of it.</source>
         <translation type="obsolete">Um diese Version zu bearbeiten erstellen Sie eine Kopie.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version not yours</source>
-        <translation type="unfinished">Diese Version geh&amp;ouml;rt Ihnen nicht</translation>
+        <translation>Diese Version gehört Ihnen nicht</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version %1 was not created by you, only your own drafts can be edited.</source>
-        <translation type="obsolete">Version %1 wurde nicht von Ihnen erstellt. Sie k&amp;ouml;nnen nur Ihre eigenen Entw&amp;uuml;rfe bearbeiten.</translation>
+        <translation type="obsolete">Version %1 wurde nicht von Ihnen erstellt. Sie können nur Ihre eigenen Entwürfe bearbeiten.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Unable to create new version</source>
-        <translation type="unfinished">Neue Version kann nicht erstellt werden</translation>
+        <translation>Neue Version kann nicht erstellt werden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation type="unfinished">Der Versionsverlauf hat sein Limit erreicht und keine archivierte Version kann vom System entfernt werden.</translation>
+        <translation>Der Versionsverlauf hat sein Limit erreicht und keine archivierte Version kann vom System entfernt werden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="obsolete">Sie k&amp;ouml;nnen die Einstellungen des Versionsverlaufs im content.ini &amp;aUML;ndern, Entw&amp;uuml;rfe l&amp;ouml;schen oder bestehende Entw&amp;uuml;rfe &amp;Auml;ndern.</translation>
+        <translation type="obsolete">Sie können die Einstellungen des Versionsverlaufs im content.ini &amp;aUML;ndern, Entwürfe löschen oder bestehende Entwürfe Ändern.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="unfinished">Versionen f&amp;uuml;r &lt;%object_name&gt; [%version_count]</translation>
+        <translation>Versionen für &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version</source>
-        <translation type="unfinished">Version</translation>
+        <translation>Version</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Status</source>
-        <translation type="unfinished">Status</translation>
+        <translation>Status</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Creator</source>
-        <translation type="unfinished">Ersteller</translation>
+        <translation>Ersteller</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Created</source>
-        <translation type="unfinished">Erstellt</translation>
+        <translation>Erstellt</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Modified</source>
-        <translation type="unfinished">Ge&amp;auml;ndert</translation>
+        <translation>Geändert</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Select version #%version_number for removal.</source>
-        <translation type="unfinished">Version #%version_number zum Entfernen ausw&amp;auml;hlen.</translation>
+        <translation>Version #%version_number zum Entfernen auswählen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version #%version_number can not be removed because it is either the published version of the object or because you do not have permissions to remove it.</source>
-        <translation type="obsolete">Version #%version_number kann nicht entfernt werden, da sie entweder die ver&amp;ouml;ffentlichte Version ist oder weil Sie keine Rechte besitzen sie zu entfernen.</translation>
+        <translation type="obsolete">Version #%version_number kann nicht entfernt werden, da sie entweder die veröffentlichte Version ist oder weil Sie keine Rechte besitzen sie zu entfernen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>View the contents of version #%version_number. Translation: %translation.</source>
-        <translation type="unfinished">Den Inhalt der Version #%version_number ansehen. &amp;Uuml;bersetzung: %translation.</translation>
+        <translation>Den Inhalt der Version #%version_number ansehen. Übersetzung: %translation.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Draft</source>
-        <translation type="unfinished">Entwurf</translation>
+        <translation>Entwurf</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Published</source>
-        <translation type="unfinished">Ver&amp;ouml;ffentlicht</translation>
+        <translation>Veröffentlicht</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Pending</source>
-        <translation type="unfinished">Schwebend</translation>
+        <translation>Schwebend</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Archived</source>
-        <translation type="unfinished">Archiviert</translation>
+        <translation>Archiviert</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Rejected</source>
-        <translation type="unfinished">Abgelehnt</translation>
+        <translation>Abgelehnt</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Untouched draft</source>
-        <translation type="unfinished">Unver&amp;auml;nderter Entwurf</translation>
+        <translation>Unveränderter Entwurf</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Create a copy of version #%version_number.</source>
-        <translation type="unfinished">Eine Kopie von Version #%version_number erstellen.</translation>
+        <translation>Eine Kopie von Version #%version_number erstellen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You can not make copies of versions because you do not have permissions to edit the object.</source>
-        <translation type="obsolete">Sie k&amp;ouml;nnen keine Kopien von Versionen erstellen, da Sie keine Rechte besitzen das Objekt zu bearbeiten.</translation>
+        <translation type="obsolete">Sie können keine Kopien von Versionen erstellen, da Sie keine Rechte besitzen das Objekt zu bearbeiten.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit the contents of version #%version_number.</source>
-        <translation type="unfinished">Die Inhalte von Version #%version_number berabeiten.</translation>
+        <translation>Die Inhalte von Version #%version_number berabeiten.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You can not edit the contents of version #%version_number either because it is not a draft or because you do not have permissions to edit the object.</source>
-        <translation type="obsolete">Sie k&amp;ouml;nnen die Inhalte von Version #%version_number nicht bearbeiten, da es kein Entwurf ist oder weil Sie keine Rechte besitzen das Objekt zu bearbeiten.</translation>
+        <translation type="obsolete">Sie können die Inhalte von Version #%version_number nicht bearbeiten, da es kein Entwurf ist oder weil Sie keine Rechte besitzen das Objekt zu bearbeiten.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>This object does not have any versions.</source>
-        <translation type="unfinished">Das Objekt hat keine Versionen.</translation>
+        <translation>Dieses Objekt hat keine Versionen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Remove selected</source>
-        <translation type="unfinished">Ausgew&amp;auml;hlte entfernen</translation>
+        <translation>Ausgewählte entfernen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Remove the selected versions from the object.</source>
-        <translation type="unfinished">Die ausgew&amp;auml;hlten Versionen vom Objekt entfernen.</translation>
+        <translation>Die ausgewählten Versionen vom Objekt entfernen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Show differences</source>
-        <translation type="unfinished">Unterschiede anzeigen</translation>
+        <translation>Unterschiede anzeigen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Back</source>
-        <translation type="unfinished">Zur&amp;uuml;ck</translation>
+        <translation>Zurück</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Published version</source>
-        <translation type="unfinished">Ver&amp;ouml;ffentlichte Version</translation>
+        <translation>Veröffentlichte Version</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Translations</source>
-        <translation type="unfinished">&amp;Uuml;bersetzungen</translation>
+        <translation>Übersetzungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>New drafts [%newerDraftCount]</source>
-        <translation type="unfinished">Neue Entw&amp;uuml;rfe  [%newerDraftCount]</translation>
+        <translation>Neue Entwürfe  [%newerDraftCount]</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>This object does not have any drafts.</source>
-        <translation type="unfinished">Das Objekt hat keine Versionen.</translation>
+        <translation>Das Objekt hat keine Versionen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="unfinished">Unterschiede zwischen der Version  %oldVersion und %newVersion</translation>
+        <translation>Unterschiede zwischen den Versionen  %oldVersion und %newVersion</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Old version</source>
-        <translation type="unfinished">Alte Version</translation>
+        <translation>Alte Version</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Inline changes</source>
-        <translation type="unfinished">Inhalt ver&amp;auml;ndert</translation>
+        <translation>Teiländerungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Block changes</source>
-        <translation type="unfinished">Block ver&amp;auml;ndert</translation>
+        <translation>Blockänderungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>New version</source>
-        <translation type="unfinished">Neue Version</translation>
+        <translation>Neue Version</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Back to history</source>
-        <translation type="unfinished">Zur&amp;uuml;ck zum Versionsverlauf</translation>
+        <translation>Zurück zum Versionsverlauf</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Version %1 kann nicht mehr bearbeitet werden. Nur Entwürfe können bearbeitet werden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>To edit this version, first create a copy of it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Um diese Version zu bearbeiten, müssen Sie zuerst eine Kopie erstellen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version %1 was not created by you. Only your own drafts can be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Version %1 wurde nicht von Ihnen erstellt. Sie können nur Ihre eigenen Entwürfe bearbeiten.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You can either change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie können entweder die Einstellungen des Versionsverlaufs in der content.ini ändern, Entwürfe löschen oder bestehende Entwürfe ändern.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Toggle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl invertieren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edited language</source>
-        <translation type="unfinished"></translation>
+        <translation>Bearbeitete Sprache</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Version #%version_number kann nicht entfernt werden, da sie entweder die veröffentlichte Version ist oder weil Sie keine Rechte besitzen sie zu entfernen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>There is no need to do a copies of untouched drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Unberührte Entwürfe müssen nicht kopiert werden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie können keine Kopien von Versionen erstellen, da Sie keine Rechte besitzen das Objekt zu bearbeiten.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie können die Inhalte von Version #%version_number nicht bearbeiten, da es kein Entwurf ist oder weil Sie keine Rechte besitzen das Objekt zu bearbeiten.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/keyword</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Keyword: %keyword</source>
-        <translation type="unfinished"></translation>
+        <translation>Schlüsselwort: %keyword</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Link</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/search</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Search</source>
-        <translation type="unfinished">Suchen</translation>
+        <translation>Suche</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>For more options try the %1Advanced search%2</source>
         <comment>The parameters are link start and end tags.</comment>
-        <translation type="unfinished">Probieren Sie die %1erweiterte Suche%2 f&amp;uuml;r weitere M&amp;ouml;glichkeiten.</translation>
+        <translation>Für weitere Optionen probieren Sie bitte die %1erweiterte Suche%2</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The following words were excluded from the search</source>
-        <translation type="obsolete">Die folgenden W&amp;ouml;rter wurden von der Suche ausgeschlossen</translation>
+        <translation type="obsolete">Die folgenden Wörter wurden von der Suche ausgeschlossen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>No results were found when searching for &quot;%1&quot;</source>
         <translation type="obsolete">Bei der Suche nach &quot;%1&quot; wurden keine Ergebnisse gefunden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Search tips</source>
-        <translation type="unfinished">Such-Tipps</translation>
+        <translation>Suchhinweise</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Check spelling of keywords.</source>
-        <translation type="unfinished">&amp;uuml;berpr&amp;uuml;fen Sie die Rechtschreibung der Suchw&amp;ouml;rter.</translation>
+        <translation>Überprüfen Sie die Rechtschreibung der Suchwörter.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Try changing some keywords eg. car instead of cars.</source>
-        <translation type="obsolete">Wandeln Sie einige Suchw&amp;ouml;rter ab, z. B. Auto anstatt von Autos.</translation>
+        <translation type="obsolete">Wandeln Sie einige Suchwörter ab, z. B. Auto anstatt von Autos.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Try more general keywords.</source>
         <translation type="obsolete">Versuchen Sie es mit allgemeineren Worten.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Fewer keywords gives more results, try reducing keywords until you get a result.</source>
-        <translation type="obsolete">Weniger Suchw&amp;ouml;rter geben mehr Ergebnisse. Versuchen Sie die Suchw&amp;ouml;rter zu reduzieren, bis Sie ein Ergebnis bekommen.</translation>
+        <translation type="obsolete">Weniger Suchwörter geben mehr Ergebnisse. Versuchen Sie die Suchwörter zu reduzieren, bis Sie ein Ergebnis bekommen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation type="unfinished">Die Suche nach &amp;lt;%1&amp;gt; ergab %2 Treffer</translation>
+        <translation>Die Suche nach &quot;%1&quot; ergab %2 Treffer</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The following words were excluded from the search:</source>
-        <translation type="unfinished"></translation>
+        <translation>Die folgenden Wörter wurden von der Suche ausgeschlossen:</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>No results were found when searching for &quot;%1&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bei der Suche nach &quot;%1&quot; wurden keine Ergebnisse gefunden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Wandeln Sie einige Suchwörter ab (z. B. &quot;Auto&quot; anstatt von &quot;Autos&quot;).</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Try searching with less specific keywords.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versuchen Sie es mit weniger spezifischen Schlüsselwörtern.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Reduce number of keywords to get more results.</source>
-        <translation type="unfinished"></translation>
+        <translation>Verringern Sie die Anzahl Schlüsselwörter um mehr Ergebnisse zu erhalten.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/tipafriend</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
+        <translation>Einem Frend empfehlen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The message was sent.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Nachricht wurde gesendet.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Click here to return to the original page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicken Sie hier um zur vorherigen Seite zurückzukehren.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The message was not sent.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Nachricht wurde nicht versendet.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The message was not sent due to an unknown error. Please notify the site administrator about this error.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Nachricht wurde aus einem unbekannten Grund nicht versendet. Bitte benachrichtigen Sie den Administrator über diesen Fehler.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Please correct the following errors:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte beheben Sie folgende Fehler:</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Your name</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihr Name</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Your email address</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihre Emailadresse</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Recipient&apos;s email address</source>
-        <translation type="unfinished"></translation>
+        <translation>Emailadresse des Empfängers</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentar</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Send</source>
-        <translation type="unfinished"></translation>
+        <translation>Senden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Abbrechen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/versions</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Versions for: %1</source>
-        <translation type="obsolete">Versionen f&amp;uuml;r: %1</translation>
+        <translation type="obsolete">Versionen für: %1</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version not a draft</source>
         <translation type="obsolete">Version ist kein Entwurf</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version %1 is not available for editing any more, only drafts can be edited.</source>
-        <translation type="obsolete">Version %1 ist nicht mehr verf&amp;uuml;gbar zum &amp;Auml;ndern, nur Entw&amp;uuml;rfe k&amp;ouml;nnen ge&amp;auml;ndert werden.</translation>
+        <translation type="obsolete">Version %1 ist nicht mehr verfügbar zum Ändern, nur Entwürfe können geändert werden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>To edit this version create a copy of it.</source>
         <translation type="obsolete">Um diese Version zu bearbeiten erstellen Sie eine Kopie.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version not yours</source>
-        <translation type="obsolete">Diese Version geh&amp;ouml;rt Ihnen nicht</translation>
+        <translation type="obsolete">Diese Version gehört Ihnen nicht</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version %1 was not created by you, only your own drafts can be edited.</source>
-        <translation type="obsolete">Version %1 wurde nicht von Ihnen erstellt. Sie k&amp;ouml;nnen nur Ihre eigenen Entw&amp;uuml;rfe bearbeiten.</translation>
+        <translation type="obsolete">Version %1 wurde nicht von Ihnen erstellt. Sie können nur Ihre eigenen Entwürfe bearbeiten.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Unable to create new version</source>
         <translation type="obsolete">Neue Version kann nicht erstellt werden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
         <translation type="obsolete">Der Versionsverlauf hat sein Limit erreicht und keine archivierte Version kann vom System entfernt werden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="obsolete">Sie k&amp;ouml;nnen die Einstellungen des Versionsverlaufs im content.ini &amp;auml;ndern, Entw&amp;uuml;rfe l&amp;ouml;schen oder bestehende Entw&amp;uuml;rfe &amp;auml;ndern.</translation>
+        <translation type="obsolete">Sie können die Einstellungen des Versionsverlaufs im content.ini ändern, Entwürfe löschen oder bestehende Entwürfe ändern.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Version</source>
         <translation type="obsolete">Version</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Status</source>
         <translation type="obsolete">Status</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Translations</source>
-        <translation type="obsolete">&amp;Uuml;bersetzungen</translation>
+        <translation type="obsolete">Übersetzungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Creator</source>
         <translation type="obsolete">Ersteller</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Modified</source>
-        <translation type="obsolete">Ver&amp;auml;ndert</translation>
+        <translation type="obsolete">Verändert</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Remove</source>
         <translation type="obsolete">Entfernen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit</source>
         <translation type="obsolete">Bearbeiten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Copy and edit</source>
         <translation type="obsolete">Kopieren und bearbeiten</translation>
     </message>
@@ -1080,476 +1332,575 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
 <context>
     <name>design/ezwebin/content/view/versionview</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit</source>
-        <translation type="unfinished">Bearbeiten</translation>
+        <translation>Bearbeiten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit the draft that is being displayed.</source>
         <translation type="obsolete">Den Entwurf bearbeiten, der gerade angezeigt wird.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Publish</source>
-        <translation type="unfinished">Ver&amp;ouml;ffentlichen</translation>
+        <translation>Veröffentlichen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Publish the draft that is being displayed.</source>
         <translation type="obsolete">Den Entwurf publizieren, der gerade angezeigt wird.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>This version is not a draft and thus it can not be edited.</source>
         <translation type="obsolete">Die Version ist kein Entwurf und kann daher nicht bearbeitet werden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Manage versions</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionen verwalten</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/edit/comment</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit %1 - %2</source>
-        <translation type="unfinished">&amp;Auml;ndere %1 - %2</translation>
+        <translation>Ändere %1 - %2</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Send for publishing</source>
-        <translation type="unfinished">Zur Ver&amp;ouml;ffentlichung schicken</translation>
+        <translation>Zur Veröffentlichung schicken</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Discard</source>
-        <translation type="unfinished">Verwerfen</translation>
+        <translation>Verwerfen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/edit/file</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit %1 - %2</source>
-        <translation type="unfinished">&amp;Auml;ndere %1 - %2</translation>
+        <translation>Ändere %1 - %2</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Send for publishing</source>
-        <translation type="unfinished">Zur Ver&amp;ouml;ffentlichung schicken</translation>
+        <translation>Zur Veröffentlichung schicken</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Discard</source>
-        <translation type="unfinished">Verwerfen</translation>
+        <translation>Verwerfen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/edit/forum_reply</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit %1 - %2</source>
-        <translation type="unfinished">&amp;Auml;ndere %1 - %2</translation>
+        <translation>Ändere %1 - %2</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Send for publishing</source>
-        <translation type="unfinished">Zur Ver&amp;ouml;ffentlichung schicken</translation>
+        <translation>Zur Veröffentlichung schicken</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Discard</source>
-        <translation type="unfinished">Verwerfen</translation>
+        <translation>Verwerfen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/edit/forum_topic</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit %1 - %2</source>
-        <translation type="unfinished">&amp;Auml;ndere %1 - %2</translation>
+        <translation>Ändere %1 - %2</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Send for publishing</source>
-        <translation type="unfinished">Zur Ver&amp;ouml;ffentlichung schicken</translation>
+        <translation>Zur Veröffentlichung schicken</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Discard</source>
-        <translation type="unfinished">Verwerfen</translation>
+        <translation>Verwerfen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/embed/forum</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Latest from</source>
-        <translation type="unfinished">Zuletzt von</translation>
+        <translation>Aktuellster vom</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/embed/poll</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Vote</source>
-        <translation type="unfinished"></translation>
+        <translation>Abstimmen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezinfo/about</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>eZ Publish information: %version</source>
-        <translation type="unfinished">eZ Publish Information: %version</translation>
+        <translation>eZ Publish Information: %version</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>What is eZ publish?</source>
         <translation type="obsolete">Was ist eZ publish?</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Licence</source>
-        <translation type="unfinished">Lizenz</translation>
+        <translation>Lizenz</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Contributors</source>
-        <translation type="unfinished">Mitwirkende</translation>
+        <translation>Mitwirkende</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Copyright Notice</source>
-        <translation type="unfinished">Notiz zum Urheberrecht</translation>
+        <translation>Hinweis zum Urheberrecht</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Third-Party Software</source>
-        <translation type="unfinished">Fremdsoftware</translation>
+        <translation>Fremdsoftware</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Extensions</source>
-        <translation type="unfinished">Erweiterungen</translation>
+        <translation>Erweiterungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>What is eZ Publish?</source>
-        <translation type="unfinished"></translation>
+        <translation>Was ist eZ publish?</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Comments</source>
-        <translation type="unfinished">Kommentare</translation>
+        <translation>Kommentare</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>New Comment</source>
         <translation type="obsolete">Neuer Kommentar</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>New comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Neuer Kommentar</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte melden Sie sich %login_link_startLogan%login_link_end oder %create_link_startregistrieren%create_link_end Sie sich um kommentieren zu können.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
+        <translation>Einem Frend empfehlen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_mainpage</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
+        <translation>Einem Frend empfehlen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_subpage</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
+        <translation>Einem Frend empfehlen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/blog_post</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Tags:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tags:</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentare</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte melden Sie sich %login_link_startLogan%login_link_end oder %create_link_startregistrieren%create_link_end Sie sich um kommentieren zu können.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/documentation_page</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Table of Contents</source>
         <translation type="obsolete">Inhaltsangabe</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Created:</source>
         <translation>Erstellt:</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Modified:</source>
         <translation>Geändert:</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Table of contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Inhaltsangabe</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/event</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Category</source>
-        <translation type="unfinished">Kategorie</translation>
+        <translation>Kategorie</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_calendar</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Mon</source>
-        <translation type="unfinished">Mo</translation>
+        <translation>Mo</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Tue</source>
-        <translation type="unfinished">Di</translation>
+        <translation>Di</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Wed</source>
-        <translation type="unfinished">Mi</translation>
+        <translation>Mi</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Thu</source>
-        <translation type="unfinished">Do</translation>
+        <translation>Do</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Fri</source>
-        <translation type="unfinished">Fr</translation>
+        <translation>Fr</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Sat</source>
-        <translation type="unfinished">Sa</translation>
+        <translation>Sa</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Sun</source>
-        <translation type="unfinished">So</translation>
+        <translation>So</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Today</source>
-        <translation type="unfinished">Heute</translation>
+        <translation>Heute</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Category</source>
-        <translation type="unfinished">Kategorie</translation>
+        <translation>Kategorie</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Past events</source>
-        <translation type="unfinished">Fr&amp;uuml;here Ereignisse</translation>
+        <translation>Vergangene Ereignisse</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Future events</source>
-        <translation type="unfinished">Zuk&amp;uuml;nftige Ereignisse</translation>
+        <translation>Zukünftige Ereignisse</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/feedback_form</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Send form</source>
-        <translation type="unfinished">Formular abschicken</translation>
+        <translation>Formular abschicken</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/forum</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>New topic</source>
-        <translation type="unfinished">Neues Thema</translation>
+        <translation>Neues Thema</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Keep me updated</source>
-        <translation type="unfinished">Auf dem Laufenden halten</translation>
+        <translation>Auf dem Laufenden halten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%</source>
-        <translation type="unfinished">Um Zugang zu den Foren zu erhalten, m&amp;uuml;ssen Sie angemeldet sein. Das k&amp;ouml;nnen Sie %login_link_start%hier%login_link_end% machen</translation>
+        <translation>Um Zugang zu den Foren zu erhalten, müssen Sie  %login_link_start%angemeldet%login_link_end% sein</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Topic</source>
-        <translation type="unfinished">Thema</translation>
+        <translation>Thema</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Replies</source>
-        <translation type="unfinished">Anworten</translation>
+        <translation>Anworten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Author</source>
-        <translation type="unfinished">Autor</translation>
+        <translation>Autor</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Last reply</source>
-        <translation type="unfinished">Letzte Anwort</translation>
+        <translation>Letzte Anwort</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Pages</source>
-        <translation type="unfinished">Seiten</translation>
+        <translation>Seiten</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/forum_reply</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Message preview</source>
-        <translation type="unfinished">Nachrichten-Vorschau</translation>
+        <translation>Nachrichtenvorschau</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Author</source>
-        <translation type="unfinished">Autor</translation>
+        <translation>Autor</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Topic</source>
-        <translation type="unfinished">Thema</translation>
+        <translation>Thema</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Location</source>
-        <translation type="unfinished">Ort</translation>
+        <translation>Ort</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Moderated by</source>
-        <translation type="unfinished">Moderiert von</translation>
+        <translation>Moderiert von</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit</source>
-        <translation type="unfinished">Bearbeiten</translation>
+        <translation>Bearbeiten</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/forum_topic</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Previous topic</source>
-        <translation type="unfinished">Vorheriges Thema</translation>
+        <translation>Vorheriges Thema</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Next topic</source>
-        <translation type="unfinished">N&amp;auml;chstes Thema</translation>
+        <translation>Nächstes Thema</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>New reply</source>
-        <translation type="unfinished">Neue Antwort</translation>
+        <translation>Neue Antwort</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Keep me updated</source>
-        <translation type="unfinished">Auf dem Laufenden halten</translation>
+        <translation>Auf dem Laufenden halten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You need to be logged in to get access to the forums. You can do so</source>
-        <translation type="obsolete">Um Zugang zu den Foren zu erhalten, m&amp;uuml;ssen Sie angemeldet sein. Machen Sie das</translation>
+        <translation type="obsolete">Um Zugang zu den Foren zu erhalten, müssen Sie angemeldet sein. Machen Sie das</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>here</source>
         <translation type="obsolete">hier</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Author</source>
-        <translation type="unfinished">Autor</translation>
+        <translation>Autor</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Message</source>
-        <translation type="unfinished">Nachricht</translation>
+        <translation>Nachricht</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Location</source>
-        <translation type="unfinished">Ort</translation>
+        <translation>Ort</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Moderated by</source>
-        <translation type="unfinished">Moderiert von</translation>
+        <translation>Moderiert von</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit</source>
-        <translation type="unfinished">Bearbeiten</translation>
+        <translation>Bearbeiten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Remove</source>
-        <translation type="unfinished">Entfernen</translation>
+        <translation>Entfernen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Remove this item.</source>
-        <translation type="unfinished">Diesen Eintrag entfernen.</translation>
+        <translation>Diesen Eintrag entfernen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%</source>
-        <translation type="unfinished"></translation>
+        <translation>Um Zugang zu den Foren zu erhalten, müssen Sie  %login_link_start%angemeldet%login_link_end% sein</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/forums</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Topics</source>
-        <translation type="unfinished">Themen</translation>
+        <translation>Themen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Posts</source>
-        <translation type="unfinished">&amp;Uuml;bermittlungen</translation>
+        <translation>Übermittlungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Last reply</source>
-        <translation type="unfinished">Letzte Anwort</translation>
+        <translation>Letzte Anwort</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/gallery</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>View as slideshow</source>
-        <translation type="unfinished">Als Dia-Show ansehen</translation>
+        <translation>Als Dia-Show ansehen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/image</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Previous image</source>
-        <translation type="unfinished">Vorheriges Bild</translation>
+        <translation>Vorheriges Bild</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Next image</source>
-        <translation type="unfinished">N&amp;auml;chstes Bild</translation>
+        <translation>Nächstes Bild</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/multicalendar</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Event</source>
-        <translation type="unfinished"></translation>
+        <translation>Ereignis</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Start date</source>
-        <translation type="unfinished"></translation>
+        <translation>Anfangsdatum</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Category</source>
-        <translation type="unfinished">Kategorie</translation>
+        <translation>Kategorie</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Beschreibung</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/poll</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Vote</source>
-        <translation type="unfinished"></translation>
+        <translation>Abstimmen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Ergebnis</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/product</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Add to basket</source>
-        <translation type="unfinished">Zum Warenkorb hinzuf&amp;uuml;gen</translation>
+        <translation>Zum Warenkorb hinzufügen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Add to wish list</source>
-        <translation type="unfinished">Zur Wunschliste hinzuf&amp;uuml;gen</translation>
+        <translation>Zur Wunschliste hinzufügen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>People who bought this also bought</source>
-        <translation type="unfinished">Kunden, die dies gekauft haben, haben auch das gekauft</translation>
+        <translation>Kunden, die dies gekauft haben, haben auch folgendes gekauft</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/horizontallylistedsubitems/event</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Category</source>
         <translation type="obsolete">Kategorie</translation>
     </message>
@@ -1557,1040 +1908,1273 @@ Sie sollten entweder die Person deswegen kontaktieren oder einen neuen Entwurf z
 <context>
     <name>design/ezwebin/line/event</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Category</source>
-        <translation type="unfinished">Kategorie</translation>
+        <translation>Kategorie</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/event_calendar</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Next events</source>
-        <translation type="unfinished">N&amp;auml;chstes Ereigns</translation>
+        <translation>Nächstes Ereigns</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/flash</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>View flash</source>
-        <translation type="unfinished">Flash ansehen</translation>
+        <translation>Flash ansehen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Number of Topics</source>
         <translation type="obsolete">Anzahl der Themen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Number of Posts</source>
-        <translation type="obsolete">Zahl der &amp;Uuml;bermittlungen</translation>
+        <translation type="obsolete">Zahl der Übermittlungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Last reply</source>
-        <translation type="unfinished">Letzte Anwort</translation>
+        <translation>Letzte Anwort</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Enter forum</source>
-        <translation type="unfinished">Forum &amp;Ouml;ffnen</translation>
+        <translation>Forum betreten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Number of topics</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzahl Themen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Number of posts</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzahl Nachrichten</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum_reply</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Reply to:</source>
-        <translation type="unfinished">Antworten auf:</translation>
+        <translation>Antworten auf:</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/poll</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>%count votes</source>
-        <translation type="unfinished"></translation>
+        <translation>%count Stimmen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Vote</source>
-        <translation type="unfinished"></translation>
+        <translation>Abstimmen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/quicktime</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>View movie</source>
-        <translation type="unfinished">Film ansehen</translation>
+        <translation>Film ansehen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/real_video</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>View movie</source>
-        <translation type="unfinished">Film ansehen</translation>
+        <translation>Film ansehen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/windows_media</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>View movie</source>
-        <translation type="unfinished">Film ansehen</translation>
+        <translation>Film ansehen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/link</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>%sitetitle front page</source>
-        <translation type="unfinished">%sitetitle Startseite</translation>
+        <translation>%sitetitle Startseite</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Search %sitetitle</source>
-        <translation type="unfinished">Suche %sitetitle</translation>
+        <translation>Suche %sitetitle</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Printable version</source>
-        <translation type="unfinished">Druckversion</translation>
+        <translation>Druckversion</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/node/removeobject</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Are you sure you want to remove these items?</source>
-        <translation type="unfinished">Sind Sie sicher, dass Sie diese Eintr&amp;auml;ge entfernen wollen?</translation>
+        <translation>Sind Sie sicher, dass Sie diese Einträge entfernen wollen?</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>%nodename and its %childcount children. %additionalwarning</source>
-        <translation type="unfinished">%nodename und seine %childcount Kinder. %additionalwarning</translation>
+        <translation>%nodename und seine %childcount Kinder. %additionalwarning</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>%nodename %additionalwarning</source>
-        <translation type="unfinished">%nodename %additionalwarning</translation>
+        <translation>%nodename %additionalwarning</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Move to trash</source>
-        <translation type="unfinished">Verschiebe in den Papierkorb</translation>
+        <translation>In den Papierkorb verschieben</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Note</source>
-        <translation type="unfinished">Hinweis</translation>
+        <translation>Hinweis</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>If %trashname is checked you will find the removed items in the trash afterwards.</source>
-        <translation type="obsolete">Wenn %trashname ausgew&amp;auml;hlt ist, werden Sie die entfernten Eintr&amp;auml;ge sp&amp;auml;ter im Papierkorb finden.</translation>
+        <translation type="obsolete">Wenn %trashname ausgewählt ist, werden Sie die entfernten Einträge später im Papierkorb finden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Confirm</source>
-        <translation type="unfinished">Best&amp;auml;tigen</translation>
+        <translation>Bestätigen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Cancel</source>
-        <translation type="unfinished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>If %trashname is checked, removed items can be found in the trash.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn %trashname ausgewählt ist, werden Sie die entfernten Einträge später im Papierkorb finden.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/notification/addingresult</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Add to my notifications</source>
-        <translation type="unfinished">Zu Benachrichtungen hinzuf&amp;uuml;gen</translation>
+        <translation>Zu Benachrichtungen hinzufügen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Notification for node &lt;%node_name&gt; already exists.</source>
-        <translation type="unfinished">Benachrichtigung f&amp;uuml;r Knoten &lt;%node_name&gt; bereits vorhanden.</translation>
+        <translation>Es ist bereits eine Benachrichtigung für den Knoten &lt;%node_name&gt; vorhanden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Notification for node &lt;%node_name&gt; was added successfully.</source>
-        <translation type="unfinished">Benachrichtigung f&amp;uuml;r Knoten &lt;%node_name&gt; wurde hinzugef&amp;uuml;gt.</translation>
+        <translation>Die Benachrichtigung für den Knoten &lt;%node_name&gt; wurde hinzugefügt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/notification/settings</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Notification settings</source>
-        <translation type="unfinished">Benachrichtigungseinstellungen</translation>
+        <translation>Benachrichtigungseinstellungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Store</source>
-        <translation type="unfinished">Speichern</translation>
+        <translation>Speichern</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/pagelayout</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Search</source>
-        <translation type="unfinished">Suchen</translation>
+        <translation>Suchen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/parts/website_toolbar</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Create here</source>
-        <translation type="unfinished">Hier erstellen</translation>
+        <translation>Hier erstellen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit</source>
         <translation type="obsolete">Bearbeiten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Move</source>
-        <translation type="unfinished">Verschieben</translation>
+        <translation>Verschieben</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Remove</source>
-        <translation type="unfinished">Entfernen</translation>
+        <translation>Entfernen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Import</source>
-        <translation type="unfinished">Importieren</translation>
+        <translation>Importieren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Export</source>
-        <translation type="unfinished">Exportieren</translation>
+        <translation>Exportieren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Replace</source>
-        <translation type="unfinished">Ersetzen</translation>
+        <translation>Ersetzen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Über</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit: %node_name [%class_name]</source>
-        <translation type="unfinished"></translation>
+        <translation>Bearbeite: %node_name [%class_name]</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Add locations</source>
-        <translation type="unfinished"></translation>
+        <translation>Ort hinzufügen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Documentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentation</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/settings/edit</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Node notification</source>
-        <translation type="unfinished">Knotenbenachrichtigung</translation>
+        <translation>Knotenbenachrichtigung</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Name</source>
-        <translation type="unfinished">Name</translation>
+        <translation>Name</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Class</source>
-        <translation type="unfinished">Klasse</translation>
+        <translation>Klasse</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Section</source>
-        <translation type="unfinished">Sektion</translation>
+        <translation>Sektion</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Select</source>
-        <translation type="unfinished">Ausw&amp;auml;hlen</translation>
+        <translation>Auswählen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Remove</source>
-        <translation type="unfinished">Entfernen</translation>
+        <translation>Entfernen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/basket</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Shopping basket</source>
-        <translation type="unfinished">Warenkorb</translation>
+        <translation>Warenkorb</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Account information</source>
-        <translation type="unfinished">Kontoinformationen</translation>
+        <translation>Kontoinformationen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Confirm order</source>
-        <translation type="unfinished">Bestellung best&amp;auml;tigen</translation>
+        <translation>Bestellung bestätigen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Basket</source>
-        <translation type="unfinished">Einkaufskorb</translation>
+        <translation>Einkaufskorb</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The following items were removed from your basket, because the products were changed</source>
-        <translation type="obsolete">Die folgenden Positionen wurden von Ihrem Warenkorb entfernt, da die Produkte ge&amp;auml;ndert wurden</translation>
+        <translation type="obsolete">Die folgenden Positionen wurden von Ihrem Warenkorb entfernt, da die Produkte geändert wurden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>VAT is unknown</source>
-        <translation type="unfinished">unbekannte MwSt.</translation>
+        <translation>unbekannte MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>VAT percentage is not yet known for some of the items being purchased.</source>
-        <translation type="unfinished">Der MwSt. Prozentsatz ist noch nicht bekannt f&amp;uuml;r einige der Produkte.</translation>
+        <translation>Der MwSt. Prozentsatz ist noch nicht bekannt für einige bezahlte Produkte.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>This probably means that some information about you is not yet available and will be obtained during checkout.</source>
-        <translation type="unfinished">Das bedeutet wahrscheinlich, dass einige Angaben &amp;uuml;ber Sie noch nicht verf&amp;uuml;gbar sind und werden w&amp;auml;hrend des Kassenvorgangs abgerufen.</translation>
+        <translation>Das bedeutet wahrscheinlich, dass einige Angaben über Sie noch nicht verfügbar sind. Diese werden während des Kassenvorgangs gewonnen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Attempted to add object without price to basket.</source>
-        <translation type="unfinished">Versucht ein Objekt ohne Preis dem Warenkorb hinzuzuf&amp;uuml;gen.</translation>
+        <translation>Es wurde versucht ein Objekt ohne Preis dem Warenkorb hinzuzufügen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Your payment was aborted.</source>
-        <translation type="unfinished">Ihre Bezahlung wurde abgebrochen.</translation>
+        <translation>Ihre Bezahlung wurde abgebrochen.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Count</source>
-        <translation type="unfinished">Z&amp;auml;hlen</translation>
+        <translation>Zählen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>VAT</source>
-        <translation type="unfinished">MwSt.</translation>
+        <translation>MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Price inc. VAT</source>
-        <translation type="unfinished">Preis mit MwSt.</translation>
+        <translation>Preis mit MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Discount</source>
-        <translation type="unfinished">Erm&amp;auml;&amp;szlig;igung</translation>
+        <translation>Ermäßigung</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total Price ex. VAT</source>
         <translation type="obsolete">Insgesamt ohne MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total Price inc. VAT</source>
         <translation type="obsolete">Insgesamt mit MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>unknown</source>
         <translation type="obsolete">unbekannt</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Update</source>
-        <translation type="unfinished">Aktualisieren</translation>
+        <translation>Aktualisieren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Remove</source>
-        <translation type="unfinished">Entfernen</translation>
+        <translation>Entfernen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Selected options</source>
-        <translation type="unfinished">Ausgew&amp;auml;hlte Optionen</translation>
+        <translation>Ausgewählte Optionen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Subtotal Ex. VAT</source>
         <translation type="obsolete">Zwischensumme ohne MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Subtotal Inc. VAT</source>
         <translation type="obsolete">Zwischensumme mit MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Shipping</source>
-        <translation type="unfinished">Versand</translation>
+        <translation>Versand</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Order total</source>
-        <translation type="unfinished">Komplette Bestellsumme</translation>
+        <translation>Gesamtsumme</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Continue shopping</source>
-        <translation type="unfinished">Weiter einkaufen</translation>
+        <translation>Einkauf fortsetzen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Checkout</source>
-        <translation type="unfinished">Kasse</translation>
+        <translation>Kasse</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You have no products in your basket</source>
         <translation type="obsolete">Sie haben keine Produkte im Einkaufskorb</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The following items were removed from your basket because the products were changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die folgenden Positionen wurden von Ihrem Warenkorb entfernt, da die Produkte geändert wurden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesamtsumme ohne MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesamtsumme inkl. MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Unbekannt</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Subtotal ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Zwischensumme ohne MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Subtotal inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Zwischensumme ohne MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You have no products in your basket.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie haben keine Produkte im Einkaufskorb</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/confirmorder</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Shopping basket</source>
-        <translation type="unfinished">Warenkorb</translation>
+        <translation>Warenkorb</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Account information</source>
-        <translation type="unfinished">Kontoinformationen</translation>
+        <translation>Kontoinformationen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Confirm order</source>
-        <translation type="unfinished">Bestellung best&amp;auml;tigen</translation>
+        <translation>Bestellung bestätigen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Product items</source>
-        <translation type="unfinished">Produkte</translation>
+        <translation>Produkte</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Count</source>
-        <translation type="unfinished">Z&amp;auml;hlen</translation>
+        <translation>Zählen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>VAT</source>
-        <translation type="unfinished">MwSt.</translation>
+        <translation>MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Price inc. VAT</source>
-        <translation type="unfinished">Preis mit MwSt.</translation>
+        <translation>Preis mit MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Discount</source>
-        <translation type="unfinished">Erm&amp;auml;&amp;szlig;igung</translation>
+        <translation>Ermäßigung</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total Price ex. VAT</source>
         <translation type="obsolete">Insgesamt ohne MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total Price inc. VAT</source>
         <translation type="obsolete">Insgesamt mit MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Selected options</source>
-        <translation type="unfinished">Ausgew&amp;auml;hlte Optionen</translation>
+        <translation>Ausgewählte Optionen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Order summary</source>
-        <translation type="unfinished">Bestellauflistung</translation>
+        <translation>Bestellauflistung</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Subtotal of items</source>
-        <translation type="unfinished">Zwischensumme der Positionen</translation>
+        <translation>Zwischensumme der Positionen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Order total</source>
-        <translation type="unfinished">Komplette Bestellsumme</translation>
+        <translation>Gesamtsumme</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Cancel</source>
-        <translation type="unfinished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Confirm</source>
-        <translation type="unfinished">Best&amp;auml;tigen</translation>
+        <translation>Bestätigen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Insgesamt ohne MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesamtsumme inkl. MwSt.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/customerorderview</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Customer Information</source>
         <translation type="obsolete">Kundeninformation</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Order list</source>
-        <translation type="unfinished">Bestellliste</translation>
+        <translation>Bestellliste</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>ID</source>
-        <translation type="unfinished">ID</translation>
+        <translation>ID</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Date</source>
-        <translation type="unfinished">Datum</translation>
+        <translation>Datum</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total ex. VAT</source>
-        <translation type="unfinished">Insgesamt ohne MwSt.</translation>
+        <translation>Gesamtsumme ohne MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total inc. VAT</source>
-        <translation type="unfinished">Insgesamt mit MwSt.</translation>
+        <translation>Gesamtsumme inkl. MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Purchase list</source>
-        <translation type="unfinished">Einkaufsliste</translation>
+        <translation>Einkaufsliste</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Product</source>
-        <translation type="unfinished">Produkt</translation>
+        <translation>Produkt</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Amount</source>
-        <translation type="unfinished">Anzahl</translation>
+        <translation>Anzahl</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Customer information</source>
-        <translation type="unfinished"></translation>
+        <translation>Kundeninformation</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderlist</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Order list</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestellliste</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Sort result by</source>
-        <translation type="unfinished"></translation>
+        <translation>Ergebnisse sortieren nach</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Order time</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestellzeitpunkt</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>User name</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzername</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Order ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestellungs ID</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>Absteigend</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Sort ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>Absteigend sortieren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Descending</source>
-        <translation type="unfinished"></translation>
+        <translation>Aufsteigend</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Sort descending</source>
-        <translation type="unfinished"></translation>
+        <translation>Aufsteigend sortieren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortieren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation>Datum</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Customer</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesamtsumme ohne MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesamtsumme inkl. MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The order list is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Bestellliste ist leer</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Archiv</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderview</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Order %order_id [%order_status]</source>
-        <translation type="unfinished">Bestellung %order_id [%order_status]</translation>
+        <translation>Bestellung %order_id [%order_status]</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Product items</source>
-        <translation type="unfinished">Produkte</translation>
+        <translation>Produkte</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Product</source>
-        <translation type="unfinished">Produkt</translation>
+        <translation>Produkt</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Count</source>
-        <translation type="unfinished">Z&amp;auml;len</translation>
+        <translation>Zählen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>VAT</source>
-        <translation type="unfinished">MwSt.</translation>
+        <translation>MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Price inc. VAT</source>
-        <translation type="unfinished">Preis mit MwSt.</translation>
+        <translation>Preis mit MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Discount</source>
-        <translation type="unfinished">Erm&amp;auml;&amp;szlig;igung</translation>
+        <translation>Ermäßigung</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total Price ex. VAT</source>
         <translation type="obsolete">Insgesamt ohne MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total Price inc. VAT</source>
         <translation type="obsolete">Insgesamt mit MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Order summary</source>
-        <translation type="unfinished">Bestellauflistung</translation>
+        <translation>Bestellauflistung</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Summary</source>
-        <translation type="unfinished">Zusammenfassung</translation>
+        <translation>Zusammenfassung</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Subtotal of items</source>
-        <translation type="unfinished">Zwischensumme der Positionen</translation>
+        <translation>Zwischensumme der Positionen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Order total</source>
-        <translation type="unfinished">Komplette Bestellsumme</translation>
+        <translation>Gesamtsumme</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Order history</source>
-        <translation type="unfinished">Bestellverlauf</translation>
+        <translation>Bestellverlauf</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesamtsumme ohne MwSt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesamtsumme inkl. MwSt.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/userregister</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Shopping basket</source>
-        <translation type="unfinished">Warenkorb</translation>
+        <translation>Warenkorb</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Account information</source>
-        <translation type="unfinished">Kontoinformationen</translation>
+        <translation>Kontoinformationen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Confirm order</source>
-        <translation type="unfinished">Bestellung best&amp;auml;tigen</translation>
+        <translation>Bestellung bestätigen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Your account information</source>
-        <translation type="unfinished">Ihre Konto Informationen</translation>
+        <translation>Ihre Konto Informationen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Input did not validate, all fields marked with * must be filled in</source>
-        <translation type="obsolete">Die Eingaben konnten nicht validiert werden. Alle mit * markierten Felder m&amp;uuml;ssen ausgef&amp;uuml;llt werden</translation>
+        <translation type="obsolete">Die Eingaben konnten nicht validiert werden. Alle mit * markierten Felder müssen ausgefüllt werden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>First name</source>
-        <translation type="unfinished">Vorname</translation>
+        <translation>Vorname</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Last name</source>
-        <translation type="unfinished">Nachname</translation>
+        <translation>Nachname</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>E-mail</source>
         <translation type="obsolete">Email</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Company</source>
-        <translation type="unfinished">Unternehmen</translation>
+        <translation>Unternehmen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Street</source>
-        <translation type="unfinished">Strasse</translation>
+        <translation>Strasse</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Zip</source>
-        <translation type="unfinished">Postleitzahl</translation>
+        <translation>Postleitzahl</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Place</source>
-        <translation type="unfinished">Ort</translation>
+        <translation>Ort</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>State</source>
-        <translation type="unfinished">Staat</translation>
+        <translation>Bundesland</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Country</source>
-        <translation type="unfinished">Land</translation>
+        <translation>Land</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Comment</source>
-        <translation type="unfinished">Kommentar</translation>
+        <translation>Kommentar</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Cancel</source>
-        <translation type="unfinished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Continue</source>
-        <translation type="unfinished">Fortfahren</translation>
+        <translation>Fortfahren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>All fields marked with * must be filled in.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle mit * markierten Felder müssen ausgefüllt werden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Input did not validate. All fields marked with * must be filled in.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Eingaben konnten nicht validiert werden. Alle mit * markierten Felder müssen ausgefüllt werden.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>Email</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/wishlist</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Wish list</source>
-        <translation type="unfinished">Wunschzettel</translation>
+        <translation>Wunschzettel</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Product</source>
-        <translation type="unfinished">Produkt</translation>
+        <translation>Produkt</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Count</source>
-        <translation type="unfinished">Z&amp;auml;hlen</translation>
+        <translation>Zählen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Selected options</source>
-        <translation type="unfinished">Ausgew&amp;auml;hlte Optionen</translation>
+        <translation>Ausgewählte Optionen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Store</source>
-        <translation type="unfinished">Speichern</translation>
+        <translation>Speichern</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Remove items</source>
-        <translation type="unfinished">Entferne Eintr&amp;auml;ge</translation>
+        <translation>Entferne Einträge</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Empty wish list</source>
-        <translation type="unfinished">Wunschzettel leeren</translation>
+        <translation>Wunschzettel leeren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/simplified_treemenu/show_simplified_menu</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Fold/Unfold</source>
-        <translation type="unfinished">Minimieren/Maximieren</translation>
+        <translation>Minimieren/Maximieren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Node ID: %node_id Visibility: %visibility</source>
-        <translation type="unfinished">Knoten ID: %node_id Sichtbarkeit: %visibility</translation>
+        <translation>Knoten ID: %node_id Sichtbarkeit: %visibility</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/activate</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Activate account</source>
-        <translation type="unfinished">Konto aktivieren</translation>
+        <translation>Konto aktivieren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Your account is now activated.</source>
-        <translation type="unfinished">Ihr Konto ist nun aktiviert.</translation>
+        <translation>Ihr Konto ist nun aktiviert.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished">Der &amp;uuml;bertragene Schl&amp;uuml;ssel war nicht guuml;ltig. Ihr Konto wurde nicht aktiviert.</translation>
+        <translation>Entschuldigung, der übertragene Schlüssel war nicht gültig. Ihr Konto wurde nicht aktiviert.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Your account is already active.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihr Konto ist bereits aktiv.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/edit</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>User profile</source>
-        <translation type="unfinished">Benutzerprofil</translation>
+        <translation>Benutzerprofil</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Username</source>
-        <translation type="unfinished">Benutzername</translation>
+        <translation>Benutzername</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>E-mail</source>
         <translation type="obsolete">Email</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Name</source>
-        <translation type="unfinished">Name</translation>
+        <translation>Name</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>My drafts</source>
-        <translation type="unfinished">Ihre Entw&amp;uuml;rfe</translation>
+        <translation>Meine Entwürfe</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>My orders</source>
-        <translation type="unfinished">Meine Bestellungen</translation>
+        <translation>Meine Bestellungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>My notification settings</source>
-        <translation type="unfinished">Meine Benachrichtigungs- Einstellungen</translation>
+        <translation>Meine Benachrichtigungseinstellungen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>My wish list</source>
-        <translation type="unfinished">Mein Wunschzettel</translation>
+        <translation>Mein Wunschzettel</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Edit profile</source>
-        <translation type="unfinished">Bearbeite Profil</translation>
+        <translation>Profil bearbeiten</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Change password</source>
-        <translation type="unfinished">Passwort &amp;auml;ndern</translation>
+        <translation>Passwort ändern</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>Email</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/forgotpassword</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>A mail has been sent to the following e-mail address: %1. This e-mail contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
-        <translation type="obsolete">Eine Email wurde an die folgender Emailadresse versendet: %1. Diese Email beinhaltet einen Link, den Sie anklicken m&amp;uuml;ssen, damit wir sicherstellen k&amp;ouml;nnen, dass der richtige Benutzer das neue Passwort erh&amp;auml;lt.</translation>
+        <translation type="obsolete">Eine Email wurde an die folgender Emailadresse versendet: %1. Diese Email beinhaltet einen Link, den Sie anklicken müssen, damit wir sicherstellen können, dass der richtige Benutzer das neue Passwort erhält.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>There is no registered user with that e-mail address.</source>
         <translation type="obsolete">Es existiert kein registrierter Benutzer mit dieser Emailadresse.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Password was successfully generated and sent to: %1</source>
-        <translation type="unfinished">Das Passwort wurde erfolgreich generiert und versendet nach: %1</translation>
+        <translation>Das Passwort wurde erfolgreich generiert und an %1 versendet.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>The key is invalid or has been used. </source>
-        <translation type="unfinished">Der Schl&amp;uuml;ssel ist ung&amp;uuml;ltig oder verbraucht.</translation>
+        <translation>Der Schlüssel ist ungültig oder bereits verbraucht.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Have you forgotten your password?</source>
-        <translation type="unfinished">Haben Sie Ihr Passwort vergessen?</translation>
+        <translation>Haben Sie Ihr Passwort vergessen?</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>If you have forgotten your password we can generate a new one for you. All you need to do is to enter your e-mail address and we will create a new password for you.</source>
-        <translation type="obsolete">Falls Sie Ihr Passwort vergesen haben k&amp;ouml;nnen wir ein neues f&amp;uuml;r Sie generieren. Sie m&amp;uuml;ssen lediglich Ihre Emailadresse eingeben und wir erstellen ein neues f&amp;uuml;r Sie.</translation>
+        <translation type="obsolete">Falls Sie Ihr Passwort vergesen haben können wir ein neues für Sie generieren. Sie müssen lediglich Ihre Emailadresse eingeben und wir erstellen ein neues für Sie.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>E-mail</source>
         <translation type="obsolete">Email</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Generate new password</source>
-        <translation type="unfinished">Generiere neues Passwort</translation>
+        <translation>Neues Passwort generieren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>An email has been sent to the following address: %1. It contains a link you need to click so that we can confirm that the correct user has received the new password.</source>
-        <translation type="unfinished"></translation>
+        <translation>Es wurde eine Email an %1 versendet. Sie müssen den in dieser Email enthaltenen Link besuchen damit wir Ihre Identität bestätigen, und ein neues Passwort vergeben können .</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>There is no registered user with that email address.</source>
-        <translation type="unfinished"></translation>
+        <translation>Es existiert kein registrierter Benutzer mit dieser Emailadresse.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>If you have forgotten your password, enter your email address and we will create a new password and send it to you.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn Sie Ihr Passwort vergessen haben, geben Sie Ihre Emailadresse ein. Es wird dann ein neues Passwort erzeugt und Ihnen zugeschickt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>Email</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/login</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Login</source>
-        <translation type="unfinished">Anmelden</translation>
+        <translation>Anmelden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Could not login</source>
-        <translation type="unfinished">Konnte Sie nicht anmelden</translation>
+        <translation>Die Anmeldung ist fehlgeschlagen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>A valid username and password is required to login.</source>
-        <translation type="unfinished">G&amp;uuml;ltiger Nutzername und Passwort sind erforderlich.</translation>
+        <translation>Für die Anmeldung ist die korrekte Kombination von Benutzername und Passwort nötig.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Access not allowed</source>
-        <translation type="unfinished">Zugang nicht erlaubt</translation>
+        <translation>Zugang nicht erlaubt</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You are not allowed to access %1.</source>
-        <translation type="unfinished">Zugang zu %1 ist nicht erlaubt.</translation>
+        <translation>Zugang zu %1 ist nicht erlaubt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Username</source>
         <comment>User name</comment>
-        <translation type="unfinished">Benutzername</translation>
+        <translation>Benutzername</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Password</source>
-        <translation type="unfinished">Passwort</translation>
+        <translation>Passwort</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Log in to the administration interface of eZ publish</source>
         <translation type="obsolete">Anmelden am Administration Interface</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Remember me</source>
-        <translation type="unfinished">Angemeldet bleiben</translation>
+        <translation>Auf diesem Computer bis zur Abmeldung angemeldet bleiben</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Login</source>
         <comment>Button</comment>
-        <translation type="unfinished">Anmelden</translation>
+        <translation>Anmelden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Sign Up</source>
         <comment>Button</comment>
         <translation type="obsolete">Anmelden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Forgot your password?</source>
-        <translation type="unfinished">Passwort vergessen?</translation>
+        <translation>Passwort vergessen?</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Log in to the eZ Publish Administration Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>Am eZ Publish Administrationsinterface anmelden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Sign up</source>
         <comment>Button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Registrieren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/register</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Register user</source>
-        <translation type="unfinished">Benutzer registrieren</translation>
+        <translation>Benutzer registrieren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Input did not validate</source>
-        <translation type="unfinished">Eingabe konnte nicht validiert werden</translation>
+        <translation>Die Eingabe konnte nicht validiert werden</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Input was stored successfully</source>
-        <translation type="unfinished">Eingabe wurde erfolgreich gespeichert</translation>
+        <translation>Die Eingabe wurde erfolgreich gespeichert</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Register</source>
-        <translation type="unfinished">Registrieren</translation>
+        <translation>Registrieren</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Discard</source>
-        <translation type="unfinished">Verwerfen</translation>
+        <translation>Verwerfen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Unable to register new user</source>
-        <translation type="unfinished">Registrierung des neuen Benutzers fehlgeschlagen</translation>
+        <translation>Die Registrierung des neuen Benutzers ist fehlgeschlagen</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Back</source>
-        <translation type="unfinished">Zur&amp;uuml;ck</translation>
+        <translation>Zurück</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/success</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>User registered</source>
-        <translation type="unfinished">Nutzer registriert</translation>
+        <translation>Benutzer registriert</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Your account was successfully created. An e-mail will be sent to the specified
 e-mail address. You need to follow the instructions in that mail to activate
 your account.</source>
         <translation type="obsolete">Ihr Benutzerkonto wurde erfolgreich erstellt. Eine Email wird an die angegebene 
-Email gesendet. Sie m&amp;uuml;ssen den Instruktionen in der Email folgen, um Ihr 
+Email gesendet. Sie müssen den Instruktionen in der Email folgen, um Ihr 
 Benutzerkonto zu aktivieren.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Your account was successfully created.</source>
-        <translation type="unfinished">Ihr Benutzerkonto wurde erfolgreich erstellt.</translation>
+        <translation>Ihr Benutzerkonto wurde erfolgreich erstellt.</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihr Benutzerkonto wurde erfolgreich erstellt. Eine Email wird an die angegebene Email gesendet. Bitt folgen Sie den Instruktionen in der Email, um Ihr Benutzerkonto zu aktivieren.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/view/ezbinaryfile</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>The file could not be found.</source>
-        <translation type="unfinished">Die Datei konnte nicht gefunden werden.</translation>
+        <translation>Die Datei konnte nicht gefunden werden.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/view/ezprice</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Price</source>
-        <translation type="unfinished">Preis</translation>
+        <translation>Preis</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>Your price</source>
-        <translation type="unfinished">Ihr Preis</translation>
+        <translation>Ihr Preis</translation>
     </message>
     <message>
+        <location filename="" line="136954932"/>
         <source>You save</source>
-        <translation type="unfinished">Sie sparen</translation>
+        <translation>Sie sparen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/view/sitemap</name>
     <message>
+        <location filename="" line="136954932"/>
         <source>Site map</source>
-        <translation type="unfinished">Inhalts&amp;uuml;bersicht</translation>
+        <translation>Inhaltsübersicht</translation>
     </message>
 </context>
 </TS>
