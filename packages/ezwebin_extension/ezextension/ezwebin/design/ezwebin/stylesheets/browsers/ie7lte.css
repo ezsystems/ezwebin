@@ -5,16 +5,6 @@ div#searchbox
 	margin-top: 1.5em;
 }
 
-div#columns
-{ 
-    margin-bottom: 0.5em;
-}
-
-div.columns-frontpage
-{
-	margin-bottom: 2em;
-}
-
 div.overflow-fix /* Hides long non-breaking lines and terminates bugs */
 {
     width: 100%;
