@@ -71,7 +71,7 @@ EZPUBLISH_DIR=""
 PACKAGE_DIR=""
 PACKAGE_NAME="ezwebin_extension"
 
-# Do the work.
+# parse and check options
 parse_cl_parameters $*
 
 if [ ! -d "$EZPUBLISH_DIR" ]; then
@@ -81,6 +81,7 @@ fi
 
 PACKAGE_DIR="$EZPUBLISH_DIR/var/storage/packages/local"
 
+# Do the work.
 cd "$EZPUBLISH_DIR"
 ./ezpm.php create $PACKAGE_NAME 'ezwebin extension' '1.1-1' 'install'
 ./ezpm.php add $PACKAGE_NAME ezextension ezwebin
