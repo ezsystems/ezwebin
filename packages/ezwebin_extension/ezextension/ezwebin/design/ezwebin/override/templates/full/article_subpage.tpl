@@ -6,11 +6,11 @@
 
 <div class="content-view-full">
     <div class="class-article-mainpage">
-    
+
         <div class="attribute-header">
             <h1>{$node.data_map.title.content|wash()}</h1>
         </div>
-    
+
         <div class="attribute-byline">
         {if $node.parent.data_map.author.content.is_empty|not()}
         <p class="author">
@@ -18,7 +18,7 @@
         </p>
         {/if}
         <p class="date">
-             {$node.parent.data_map.publication_date.content.timestamp|l10n(shortdatetime)}
+             {$node.parent.object.published|l10n(shortdatetime)}
         </p>
         </div>
 
