@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<content-class is-container="false">
-  <name>Feedback form</name>
+<content-class is-container="true">
+  <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:13:&quot;Feedback form&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
   <identifier>feedback_form</identifier>
   <remote-id>df0257b8fc55f6b8ab179d6fb915455e</remote-id>
   <object-name-pattern>&lt;name&gt;</object-name-pattern>
   <remote>
-    <site-url>http://localhost/ezpl/index.php/</site-url>
-    <url>http://localhost/ezpl/index.php/class/view/18</url>
+    <site-url>http://localhost/ezpub390/index.php/</site-url>
+    <url>http://localhost/ezpub390/index.php/class/view/18</url>
     <groups>
       <group id="1"
              name="Content" />
     </groups>
     <id>18</id>
-    <created>1154333803</created>
-    <modified>1154334188</modified>
+    <created>1168428345</created>
+    <modified>1173724000</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -30,9 +30,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>191</id>
+        <id>195</id>
       </remote>
-      <name>Name</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:4:&quot;Name&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>name</identifier>
       <placement>1</placement>
       <datatype-parameters>
@@ -46,9 +46,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>192</id>
+        <id>196</id>
       </remote>
-      <name>Description</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:11:&quot;Description&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>description</identifier>
       <placement>2</placement>
       <datatype-parameters>
@@ -63,7 +63,7 @@
       <remote>
         <id>197</id>
       </remote>
-      <name>Sender name</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:11:&quot;Sender name&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>sender_name</identifier>
       <placement>3</placement>
       <datatype-parameters>
@@ -77,9 +77,9 @@
                information-collector="true"
                translatable="true">
       <remote>
-        <id>193</id>
+        <id>198</id>
       </remote>
-      <name>Subject</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:7:&quot;Subject&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>subject</identifier>
       <placement>4</placement>
       <datatype-parameters>
@@ -93,9 +93,9 @@
                information-collector="true"
                translatable="true">
       <remote>
-        <id>194</id>
+        <id>199</id>
       </remote>
-      <name>Message</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:7:&quot;Message&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>message</identifier>
       <placement>5</placement>
       <datatype-parameters>
@@ -108,9 +108,9 @@
                information-collector="true"
                translatable="false">
       <remote>
-        <id>195</id>
+        <id>200</id>
       </remote>
-      <name>Email</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:5:&quot;Email&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>email</identifier>
       <placement>6</placement>
       <datatype-parameters />
@@ -121,9 +121,9 @@
                information-collector="false"
                translatable="false">
       <remote>
-        <id>196</id>
+        <id>201</id>
       </remote>
-      <name>Recipient</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:9:&quot;Recipient&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>recipient</identifier>
       <placement>7</placement>
       <datatype-parameters />

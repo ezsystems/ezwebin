@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content-class is-container="false">
-  <name>Windows media</name>
+  <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:13:&quot;Windows media&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
   <identifier>windows_media</identifier>
   <remote-id>223dd2551e85b63b55a72d02363faab6</remote-id>
   <object-name-pattern>&lt;name&gt;</object-name-pattern>
   <remote>
-    <site-url>http://localhost/ezpl/index.php/</site-url>
-    <url>http://localhost/ezpl/index.php/class/view/24</url>
+    <site-url>http://localhost/ezpub390/index.php/</site-url>
+    <url>http://localhost/ezpub390/index.php/class/view/24</url>
     <groups>
       <group id="3"
              name="Media" />
     </groups>
     <id>24</id>
-    <created>1155022637</created>
-    <modified>1155022637</modified>
+    <created>1168428348</created>
+    <modified>1171545848</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -30,9 +30,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>218</id>
+        <id>222</id>
       </remote>
-      <name>Name</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:4:&quot;Name&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>name</identifier>
       <placement>1</placement>
       <datatype-parameters>
@@ -46,9 +46,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>219</id>
+        <id>223</id>
       </remote>
-      <name>Description</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:11:&quot;Description&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>description</identifier>
       <placement>2</placement>
       <datatype-parameters>
@@ -61,15 +61,28 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>220</id>
+        <id>224</id>
       </remote>
-      <name>File</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:4:&quot;File&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>file</identifier>
       <placement>3</placement>
       <datatype-parameters>
         <max-size unit-size="mega">0</max-size>
         <type>windows_media_player</type>
       </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezkeyword"
+               required="false"
+               searchable="true"
+               information-collector="false"
+               translatable="true">
+      <remote>
+        <id>318</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:4:&quot;Tags&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
+      <identifier>tags</identifier>
+      <placement>4</placement>
+      <datatype-parameters />
     </attribute>
   </attributes>
 </content-class>

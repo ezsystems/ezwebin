@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content-class is-container="false">
-  <name>Infobox</name>
+  <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:7:&quot;Infobox&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
   <identifier>infobox</identifier>
   <remote-id>0b4e8accad5bec5ba2d430acb25c1ff6</remote-id>
   <object-name-pattern>&lt;header&gt;</object-name-pattern>
   <remote>
-    <site-url>http://localhost/ezpl/index.php/</site-url>
-    <url>http://localhost/ezpl/index.php/class/view/21</url>
+    <site-url>http://localhost/ezpub390/index.php/</site-url>
+    <url>http://localhost/ezpub390/index.php/class/view/21</url>
     <groups>
       <group id="1"
              name="Content" />
     </groups>
     <id>21</id>
-    <created>1154601150</created>
-    <modified>1155710065</modified>
+    <created>1168428347</created>
+    <modified>1168428347</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -30,9 +30,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>208</id>
+        <id>211</id>
       </remote>
-      <name>Header</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:6:&quot;Header&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>header</identifier>
       <placement>1</placement>
       <datatype-parameters>
@@ -46,9 +46,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>209</id>
+        <id>212</id>
       </remote>
-      <name>Image</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:5:&quot;Image&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>image</identifier>
       <placement>2</placement>
       <datatype-parameters>
@@ -61,9 +61,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>240</id>
+        <id>213</id>
       </remote>
-      <name>URL (image)</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:11:&quot;URL (image)&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>image_url</identifier>
       <placement>3</placement>
       <datatype-parameters>
@@ -77,9 +77,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>210</id>
+        <id>214</id>
       </remote>
-      <name>Content</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:7:&quot;Content&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>content</identifier>
       <placement>4</placement>
       <datatype-parameters>
@@ -92,9 +92,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>211</id>
+        <id>215</id>
       </remote>
-      <name>URL</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:3:&quot;URL&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>url</identifier>
       <placement>5</placement>
       <datatype-parameters />

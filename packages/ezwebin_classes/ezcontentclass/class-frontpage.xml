@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content-class is-container="true">
-  <name>Frontpage</name>
+  <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:9:&quot;Frontpage&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
   <identifier>frontpage</identifier>
   <remote-id>e36c458e3e4a81298a0945f53a2c81f4</remote-id>
   <object-name-pattern>&lt;name&gt;</object-name-pattern>
   <remote>
-    <site-url>http://localhost/ezpl/index.php/</site-url>
-    <url>http://localhost/ezpl/index.php/class/view/19</url>
+    <site-url>http://localhost/ezpub390/index.php/</site-url>
+    <url>http://localhost/ezpub390/index.php/class/view/19</url>
     <groups>
       <group id="1"
              name="Content" />
     </groups>
     <id>19</id>
-    <created>1154347994</created>
-    <modified>1156235626</modified>
+    <created>1168428346</created>
+    <modified>1176192287</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -30,9 +30,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>198</id>
+        <id>202</id>
       </remote>
-      <name>Name</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:4:&quot;Name&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>name</identifier>
       <placement>1</placement>
       <datatype-parameters>
@@ -46,9 +46,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>259</id>
+        <id>203</id>
       </remote>
-      <name>Billboard</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:9:&quot;Billboard&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>billboard</identifier>
       <placement>2</placement>
       <datatype-parameters>
@@ -62,13 +62,13 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>200</id>
+        <id>204</id>
       </remote>
-      <name>Left column</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:11:&quot;Left column&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>left_column</identifier>
       <placement>3</placement>
       <datatype-parameters>
-        <text-column-count>10</text-column-count>
+        <text-column-count>20</text-column-count>
       </datatype-parameters>
     </attribute>
     <attribute datatype="ezxmltext"
@@ -77,13 +77,13 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>201</id>
+        <id>205</id>
       </remote>
-      <name>Center column</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:13:&quot;Center column&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>center_column</identifier>
       <placement>4</placement>
       <datatype-parameters>
-        <text-column-count>10</text-column-count>
+        <text-column-count>20</text-column-count>
       </datatype-parameters>
     </attribute>
     <attribute datatype="ezxmltext"
@@ -92,13 +92,13 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>202</id>
+        <id>206</id>
       </remote>
-      <name>Right column</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:12:&quot;Right column&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>right_column</identifier>
       <placement>5</placement>
       <datatype-parameters>
-        <text-column-count>10</text-column-count>
+        <text-column-count>20</text-column-count>
       </datatype-parameters>
     </attribute>
     <attribute datatype="ezxmltext"
@@ -107,14 +107,27 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>203</id>
+        <id>207</id>
       </remote>
-      <name>Bottom column</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:13:&quot;Bottom column&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>bottom_column</identifier>
       <placement>6</placement>
       <datatype-parameters>
-        <text-column-count>5</text-column-count>
+        <text-column-count>10</text-column-count>
       </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezkeyword"
+               required="false"
+               searchable="true"
+               information-collector="false"
+               translatable="true">
+      <remote>
+        <id>332</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:4:&quot;Tags&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
+      <identifier>tags</identifier>
+      <placement>7</placement>
+      <datatype-parameters />
     </attribute>
   </attributes>
 </content-class>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content-class is-container="false">
-  <name>Quicktime</name>
+  <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:9:&quot;Quicktime&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
   <identifier>quicktime</identifier>
   <remote-id>16d7b371979d6ba37894cc8dc306f38f</remote-id>
   <object-name-pattern>&lt;name&gt;</object-name-pattern>
   <remote>
-    <site-url>http://localhost/ezpl/index.php/</site-url>
-    <url>http://localhost/ezpl/index.php/class/view/23</url>
+    <site-url>http://localhost/ezpub390/index.php/</site-url>
+    <url>http://localhost/ezpub390/index.php/class/view/23</url>
     <groups>
       <group id="3"
              name="Media" />
     </groups>
     <id>23</id>
-    <created>1155022416</created>
-    <modified>1155022416</modified>
+    <created>1168428348</created>
+    <modified>1171545797</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -30,9 +30,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>215</id>
+        <id>219</id>
       </remote>
-      <name>Name</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:4:&quot;Name&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>name</identifier>
       <placement>1</placement>
       <datatype-parameters>
@@ -46,9 +46,9 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>216</id>
+        <id>220</id>
       </remote>
-      <name>Description</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:11:&quot;Description&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>description</identifier>
       <placement>2</placement>
       <datatype-parameters>
@@ -61,15 +61,28 @@
                information-collector="false"
                translatable="true">
       <remote>
-        <id>217</id>
+        <id>221</id>
       </remote>
-      <name>File</name>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:4:&quot;File&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
       <identifier>file</identifier>
       <placement>3</placement>
       <datatype-parameters>
         <max-size unit-size="mega">0</max-size>
         <type>quick_time</type>
       </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezkeyword"
+               required="false"
+               searchable="true"
+               information-collector="false"
+               translatable="true">
+      <remote>
+        <id>316</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:&quot;eng-GB&quot;;s:4:&quot;Tags&quot;;s:16:&quot;always-available&quot;;s:6:&quot;eng-GB&quot;;}</serialized-name-list>
+      <identifier>tags</identifier>
+      <placement>4</placement>
+      <datatype-parameters />
     </attribute>
   </attributes>
 </content-class>
