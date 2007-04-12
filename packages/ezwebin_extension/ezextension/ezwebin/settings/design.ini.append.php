@@ -3,4 +3,8 @@
 
 [ExtensionSettings]
 DesignExtensions[]=ezwebin
+
+[JavaScriptSettings]
+JavaScriptList[]=insertmedia.js
+
 */ ?>

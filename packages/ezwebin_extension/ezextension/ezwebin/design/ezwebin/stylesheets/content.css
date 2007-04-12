@@ -1537,14 +1537,15 @@ div.content-view-full div.class-frontpage div.attribute-billboard
 	margin-top: 0em;
 	padding-top: 0.25em;
 	background-color: #FFFFFF;
-}
-
-div.content-view-full div.class-frontpage div.attribute-billboard img
-{
 	background-image: url(../images/billboard_bg.png);
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	padding-bottom: 22px;
+}
+
+div.content-view-full div.class-frontpage div.attribute-billboard img
+{
+
 }
 
 div.content-view-full div.class-frontpage div.columns-frontpage
