@@ -2,7 +2,7 @@
 
 function insertMedia()
 {
-    for( k = 0; k < arguments.length; k++ )
+    for( var k = 0, l = arguments.length; k < l; k++ )
     {
         document.write( arguments[k] );
     }
