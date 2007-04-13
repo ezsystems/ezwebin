@@ -10,7 +10,7 @@
     </div>
 
     {def $name_pattern = $node.object.content_class.contentobject_name|explode('>')|implode(',')
-         $name_pattern_array = array()}
+         $name_pattern_array = array('show_children', 'show_children_classes', 'show_children_pr_page', 'enable_comments')}
     {set $name_pattern  = $name_pattern|explode('|')|implode(',')}
     {set $name_pattern  = $name_pattern|explode('<')|implode(',')}
     {set $name_pattern  = $name_pattern|explode(',')}
@@ -25,6 +25,9 @@
             </div>
         {/if}
     {/foreach}
+    
+    
+    {* TODO: Show children and comments if attributes are present and enabled *}
 
     </div>
 </div>
