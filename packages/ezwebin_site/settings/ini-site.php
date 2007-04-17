@@ -38,7 +38,7 @@ function eZSiteINISettings( $parameters )
     $parameters = array_merge( $parameters,
                                array( 'is_admin' => false ) );
 	$setupData = loadSetupData( $parameters );
-	
+
     $settings = array();
     $settings[] = eZSiteMenuINISettings();
     $settings[] = eZSiteOverrideINISettings();
@@ -46,9 +46,9 @@ function eZSiteINISettings( $parameters )
     $settings[] = eZSiteSiteINISettings( $setupData );
     $settings[] = eZSiteImageINISettings();
     $settings[] = eZSiteContentINISettings( $parameters );
-	$settings[] = eZSiteDesignINISettings( $parameters );
+	//$settings[] = eZSiteDesignINISettings( $parameters );
     //$settings[] = eZSiteIconINISettings( $parameters );
-	
+
 	$settings[] = eZSiteContentStructureMenuINISettings();
 
     return $settings;
@@ -59,21 +59,22 @@ function eZSiteSiteINISettings( $setupData )
   $settings = array();
 
 	$settings['RegionalSettings'] = array( 'ShowUntranslatedObjects' => 'disabled' );
-	
+
 	$settings['SiteAccessSettings'] = array( 'RequireUserLogin' => 'false',
 											 										 'ShowHiddenNodes' => 'false' );
 
 	$settings['SiteSettings'] = array( 'LoginPage' => 'embedded',
                                      'AdditionalLoginFormActionURL' => $setupData['siteaccessURLs']['admin_url'] . '/user/login' );
-	
+
 	$settings['DesignSettings'] = array( 'SiteDesign' => $setupData['mainSiteDesign'] );
-	
+
 	$settings['Session'] = array( 'SessionNamePerSiteAccess' => 'disabled' );
-		
+
     return array( 'name' => 'site.ini',
                   'settings' => $settings );
 }
 
+/*
 function eZSiteDesignINISettings()
 {
     $settings =  array(
@@ -88,6 +89,7 @@ function eZSiteDesignINISettings()
 					   );
     return $settings;
 }
+*/
 
 function eZSiteContentStructureMenuINISettings()
 {
@@ -157,6 +159,26 @@ array(
 'class_identifier'=>'article'
 )
 ),
+'full_article_mainpage'=>
+array(
+'Source'=>'node/view/full.tpl',
+'MatchFile'=>'full/article_mainpage.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'article_mainpage'
+)
+),
+'full_article_subpage'=>
+array(
+'Source'=>'node/view/full.tpl',
+'MatchFile'=>'full/article_subpage.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'article_subpage'
+)
+),
 'full_banner'=>
 array(
 'Source'=>'node/view/full.tpl',
@@ -165,6 +187,26 @@ array(
 'Match'=>
 array(
 'class_identifier'=>'banner'
+)
+),
+'full_blog'=>
+array(
+'Source'=>'node/view/full.tpl',
+'MatchFile'=>'full/blog.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'blog'
+)
+),
+'full_blog_post'=>
+array(
+'Source'=>'node/view/full.tpl',
+'MatchFile'=>'full/blog_post.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'blog_post'
 )
 ),
 'full_comment'=>
@@ -337,6 +379,26 @@ array(
 'class_identifier'=>'link'
 )
 ),
+'full_multicalendar'=>
+array(
+'Source'=>'node/view/full.tpl',
+'MatchFile'=>'full/multicalendar.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'multicalendar'
+)
+),
+'full_poll'=>
+array(
+'Source'=>'node/view/full.tpl',
+'MatchFile'=>'full/poll.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'poll'
+)
+),
 'full_product'=>
 array(
 'Source'=>'node/view/full.tpl',
@@ -387,6 +449,26 @@ array(
 'class_identifier'=>'article'
 )
 ),
+'line_article_mainpage'=>
+array(
+'Source'=>'node/view/line.tpl',
+'MatchFile'=>'line/article_mainpage.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'article_mainpage'
+)
+),
+'line_article_subpage'=>
+array(
+'Source'=>'node/view/line.tpl',
+'MatchFile'=>'line/article_subpage.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'article_subpage'
+)
+),
 'line_banner'=>
 array(
 'Source'=>'node/view/line.tpl',
@@ -395,6 +477,26 @@ array(
 'Match'=>
 array(
 'class_identifier'=>'banner'
+)
+),
+'line_blog'=>
+array(
+'Source'=>'node/view/line.tpl',
+'MatchFile'=>'line/blog.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'blog'
+)
+),
+'line_blog_post'=>
+array(
+'Source'=>'node/view/line.tpl',
+'MatchFile'=>'line/blog_post.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'blog_post'
 )
 ),
 'line_comment'=>
@@ -557,6 +659,26 @@ array(
 'class_identifier'=>'link'
 )
 ),
+'line_multicalendar'=>
+array(
+'Source'=>'node/view/line.tpl',
+'MatchFile'=>'line/multicalendar.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'multicalendar'
+)
+),
+'line_poll'=>
+array(
+'Source'=>'node/view/line.tpl',
+'MatchFile'=>'line/poll.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'poll'
+)
+),
 'line_product'=>
 array(
 'Source'=>'node/view/line.tpl',
@@ -687,17 +809,6 @@ array(
 'class_identifier'=>'flash'
 )
 ),
-'embed_folder_products'=>
-array(
-'Source'=>'content/view/embed.tpl',
-'MatchFile'=>'embed/folder_products.tpl',
-'Subdir'=>'templates',
-'Match'=>
-array(
-'class_identifier'=>'folder',
-'classification'=>'products'
-)
-),
 'itemized_sub_items'=>
 array(
 'Source'=>'content/view/embed.tpl',
@@ -776,6 +887,16 @@ array(
 'Match'=>
 array(
 'class_identifier'=>'image'
+)
+),
+'embed_poll'=>
+array(
+'Source'=>'content/view/embed.tpl',
+'MatchFile'=>'embed/poll.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'poll'
 )
 ),
 'embed_product'=>
@@ -883,6 +1004,16 @@ array(
 'Source'=>'content/view/itemizedsubitems.tpl',
 'MatchFile'=>'itemizedsubitems/itemized_sub_items.tpl',
 'Subdir'=>'templates'
+),
+'embed_event_calendar'=>
+array(
+'Source'=>'content/view/embed.tpl',
+'MatchFile'=>'embed/event_calendar.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'event_calendar'
+)
 ),
 'embed_horizontallylistedsubitems_article'=>
 array(
@@ -994,6 +1125,26 @@ array(
 'Match'=>
 array(
 'class_identifier'=>'image'
+)
+),
+'billboard_banner'=>
+array(
+'Source'=>'content/view/billboard.tpl',
+'MatchFile'=>'billboard/banner.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'banner'
+)
+),
+'billboard_flash'=>
+array(
+'Source'=>'content/view/billboard.tpl',
+'MatchFile'=>'billboard/flash.tpl',
+'Subdir'=>'templates',
+'Match'=>
+array(
+'class_identifier'=>'flash'
 )
 )
 
@@ -1135,7 +1286,7 @@ array(
 'Reference'=>'',
 'Filters'=>
 array(
-'0'=>'geometry/scalewidth=150'
+'0'=>'geometry/scalewidth=75'
 )
 ),
 'billboard'=>
@@ -1143,7 +1294,7 @@ array(
 'Reference'=>'',
 'Filters'=>
 array(
-'0'=>'geometry/scalewidth=754'
+'0'=>'geometry/scalewidth=764'
 )
 )
                                          ) );

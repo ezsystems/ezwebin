@@ -56,11 +56,15 @@ $newAttributesDataArray = array();
  */
 function eZSitePreInstall( )
 {
-    //TODO: remove this test. this is tested in the setup wizard of ezp 3.8.5+, and eZp Now is to be run on eZp 3.9+
-    //check dir accesses
-    $extensionDirIsWriteable = testAccess( "extension" );
-    addError( array( "extensionDirIsWriteable", $extensionDirIsWriteable), false);
-
+    /*
+        Replace Article image attribute with correct datatype
+    */
+    eZWebinInstaller::removeClassAttribute( array( 'class_id' => 2,
+                                                   'attribute_identifier' => 'image' ) );
+    eZWebinInstaller::addClassAttribute( array( 'class_identifier' => 'article',
+                                                'attribute_identifier' => 'image',
+                                                'attribute_name' => 'Image',
+                                                'datatype' => 'ezimage' ) );
 
     // hack for images/binaryfiles
     // need to set siteaccess to have correct placement(VarDir) for files.
@@ -184,7 +188,7 @@ function eZSitePostInstall( &$parameters )
     addData( $templateLookObject->attribute( 'id' ), $newAttributesDataArray );
 
     //move imported banners folder node to media node
-    moveTreeNode( "Banners", "Media" );
+    //moveTreeNode( "Banners", "Media" );
 
     //swap current root node with imported node "Home"
     swapNodes( "eZ publish", "Home" );

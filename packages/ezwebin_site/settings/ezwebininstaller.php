@@ -100,7 +100,7 @@ class eZWebinInstaller
                                                                                                                                      '_params' => array( 'class_identifier' => 'image' ) ),
                                                                                                                  'Section' => array( '_function' => 'sectionIDbyName',
                                                                                                                                      '_params' => array( 'section_name' => 'Media' ) ) ) ) ) ) ),
-/*                                   array( '_function' => 'removePoliciesForRole',
+                                   array( '_function' => 'removePoliciesForRole',
                                           '_params' => array( 'role_name' => 'Editor',
                                                               'policies' => array( array( 'module' => 'content',
                                                                                           'function' => '*' ) ) ) ),
@@ -122,6 +122,18 @@ class eZWebinInstaller
                                                                                                                                           '_params' => array( 'class_identifier' => 'frontpage' ) ),
                                                                                                                                    array( '_function' => 'classIDbyIdentifier',
                                                                                                                                           '_params' => array( 'class_identifier' => 'article' ) ),
+                                                                                                                                   array( '_function' => 'classIDbyIdentifier',
+                                                                                                                                          '_params' => array( 'class_identifier' => 'article_mainpage' ) ),
+                                                                                                                                   array( '_function' => 'classIDbyIdentifier',
+                                                                                                                                          '_params' => array( 'class_identifier' => 'article_subpage' ) ),
+                                                                                                                                   array( '_function' => 'classIDbyIdentifier',
+                                                                                                                                          '_params' => array( 'class_identifier' => 'blog' ) ),
+                                                                                                                                   array( '_function' => 'classIDbyIdentifier',
+                                                                                                                                          '_params' => array( 'class_identifier' => 'blog_post' ) ),
+                                                                                                                                   array( '_function' => 'classIDbyIdentifier',
+                                                                                                                                          '_params' => array( 'class_identifier' => 'poll' ) ),
+                                                                                                                                   array( '_function' => 'classIDbyIdentifier',
+                                                                                                                                          '_params' => array( 'class_identifier' => 'multicalendar' ) ),
                                                                                                                                    array( '_function' => 'classIDbyIdentifier',
                                                                                                                                           '_params' => array( 'class_identifier' => 'documentation_page' ) ),
                                                                                                                                    array( '_function' => 'classIDbyIdentifier',
@@ -189,6 +201,8 @@ class eZWebinInstaller
                                                                                                                                    array( '_function' => 'classIDbyIdentifier',
                                                                                                                                           '_params' => array( 'class_identifier' => 'event_calendar' ) ),
                                                                                                                                    array( '_function' => 'classIDbyIdentifier',
+                                                                                                                                          '_params' => array( 'class_identifier' => 'multicalendar' ) ),
+                                                                                                                                   array( '_function' => 'classIDbyIdentifier',
                                                                                                                                           '_params' => array( 'class_identifier' => 'forums' ) ) ),
                                                                                                                  'ParentClass' => array( '_function' => 'classIDbyIdentifier',
                                                                                                                                          '_params' => array( 'class_identifier' => 'frontpage' ) ) ) ),
@@ -199,20 +213,16 @@ class eZWebinInstaller
                                                                                           'limitation' => array( 'Section' => array( array( '_function' => 'sectionIDbyName',
                                                                                                                                             '_params' => array( 'section_name' => 'Standard' ) ),
                                                                                                                                      array( '_function' => 'sectionIDbyName',
-                                                                                                                                            '_params' => array( 'section_name' => 'Media' ) ) ) ) ),
-                                                                                   array( 'module' => 'notification',
-                                                                                          'function' => 'use' ),
-                                                                                   array( 'module' => 'ezdhtml',
-                                                                                          'function' => '*' ),
-                                                                                   array( 'module' => 'ezodf',
-                                                                                          'function' => '*' ) ) ) ),
-*/
+                                                                                                                                            '_params' => array( 'section_name' => 'Media' ) ) ) ) ) ) ) ),
+
                                    array( '_function' => 'addPoliciesForRole',
                                           '_params' => array( 'role_name' => 'Editor',
                                                               'policies' => array( array( 'module' => 'notification',
                                                                                           'function' => 'use' ),
                                                                                    array( 'module' => 'ezodf',
-                                                                                          'function' => '*' ) ) ) ),
+                                                                                          'function' => '*' ),
+                                                                                   array( 'module' => 'shop',
+                                                                                          'function' => 'administrate' ) ) ) ),
 
                                    array( '_function' => 'createContentSection',
                                           '_params' => array( 'name' => 'Restricted',
@@ -223,7 +233,7 @@ class eZWebinInstaller
                                                               'attributes' => array( 'name' => 'Partners',
                                                                                      'description' => '' ) ) ),
                                    array( '_function' => 'setSection',
-                                          '_params' => array( 'location' => 'partner',
+                                          '_params' => array( 'location' => 'partners',
                                                               'section_name' => 'Restricted' ) ),
                                    array( '_function' => 'addPoliciesForRole',
                                           '_params' => array( 'role_name' => 'Partner',
@@ -296,8 +306,12 @@ class eZWebinInstaller
                                                                                                                                    '_params' => array( 'class_identifier' => 'comment' ) ),
                                                                                                                  'Section' => array( '_function' => 'sectionIDbyName',
                                                                                                                                      '_params' => array( 'section_name' => 'Standard' ) ),
-                                                                                                                 'ParentClass' => array( '_function' => 'classIDbyIdentifier',
-                                                                                                                                         '_params' => array( 'class_identifier' => 'article'  ) ) ) ),
+                                                                                                                 'ParentClass' => array( array( '_function' => 'classIDbyIdentifier',
+                                                                                                                                                '_params' => array( 'class_identifier' => 'article' ) ),
+                                                                                                                                         array( '_function' => 'classIDbyIdentifier',
+                                                                                                                                                '_params' => array( 'class_identifier' => 'blog' ) ),
+                                                                                                                                         array( '_function' => 'classIDbyIdentifier',
+                                                                                                                                                '_params' => array( 'class_identifier' => 'article_mainpage' ) ) ) ) ),
 
                                                                                    array( 'module' => 'content',
                                                                                           'function' => 'edit',
@@ -347,14 +361,12 @@ class eZWebinInstaller
                                           '_params' => array( 'class_identifier' => 'image',
                                                               'attribute_identifier' => 'tags',
                                                               'attribute_name' => 'Tags',
-                                                              'datatype' => 'ezkeyword',
-                                                              'default_value' => '' ) ),
+                                                              'datatype' => 'ezkeyword' ) ),
                                    array( '_function' => 'addClassAttribute',
                                           '_params' => array( 'class_identifier' => 'folder',
                                                               'attribute_identifier' => 'tags',
                                                               'attribute_name' => 'Tags',
-                                                              'datatype' => 'ezkeyword',
-                                                              'default_value' => '' ) ),
+                                                              'datatype' => 'ezkeyword' ) ),
                                    array( '_function' => 'addClassAttribute',
                                           '_params' => array( 'class_identifier' => 'folder',
                                                               'attribute_identifier' => 'publish_date',
@@ -365,14 +377,33 @@ class eZWebinInstaller
                                           '_params' => array( 'class_identifier' => 'file',
                                                               'attribute_identifier' => 'tags',
                                                               'attribute_name' => 'Tags',
-                                                              'datatype' => 'ezkeyword',
-                                                              'default_value' => '' ) ),
+                                                              'datatype' => 'ezkeyword' ) ),
                                    array( '_function' => 'addClassAttribute',
                                           '_params' => array( 'class_identifier' => 'image',
                                                               'attribute_identifier' => 'tags',
                                                               'attribute_name' => 'Tags',
-                                                              'datatype' => 'ezkeyword',
-                                                              'default_value' => '' ) ),
+                                                              'datatype' => 'ezkeyword' ) ),
+                                   array( '_function' => 'addClassAttribute',
+                                          '_params' => array( 'class_identifier' => 'article',
+                                                              'attribute_identifier' => 'caption',
+                                                              'attribute_name' => 'Caption (Image)',
+                                                              'datatype' => 'ezxmltext' ) ),
+                                   array( '_function' => 'addClassAttribute',
+                                          '_params' => array( 'class_identifier' => 'article',
+                                                              'attribute_identifier' => 'publish_date',
+                                                              'attribute_name' => 'Publish date',
+                                                              'datatype' => 'ezdatetime',
+                                                              'default_value' => 1 ) ),
+                                   array( '_function' => 'addClassAttribute',
+                                          '_params' => array( 'class_identifier' => 'article',
+                                                              'attribute_identifier' => 'unpublish_date',
+                                                              'attribute_name' => 'Unpublish date',
+                                                              'datatype' => 'ezdatetime' ) ),
+                                   array( '_function' => 'addClassAttribute',
+                                          '_params' => array( 'class_identifier' => 'article',
+                                                              'attribute_identifier' => 'tags',
+                                                              'attribute_name' => 'Tags',
+                                                              'datatype' => 'ezkeyword' ) ),
                                    array( '_function' => 'updateObjectAttributeFromString',
                                           '_params' => array( 'location' => 'users/editors',
                                                               'class_attribute_identifier' => 'website_toolbar_access',
@@ -389,6 +420,10 @@ class eZWebinInstaller
                                           '_params' => array( 'class_identifier' => 'folder',
                                                               'class_attribute_identifier' => 'show_children',
                                                               'name' => 'Display sub items' ) ),
+                                   array( '_function' => 'updateClassAttribute',
+                                          '_params' => array( 'class_identifier' => 'article',
+                                                              'class_attribute_identifier' => 'intro',
+                                                              'name' => 'Summary' ) ),
                                    array( '_function' => 'dbCommit',
                                           '_params' => array() ) );
 
@@ -512,7 +547,7 @@ class eZWebinInstaller
     {
         $classID = false;
 
-        $contentClass = $this->classByIdentifier( $params );
+        $contentClass = eZWebinInstaller::classByIdentifier( $params );
 
         if ( is_object( $contentClass ) )
         {
@@ -647,7 +682,7 @@ class eZWebinInstaller
         $datatype = $params['datatype'];
         $defaultValue = isset( $params['default_value'] ) ? $params['default_value'] : false;
 
-        $classID = $this->classIDbyIdentifier( $params );
+        $classID = eZWebinInstaller::classIDbyIdentifier( $params );
         if ( $classID )
         {
             $newAttribute = eZContentClassAttribute::create( $classID, $datatype, array( 'identifier' => $classAttributeIdentifier,
@@ -673,7 +708,7 @@ class eZWebinInstaller
             }
 
             // store attribute, update placement, etc...
-            $class = $this->classByIdentifier( $params );
+            $class = eZWebinInstaller::classByIdentifier( $params );
             $attributes =& $class->fetchAttributes();
             $attributes[] =& $newAttribute;
 
@@ -719,7 +754,7 @@ class eZWebinInstaller
         $attributeIdentifier = $params['class_attribute_identifier'];
         $name = isset( $params['name'] ) ? $params['name'] : false;
 
-        $contentClassID = $this->classIDbyIdentifier( $params );
+        $contentClassID = eZWebinInstaller::classIDbyIdentifier( $params );
         if ( $contentClassID )
         {
             $classAttributeList =& eZContentClassAttribute::fetchFilteredList( array( 'contentclass_id' => $contentClassID,
