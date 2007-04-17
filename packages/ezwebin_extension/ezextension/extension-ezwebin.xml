@@ -80,7 +80,7 @@
         md5sum="103984ffb198f542d1ec264ba2532db3" />
   <file name="design.ini.append.php"
         path="/settings"
-        md5sum="e4571ec5ce1dae4c736cf44fecdbfa4c" />
+        md5sum="13db7c8e426b12bbdb7d145e440af9c4" />
   <file name="menu.ini.append.php"
         path="/settings"
         md5sum="0a601720b91d189e009773b636ac001a" />
@@ -196,7 +196,7 @@
         md5sum="0c1d8ca4c9d3260c268a2be246e94ac6" />
   <file name="content.css"
         path="/design/ezwebin/stylesheets"
-        md5sum="7e871544aea898edcdffa487a2382d8f" />
+        md5sum="656385fcff00ffd17ea78e050fd94398" />
   <file name="templates"
         path="/design/ezwebin"
         md5sum="d41d8cd98f00b204e9800998ecf8427e"
@@ -345,6 +345,9 @@
   <file name="ezauthor.tpl"
         path="/design/ezwebin/templates/content/datatype/view"
         md5sum="401ddf8121e6eb523df7575d57b833a9" />
+  <file name="ezmedia.tpl"
+        path="/design/ezwebin/templates/content/datatype/view"
+        md5sum="7720c95cf8ef71d021a6beeb247c7618" />
   <file name="edit_draft.tpl"
         path="/design/ezwebin/templates/content"
         md5sum="f0d53e935b1529525efc317a4a643af2" />
@@ -429,7 +432,7 @@
         md5sum="4285e75baf8cb1cb65e5211b73a21e06" />
   <file name="full.tpl"
         path="/design/ezwebin/templates/node/view"
-        md5sum="c24613fbdab27f64c9d17fcf0668e518" />
+        md5sum="848a5f9980630e1d93266c4e6fd454c1" />
   <file name="infobox.tpl"
         path="/design/ezwebin/templates/node/view"
         md5sum="3e5c8d8a77545ff24d367f159be6c9b7" />
@@ -1248,7 +1251,7 @@
         md5sum="a5819d192fd34e4dd9e1001bfe0f9a0a" />
   <file name="image.tpl"
         path="/design/ezwebin/override/templates/horizontallylistedsubitems"
-        md5sum="3b4d3e2235d36ae87354e27c09eeaa77" />
+        md5sum="3f044e271224204158298c4b3d6d7a93" />
   <file name="event.tpl"
         path="/design/ezwebin/override/templates/horizontallylistedsubitems"
         md5sum="a06ff74e585592bb503c829d94e7c9d0" />
@@ -1261,7 +1264,7 @@
         md5sum="c1df8fd4e760cfb42fe6a15d50cf22c0" />
   <file name="flash.tpl"
         path="/design/ezwebin/override/templates/billboard"
-        md5sum="050926b4a0e3a2eda27b5d5d776e8438" />
+        md5sum="3c28dcfef6818ad9171bea7973dadf3a" />
   <file name="galleryline"
         path="/design/ezwebin/override/templates"
         md5sum="d41d8cd98f00b204e9800998ecf8427e"
@@ -1502,6 +1505,9 @@
   <file name="heightresize.js"
         path="/design/ezwebin/javascript"
         md5sum="bb7ec1bb65492fa8dda59aeea05b2b2b" />
+  <file name="insertmedia.js"
+        path="/design/ezwebin/javascript"
+        md5sum="26fb4003a539026e45d927c8ba7c47a1" />
   <file name="ezinfo.php"
         md5sum="3fd6b4dd293f1b3d79c247baaa78ed18" />
 </extension>
