@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.5.2"
+         development="false"
+         install_type="install">
+  <name>ezwebin_democontent</name>
+  <summary>Home, News and Events, Products, Partner, Community, Knowledge Base, Company</summary>
+  <description>This package contains the following nodes :
+Home - subtree
+News and Events - subtree
+Products - subtree
+Partner - subtree
+Community - subtree
+Knowledge Base - subtree
+Company - subtree
+</description>
+  <vendor>eZ systems</vendor>
+  <type value="contentobject" />
+  <ezpublish>
+    <version>3.8.5</version>
+    <named-version>3.8</named-version>
+  </ezpublish>
+  <maintainers>
+    <maintainer>
+      <name>Administrator User</name>
+      <email>nospam@ez.no</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <packaging>
+    <timestamp>1163689610</timestamp>
+    <host>www.ezpublish.no</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain"
+              name="LICENCE" />
+  </documents>
+  <changelog>
+    <entry timestamp="1163689610"
+           person="Administrator User"
+           email="nospam@ez.no"
+           release="1">
+      <change>Creation of package.</change>
+    </entry>
+  </changelog>
+  <simple-files>
+    <simple-file key="564a9852c167d1ec95d820df7eb8a44f"
+                 original-path="var/storage/images/products/software/os_type_i/1139-1-eng-GB/os_type_i.jpg"
+                 package-path="simplefiles/99c9ae32.jpg" />
+    <simple-file key="e394f4438f2937e0a712cf48fe59febb"
+                 original-path="var/storage/images/products/boxes/cd_dvd_box_i/1123-1-eng-GB/cd_dvd_box_i.jpg"
+                 package-path="simplefiles/d6088fb8.jpg" />
+    <simple-file key="3e64c1ff7bcabffce3fee7505a9ffe05"
+                 original-path="var/storage/images/products/boxes/cd_dvd_box_ii/1131-5-eng-GB/cd_dvd_box_ii.jpg"
+                 package-path="simplefiles/91b3539c.jpg" />
+    <simple-file key="bfd3b9bbc47b130f01e6176f0a75c88f"
+                 original-path="var/storage/images/products/boxes/cd_dvd_box_iii/1147-12-eng-GB/cd_dvd_box_iii.jpg"
+                 package-path="simplefiles/feb6c0d6.jpg" />
+    <simple-file key="6f1ca5f47040a878cae623ce3ab2a3f8"
+                 original-path="var/storage/images/partners/partner_news/pellentesque_quam_mauris/1983-1-eng-GB/pellentesque_quam_mauris.jpg"
+                 package-path="simplefiles/c9b86255.jpg" />
+    <simple-file key="c953c6d18ab0e7386f1e9b33132c699b"
+                 original-path="var/storage/images/partners/partner_news/penatibus_et_magnis_dis/2027-1-eng-GB/penatibus_et_magnis_dis.jpg"
+                 package-path="simplefiles/f60ab7d0.jpg" />
+    <simple-file key="999b778d49ac1869797f1a6c7e4a37b3"
+                 original-path="var/storage/images/partners/news/curabitur_hendrerit_dignissim/1994-1-eng-GB/curabitur_hendrerit_dignissim.jpg"
+                 package-path="simplefiles/cf429c58.jpg" />
+    <simple-file key="f3e553cc9a2547c8589e63eab3de129c"
+                 original-path="var/storage/images/partners/news/proin_condimentum_risus/2005-1-eng-GB/proin_condimentum_risus.jpg"
+                 package-path="simplefiles/193dd1e3.jpg" />
+    <simple-file key="1b47e63abb417dcdf7f1f3ae652e374a"
+                 original-path="var/storage/images/partners/news/morbi_tristique_senectus/2016-1-eng-GB/morbi_tristique_senectus.jpg"
+                 package-path="simplefiles/60f6ca07.jpg" />
+    <simple-file key="94feb3e7dfb8cdc6ae3cc3968ef4d99f"
+                 original-path="var/storage/images/partners/partners/neque_orci_malesuada_felis/2038-1-eng-GB/neque_orci_malesuada_felis.jpg"
+                 package-path="simplefiles/2eb3cd21.jpg" />
+    <simple-file key="8eec2ae765a58f9b9bb7e5bc43039a4f"
+                 original-path="var/storage/images/solutions/web_publishing/fusce_sagittis_sagittis/1428-1-eng-GB/fusce_sagittis_sagittis.jpg"
+                 package-path="simplefiles/f24d6bcd.jpg" />
+    <simple-file key="964918b69ab0954df8e9d6f7adf66321"
+                 original-path="var/storage/images/solutions/web_publishing/etiam_posuere_sodales_arcu/1439-1-eng-GB/etiam_posuere_sodales_arcu.jpg"
+                 package-path="simplefiles/281497ce.jpg" />
+    <simple-file key="4896af0dbfe88c4281c2b404904917ea"
+                 original-path="var/storage/images/solutions/web_publishing/in_hac_habitasse_platea/1461-3-eng-GB/in_hac_habitasse_platea.jpg"
+                 package-path="simplefiles/255df1c9.jpg" />
+    <simple-file key="35c37a7ba41e46b755006a924bb5b526"
+                 original-path="var/storage/images/training/professional_workshops/etiam_sodales_mauris/1843-1-eng-GB/etiam_sodales_mauris.jpg"
+                 package-path="simplefiles/ec2336c5.jpg" />
+    <simple-file key="2d60a969f5caf8a6871c93a77a81347e"
+                 original-path="var/storage/images/training/professional_workshops/class_aptent_taciti/1854-1-eng-GB/class_aptent_taciti.jpg"
+                 package-path="simplefiles/22546794.jpg" />
+    <simple-file key="b7d201c58fadf31edd9f0ca4788517ce"
+                 original-path="var/storage/images/training/professional_workshops/duis_auctor_vehicula_erat/1876-2-eng-GB/duis_auctor_vehicula_erat.jpg"
+                 package-path="simplefiles/599395bf.jpg" />
+    <simple-file key="5b47bda697fb9d098bb81e99bf222fa8"
+                 original-path="var/storage/images/support/books/aliquam_pulvinar_suscipit_tellus/1972-1-eng-GB/aliquam_pulvinar_suscipit_tellus.jpg"
+                 package-path="simplefiles/e6266052.jpg" />
+    <simple-file key="53ef7d831ded6062310c2f7fbe927916"
+                 original-path="var/storage/images/company/press_room/news/grenland/grenland_in_telemark/597-19-eng-GB/grenland_in_telemark.jpg"
+                 package-path="simplefiles/31a75cd1.jpg" />
+    <simple-file key="63c3a3a86320308b74f29e3b04d470fe"
+                 original-path="var/storage/images/company/press_room/news/grenland/hiking_in_grenland/1044-15-eng-GB/hiking_in_grenland.jpg"
+                 package-path="simplefiles/083ac0e4.jpg" />
+    <simple-file key="fc02caf23ecbe5a7c2ca5624c0e714e7"
+                 original-path="var/storage/images/company/press_room/news/grenland/fishing_in_grenland/1055-12-eng-GB/fishing_in_grenland.jpg"
+                 package-path="simplefiles/854759fb.jpg" />
+    <simple-file key="36badd8c755aff5ae558020b3e8a801b"
+                 original-path="var/storage/images/company/press_room/news/grenland/outdoor_life/1090-11-eng-GB/outdoor_life.jpg"
+                 package-path="simplefiles/938736ec.jpg" />
+    <simple-file key="9076cf28def77bb72ccf32f3d4d9b82a"
+                 original-path="var/storage/images/company/press_room/news/grenland/outdoor_life/1090-11-eng-GB/outdoor_life.jpg"
+                 package-path="simplefiles/938736ec.jpg" />
+    <simple-file key="9312c35a08e2c7192636a7bdc7f243e4"
+                 original-path="var/storage/images/company/press_room/news/grenland/outdoor_life/1090-11-eng-GB/outdoor_life.jpg"
+                 package-path="simplefiles/938736ec.jpg" />
+    <simple-file key="82141e57eb139ddac809a6b1e573605e"
+                 original-path="var/storage/images/company/contact/morbi_neque/1646-1-eng-GB/morbi_neque.jpg"
+                 package-path="simplefiles/d1ce478e.jpg" />
+    <simple-file key="5edd572bd980f684b2e3aa61fc85fceb"
+                 original-path="var/storage/images/company/company_banner/1904-3-eng-GB/company_banner.jpg"
+                 package-path="simplefiles/709770af.jpg" />
+    <simple-file key="2cd18123cbb50071f9fe9d47642fa28e"
+                 original-path="var/storage/images/media/images/hjellebrygga__1/2219-2-eng-GB/hjellebrygga.jpg"
+                 package-path="simplefiles/24a0c512.jpg" />
+    <simple-file key="dd8ce4ec29bc4b83885c6560363b8ddd"
+                 original-path="var/storage/images/media/images/ormevika/2223-1-eng-GB/ormevika.jpg"
+                 package-path="simplefiles/00fc6cab.jpg" />
+    <simple-file key="7931782016b7d816a2f296236ab7d215"
+                 original-path="var/storage/images/media/images/visit_grenland/2346-1-eng-GB/visit_grenland.gif"
+                 package-path="simplefiles/59c00fc8.gif" />
+    <simple-file key="272f6db4db997b852d98b230a09ac3ad"
+                 original-path="var/storage/images/communities/articles/in_hac_habitasse_platea/1461-3-eng-GB/in_hac_habitasse_platea.jpg"
+                 package-path="simplefiles/e8abb55c.jpg" />
+    <simple-file key="a3323d2fb2082d1158063e08bf5b11a7"
+                 original-path="var/storage/images/communities/articles/aliquam_erat_volutpat/1090-8-eng-GB/aliquam_erat_volutpat.jpg"
+                 package-path="simplefiles/623cd211.jpg" />
+    <simple-file key="f990dbd31c1ce1280f81c5c61cc5b8c6"
+                 original-path="var/storage/images/communities/photos/langesund_fjord/2231-1-eng-GB/langesund_fjord.jpg"
+                 package-path="simplefiles/6efdd969.jpg" />
+    <simple-file key="2f5c606be99165587fecf4ee459eadce"
+                 original-path="var/storage/images/communities/photos/brevik_bridge/2268-1-eng-GB/brevik_bridge.jpg"
+                 package-path="simplefiles/51902f9b.jpg" />
+    <simple-file key="f8e0869f559c4b7f019de418aa5ffe46"
+                 original-path="var/storage/images/communities/photos/langesund_lighthouse/2272-1-eng-GB/langesund_lighthouse.jpg"
+                 package-path="simplefiles/cbc775cb.jpg" />
+    <simple-file key="d31fcc9807cdc384fd8a248c2e30f695"
+                 original-path="var/storage/images/communities/photos/sunset_at_langesund/2342-1-eng-GB/sunset_at_langesund.jpg"
+                 package-path="simplefiles/730256fc.jpg" />
+  </simple-files>
+  <version>
+    <number>1.1</number>
+    <release>1</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides />
+    <requires />
+    <obsoletes />
+    <conflicts />
+  </dependencies>
+  <install>
+    <item type="ezcontentobject"
+          filename="contentobjects"
+          sub-directory="ezcontentobject" />
+  </install>
+  <uninstall>
+    <item type="ezcontentobject"
+          filename="contentobjects"
+          sub-directory="ezcontentobject" />
+  </uninstall>
+</package>

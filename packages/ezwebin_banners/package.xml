@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.9.1"
+         development="false"
+         install_type="install">
+  <name>ezwebin_banners</name>
+  <summary>Demo content (banners) for the ezwebin extension</summary>
+  <description>This package contains the following nodes :
+Banners - subtree
+</description>
+  <vendor>eZ systems</vendor>
+  <type value="contentobject" />
+  <ezpublish>
+    <version>3.9.1</version>
+    <named-version>3.9</named-version>
+  </ezpublish>
+  <maintainers>
+    <maintainer>
+      <name>Administrator User</name>
+      <email>nospam@ez.no</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <packaging>
+    <timestamp>1176207698</timestamp>
+    <host>localhost</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain"
+              name="LICENCE" />
+  </documents>
+  <changelog>
+    <entry timestamp="1176207698"
+           person="Administrator User"
+           email="nospam@ez.no"
+           release="1">
+      <change>Creation of package.</change>
+    </entry>
+  </changelog>
+  <simple-files>
+    <simple-file key="9afb84fc725496e93b4c0413c9994f9e"
+                 original-path="var/storage/images/media/banners/woman_communities/1377-1-eng-GB/woman_communities.jpg"
+                 package-path="simplefiles/84f1da4c.jpg" />
+    <simple-file key="28571362e8ac1b5b92267057b9b757ef"
+                 original-path="var/storage/images/media/banners/woman_frontpage/1382-6-eng-GB/woman_frontpage.jpg"
+                 package-path="simplefiles/83ea7f16.jpg" />
+    <simple-file key="c5bd8c7efa8d3e0ddfd3a42cb8f70444"
+                 original-path="var/storage/images/media/banners/woman_products/1387-1-eng-GB/woman_products.jpg"
+                 package-path="simplefiles/99bedbaa.jpg" />
+    <simple-file key="4ae98c0da61ce4a94886d3955d6609b2"
+                 original-path="var/storage/images/media/banners/woman_partners/1663-1-eng-GB/woman_partners.jpg"
+                 package-path="simplefiles/24ec46f7.jpg" />
+    <simple-file key="edd7d3b61c594004df1f81bf1ec72ee9"
+                 original-path="var/storage/images/media/banners/pencils_support/1744-1-eng-GB/pencils_support.jpg"
+                 package-path="simplefiles/50dbb211.jpg" />
+    <simple-file key="c21b8a15309768adf426301e831ca6cd"
+                 original-path="var/storage/images/media/banners/woman_training/1749-1-eng-GB/woman_training.jpg"
+                 package-path="simplefiles/47966db1.jpg" />
+    <simple-file key="3d26cd8f63aac6ec6774a519bbcb452e"
+                 original-path="var/storage/images/media/banners/woman_solutions/1908-2-eng-GB/woman_solutions.jpg"
+                 package-path="simplefiles/944390f8.jpg" />
+    <simple-file key="f4f3ad665f7a992e0897cfa27274deed"
+                 original-path="var/storage/images/media/banners/grenland_frontpage/2210-1-eng-GB/grenland_frontpage.jpg"
+                 package-path="simplefiles/a2c0baa7.jpg" />
+  </simple-files>
+  <version>
+    <number>1.1</number>
+    <release>1</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides />
+    <requires />
+    <obsoletes />
+    <conflicts />
+  </dependencies>
+  <install>
+    <item type="ezcontentobject"
+          filename="contentobjects"
+          sub-directory="ezcontentobject" />
+  </install>
+  <uninstall>
+    <item type="ezcontentobject"
+          filename="contentobjects"
+          sub-directory="ezcontentobject" />
+  </uninstall>
+</package>
