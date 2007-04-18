@@ -46,7 +46,7 @@ function eZSiteINISettings( $parameters )
     $settings[] = eZSiteSiteINISettings( $setupData );
     $settings[] = eZSiteImageINISettings();
     $settings[] = eZSiteContentINISettings( $parameters );
-	//$settings[] = eZSiteDesignINISettings( $parameters );
+	$settings[] = eZSiteDesignINISettings( $parameters );
     //$settings[] = eZSiteIconINISettings( $parameters );
 
 	$settings[] = eZSiteContentStructureMenuINISettings();
@@ -74,7 +74,7 @@ function eZSiteSiteINISettings( $setupData )
                   'settings' => $settings );
 }
 
-/*
+
 function eZSiteDesignINISettings()
 {
     $settings =  array(
@@ -83,13 +83,12 @@ function eZSiteDesignINISettings()
         'settings' => array(
 							'JavaScriptSettings' => array(
 												'JavaScriptList' => array(
-																		'tools/ezjsselection.js' )
+																		'insertmedia.js' )
 														 )
 							)
 					   );
     return $settings;
 }
-*/
 
 function eZSiteContentStructureMenuINISettings()
 {
@@ -1308,7 +1307,7 @@ function eZSiteContentINISettings( $parameters )
     $image = array( 'name' => 'content.ini',
                     'reset_arrays' => true,
                     'settings' => array( 'VersionView' =>
-                                         array( 'AvailableSiteDesignList' => array( "ezpnow" ) ) ) );
+                                         array( 'AvailableSiteDesignList' => array( "ezwebin" ) ) ) );
 
     return $image;
 }
