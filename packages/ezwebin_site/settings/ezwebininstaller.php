@@ -1,4 +1,4 @@
-H<?php
+<?php
 //
 // Created on: <13-Nov-2006 15:00:00 dl>
 //
