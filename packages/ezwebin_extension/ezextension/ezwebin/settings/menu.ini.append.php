@@ -10,6 +10,7 @@ TopIdentifierList[]=documentation_page
 TopIdentifierList[]=forums
 TopIdentifierList[]=event_calendar
 TopIdentifierList[]=multicalendar
+TopIdentifierList[]=link
 TopIdentifierList[]=blog
 TopIdentifierList[]=frontpage
 
@@ -22,6 +23,7 @@ LeftIdentifierList[]=documentation_page
 LeftIdentifierList[]=forums
 LeftIdentifierList[]=event_calendar
 LeftIdentifierList[]=multicalendar
+LeftIdentifierList[]=link
 LeftIdentifierList[]=blog
 LeftIdentifierList[]=frontpage
 
