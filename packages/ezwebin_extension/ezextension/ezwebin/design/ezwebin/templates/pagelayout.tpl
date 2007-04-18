@@ -3,14 +3,14 @@
 <head>
 {def $basket_is_empty   = cond( $current_user.is_logged_in, fetch( shop, basket ).is_empty, 1 )
      $current_node_id   = first_set( $module_result.node_id, 0 )
-     $user_hash         = concat( $current_user.role_id_list|implode( ',' ), ",", $current_user.limited_assignment_value_list|implode( ',' ) )
+     $user_hash         = concat( $current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ) )
      $user_id           = $current_user.contentobject_id}
 
 {if and( $current_node_id|eq(0), is_set( $module_result.path.0 ) , is_set( $module_result.path[$module_result.path|count|dec].node_id ) )}
 	{set $current_node_id = $module_result.path[$module_result.path|count|dec].node_id}
 {/if}
 
-{cache-block keys=array( $uri_string, $basket_is_empty, $user_hash, $user_id )}
+{cache-block keys=array( $uri_string, $basket_is_empty, $user_id )}
 {def $pagestyle        = 'nosidemenu noextrainfo'
      $locales          = fetch( 'content', 'translation_list' )
      $pagerootdepth    = ezini( 'SiteSettings', 'RootNodeDepth', 'site.ini' )
@@ -158,9 +158,8 @@
         </ul>
     </div>
     </div>
-{/cache-block}
 
-{cache-block keys=array( $uri_string, $basket_is_empty, $user_hash )}
+  {cache-block keys=array( $uri_string, $user_hash )}
     <div id="logo">
     {if $pagedesign.data_map.image.content.is_valid|not()}
         <h1><a href={"/"|ezurl} title="{ezini('SiteSettings','SiteName')}">{ezini('SiteSettings','SiteName')}</a></h1>
@@ -232,6 +231,7 @@
        </div>
     </div>
     <!-- Side menu area: END -->
+  {/cache-block}
 {/cache-block}
     <!-- Main area: START -->
     <div id="main-position">
