@@ -49,14 +49,14 @@ function eZCommonSiteINISettings( $parameters )
 	//setup vars
 	$settings = array();
 	$setupData = loadSetupData( $parameters );
-	
+
 	//set settings	ps: array_merge only accepts array parameters in PHP 5
 	$settings['SiteAccessSettings'] = array( 'AvailableSiteAccessList' => $setupData['allSiteaccesses'] );
 
 	$settings['SiteSettings'] = array( 'SiteList' => $setupData['allSiteaccesses'],
 									   'DefaultAccess' => $setupData['primaryLanguage'],
 									   'RootNodeDepth' => 1 );
-									
+
   $settings['ExtensionSettings'] = array( 'ActiveExtensions' => $setupData['extensionsToActivate'] );
 	$settings['UserSettings'] = array( 'LogoutRedirect' => '/' );
 	$settings['EmbedViewModeSettings'] = array( 'AvailableViewModes' => array(	'embed',
@@ -85,26 +85,34 @@ function eZCommonMenuINISettings( $parameters )
 
 function eZCommonContentINISettings( $parameters )
 {
-	$settings = array( 'object' => array( 'AvailableClasses'=> array( 	'0' => 'itemized_sub_items',
+	$settings = array( 'object' => array( 'AvailableClasses' => array( 	'0' => 'itemized_sub_items',
 																		'1' => 'itemized_subtree_items',
 																		'2' => 'highlighted_object',
 																		'3' => 'vertically_listed_sub_items',
 																		'4' => 'horizontally_listed_sub_items' ),
-										  'ClassDescription'=> array(   'itemized_sub_items' => 'Itemized Sub Items',
+										  'ClassDescription' => array(   'itemized_sub_items' => 'Itemized Sub Items',
 																		'itemized_subtree_items' => 'Itemized Subtree Items',
 																		'highlighted_object' => 'Highlighted Object',
 																		'vertically_listed_sub_items' => 'Vertically Listed Sub Items',
-																		'horizontally_listed_sub_items' => 'Horizontally Listed Sub Items' ) ),
-					   'embed'=> array( 'AvailableClasses'=> array( '0' => 'itemized_sub_items',
+																		'horizontally_listed_sub_items' => 'Horizontally Listed Sub Items' ),
+								          'CustomAttributes' => array( '0' => 'offset',
+								                                      '1' => 'limit' ),
+								          'CustomAttributesDefaults' => array( 'offset' => '0',
+								                                               'limit' => '5' ) ),
+					   'embed'=> array( 'AvailableClasses' => array( '0' => 'itemized_sub_items',
 																		   '1' => 'itemized_subtree_items',
 																		   '2' => 'highlighted_object',
 																		   '3' => 'vertically_listed_sub_items',
 																		   '4' => 'horizontally_listed_sub_items' ),
-										'ClassDescription'=> array( 'itemized_sub_items' => 'Itemized Sub Items',
+										'ClassDescription' => array( 'itemized_sub_items' => 'Itemized Sub Items',
 																    'itemized_subtree_items' => 'Itemized Subtree Items',
 																    'highlighted_object' => 'Highlighted Object',
 																    'vertically_listed_sub_items' => 'Vertically Listed Sub Items',
-																    'horizontally_listed_sub_items' => 'Horizontally Listed Sub Items' ) ),
+																    'horizontally_listed_sub_items' => 'Horizontally Listed Sub Items' ),
+							            'CustomAttributes' => array( '0' => 'offset',
+								                                     '1' => 'limit' ),
+								        'CustomAttributesDefaults' => array( 'offset' => '0',
+								                                             'limit' => '5' ) ),
 					   'table'=>
 array(
 'AvailableClasses'=>
@@ -174,7 +182,7 @@ array(
 
 'forum_topic' => array( 'DependentClassIdentifier' => array( 'forum' ),
 						'ClearCacheMethod' => array( '0' => 'object', '1' => 'parent', '2' => 'relating', '3' => 'siblings') ),
-				 
+
 'folder'=> array( 'DependentClassIdentifier'=> array( '0'=>'folder' ),
 				  'ClearCacheMethod'=> array( '0'=>'object', '1'=>'parent', '2'=>'relating' ) ),
 'gallery'=>
@@ -298,7 +306,7 @@ function eZCommonForumINISettings( $parameters )
 
 	return array( 'name' => 'forum.ini',
 							  'reset_arrays' => false,
-                'settings' => $settings );	
+                'settings' => $settings );
 }//end function
 
 
