@@ -135,8 +135,6 @@ class eZWebinInstaller
                                                                                                                                    array( '_function' => 'classIDbyIdentifier',
                                                                                                                                           '_params' => array( 'class_identifier' => 'blog' ) ),
                                                                                                                                    array( '_function' => 'classIDbyIdentifier',
-                                                                                                                                          '_params' => array( 'class_identifier' => 'blog_post' ) ),
-                                                                                                                                   array( '_function' => 'classIDbyIdentifier',
                                                                                                                                           '_params' => array( 'class_identifier' => 'poll' ) ),
                                                                                                                                    array( '_function' => 'classIDbyIdentifier',
                                                                                                                                           '_params' => array( 'class_identifier' => 'multicalendar' ) ),
@@ -169,9 +167,9 @@ class eZWebinInstaller
                                                                                    array( 'module' => 'content',
                                                                                           'function' => 'create',
                                                                                           'limitation' => array( 'Class' => array( '_function' => 'classIDbyIdentifier',
-                                                                                                                                   '_params' => array( 'class_identifier' => 'comment' ) ),
+                                                                                                                                   '_params' => array( 'class_identifier' => 'blog_post' ) ),
                                                                                                                  'ParentClass' => array( '_function' => 'classIDbyIdentifier',
-                                                                                                                                         '_params' => array( 'class_identifier' => 'article' ) ) ) ),
+                                                                                                                                         '_params' => array( 'class_identifier' => 'blog' ) ) ) ),
                                                                                    array( 'module' => 'content',
                                                                                           'function' => 'create',
                                                                                           'limitation' => array( 'Class' => array( '_function' => 'classIDbyIdentifier',
@@ -225,6 +223,8 @@ class eZWebinInstaller
                                           '_params' => array( 'role_name' => 'Editor',
                                                               'policies' => array( array( 'module' => 'notification',
                                                                                           'function' => 'use' ),
+                                                                                   array( 'module' => 'content',
+                                                                                          'function' => 'manage_locations' ),
                                                                                    array( 'module' => 'ezodf',
                                                                                           'function' => '*' ),
                                                                                    array( 'module' => 'shop',
@@ -437,6 +437,19 @@ class eZWebinInstaller
                                           '_params' => array( 'class_identifier' => 'article',
                                                               'class_attribute_identifier' => 'intro',
                                                               'name' => 'Summary' ) ),
+                                   array( '_function' => 'setRSSExport',
+                                          '_params' => array( 'creator' => '14',
+                                                              'access_url' => 'my_feed',
+                                                              'main_node_only' => '1',
+                                                              'number_of_objects' => '10',
+                                                              'rss_version' => '2.0',
+                                                              'status' => '1',
+                                                              'title' => 'My RSS Feed',
+                                                              'rss_export_itmes' => array( 0 => array( 'class_id' => '2',
+                                                                                                       'description' => 'intro',
+                                                                                                       'source_node_id' => '153',
+                                                                                                       'status' => '1',
+                                                                                                       'title' => 'title' ) ) ) ),
                                    array( '_function' => 'dbCommit',
                                           '_params' => array() ) );
 
@@ -1004,6 +1017,37 @@ class eZWebinInstaller
     function setLastErrorCode( $errCode )
     {
         $this->LastErrorCode = $errCode;
+    }
+
+    function setRSSExport( $params )
+    {
+        include_once( 'kernel/classes/ezrssexport.php' );
+        include_once( 'kernel/classes/ezrssexportitem.php' );
+        include_once( 'kernel/common/i18n.php' );
+
+        // Create default rssExport object to use
+        $rssExport = eZRSSExport::create( $params['creator'] );
+        $rssExport->setAttribute( 'access_url', $params['access_url'] );
+        $rssExport->setAttribute( 'main_node_only', $params['main_node_only'] );
+        $rssExport->setAttribute( 'number_of_objects', $params['number_of_objects'] );
+        $rssExport->setAttribute( 'rss_version', $params['rss_version'] );
+        $rssExport->setAttribute( 'status', $params['status'] );
+        $rssExport->setAttribute( 'title', $params['title'] );
+        $rssExport->store();
+
+        $rssExportID = $rssExport->attribute( 'id' );
+
+        foreach ( $params['rss_export_itmes'] as $item )
+        {
+            // Create One empty export item
+            $rssExportItem = eZRSSExportItem::create( $rssExportID );
+            $rssExportItem->setAttribute( 'class_id', $item['class_id'] );
+            $rssExportItem->setAttribute( 'description', $item['description'] );
+            $rssExportItem->setAttribute( 'source_node_id', $item['source_node_id'] );
+            $rssExportItem->setAttribute( 'status', $item['status'] );
+            $rssExportItem->setAttribute( 'title', $item['title'] );
+            $rssExportItem->store();
+        }
     }
 
     function lastErrorCode()

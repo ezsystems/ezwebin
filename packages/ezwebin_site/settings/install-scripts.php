@@ -52,19 +52,19 @@ $wcms_script_errors = array();
 $newAttributesDataArray = array();
 
 /*
-   This get called by ezstep_create_sites.php
- */
+This get called by ezstep_create_sites.php
+*/
 function eZSitePreInstall( )
 {
     /*
-        Replace Article image attribute with correct datatype
+    Replace Article image attribute with correct datatype
     */
     eZWebinInstaller::removeClassAttribute( array( 'class_id' => 2,
-                                                   'attribute_identifier' => 'image' ) );
+    'attribute_identifier' => 'image' ) );
     eZWebinInstaller::addClassAttribute( array( 'class_identifier' => 'article',
-                                                'attribute_identifier' => 'image',
-                                                'attribute_name' => 'Image',
-                                                'datatype' => 'ezimage' ) );
+    'attribute_identifier' => 'image',
+    'attribute_name' => 'Image',
+    'datatype' => 'ezimage' ) );
 
     // hack for images/binaryfiles
     // need to set siteaccess to have correct placement(VarDir) for files.
@@ -74,8 +74,8 @@ function eZSitePreInstall( )
 
 
 /*
-   This get called by ezstep_create_sites.php
- */
+This get called by ezstep_create_sites.php
+*/
 function eZSitePostInstall( &$parameters )
 {
     //fetch eZp version
@@ -120,12 +120,12 @@ function eZSitePostInstall( &$parameters )
 
             $url = $parameters['site_type']['url'];
             if ( preg_match( "#^[a-zA-Z0-9]+://(.*)$#", $url, $matches ) )
-                $url = $matches[1];
+            $url = $matches[1];
 
             foreach ( $parameters['access_map']['hostname'] as $hostName => $siteAccessName )
             {
                 if ( !in_array( $siteAccessName, $userSiteaccesses ) )
-                    $hostMatchMapItems[ $hostName ] = $siteAccessName;
+                $hostMatchMapItems[ $hostName ] = $siteAccessName;
             }
             foreach ( $userSiteaccesses as $userSiteaccess )
             {
@@ -270,9 +270,9 @@ function testAccess( $dirNameParam )
 
 
 /*
-    \brief collects error messages and halts script if wanted. uses global var $wcms_script_errors.
-    \param $errorStrParam string with error message
-    \param $exitbool if set to true, then output all collected error messages and halts script
+\brief collects error messages and halts script if wanted. uses global var $wcms_script_errors.
+\param $errorStrParam string with error message
+\param $exitbool if set to true, then output all collected error messages and halts script
 */
 function addError( $errorStrParam, $exitBoolParam = false )
 {
@@ -300,8 +300,8 @@ function addError( $errorStrParam, $exitBoolParam = false )
 
 
 /*
-    retrieve array of locales in the database
-    returns raw sql result in an array
+retrieve array of locales in the database
+returns raw sql result in an array
 */
 function getColumn( $column, $table)
 {
@@ -315,7 +315,7 @@ function getColumn( $column, $table)
 
 
 /*
-    retrieve array of locales in the database
+retrieve array of locales in the database
 */
 function getLocales()
 {
@@ -332,7 +332,7 @@ function getLocales()
 
 
 /*
-    returns a array with locales, sorted with the primary locale first, and the optional secondary locale second
+returns a array with locales, sorted with the primary locale first, and the optional secondary locale second
 */
 function sortLocales( $localesParam, $defaultLocaleParam , $secondDefaultLocaleParam = "eng-GB" )
 {
@@ -347,9 +347,9 @@ function sortLocales( $localesParam, $defaultLocaleParam , $secondDefaultLocaleP
     foreach ( $localesParam as $locale )
     {
         if ( $locale == $defaultLocale )
-            $returnVar[] = $locale;
+        $returnVar[] = $locale;
         else
-            $tempVar1[] = $locale;
+        $tempVar1[] = $locale;
     }
 
     //if the locale array contains a secondary favoured language, place it second, unless it is already placed first
@@ -379,8 +379,8 @@ function sortLocales( $localesParam, $defaultLocaleParam , $secondDefaultLocaleP
 
 
 /*
-    separates language code from country code in locale code
-    returns languagecodes in an arry
+separates language code from country code in locale code
+returns languagecodes in an arry
 */
 function getSiteaccessNames( $localesParam )
 {
@@ -434,15 +434,15 @@ function getPersistenceList()
 
 
 /*
-    \return a string with the primary language code
+\return a string with the primary language code
 */
 /*DEPRECATED
 function getPrimaryLocale()
 {
-    //init vars
-    $persistenceList = getPersistenceList();
+//init vars
+$persistenceList = getPersistenceList();
 
-    return $persistenceList['regional_info']['primary_language'];
+return $persistenceList['regional_info']['primary_language'];
 }
 */
 

@@ -97,17 +97,19 @@ function loadNewAttributesData( $parameters )
     //create data array
     $newAttributesDataArray = array( "site_map_url" => array( "DataText" => "Site map",
                                                               "Content" => "/content/view/sitemap/2" ),
+                                     "tag_cloud_url" => array( "DataText" => "Tag cloud",
+                                                              "Content" => "/content/view/tagcloud/2" ),
                                      "login_label" => array( "DataText" => "Login" ),
                                      "logout_label" => array( "DataText" => "Logout" ),
                                      "my_profile_label" => array( "DataText" => "My profile" ),
                                      "register_user_label" => array( "DataText" => "Register" ),
-                                     "rss_feed" => array( "DataText" => "/rss/feed/my_feed" ),
+                                     "rss_feed" => array( "DataText" => $siteaccessURI[$siteaccess] . "/rss/feed/my_feed" ),
                                      "shopping_basket_label" => array( "DataText" => "Shopping basket" ),
                                      "site_settings_label" => array( "DataText" => "Site settings" ),
                                      "language_settings" => array( "MatrixTitle" => "Language settings",
                                                                    "MatrixDefinition" => $tempColumnDefinition,
                                                                    "MatrixCells" => $siteaccessAliasTable ),
-									 "footer_text" => array( "DataText" => "Copyright &#169; 2006 eZ systems AS. All rights reserved." ),
+									 "footer_text" => array( "DataText" => "Copyright &#169; 2007 eZ systems AS. All rights reserved." ),
                                      "hide_powered_by" => array( "DataInt" => 0 ),
 									 "footer_script" => array( "DataText" => "" ) );
     return true;
