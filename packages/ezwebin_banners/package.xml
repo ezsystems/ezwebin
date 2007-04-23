@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="3.9.1"
+<package version="3.9.2"
          development="false"
          install_type="install">
   <name>ezwebin_banners</name>
@@ -10,7 +10,7 @@ Banners - subtree
   <vendor>eZ systems</vendor>
   <type value="contentobject" />
   <ezpublish>
-    <version>3.9.1</version>
+    <version>3.9.2</version>
     <named-version>3.9</named-version>
   </ezpublish>
   <maintainers>
@@ -22,7 +22,7 @@ Banners - subtree
   </maintainers>
   <packaging>
     <timestamp>1176207698</timestamp>
-    <host>localhost</host>
+    <host>packages.ez.no</host>
   </packaging>
   <documents>
     <document mime-type="text/plain"
@@ -63,7 +63,7 @@ Banners - subtree
                  package-path="simplefiles/a2c0baa7.jpg" />
   </simple-files>
   <version>
-    <number>1.1</number>
+    <number>1.2</number>
     <release>1</release>
   </version>
   <licence>GPL</licence>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="3.8.0"
+<package version="3.9.2"
 		 development="false"
 		 is_active="true"
 		 install_type="import">
@@ -9,8 +9,8 @@
   <vendor>eZ systems</vendor>
   <type value="site" />
   <ezpublish>
-	<version>3.8.0</version>
-	<named-version>3.8</named-version>
+	<version>3.9.2</version>
+	<named-version>3.9</named-version>
   </ezpublish>
   <maintainers>
 	<maintainer>
@@ -21,7 +21,7 @@
   </maintainers>
   <packaging>
 	<timestamp>1153313252</timestamp>
-	<host>packages.jkn.ez.no</host>
+	<host>packages.ez.no</host>
   </packaging>
   <documents>
 	<document mime-type="text/plain"
@@ -50,7 +50,7 @@
      </collection>
   </files>
   <version>
-	<number>1.1</number>
+	<number>1.2</number>
 	<release>1</release>
   </version>
   <licence>GPL</licence>
@@ -60,19 +60,19 @@
     <requires>
 	  <require type="ezpackage"
                name="ezwebin_classes"
-               min-version="1.1" />
+               min-version="1.2" />
 	  <require type="ezpackage"
                name="ezwebin_extension"
-               min-version="1.1" />
+               min-version="1.2" />
 	  <require type="ezpackage"
                name="ezwebin_banners"
-               min-version="1.1" />
+               min-version="1.2" />
 	  <require type="ezpackage"
                name="ezwebin_democontent"
-               min-version="1.1" />
+               min-version="1.2" />
 	  <require type="ezpackage"
                name="ezwebin_design"
-               min-version="1.1" />
+               min-version="1.2" />
 	</requires>
 	<obsoletes />
 	<conflicts />
