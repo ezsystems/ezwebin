@@ -217,6 +217,8 @@ class eZWebinInstaller
                                                                                           'limitation' => array( 'Section' => array( array( '_function' => 'sectionIDbyName',
                                                                                                                                             '_params' => array( 'section_name' => 'Standard' ) ),
                                                                                                                                      array( '_function' => 'sectionIDbyName',
+                                                                                                                                            '_params' => array( 'section_name' => 'Restricted' ) ),
+                                                                                                                                     array( '_function' => 'sectionIDbyName',
                                                                                                                                             '_params' => array( 'section_name' => 'Media' ) ) ) ) ) ) ) ),
 
                                    array( '_function' => 'addPoliciesForRole',
