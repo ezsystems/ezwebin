@@ -34,7 +34,7 @@
                {def $sub_menu_items = fetch( 'content', 'list', hash( 'parent_node_id', $item.node_id,
                                                                      'sort_by', $item.sort_array,
                                                                        'class_filter_type', 'include',
-                                                                       'class_filter_array', array( 'folder', 'forum', 'documentation_page', 'gallery', 'feedback_form', 'forums', 'event_calendar' ) ) )
+                                                                       'class_filter_array', ezini( 'MenuContentSettings', 'LeftIdentifierList', 'menu.ini' ) ) )
                  $sub_menu_items_count = $sub_menu_items|count}
             {if $sub_menu_items_count}
             <ul class="submenu-list">
