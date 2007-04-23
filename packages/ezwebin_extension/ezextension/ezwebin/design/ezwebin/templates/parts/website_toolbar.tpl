@@ -6,7 +6,15 @@
      $available_for_classes = ezini( 'WebsiteToolbarSettings', 'AvailableForClasses', 'websitetoolbar.ini' )
      $containers = ezini( 'WebsiteToolbarSettings', 'ContentClassContainers', 'websitetoolbar.ini' )
      $odf_display_classes = ezini( 'WebsiteToolbarSettings', 'ODFDisplayClasses', 'websitetoolbar.ini' )
-     $website_toolbar_access = fetch( 'content', 'object', hash( 'object_id', $current_user.groups[0] ) ).data_map.website_toolbar_access.data_int}
+     $website_toolbar_access = 0
+     $group_object = null}
+
+{foreach $current_user.groups as $group}
+   {set $group_object = fetch( 'content', 'object', hash( 'object_id', $group ) )}
+   {if and( is_set( $group_object.data_map.website_toolbar_access ), $group_object.data_map.website_toolbar_access.data_int )}
+       {set $website_toolbar_access = 1}
+   {/if}
+{/foreach}
 
 {if and( $website_toolbar_access, $available_for_classes|contains( $current_node.class_identifier ) )}
 
