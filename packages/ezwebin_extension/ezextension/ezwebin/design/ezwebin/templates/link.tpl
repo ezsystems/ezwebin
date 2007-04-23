@@ -9,7 +9,7 @@
 <link rel="Author" href={"/ezinfo/about"|ezurl} />
 
 {if and( is_set($pagedesign), $pagedesign.data_map.rss_feed.has_content )}
-<link rel="Alternate" type="application/rss+xml" title="RSS" href="{$pagedesign.data_map.rss_feed.data_text}" />
+<link rel="Alternate" type="application/rss+xml" title="RSS" href="{$pagedesign.data_map.rss_feed.data_text|ezurl(no)}" />
 {/if}
 
 {if $enable_print}

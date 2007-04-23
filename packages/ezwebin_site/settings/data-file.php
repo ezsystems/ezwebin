@@ -103,7 +103,7 @@ function loadNewAttributesData( $parameters )
                                      "logout_label" => array( "DataText" => "Logout" ),
                                      "my_profile_label" => array( "DataText" => "My profile" ),
                                      "register_user_label" => array( "DataText" => "Register" ),
-                                     "rss_feed" => array( "DataText" => $siteaccessURI[$siteaccess] . "/rss/feed/my_feed" ),
+                                     "rss_feed" => array( "DataText" => "/rss/feed/my_feed" ),
                                      "shopping_basket_label" => array( "DataText" => "Shopping basket" ),
                                      "site_settings_label" => array( "DataText" => "Site settings" ),
                                      "language_settings" => array( "MatrixTitle" => "Language settings",
