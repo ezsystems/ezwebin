@@ -126,6 +126,13 @@
     </div>
     <div id="links">
         <ul>
+            {if $pagedesign.data_map.tag_cloud_url.data_text|ne('')}
+                {if $pagedesign.data_map.tag_cloud_url.content|eq('')}
+                <li><a href={concat("/content/view/tagcloud/", $indexpage)|ezurl} title="{$pagedesign.data_map.tag_cloud_url.data_text|wash}">{$pagedesign.data_map.tag_cloud_url.data_text|wash}</a></li>
+                {else}
+                <li><a href={$pagedesign.data_map.tag_cloud_url.content|ezurl} title="{$pagedesign.data_map.tag_cloud_url.data_text|wash}">{$pagedesign.data_map.tag_cloud_url.data_text|wash}</a></li>
+                {/if}
+            {/if}
             {if $pagedesign.data_map.site_map_url.data_text|ne('')}
                 {if $pagedesign.data_map.site_map_url.content|eq('')}
                 <li><a href={concat("/content/view/sitemap/", $indexpage)|ezurl} title="{$pagedesign.data_map.site_map_url.data_text|wash}">{$pagedesign.data_map.site_map_url.data_text|wash}</a></li>
@@ -158,7 +165,6 @@
         </ul>
     </div>
     </div>
-
   {cache-block keys=array( $uri_string, $user_hash )}
     <div id="logo">
     {if $pagedesign.data_map.image.content.is_valid|not()}
