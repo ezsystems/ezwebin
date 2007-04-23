@@ -177,10 +177,10 @@
       <form action={"/content/search"|ezurl}>
         <label for="searchtext" class="hide">Search text:</label>
         {if eq( $ui_context, 'edit' )}
-        <input id="searchtext" name="SearchText" type="text" value="{if is_set( $search_text )}{$search_text|wash}{/if}" size="12" disabled="disabled" />
+        <input id="searchtext" name="SearchText" type="text" value="" size="12" disabled="disabled" />
         <input id="searchbutton" class="button-disabled" type="submit" value="{'Search'|i18n('design/ezwebin/pagelayout')}" alt="Submit" disabled="disabled" />
         {else}
-        <input id="searchtext" name="SearchText" type="text" value="{if is_set( $search_text )}{$search_text|wash}{/if}" size="12" />
+        <input id="searchtext" name="SearchText" type="text" value="" size="12" />
         <input id="searchbutton" class="button" type="submit" value="{'Search'|i18n('design/ezwebin/pagelayout')}" alt="Submit" />
             {if eq( $ui_context, 'browse' )}
              <input name="Mode" type="hidden" value="browse" />
