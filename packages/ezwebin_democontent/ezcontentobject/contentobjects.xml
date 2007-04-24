@@ -9648,6 +9648,156 @@
                              remote-id="8a26131d0b763771a92032bbe6d31d15"
                              sort-field="published"
                              sort-order="0"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="169"
+            name="Getting started"
+            ezremote:section_id="1"
+            ezremote:owner_id="14"
+            ezremote:class_id="1"
+            ezremote:published="Tue, 24 Apr 2007 10:04:30 GMT"
+            ezremote:modified="Tue, 24 Apr 2007 11:22:46 GMT"
+            remote_id="5eeb942341753fc43a2c03c64e86f849"
+            class_remote_id="a3d405b81be900468eb153d774f4f0d2"
+            ezremote:class_identifier="folder"
+            ezremote:always_available="1"
+            initial_language="eng-GB">
+      <version-list active_version="5"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="5"
+                          ezremote:status="1"
+                          ezremote:created="Tue, 24 Apr 2007 11:21:54 GMT"
+                          ezremote:modified="Tue, 24 Apr 2007 11:22:46 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Getting started">
+            <ezobject:attribute ezremote:id="1047"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Getting started</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1048"
+                                ezremote:identifier="short_name"
+                                name="Short name"
+                                type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1049"
+                                ezremote:identifier="short_description"
+                                name="Summary"
+                                type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>New features in this release:</paragraph>
+                <paragraph>
+                  <ul>
+                    <li>
+                      <paragraph><link href="/communities/blogs/condimentum_elit_dignissim">Blogs</link>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph>Multipage articles</paragraph>
+                    </li>
+                    <li>
+                      <paragraph>Polls</paragraph>
+                    </li>
+                    <li>
+                      <paragraph>Flash banners</paragraph>
+                    </li>
+                    <li>
+                      <paragraph>Tags and <link href="/content/view/tagcloud/2">tag cloud</link>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph>Embedded calendar</paragraph>
+                    </li>
+                    <li>
+                      <paragraph>Multicalendar</paragraph>
+                    </li>
+                    <li>
+                      <paragraph>Timed publishing and un-publishing</paragraph>
+                    </li>
+                    <li>
+                      <paragraph>New Website Toolbar</paragraph>
+                    </li>
+                    <li>
+                      <paragraph>Tip a friend</paragraph>
+                    </li>
+                    <li>
+                      <paragraph>Cross publishing</paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+                <paragraph>Getting started:</paragraph>
+                <paragraph>
+                  <ul>
+                    <li>
+                      <paragraph><link href="http://ez.no/doc/extensions/website_interface">Website Interface usage and customization</link>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph><link href="http://ez.no/doc/ez_publish">eZ Publish customization and development</link>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph><link href="http://ez.no/community/forum">Forums</link>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph><link href="http://ezpedia.org/wiki/">Community documentation</link>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph><link href="http://ez.no/products">Official eZ Systems products</link>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph><link href="http://ez.no/services">Services from eZ Systems</link>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph><link href="http://ez.no/download">Download the latest version</link>
+                      </paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+              </section>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1050"
+                                ezremote:identifier="description"
+                                name="Description"
+                                type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1051"
+                                ezremote:identifier="show_children"
+                                name="Display sub items"
+                                type="ezboolean">
+              <value>1</value>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1052"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1053"
+                                ezremote:identifier="publish_date"
+                                name="Publish date"
+                                type="ezdatetime">
+              <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             name="Getting started"
+                             node-id="171"
+                             remote-id="e81507d3446726ebd7361352fef5fad3"
+                             sort-field="path"
+                             sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object></object-list>
   <site-access-list>
     <site-access>eng</site-access>
@@ -9669,5 +9819,7 @@
               remote-id="c4604fb2e100a6681a4f53fbe6e5eeae">Communities</top-node>
     <top-node node-id="139"
               remote-id="e060ff40aa17eb21dc1e4595c9a5eb9a">Company</top-node>
+    <top-node node-id="171"
+              remote-id="e81507d3446726ebd7361352fef5fad3">Getting started</top-node>
   </top-node-list>
 </content-object>
