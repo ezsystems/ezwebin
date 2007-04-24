@@ -57,25 +57,23 @@
                          object_remote_id="357a06355bdc09fa64231f30ef213752" />
                 </paragraph>
                 <paragraph>
+                  <embed size="medium"
+                         class="horizontally_listed_sub_items"
+                         align="center"
+                         custom:offset="0"
+                         custom:limit="5"
+                         object_remote_id="7b159eea65cea5d757c8b86fbe8c399b" />
+                </paragraph>
+                <paragraph>
                   <table class="default"
-                         border="0"
-                         width="100%">
+                         width="100%"
+                         border="0">
                     <tr>
-                      <td xhtml:colspan="2"
-                          xhtml:rowspan="1"
-                          xhtml:width="50%">
-                        <paragraph>
-                          <embed size="medium"
-                                 class="horizontally_listed_sub_items"
-                                 align="center"
-                                 custom:offset="0"
-                                 custom:limit="5"
-                                 object_remote_id="7b159eea65cea5d757c8b86fbe8c399b" />
-                        </paragraph>
-                      </td>
+                      <td />
+                      <td />
                     </tr>
                     <tr>
-                      <td>
+                      <td xhtml:width="50%">
                         <paragraph>
                           <custom name="factbox"
                                   custom:title="Content from Grenland"
