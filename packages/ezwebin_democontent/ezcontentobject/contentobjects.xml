@@ -1825,7 +1825,6 @@
                                 ezremote:identifier="image"
                                 name="Image"
                                 type="ezimage"
-                                image-file-key="007b667f362e9253017550adab1dae5c"
                                 alternative-text="" />
             <ezobject:attribute ezremote:id="1495"
                                 ezremote:identifier="caption"
@@ -1936,7 +1935,6 @@
                                 ezremote:identifier="image"
                                 name="Image"
                                 type="ezimage"
-                                image-file-key="597da1a71cf12c03a8f34acdf85ec62d"
                                 alternative-text="" />
             <ezobject:attribute ezremote:id="1506"
                                 ezremote:identifier="caption"
@@ -2047,7 +2045,6 @@
                                 ezremote:identifier="image"
                                 name="Image"
                                 type="ezimage"
-                                image-file-key="8bb739f81b484201cda367c1d9b46a57"
                                 alternative-text="" />
             <ezobject:attribute ezremote:id="1517"
                                 ezremote:identifier="caption"
@@ -9399,7 +9396,7 @@
                                 name="Image"
                                 type="ezimage"
                                 image-file-key="82141e57eb139ddac809a6b1e573605e"
-                                alternative-text="" />
+                                alternative-text="Morbi neque" />
             <ezobject:attribute ezremote:id="1647"
                                 ezremote:identifier="image_url"
                                 name="URL (image)"
@@ -9583,7 +9580,7 @@
                                 name="Image"
                                 type="ezimage"
                                 image-file-key="dd8ce4ec29bc4b83885c6560363b8ddd"
-                                alternative-text="" />
+                                alternative-text="Ormevika" />
             <ezobject:attribute ezremote:id="2224"
                                 ezremote:identifier="tags"
                                 name="Tags"
@@ -9636,7 +9633,7 @@
                                 name="Image"
                                 type="ezimage"
                                 image-file-key="7931782016b7d816a2f296236ab7d215"
-                                alternative-text="" />
+                                alternative-text="Visit Grenland" />
             <ezobject:attribute ezremote:id="2347"
                                 ezremote:identifier="tags"
                                 name="Tags"
