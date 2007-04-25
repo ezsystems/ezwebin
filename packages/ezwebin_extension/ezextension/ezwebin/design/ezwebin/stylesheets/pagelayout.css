@@ -33,7 +33,6 @@ div#header ul li
     padding: 0;
     display: inline;
     margin-left: 1em;
-	margin-right: 1em;
 }
 
 div#logo
@@ -222,7 +221,7 @@ div.nosidemenu div#sidemenu-position
 div#sidemenu ul
 {
 	list-style-type: none;
-    margin: 0.5em 0 0.5em 0;  
+    margin: 0.5em 0 0.5em 0;
 }
 
 div#sidemenu ul li
