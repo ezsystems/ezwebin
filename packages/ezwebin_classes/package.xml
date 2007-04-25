@@ -288,11 +288,5 @@
     <item type="ezcontentclass"
           filename="class-forums"
           sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
-          filename="class-user_group"
-          sub-directory="ezcontentclass" />
-    <item type="ezcontentclass"
-          filename="class-folder"
-          sub-directory="ezcontentclass" />
   </uninstall>
 </package>
