@@ -48,6 +48,7 @@ function eZSiteINISettings( $parameters )
     $settings[] = eZSiteContentINISettings( $parameters );
 	$settings[] = eZSiteDesignINISettings( $parameters );
 	$settings[] = eZSiteBrowseINISettings( $parameters );
+	$settings[] = eZSiteTemplateINISettings( $parameters );
     //$settings[] = eZSiteIconINISettings( $parameters );
 
 	$settings[] = eZSiteContentStructureMenuINISettings();
@@ -1171,7 +1172,7 @@ function eZSiteToolbarINISettings( $parameters )
 
 function eZSiteImageINISettings()
 {
-    $image = array( 'name' => 'image.ini',
+    $settings = array( 'name' => 'image.ini',
                     'reset_arrays' => true,
                     'settings' => array(
 					'AliasSettings'=>
@@ -1298,19 +1299,19 @@ array(
 )
 )
                                          ) );
-    return $image;
+    return $settings;
 }
 
 
 function eZSiteContentINISettings( $parameters )
 {
     $designList = $parameters['design_list'];
-    $image = array( 'name' => 'content.ini',
+    $settings = array( 'name' => 'content.ini',
                     'reset_arrays' => false,
                     'settings' => array( 'VersionView' => array( 'AvailableSiteDesignList' => array( "ezwebin" ) ),
                                          'ObjectRelationDataTypeSettings' => array( 'ClassAttributeStartNode' => array( '224;AddRelatedBannerImageToDataType' ) ) ) );
 
-    return $image;
+    return $settings;
 }
 
 function eZSiteBrowseINISettings( $parameters )
@@ -1321,6 +1322,15 @@ function eZSiteBrowseINISettings( $parameters )
                                             'AddRelatedBannerImageToDataType' => array( 'StartNode' => 'banners',
                                                                                         'SelectionType' => 'single',
                                                                                         'ReturnType' => 'ObjectID' ) ) );
+
+    return $settings;
+}
+
+
+function eZSiteTemplateINISettings( $parameters )
+{
+    $settings = array( 'name' => 'template.ini',
+                       'settings' => array( 'CharsetSettings' => array( 'DefaultTemplateCharset' => 'utf-8' ) ) );
 
     return $settings;
 }
