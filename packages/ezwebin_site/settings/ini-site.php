@@ -1309,7 +1309,7 @@ function eZSiteContentINISettings( $parameters )
     $settings = array( 'name' => 'content.ini',
                     'reset_arrays' => false,
                     'settings' => array( 'VersionView' => array( 'AvailableSiteDesignList' => array( "ezwebin" ) ),
-                                         'ObjectRelationDataTypeSettings' => array( 'ClassAttributeStartNode' => array( '224;AddRelatedBannerImageToDataType' ) ) ) );
+                                         'ObjectRelationDataTypeSettings' => array( 'ClassAttributeStartNode' => array( '236;AddRelatedBannerImageToDataType' ) ) ) );
 
     return $settings;
 }

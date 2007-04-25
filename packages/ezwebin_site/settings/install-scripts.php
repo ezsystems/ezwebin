@@ -57,14 +57,22 @@ This get called by ezstep_create_sites.php
 function eZSitePreInstall( )
 {
     /*
-    Replace Article image attribute with correct datatype
+    Extend folder class
     */
-    eZWebinInstaller::removeClassAttribute( array( 'class_id' => 2,
-    'attribute_identifier' => 'image' ) );
-    eZWebinInstaller::addClassAttribute( array( 'class_identifier' => 'article',
-    'attribute_identifier' => 'image',
-    'attribute_name' => 'Image',
-    'datatype' => 'ezimage' ) );
+    $db =& eZDB::instance();
+    $db->begin();
+
+    eZWebinInstaller::addClassAttribute( array( 'class_identifier' => 'folder',
+                                                'attribute_identifier' => 'tags',
+                                                'attribute_name' => 'Tags',
+                                                'datatype' => 'ezkeyword' ) );
+
+    eZWebinInstaller::addClassAttribute( array( 'class_identifier' => 'folder',
+                                                'attribute_identifier' => 'publish_date',
+                                                'attribute_name' => 'Publish date',
+                                                'datatype' => 'ezdatetime',
+                                                'default_value' => 0 ) );
+    $db->commit();
 
     // hack for images/binaryfiles
     // need to set siteaccess to have correct placement(VarDir) for files.
