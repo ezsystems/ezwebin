@@ -47,6 +47,7 @@ function eZSiteINISettings( $parameters )
     $settings[] = eZSiteImageINISettings();
     $settings[] = eZSiteContentINISettings( $parameters );
 	$settings[] = eZSiteDesignINISettings( $parameters );
+	$settings[] = eZSiteBrowseINISettings( $parameters );
     //$settings[] = eZSiteIconINISettings( $parameters );
 
 	$settings[] = eZSiteContentStructureMenuINISettings();
@@ -1305,12 +1306,23 @@ function eZSiteContentINISettings( $parameters )
 {
     $designList = $parameters['design_list'];
     $image = array( 'name' => 'content.ini',
-                    'reset_arrays' => true,
-                    'settings' => array( 'VersionView' =>
-                                         array( 'AvailableSiteDesignList' => array( "ezwebin" ) ) ) );
+                    'reset_arrays' => false,
+                    'settings' => array( 'VersionView' => array( 'AvailableSiteDesignList' => array( "ezwebin" ) ),
+                                         'ObjectRelationDataTypeSettings' => array( 'ClassAttributeStartNode' => array( '224;AddRelatedBannerImageToDataType' ) ) ) );
 
     return $image;
 }
 
+function eZSiteBrowseINISettings( $parameters )
+{
+    $settings = array( 'name' => 'browse.ini',
+                       'reset_arrays' => false,
+                       'settings' => array( 'BrowseSettings' => array( 'AliasList' => array( 'banners' => '59' ) ),
+                                            'AddRelatedBannerImageToDataType' => array( 'StartNode' => 'banners',
+                                                                                        'SelectionType' => 'single',
+                                                                                        'ReturnType' => 'ObjectID' ) ) );
+
+    return $settings;
+}
 
 ?>
