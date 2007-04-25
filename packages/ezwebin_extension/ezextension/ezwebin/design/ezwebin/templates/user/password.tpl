@@ -4,8 +4,8 @@
 
 <form action={concat($module.functions.password.uri,"/",$userID)|ezurl} method="post" name="Password">
 
-<div class="maincontentheader">
-<h1>{"Change password for user"|i18n("design/ezwebin/user/password")} {$userAccount.login}</h1>
+<div class="attribute-header">
+<h1 class="long">{"Change password for user"|i18n("design/ezwebin/user/password")} {$userAccount.login}</h1>
 </div>
 
 {if $message}
