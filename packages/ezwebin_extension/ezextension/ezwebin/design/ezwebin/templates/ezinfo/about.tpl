@@ -33,8 +33,8 @@
     </div>
 
     <p>
-        The following is a list of <a href='http://ez.no/ezpublish'>eZ Publish</a> contributors who have licensed their work for use by <a href='http://ez.no/'>eZ systems AS</a> under the terms and conditions of
-        the eZ Contributor Licensing Agreement. As permitted by this agreement with the contributors, <a href='http://ez.no/'>eZ systems AS</a> is redistributing the
+        The following is a list of <a href='http://ez.no/ezpublish'>eZ Publish</a> contributors who have licensed their work for use by <a href='http://ez.no/'>eZ Systems AS</a> under the terms and conditions of
+        the eZ Contributor Licensing Agreement. As permitted by this agreement with the contributors, <a href='http://ez.no/'>eZ Systems AS</a> is redistributing the
         contribution under the same license as the file that the contribution is included in. The list of contributors includes the contributors&apos;s
         name, optional contact info and a list of files that they have either contributed or contributed work to.
     </p>
@@ -51,7 +51,7 @@
 </div>
 
 <p>
-    Copyright &copy; 1999-2006 <a href='http://ez.no/'>eZ systems AS</a>, with portions copyright by other parties. A complete list of all contributors and third-party
+    Copyright &copy; 1999-2007 <a href='http://ez.no/'>eZ Systems AS</a>, with portions copyright by other parties. A complete list of all contributors and third-party
     software follows.
 </p>
 
