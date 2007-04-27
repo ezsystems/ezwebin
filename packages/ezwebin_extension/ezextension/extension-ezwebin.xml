@@ -77,7 +77,7 @@
         md5sum="0dc694bfb5c0e17bbd22972e0e015074" />
   <file name="websitetoolbar.ini"
         path="/settings"
-        md5sum="96431df07bfccae876ab8118d7fe76cc" />
+        md5sum="ce65cd1a6988be5fe4ca65a472fd1b74" />
   <file name="design.ini.append.php"
         path="/settings"
         md5sum="5929ee9f8ad063eb7357a78ad13dcc3b" />
@@ -161,6 +161,13 @@
   <file name="translation.ts"
         path="/translations/ger-DE"
         md5sum="cd87bdc069f51fac0683fa3bd109bb8f" />
+  <file name="pol-PL"
+        path="/translations"
+        md5sum="d41d8cd98f00b204e9800998ecf8427e"
+        type="dir" />
+  <file name="translation.ts"
+        path="/translations/pol-PL"
+        md5sum="d5cb078ae39da46d056a611848f87fb5" />
   <file name="design"
         md5sum="d41d8cd98f00b204e9800998ecf8427e"
         type="dir" />
@@ -180,7 +187,7 @@
         md5sum="1b9297667d97dc910fc1924d5ff14bbc" />
   <file name="pagelayout.css"
         path="/design/ezwebin/stylesheets"
-        md5sum="cc6d3c861c150b0bb8beb2d0714c4cea" />
+        md5sum="50d09af6effe657035c26928b565b8e6" />
   <file name="ezdhtml"
         path="/design/ezwebin/stylesheets"
         md5sum="d41d8cd98f00b204e9800998ecf8427e"
@@ -419,7 +426,7 @@
         type="dir" />
   <file name="about.tpl"
         path="/design/ezwebin/templates/ezinfo"
-        md5sum="6eb0cc2ab104652011919418d810a3e0" />
+        md5sum="293bd1eccb96d1d7bd04e869bef48424" />
   <file name="link.tpl"
         path="/design/ezwebin/templates"
         md5sum="5cbafa6a3b224ecf7e539b49d43f3bbb" />
@@ -1519,5 +1526,5 @@
         path="/design/ezwebin/javascript"
         md5sum="26fb4003a539026e45d927c8ba7c47a1" />
   <file name="ezinfo.php"
-        md5sum="58cb9b07781aaf38b5656008cc719992" />
+        md5sum="61278337fd492e52e3c1dfe6e298345e" />
 </extension>
