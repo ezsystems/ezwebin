@@ -55,9 +55,12 @@
 
         {include uri='design:parts/article/comments.tpl' used_node=$node}
 
+        {if eq( ezini( 'TipAFriend', 'Enabled' ), 'true' )}
         <div class="attribute-tipafriend">
             <p><a href={concat( "/content/tipafriend/", $node.node_id )|ezurl} title="{'Tip a friend'|i18n( 'design/ezwebin/full/article_mainpage' )}">{'Tip a friend'|i18n( 'design/ezwebin/full/article_mainpage' )}</a></p>
         </div>
+        {/if}
+
         </div>
     </div>
 

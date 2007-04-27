@@ -4,20 +4,19 @@
 
 <div class="content-view-full">
     <div class="class-{$node.object.class_identifier}">
-    
+
     <div class="attribute-header">
         <h1>{$node.name|wash()}</h1>
     </div>
-    
+
     {*
      This is a general full view template
      It is intended to accelerate web development by elimineting the need to create templates for simple classes
      It probes the name_pattern for attributes and has some pre set attributes that are hidden
      The output are quite stylable, so you can do visual modifications with css
-     
+
      The pre set optional attributes are:
      'enable_comments' a checkbox to indicates if you want to enable comments or not
-     'enable_tipafriend' a checkbox to indicates if you want to enable tipafriend or not
      'show_children' a checkbox to indicates if you want to show children or not
      'show_children_exclude' a text_line with classes you want to exclude, like: 'article,infobox,folder'
      'show_children_pr_page' a Integer with the number of children you want to show pr page
@@ -39,7 +38,7 @@
             </div>
         {/if}
     {/foreach}
-    
+
     {if $node.object.content_class.is_container}
 	    {if and( is_unset( $versionview_mode ), is_set( $node.data_map.enable_comments ), $node.data_map.enable_comments.data_int )}
 	        <h1>{"Comments"|i18n("design/ezwebin/full/article")}</h1>
@@ -48,7 +47,7 @@
 	                    {node_view_gui view='line' content_node=$comment}
 	                {/foreach}
 	            </div>
-	
+
 	            {if fetch( 'content', 'access', hash( 'access', 'create',
 	                                                  'contentobject', $node,
 	                                                  'contentclass_id', 'comment' ) )}
@@ -68,8 +67,8 @@
 	                 $children_count = ''}
 	            {if is_set( $node.data_map.show_children_exclude )}
 	                {set $classes = $node.data_map.show_children_exclude.content|explode(',')}
-	            {/if}    
-	
+	            {/if}
+
 	            {set $children=fetch_alias( 'children', hash( 'parent_node_id', $node.node_id,
 	                                                          'offset', $view_parameters.offset,
 	                                                          'sort_by', $node.sort_array,
@@ -79,30 +78,28 @@
 	                 $children_count=fetch_alias( 'children_count', hash( 'parent_node_id', $node.node_id,
 	                                                                      'class_filter_type', 'exclude',
 	                                                                      'class_filter_array', $classes ) )}
-	
+
 	            <div class="content-view-children">
 	                {foreach $children as $child }
 	                    {node_view_gui view='line' content_node=$child}
 	                {/foreach}
 	            </div>
-	
+
 	            {include name=navigator
 	                     uri='design:navigator/google.tpl'
 	                     page_uri=$node.url_alias
 	                     item_count=$children_count
 	                     view_parameters=$view_parameters
 	                     item_limit=$page_limit}
-	
+
 	        {/if}
 	    {/if}
-	    
-	    {if and( is_set( $node.data_map.enable_tipafriend ), $node.data_map.enable_tipafriend.data_int )}
+
+	    {if eq( ezini( 'TipAFriend', 'Enabled' ), 'true' )}
 	    <div class="attribute-tipafriend">
             <p><a href={concat( "/content/tipafriend/", $node.node_id )|ezurl} title="{'Tip a friend'|i18n( 'design/ezwebin/full/article' )}">{'Tip a friend'|i18n( 'design/ezwebin/full/article' )}</a></p>
         </div>
         {/if}
-	    
-
 
     </div>
 </div>

@@ -26,7 +26,7 @@
             {if $node.data_map.image.has_content}
                 <div class="attribute-image">
                     {attribute_view_gui attribute=$node.data_map.image image_class=medium}
-                    
+
                     {if $node.data_map.caption.has_content}
                     <div class="caption">
                         {attribute_view_gui attribute=$node.data_map.caption}
@@ -74,9 +74,11 @@
         {/if}
         {/if}
 
+        {if eq( ezini( 'TipAFriend', 'Enabled' ), 'true' )}
         <div class="attribute-tipafriend">
             <p><a href={concat( "/content/tipafriend/", $node.node_id )|ezurl} title="{'Tip a friend'|i18n( 'design/ezwebin/full/article' )}">{'Tip a friend'|i18n( 'design/ezwebin/full/article' )}</a></p>
         </div>
+        {/if}
 
         </div>
     </div>
