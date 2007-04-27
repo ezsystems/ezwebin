@@ -39,20 +39,20 @@
     <collection name="default">
       <file-list type="thumbnail"
                  variable-name="thumbnail">
-        <file name="ezpnow_thumbnail.png"
-              path="var/ezpnow_site/storage/temp/ezpnow_thumbnail.png"
+        <file name="thumbnail.png"
+              path="var/storage/temp/thumbnail.png"
               md5sum="d0a098ad93432761ff270ea553e549d4" />
       </file-list>
       <file-list type="file"
                  variable-name="sitecssfile">
         <file name="site-colors.css"
-              path="var/ezpnow_site/storage/temp/site-colors.css"
+              path="var/storage/temp/site-colors.css"
               md5sum="74c783c0aff85a585311e3ce31cdac29" />
       </file-list>
       <file-list type="file"
                  variable-name="classescssfile">
         <file name="classes-colors.css"
-              path="var/ezpnow_site/storage/temp/classes-colors.css"
+              path="var/storage/temp/classes-colors.css"
               md5sum="1a1ed64f28bec7d535b69207c81ad026" />
       </file-list>
     </collection>

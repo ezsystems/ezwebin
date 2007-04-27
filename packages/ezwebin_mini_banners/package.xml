@@ -37,12 +37,6 @@ Banners - subtree
     </entry>
   </changelog>
   <simple-files>
-    <simple-file key="28571362e8ac1b5b92267057b9b757ef"
-                 original-path="var/storage/images/media/banners/woman_frontpage/1382-6-eng-GB/woman_frontpage.jpg"
-                 package-path="simplefiles/83ea7f16.jpg" />
-    <simple-file key="c5bd8c7efa8d3e0ddfd3a42cb8f70444"
-                 original-path="var/storage/images/media/banners/woman_products/1387-1-eng-GB/woman_products.jpg"
-                 package-path="simplefiles/99bedbaa.jpg" />
     <simple-file key="f4f3ad665f7a992e0897cfa27274deed"
                  original-path="var/storage/images/media/banners/grenland_frontpage/2210-1-eng-GB/grenland_frontpage.jpg"
                  package-path="simplefiles/a2c0baa7.jpg" />
