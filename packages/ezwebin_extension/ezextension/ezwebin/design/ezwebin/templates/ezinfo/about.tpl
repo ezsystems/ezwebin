@@ -33,8 +33,8 @@
     </div>
 
     <p>
-        The following is a list of <a href='http://ez.no/ezpublish'>eZ Publish</a> contributors who have licensed their work for use by <a href='http://ez.no/'>eZ Systems AS</a> under the terms and conditions of
-        the eZ Contributor Licensing Agreement. As permitted by this agreement with the contributors, <a href='http://ez.no/'>eZ Systems AS</a> is redistributing the
+        The following is a list of <a href="http://ez.no/ezpublish">eZ Publish</a> contributors who have licensed their work for use by <a href="http://ez.no/">eZ Systems AS</a> under the terms and conditions of
+        the eZ Contributor Licensing Agreement. As permitted by this agreement with the contributors, <a href="http://ez.no/">eZ Systems AS</a> is redistributing the
         contribution under the same license as the file that the contribution is included in. The list of contributors includes the contributors&apos;s
         name, optional contact info and a list of files that they have either contributed or contributed work to.
     </p>
@@ -51,7 +51,7 @@
 </div>
 
 <p>
-    Copyright &copy; 1999-2007 <a href='http://ez.no/'>eZ Systems AS</a>, with portions copyright by other parties. A complete list of all contributors and third-party
+    Copyright &copy; 1999-2007 <a href="http://ez.no/">eZ Systems AS</a>, with portions copyright by other parties. A complete list of all contributors and third-party
     software follows.
 </p>
 
@@ -61,7 +61,7 @@
     </div>
 
     <p>
-        The following is a list of the third-party software that is distributed with this copy of <a href='http://ez.no/ezpublish'>eZ Publish</a>. The list of third party
+        The following is a list of the third-party software that is distributed with this copy of <a href="http://ez.no/ezpublish">eZ Publish</a>. The list of third party
         software includes the license for the software in question and the directory or files that contain the third-party software.
     </p>
 
@@ -76,7 +76,7 @@
     <h2>{'Extensions'|i18n('design/ezwebin/ezinfo/about')}</h2>
 </div>
 
-<p>The following is a list of the extensions that have been loaded at run-time by this copy of <a href='http://ez.no/ezpublish'>eZ Publish</a>.</p>
+<p>The following is a list of the extensions that have been loaded at run-time by this copy of <a href="http://ez.no/ezpublish">eZ Publish</a>.</p>
 {if is_set( $extensions )}
     {foreach $extensions as $ext_name => $extension}
         {if is_array( $extension )}

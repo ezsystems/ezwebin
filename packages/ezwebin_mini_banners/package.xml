@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.9.2"
+         development="false"
+         install_type="install">
+  <name>ezwebin_mini_banners</name>
+  <summary>Demo content (banners) for the ezwebin extension</summary>
+  <description>This package contains the following nodes :
+Banners - subtree
+</description>
+  <vendor>eZ systems</vendor>
+  <type value="contentobject" />
+  <ezpublish>
+    <version>3.9.2</version>
+    <named-version>3.9</named-version>
+  </ezpublish>
+  <maintainers>
+    <maintainer>
+      <name>Administrator User</name>
+      <email>nospam@ez.no</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <packaging>
+    <timestamp>1176207698</timestamp>
+    <host>packages.ez.no</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain"
+              name="LICENCE" />
+  </documents>
+  <changelog>
+    <entry timestamp="1176207698"
+           person="Administrator User"
+           email="nospam@ez.no"
+           release="1">
+      <change>Creation of package.</change>
+    </entry>
+  </changelog>
+  <simple-files>
+    <simple-file key="28571362e8ac1b5b92267057b9b757ef"
+                 original-path="var/storage/images/media/banners/woman_frontpage/1382-6-eng-GB/woman_frontpage.jpg"
+                 package-path="simplefiles/83ea7f16.jpg" />
+    <simple-file key="c5bd8c7efa8d3e0ddfd3a42cb8f70444"
+                 original-path="var/storage/images/media/banners/woman_products/1387-1-eng-GB/woman_products.jpg"
+                 package-path="simplefiles/99bedbaa.jpg" />
+    <simple-file key="f4f3ad665f7a992e0897cfa27274deed"
+                 original-path="var/storage/images/media/banners/grenland_frontpage/2210-1-eng-GB/grenland_frontpage.jpg"
+                 package-path="simplefiles/a2c0baa7.jpg" />
+  </simple-files>
+  <version>
+    <number>1.2</number>
+    <release>0</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides />
+    <requires />
+    <obsoletes />
+    <conflicts />
+  </dependencies>
+  <install>
+    <item type="ezcontentobject"
+          filename="contentobjects"
+          sub-directory="ezcontentobject" />
+  </install>
+  <uninstall>
+    <item type="ezcontentobject"
+          filename="contentobjects"
+          sub-directory="ezcontentobject" />
+  </uninstall>
+</package>
