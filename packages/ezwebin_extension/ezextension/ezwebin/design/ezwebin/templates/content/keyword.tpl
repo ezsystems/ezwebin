@@ -3,7 +3,7 @@
                                                        'limit', $page_limit,
                                                        'offset', $view_parameters.offset,
                                                        'classid', $view_parameters.classid ) )
-     $list_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $alphabet, 
+     $list_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $alphabet,
                                                            'limit', $page_limit,
                                                            'offset', $view_parameters.offset,
                                                            'classid', $view_parameters.classid ) )}
@@ -13,7 +13,7 @@
 <div class="border-ml"><div class="border-mr"><div class="border-mc">
 
 <div class="attribute-header">
-    <h1 class="long">{'Keyword: %keyword'|i18n( 'design/ezwebin/content/keyword', , 
+    <h1 class="long">{'Keyword: %keyword'|i18n( 'design/ezwebin/content/keyword', ,
 hash( '%keyword', $alphabet ) )}</h1>
 </div>
 
@@ -25,7 +25,7 @@ hash( '%keyword', $alphabet ) )}</h1>
 {foreach $keyword_list as $keyword sequence array( 'bgdark', 'bglight' ) as $style}
 <tr class="{$style}">
 <td>
-<a href={concat("content/view/full/",$keyword.link_object.node_id)|ezurl}>{$keyword.link_object.name|wash}</a>
+<a href={$keyword.link_object.object.main_node.url_alias|ezurl}>{$keyword.link_object.name|wash}</a>
 </td>
 <td>
 {$keyword.link_object.class_name|wash}
