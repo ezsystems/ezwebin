@@ -10,7 +10,9 @@
 
 {def $page_limit = 10
      $blogs = array()
-     $blogs_count = 0}
+     $blogs_count = 0
+     $uniq_id = 0
+     $uniq_post = array()}
 
 {if $view_parameters.tag}
     {set $blogs = fetch( 'content', 'keyword', hash( 'alphabet', rawurldecode( $view_parameters.tag ),
@@ -24,7 +26,11 @@
                                                      'parent_node_id', $node.node_id ) )}
 
     {foreach $blogs as $blog}
-        {node_view_gui view=line content_node=$blog.link_object}
+        {set $uniq_id = $blog.link_object.node_id}
+        {if $uniq_post|contains( $uniq_id )|not}
+           {node_view_gui view=line content_node=$blog.link_object}
+           {set $uniq_post = $uniq_post|append( $uniq_id )}
+        {/if}
     {/foreach}
 {else}
     {if and( $view_parameters.month, $view_parameters.year )}
