@@ -7,7 +7,8 @@
      $containers = ezini( 'WebsiteToolbarSettings', 'ContentClassContainers', 'websitetoolbar.ini' )
      $odf_display_classes = ezini( 'WebsiteToolbarSettings', 'ODFDisplayClasses', 'websitetoolbar.ini' )
      $website_toolbar_access = 0
-     $group_object = null}
+     $group_object = null
+     $content_object_language_code = ''}
 
 {foreach $current_user.groups as $group}
    {set $group_object = fetch( 'content', 'object', hash( 'object_id', $group ) )}
@@ -75,8 +76,16 @@
   <input type="hidden" name="ContentObjectID" value="{$content_object.id}" />
   <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ContentNodeID" value="{$current_node.node_id}" />
+  {* If a translation exists in the siteaccess' sitelanguagelist use default_language, otherwise let user select language to base translation on. *}
+  {def $avail_languages = $content_object.available_languages
+       $default_language = $content_object.default_language}
+  {if and( $avail_languages|count|ge( 1 ), $avail_languages|contains( $default_language ) )}
+    {set $content_object_language_code = $default_language}
+  {else}
+    {set $content_object_language_code = ''}
+  {/if}
+  <input type="hidden" name="ContentObjectLanguageCode" value="{$content_object_language_code}" />
 </form>
-
 </div>
 
 <div id="ezwt-help">
