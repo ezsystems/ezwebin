@@ -1,3 +1,4 @@
+{set-block scope=root variable=cache_ttl}900{/set-block}
 {* Multicalendar - Full view *}
 
 <div class="border-box">
