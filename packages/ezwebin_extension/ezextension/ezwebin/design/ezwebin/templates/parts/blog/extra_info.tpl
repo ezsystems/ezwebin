@@ -1,4 +1,4 @@
-			<div class="attirbute-tag-cloud">
+                        <div class="attirbute-tag-cloud">
                         <p>
                             {eztagcloud( hash( 'class_identifier', 'blog_post',
                                                'parent_node_id', $used_node.node_id ) )}
@@ -11,7 +11,6 @@
 
                         <div class="attribute-tags">
                             <h1>{"Tags"|i18n("design/ezwebin/blog/extra_info")}</h1>
-			    <a href={$used_node.url_alias|ezurl}>{'All posts'|i18n('design/ezwebin/blog/extra_info')}</a>
                             <ul>
                             {foreach ezkeywordlist( 'blog_post', $used_node.node_id ) as $keyword}
                                 <li><a href={concat( $used_node.url_alias, "/(tag)/", $keyword.keyword|rawurlencode )|ezurl} title="{$keyword.keyword}">{$keyword.keyword} ({fetch( 'content', 'keyword_count', hash( 'alphabet', $keyword.keyword, 'classid', 'blog_post','parent_node_id', $used_node.node_id ) )})</a></li>
