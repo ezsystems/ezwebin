@@ -46,7 +46,7 @@ function loadNewAttributesData( $parameters )
 
     //get siteaccessnames
     $locales = getColumn( "locale", "ezcontent_language");
-    $locales = getLocales( $locales );
+    $locales = $parameters['all_language_codes'];
     $siteaccessNames = getSiteaccessNames( $locales );
 
     $sys =& eZSys::instance();
