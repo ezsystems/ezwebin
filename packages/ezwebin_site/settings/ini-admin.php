@@ -55,15 +55,15 @@ function eZSiteAdminContentStructureMenuINISettings()
         'name' => 'contentstructuremenu.ini',
         'reset_arrays' => true,
         'settings' => array(
-							'TreeMenu' => array(
-												'ShowClasses' => array(
-																		'folder',
-																		'user_group',
-																		'documentation_page',
-																		'event_calender',
-																		'frontpage',
-																		'forums'
-																		) ) )
+            'TreeMenu' => array(
+                'ShowClasses' => array(
+                    'folder',
+                    'user_group',
+                    'documentation_page',
+                    'event_calender',
+                    'frontpage',
+                    'forums'
+                    ) ) )
         );
     return $contentStructureMenu;
 }

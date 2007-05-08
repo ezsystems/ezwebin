@@ -37,8 +37,8 @@ function eZSiteINISettings( $parameters )
 {
     $parameters = array_merge( $parameters,
                                array( 'is_admin' => false ) );
-	$setupData = loadSetupData( $parameters );
-	
+    $setupData = loadSetupData( $parameters );
+
     $settings = array();
     $settings[] = eZSiteMenuINISettings();
     $settings[] = eZSiteOverrideINISettings();
@@ -46,30 +46,30 @@ function eZSiteINISettings( $parameters )
     $settings[] = eZSiteSiteINISettings( $setupData );
     $settings[] = eZSiteImageINISettings();
     $settings[] = eZSiteContentINISettings( $parameters );
-	$settings[] = eZSiteDesignINISettings( $parameters );
+    $settings[] = eZSiteDesignINISettings( $parameters );
     //$settings[] = eZSiteIconINISettings( $parameters );
-	
-	$settings[] = eZSiteContentStructureMenuINISettings();
+
+    $settings[] = eZSiteContentStructureMenuINISettings();
 
     return $settings;
 }
 
 function eZSiteSiteINISettings( $setupData )
 {
-  $settings = array();
+    $settings = array();
 
-	$settings['RegionalSettings'] = array( 'ShowUntranslatedObjects' => 'disabled' );
-	
-	$settings['SiteAccessSettings'] = array( 'RequireUserLogin' => 'false',
-											 										 'ShowHiddenNodes' => 'false' );
+    $settings['RegionalSettings'] = array( 'ShowUntranslatedObjects' => 'disabled' );
 
-	$settings['SiteSettings'] = array( 'LoginPage' => 'embedded',
-                                     'AdditionalLoginFormActionURL' => $setupData['siteaccessURLs']['admin_url'] . '/user/login' );
-	
-	$settings['DesignSettings'] = array( 'SiteDesign' => $setupData['mainSiteDesign'] );
-	
-	$settings['Session'] = array( 'SessionNamePerSiteAccess' => 'disabled' );
-		
+    $settings['SiteAccessSettings'] = array( 'RequireUserLogin' => 'false',
+                                             'ShowHiddenNodes' => 'false' );
+
+    $settings['SiteSettings'] = array( 'LoginPage' => 'embedded',
+                                       'AdditionalLoginFormActionURL' => $setupData['siteaccessURLs']['admin_url'] . '/user/login' );
+
+    $settings['DesignSettings'] = array( 'SiteDesign' => $setupData['mainSiteDesign'] );
+
+    $settings['Session'] = array( 'SessionNamePerSiteAccess' => 'disabled' );
+
     return array( 'name' => 'site.ini',
                   'settings' => $settings );
 }
@@ -80,12 +80,12 @@ function eZSiteDesignINISettings()
         'name' => 'design.ini',
         'reset_arrays' => false,
         'settings' => array(
-							'JavaScriptSettings' => array(
-												'JavaScriptList' => array(
-																		'tools/ezjsselection.js' )
-														 )
-							)
-					   );
+            'JavaScriptSettings' => array(
+                'JavaScriptList' => array(
+                    'tools/ezjsselection.js' )
+                )
+            )
+        );
     return $settings;
 }
 
@@ -95,15 +95,15 @@ function eZSiteContentStructureMenuINISettings()
         'name' => 'contentstructuremenu.ini',
         'reset_arrays' => true,
         'settings' => array(
-							'TreeMenu' => array(
-												'ShowClasses' => array(
-																		'folder',
-																		'documentation_page',
-																		'frontpage',
-																		'forums'
-																		),
-												'ToolTips' => 'disabled'
-																		) )
+            'TreeMenu' => array(
+                'ShowClasses' => array(
+                    'folder',
+                    'documentation_page',
+                    'frontpage',
+                    'forums'
+                    ),
+                'ToolTips' => 'disabled'
+                ) )
         );
     return $contentStructureMenu;
 }
@@ -1023,7 +1023,7 @@ function eZSiteImageINISettings()
     $image = array( 'name' => 'image.ini',
                     'reset_arrays' => true,
                     'settings' => array(
-					'AliasSettings'=>
+                        'AliasSettings'=>
 array(
 'AliasList'=>
 array(
