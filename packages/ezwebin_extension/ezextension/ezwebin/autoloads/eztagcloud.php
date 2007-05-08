@@ -60,26 +60,26 @@ class eZTagCloud
                     $languageFilter = "AND " . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
 
                     $rs = $db->arrayQuery( "SELECT DISTINCT ezkeyword.keyword
-											FROM ezkeyword,
-													ezkeyword_attribute_link,
-													ezcontentobject,
-													ezcontentobject_attribute,
-													ezcontentobject_tree,
-													ezcontentclass
-											WHERE ezkeyword.id = ezkeyword_attribute_link.keyword_id
-												AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
-												AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
-												AND ezkeyword.class_id = ezcontentclass.id
-												AND ezcontentclass.id = ezcontentobject.contentclass_id
-												AND ezcontentclass.version = '0'
-												AND ezcontentobject.status = '".EZ_CONTENT_OBJECT_STATUS_PUBLISHED."'
-												AND ezcontentobject_attribute.version = ezcontentobject.current_version
-												AND ezcontentobject_tree.main_node_id = ezcontentobject_tree.node_id
-												$pathString
-												$parentNodeIDSQL
-												$classIdentifierSQL
+                                            FROM ezkeyword,
+                                                ezkeyword_attribute_link,
+                                                ezcontentobject,
+                                                ezcontentobject_attribute,
+                                                ezcontentobject_tree,
+                                                ezcontentclass
+                                            WHERE ezkeyword.id = ezkeyword_attribute_link.keyword_id
+                                                AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
+                                                AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
+                                                AND ezkeyword.class_id = ezcontentclass.id
+                                                AND ezcontentclass.id = ezcontentobject.contentclass_id
+                                                AND ezcontentclass.version = '0'
+                                                AND ezcontentobject.status = '".EZ_CONTENT_OBJECT_STATUS_PUBLISHED."'
+                                                AND ezcontentobject_attribute.version = ezcontentobject.current_version
+                                                AND ezcontentobject_tree.main_node_id = ezcontentobject_tree.node_id
+                                                $pathString
+                                                $parentNodeIDSQL
+                                                $classIdentifierSQL
                                                 $languageFilter
-											ORDER BY ezkeyword.keyword ASC" );
+                                            ORDER BY ezkeyword.keyword ASC" );
 
                     include_once ('lib/ezutils/classes/ezfunctionhandler.php');
 

@@ -34,7 +34,7 @@
 //
 
 /*
-	Modify user_siteaccess so it is ready to be copied by the translationsiteaccesses
+    Modify user_siteaccess so it is ready to be copied by the translationsiteaccesses
 */
 function eZSetupUserSiteaccess( $parameters )
 {
@@ -54,19 +54,19 @@ function eZSetupUserSiteaccess( $parameters )
  */
 function eZSetupTranslationSiteAccesses( $parameters, $setupDataParam )
 {
-	//initiate variables
-	$setupData = $setupDataParam;
+    //initiate variables
+    $setupData = $setupDataParam;
 
-	$languageArr = $setupData['languages'];
-	$localeArr = $setupData['locales'];
+    $languageArr = $setupData['languages'];
+    $localeArr = $setupData['locales'];
 
-	foreach ( $setupData['localeArr'] as $locale => $language )
-	{
-		// Do not override site.ini override, since ini-common.ini will do it
-		createSiteAccess( $language, $locale, $setupData['user_siteaccess'], $setupData['locales'], false, $setupData['primaryLocale'], $setupData );
-	}
+    foreach ( $setupData['localeArr'] as $locale => $language )
+    {
+        // Do not override site.ini override, since ini-common.ini will do it
+        createSiteAccess( $language, $locale, $setupData['user_siteaccess'], $setupData['locales'], false, $setupData['primaryLocale'], $setupData );
+    }
 
-	return true;
+    return true;
 }
 
 
@@ -97,30 +97,30 @@ function eZSetupAdminSiteAccess( $parameters )
   \param $addOverride if true then add it to availablesiteaccesses in site.ini override
  */
 function createSiteAccess( $siteaccessNameParam,
-						   $localeCodeParam,
-						   $sourceParam,
-						   $localeCodesArrParam,
-						   $addOverride,
-						   $secondaryLocaleParam = "eng-GB",
-						   $setupDataParam )
+                           $localeCodeParam,
+                           $sourceParam,
+                           $localeCodesArrParam,
+                           $addOverride,
+                           $secondaryLocaleParam = "eng-GB",
+                           $setupDataParam )
 {
     //get global vars
     $setupData = $setupDataParam;
     //if ( count( $setupData['user_siteacess'] ) < 1 ) addError( "line 448", true );
-	//addError( array("createsiteaccess" => $setupData ), false );
+    //addError( array("createsiteaccess" => $setupData ), false );
 
-	// Grab the site.ini for the user siteaccess
+    // Grab the site.ini for the user siteaccess
     $userSiteINI =& eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $sourceParam, null, false, null, true );
 
-	//get  params
-	$siteaccessName = $siteaccessNameParam;
-	$localeCode = $localeCodeParam;
-	$source = $sourceParam;
+    //get  params
+    $siteaccessName = $siteaccessNameParam;
+    $localeCode = $localeCodeParam;
+    $source = $sourceParam;
 
-	$sortedLocales = sortLocales( $localeCodesArrParam, $localeCode, $secondaryLocaleParam );
+    $sortedLocales = sortLocales( $localeCodesArrParam, $localeCode, $secondaryLocaleParam );
 
-	//test params
-	if ( strlen($siteaccessName)<1 ) addError( "siteaccessname does not contain anything", true );
+    //test params
+    if ( strlen($siteaccessName)<1 ) addError( "siteaccessname does not contain anything", true );
 
     // Create the siteaccess translation directory
     $source = "settings/siteaccess/" . $source;
@@ -142,11 +142,11 @@ function createSiteAccess( $siteaccessNameParam,
         else
             $translationSiteINI->setVariable( "RegionalSettings", "TextTranslation", 'disabled' );
 
-				//use only translated content in current locale, OR default locale (check if they are the same first)
+        //use only translated content in current locale, OR default locale (check if they are the same first)
         if ( $localeCode == $setupData['primaryLocale'] )
-        	$translationSiteINI->setVariable( "RegionalSettings", "SiteLanguageList", array( $localeCode ) );
+            $translationSiteINI->setVariable( "RegionalSettings", "SiteLanguageList", array( $localeCode ) );
         else
-        	$translationSiteINI->setVariable( "RegionalSettings", "SiteLanguageList", array( $localeCode, $setupData['primaryLocale'] ) );
+            $translationSiteINI->setVariable( "RegionalSettings", "SiteLanguageList", array( $localeCode, $setupData['primaryLocale'] ) );
 
         $translationSiteINI->setVariable( "RegionalSettings", "ContentObjectLocale", $localeCode );
 
@@ -154,10 +154,10 @@ function createSiteAccess( $siteaccessNameParam,
         unset( $translationSiteINI );
     }
 
-	// Create roles
-	$role = eZRole::fetchByName( "Anonymous" );
-	$role->appendPolicy( "user", "login", array( "SiteAccess" => array( eZSys::ezcrc32( $siteaccessName ) ) ) );
-	$role->store();
+    // Create roles
+    $role = eZRole::fetchByName( "Anonymous" );
+    $role->appendPolicy( "user", "login", array( "SiteAccess" => array( eZSys::ezcrc32( $siteaccessName ) ) ) );
+    $role->store();
 }
 
 ?>

@@ -46,7 +46,7 @@ class eZCreateClassListGroups
                     {
                         if ( array_key_exists( $group->attribute( 'group_id' ), $groupArray ) )
                         {
-                         	$groupArray[$group->attribute( 'group_id' )]['items'][] = $contentClass;
+                            $groupArray[$group->attribute( 'group_id' )]['items'][] = $contentClass;
                         }
                         else
                         {

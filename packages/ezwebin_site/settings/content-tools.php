@@ -35,26 +35,25 @@
 
 
 /*
-	purpose: swap node locations
-	returns: always true
-	parameters: nodenames of the nodes to swap locations
-	note: this method must be used with care it attempted used on User objects.
+    purpose: swap node locations
+    returns: always true
+    parameters: nodenames of the nodes to swap locations
+    note: this method must be used with care it attempted used on User objects.
 */
 function swapNodes( $nodeName1, $nodeName2 )
 {
-	//init vars
-	$node1 = getNodeIdByName( $nodeName1 );
-	$node2 = getNodeIdByName( $nodeName2 );
-	
-	addError( array('nodeName1'=>$nodeName1),false);
-	addError( array('nodeName2'=>$nodeName2),false);
-	
-	addError( array('node1'=>$node1),false);
-	addError( array('node2'=>$node2),false);
+    //init vars
+    $node1 = getNodeIdByName( $nodeName1 );
+    $node2 = getNodeIdByName( $nodeName2 );
 
+    addError( array('nodeName1'=>$nodeName1),false);
+    addError( array('nodeName2'=>$nodeName2),false);
+
+    addError( array('node1'=>$node1),false);
+    addError( array('node2'=>$node2),false);
 
     //$nodeID = $module->actionParameter( 'NodeID' );
-	$nodeID = $node1;
+    $nodeID = $node1;
     $node = eZContentObjectTreeNode::fetch( $nodeID );
 
     if ( !$node )
@@ -62,7 +61,7 @@ function swapNodes( $nodeName1, $nodeName2 )
 
     if ( !$node->canSwap() )
     {
-		addError( "Cannot swap node $nodeID (no edit permission)",true);
+        addError( "Cannot swap node $nodeID (no edit permission)",true);
     }
 
     $nodeParentNodeID = & $node->attribute( 'parent_node_id' );
@@ -70,17 +69,17 @@ function swapNodes( $nodeName1, $nodeName2 )
     $object =& $node->object();
     if ( !$object )
         addError( "ingen object mottat!",true);
-    
-	$objectID = $object->attribute( 'id' );
+
+    $objectID = $object->attribute( 'id' );
     $objectVersion = $object->attribute( 'current_version' );
     $class =& $object->contentClass();
     $classID = $class->attribute( 'id' );
 
-        //$selectedNodeID = $module->actionParameter( 'NewNode' );
-		$selectedNodeID = $node2;
+    //$selectedNodeID = $module->actionParameter( 'NewNode' );
+    $selectedNodeID = $node2;
 
     $selectedNode = eZContentObjectTreeNode::fetch( $selectedNodeID );
-	
+
     if ( !$selectedNode )
     {
         addError( "Content node with ID $selectedNodeID does not exist, cannot use that as exchanging node for node $nodeID",true);
@@ -179,61 +178,61 @@ function swapNodes( $nodeName1, $nodeName2 )
 }
 
 /*
-	returns nodeId
-	parameter: $nodeNameParam = name of node
-	option: $contentClassIdParam = use if you know what class the nodeobject is based on
+    returns nodeId
+    parameter: $nodeNameParam = name of node
+    option: $contentClassIdParam = use if you know what class the nodeobject is based on
 */
 function getNodeIdByName( $nodeNameParam, $contentClassIdParam = false )
 {
-	//TODO: this code was copied from another function, and may need some rewrite to make sense to a developer
-	//init vars
-	$returnVar = false;
-	
-	//build up the conditions
-	$conditions = array( 'name' => $nodeNameParam );
-	
-	if ( $contentClassIdParam )
-		array_merge( $conditions, array( 'contentclass_id' => $contentClassIdParam ) );
-	
-	addError( array("conditions"=>$conditions), false);
-	//fetch the treenode to move
-	$moveTheseContentObjects = eZContentObject::fetchList( true, $conditions, 0, 1 );
-	addError( array("movethesecontentobjects"=>$moveTheseContentObjects), false);
-	$returnVar = $moveTheseContentObjects[0]->mainNodeID();
+    //TODO: this code was copied from another function, and may need some rewrite to make sense to a developer
+    //init vars
+    $returnVar = false;
 
-	return $returnVar;
+    //build up the conditions
+    $conditions = array( 'name' => $nodeNameParam );
+
+    if ( $contentClassIdParam )
+        array_merge( $conditions, array( 'contentclass_id' => $contentClassIdParam ) );
+
+    addError( array("conditions"=>$conditions), false);
+    //fetch the treenode to move
+    $moveTheseContentObjects = eZContentObject::fetchList( true, $conditions, 0, 1 );
+    addError( array("movethesecontentobjects"=>$moveTheseContentObjects), false);
+    $returnVar = $moveTheseContentObjects[0]->mainNodeID();
+
+    return $returnVar;
 }
 
 
 /*
-	returns nothing. removes contentobject.
-	parameter: $contentObjectNameParam = name of contentobject to remove
-	option: $contentClassIdParam = use if you know what class the nodeobject is based on
+    returns nothing. removes contentobject.
+    parameter: $contentObjectNameParam = name of contentobject to remove
+    option: $contentClassIdParam = use if you know what class the nodeobject is based on
 */
 function doRemoveContentObject( $contentObjectNameParam, $contentClassId = false )
 {
-	$contentObjectNodeId = getNodeIdByName( $contentObjectNameParam, $contentClassId );
-	$contentObject =& eZContentObject::fetchByNodeID( $contentObjectNodeId );
-	$contentObject->purge();
+    $contentObjectNodeId = getNodeIdByName( $contentObjectNameParam, $contentClassId );
+    $contentObject =& eZContentObject::fetchByNodeID( $contentObjectNodeId );
+    $contentObject->purge();
 
-	return true;
+    return true;
 }
 
 
 function moveTreeNode( $treeNodeNameParam, $parentNodeNameParam )
 {
-	//fetch the treenode to move
-	$conditions = array('contentclass_id' => 1, 'name' => $treeNodeNameParam );
-	$moveTheseContentObjects = eZContentObject::fetchList( true, $conditions, 0, 1 );
-	$moveThisContentObjectMainNodeId = $moveTheseContentObjects[0]->mainNodeID();
-	
-	//fetch the treenode to move to
-	$conditions = array('contentclass_id' => 1, 'name' => $parentNodeNameParam );
-	$moveToHereContentObjects = eZContentObject::fetchList( true, $conditions, 0, 1 );
-	$moveToHereContentObjectMainNodeId = $moveToHereContentObjects[0]->mainNodeID();
-	
-	$result = eZContentObjectTreeNodeOperations::move( $moveThisContentObjectMainNodeId, $moveToHereContentObjectMainNodeId );
-	return $result;
+    //fetch the treenode to move
+    $conditions = array('contentclass_id' => 1, 'name' => $treeNodeNameParam );
+    $moveTheseContentObjects = eZContentObject::fetchList( true, $conditions, 0, 1 );
+    $moveThisContentObjectMainNodeId = $moveTheseContentObjects[0]->mainNodeID();
+
+    //fetch the treenode to move to
+    $conditions = array('contentclass_id' => 1, 'name' => $parentNodeNameParam );
+    $moveToHereContentObjects = eZContentObject::fetchList( true, $conditions, 0, 1 );
+    $moveToHereContentObjectMainNodeId = $moveToHereContentObjects[0]->mainNodeID();
+
+    $result = eZContentObjectTreeNodeOperations::move( $moveThisContentObjectMainNodeId, $moveToHereContentObjectMainNodeId );
+    return $result;
 }
 
 

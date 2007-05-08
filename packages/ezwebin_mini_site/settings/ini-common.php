@@ -35,33 +35,33 @@
 
 function eZSiteCommonINISettings( $parameters )
 {
-  $settings = array();
-  $settings[] = eZCommonSiteINISettings( $parameters );
-	$settings[] = eZCommonContentINISettings( $parameters );
-	$settings[] = eZCommonMenuINISettings( $parameters );
-	$settings[] = eZCommonViewCacheINISettings( $parameters );
-	$settings[] = eZCommonForumINISettings( $parameters );
+    $settings = array();
+    $settings[] = eZCommonSiteINISettings( $parameters );
+    $settings[] = eZCommonContentINISettings( $parameters );
+    $settings[] = eZCommonMenuINISettings( $parameters );
+    $settings[] = eZCommonViewCacheINISettings( $parameters );
+    $settings[] = eZCommonForumINISettings( $parameters );
     return $settings;
 }
 
 function eZCommonSiteINISettings( $parameters )
 {
-	//setup vars
-	$settings = array();
-	$setupData = loadSetupData( $parameters );
+    //setup vars
+    $settings = array();
+    $setupData = loadSetupData( $parameters );
 
-	//set settings	ps: array_merge only accepts array parameters in PHP 5
-	$settings['SiteAccessSettings'] = array( 'AvailableSiteAccessList' => $setupData['allSiteaccesses'] );
+    //set settings  ps: array_merge only accepts array parameters in PHP 5
+    $settings['SiteAccessSettings'] = array( 'AvailableSiteAccessList' => $setupData['allSiteaccesses'] );
 
-	$settings['SiteSettings'] = array( 'SiteList' => $setupData['allSiteaccesses'],
-									   'DefaultAccess' => $setupData['primaryLanguage'],
-									   'RootNodeDepth' => 1 );
+    $settings['SiteSettings'] = array( 'SiteList' => $setupData['allSiteaccesses'],
+                                       'DefaultAccess' => $setupData['primaryLanguage'],
+                                       'RootNodeDepth' => 1 );
 
-  $settings['ExtensionSettings'] = array( 'ActiveExtensions' => $setupData['extensionsToActivate'] );
-	$settings['UserSettings'] = array( 'LogoutRedirect' => '/' );
-	$settings['EmbedViewModeSettings'] = array( 'AvailableViewModes' => array(	'embed',
-																				'embed-inline'),
-												'InlineViewModes' => array ( 'embed-inline') );
+    $settings['ExtensionSettings'] = array( 'ActiveExtensions' => $setupData['extensionsToActivate'] );
+    $settings['UserSettings'] = array( 'LogoutRedirect' => '/' );
+    $settings['EmbedViewModeSettings'] = array( 'AvailableViewModes' => array( 'embed',
+                                                                               'embed-inline'),
+                                                'InlineViewModes' => array ( 'embed-inline') );
 
     return array( 'name' => 'site.ini',
                   'settings' => $settings );
@@ -70,50 +70,48 @@ function eZCommonSiteINISettings( $parameters )
 
 function eZCommonMenuINISettings( $parameters )
 {
-	//setup vars
-	$settings = array();
+    //setup vars
+    $settings = array();
 
-	//comment out the line below in order to unlock all menus in ministration interface
-	//$settings['TopAdminMenu'] = array( 'Tabs' => array( 'content', 'media', 'shop', 'my_account') );
-
-
+    //comment out the line below in order to unlock all menus in ministration interface
+    //$settings['TopAdminMenu'] = array( 'Tabs' => array( 'content', 'media', 'shop', 'my_account') );
     return array( 'name' => 'menu.ini',
-				  'reset_arrays' => true,
+                  'reset_arrays' => true,
                   'settings' => $settings );
 }
 
 
 function eZCommonContentINISettings( $parameters )
 {
-	$settings = array( 'object' => array( 'AvailableClasses' => array( 	'0' => 'itemized_sub_items',
-																		'1' => 'itemized_subtree_items',
-																		'2' => 'highlighted_object',
-																		'3' => 'vertically_listed_sub_items',
-																		'4' => 'horizontally_listed_sub_items' ),
-										  'ClassDescription' => array(   'itemized_sub_items' => 'Itemized Sub Items',
-																		'itemized_subtree_items' => 'Itemized Subtree Items',
-																		'highlighted_object' => 'Highlighted Object',
-																		'vertically_listed_sub_items' => 'Vertically Listed Sub Items',
-																		'horizontally_listed_sub_items' => 'Horizontally Listed Sub Items' ),
-								          'CustomAttributes' => array( '0' => 'offset',
-								                                      '1' => 'limit' ),
-								          'CustomAttributesDefaults' => array( 'offset' => '0',
-								                                               'limit' => '5' ) ),
-					   'embed'=> array( 'AvailableClasses' => array( '0' => 'itemized_sub_items',
-																		   '1' => 'itemized_subtree_items',
-																		   '2' => 'highlighted_object',
-																		   '3' => 'vertically_listed_sub_items',
-																		   '4' => 'horizontally_listed_sub_items' ),
-										'ClassDescription' => array( 'itemized_sub_items' => 'Itemized Sub Items',
-																    'itemized_subtree_items' => 'Itemized Subtree Items',
-																    'highlighted_object' => 'Highlighted Object',
-																    'vertically_listed_sub_items' => 'Vertically Listed Sub Items',
-																    'horizontally_listed_sub_items' => 'Horizontally Listed Sub Items' ),
-							            'CustomAttributes' => array( '0' => 'offset',
-								                                     '1' => 'limit' ),
-								        'CustomAttributesDefaults' => array( 'offset' => '0',
-								                                             'limit' => '5' ) ),
-					   'table'=>
+    $settings = array( 'object' => array( 'AvailableClasses' => array( '0' => 'itemized_sub_items',
+                                                                       '1' => 'itemized_subtree_items',
+                                                                       '2' => 'highlighted_object',
+                                                                       '3' => 'vertically_listed_sub_items',
+                                                                       '4' => 'horizontally_listed_sub_items' ),
+                                          'ClassDescription' => array( 'itemized_sub_items' => 'Itemized Sub Items',
+                                                                       'itemized_subtree_items' => 'Itemized Subtree Items',
+                                                                       'highlighted_object' => 'Highlighted Object',
+                                                                       'vertically_listed_sub_items' => 'Vertically Listed Sub Items',
+                                                                       'horizontally_listed_sub_items' => 'Horizontally Listed Sub Items' ),
+                                          'CustomAttributes' => array( '0' => 'offset',
+                                                                       '1' => 'limit' ),
+                                          'CustomAttributesDefaults' => array( 'offset' => '0',
+                                                                               'limit' => '5' ) ),
+                       'embed'=> array( 'AvailableClasses' => array( '0' => 'itemized_sub_items',
+                                                                     '1' => 'itemized_subtree_items',
+                                                                     '2' => 'highlighted_object',
+                                                                     '3' => 'vertically_listed_sub_items',
+                                                                     '4' => 'horizontally_listed_sub_items' ),
+                                        'ClassDescription' => array( 'itemized_sub_items' => 'Itemized Sub Items',
+                                                                     'itemized_subtree_items' => 'Itemized Subtree Items',
+                                                                     'highlighted_object' => 'Highlighted Object',
+                                                                     'vertically_listed_sub_items' => 'Vertically Listed Sub Items',
+                                                                     'horizontally_listed_sub_items' => 'Horizontally Listed Sub Items' ),
+                                        'CustomAttributes' => array( '0' => 'offset',
+                                                                     '1' => 'limit' ),
+                                        'CustomAttributesDefaults' => array( 'offset' => '0',
+                                                                             'limit' => '5' ) ),
+                       'table'=>
 array(
 'AvailableClasses'=>
 array(
@@ -166,7 +164,7 @@ array(
 )
 );//end root paranthesis
 
-	return array( 'name' => 'content.ini',
+    return array( 'name' => 'content.ini',
                   'settings' => $settings );
 }//end function
 
@@ -178,13 +176,13 @@ array(
 'SmartCacheClear'=>'enabled'
 ),
 'forum_reply' => array( 'DependentClassIdentifier' => array( 'forum_topic', 'forum' ),
-						'ClearCacheMethod' => array( '0' => 'object', '1' => 'parent', '2' => 'relating', '3' => 'siblings') ),
+                        'ClearCacheMethod' => array( '0' => 'object', '1' => 'parent', '2' => 'relating', '3' => 'siblings') ),
 
 'forum_topic' => array( 'DependentClassIdentifier' => array( 'forum' ),
-						'ClearCacheMethod' => array( '0' => 'object', '1' => 'parent', '2' => 'relating', '3' => 'siblings') ),
+                        'ClearCacheMethod' => array( '0' => 'object', '1' => 'parent', '2' => 'relating', '3' => 'siblings') ),
 
 'folder'=> array( 'DependentClassIdentifier'=> array( '0'=>'folder' ),
-				  'ClearCacheMethod'=> array( '0'=>'object', '1'=>'parent', '2'=>'relating' ) ),
+                  'ClearCacheMethod'=> array( '0'=>'object', '1'=>'parent', '2'=>'relating' ) ),
 'gallery'=>
 array(
 'DependentClassIdentifier'=>
@@ -299,14 +297,14 @@ array(
 
 function eZCommonForumINISettings( $parameters )
 {
-	//setup vars
-	$settings = array();
+    //setup vars
+    $settings = array();
 
-	$settings['ForumSettings'] = array( 'StickyUserGroupArray' => array( 12 ) );
+    $settings['ForumSettings'] = array( 'StickyUserGroupArray' => array( 12 ) );
 
-	return array( 'name' => 'forum.ini',
-							  'reset_arrays' => false,
-                'settings' => $settings );
+    return array( 'name' => 'forum.ini',
+                  'reset_arrays' => false,
+                  'settings' => $settings );
 }//end function
 
 

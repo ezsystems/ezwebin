@@ -36,21 +36,21 @@ class eZKeywordList
             case 'ezkeywordlist':
             {
                 include_once( 'lib/ezdb/classes/ezdb.php' );
-			    $db =& eZDB::instance();
+                $db =& eZDB::instance();
 
-				$rs = $db->arrayQuery( "SELECT DISTINCT ezkeyword.keyword
-											FROM ezkeyword_attribute_link, 
-												 ezkeyword, 
-												 ezcontentobject_attribute, 
-												 ezcontentobject_tree, 
-												 ezcontentclass
-											WHERE ezkeyword.id = ezkeyword_attribute_link.keyword_id
-												AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
-												AND ezcontentobject_tree.contentobject_id = ezcontentobject_attribute.contentobject_id
-												AND ezkeyword.class_id = ezcontentclass.id
-												AND ezcontentobject_tree.parent_node_id = " . (int)$parentNodeID . "
-												AND ezcontentclass.identifier = '" . $classIdentifier . "' 
-											ORDER BY ezkeyword.keyword ASC" );
+                $rs = $db->arrayQuery( "SELECT DISTINCT ezkeyword.keyword
+                                            FROM ezkeyword_attribute_link,
+                                                 ezkeyword,
+                                                 ezcontentobject_attribute,
+                                                 ezcontentobject_tree,
+                                                 ezcontentclass
+                                            WHERE ezkeyword.id = ezkeyword_attribute_link.keyword_id
+                                                AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
+                                                AND ezcontentobject_tree.contentobject_id = ezcontentobject_attribute.contentobject_id
+                                                AND ezkeyword.class_id = ezcontentclass.id
+                                                AND ezcontentobject_tree.parent_node_id = " . (int)$parentNodeID . "
+                                                AND ezcontentclass.identifier = '" . $classIdentifier . "'
+                                            ORDER BY ezkeyword.keyword ASC" );
                 $operatorValue = $rs;
             } break;
         }

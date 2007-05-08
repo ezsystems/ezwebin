@@ -37,7 +37,7 @@ function eZSiteINISettings( $parameters )
 {
     $parameters = array_merge( $parameters,
                                array( 'is_admin' => false ) );
-	$setupData = loadSetupData( $parameters );
+    $setupData = loadSetupData( $parameters );
 
     $settings = array();
     $settings[] = eZSiteMenuINISettings();
@@ -46,31 +46,31 @@ function eZSiteINISettings( $parameters )
     $settings[] = eZSiteSiteINISettings( $setupData );
     $settings[] = eZSiteImageINISettings();
     $settings[] = eZSiteContentINISettings( $parameters );
-	$settings[] = eZSiteDesignINISettings( $parameters );
-	$settings[] = eZSiteBrowseINISettings( $parameters );
-	$settings[] = eZSiteTemplateINISettings( $parameters );
+    $settings[] = eZSiteDesignINISettings( $parameters );
+    $settings[] = eZSiteBrowseINISettings( $parameters );
+    $settings[] = eZSiteTemplateINISettings( $parameters );
     //$settings[] = eZSiteIconINISettings( $parameters );
 
-	$settings[] = eZSiteContentStructureMenuINISettings();
+    $settings[] = eZSiteContentStructureMenuINISettings();
 
     return $settings;
 }
 
 function eZSiteSiteINISettings( $setupData )
 {
-  $settings = array();
+    $settings = array();
 
-	$settings['RegionalSettings'] = array( 'ShowUntranslatedObjects' => 'disabled' );
+    $settings['RegionalSettings'] = array( 'ShowUntranslatedObjects' => 'disabled' );
 
-	$settings['SiteAccessSettings'] = array( 'RequireUserLogin' => 'false',
-											 										 'ShowHiddenNodes' => 'false' );
+    $settings['SiteAccessSettings'] = array( 'RequireUserLogin' => 'false',
+                                             'ShowHiddenNodes' => 'false' );
 
-	$settings['SiteSettings'] = array( 'LoginPage' => 'embedded',
-                                     'AdditionalLoginFormActionURL' => $setupData['siteaccessURLs']['admin_url'] . '/user/login' );
+    $settings['SiteSettings'] = array( 'LoginPage' => 'embedded',
+                                       'AdditionalLoginFormActionURL' => $setupData['siteaccessURLs']['admin_url'] . '/user/login' );
 
-	$settings['DesignSettings'] = array( 'SiteDesign' => $setupData['mainSiteDesign'] );
+    $settings['DesignSettings'] = array( 'SiteDesign' => $setupData['mainSiteDesign'] );
 
-	$settings['Session'] = array( 'SessionNamePerSiteAccess' => 'disabled' );
+    $settings['Session'] = array( 'SessionNamePerSiteAccess' => 'disabled' );
 
     return array( 'name' => 'site.ini',
                   'settings' => $settings );
@@ -83,12 +83,12 @@ function eZSiteDesignINISettings()
         'name' => 'design.ini',
         'reset_arrays' => false,
         'settings' => array(
-							'JavaScriptSettings' => array(
-												'JavaScriptList' => array(
-																		'insertmedia.js' )
-														 )
-							)
-					   );
+            'JavaScriptSettings' => array(
+                'JavaScriptList' => array(
+                    'insertmedia.js' )
+                )
+            )
+        );
     return $settings;
 }
 
@@ -98,15 +98,16 @@ function eZSiteContentStructureMenuINISettings()
         'name' => 'contentstructuremenu.ini',
         'reset_arrays' => true,
         'settings' => array(
-							'TreeMenu' => array(
-												'ShowClasses' => array(
-																		'folder',
-																		'documentation_page',
-																		'frontpage',
-																		'forums'
-																		),
-												'ToolTips' => 'disabled'
-																		) )
+            'TreeMenu' => array(
+                'ShowClasses' => array(
+                    'folder',
+                    'documentation_page',
+                    'frontpage',
+                    'forums'
+                    ),
+                'ToolTips' => 'disabled'
+                )
+            )
         );
     return $contentStructureMenu;
 }
@@ -1173,9 +1174,9 @@ function eZSiteToolbarINISettings( $parameters )
 function eZSiteImageINISettings()
 {
     $settings = array( 'name' => 'image.ini',
-                    'reset_arrays' => true,
-                    'settings' => array(
-					'AliasSettings'=>
+                       'reset_arrays' => true,
+                       'settings' => array(
+                           'AliasSettings'=>
 array(
 'AliasList'=>
 array(
