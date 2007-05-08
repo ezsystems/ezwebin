@@ -1020,6 +1020,396 @@ class eZWebinInstaller
         $object->rename( $newName );
     }
 
+    /*!
+     NOTE: this is a copy/paste from "addobjectattributes.php".
+           should be rewritten to use 'eZWebinInstaller::addClassAttribute'
+    */
+    function updateContentClass( $classUpdateInfo )
+    {
+        /* INIT VARS */
+
+        $classIdentifier = $classUpdateInfo['identifier'];
+        $attributesDifinition = $classUpdateInfo['attributes'];
+
+        //contentclass vars
+        $class = false;
+        $classID = 0;
+
+        //for attributes
+        $currentAttributesArray = false;
+        $attributeObject = false;
+        $newAttributeObjectArr = array();
+        $newAttributeIDArray = array();
+
+        //get the class
+        $class = eZContentClass::fetchByIdentifier( $classIdentifier, true, EZ_CLASS_VERSION_STATUS_TEMPORARY );
+
+        if ( !$class )
+        {
+            $this->reportError( "Notice: TEMPORARY version for class id $classIdentifier does not exist." ,
+                                'eZWebinInstaller::updateContentClass', EZWEBIN_INSTALLER_ERR_CONTINUE );
+
+            $class = eZContentClass::fetchByIdentifier( $classIdentifier, true, EZ_CLASS_VERSION_STATUS_DEFINED );
+
+            if ( !$class )
+            {
+                $this->reportError( "Fatal error, DEFINED version for class id $classIdentifier does not exist." ,
+                                    'eZWebinInstaller::updateContentClass' );
+                return false;
+            }
+        }
+
+        //get the class ID
+        $classID = $class->attribute( 'id' );
+
+
+        foreach ( $attributesDifinition as $newAttribute )
+        {
+            $attributeObject = eZContentClassAttribute::create( $classID,
+                                                                $newAttribute["data_type_string"],
+                                                                $newAttribute );
+
+            if ( $newAttribute["data_type_string"] == "ezmatrix" )
+            {
+                $attributeObject->setContent( $newAttribute["content"] );
+            }
+            $attributeObject->store();
+
+            $newAttributeObjectArr[] = $attributeObject->clone();
+
+            $newAttributeIDArray[] = $attributeObject->attribute( 'id' );
+        }
+
+        //add attributes to class
+        $currentAttributeObjectArray = false;
+        $currentAttributeObjectArray = $class->fetchAttributes();
+
+        //merge arrays with existing and new attributes
+        $attributeObjectsToBeStored = array();
+        $attributeObjectsToBeStored = array_merge( $currentAttributeObjectArray, $newAttributeObjectArr );
+
+        //store attribute array
+        if ( $class->attribute( 'version' ) == EZ_CLASS_VERSION_STATUS_DEFINED )
+        {
+            // if class was not temporary, copy class-group assignments as TEMPORARY
+            // because DEFINED will be removed by storeDefined() method
+            $classGroups = $class->fetchGroupList();
+            foreach ( $classGroups as $classGroup )
+            {
+                $groupID = $classGroup->attribute( 'group_id' );
+                $groupName = $classGroup->attribute( 'group_name' );
+                $ingroup = eZContentClassClassGroup::create( $classID, EZ_CLASS_VERSION_STATUS_TEMPORARY, $groupID, $groupName );
+                $ingroup->store();
+            }
+        }
+        $class->storeDefined( $attributeObjectsToBeStored );
+
+        $diff = eZWebinInstaller::getAttributeIdDiff( $currentAttributeObjectArray, $attributeObjectsToBeStored );
+
+        $db =& eZDB::instance();
+        foreach ( $diff as $id )
+        {
+            $queryResult = $db->query( "UPDATE ezcontentclass_attribute SET version=0 WHERE id=".$id );
+            if ( !$queryResult )
+            {
+                $this->reportError( "sqlupdate failed: $queryResult" ,
+                                    'eZWebinInstaller::updateContentClass' );
+                return false;
+            }
+        }
+
+        return $diff;
+    }
+
+    /*!
+     provide an array of attribute Id's that was added
+     NOTE: this is a copy/paste from "addobjectattributes.php".
+    */
+    function getAttributeIdDiff( $arr1, $arr2 )
+    {
+        $before = array();
+        foreach ( $arr1 as $object )
+        {
+            $before[] = $object->attribute('id');
+        }
+
+        $after = array();
+        foreach ( $arr2 as $object )
+        {
+            $after[] = $object->attribute('id');
+        }
+
+        $diff = array_diff( $after, $before );
+
+        return $diff;
+    }
+
+    /*!
+     update the specified contentobject with all versions and translations with the changes in the attributes in the contentclass
+     NOTE: this is a copy/paste from "addobjectattributes.php".
+    */
+    function updateObject( $classIdentifierParam = false, $newAttributeIdArrParam = false )
+    {
+        if ( !$classIdentifierParam )
+        {
+            $this->reportError( "error:function paramater classIdentiferParam invalid",
+                                'eZWebinInstaller::updateObject' );
+            return false;
+        }
+
+        if ( !$newAttributeIdArrParam )
+        {
+            $this->reportError( "error:function paramater newAttributeIdArrParam invalid!",
+                                'eZWebinInstaller::updateObject' );
+            return false;
+        }
+
+        /* INIT VARS */
+        $newAttributeIdArr = $newAttributeIdArrParam;
+        $class = false;
+
+        //get the class
+        $class = eZContentClass::fetchByIdentifier( $classIdentifierParam, true, EZ_CLASS_VERSION_STATUS_TEMPORARY );
+        if ( !$class )
+        {
+            $this->reportError( "Notice: TEMPORARY version for class id $classIdentifierParam does not exist",
+                                'eZWebinInstaller::updateObject', EZWEBIN_INSTALLER_ERR_CONTINUE );
+
+            $class = eZContentClass::fetchByIdentifier( $classIdentifierParam, true, EZ_CLASS_VERSION_STATUS_DEFINED );
+            if ( !$class )
+            {
+                $this->reportError( "Fatal error, DEFINED version for class id $classIdentifierParam does not exist",
+                                    'eZWebinInstaller::updateObject');
+                return false;
+            }
+        }
+
+        //get the class ID
+        $classId = $class->attribute( 'id' );
+
+        $objectLimit = 1000;
+        $objectOffset = 0;
+
+        $conditions = array( 'contentclass_id' => $classId );
+
+        $totalObjectCount = eZContentObject::fetchListCount( $conditions );
+
+        $objects = eZContentObject::fetchList( true, $conditions, $objectOffset, $objectLimit );
+
+
+        $totalObjectMod = intVal( $totalObjectCount / 1000 );
+
+        $newAttributeId = $newAttributeIdArr;
+
+        while ( count( $objects ) > 0 )
+        {
+            // add new attributes for all versions and translations of all objects
+            foreach ( $objects as $object )
+            {
+                $contentobjectID =& $object->attribute( 'id' );
+                $objectVersions =& $object->versions();
+
+
+                foreach ( $objectVersions as $objectVersion )
+                {
+                    $translations =& $objectVersion->translations( false );
+                    $version =& $objectVersion->attribute( 'version' );
+                    foreach ( $translations as $translation )
+                    {
+                        $objectAttribute = eZContentObjectAttribute::create( $newAttributeId, $contentobjectID, $version );
+
+                        $objectAttribute->setAttribute( 'language_code', $translation );
+
+                        //initialize attribute value
+                        $objectAttribute->initialize();
+
+                        $objectAttribute->store();
+                        unset( $objectAttribute );
+                    }
+                    unset( $version );
+                }
+
+                unset( $contentobjectID );
+                unset( $objectVersions );
+                unset( $translation );
+            }
+
+            unset( $objects );
+            $objectOffset += $objectLimit;
+            $objects = eZContentObject::fetchList( true, $conditions, $objectOffset, $objectLimit );
+        }
+
+        return true;
+    }
+
+    /*!
+      NOTE: NOTE: this is a copy/paste from "addobjectattributes.php::addData".
+    */
+    function addContentObjectData( $contentObjectIdParam = false, $dataArrParam = false )
+    {
+        //check parameter 1
+        if ( !$contentObjectIdParam )
+        {
+            $this->reportError( "error:function parameter classIdentiferParam invalid",
+                                'eZWebinInstaller::addContentObjectData' );
+            return false;
+        }
+        else
+        {
+            $myContentObject = eZContentObject::fetch( $contentObjectIdParam );
+            if ( !$myContentObject )
+            {
+                $this->reportError( "Fatal error! could not fetch contentObject based on $contentObjectIdParam!",
+                                    'eZWebinInstaller::addContentObjectData' );
+                return false;
+            }
+        }
+
+        //check parameter 2
+        if ( !$dataArrParam )
+        {
+            $this->reportError( "error:function parameter dataArrParam invalid!",
+                                'eZWebinInstaller::addContentObjectData' );
+            return false;
+        }
+        else
+        {
+            $dataArr = $dataArrParam;
+        }
+
+        //get datamap
+        $myContentObjectDataMap =& $myContentObject->dataMap();
+
+        foreach ( $dataArr as $index => $value )
+        {
+            $myContentObjectAttribute =& $myContentObjectDataMap[ $index ];
+            if ( !$myContentObjectAttribute )
+            {
+                $this->reportError( "Notice: could not acquire myContentObjectAttribute with index $index.",
+                                    'eZWebinInstaller::updateObject', EZWEBIN_INSTALLER_ERR_CONTINUE );
+                continue;
+            }
+
+            //get datatype name
+            $myDataTypeString = $myContentObjectAttribute->attribute( 'data_type_string' );
+
+            switch ( $myDataTypeString )
+            {
+                case 'ezstring':
+                {
+                    $myContentObjectAttribute->setAttribute( "data_text", $value['DataText']);
+                } break;
+
+                case 'ezxmltext':
+                {
+                    $xml = '<?xml version="1.0" encoding="utf-8"?>'."\n".
+                           '<section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"'."\n".
+                           '         xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"'."\n".
+                           '         xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">'."\n".
+                           '  <section>'."\n";
+                    {
+                        $xml .= '    <paragraph>';
+                        $numSentences = mt_rand( ( int ) $attributeParameters['min_sentences'], ( int ) $attributeParameters['max_sentences'] );
+                        for ( $sentence = 0; $sentence < $numSentences; $sentence++ )
+                        {
+                            if ( $sentence != 0 )
+                            {
+                                $xml .= ' ';
+                            }
+                            $xml .= eZLoremIpsum::generateSentence();
+                        }
+                        $xml .= "</paragraph>\n";
+                    }
+                    $xml .= "  </section>\n</section>\n";
+
+                    $myContentObjectAttribute->setAttribute( 'data_text', $xml );
+                } break;
+
+                case 'eztext':
+                {
+                    $myContentObjectAttribute->setAttribute( 'data_text', $value['DataText'] );
+                } break;
+
+                case 'ezmatrix':
+                {
+                    $columnsCount = count( $value["MatrixDefinition"]->attribute( 'columns' ) );
+                    if ( $columnsCount > 0 )
+                    {
+                        $rowsCount = count( $value["MatrixCells"] ) / $columnsCount;
+
+                        $tempMatrix = new eZMatrix( $value["MatrixTitle"], $rowsCount, $value["MatrixDefinition"] );
+                        $tempMatrix->Cells = $value["MatrixCells"];
+
+                        $myContentObjectAttribute->setAttribute( 'data_text', $tempMatrix->xmlString() );
+                        $tempMatrix->decodeXML( $myContentObjectAttribute->attribute( 'data_text' ) );
+
+                        $myContentObjectAttribute->setContent( $tempMatrix );
+                    }
+                    else
+                    {
+                        $this->reportError( "Notice: ezmatrix' - number of columns should be greater then zero",
+                                            'eZWebinInstaller::updateObject', EZWEBIN_INSTALLER_ERR_CONTINUE );
+                    }
+
+                } break;
+
+                case 'ezboolean':
+                {
+                    $myContentObjectAttribute->setAttribute( 'data_int', $value['DataInt'] );
+                } break;
+
+                case 'ezinteger':
+                {
+                    $myContentObjectAttribute->setAttribute( 'data_int', $value['DataInt'] );
+                } break;
+
+                case 'ezfloat':
+                {
+                    $power = 100;
+                    $float = mt_rand( $power * ( int ) $attributeParameters['min'], $power * ( int ) $attributeParameters['max'] );
+                    $float = $float / $power;
+                    $myContentObjectAttribute->setAttribute( 'data_float', $float );
+                } break;
+
+                case 'ezprice':
+                {
+                    $power = 10;
+                    $price = mt_rand( $power * ( int ) $attributeParameters['min'], $power * ( int ) $attributeParameters['max'] );
+                    $price = $price / $power;
+                    $myContentObjectAttribute->setAttribute( 'data_float', $price );
+                } break;
+
+                case 'ezurl':
+                {
+                    $myContentObjectAttribute->setContent( $value['Content'] );
+                    $myContentObjectAttribute->setAttribute( "data_text", $value['DataText']);
+                    //addError( array("setting ezurl values..." => array( $value['Content'], $value['DataText'] ) ), false);
+                } break;
+
+                case 'ezuser':
+                {
+                    $user =& $attribute->content();
+                    if ( $user === null )
+                    {
+                        $user = eZUser::create( $objectID );
+                    }
+
+                    $user->setInformation( $objectID,
+                                           md5( mktime() . '-' . mt_rand() ),
+                                           md5( mktime() . '-' . mt_rand() ) . '@ez.no',
+                                           'publish',
+                                           'publish' );
+                    $user->store();
+                } break;
+            }
+            $myContentObjectAttribute->store();
+        }
+
+        $myContentObject->store();
+
+        return true;
+    }
+
     var $Settings;
     var $Steps;
     var $LastErrorCode;
