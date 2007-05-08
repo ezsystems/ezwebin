@@ -1183,7 +1183,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     <message>
         <location filename="" line="136954932"/>
         <source>Tip a friend</source>
-        <translation>Einem Frend empfehlen</translation>
+        <translation>Einem Freund empfehlen</translation>
     </message>
     <message>
         <location filename="" line="136954932"/>
@@ -1518,7 +1518,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     <message>
         <location filename="" line="136954932"/>
         <source>Tip a friend</source>
-        <translation>Einem Frend empfehlen</translation>
+        <translation>Einem Freund empfehlen</translation>
     </message>
 </context>
 <context>
@@ -1526,7 +1526,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     <message>
         <location filename="" line="136954932"/>
         <source>Tip a friend</source>
-        <translation>Einem Frend empfehlen</translation>
+        <translation>Einem Freund empfehlen</translation>
     </message>
 </context>
 <context>
@@ -1534,7 +1534,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     <message>
         <location filename="" line="136954932"/>
         <source>Tip a friend</source>
-        <translation>Einem Frend empfehlen</translation>
+        <translation>Einem Freund empfehlen</translation>
     </message>
 </context>
 <context>
