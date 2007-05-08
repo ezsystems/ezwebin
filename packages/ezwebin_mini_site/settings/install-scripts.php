@@ -92,8 +92,8 @@ function eZSitePostInstall( &$parameters )
 
     if ( isset( $parameters['site_type'] ) )
     {
-        //$userSiteaccesses = $setupData['allUserSiteaccesses'];
-        $userSiteaccesses = getSiteaccessNames( getLocales() );
+        // get locales chosen by user in the setup-wizard to create list of user siteaccess
+        $userSiteaccesses = getSiteaccessNames( $parameters['all_language_codes'] );
 
         if ( $parameters['site_type']['access_type'] == 'port' )
         {
@@ -219,10 +219,12 @@ function loadSetupData( $parameters )
     $solutionExtensionName = "ezwebin";
     $solutionExtensionVersion = "1.0.0";
 
-    //get locales
-    $glob_setupData['locales'] = getLocales();
-    if ( count( $glob_setupData['locales'] ) < 1 ) addError("Error in 'install-scripts.php'. Variable 'locales' value is less than 1", true);
-    //$glob_setupData['primaryLocale'] = getPrimaryLocale();
+    // get locales chosen by user in the setup-wizard to create list of user siteaccess
+    $glob_setupData['locales'] = $parameters['all_language_codes'];
+
+    if ( count( $glob_setupData['locales'] ) < 1 )
+        addError("Error in 'install-scripts.php'. Variable 'locales' value is less than 1", true);
+
     $glob_setupData['primaryLocale'] = $glob_setupData['locales'][0];
     $glob_setupData['secondaryLocale'] = "eng-GB";
 
