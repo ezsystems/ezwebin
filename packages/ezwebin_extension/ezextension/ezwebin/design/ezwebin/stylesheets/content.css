@@ -1312,6 +1312,20 @@ div.content-view-line div.class-link div.controls
 	margin-bottom: 0.75em;
 }
 
+/* EDIT */
+
+div.content-edit div.attribute-header h1.long
+{
+    padding-bottom: 46px;
+}
+
+div.content-edit div.attribute-language
+{
+    margin-top: -43px;
+    margin-bottom: 20px;
+    padding-left: 2px;
+}
+
 /* EDIT - MULTIOPTION */
 
 div.block table.special
