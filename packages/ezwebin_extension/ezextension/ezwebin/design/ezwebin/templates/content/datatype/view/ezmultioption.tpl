@@ -1,27 +1,26 @@
-
 <div class="block">
 {$attribute.content.name}
 </div>
 
-{section var=Multioptions loop=$attribute.content.multioption_list sequence=array( bglight, bgdark )}
+{foreach  $attribute.content.multioption_list as $multioptions}
 <div class="block">
-<label>{$Multioptions.item.name}:</label>
+<label>{$multioptions.name}:</label>
 <select name="eZOption[{$attribute.id}][]">
-    {section var=Option loop=$Multioptions.item.optionlist}
-            {section show=ne( $Option.item.additional_price, '' )}
-                {section show=eq( sum( $Option.index, 1 ), $Multioptions.item.default_option_id )}
-                    <option value="{$Option.item.option_id}" selected="selected">{$Option.item.value}-{$Option.item.additional_price|l10n( currency )}</option>
-                {section-else}
-                    <option value="{$Option.item.option_id}">{$Option.item.value}-{$Option.item.additional_price|l10n( currency )}</option>
-                {/section}
-            {section-else}
-                {section show=eq(sum($Option.index,1), $Multioptions.item.default_option_id)}
-                    <option value="{$Option.item.option_id}" selected="selected">{$Option.item.value}</option>
-                {section-else}
-                    <option value="{$Option.item.option_id}">{$Option.item.value}</option>
-                {/section}
-            {/section}
-        {/section}
+    {foreach $multioptions.optionlist as $index => $option}
+            {if ne( $option.additional_price, '' )}
+                {if eq( sum( $index, 1 ), $multioptions.default_option_id )}
+                    <option value="{$option.option_id}" selected="selected">{$option.value}-{$option.additional_price|l10n( currency )}</option>
+                {else}
+                    <option value="{$option.option_id}">{$option.value}-{$option.additional_price|l10n( currency )}</option>
+                {/if}
+            {else}
+                {if eq( sum( $index, 1 ), $multioptions.default_option_id)}
+                    <option value="{$option.option_id}" selected="selected">{$option.value}</option>
+                {else}
+                    <option value="{$option.option_id}">{$option.value}</option>
+                {/if}
+            {/if}
+        {/foreach}
     </select>
 </div>
-{/section}
+{/foreach}

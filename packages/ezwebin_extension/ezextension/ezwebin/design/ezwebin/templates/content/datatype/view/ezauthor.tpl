@@ -1,3 +1,3 @@
-{section var=Authors loop=$attribute.content.author_list sequence=array( bglight, bgdark )}
-{$Authors.item.name|wash( xhtml )}{delimiter},&nbsp;{/delimiter}
-{/section}
+{foreach $attribute.content.author_list as $author}
+{$author.name|wash( xhtml )}{delimiter},&nbsp;{/delimiter}
+{/foreach}
