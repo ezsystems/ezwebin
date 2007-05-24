@@ -8,7 +8,7 @@
                 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
                 <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
-                        <div class="content-view-line">
+                        <div class="content-view-full">
                             <div class="class-blog-post float-break">
 
                                 <div class="attribute-header">
@@ -18,7 +18,7 @@
                                 <div class="attribute-byline">
                                     <p class="date">{$node.data_map.publication_date.content.timestamp|l10n(shortdatetime)}</p>
                                     <p class="author">{$node.object.owner.name}</p>
-                                    <p class="tags"> {"Tags:"|i18n("design/ezwebin/full/blog_post")} 
+                                    <p class="tags"> {"Tags:"|i18n("design/ezwebin/full/blog_post")}
                                          {foreach $node.data_map.tags.content.keywords as $keyword}
                                              <a href={concat( $node.parent.url_alias, "/(id)/", $node.parent.node_id, "/(tag)/", $keyword|rawurlencode )|ezurl} title="{$keyword}">{$keyword}</a>
                                              {delimiter}
