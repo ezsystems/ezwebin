@@ -162,10 +162,6 @@
         <translation>Rechercher la phrase exacte</translation>
     </message>
     <message>
-        <source>Search with at least one of the words</source>
-        <translation>Rechercher au moins un des mots</translation>
-    </message>
-    <message>
         <source>Published</source>
         <translation>Publié</translation>
     </message>
@@ -225,12 +221,9 @@
         <source>Search for &quot;%1&quot; returned %2 matches</source>
         <translation>La recherche sur &amp;quot;%1&amp;quot; renvois %2 résultats</translation>
     </message>
-</context>
-<context>
-    <name>design/ezwebin/content/advancedsearchh</name>
     <message>
         <source>Last month</source>
-        <translation>Le mois dernier</translation>
+        <translation type="unfinished">Le mois dernier</translation>
     </message>
 </context>
 <context>
@@ -461,6 +454,14 @@ Vous pouvez éditez ces brouillons soit les supprimer si vous n&apos;en avez plu
         <source>Documentation</source>
         <translation>Documentation</translation>
     </message>
+    <message>
+        <source>Translating content from %from_lang to %to_lang</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content in %language</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_attribute</name>
@@ -641,10 +642,6 @@ Vous devriez soit contacter l&apos;auteur d&apos;un des brouillons en cours, soi
         <translation>Status</translation>
     </message>
     <message>
-        <source>Edited language</source>
-        <translation>Langue éditée</translation>
-    </message>
-    <message>
         <source>Creator</source>
         <translation>Créateur</translation>
     </message>
@@ -771,6 +768,10 @@ Vous devriez soit contacter l&apos;auteur d&apos;un des brouillons en cours, soi
     <message>
         <source>Back to history</source>
         <translation>Retourner à l&apos;historique</translation>
+    </message>
+    <message>
+        <source>Modified translation</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1002,6 +1003,98 @@ Les mots suivants ont été exclus de la recherche :</translation>
     <message>
         <source>Extensions</source>
         <translation>Extensions</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/ezodf/browse_place</name>
+    <message>
+        <source>Choose document placement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please choose the placement for the OpenOffice.org object.
+
+    Select the placements and click the %buttonname button.
+    Using the recent and bookmark items for quick placement is also possible.
+    Click on placement names to change the browse listing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="unfinished">Sélectionner</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/ezodf/export</name>
+    <message>
+        <source>OpenOffice.org export</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export eZ publish content to OpenOffice.org</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export Object</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/ezodf/import</name>
+    <message>
+        <source>Document is now imported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OpenOffice.org import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The object was imported as: %class_name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The images are placed in the media and can be re-used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import another document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upload file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import OpenOffice.org document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Replace document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
+asked where to place the document and eZ publish does the rest. The document is converted into
+the appropriate class during the import, you get a notice about this after the import is done.
+Images are placed in the media library so you can re-use them in other articles.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2178,6 +2271,45 @@ Les mots suivants ont été exclus de la recherche :</translation>
     </message>
 </context>
 <context>
+    <name>design/ezwebin/user/password</name>
+    <message>
+        <source>Change password for user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please retype your old password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password didn&apos;t match, please retype your new password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password successfully updated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Old password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Retype password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="unfinished">OK</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Annuler</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/user/register</name>
     <message>
         <source>Register user</source>
@@ -2228,6 +2360,17 @@ Les mots suivants ont été exclus de la recherche :</translation>
     <message>
         <source>The file could not be found.</source>
         <translation>Le fichier n&apos;a pas pu être trouvé.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/view/ezmedia</name>
+    <message>
+        <source>No %link_startFlash player%link_end avaliable!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No media file is available.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

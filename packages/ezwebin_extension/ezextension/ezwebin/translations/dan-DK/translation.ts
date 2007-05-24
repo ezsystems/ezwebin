@@ -86,10 +86,6 @@
         <translation>Tak for din tilbagemelding.</translation>
     </message>
     <message>
-        <source>You have already submitted data to this form. The previously submitted data was the following.</source>
-        <translation type="obsolete">Du har allerede sendt data fra denne formular. De sidste data du har sendt er følgende .</translation>
-    </message>
-    <message>
         <source>Return to site</source>
         <translation>Tilbage til hjemmeside</translation>
     </message>
@@ -166,10 +162,6 @@
         <translation>Søg efter eksakt frase</translation>
     </message>
     <message>
-        <source>Search with at least one of the words</source>
-        <translation>Søg med mindst et af ordene</translation>
-    </message>
-    <message>
         <source>Published</source>
         <translation>Publiceret</translation>
     </message>
@@ -229,12 +221,9 @@
         <source>Search for &quot;%1&quot; returned %2 matches</source>
         <translation>Søg efter &quot;%1&quot; gav %2 resultater</translation>
     </message>
-</context>
-<context>
-    <name>design/ezwebin/content/advancedsearchh</name>
     <message>
         <source>Last month</source>
-        <translation>Sidste måned</translation>
+        <translation type="unfinished">Sidste måned</translation>
     </message>
 </context>
 <context>
@@ -246,10 +235,6 @@
     <message>
         <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the &quot;Select&quot; button.</source>
         <translation>For at vælge et objekt, klik på den rette radioknappen eller afkrydsningsboksen, og klik &quot;Vælg&quot; knappen.</translation>
-    </message>
-    <message>
-        <source>To select an object that is a child of one of the displayed objects, click the object name and you will get a list of the children of the object.</source>
-        <translation type="obsolete">For at vælge et objekt som er barn af et af de viste objekter, klik på objektnavnet og du får en liste over børnene til objektet.</translation>
     </message>
     <message>
         <source>Back</source>
@@ -274,10 +259,6 @@
 </context>
 <context>
     <name>design/ezwebin/content/browse_mode_list</name>
-    <message>
-        <source>Invert selection.</source>
-        <translation type="obsolete">Omvendt valg.</translation>
-    </message>
     <message>
         <source>Name</source>
         <translation>Navn</translation>
@@ -385,10 +366,6 @@
         <translation>Mine udkast</translation>
     </message>
     <message>
-        <source>Empty Draft</source>
-        <translation type="obsolete">Tomt udkast</translation>
-    </message>
-    <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
         <translation>Dette er den ting du er i gang med at redigere. Udkastene ændret af dig og kan kun ses af dig.
@@ -446,24 +423,12 @@ Du kan redigere udkastene, eller fjerne dem hvis du ikke har behov for dem læng
         <translation>Gem og afslut</translation>
     </message>
     <message>
-        <source>Store the draft that is being edited and exit from edit mode.</source>
-        <translation type="obsolete">Gem udkast og afslut.</translation>
-    </message>
-    <message>
         <source>Preview</source>
         <translation>Vis udkast</translation>
     </message>
     <message>
-        <source>No translation</source>
-        <translation type="obsolete">Ingen oversættelse</translation>
-    </message>
-    <message>
         <source>Translate</source>
         <translation>Oversat</translation>
-    </message>
-    <message>
-        <source>Edit the current object showing the selected language as a reference.</source>
-        <translation type="obsolete">Redigér det nuværende objekt med valgt sprog som reference.</translation>
     </message>
     <message>
         <source>Edit %1 - %2</source>
@@ -478,10 +443,6 @@ Du kan redigere udkastene, eller fjerne dem hvis du ikke har behov for dem læng
         <translation>Gem udkast</translation>
     </message>
     <message>
-        <source>Discard</source>
-        <translation type="obsolete">Forkast</translation>
-    </message>
-    <message>
         <source>Discard draft</source>
         <translation>Kasseret udkast</translation>
     </message>
@@ -493,21 +454,17 @@ Du kan redigere udkastene, eller fjerne dem hvis du ikke har behov for dem læng
         <source>Documentation</source>
         <translation>Dokumentation</translation>
     </message>
+    <message>
+        <source>Translating content from %from_lang to %to_lang</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content in %language</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_attribute</name>
-    <message>
-        <source>not translatable</source>
-        <translation type="obsolete">kan ikke oversættes</translation>
-    </message>
-    <message>
-        <source>required</source>
-        <translation type="obsolete">påkrævet</translation>
-    </message>
-    <message>
-        <source>information collector</source>
-        <translation type="obsolete">informationsindsamling</translation>
-    </message>
     <message>
         <source>Not translatable</source>
         <translation>Kun ikke oversættes</translation>
@@ -536,20 +493,10 @@ Du kan redigere udkastene, eller fjerne dem hvis du ikke har behov for dem læng
         <translation>Dette objektet ejes af %owner.</translation>
     </message>
     <message>
-        <source>This object is already being edited by someone else including you.
-    You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="obsolete">Objektet blive allerede redigeret af nogen andre i tillæg til dig selv. Du kan enten forsætte med at redigerer et af dine udkast eller du kan oprette et nyt udkast.</translation>
-    </message>
-    <message>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
         <translation>Objektet bliver allerede redigeret af dig selv. 
 Du kan enten forsætte med at redigerer et af dine udkast eller du kan oprette et nyt udkast.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by someone else.
-        You should either contact the person about the draft or create a new draft for personal editing.</source>
-        <translation type="obsolete">Objektet bliver allerede redigeret af en anden. Du kan enten kontakte ejeren eller du kan oprette et nyt udkast.</translation>
     </message>
     <message>
         <source>Current drafts</source>
@@ -603,32 +550,8 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Eksisterende sprog</translation>
     </message>
     <message>
-        <source>Select the language you want to use when editing the object</source>
-        <translation type="obsolete">Vælg sproget du vil bruge når du redigerer objektet</translation>
-    </message>
-    <message>
         <source>New languages</source>
         <translation>Nye sprog</translation>
-    </message>
-    <message>
-        <source>Select the language you want to add to the object</source>
-        <translation type="obsolete">Vælg sproget du vil ligge til objektet</translation>
-    </message>
-    <message>
-        <source>Select the language the added translation will be based on</source>
-        <translation type="obsolete">Vælg sproget oversættelsen skal baseres på</translation>
-    </message>
-    <message>
-        <source>use an empty, untranslated draft</source>
-        <translation type="obsolete">brug et tomt, ikke oversat udkast</translation>
-    </message>
-    <message>
-        <source>You do not have sufficient permissions to create a translation in another language.</source>
-        <translation type="obsolete">Du har ikke tilstrækkelig rettigheder til at oprette en oversættelse på et andet sprog.</translation>
-    </message>
-    <message>
-        <source>However you can select one of the following languages for editing</source>
-        <translation type="obsolete">Imidlertid kan du vælge et at følgende sprog for redigering</translation>
     </message>
     <message>
         <source>You do not have permission to edit the object in any available languages.</source>
@@ -674,20 +597,8 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Versionen er ikke et udkast</translation>
     </message>
     <message>
-        <source>Version %1 is not available for editing anymore, only drafts can be edited.</source>
-        <translation type="obsolete">Version %1 er ikke tilgængelig for redigering længere, kun udkast kan redigeres.</translation>
-    </message>
-    <message>
-        <source>To edit this version create a copy of it.</source>
-        <translation type="obsolete">For at redigere denne versionen, opret en kopi af den.</translation>
-    </message>
-    <message>
         <source>Version not yours</source>
         <translation>Ikke din version</translation>
-    </message>
-    <message>
-        <source>Version %1 was not created by you, only your own drafts can be edited.</source>
-        <translation type="obsolete">Version %1 blev ikke oprettet af dig, kun dine egne udkast kan redigeres.</translation>
     </message>
     <message>
         <source>Unable to create new version</source>
@@ -696,10 +607,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     <message>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
         <translation>Grænsen for versionshistorik er nået og ingen arkiveret version kan fjernes af systemet.</translation>
-    </message>
-    <message>
-        <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="obsolete">Du kan ændre indstillingerne for versionshistorik i content.ini, fjerne udkast eller redigere eksisterende udkast.</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
@@ -728,10 +635,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     <message>
         <source>Select version #%version_number for removal.</source>
         <translation>Vælg version #%version_number for fjernelse.</translation>
-    </message>
-    <message>
-        <source>Version #%version_number can not be removed because it is either the published version of the object or because you do not have permissions to remove it.</source>
-        <translation type="obsolete">Version #%version_number kan ikke fjernes da den er publiceret eller du mangler rettigheder til at fjerne den.</translation>
     </message>
     <message>
         <source>View the contents of version #%version_number. Translation: %translation.</source>
@@ -766,16 +669,8 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Opret en kopi af version #%version_number.</translation>
     </message>
     <message>
-        <source>You can not make copies of versions because you do not have permissions to edit the object.</source>
-        <translation type="obsolete">Du kan ikke oprette kopier af versioner da du ikke har tilladelse til af redigere objektet.</translation>
-    </message>
-    <message>
         <source>Edit the contents of version #%version_number.</source>
         <translation>Redigér indholdet af version #%version_number.</translation>
-    </message>
-    <message>
-        <source>You can not edit the contents of version #%version_number either because it is not a draft or because you do not have permissions to edit the object.</source>
-        <translation type="obsolete">Du kan ikke redigere indholdet af version #%version_number da det ikke er et udkast eller du ikke har tilladelse til at redigere objektet.</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
@@ -858,10 +753,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Skift valg</translation>
     </message>
     <message>
-        <source>Edited language</source>
-        <translation>Redigér sprog</translation>
-    </message>
-    <message>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
         <translation>Version #%version_number kan ikke fjernes det entent er den publiserede version af objektet eller fordi du ikke har rettigheder til at fjerne det.</translation>
     </message>
@@ -876,6 +767,10 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     <message>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
         <translation>du kan ikke redigerer indholdet af version #%version_number, enten fordi det ikke er et udkast eller fordi du ikke har rettigheder til at redigerer dette objekt.</translation>
+    </message>
+    <message>
+        <source>Modified translation</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -905,32 +800,12 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>For flere muligheder prøv %1Avanceret søgning%2</translation>
     </message>
     <message>
-        <source>The following words were excluded from the search</source>
-        <translation type="obsolete">Følgende ord blev ikke taget med i søgningen</translation>
-    </message>
-    <message>
-        <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation type="obsolete">Ingen resultater blev fundet under søgningen efter&quot;%1&quot;</translation>
-    </message>
-    <message>
         <source>Search tips</source>
         <translation>Søgetips</translation>
     </message>
     <message>
         <source>Check spelling of keywords.</source>
         <translation>Tjek stavningen af ordene.</translation>
-    </message>
-    <message>
-        <source>Try changing some keywords eg. car instead of cars.</source>
-        <translation type="obsolete">Prøv at ændre lidt på søgeordene, f.eks bil i stedet for biler.</translation>
-    </message>
-    <message>
-        <source>Try more general keywords.</source>
-        <translation type="obsolete">Prøv mere generelle søgeord.</translation>
-    </message>
-    <message>
-        <source>Fewer keywords gives more results, try reducing keywords until you get a result.</source>
-        <translation type="obsolete">Færre søgeord giver flere resultater. Prøv at reducere antallet af ord til du får et resultat.</translation>
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
@@ -1009,97 +884,14 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/versions</name>
-    <message>
-        <source>Versions for: %1</source>
-        <translation type="obsolete">Versioner af: %1</translation>
-    </message>
-    <message>
-        <source>Version not a draft</source>
-        <translation type="obsolete">Versionen er ikke et udkast</translation>
-    </message>
-    <message>
-        <source>Version %1 is not available for editing any more, only drafts can be edited.</source>
-        <translation type="obsolete">Version %1 er ikke tilgængelig for redigering længere, kun udkast kan redigeres.</translation>
-    </message>
-    <message>
-        <source>To edit this version create a copy of it.</source>
-        <translation type="obsolete">For at redigere denne versionen, opret en kopi af den.</translation>
-    </message>
-    <message>
-        <source>Version not yours</source>
-        <translation type="obsolete">Ikke din version</translation>
-    </message>
-    <message>
-        <source>Version %1 was not created by you, only your own drafts can be edited.</source>
-        <translation type="obsolete">Version %1 blev ikke oprettet af dig, kun dine egne udkast kan redigeres.</translation>
-    </message>
-    <message>
-        <source>Unable to create new version</source>
-        <translation type="obsolete">Kan ikke oprette ny version</translation>
-    </message>
-    <message>
-        <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation type="obsolete">Grænsen for versionshistorik er nået og ingen arkiveret version kan fjernes af systemet.</translation>
-    </message>
-    <message>
-        <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="obsolete">Du kan ændre indstillingerne for versionshistorik i content.ini, fjerne udkast eller redigere eksisterende udkast.</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="obsolete">Version</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">Status</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="obsolete">Oversættelser</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation type="obsolete">Oprettet af</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="obsolete">Ændret</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">Fjern</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Redigér</translation>
-    </message>
-    <message>
-        <source>Copy and edit</source>
-        <translation type="obsolete">Kopier og rediger</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/content/view/versionview</name>
     <message>
         <source>Edit</source>
         <translation>Rediger</translation>
     </message>
     <message>
-        <source>Edit the draft that is being displayed.</source>
-        <translation type="obsolete">Redigér udkast der bliver vist.</translation>
-    </message>
-    <message>
         <source>Publish</source>
         <translation>Publicer</translation>
-    </message>
-    <message>
-        <source>Publish the draft that is being displayed.</source>
-        <translation type="obsolete">Publicer udkastet der bliver vist.</translation>
-    </message>
-    <message>
-        <source>This version is not a draft and thus it can not be edited.</source>
-        <translation type="obsolete">Denne versionen er ikke et udkast og kan derfor ikke redigeres.</translation>
     </message>
     <message>
         <source>Manage versions</source>
@@ -1212,14 +1004,102 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     </message>
 </context>
 <context>
+    <name>design/ezwebin/ezodf/browse_place</name>
+    <message>
+        <source>Choose document placement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please choose the placement for the OpenOffice.org object.
+
+    Select the placements and click the %buttonname button.
+    Using the recent and bookmark items for quick placement is also possible.
+    Click on placement names to change the browse listing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="unfinished">Vælg</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/ezodf/export</name>
+    <message>
+        <source>OpenOffice.org export</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export eZ publish content to OpenOffice.org</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export Object</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/ezodf/import</name>
+    <message>
+        <source>Document is now imported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OpenOffice.org import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The object was imported as: %class_name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The images are placed in the media and can be re-used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import another document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upload file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import OpenOffice.org document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Replace document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
+asked where to place the document and eZ publish does the rest. The document is converted into
+the appropriate class during the import, you get a notice about this after the import is done.
+Images are placed in the media library so you can re-use them in other articles.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/full/article</name>
     <message>
         <source>Comments</source>
         <translation>Kommentarer</translation>
-    </message>
-    <message>
-        <source>New Comment</source>
-        <translation type="obsolete">Ny kommentar</translation>
     </message>
     <message>
         <source>New comment</source>
@@ -1423,14 +1303,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Hold mig opdateret</translation>
     </message>
     <message>
-        <source>You need to be logged in to get access to the forums. You can do so</source>
-        <translation type="obsolete">Du må være logget ind for at få adgang til forumet. Du kan gøre det </translation>
-    </message>
-    <message>
-        <source>here</source>
-        <translation type="obsolete">her</translation>
-    </message>
-    <message>
         <source>Author</source>
         <translation>Forfatter</translation>
     </message>
@@ -1542,13 +1414,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     </message>
 </context>
 <context>
-    <name>design/ezwebin/horizontallylistedsubitems/event</name>
-    <message>
-        <source>Category</source>
-        <translation type="obsolete">Kategori</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/line/event</name>
     <message>
         <source>Category</source>
@@ -1571,14 +1436,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
 </context>
 <context>
     <name>design/ezwebin/line/forum</name>
-    <message>
-        <source>Number of Topics</source>
-        <translation type="obsolete">Antal emner</translation>
-    </message>
-    <message>
-        <source>Number of Posts</source>
-        <translation type="obsolete">Antal poster</translation>
-    </message>
     <message>
         <source>Last reply</source>
         <translation>Sidste svar</translation>
@@ -1673,10 +1530,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Notat</translation>
     </message>
     <message>
-        <source>If %trashname is checked you will find the removed items in the trash afterwards.</source>
-        <translation type="obsolete">Hvis %trashname er mærket finder du de fjernede objekterne i papirkurven bagefter.</translation>
-    </message>
-    <message>
         <source>Confirm</source>
         <translation>Bekræft</translation>
     </message>
@@ -1731,10 +1584,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     <message>
         <source>Create here</source>
         <translation>Tilføj her</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Redigér</translation>
     </message>
     <message>
         <source>Move</source>
@@ -1819,10 +1668,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Indkøbskurv</translation>
     </message>
     <message>
-        <source>The following items were removed from your basket, because the products were changed</source>
-        <translation type="obsolete">Følgende varer blev fjernet fra indkøbskurven, fordi produktet er ændret</translation>
-    </message>
-    <message>
         <source>VAT is unknown</source>
         <translation>MOMS er ukendt</translation>
     </message>
@@ -1859,18 +1704,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Rabat</translation>
     </message>
     <message>
-        <source>Total Price ex. VAT</source>
-        <translation type="obsolete">Total pris eks. MOMS</translation>
-    </message>
-    <message>
-        <source>Total Price inc. VAT</source>
-        <translation type="obsolete">Total pris inkl. MOMS</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation type="obsolete">ukendt</translation>
-    </message>
-    <message>
         <source>Update</source>
         <translation>Opdater</translation>
     </message>
@@ -1881,14 +1714,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     <message>
         <source>Selected options</source>
         <translation>Valgte mulighed</translation>
-    </message>
-    <message>
-        <source>Subtotal Ex. VAT</source>
-        <translation type="obsolete">Subtotal eks. MOMS</translation>
-    </message>
-    <message>
-        <source>Subtotal Inc. VAT</source>
-        <translation type="obsolete">Subtotal inkl. MOMS</translation>
     </message>
     <message>
         <source>Shipping</source>
@@ -1905,10 +1730,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     <message>
         <source>Checkout</source>
         <translation>Til kassen</translation>
-    </message>
-    <message>
-        <source>You have no products in your basket</source>
-        <translation type="obsolete">Du har ingen produkter i Indkøbskurven</translation>
     </message>
     <message>
         <source>The following items were removed from your basket because the products were changed.</source>
@@ -1974,14 +1795,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Rabat</translation>
     </message>
     <message>
-        <source>Total Price ex. VAT</source>
-        <translation type="obsolete">Total pris eks. MOMS</translation>
-    </message>
-    <message>
-        <source>Total Price inc. VAT</source>
-        <translation type="obsolete">Total pris inkl. MOMS</translation>
-    </message>
-    <message>
         <source>Selected options</source>
         <translation>Valgte mulighed</translation>
     </message>
@@ -2016,10 +1829,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
 </context>
 <context>
     <name>design/ezwebin/shop/customerorderview</name>
-    <message>
-        <source>Customer Information</source>
-        <translation type="obsolete">Kundeinformation</translation>
-    </message>
     <message>
         <source>Order list</source>
         <translation>Ordreliste</translation>
@@ -2159,14 +1968,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Rabat</translation>
     </message>
     <message>
-        <source>Total Price ex. VAT</source>
-        <translation type="obsolete">Total pris eks. MOMS</translation>
-    </message>
-    <message>
-        <source>Total Price inc. VAT</source>
-        <translation type="obsolete">Total pris inkl. MOMS</translation>
-    </message>
-    <message>
         <source>Order summary</source>
         <translation>Ordresammendrag</translation>
     </message>
@@ -2214,20 +2015,12 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Din kontoinfo</translation>
     </message>
     <message>
-        <source>Input did not validate, all fields marked with * must be filled in</source>
-        <translation type="obsolete">Ikke godkendt, alle felter mærket med * skal udfyldes</translation>
-    </message>
-    <message>
         <source>First name</source>
         <translation>Fornavn</translation>
     </message>
     <message>
         <source>Last name</source>
         <translation>Efternavn</translation>
-    </message>
-    <message>
-        <source>E-mail</source>
-        <translation type="obsolete">E-post</translation>
     </message>
     <message>
         <source>Company</source>
@@ -2354,10 +2147,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Brugernavn</translation>
     </message>
     <message>
-        <source>E-mail</source>
-        <translation type="obsolete">E-post</translation>
-    </message>
-    <message>
         <source>Name</source>
         <translation>Navn</translation>
     </message>
@@ -2393,14 +2182,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
 <context>
     <name>design/ezwebin/user/forgotpassword</name>
     <message>
-        <source>A mail has been sent to the following e-mail address: %1. This e-mail contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
-        <translation>Der er sendt en e-mail til følgende adresse: %1. Denne e-mail indeholder et link som du skal klikke på for at bekræfte din identitet.</translation>
-    </message>
-    <message>
-        <source>There is no registered user with that e-mail address.</source>
-        <translation type="obsolete">Der er ingen brugere registreret med denne e-mailadresse.</translation>
-    </message>
-    <message>
         <source>Password was successfully generated and sent to: %1</source>
         <translation>Adgangskoden blev oprettet og sendt til: %1</translation>
     </message>
@@ -2411,14 +2192,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     <message>
         <source>Have you forgotten your password?</source>
         <translation>Har du glemt din adgangskode?</translation>
-    </message>
-    <message>
-        <source>If you have forgotten your password we can generate a new one for you. All you need to do is to enter your e-mail address and we will create a new password for you.</source>
-        <translation type="obsolete">Hvis du har glemt din adgangskode kan vi sende dig et nyt. Alt du skal gøre er at skrive din e-postadressen og vi oprette et nyt adgangskode til dig.</translation>
-    </message>
-    <message>
-        <source>E-mail</source>
-        <translation type="obsolete">E-post</translation>
     </message>
     <message>
         <source>Generate new password</source>
@@ -2473,10 +2246,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>adgangskoder</translation>
     </message>
     <message>
-        <source>Log in to the administration interface of eZ publish</source>
-        <translation type="obsolete">Log ind til administrationssidene til eZ publish</translation>
-    </message>
-    <message>
         <source>Remember me</source>
         <translation>Husk mig</translation>
     </message>
@@ -2484,11 +2253,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <source>Login</source>
         <comment>Button</comment>
         <translation>Log ind</translation>
-    </message>
-    <message>
-        <source>Sign Up</source>
-        <comment>Button</comment>
-        <translation type="obsolete">Ny bruger</translation>
     </message>
     <message>
         <source>Forgot your password?</source>
@@ -2502,6 +2266,45 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <source>Sign up</source>
         <comment>Button</comment>
         <translation>Tilmeld</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/user/password</name>
+    <message>
+        <source>Change password for user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please retype your old password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password didn&apos;t match, please retype your new password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password successfully updated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Old password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Retype password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="unfinished">OK</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2542,13 +2345,6 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
         <translation>Bruger registreret</translation>
     </message>
     <message>
-        <source>Your account was successfully created. An e-mail will be sent to the specified
-e-mail address. You need to follow the instructions in that mail to activate
-your account.</source>
-        <translation>Din konto er nu oprettet. Der bliver sendt en e-mail til den angivne e-mailadresse.
-For at aktivere din konto bedes du følge instruktionerne i denne e-mail.</translation>
-    </message>
-    <message>
         <source>Your account was successfully created.</source>
         <translation>Din konto blev oprettet.</translation>
     </message>
@@ -2562,6 +2358,17 @@ For at aktivere din konto bedes du følge instruktionerne i denne e-mail.</trans
     <message>
         <source>The file could not be found.</source>
         <translation>Fandt ikke filen.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/view/ezmedia</name>
+    <message>
+        <source>No %link_startFlash player%link_end avaliable!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No media file is available.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2583,10 +2390,6 @@ For at aktivere din konto bedes du følge instruktionerne i denne e-mail.</trans
     <name>design/ezwebin/view/sitemap</name>
     <message>
         <source>Site map</source>
-        <translation>Sitemap</translation>
-    </message>
-    <message>
-        <source>Sitemap</source>
         <translation>Sitemap</translation>
     </message>
 </context>
