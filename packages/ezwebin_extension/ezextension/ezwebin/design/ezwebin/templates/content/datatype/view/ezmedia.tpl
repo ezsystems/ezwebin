@@ -71,5 +71,5 @@ insertMedia( '<object type="application/x-shockwave-flash" data={concat("content
     {/switch}
 
 {section-else}
-    {'No media file is available.'|i18n( 'design/standard/content/datatype' )}
+    {'No media file is available.'|i18n( 'design/ezwebin/view/ezmedia' )}
 {/section}

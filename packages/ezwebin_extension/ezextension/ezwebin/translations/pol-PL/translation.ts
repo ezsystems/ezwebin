@@ -86,10 +86,6 @@
         <translation>Dziękujemy za kontakt z nami.</translation>
     </message>
     <message>
-        <source>You have already submitted data to this form. The previously submitted data was the following.</source>
-        <translation type="obsolete">Wypełniłeś już ten formularz. Poprzednio dostarczone przez Ciebie dane przedstawiamy poniżej.</translation>
-    </message>
-    <message>
         <source>Return to site</source>
         <translation>Powrót na stronę</translation>
     </message>
@@ -230,10 +226,6 @@
         <source>Search for &quot;%1&quot; returned %2 matches</source>
         <translation>Wyszukiwanie &quot;%1&quot; zwróciło %2 wyników</translation>
     </message>
-    <message>
-        <source>Last month</source>
-        <translation type="obsolete">Ostatni miesiąc</translation>
-    </message>
 </context>
 <context>
     <name>design/ezwebin/content/advancedsearchh</name>
@@ -251,10 +243,6 @@
     <message>
         <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the &quot;Select&quot; button.</source>
         <translation>Aby zaznaczyć obiekty, wybierz odpowiednie przyciski radio lub checkbox i kliknij przecisk &quot;Zaznacz&quot;.</translation>
-    </message>
-    <message>
-        <source>To select an object that is a child of one of the displayed objects, click the object name and you will get a list of the children of the object.</source>
-        <translation type="obsolete">Aby wybrać podrzędy obiekt obecnie wyświetlanego, kliknij na nazwę biektu i pokaże się lista rozwijana obiektIw podrzędnych.</translation>
     </message>
     <message>
         <source>Back</source>
@@ -279,10 +267,6 @@
 </context>
 <context>
     <name>design/ezwebin/content/browse_mode_list</name>
-    <message>
-        <source>Invert selection.</source>
-        <translation type="obsolete">Odwróć zaznaczenie.</translation>
-    </message>
     <message>
         <source>Name</source>
         <translation>Nazwa</translation>
@@ -390,10 +374,6 @@
         <translation>Moje szkice</translation>
     </message>
     <message>
-        <source>Empty Draft</source>
-        <translation type="obsolete">Pusty szkic</translation>
-    </message>
-    <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
         <translation>To są aktualne obiekty, na których właśnie pracujesz. Szkice są Twoją własnoścą i moą być edytowane tylko przez Ciebie.
@@ -451,24 +431,12 @@
         <translation>Zapisz i zakończ</translation>
     </message>
     <message>
-        <source>Store the draft that is being edited and exit from edit mode.</source>
-        <translation type="obsolete">Zapisz edytowany szkic i opuść tryb edycji.</translation>
-    </message>
-    <message>
         <source>Preview</source>
         <translation>Podgląd</translation>
     </message>
     <message>
-        <source>No translation</source>
-        <translation type="obsolete">Brak tłumaczenia</translation>
-    </message>
-    <message>
         <source>Translate</source>
         <translation>Przetłumacz</translation>
-    </message>
-    <message>
-        <source>Edit the current object showing the selected language as a reference.</source>
-        <translation type="obsolete">Edytuj aktualny obiekt pokazując zaznaczony język jako referencję.</translation>
     </message>
     <message>
         <source>Edit %1 - %2</source>
@@ -481,10 +449,6 @@
     <message>
         <source>Store draft</source>
         <translation>Zapisz szkic</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation type="obsolete">Odrzuć</translation>
     </message>
     <message>
         <source>Discard draft</source>
@@ -501,18 +465,6 @@
 </context>
 <context>
     <name>design/ezwebin/content/edit_attribute</name>
-    <message>
-        <source>not translatable</source>
-        <translation type="obsolete">nie przetłumaczalny</translation>
-    </message>
-    <message>
-        <source>required</source>
-        <translation type="obsolete">wymagany</translation>
-    </message>
-    <message>
-        <source>information collector</source>
-        <translation type="obsolete">system zbierania informacji</translation>
-    </message>
     <message>
         <source>Not translatable</source>
         <translation type="unfinished"></translation>
@@ -541,21 +493,9 @@
         <translation>Właścicielem obiektu jest %owner.</translation>
     </message>
     <message>
-        <source>This object is already being edited by someone else including you.
-    You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="obsolete">Obiekt jest obecnie modyfikowany (możliwe, że nawet przez Ciebie).
-   Możesz kontynuować edycję swojego szkicu lub stworzyć nowy.</translation>
-    </message>
-    <message>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
         <translation>Obiekt jest obecnie modyfikowany przez ciebie.
-   Możesz kontynuować edycję swojego szkicu lub stworzyć nowy.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by someone else.
-        You should either contact the person about the draft or create a new draft for personal editing.</source>
-        <translation type="obsolete">Obiekt jest obecnie modyfikowany przez kogoś innego.
    Możesz kontynuować edycję swojego szkicu lub stworzyć nowy.</translation>
     </message>
     <message>
@@ -608,32 +548,8 @@
         <translation>Dostępne wersje językowe</translation>
     </message>
     <message>
-        <source>Select the language you want to use when editing the object</source>
-        <translation type="obsolete">Wybierz język, który chcesz wykorzystać w trakcie edycji obiektu</translation>
-    </message>
-    <message>
         <source>New languages</source>
         <translation>New languages</translation>
-    </message>
-    <message>
-        <source>Select the language you want to add to the object</source>
-        <translation type="obsolete">Wybierz język, który chcesz dodać do obiektu</translation>
-    </message>
-    <message>
-        <source>Select the language the added translation will be based on</source>
-        <translation type="obsolete">Wybierz język, na którym będzie bazowało nowe tłumaczenie</translation>
-    </message>
-    <message>
-        <source>use an empty, untranslated draft</source>
-        <translation type="obsolete">użyj pustego, nieprzetłumaczonego szkicu</translation>
-    </message>
-    <message>
-        <source>You do not have sufficient permissions to create a translation in another language.</source>
-        <translation type="obsolete">Nie posiadasz wystarczjących uprawnień do tworzenia tłumaczenia w innym języku.</translation>
-    </message>
-    <message>
-        <source>However you can select one of the following languages for editing</source>
-        <translation type="obsolete">Możesz jednak wybrać jeden z następujących języków do edycji</translation>
     </message>
     <message>
         <source>You do not have permission to edit the object in any available languages.</source>
@@ -679,20 +595,8 @@
         <translation>Wersja nie jest szkicem</translation>
     </message>
     <message>
-        <source>Version %1 is not available for editing anymore, only drafts can be edited.</source>
-        <translation type="obsolete">Wersja %1 nie jest już dostępna do edycji. Tylko szkic można wyedytować.</translation>
-    </message>
-    <message>
-        <source>To edit this version create a copy of it.</source>
-        <translation type="obsolete">W celu edycji tej wersji utwórz jej kopię.</translation>
-    </message>
-    <message>
         <source>Version not yours</source>
         <translation>Wersja nie należy do Ciebie</translation>
-    </message>
-    <message>
-        <source>Version %1 was not created by you, only your own drafts can be edited.</source>
-        <translation type="obsolete">Wersja %1 nie została utworzona przez ciebie. Możesz wyedytować jedynie własne szkice.</translation>
     </message>
     <message>
         <source>Unable to create new version</source>
@@ -701,10 +605,6 @@
     <message>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
         <translation>Limit historii wersji został przekroczony. Żadna zarchiwizowana wersja nie może być usunięta przez system.</translation>
-    </message>
-    <message>
-        <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="obsolete">Możesz zmienić ustawienia archiwizacji wersji w pliku content.ini, usunąć szkice lub wyedytować aktualne dane.</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
@@ -733,10 +633,6 @@
     <message>
         <source>Select version #%version_number for removal.</source>
         <translation>Wybierz wersję #%version_number do usunięcia.</translation>
-    </message>
-    <message>
-        <source>Version #%version_number can not be removed because it is either the published version of the object or because you do not have permissions to remove it.</source>
-        <translation type="obsolete">Wersja #%version_number nie może zostać usunięta ponieważ jest aktualnie opublikowaną wersją lub nie masz wystarczajacych praw do jej usunięcia.</translation>
     </message>
     <message>
         <source>View the contents of version #%version_number. Translation: %translation.</source>
@@ -771,16 +667,8 @@
         <translation>Utwórz kopię wersji #%version_number.</translation>
     </message>
     <message>
-        <source>You can not make copies of versions because you do not have permissions to edit the object.</source>
-        <translation type="obsolete">Nie możesz utworzyć kopii wersji, ponieważ nie masz uprawnień do edytowania obiektu.</translation>
-    </message>
-    <message>
         <source>Edit the contents of version #%version_number.</source>
         <translation>Edytuj treść wersji #%version_number.</translation>
-    </message>
-    <message>
-        <source>You can not edit the contents of version #%version_number either because it is not a draft or because you do not have permissions to edit the object.</source>
-        <translation type="obsolete">Nie możesz edytować treści wersji #%version_numer , ponieważ nie jest to szkic lub nie masz uprawnień do edytowania obiektu.</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
@@ -910,32 +798,12 @@
         <translation>Jeśli potrzebujesz więcej opcji, wykorzystaj %1Wyszukiwanie zaawansowane%2</translation>
     </message>
     <message>
-        <source>The following words were excluded from the search</source>
-        <translation type="obsolete">Następujące słowa zostały pominięte podczas wyszukiwania</translation>
-    </message>
-    <message>
-        <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation type="obsolete">Wyszukiwanie &quot;%1&quot; nie dało żadnych wyników</translation>
-    </message>
-    <message>
         <source>Search tips</source>
         <translation>Porady</translation>
     </message>
     <message>
         <source>Check spelling of keywords.</source>
         <translation>Sprawdź poprawność pisowni.</translation>
-    </message>
-    <message>
-        <source>Try changing some keywords eg. car instead of cars.</source>
-        <translation type="obsolete">Spróbuj zmienić niektóre ze słów np. samochód zamiast samochody.</translation>
-    </message>
-    <message>
-        <source>Try more general keywords.</source>
-        <translation type="obsolete">Spróbuj użyć bardziej ogólnych wyrażeń.</translation>
-    </message>
-    <message>
-        <source>Fewer keywords gives more results, try reducing keywords until you get a result.</source>
-        <translation type="obsolete">Mniej słów do przeszukania daje więcej wyników, spróbuj zredukować liczbę słów tak długo aż otrzymasz rezultaty.</translation>
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
@@ -1014,97 +882,14 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/versions</name>
-    <message>
-        <source>Versions for: %1</source>
-        <translation type="obsolete">Wersje dla: %1</translation>
-    </message>
-    <message>
-        <source>Version not a draft</source>
-        <translation type="obsolete">Wersja nie jest szkicem</translation>
-    </message>
-    <message>
-        <source>Version %1 is not available for editing any more, only drafts can be edited.</source>
-        <translation type="obsolete">Wersja %1 nie jest dostępna już do edycji, można modyfikować tylko szkic.</translation>
-    </message>
-    <message>
-        <source>To edit this version create a copy of it.</source>
-        <translation type="obsolete">W celu edycji tej wersji utwórz jej kopię.</translation>
-    </message>
-    <message>
-        <source>Version not yours</source>
-        <translation type="obsolete">Wersja nie należy do Ciebie</translation>
-    </message>
-    <message>
-        <source>Version %1 was not created by you, only your own drafts can be edited.</source>
-        <translation type="obsolete">Wersja %1 nie została utworzona przez ciebie. Możesz wyedytować jedynie własne szkice.</translation>
-    </message>
-    <message>
-        <source>Unable to create new version</source>
-        <translation type="obsolete">Nie można utworzyć nowej wersji</translation>
-    </message>
-    <message>
-        <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation type="obsolete">Limit historii wersji został przekroczony. Żadna zarchiwizowana wersja nie może być usunięta przez system.</translation>
-    </message>
-    <message>
-        <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="obsolete">Możesz zmienić ustawienia archiwizacji wersji w pliku content.ini, usunąć szkice lub wyedytować aktualne dane.</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="obsolete">Wersja</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">Status</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="obsolete">Tłumaczenia</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation type="obsolete">Twórca</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="obsolete">Zmodyfikowany</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">Usuń</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Edytuj</translation>
-    </message>
-    <message>
-        <source>Copy and edit</source>
-        <translation type="obsolete">Kopiuj i edytuj</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/content/view/versionview</name>
     <message>
         <source>Edit</source>
         <translation>Edytuj</translation>
     </message>
     <message>
-        <source>Edit the draft that is being displayed.</source>
-        <translation type="obsolete">Edytuj szkic, który jest wyświetlany.</translation>
-    </message>
-    <message>
         <source>Publish</source>
         <translation>Opublikuj</translation>
-    </message>
-    <message>
-        <source>Publish the draft that is being displayed.</source>
-        <translation type="obsolete">Opublikuj wyświetlony szkic.</translation>
-    </message>
-    <message>
-        <source>This version is not a draft and thus it can not be edited.</source>
-        <translation type="obsolete">Ta wersja nie jest szkicem i nie może być edytowana.</translation>
     </message>
     <message>
         <source>Manage versions</source>
@@ -1192,10 +977,6 @@
         <translation>Informacje o eZ Publish: %version</translation>
     </message>
     <message>
-        <source>What is eZ publish?</source>
-        <translation type="obsolete">Co to jest eZ Publish?</translation>
-    </message>
-    <message>
         <source>Licence</source>
         <translation>Licencja</translation>
     </message>
@@ -1221,14 +1002,102 @@
     </message>
 </context>
 <context>
+    <name>design/ezwebin/ezodf/browse_place</name>
+    <message>
+        <source>Choose document placement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please choose the placement for the OpenOffice.org object.
+
+    Select the placements and click the %buttonname button.
+    Using the recent and bookmark items for quick placement is also possible.
+    Click on placement names to change the browse listing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="unfinished">Wybierz</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/ezodf/export</name>
+    <message>
+        <source>OpenOffice.org export</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export eZ publish content to OpenOffice.org</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export Object</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/ezodf/import</name>
+    <message>
+        <source>Document is now imported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OpenOffice.org import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The object was imported as: %class_name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The images are placed in the media and can be re-used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import another document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upload file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import OpenOffice.org document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Replace document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
+asked where to place the document and eZ publish does the rest. The document is converted into
+the appropriate class during the import, you get a notice about this after the import is done.
+Images are placed in the media library so you can re-use them in other articles.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/full/article</name>
     <message>
         <source>Comments</source>
         <translation>Komentarze</translation>
-    </message>
-    <message>
-        <source>New Comment</source>
-        <translation type="obsolete">Nowy komentarz</translation>
     </message>
     <message>
         <source>New comment</source>
@@ -1274,10 +1143,6 @@
 </context>
 <context>
     <name>design/ezwebin/full/documentation_page</name>
-    <message>
-        <source>Table of Contents</source>
-        <translation type="obsolete">Spis treści</translation>
-    </message>
     <message>
         <source>Created:</source>
         <translation>Utworzono</translation>
@@ -1440,10 +1305,6 @@
         <translation>Musisz być zalogowany aby uzyskać dostęp do forum. Możesz się zalogować %login_link_start%tutaj%login_link_end%</translation>
     </message>
     <message>
-        <source>here</source>
-        <translation type="obsolete">tutaj</translation>
-    </message>
-    <message>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
@@ -1551,13 +1412,6 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/horizontallylistedsubitems/event</name>
-    <message>
-        <source>Category</source>
-        <translation type="obsolete">Kategoria</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/line/event</name>
     <message>
         <source>Category</source>
@@ -1580,14 +1434,6 @@
 </context>
 <context>
     <name>design/ezwebin/line/forum</name>
-    <message>
-        <source>Number of Topics</source>
-        <translation type="obsolete">Liczba tematów</translation>
-    </message>
-    <message>
-        <source>Number of Posts</source>
-        <translation type="obsolete">Liczba postów</translation>
-    </message>
     <message>
         <source>Last reply</source>
         <translation>Ostatnia odpowiedź</translation>
@@ -1682,10 +1528,6 @@
         <translation>Notatka</translation>
     </message>
     <message>
-        <source>If %trashname is checked you will find the removed items in the trash afterwards.</source>
-        <translation type="obsolete">Jeżeli %trashname jest zaznaczony, wszystkie usunięte obiekty można będzie odzyskać.</translation>
-    </message>
-    <message>
         <source>Confirm</source>
         <translation>Potwierdź</translation>
     </message>
@@ -1740,10 +1582,6 @@
     <message>
         <source>Create here</source>
         <translation>Utwórz tutaj</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Edytuj</translation>
     </message>
     <message>
         <source>Move</source>
@@ -1828,10 +1666,6 @@
         <translation>Koszyk</translation>
     </message>
     <message>
-        <source>The following items were removed from your basket, because the products were changed</source>
-        <translation type="obsolete">Następujące produkty zostały usunięte z Twojego koszyka ze względu na to, że zmienione zostały ich dane</translation>
-    </message>
-    <message>
         <source>VAT is unknown</source>
         <translation>Nieznany VAT</translation>
     </message>
@@ -1868,18 +1702,6 @@
         <translation>Rabat</translation>
     </message>
     <message>
-        <source>Total Price ex. VAT</source>
-        <translation type="obsolete">Wartość bez VAT</translation>
-    </message>
-    <message>
-        <source>Total Price inc. VAT</source>
-        <translation type="obsolete">Wartość z VAT</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation type="obsolete">nieznany</translation>
-    </message>
-    <message>
         <source>Update</source>
         <translation>Aktualizacja</translation>
     </message>
@@ -1890,14 +1712,6 @@
     <message>
         <source>Selected options</source>
         <translation>Wybrane opcje</translation>
-    </message>
-    <message>
-        <source>Subtotal Ex. VAT</source>
-        <translation type="obsolete">Suma bez VAT</translation>
-    </message>
-    <message>
-        <source>Subtotal Inc. VAT</source>
-        <translation type="obsolete">Suma z VAT</translation>
     </message>
     <message>
         <source>Shipping</source>
@@ -1914,10 +1728,6 @@
     <message>
         <source>Checkout</source>
         <translation>Złóż zamówienie</translation>
-    </message>
-    <message>
-        <source>You have no products in your basket</source>
-        <translation type="obsolete">Nie masz żadnych produktów w koszyku</translation>
     </message>
     <message>
         <source>The following items were removed from your basket because the products were changed.</source>
@@ -1983,14 +1793,6 @@
         <translation>Rabat</translation>
     </message>
     <message>
-        <source>Total Price ex. VAT</source>
-        <translation type="obsolete">Wartość bez VAT</translation>
-    </message>
-    <message>
-        <source>Total Price inc. VAT</source>
-        <translation type="obsolete">Wartość z VAT</translation>
-    </message>
-    <message>
         <source>Selected options</source>
         <translation>Wybrane opcje</translation>
     </message>
@@ -2025,10 +1827,6 @@
 </context>
 <context>
     <name>design/ezwebin/shop/customerorderview</name>
-    <message>
-        <source>Customer Information</source>
-        <translation type="obsolete">Informacje o kliencie</translation>
-    </message>
     <message>
         <source>Order list</source>
         <translation>Lista zamówień</translation>
@@ -2168,14 +1966,6 @@
         <translation>Rabat</translation>
     </message>
     <message>
-        <source>Total Price ex. VAT</source>
-        <translation type="obsolete">Wartość bez VAT</translation>
-    </message>
-    <message>
-        <source>Total Price inc. VAT</source>
-        <translation type="obsolete">Wartość z VAT</translation>
-    </message>
-    <message>
         <source>Order summary</source>
         <translation>Zamówienie łącznie</translation>
     </message>
@@ -2223,20 +2013,12 @@
         <translation>Informacje o Twoim koncie</translation>
     </message>
     <message>
-        <source>Input did not validate, all fields marked with * must be filled in</source>
-        <translation type="obsolete">Niepoprawne dane, wszystkie pola oznaczone * muszą zostać wypełnione</translation>
-    </message>
-    <message>
         <source>First name</source>
         <translation>Imię</translation>
     </message>
     <message>
         <source>Last name</source>
         <translation>Nazwisko</translation>
-    </message>
-    <message>
-        <source>E-mail</source>
-        <translation type="obsolete">E-mail</translation>
     </message>
     <message>
         <source>Company</source>
@@ -2363,10 +2145,6 @@
         <translation>Nazwa użytkownika</translation>
     </message>
     <message>
-        <source>E-mail</source>
-        <translation type="obsolete">E-mail</translation>
-    </message>
-    <message>
         <source>Name</source>
         <translation>Nazwa</translation>
     </message>
@@ -2402,14 +2180,6 @@
 <context>
     <name>design/ezwebin/user/forgotpassword</name>
     <message>
-        <source>A mail has been sent to the following e-mail address: %1. This e-mail contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
-        <translation type="obsolete">E-mail został wysłąny pod adres: %1. E-mail zawiera link potwierdzający tożsamość użytkownika w celu uzyskania nowego hasła.</translation>
-    </message>
-    <message>
-        <source>There is no registered user with that e-mail address.</source>
-        <translation type="obsolete">Nie istnieje zarejestrowany użytkownik o podanym adresie e-mail.</translation>
-    </message>
-    <message>
         <source>Password was successfully generated and sent to: %1</source>
         <translation>Hasło zostało utworzone i wysłane na adres %1</translation>
     </message>
@@ -2420,14 +2190,6 @@
     <message>
         <source>Have you forgotten your password?</source>
         <translation>Czy zapomniałeś swoje hasło?</translation>
-    </message>
-    <message>
-        <source>If you have forgotten your password we can generate a new one for you. All you need to do is to enter your e-mail address and we will create a new password for you.</source>
-        <translation type="obsolete">Jeżeli zapomniałeś swojego hasła, możemy wygenerować nowe. Podaj swój adres email, a wyślemy do Ciebie nowe hasło.</translation>
-    </message>
-    <message>
-        <source>E-mail</source>
-        <translation type="obsolete">E-mail</translation>
     </message>
     <message>
         <source>Generate new password</source>
@@ -2482,10 +2244,6 @@
         <translation>Hasło</translation>
     </message>
     <message>
-        <source>Log in to the administration interface of eZ publish</source>
-        <translation type="obsolete">Witaj w panelu administracyjnym eZ publish</translation>
-    </message>
-    <message>
         <source>Remember me</source>
         <translation>Zapamiętaj mnie</translation>
     </message>
@@ -2493,11 +2251,6 @@
         <source>Login</source>
         <comment>Button</comment>
         <translation>Zaloguj</translation>
-    </message>
-    <message>
-        <source>Sign Up</source>
-        <comment>Button</comment>
-        <translation type="obsolete">Nowy</translation>
     </message>
     <message>
         <source>Forgot your password?</source>
@@ -2590,14 +2343,6 @@
         <translation>Użytkownik zarejestrowany</translation>
     </message>
     <message>
-        <source>Your account was successfully created. An e-mail will be sent to the specified
-e-mail address. You need to follow the instructions in that mail to activate
-your account.</source>
-        <translation type="obsolete">Twoje konto zostało pomyślnie stworzone. Na podany adres email(new line)
-zostanie przesłana wiadomość. Postępuj zgodnie z instrukcją zawartą w treści,(new line)
-aby aktywaować swoje konto.</translation>
-    </message>
-    <message>
         <source>Your account was successfully created.</source>
         <translation>Twoje konto zostało pomyślnie utworzone.</translation>
     </message>
@@ -2611,6 +2356,13 @@ aby aktywaować swoje konto.</translation>
     <message>
         <source>The file could not be found.</source>
         <translation>Plik nie został odnaleziony.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/view/ezmedia</name>
+    <message>
+        <source>No media file is available.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2633,122 +2385,6 @@ aby aktywaować swoje konto.</translation>
     <message>
         <source>Site map</source>
         <translation>Mapa serwisu</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/datatype</name>
-    <message>
-        <source>No media file is available.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/edit</name>
-    <message>
-        <source>Feedback from %1</source>
-        <translation type="obsolete">Odpowiedź od %1
-<byte value="x9"/><byte value="x9"/></translation>
-    </message>
-    <message>
-        <source>The following feedback was collected</source>
-        <translation type="obsolete">Zebrano następujące informacje</translation>
-    </message>
-    <message>
-        <source>Collected information from %1</source>
-        <translation type="obsolete">Zbieranie informacji z %1</translation>
-    </message>
-    <message>
-        <source>The following information was collected</source>
-        <translation type="obsolete">Zebrano następujące informacje</translation>
-    </message>
-</context>
-<context>
-    <name>extension/ezodf</name>
-    <message>
-        <source>OpenOffice.org export</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Export eZ publish content to OpenOffice.org</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Export Object</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Document is now imported</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>OpenOffice.org import</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The object was imported as: %class_name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Document imported as</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The images are placed in the media and can be re-used.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Import another document</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Upload file</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Import OpenOffice.org document</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Replace document</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Import to</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
-the appropriate class during the import, you get a notice about this after the import is done.
-Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>extension/ezodf/browse</name>
-    <message>
-        <source>Choose document placement</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Please choose the placement for the OpenOffice.org object.
-
-    Select the placements and click the %buttonname button.
-    Using the recent and bookmark items for quick placement is also possible.
-    Click on placement names to change the browse listing.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation type="unfinished">Wybierz</translation>
     </message>
 </context>
 </TS>
