@@ -86,11 +86,6 @@
         <translation>ご意見・ご感想有難うございました。</translation>
     </message>
     <message>
-        <source>You have already submitted data to this form. The previously submitted data was the following.</source>
-        <translation type="obsolete">すでにお問い合わせ頂いたことがあります. 
-以前に送信いただきました内容は以下のとおりです。</translation>
-    </message>
-    <message>
         <source>Return to site</source>
         <translation>サイトへ戻る</translation>
     </message>
@@ -167,10 +162,6 @@
         <translation>一致する句を検索</translation>
     </message>
     <message>
-        <source>Search with at least one of the words</source>
-        <translation>最低でも一つの単語を検索</translation>
-    </message>
-    <message>
         <source>Published</source>
         <translation>公開中</translation>
     </message>
@@ -230,12 +221,9 @@
         <source>Search for &quot;%1&quot; returned %2 matches</source>
         <translation>&quot;%1&quot; の検索結果は %2 件です。</translation>
     </message>
-</context>
-<context>
-    <name>design/ezwebin/content/advancedsearchh</name>
     <message>
         <source>Last month</source>
-        <translation>先月</translation>
+        <translation type="unfinished">先月</translation>
     </message>
 </context>
 <context>
@@ -247,10 +235,6 @@
     <message>
         <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the &quot;Select&quot; button.</source>
         <translation>ラジオボタンもしくはチェックボックスでオブジェクトを選択し、”選択”ボタンをクリックして下さい。</translation>
-    </message>
-    <message>
-        <source>To select an object that is a child of one of the displayed objects, click the object name and you will get a list of the children of the object.</source>
-        <translation type="obsolete">子アイテムを選択したい場合は、オブジェクト名をクリックして下さい。子アイテムのリストが表示されます。</translation>
     </message>
     <message>
         <source>Back</source>
@@ -275,10 +259,6 @@
 </context>
 <context>
     <name>design/ezwebin/content/browse_mode_list</name>
-    <message>
-        <source>Invert selection.</source>
-        <translation type="obsolete">選択の反転</translation>
-    </message>
     <message>
         <source>Name</source>
         <translation>名前</translation>
@@ -387,10 +367,6 @@
         <translation>マイドラフト</translation>
     </message>
     <message>
-        <source>Empty Draft</source>
-        <translation type="obsolete">ドラフトを空にする</translation>
-    </message>
-    <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
         <translation>現在あなたが編集しているオブジェクトです.このドラフトはあなたの所有で、あなたのみ閲覧可能です.
@@ -448,24 +424,12 @@
         <translation>保存して編集終了</translation>
     </message>
     <message>
-        <source>Store the draft that is being edited and exit from edit mode.</source>
-        <translation type="obsolete">編集中のドラフトを保存して、編集モードを閉じる.</translation>
-    </message>
-    <message>
         <source>Preview</source>
         <translation>プレビュー</translation>
     </message>
     <message>
-        <source>No translation</source>
-        <translation type="obsolete">翻訳無し</translation>
-    </message>
-    <message>
         <source>Translate</source>
         <translation>翻訳</translation>
-    </message>
-    <message>
-        <source>Edit the current object showing the selected language as a reference.</source>
-        <translation type="obsolete">選択した言語を参照にしながら、オブジェクトを編集する。</translation>
     </message>
     <message>
         <source>Edit %1 - %2</source>
@@ -480,10 +444,6 @@
         <translation>ドラフトを保存</translation>
     </message>
     <message>
-        <source>Discard</source>
-        <translation type="obsolete">破棄</translation>
-    </message>
-    <message>
         <source>Discard draft</source>
         <translation type="unfinished"></translation>
     </message>
@@ -495,21 +455,17 @@
         <source>Documentation</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Translating content from %from_lang to %to_lang</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content in %language</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_attribute</name>
-    <message>
-        <source>not translatable</source>
-        <translation type="obsolete">翻訳不可</translation>
-    </message>
-    <message>
-        <source>required</source>
-        <translation type="obsolete">必須</translation>
-    </message>
-    <message>
-        <source>information collector</source>
-        <translation type="obsolete">フォームコレクション要素</translation>
-    </message>
     <message>
         <source>Not translatable</source>
         <translation type="unfinished"></translation>
@@ -538,19 +494,9 @@
         <translation>オブジェクトは ユーザ %owner の所有です.</translation>
     </message>
     <message>
-        <source>This object is already being edited by someone else including you.
-    You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="obsolete">このオブジェクトは他のユーザにより編集中です.あなたのドラフトの編集を続けるか、新規ドラフトを作成して下さい.</translation>
-    </message>
-    <message>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
         <translation>このオブジェクトを編集中です.このまま編集を続けるか、新規ドラフトを作成して下さい.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by someone else.
-        You should either contact the person about the draft or create a new draft for personal editing.</source>
-        <translation type="obsolete">このオブジェクトは他のユーザにより編集中です.このユーザに連絡を取るか、新規ドラフトを作成して下さい.</translation>
     </message>
     <message>
         <source>Current drafts</source>
@@ -602,32 +548,8 @@
         <translation>使用中の言語</translation>
     </message>
     <message>
-        <source>Select the language you want to use when editing the object</source>
-        <translation type="obsolete">編集に使用する言語を選択して下さい.</translation>
-    </message>
-    <message>
         <source>New languages</source>
         <translation>新しい言語</translation>
-    </message>
-    <message>
-        <source>Select the language you want to add to the object</source>
-        <translation type="obsolete">オブジェクトに追加したい言語の選択</translation>
-    </message>
-    <message>
-        <source>Select the language the added translation will be based on</source>
-        <translation type="obsolete">翻訳に使用する言語を選択して下さい.</translation>
-    </message>
-    <message>
-        <source>use an empty, untranslated draft</source>
-        <translation type="obsolete">翻訳されていない白紙のドラフトを利用する.</translation>
-    </message>
-    <message>
-        <source>You do not have sufficient permissions to create a translation in another language.</source>
-        <translation type="obsolete">他の言語で翻訳する権限がありません.</translation>
-    </message>
-    <message>
-        <source>However you can select one of the following languages for editing</source>
-        <translation type="obsolete">但し、以下の言語からの選択は可能です.</translation>
     </message>
     <message>
         <source>You do not have permission to edit the object in any available languages.</source>
@@ -673,20 +595,8 @@
         <translation>このバージョンはドラフトではありません。</translation>
     </message>
     <message>
-        <source>Version %1 is not available for editing anymore, only drafts can be edited.</source>
-        <translation type="obsolete">バージョン%1は編集出来ません。ドラフトのみ編集可能です。</translation>
-    </message>
-    <message>
-        <source>To edit this version create a copy of it.</source>
-        <translation type="obsolete">このバージョンを編集したい場合は、バージョンを複製して下さい。</translation>
-    </message>
-    <message>
         <source>Version not yours</source>
         <translation>このバージョンはあなたの所有ではありません。</translation>
-    </message>
-    <message>
-        <source>Version %1 was not created by you, only your own drafts can be edited.</source>
-        <translation type="obsolete">あなたはバージョン%1の作成者ではありません。自分のドラフトのみ編集可能です。</translation>
     </message>
     <message>
         <source>Unable to create new version</source>
@@ -695,10 +605,6 @@
     <message>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
         <translation>バージョン履歴のリミットを超えています。システムは保管されているバージョンを削除することは出来ません。</translation>
-    </message>
-    <message>
-        <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="obsolete">content.iniにてバージョン履歴の設定を変更することができます。そこからドラフトバージョンの削除やドラフトの編集も可能です。</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
@@ -728,10 +634,6 @@
     <message>
         <source>Select version #%version_number for removal.</source>
         <translation>バージョン#%version_numberを選択し削除</translation>
-    </message>
-    <message>
-        <source>Version #%version_number can not be removed because it is either the published version of the object or because you do not have permissions to remove it.</source>
-        <translation type="obsolete">バージョン#%version_numberは削除できません。このバージョンは現在公開中か、削除のための権限があなたにはありません。</translation>
     </message>
     <message>
         <source>View the contents of version #%version_number. Translation: %translation.</source>
@@ -766,16 +668,8 @@
         <translation>バージョン#%version_numberの複製を作成</translation>
     </message>
     <message>
-        <source>You can not make copies of versions because you do not have permissions to edit the object.</source>
-        <translation type="obsolete">権限がないため、このバージョンの複製を作成することが出来ません。</translation>
-    </message>
-    <message>
         <source>Edit the contents of version #%version_number.</source>
         <translation>バージョン#%version_numberのコンテントを編集</translation>
-    </message>
-    <message>
-        <source>You can not edit the contents of version #%version_number either because it is not a draft or because you do not have permissions to edit the object.</source>
-        <translation type="obsolete">バージョン#%version_numberのコンテントを編集することが出来ません。このバージョンはドラフトでないためか、権限がないためです。</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
@@ -858,10 +752,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Edited language</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -875,6 +765,10 @@
     </message>
     <message>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified translation</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -905,33 +799,12 @@
         <translation>その他のオプションはこちら%1Advanced search%2</translation>
     </message>
     <message>
-        <source>The following words were excluded from the search</source>
-        <translation type="obsolete">以下の語は検索から外されました。</translation>
-    </message>
-    <message>
-        <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation type="obsolete">&quot;%1&quot;に対する検索結果は得られませんでした.</translation>
-    </message>
-    <message>
         <source>Search tips</source>
         <translation>検索ヒント</translation>
     </message>
     <message>
         <source>Check spelling of keywords.</source>
         <translation>スペリングを確認して下さい。</translation>
-    </message>
-    <message>
-        <source>Try changing some keywords eg. car instead of cars.</source>
-        <translation type="obsolete">キーワードの表記を変えてみて下さい. 
-(英語の例 cars → car）.</translation>
-    </message>
-    <message>
-        <source>Try more general keywords.</source>
-        <translation type="obsolete">一般的なキーワードを試してみて下さい。</translation>
-    </message>
-    <message>
-        <source>Fewer keywords gives more results, try reducing keywords until you get a result.</source>
-        <translation type="obsolete">キーワードが少ないほど、より多くの結果を得られます.結果を得られるまで、キーワードを減らしてみて下さい.</translation>
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
@@ -1010,97 +883,14 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/versions</name>
-    <message>
-        <source>Versions for: %1</source>
-        <translation type="obsolete">%1のバージョン</translation>
-    </message>
-    <message>
-        <source>Version not a draft</source>
-        <translation type="obsolete">このバージョンはドラフトではありません。</translation>
-    </message>
-    <message>
-        <source>Version %1 is not available for editing any more, only drafts can be edited.</source>
-        <translation type="obsolete">バージョン%1は編集出来ません。ドラフトのみ編集可能です。</translation>
-    </message>
-    <message>
-        <source>To edit this version create a copy of it.</source>
-        <translation type="obsolete">このバージョンを編集したい場合は、バージョンを複製して下さい。</translation>
-    </message>
-    <message>
-        <source>Version not yours</source>
-        <translation type="obsolete">このバージョンはあなたの所有ではありません。</translation>
-    </message>
-    <message>
-        <source>Version %1 was not created by you, only your own drafts can be edited.</source>
-        <translation type="obsolete">あなたはバージョン%1の作成者ではありません。自分のドラフトのみ編集可能です。</translation>
-    </message>
-    <message>
-        <source>Unable to create new version</source>
-        <translation type="obsolete">新規バージョンの作成が出来ません。</translation>
-    </message>
-    <message>
-        <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation type="obsolete">バージョン履歴のリミットを超えています。システムは保管されているバージョンを削除することは出来ません。</translation>
-    </message>
-    <message>
-        <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="obsolete">content.iniにてバージョン履歴の設定を変更することができます。そこからドラフトバージョンの削除やドラフトの編集も可能です。</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="obsolete">バージョン</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">ステータス</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="obsolete">翻訳</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation type="obsolete">作成者</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="obsolete">修正日時</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">削除</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">編集</translation>
-    </message>
-    <message>
-        <source>Copy and edit</source>
-        <translation type="obsolete">コピーして編集</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/content/view/versionview</name>
     <message>
         <source>Edit</source>
         <translation>編集</translation>
     </message>
     <message>
-        <source>Edit the draft that is being displayed.</source>
-        <translation type="obsolete">表示中のドラフトを編集</translation>
-    </message>
-    <message>
         <source>Publish</source>
         <translation>公開</translation>
-    </message>
-    <message>
-        <source>Publish the draft that is being displayed.</source>
-        <translation type="obsolete">表示中のドラフトを公開</translation>
-    </message>
-    <message>
-        <source>This version is not a draft and thus it can not be edited.</source>
-        <translation type="obsolete">このバージョンはドラフトではないため編集できません。</translation>
     </message>
     <message>
         <source>Manage versions</source>
@@ -1213,14 +1003,102 @@
     </message>
 </context>
 <context>
+    <name>design/ezwebin/ezodf/browse_place</name>
+    <message>
+        <source>Choose document placement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please choose the placement for the OpenOffice.org object.
+
+    Select the placements and click the %buttonname button.
+    Using the recent and bookmark items for quick placement is also possible.
+    Click on placement names to change the browse listing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="unfinished">選択</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/ezodf/export</name>
+    <message>
+        <source>OpenOffice.org export</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export eZ publish content to OpenOffice.org</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export Object</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/ezodf/import</name>
+    <message>
+        <source>Document is now imported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OpenOffice.org import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The object was imported as: %class_name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The images are placed in the media and can be re-used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import another document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upload file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import OpenOffice.org document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Replace document</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
+asked where to place the document and eZ publish does the rest. The document is converted into
+the appropriate class during the import, you get a notice about this after the import is done.
+Images are placed in the media library so you can re-use them in other articles.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/full/article</name>
     <message>
         <source>Comments</source>
         <translation>コメント</translation>
-    </message>
-    <message>
-        <source>New Comment</source>
-        <translation type="obsolete">新規コメント</translation>
     </message>
     <message>
         <source>New comment</source>
@@ -1424,10 +1302,6 @@
         <translation>更新を知らせる</translation>
     </message>
     <message>
-        <source>You need to be logged in to get access to the forums. You can do so</source>
-        <translation type="obsolete">フォーラムへアクセスするにはログインする必要があります。こちらから</translation>
-    </message>
-    <message>
         <source>Author</source>
         <translation>投稿者</translation>
     </message>
@@ -1539,13 +1413,6 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/horizontallylistedsubitems/event</name>
-    <message>
-        <source>Category</source>
-        <translation type="obsolete">カテゴリー</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/line/event</name>
     <message>
         <source>Category</source>
@@ -1568,14 +1435,6 @@
 </context>
 <context>
     <name>design/ezwebin/line/forum</name>
-    <message>
-        <source>Number of Topics</source>
-        <translation type="obsolete">トピック数</translation>
-    </message>
-    <message>
-        <source>Number of Posts</source>
-        <translation type="obsolete">ポスト数</translation>
-    </message>
     <message>
         <source>Last reply</source>
         <translation>最新のコメント</translation>
@@ -1670,10 +1529,6 @@
         <translation>備考</translation>
     </message>
     <message>
-        <source>If %trashname is checked you will find the removed items in the trash afterwards.</source>
-        <translation type="obsolete">%trashnameをチェックしておくと、削除したアイテムを後にゴミ箱から見つけられます.</translation>
-    </message>
-    <message>
         <source>Confirm</source>
         <translation>確認</translation>
     </message>
@@ -1728,10 +1583,6 @@
     <message>
         <source>Create here</source>
         <translation>ここに作成</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">編集</translation>
     </message>
     <message>
         <source>Move</source>
@@ -1816,11 +1667,6 @@
         <translation>買い物カゴ</translation>
     </message>
     <message>
-        <source>The following items were removed from your basket, because the products were changed</source>
-        <translation type="obsolete">以下の商品に変更があったため, 
-あなたの買い物かごから削除されました.</translation>
-    </message>
-    <message>
         <source>VAT is unknown</source>
         <translation>税が不明です</translation>
     </message>
@@ -1857,18 +1703,6 @@
         <translation>割引</translation>
     </message>
     <message>
-        <source>Total Price ex. VAT</source>
-        <translation type="obsolete">合計（税別）</translation>
-    </message>
-    <message>
-        <source>Total Price inc. VAT</source>
-        <translation type="obsolete">合計（税込）</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation type="obsolete">不明</translation>
-    </message>
-    <message>
         <source>Update</source>
         <translation>更新</translation>
     </message>
@@ -1879,14 +1713,6 @@
     <message>
         <source>Selected options</source>
         <translation>選択したオプション</translation>
-    </message>
-    <message>
-        <source>Subtotal Ex. VAT</source>
-        <translation type="obsolete">お買上小計（税別）</translation>
-    </message>
-    <message>
-        <source>Subtotal Inc. VAT</source>
-        <translation type="obsolete">お買上小計（税込）</translation>
     </message>
     <message>
         <source>Shipping</source>
@@ -1903,10 +1729,6 @@
     <message>
         <source>Checkout</source>
         <translation>チェックアウト</translation>
-    </message>
-    <message>
-        <source>You have no products in your basket</source>
-        <translation type="obsolete">買い物カゴが空です</translation>
     </message>
     <message>
         <source>The following items were removed from your basket because the products were changed.</source>
@@ -1972,14 +1794,6 @@
         <translation>割引</translation>
     </message>
     <message>
-        <source>Total Price ex. VAT</source>
-        <translation type="obsolete">合計（税別）</translation>
-    </message>
-    <message>
-        <source>Total Price inc. VAT</source>
-        <translation type="obsolete">合計（税込）</translation>
-    </message>
-    <message>
         <source>Selected options</source>
         <translation>選択したオプション</translation>
     </message>
@@ -2014,10 +1828,6 @@
 </context>
 <context>
     <name>design/ezwebin/shop/customerorderview</name>
-    <message>
-        <source>Customer Information</source>
-        <translation type="obsolete">お客様情報</translation>
-    </message>
     <message>
         <source>Order list</source>
         <translation>ご注文リスト</translation>
@@ -2157,14 +1967,6 @@
         <translation>割引</translation>
     </message>
     <message>
-        <source>Total Price ex. VAT</source>
-        <translation type="obsolete">合計（税別）</translation>
-    </message>
-    <message>
-        <source>Total Price inc. VAT</source>
-        <translation type="obsolete">合計（税込）</translation>
-    </message>
-    <message>
         <source>Order summary</source>
         <translation>ご注文の要約</translation>
     </message>
@@ -2212,20 +2014,12 @@
         <translation>お客様情報</translation>
     </message>
     <message>
-        <source>Input did not validate, all fields marked with * must be filled in</source>
-        <translation type="obsolete">無効な入力です.* は必須項目です.</translation>
-    </message>
-    <message>
         <source>First name</source>
         <translation>名</translation>
     </message>
     <message>
         <source>Last name</source>
         <translation>姓</translation>
-    </message>
-    <message>
-        <source>E-mail</source>
-        <translation type="obsolete">E-mail</translation>
     </message>
     <message>
         <source>Company</source>
@@ -2352,10 +2146,6 @@
         <translation>ユーザ名</translation>
     </message>
     <message>
-        <source>E-mail</source>
-        <translation type="obsolete">E-mail</translation>
-    </message>
-    <message>
         <source>Name</source>
         <translation>名前</translation>
     </message>
@@ -2391,14 +2181,6 @@
 <context>
     <name>design/ezwebin/user/forgotpassword</name>
     <message>
-        <source>A mail has been sent to the following e-mail address: %1. This e-mail contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
-        <translation type="obsolete">%1へメールを送信しました.リンクをクリックして、新規パスワードの作成を確認して下さい。</translation>
-    </message>
-    <message>
-        <source>There is no registered user with that e-mail address.</source>
-        <translation type="obsolete">このe-mailアドレスでのユーザ登録はありません.</translation>
-    </message>
-    <message>
         <source>Password was successfully generated and sent to: %1</source>
         <translation>新しいパスワードは %1 に送信されました.</translation>
     </message>
@@ -2409,14 +2191,6 @@
     <message>
         <source>Have you forgotten your password?</source>
         <translation>パスワードを忘れましたか?</translation>
-    </message>
-    <message>
-        <source>If you have forgotten your password we can generate a new one for you. All you need to do is to enter your e-mail address and we will create a new password for you.</source>
-        <translation type="obsolete">パスワードを忘れた場合は、e-mailアドレスを入力して下さい.新規にパスワードを作成します.</translation>
-    </message>
-    <message>
-        <source>E-mail</source>
-        <translation type="obsolete">E-mail</translation>
     </message>
     <message>
         <source>Generate new password</source>
@@ -2471,10 +2245,6 @@
         <translation>パスワード</translation>
     </message>
     <message>
-        <source>Log in to the administration interface of eZ publish</source>
-        <translation type="obsolete">eZ Publishのアドミニストレーションインターフェースへログインする。</translation>
-    </message>
-    <message>
         <source>Remember me</source>
         <translation>次回からログインを省略</translation>
     </message>
@@ -2482,11 +2252,6 @@
         <source>Login</source>
         <comment>Button</comment>
         <translation>ログイン</translation>
-    </message>
-    <message>
-        <source>Sign Up</source>
-        <comment>Button</comment>
-        <translation type="obsolete">サインアップ</translation>
     </message>
     <message>
         <source>Forgot your password?</source>
@@ -2500,6 +2265,45 @@
         <source>Sign up</source>
         <comment>Button</comment>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/user/password</name>
+    <message>
+        <source>Change password for user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please retype your old password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password didn&apos;t match, please retype your new password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password successfully updated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Old password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Retype password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="unfinished">OK</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">キャンセル</translation>
     </message>
 </context>
 <context>
@@ -2540,12 +2344,6 @@
         <translation>登録されました</translation>
     </message>
     <message>
-        <source>Your account was successfully created. An e-mail will be sent to the specified
-e-mail address. You need to follow the instructions in that mail to activate
-your account.</source>
-        <translation type="obsolete">アカウントが作成されました。e-mailが届きますので、手順に従ってアカウントを有効にして下さい。</translation>
-    </message>
-    <message>
         <source>Your account was successfully created.</source>
         <translation>アカウントが作成されました。</translation>
     </message>
@@ -2559,6 +2357,17 @@ your account.</source>
     <message>
         <source>The file could not be found.</source>
         <translation>ファイルが見つかりません。</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/view/ezmedia</name>
+    <message>
+        <source>No %link_startFlash player%link_end avaliable!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No media file is available.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
