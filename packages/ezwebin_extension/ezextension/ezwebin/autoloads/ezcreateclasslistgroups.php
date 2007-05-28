@@ -35,6 +35,8 @@ class eZCreateClassListGroups
             {
                 $groupArray = array();
 
+                $ini =& eZINI::instance( 'websitetoolbar.ini' );
+
                 foreach ( $canCreateClassList as $class )
                 {
                     $contentClass = eZContentClass::fetch( $class['id'] );
@@ -44,14 +46,27 @@ class eZCreateClassListGroups
 
                     foreach ( $contentClass->fetchGroupList() as $group )
                     {
+                        $isHidden = false;
+
+                        if ( in_array( $contentClass->attribute('identifier'), $ini->variable( 'WebsiteToolbarSettings', 'HiddenContentClasses' ) ) )
+                        {
+                            $isHidden = true;
+                        }
+
                         if ( array_key_exists( $group->attribute( 'group_id' ), $groupArray ) )
                         {
-                         	$groupArray[$group->attribute( 'group_id' )]['items'][] = $contentClass;
+                            if( !$isHidden )
+                            {
+                         	    $groupArray[$group->attribute( 'group_id' )]['items'][] = $contentClass;
+                            }
                         }
                         else
                         {
-                            $groupArray[$group->attribute( 'group_id' )]['items'] = array( $contentClass );
-                            $groupArray[$group->attribute( 'group_id' )]['group_name'] = $group->attribute( 'group_name' );
+                            if( !$isHidden )
+                            {
+                                $groupArray[$group->attribute( 'group_id' )]['items'] = array( $contentClass );
+                                $groupArray[$group->attribute( 'group_id' )]['group_name'] = $group->attribute( 'group_name' );
+                            }
                         }
                     }
                 }
