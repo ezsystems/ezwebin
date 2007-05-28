@@ -3,21 +3,34 @@
      $can_edit_languages = $content_object.can_edit_languages
      $can_manage_location = or( fetch( 'content', 'access', hash( 'access', 'manage_locations', 'contentobject', $current_node ) ), fetch( 'content', 'access', hash( 'access', 'create', 'contentobject', $current_node ) ) )
      $can_create_languages = $content_object.can_create_languages
-     $available_for_classes = ezini( 'WebsiteToolbarSettings', 'AvailableForClasses', 'websitetoolbar.ini' )
-     $containers = ezini( 'WebsiteToolbarSettings', 'ContentClassContainers', 'websitetoolbar.ini' )
+     $is_container = $content_object.content_class.is_container
      $odf_display_classes = ezini( 'WebsiteToolbarSettings', 'ODFDisplayClasses', 'websitetoolbar.ini' )
-     $website_toolbar_access = 0
-     $group_object = null
-     $content_object_language_code = ''}
+     $website_toolbar_access = fetch( 'user', 'has_access_to', hash( 'module', 'websitetoolbar', 'function', 'use' ) )
+     $content_object_language_code = ''
+     $policies = fetch( 'user', 'user_role', hash( 'user_id', $current_user.contentobject_id ) )
+     $available_for_current_class = false()}
 
-{foreach $current_user.groups as $group}
-   {set $group_object = fetch( 'content', 'object', hash( 'object_id', $group ) )}
-   {if and( is_set( $group_object.data_map.website_toolbar_access ), $group_object.data_map.website_toolbar_access.data_int )}
-       {set $website_toolbar_access = 1}
-   {/if}
-{/foreach}
+     {foreach $policies as $policy}
+        {if and( eq( $policy.moduleName, 'websitetoolbar' ),
+                    eq( $policy.functionName, 'use' ),
+                        is_array( $policy.limitation ) )}
+            {if $policy.limitation[0].values_as_array|contains( $content_object.content_class.id )}
+                {set $available_for_current_class = true()}
+            {/if}
+        {elseif or( and( eq( $policy.moduleName, '*' ),
+                             eq( $policy.functionName, '*' ),
+                                 eq( $policy.limitation, '*' ) ),
+                    and( eq( $policy.moduleName, 'websitetoolbar' ),
+                             eq( $policy.functionName, '*' ),
+                                 eq( $policy.limitation, '*' ) ),
+                    and( eq( $policy.moduleName, 'websitetoolbar' ),
+                             eq( $policy.functionName, 'use' ),
+                                 eq( $policy.limitation, '*' ) ) )}
+            {set $available_for_current_class = true()}
+        {/if}
+     {/foreach}
 
-{if and( $website_toolbar_access, $available_for_classes|contains( $current_node.class_identifier ) )}
+{if and( $website_toolbar_access, $available_for_current_class )}
 
 <!-- eZ website toolbar: START -->
 
@@ -34,21 +47,20 @@
 <div id="ezwt-standardactions">
 
 <form method="post" action={"content/action"|ezurl} class="left">
-{if and( $content_object.can_create,$containers|contains( $current_node.class_identifier ) )}
+{if and( $content_object.can_create, $is_container )}
 <label for="ezwt-create" class="hide">Create:</label>
+{def $can_create_class_list = ezcreateclasslistgroups( $content_object.can_create_class_list )}
+  {if $can_create_class_list|count()}
   <select name="ClassID" id="ezwt-create">
-  {foreach ezcreateclasslistgroups( $content_object.can_create_class_list ) as $group}
+  {foreach $can_create_class_list as $group}
 	<optgroup label="{$group.group_name}">
     {foreach $group.items as $class}
-        {if ezini( 'WebsiteToolbarSettings', 'HiddenContentClasses', 'websitetoolbar.ini' )|contains( $class.identifier )}
-            {continue}
-        {else}
         <option value="{$class.id}">{$class.name|wash}</option>
-        {/if}
     {/foreach}
     </optgroup>
   {/foreach}
   </select>
+  {/if}
   <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
   <input type="image" src={"websitetoolbar/ezwt-icon-new.gif"|ezimage} name="NewButton" title="{'Create here'|i18n('design/ezwebin/parts/website_toolbar')}" />
 {/if}
@@ -96,7 +108,7 @@
 
 {def $disable_oo=true()}
 
-{if $odf_display_classes|contains( $current_node.class_identifier )}
+{if $odf_display_classes|contains( $content_object.content_class.identifier )}
     {set $disable_oo=false()}
 {/if}
 
