@@ -186,7 +186,7 @@ function expandClass( $classIdentifierParam )
         }
         $attributeObject->store();
 
-        $newAttributeObjectArr[] = $attributeObject->clone();
+        $newAttributeObjectArr[] = clone $attributeObject;
 
         $newAttributeIDArray[] = $attributeObject->attribute( 'id' );
     }
@@ -217,7 +217,7 @@ function expandClass( $classIdentifierParam )
 
     $diff = getAttributeIdDiff( $currentAttributeObjectArray, $attributeObjectsToBeStored );
 
-    $db =& eZDB::instance();
+    $db = eZDB::instance();
     foreach ( $diff as $id )
     {
         $queryResult = $db->query( "UPDATE ezcontentclass_attribute SET version=0 WHERE id=".$id );
@@ -524,7 +524,7 @@ function setEZXMLAttribute( &$attribute, &$attributeValue, $link = false )
     /*
     if ( !is_object( $document ) )
     {
-        $cli =& eZCLI::instance();
+        $cli = eZCLI::instance();
         $cli->output( 'Error in xml parsing' );
         return;
     }
