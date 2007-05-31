@@ -6,3 +6,5 @@ Changes from 1.2-0 to 1.2-1
   (Merged from ezwebin trunk rev. 1438)
 - Fixed bug #10823: Website toolbar uses flag in usergroup to determine availability, not proper policy system.
   (Merged from ezwebin trunk rev. 1444)
+- Fixed bug #10875: Editor user has no access to content/pendinglist
+  (Merged from ezwebin trunk rev. 1471)
