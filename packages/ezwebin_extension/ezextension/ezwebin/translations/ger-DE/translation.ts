@@ -833,7 +833,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     <name>design/ezwebin/content/tipafriend</name>
     <message>
         <source>Tip a friend</source>
-        <translation>Einem Frend empfehlen</translation>
+        <translation>Einem Freund empfehlen</translation>
     </message>
     <message>
         <source>The message was sent.</source>
@@ -1108,21 +1108,21 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Tip a friend</source>
-        <translation>Einem Frend empfehlen</translation>
+        <translation>Einem Freund empfehlen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_mainpage</name>
     <message>
         <source>Tip a friend</source>
-        <translation>Einem Frend empfehlen</translation>
+        <translation>Einem Freund empfehlen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_subpage</name>
     <message>
         <source>Tip a friend</source>
-        <translation>Einem Frend empfehlen</translation>
+        <translation>Einem Freund empfehlen</translation>
     </message>
 </context>
 <context>
