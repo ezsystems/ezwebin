@@ -227,7 +227,7 @@
         md5sum="1b529cc17fab0fed2bc3c5cce7122175" />
   <file name="core.css"
         path="/design/ezwebin/stylesheets"
-        md5sum="42940b203827895ecebc46cc2f916d08" />
+        md5sum="af0df06563e746f90986e882a49ff84d" />
   <file name="browsers"
         path="/design/ezwebin/stylesheets"
         md5sum="d41d8cd98f00b204e9800998ecf8427e"
@@ -301,7 +301,7 @@
         md5sum="627df7c493e369fdbdb60c9e23903df9" />
   <file name="edit.tpl"
         path="/design/ezwebin/templates/user"
-        md5sum="1743246e0c4b5cb01e9b21d21e976017" />
+        md5sum="06a15b8c0301dea435d7eb6903f4b68a" />
   <file name="content"
         path="/design/ezwebin/templates"
         md5sum="d41d8cd98f00b204e9800998ecf8427e"
@@ -340,6 +340,9 @@
   <file name="diff.tpl"
         path="/design/ezwebin/templates/content"
         md5sum="1119bd7f7b48ed1d1971702697aa891f" />
+  <file name="pendinglist.tpl"
+        path="/design/ezwebin/templates/content"
+        md5sum="914da596ae6db09954cb32668758e5bf" />
   <file name="collectedinfomail"
         path="/design/ezwebin/templates/content"
         md5sum="d41d8cd98f00b204e9800998ecf8427e"

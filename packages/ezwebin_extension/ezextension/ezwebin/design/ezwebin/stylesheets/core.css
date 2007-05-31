@@ -119,7 +119,7 @@ pre.wordwrap span.line /* Style for tag wrapping around each line of text */
 /* TABLES */
 
 table
-{ 
+{
     font-size: 1em; /* Fix for size "loss" in tables in IE; redundant for most other browsers */
     margin: 0;
     padding: 0;
@@ -193,12 +193,17 @@ table.list a
     border-bottom-color: #EAE9E1;
 }
 
+table.list img
+{
+    vertical-align: middle;
+}
+
 th.tight, td.tight
 {
     width: 1%;
 }
 
-td.nowrap 
+td.nowrap
 {
     white-space: nowrap;
 }
@@ -297,7 +302,7 @@ optgroup
     font-style: normal;
 }
 
-input.button, button, input.defaultbutton 
+input.button, button, input.defaultbutton
 {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	text-align: center;
@@ -456,8 +461,8 @@ div.object-right /* Used for floating images and other content elements to the r
     height: 0;
     font-size: 0;
     visibility: hidden;
-    display: block; 
-    clear: both; 
+    display: block;
+    clear: both;
 }
 
 div.break /* Old method for terminating floating elements flow; kept for backwards compatibility */
