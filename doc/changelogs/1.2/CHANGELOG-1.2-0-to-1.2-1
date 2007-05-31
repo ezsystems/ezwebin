@@ -8,3 +8,4 @@ Changes from 1.2-0 to 1.2-1
   (Merged from ezwebin trunk rev. 1444)
 - Fixed bug #10875: Editor user has no access to content/pendinglist
   (Merged from ezwebin trunk rev. 1471)
+- Fixed bug #010709: typpo in ger translation
