@@ -1189,9 +1189,8 @@ array(
 '7'=>'imagelarge',
 '8'=>'large',
 '9'=>'rss',
-'10'=>'logo',
-'11'=>'infoboximage',
-'12'=>'billboard'
+'10'=>'infoboximage',
+'11'=>'billboard'
 )
 ),
 'small'=>
@@ -1224,14 +1223,6 @@ array(
 'Filters'=>
 array(
 '0'=>'geometry/scale=88;31'
-)
-),
-'logo'=>
-array(
-'Reference'=>'',
-'Filters'=>
-array(
-'0'=>'geometry/scaleheight=36'
 )
 ),
 'listitem'=>
