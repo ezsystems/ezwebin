@@ -33,40 +33,11 @@
 // you.
 //
 
-/*function eZSiteRemoteObjectID( $parameters, $remoteID )
-{
-    $remoteMap = $parameters['object_remote_map'];
-    if ( isset( $remoteMap[$remoteID] ) )
-        return $remoteMap[$remoteID];
-    return false;
-}*/
-
 function eZSitePreferences( $parameters )
 {
-    $adminAccountID = eZSiteRemoteObjectID( $parameters, '1bb4fe25487f05527efa8bfd394cecc7' );
+    $installer = new eZWebinInstaller( $parameters );
 
-    $preferences = array();
-
-    // Make sure admin starts with:
-    // - The 'preview' window set as open by default
-    // - The 'content structure' tool is open by default
-    // - The 'bookmarks' tool is open by default
-    // - The 'roles' and 'policies' windows are open by default
-    // - The child list limit is 25 by default
-    $preferences[] = array( 'user_id' => $adminAccountID,
-                            'preferences' => array( array( 'name' => 'admin_navigation_content',
-                                                           'value' => '1' ),
-                                                    array( 'name' => 'admin_navigation_roles',
-                                                           'value' => '1' ),
-                                                    array( 'name' => 'admin_navigation_policies',
-                                                           'value' => '1' ),
-                                                    array( 'name' => 'admin_list_limit',
-                                                           'value' => '2' ),
-                                                    array( 'name' => 'admin_treemenu',
-                                                           'value' => '1' ),
-                                                    array( 'name' => 'admin_bookmark_menu',
-                                                           'value' => '1' ) ) );
-    return $preferences;
+    return $installer->sitePreferences();
 }
 
 ?>
