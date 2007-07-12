@@ -12,7 +12,7 @@
 <div class="content-view-sitemap">
 
 <div class="attribute-header">
-	<h1 class="long">{"Site map"|i18n("design/ezwebin/view/sitemap")} {$node.name|wash}</h1>
+    <h1 class="long">{"Site map"|i18n("design/ezwebin/view/sitemap")} {$node.name|wash}</h1>
 </div>
 
 <table width="100%" cellspacing="0" cellpadding="4">

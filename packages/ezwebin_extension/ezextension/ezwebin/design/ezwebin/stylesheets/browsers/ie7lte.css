@@ -2,7 +2,7 @@
 
 div#searchbox
 {
-	margin-top: 1.5em;
+    margin-top: 1.5em;
 }
 
 div.overflow-fix /* Hides long non-breaking lines and terminates bugs */
@@ -24,11 +24,11 @@ input.button
 
 div#path
 {
-	padding-top: 0.6em;
-	padding-bottom: 0.6em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
 }
 
 div.content-view-full div.class-frontpage div.attribute-billboard
 {
-	padding-top: 0.2em;
+    padding-top: 0.2em;
 }

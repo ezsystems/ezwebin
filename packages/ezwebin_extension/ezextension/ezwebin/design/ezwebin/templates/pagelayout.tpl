@@ -7,7 +7,7 @@
      $user_id           = $current_user.contentobject_id}
 
 {if and( $current_node_id|eq(0), is_set( $module_result.path.0 ) , is_set( $module_result.path[$module_result.path|count|dec].node_id ) )}
-	{set $current_node_id = $module_result.path[$module_result.path|count|dec].node_id}
+    {set $current_node_id = $module_result.path[$module_result.path|count|dec].node_id}
 {/if}
 
 {cache-block keys=array( $uri_string, $basket_is_empty, $user_id )}
@@ -65,19 +65,19 @@
 {elseif eq( $ui_context, 'browse' )}
     {set $pagestyle       = 'nosidemenu noextrainfo'}
 {elseif $current_node_id}
-	{if is_set( $module_result.path[$pagerootdepth|dec].node_id )}
-		{set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
-	{/if}
-	{if is_set( $module_result.path[1] )}
-	    {set $infobox_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $current_node_id,
+    {if is_set( $module_result.path[$pagerootdepth|dec].node_id )}
+        {set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
+    {/if}
+    {if is_set( $module_result.path[1] )}
+        {set $infobox_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $current_node_id,
                                                                     'class_filter_type', 'include',
                                                                     'class_filter_array', array( 'infobox' ) ) )}
-	    {if ne( $infobox_count , 0 ) }
-	        {set $pagestyle = 'sidemenu extrainfo'}
-	    {else}
-	        {set $pagestyle = 'sidemenu noextrainfo'}
-	    {/if}
-	{/if}
+        {if ne( $infobox_count , 0 ) }
+            {set $pagestyle = 'sidemenu extrainfo'}
+        {else}
+            {set $pagestyle = 'sidemenu noextrainfo'}
+        {/if}
+    {/if}
 {/if}
 
 {if is_set($module_result.section_id)}
@@ -108,13 +108,13 @@
         {if $row.columns[0]}
             {set $site_url = $site_url|append( "/" )}
             <li{if $row.columns[1]|downcase()|eq($access_type.name)} class="current_siteaccess"{/if}>
-	        {if is_set($DesignKeys:used.url_alias)}
-	            <a href="{concat( "http://", $site_url,
-	                     $DesignKeys:used.url_alias
-	                     )}">{$language}</a>
-	        {else}
-	            <a href="{concat( "http://", $site_url,
-	                     $uri_string
+            {if is_set($DesignKeys:used.url_alias)}
+                <a href="{concat( "http://", $site_url,
+                         $DesignKeys:used.url_alias
+                         )}">{$language}</a>
+            {else}
+                <a href="{concat( "http://", $site_url,
+                         $uri_string
                          )}">{$language}</a>
             {/if}
             </li>
@@ -200,9 +200,9 @@
   <!-- Top menu area: END -->
   {if not( and( is_set( $content_info.class_identifier ),
                 eq( $content_info.class_identifier, 'frontpage' ),
-	        and( is_set( $content_info.viewmode ), ne( $content_info.viewmode, 'sitemap' ) ),
-	        and( is_set( $content_info.viewmode ), ne( $content_info.viewmode, 'tagcloud' ) )
-	      )
+            and( is_set( $content_info.viewmode ), ne( $content_info.viewmode, 'sitemap' ) ),
+            and( is_set( $content_info.viewmode ), ne( $content_info.viewmode, 'tagcloud' ) )
+          )
          )}
 
   <!-- Path area: START -->
