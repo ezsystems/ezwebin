@@ -74,7 +74,9 @@
         {/if}
         {/if}
 
-        {if eq( ezini( 'TipAFriend', 'Enabled' ), 'true' )}
+        {def $tipafriend_access=fetch( 'user', 'has_access_to', hash( 'module', 'content',
+                                                                      'function', 'tipafriend' ) )}
+        {if and( ezmodule( 'content/tipafriend' ), $tipafriend_access )}
         <div class="attribute-tipafriend">
             <p><a href={concat( "/content/tipafriend/", $node.node_id )|ezurl} title="{'Tip a friend'|i18n( 'design/ezwebin/full/article' )}">{'Tip a friend'|i18n( 'design/ezwebin/full/article' )}</a></p>
         </div>
