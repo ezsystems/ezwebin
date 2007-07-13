@@ -5,7 +5,7 @@
 <div class="content-tipafriend">
 
 <div class="attribute-header">
-	<h1 class="long">{"Tip a friend"|i18n("design/ezwebin/content/tipafriend")}</h1>
+    <h1 class="long">{"Tip a friend"|i18n("design/ezwebin/content/tipafriend")}</h1>
 </div>
 
 {switch name=Sw match=$action}

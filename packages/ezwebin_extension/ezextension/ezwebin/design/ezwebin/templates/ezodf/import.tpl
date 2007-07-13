@@ -32,7 +32,7 @@
 </div>
 
 <div class="block">
-	<input class="button" type="submit" name="StoreButton" value="{'Upload file'|i18n('design/ezwebin/ezodf/import')}" />
+    <input class="button" type="submit" name="StoreButton" value="{'Upload file'|i18n('design/ezwebin/ezodf/import')}" />
 </div>
 
 {section-else}
@@ -58,7 +58,7 @@ Images are placed in the media library so you can re-use them in other articles.
 <input class="box" name="oo_file" type="file" />
 
 <div class="block">
-	<input class="button" type="submit" name="StoreButton" value="{'Upload file'|i18n('design/ezwebin/ezodf/import')}" />
+    <input class="button" type="submit" name="StoreButton" value="{'Upload file'|i18n('design/ezwebin/ezodf/import')}" />
 </div>
 
 {/section}

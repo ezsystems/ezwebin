@@ -1,91 +1,91 @@
 .toolbar 
 {
-	cursor:default;
+    cursor:default;
     background-color:#EAE9E1;
 }
 
 .td
 {
-	font-size: 12px;
+    font-size: 12px;
     font-weight: bold;
-	font-family: Sans-serif, Verdana, Geneva, Arial, Helvetica,;
-	border: none;
+    font-family: Sans-serif, Verdana, Geneva, Arial, Helvetica,;
+    border: none;
 }
 
 .toolbarSection
 { 
-	width: auto;
+    width: auto;
 }
 
 
 .statusbar 
 {
-	cursor:default;
+    cursor:default;
     background-color: #EAE9E1;
-	border: none;
+    border: none;
 }
 
 .editorName
 {
-	font-size: 12px;
+    font-size: 12px;
     font-weight: bold;
-	font-family: Sans-serif, Verdana, Geneva, Arial, Helvetica,;
+    font-family: Sans-serif, Verdana, Geneva, Arial, Helvetica,;
     color: #000077;
-	border: none;
+    border: none;
 }
 .statusbarTD
 {
-	font-size: 12px;
-	font-family: Sans-serif, Verdana, Geneva, Arial, Helvetica,;
+    font-size: 12px;
+    font-family: Sans-serif, Verdana, Geneva, Arial, Helvetica,;
     color: #000000;
-	border: none;
+    border: none;
 }
 
 .textfield
 {
-	cursor:default;
-	background-color:buttonface;
-	margin-bottom:1px;
+    cursor:default;
+    background-color:buttonface;
+    margin-bottom:1px;
 }
 
 .toolbarButton
 {
-	cursor:default;
+    cursor:default;
         /*background-color:buttonface;*/
         background-color: #EAE9E1;
-	/*border-style:solid;*/
-	border-width:1px;
+    /*border-style:solid;*/
+    border-width:1px;
         width: 24px;
         height: 24px;
-	/*border-background:buttonface;*/
+    /*border-background:buttonface;*/
 }
 
 .toolbarButtonSelected
 {
-	cursor:default;
-	background-color: #EAE9E1;
-	border-style:inset;
-	border-width:2px;
+    cursor:default;
+    background-color: #EAE9E1;
+    border-style:inset;
+    border-width:2px;
         width: 24px;
         height: 24px;
 }
 
 .toolbarButtonOverSelected
 {
-	background-color: #ffffff;
-	border-width:1px;
+    background-color: #ffffff;
+    border-width:1px;
         width: 24px;
         height: 24px;
-	border: #f08c00 2px solid;
+    border: #f08c00 2px solid;
 }
 
 .toolbarButtonOver
 {
-	background-color: #ffffff;
-	border-width:1px;
+    background-color: #ffffff;
+    border-width:1px;
         width: 24px;
         height: 24px;
-	border: #f08c00 2px solid;
+    border: #f08c00 2px solid;
 }
 
 .toolbarButtonOut
@@ -93,19 +93,19 @@
     width: 24px;
     height: 24px;
     cursor:default;
-	background-color: #EAE9E1;
-	border-width:1px;
+    background-color: #EAE9E1;
+    border-width:1px;
       
 }
 
 .toolbarButtonDisabled
 {
-	cursor:default;
+    cursor:default;
         background-color:buttonface;
-	border-width:1px;
+    border-width:1px;
         width: 24px;
         height: 24px;
-        -moz-opacity: 0.4;	
+        -moz-opacity: 0.4;    
 }
 
 /*
