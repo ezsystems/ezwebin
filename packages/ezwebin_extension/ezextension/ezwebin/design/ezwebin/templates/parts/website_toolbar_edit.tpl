@@ -12,11 +12,11 @@
 
 <div id="ezwt-standardactions" class="left">
 
-	<input type="image" src={"websitetoolbar/ezwt-icon-versions.gif"|ezimage} name="VersionsButton" title="{'Manage versions'|i18n('design/ezwebin/content/edit')}" />
+    <input type="image" src={"websitetoolbar/ezwt-icon-versions.gif"|ezimage} name="VersionsButton" title="{'Manage versions'|i18n('design/ezwebin/content/edit')}" />
 
-	<input type="image" src={"websitetoolbar/ezwt-icon-exit.gif"|ezimage} name="StoreExitButton" title="{'Store and exit'|i18n( 'design/ezwebin/content/edit' )}" />
+    <input type="image" src={"websitetoolbar/ezwt-icon-exit.gif"|ezimage} name="StoreExitButton" title="{'Store and exit'|i18n( 'design/ezwebin/content/edit' )}" />
 
-	<input type="image" src={"websitetoolbar/ezwt-icon-preview.gif"|ezimage} name="PreviewButton" title="{'Preview'|i18n('design/ezwebin/content/edit')}" />
+    <input type="image" src={"websitetoolbar/ezwt-icon-preview.gif"|ezimage} name="PreviewButton" title="{'Preview'|i18n('design/ezwebin/content/edit')}" />
 
 <select name="FromLanguage">
 <option value=""{if $from_language|not} selected="selected"{/if}> {'Translate from'|i18n( 'design/ezwebin/content/edit' )}</option>
@@ -31,9 +31,9 @@
 </select>
 
 {if $object.status|eq(0)}
-	<input disabled="disabled" type="image" src={"websitetoolbar/ezwt-icon-add_translation-disabled.gif"|ezimage} name="FromLanguageButton" title="{'Translate'|i18n( 'design/ezwebin/content/edit' )}" />
+    <input disabled="disabled" type="image" src={"websitetoolbar/ezwt-icon-add_translation-disabled.gif"|ezimage} name="FromLanguageButton" title="{'Translate'|i18n( 'design/ezwebin/content/edit' )}" />
 {else}
-	<input type="image" src={"websitetoolbar/ezwt-icon-add_translation.gif"|ezimage} name="FromLanguageButton" title="{'Translate'|i18n( 'design/ezwebin/content/edit' )}" />
+    <input type="image" src={"websitetoolbar/ezwt-icon-add_translation.gif"|ezimage} name="FromLanguageButton" title="{'Translate'|i18n( 'design/ezwebin/content/edit' )}" />
 {/if}
 </div>
 

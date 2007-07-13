@@ -6,7 +6,7 @@ by overriding styles set in pagelayout.css */
 body
 {
     font-size: 10pt;
-	background: none;
+    background: none;
 }
 
 div#searchbox, div#path, div#topmenu, div#sidemenu, div#extrainfo, div#footer, div#usermenu, div#logo, div#toolbar
@@ -29,7 +29,7 @@ div#columns
 
 div#main-position
 {
-	margin: 0;
+    margin: 0;
 }
 
 div#main-position, div.float-insert
@@ -40,14 +40,14 @@ div#main-position, div.float-insert
 div.box
 {
     border: none;
-	margin: 0;
-	padding: 0;
-	background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
 }
 
 div.box div.box-content
 {
-	padding: 0;
+    padding: 0;
 }
 
 div.box div.tl, div.box div.tr, div.box div.br, div.box div.bl

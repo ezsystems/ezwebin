@@ -11,7 +11,7 @@
 <div class="content-diff">
 
 <div class="attribute-header">
-	<h1 class="long">{'Versions for <%object_name> [%version_count]'|i18n( 'design/ezwebin/content/diff',, hash( '%object_name', $object.name, '%version_count', $list_count ) )|wash}</h1>
+    <h1 class="long">{'Versions for <%object_name> [%version_count]'|i18n( 'design/ezwebin/content/diff',, hash( '%object_name', $object.name, '%version_count', $list_count ) )|wash}</h1>
 </div>
 
 {if $version_list}

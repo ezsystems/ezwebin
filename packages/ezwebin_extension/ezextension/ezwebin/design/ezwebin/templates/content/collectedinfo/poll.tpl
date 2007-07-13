@@ -30,8 +30,8 @@
 
         {foreach $object.contentobject_attributes as $contentobject_attribute_item}
             {if $contentobject_attribute_item.contentclass_attribute.is_information_collector}
-        	{def  $attribute=$contentobject_attribute_item
-        	      $contentobject_attribute_id=cond( $attribute|get_class|eq( 'ezinformationcollectionattribute' ),$attribute.contentobject_attribute_id,
+            {def  $attribute=$contentobject_attribute_item
+                  $contentobject_attribute_id=cond( $attribute|get_class|eq( 'ezinformationcollectionattribute' ),$attribute.contentobject_attribute_id,
                                                    $attribute|get_class|eq( 'ezcontentobjectattribute' ),$attribute.id )
                   $contentobject_attribute=cond( $attribute|get_class|eq( 'ezinformationcollectionattribute' ),$attribute.contentobject_attribute,
                                                 $attribute|get_class|eq( 'ezcontentobjectattribute' ),$attribute )

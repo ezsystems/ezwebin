@@ -17,12 +17,12 @@ function checkAll()
         document.draftaction.selectall.value = "{'Deselect all'|i18n('design/ezwebin/content/draft')}";
 {literal}
         with (document.draftaction) 
-	{
+    {
             for (var i=0; i < elements.length; i++) 
-	    {
+        {
                 if (elements[i].type == 'checkbox' && elements[i].name == 'DeleteIDArray[]')
                      elements[i].checked = true;
-	    }
+        }
         }
      }
      else
@@ -31,12 +31,12 @@ function checkAll()
          document.draftaction.selectall.value = "{'Select all'|i18n('design/ezwebin/content/draft')}";
 {literal}
          with (document.draftaction) 
-	 {
+     {
             for (var i=0; i < elements.length; i++) 
-	    {
+        {
                 if (elements[i].type == 'checkbox' && elements[i].name == 'DeleteIDArray[]')
                      elements[i].checked = false;
-	    }
+        }
          }
      }
 }
@@ -49,7 +49,7 @@ function checkAll()
 <form name="draftaction" action={concat("content/draft/")|ezurl} method="post" >
 
 <div class="attribute-header">
-	<h1 class="long">{"My drafts"|i18n("design/ezwebin/content/draft")}</h1>
+    <h1 class="long">{"My drafts"|i18n("design/ezwebin/content/draft")}</h1>
 </div>
 
 {def $draft_list=fetch('content','draft_version_list',hash(limit,$page_limit,offset,$view_parameters.offset))}

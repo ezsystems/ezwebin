@@ -16,7 +16,7 @@
 <!--[if !IE]> -->
 <!-- Can be used to set styles and content IE should not get -->
 <!-- <![endif]-->
-<!--[if IE]> 	   <style type="text/css"> @import url({"stylesheets/browsers/ie.css"|ezdesign(no)}); 	 </style> <![endif]-->
+<!--[if IE]>        <style type="text/css"> @import url({"stylesheets/browsers/ie.css"|ezdesign(no)});      </style> <![endif]-->
 <!-- Height resize script; used for resizing columns to equal heights -->
 <script type="text/javascript" src={"javascript/heightresize.js"|ezdesign}></script>
 </head>
@@ -29,43 +29,43 @@
   <!-- Header area: START -->
   <div id="header" class="float-break">
   <div id="usermenu">
-	<div id="languages">
-		<ul>
-		{def $locales=fetch( 'content', 'translation_list' )}
-		{if $locales|count|gt( 1 )}
-		{foreach $locales as $locale}
-   			<li><a href={concat( "/",
+    <div id="languages">
+        <ul>
+        {def $locales=fetch( 'content', 'translation_list' )}
+        {if $locales|count|gt( 1 )}
+        {foreach $locales as $locale}
+               <li><a href={concat( "/",
                      $locale.country_code|downcase(), "/",
                      $DesignKeys:used.url_alias
                      )|ezroot}>
-       			{$locale.intl_language_name}
-   			</a></li>
-		{/foreach}
-		{/if}
-		</ul>
+                   {$locale.intl_language_name}
+               </a></li>
+        {/foreach}
+        {/if}
+        </ul>
     </div>
     <div id="links">
-		<ul>
-    		<li><a href={$pagedesign.data_map.site_map_url.content|ezurl} title="{$pagedesign.data_map.site_map_url.data_text|wash}">{$pagedesign.data_map.site_map_url.data_text|wash}</a></li>
-    	{if $pagedesign.data_map.hide_login_label.data_int|not}
-    	{if $current_user.is_logged_in}
-    	    <li><a href={concat( "/user/edit/", $current_user.contentobject_id )|ezurl} title="{$pagedesign.data_map.my_profile_label.data_text|wash}">{$pagedesign.data_map.my_profile_label.data_text|wash}</a></li>
-    		<li><a href={"/user/logout"|ezurl} title="{$pagedesign.data_map.logout_label.data_text|wash}">{$pagedesign.data_map.logout_label.data_text|wash}</a></li>
-    	{else}
-    	    <li><a href={"/user/register"|ezurl} title="{$pagedesign.data_map.register_user_label.data_text|wash}">{$pagedesign.data_map.register_user_label.data_text|wash}</a></li>
-    		<li><a href={"/user/login"|ezurl} title="{$pagedesign.data_map.login_label.data_text|wash}">{$pagedesign.data_map.login_label.data_text|wash}</a></li>
-    	{/if}
-    	{/if}
+        <ul>
+            <li><a href={$pagedesign.data_map.site_map_url.content|ezurl} title="{$pagedesign.data_map.site_map_url.data_text|wash}">{$pagedesign.data_map.site_map_url.data_text|wash}</a></li>
+        {if $pagedesign.data_map.hide_login_label.data_int|not}
+        {if $current_user.is_logged_in}
+            <li><a href={concat( "/user/edit/", $current_user.contentobject_id )|ezurl} title="{$pagedesign.data_map.my_profile_label.data_text|wash}">{$pagedesign.data_map.my_profile_label.data_text|wash}</a></li>
+            <li><a href={"/user/logout"|ezurl} title="{$pagedesign.data_map.logout_label.data_text|wash}">{$pagedesign.data_map.logout_label.data_text|wash}</a></li>
+        {else}
+            <li><a href={"/user/register"|ezurl} title="{$pagedesign.data_map.register_user_label.data_text|wash}">{$pagedesign.data_map.register_user_label.data_text|wash}</a></li>
+            <li><a href={"/user/login"|ezurl} title="{$pagedesign.data_map.login_label.data_text|wash}">{$pagedesign.data_map.login_label.data_text|wash}</a></li>
+        {/if}
+        {/if}
 
-    	{if eq( $current_user.contentobject_id, 14 )}
-    		<li><a href={concat( "/content/edit/", $pagedesign.id, "/f/", $pagedesign.current_language )|ezurl} title="{$pagedesign.data_map.site_settings_label.data_text|wash}">{$pagedesign.data_map.site_settings_label.data_text|wash}</a></li>
-    	{/if}
-		</ul>
+        {if eq( $current_user.contentobject_id, 14 )}
+            <li><a href={concat( "/content/edit/", $pagedesign.id, "/f/", $pagedesign.current_language )|ezurl} title="{$pagedesign.data_map.site_settings_label.data_text|wash}">{$pagedesign.data_map.site_settings_label.data_text|wash}</a></li>
+        {/if}
+        </ul>
     </div>
-	</div>
+    </div>
     <div id="logo">
     {if $pagedesign.data_map.image.content.is_valid|not()}
-		<h1><a href={"/"|ezurl}>{ezini('SiteSettings','SiteName')}</a></h1>
+        <h1><a href={"/"|ezurl}>{ezini('SiteSettings','SiteName')}</a></h1>
     {else}
         <a href={"/"|ezurl}><img src={$pagedesign.data_map.image.content[logo].full_path|ezroot} alt="{$pagedesign.data_map.image.content[logo].text}" /></a>
     {/if}
@@ -86,17 +86,17 @@
     <h2 class="hide">Top menu</h2>
     <div class="topmenu-design">
     <!-- Top menu content: START -->
-	<ul>
+    <ul>
       <li class="selected"><a href={"/"|ezurl}>{ezini('SiteSettings','SiteName')}</a></li>
     </ul>
     <!-- Top menu content: END -->
-	</div>
+    </div>
   </div>
   {/cache-block}
   
   <!-- Top menu area: END -->
   {if or( ne( $module_result.content_info.class_identifier, 'frontpage' ), 
-  				eq( $module_result.content_info.viewmode, 'sitemap' ) )}
+                  eq( $module_result.content_info.viewmode, 'sitemap' ) )}
   <hr class="hide" />
   <!-- Path area: START -->
   <div id="path">
@@ -110,15 +110,15 @@
   <div id="columns" class="float-break">
     <!-- Side menu area: START -->
     <div id="sidemenu-position">
-	  <div id="sidemenu" {if eq( $isset_toolbar, '1' )}style="margin-top: 46px"{/if}>
-	    <div id="heightresize-sidemenu">
+      <div id="sidemenu" {if eq( $isset_toolbar, '1' )}style="margin-top: 46px"{/if}>
+        <div id="heightresize-sidemenu">
           <!-- Used only for height resize script -->
           <h2 class="hide">Side menu</h2>
           {if gt($module_result.path|count, 1)}
           {include uri='design:menu/flat_left.tpl'}
           {/if}
         </div>
-	  </div>
+      </div>
     </div>
     <!-- Side menu area: END -->
     <hr class="hide" />
@@ -146,7 +146,7 @@
           <!-- Used only for height resize script -->
           <h2 class="hide">Extra info</h2>
           <!-- Extra content: START -->
-			{include uri='design:parts/extra_info.tpl'}
+            {include uri='design:parts/extra_info.tpl'}
           <!-- Extra content: END -->
         </div>
         <!-- Used only for height resize script -->
@@ -160,7 +160,7 @@
   <div id="footer">
     <address>
     Copyright &#169; 2006 eZ systems AS. All rights reserved. <br />
-	Powered by <a href={"/ezinfo/about"|ezurl}>eZ publish&#8482;</a> Content Management System.
+    Powered by <a href={"/ezinfo/about"|ezurl}>eZ publish&#8482;</a> Content Management System.
     </address>
   </div>
   <!-- Footer area: END -->

@@ -23,7 +23,7 @@
 <form action={"/content/search/"|ezurl} method="get">
 
 <div class="attribute-header">
-	<h1 class="long">{"Search"|i18n("design/ezwebin/content/search")}</h1>
+    <h1 class="long">{"Search"|i18n("design/ezwebin/content/search")}</h1>
 </div>
 
 <p>
