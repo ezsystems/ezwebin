@@ -471,6 +471,19 @@ class eZWebinInstaller
         $this->Steps['post_install'] = $postInstallSteps;
     }
 
+    /*!
+     Execute on error
+    */
+    function handleError()
+    {
+        $errCode = $this->lastErrorCode();
+
+        if( $errCode === EZWEBIN_INSTALLER_ERR_ABORT )
+            $this->dbCommit( array() );
+
+        return $errCode;
+    }
+
     function addSetting( $name, $value )
     {
         $this->Settings[$name] = $value;
@@ -506,10 +519,14 @@ class eZWebinInstaller
         foreach( $steps as $step )
         {
             $this->execFunction( $step );
-            if ( $this->lastErrorCode() == EZWEBIN_INSTALLER_ERR_ABORT )
+
+            if( $this->lastErrorCode() !== EZWEBIN_INSTALLER_ERR_OK )
             {
-                $this->reportError( "Abortin execution on step number $stepNum: '". $step['_function'] ."'", 'eZWebinInstaller::postInstall' );
-                break;
+                if( $this->handleError() === EZWEBIN_INSTALLER_ERR_ABORT )
+                {
+                    $this->reportError( "Aborting execution on step number $stepNum: '". $step['_function'] ."'", 'eZWebinInstaller::postInstall' );
+                    break;
+                }
             }
 
             ++$stepNum;
