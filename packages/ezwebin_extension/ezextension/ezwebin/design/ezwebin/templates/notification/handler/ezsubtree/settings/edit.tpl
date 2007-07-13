@@ -1,47 +1,64 @@
+{def $number_of_items=10
+     $subscribed_nodes=fetch( 'notification', 'subscribed_nodes', hash( 'limit', $number_of_items, 'offset', $view_parameters.offset ) )
+     $subscribed_nodes_count=fetch( 'notification', 'subscribed_nodes_count' )}
 
-{let subscribed_nodes=$handler.rules}
+<br />
 
-<h2>{"Node notification"|i18n("design/ezwebin/settings/edit")}</h2>
+<h2>{'My item notifications [%notification_count]'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit', , hash( '%notification_count', $subscribed_nodes_count ) )}</h2>
+
+{if $subscribed_nodes_count|gt( 0 )}
 
 <table class="list" width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
-    <th width="69%">
-    {"Name"|i18n("design/ezwebin/settings/edit")}
+    <th class="tight">
+        <img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection.'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}" title="{'Invert selection.'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}" onclick="ezjs_toggleCheckboxes( document.notification, 'SelectedRuleIDArray_{$handler.id_string}[]' ); return false;" />
     </th>
-    <th width="30%">
-    {"Class"|i18n("design/ezwebin/settings/edit")}
+    <th>
+    {'Name'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}
     </th>
-    <th width="30%">
-    {"Section"|i18n("design/ezwebin/settings/edit")}
+    <th>
+    {'Type'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}
     </th>
-    <th width="1%">
-    {"Select"|i18n("design/ezwebin/settings/edit")}
+    <th>
+    {'Section'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}
     </th>
 </tr>
 
-{section name=Rules loop=$subscribed_nodes sequence=array(bgdark,bglight)}
-<tr class="{$Rules:sequence}">
+{foreach $subscribed_nodes as $rule sequence array( 'bgdark', 'bglight' ) as $style}
+<tr class="{$style}">
     <td>
-    <a href={concat("/content/view/full/",$Rules:item.node.node_id,"/")|ezurl}>
-    {$Rules:item.node.name|wash}
+          <input type="checkbox" name="SelectedRuleIDArray_{$handler.id_string}[]" value="{$rule.id}" />
+    </td>
+    <td>
+    <a href={$rule.node.url_alias|ezurl}>
+    {$rule.node.name|wash()}
         </a>
     </td>
-
     <td>
-    {$Rules:item.node.object.content_class.name|wash}
+    {$rule.node.object.content_class.name|wash}
     </td>
     <td>
-    {$Rules:item.node.object.section_id}
-    </td>
-
-    <td>
-          <input type="checkbox" name="SelectedRuleIDArray_{$handler.id_string}[]" value="{$Rules:item.id}" />
+    {def $section_object=fetch( 'section', 'object', hash( 'section_id', $rule.node.object.section_id ) )}{if $section_object}{$section_object.name|wash()}{else}<i>{'Unknown'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}</i>{/if}
+    {undef $section_object}
     </td>
 </tr>
-{/section}
+{/foreach}
 </table>
-<div class="buttonblock">
-<input class="button" type="submit" name="RemoveRule_{$handler.id_string}" value="{'Remove'|i18n('design/ezwebin/settings/edit')}" />
-</div>
 
-{/let}
+{else}
+<p>{'You have not subscribed to receive notifications about any items.'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}</p>
+{/if}
+
+{include name=navigator
+         uri='design:navigator/google.tpl'
+         page_uri='/notification/settings'
+         item_count=$subscribed_nodes_count
+         view_parameters=$view_parameters
+         item_limit=$number_of_items}
+
+<div class="buttonblock">
+{if $subscribed_nodes_count|gt( 0 )}
+<input class="button" type="submit" name="RemoveRule_{$handler.id_string}" value="{'Remove selected'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}" /> 
+{/if}
+<input class="button" type="submit" name="NewRule_{$handler.id_string}" value="{'Add items'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}" />
+</div>
