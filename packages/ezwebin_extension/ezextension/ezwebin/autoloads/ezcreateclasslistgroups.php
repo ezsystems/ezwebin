@@ -57,7 +57,7 @@ class eZCreateClassListGroups
                         {
                             if( !$isHidden )
                             {
-                         	    $groupArray[$group->attribute( 'group_id' )]['items'][] = $contentClass;
+                                 $groupArray[$group->attribute( 'group_id' )]['items'][] = $contentClass;
                             }
                         }
                         else

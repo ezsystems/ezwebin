@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package version="3.9.2"
-		 development="false"
-		 is_active="true"
-		 install_type="import">
+         development="false"
+         is_active="true"
+         install_type="import">
   <name>ezwebin_mini_site</name>
   <summary>Website Interface</summary>
   <description>Website Interface is a web based CMS solution based on eZ Publish. It contains templates and settings that meets the most common requirements for content management systems.</description>
   <vendor>eZ systems</vendor>
   <type value="site" />
   <ezpublish>
-	<version>3.9.2</version>
-	<named-version>3.9</named-version>
+    <version>3.9.2</version>
+    <named-version>3.9</named-version>
   </ezpublish>
   <maintainers>
-	<maintainer>
-	  <name>Administrator User</name>
-	  <email>nospam@ez.no</email>
-	  <role>lead</role>
-	</maintainer>
+    <maintainer>
+      <name>Administrator User</name>
+      <email>nospam@ez.no</email>
+      <role>lead</role>
+    </maintainer>
   </maintainers>
   <packaging>
-	<timestamp>1153313252</timestamp>
-	<host>packages.ez.no</host>
+    <timestamp>1153313252</timestamp>
+    <host>packages.ez.no</host>
   </packaging>
   <documents>
-	<document mime-type="text/plain"
-			  name="LICENCE" />
+    <document mime-type="text/plain"
+              name="LICENCE" />
   </documents>
   <changelog>
-	<entry person="Administrator User"
-		   email="nospam@ez.no"
-		   release="1">
-	  <change>Creation of package.</change>
-	</entry>
+    <entry person="Administrator User"
+           email="nospam@ez.no"
+           release="1">
+      <change>Creation of package.</change>
+    </entry>
   </changelog>
   <simple-files />
   <files>
@@ -50,32 +50,32 @@
      </collection>
   </files>
   <version>
-	<number>1.2</number>
-	<release>0</release>
+    <number>1.2</number>
+    <release>0</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>
   <dependencies>
-	<provides />
+    <provides />
     <requires>
-	  <require type="ezpackage"
+      <require type="ezpackage"
                name="ezwebin_classes"
                min-version="1.2" />
-	  <require type="ezpackage"
+      <require type="ezpackage"
                name="ezwebin_extension"
                min-version="1.2" />
-	  <require type="ezpackage"
+      <require type="ezpackage"
                name="ezwebin_mini_banners"
                min-version="1.2" />
-	  <require type="ezpackage"
+      <require type="ezpackage"
                name="ezwebin_mini_democontent"
                min-version="1.2" />
-	  <require type="ezpackage"
+      <require type="ezpackage"
                name="ezwebin_design"
                min-version="1.2" />
-	</requires>
-	<obsoletes />
-	<conflicts />
+    </requires>
+    <obsoletes />
+    <conflicts />
   </dependencies>
   <settings>
     <settings-file filename='ini-site.php'/>
@@ -87,8 +87,8 @@
     <settings-file filename='install-scripts.php'/>
     <settings-file filename='roles.php'/>
     <settings-file filename='preferences.php'/>
-	<settings-file filename='addobjectattributes.php'/>
-	<settings-file filename='siteaccess-tools.php'/>
+    <settings-file filename='addobjectattributes.php'/>
+    <settings-file filename='siteaccess-tools.php'/>
   </settings>
   <install />
   <uninstall />
