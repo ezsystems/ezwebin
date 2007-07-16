@@ -1,6 +1,6 @@
 <?php
 //
-// Created on: <11-Jan-2006 18:52:01 ks>
+// Created on: <25-Jun-2007 18:52:01 dl>
 //
 // Copyright (C) 1999-2006 eZ systems as. All rights reserved.
 //
@@ -33,42 +33,11 @@
 // you.
 //
 
-// Stub for no extra common settings
-
-function eZSiteRemoteObjectID( $parameters, $remoteID )
-{
-    $remoteMap = $parameters['object_remote_map'];
-    if ( isset( $remoteMap[$remoteID] ) )
-        return $remoteMap[$remoteID];
-    return false;
-}
-
 function eZSiteRoles( $parameters )
 {
-    $roles = array();
-    eZSiteCommonRoles( $roles, $parameters );
-    return $roles;
-}
+    $installer = new eZWebinInstaller( $parameters );
 
-function eZSiteCommonRoles( &$roles, $parameters )
-{
-    $guestAccountsID = eZSiteRemoteObjectID( $parameters, '5f7f0bdb3381d6a461d8c29ff53d908f' );
-    $anonAccountsID = eZSiteRemoteObjectID( $parameters, '15b256dbea2ae72418ff5facc999e8f9' );
-
-    // Add possibility to read rss by default for anonymous/guests
-    $roles[] = array( 'name' => 'Anonymous',
-                      'policies' => array( array( 'module' => 'rss',
-                                                  'function' => 'feed' ) ),
-                      'assignments' => array( array( 'user_id' => $guestAccountsID ),
-                                              array( 'user_id' => $anonAccountsID ) ) );
-
-    include_once( 'lib/ezutils/classes/ezsys.php' );
-
-    // Make sure anonymous can only login to use side
-    $roles[] = array( 'name' => 'Anonymous',
-                      'policies' => array( array( 'module' => 'user',
-                                                  'function' => 'login',
-                                                  'limitation' => array( 'SiteAccess' => array( eZSys::ezcrc32( $parameters['user_siteaccess'] ) ) ) ) ) );
+    return $installer->siteRoles();
 }
 
 ?>
