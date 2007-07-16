@@ -555,6 +555,19 @@ class eZWebinInstaller extends eZSiteInstaller
     }
 
     /*!
+     Re-impl.
+    */
+    function handleError()
+    {
+        $errCode = $this->lastErrorCode();
+
+        if( $errCode === EZSITE_INSTALLER_ERR_ABORT )
+            $this->dbCommit( array() );
+
+        return $errCode;
+    }
+
+    /*!
      Install from command-line.
     */
     function install()
