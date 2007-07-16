@@ -20,7 +20,7 @@
 
     <span class="ezagenda_date">
     {$node.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
-    {if $node.object.data_map.from_time.has_content}
+    {if $node.object.data_map.to_time.has_content}
           - {$node.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
     {/if}
     </span>
