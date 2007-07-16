@@ -61,7 +61,7 @@
 
         {section var=topic loop=$topic_list sequence=array( bglight, bgdark )}
         {let topic_reply_count=fetch( 'content', 'tree_count', hash( parent_node_id, $topic.node_id ) )
-             topic_reply_pages=sum( int( div( sum( $topic_reply_count, 1 ), 20 ) ), cond( mod( sum( topic_reply_count, 1 ), 20 )|gt( 0 ), 1, 0 ) )}
+             topic_reply_pages=sum( int( div( sum( $topic_reply_count, 1 ), 20 ) ), cond( mod( sum( $topic_reply_count, 1 ), 20 )|gt( 0 ), 1, 0 ) )}
         <tr class="{$topic.sequence}">
             <td class="topic">
                 <p>{section show=$topic.object.data_map.sticky.content}<img class="forum-topic-sticky" src={"sticky-16x16-icon.gif"|ezimage} height="16" width="16" align="middle" alt="" />{/section}
