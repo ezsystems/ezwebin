@@ -35,7 +35,7 @@ class eZCreateClassListGroups
             {
                 $groupArray = array();
 
-                $ini =& eZINI::instance( 'websitetoolbar.ini' );
+                $ini = eZINI::instance( 'websitetoolbar.ini' );
 
                 foreach ( $canCreateClassList as $class )
                 {
