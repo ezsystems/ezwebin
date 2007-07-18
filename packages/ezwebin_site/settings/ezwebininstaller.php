@@ -56,7 +56,7 @@ class eZWebinInstaller extends eZSiteInstaller
 
     function initSettings( $parameters )
     {
-        $siteINI =& eZINI::instance();
+        $siteINI = eZINI::instance();
 
         $classIdentifier = 'template_look';
         //get the class
