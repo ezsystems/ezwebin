@@ -611,7 +611,7 @@ class eZWebinInstaller extends eZSiteInstaller
 
         // hack for images/binaryfiles
         // need to set siteaccess to have correct placement(VarDir) for files in SetupWizard
-        $ini =& eZINI::instance();
+        $ini = eZINI::instance();
         $ini->setVariable( 'FileSettings', 'VarDir', $this->setting( 'var_dir' ) );
     }
 
@@ -801,7 +801,7 @@ class eZWebinInstaller extends eZSiteInstaller
 
     function postInstallAdminSiteaccessINIUpdate( $params = false )
     {
-        $siteINI =& eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $this->setting( 'admin_siteaccess' ), null, false, null, true );
+        $siteINI = eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $this->setting( 'admin_siteaccess' ), null, false, null, true );
         $siteINI->setVariable( "DesignSettings", "SiteDesign", $this->setting( 'admin_siteaccess' ) );
         $siteINI->setVariable( "DesignSettings", "AdditionalSiteDesignList", array( "admin" ) );
         $siteINI->setVariable( "SiteAccessSettings", "RelatedSiteAccessList", $this->setting( 'all_siteaccess_list' ) );
@@ -810,7 +810,7 @@ class eZWebinInstaller extends eZSiteInstaller
 
     function postInstallUserSiteaccessINIUpdate( $params = false )
     {
-        $siteINI =& eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $this->setting( 'user_siteaccess' ), null, false, null, true );
+        $siteINI = eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $this->setting( 'user_siteaccess' ), null, false, null, true );
         $siteINI->setVariable( "DesignSettings", "SiteDesign", $this->setting( 'main_site_design' ) );
         $siteINI->setVariable( "SiteAccessSettings", "RelatedSiteAccessList", $this->setting( 'all_siteaccess_list' ) );
         $siteINI->save( false, false, false, false, true, true );
