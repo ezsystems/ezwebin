@@ -24,7 +24,7 @@
 
 class ezwebinInfo
 {
-    function info()
+    static function info()
     {
         return array( 'Name' => "eZ Publish Website Interface",
                       'Version' => "1.2.0",
