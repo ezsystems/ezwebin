@@ -44,7 +44,7 @@ class eZTagCloud
                         $parentNodeID = $namedParameters['params']['parent_node_id'];
 
                     include_once( 'lib/ezdb/classes/ezdb.php' );
-                    $db =& eZDB::instance();
+                    $db = eZDB::instance();
 
                     if( $classIdentifier )
                         $classIdentifierSQL = "AND ezcontentclass.identifier = '" . $classIdentifier . "'";
@@ -115,7 +115,7 @@ class eZTagCloud
                     }
 
                     include_once( 'kernel/common/template.php' );
-                    $tpl =& templateInit();
+                    $tpl = templateInit();
                     $tpl->setVariable( 'tag_cloud', $tagCloud );
 
                     $operatorValue = $tpl->fetch( 'design:tagcloud/tagcloud.tpl' );
