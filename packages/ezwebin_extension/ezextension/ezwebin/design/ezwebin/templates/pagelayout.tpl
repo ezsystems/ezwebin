@@ -250,7 +250,7 @@
       </div>
     </div>
     <!-- Main area: END -->
-{cache-block keys=array($uri_string, $user_hash, $access_type.name) subtree_expiry='content/view/full/58'}
+{cache-block keys=array($uri_string, $user_hash, $access_type.name)}
     <!-- Extra area: START -->
     <div id="extrainfo-position">
       <div id="extrainfo">
