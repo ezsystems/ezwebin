@@ -175,8 +175,11 @@ function eZCommonViewCacheINISettings( $parameters )
     return array( 'name' => 'viewcache.ini',
                   'settings' => array( 'ViewCacheSettings'=>
 array(
-'SmartCacheClear'=>'enabled'
-),
+'SmartCacheClear'=>'enabled',
+'ClearRelationTypes' => array ( 'common',
+                                'reverse_common',
+                                'reverse_embedded',
+                                'reverse_attribute') ),
 'forum_reply' => array( 'DependentClassIdentifier' => array( 'forum_topic', 'forum' ),
 						'ClearCacheMethod' => array( '0' => 'object', '1' => 'parent', '2' => 'relating', '3' => 'siblings') ),
 
