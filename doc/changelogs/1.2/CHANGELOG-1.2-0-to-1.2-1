@@ -11,3 +11,5 @@ Changes from 1.2-0 to 1.2-1
 - Fixed bug #010709: typpo in ger translation
 - Fixed bug #10890: Missing i18n operators in orderview template of ezwebin extension
   (Merged from ezwebin trunk rev. 1496)
+- Fixed bug #11359: Wrong implementation of the javascript enclosure tags in pagelayout.tpl
+
