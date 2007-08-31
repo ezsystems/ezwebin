@@ -1473,7 +1473,11 @@ class eZWebinInstaller extends eZSiteInstaller
 
     function commonViewCacheINISettings()
     {
-        $settings = array( 'ViewCacheSettings' => array( 'SmartCacheClear' => 'enabled' ),
+        $settings = array( 'ViewCacheSettings' => array( 'SmartCacheClear' => 'enabled',
+                                                         'ClearRelationTypes' => array ( 'common',
+                                                                                         'reverse_common',
+                                                                                         'reverse_embedded',
+                                                                                         'reverse_attribute') ),
                            'forum_reply' => array( 'DependentClassIdentifier' => array( 'forum_topic',
                                                                                         'forum' ),
                                                    'ClearCacheMethod' => array( '0' => 'object',
