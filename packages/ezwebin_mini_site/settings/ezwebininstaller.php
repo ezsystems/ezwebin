@@ -653,13 +653,13 @@ class eZWebinInstaller
 
     function dbBegin( $params )
     {
-        $db =& eZDB::instance();
+        $db = eZDB::instance();
         $db->begin();
     }
 
     function dbCommit( $params )
     {
-        $db =& eZDB::instance();
+        $db = eZDB::instance();
         $db->commit();
     }
 
@@ -671,7 +671,7 @@ class eZWebinInstaller
         $classAttributeIdentifier = $params['attribute_identifier'];
 
         // get attributes of 'temporary' version as well
-        $classAttributeList =& eZContentClassAttribute::fetchFilteredList( array( 'contentclass_id' => $contentClassID,
+        $classAttributeList = eZContentClassAttribute::fetchFilteredList( array( 'contentclass_id' => $contentClassID,
                                                                                   'identifier' => $classAttributeIdentifier ),
                                                                            true );
 
@@ -746,7 +746,7 @@ class eZWebinInstaller
 
             // store attribute, update placement, etc...
             $class = eZWebinInstaller::classByIdentifier( $params );
-            $attributes =& $class->fetchAttributes();
+            $attributes = $class->fetchAttributes();
             $attributes[] =& $newAttribute;
 
             $newAttribute->setAttribute( 'version', EZ_CLASS_VERSION_STATUS_DEFINED );
@@ -794,7 +794,7 @@ class eZWebinInstaller
         $contentClassID = eZWebinInstaller::classIDbyIdentifier( $params );
         if ( $contentClassID )
         {
-            $classAttributeList =& eZContentClassAttribute::fetchFilteredList( array( 'contentclass_id' => $contentClassID,
+            $classAttributeList = eZContentClassAttribute::fetchFilteredList( array( 'contentclass_id' => $contentClassID,
                                                                                       'identifier' => $attributeIdentifier ),
                                                                                true );
 
@@ -820,7 +820,7 @@ class eZWebinInstaller
         $contentObject = false;
         if ( $objectID )
         {
-            $contentObject =& eZContentObject::fetch( $objectID );
+            $contentObject = eZContentObject::fetch( $objectID );
             if ( !is_object( $contentObject ) )
             {
                 $this->reportError( "Content object with id '$objectID' doesn't exist." , 'eZWebinInstaller::updateObjectAttributeFromString' );
@@ -1170,7 +1170,7 @@ class eZWebinInstaller
 
         $diff = eZWebinInstaller::getAttributeIdDiff( $currentAttributeObjectArray, $attributeObjectsToBeStored );
 
-        $db =& eZDB::instance();
+        $db = eZDB::instance();
         foreach ( $diff as $id )
         {
             $queryResult = $db->query( "UPDATE ezcontentclass_attribute SET version=0 WHERE id=".$id );
@@ -1452,7 +1452,7 @@ class eZWebinInstaller
 
                 case 'ezuser':
                 {
-                    $user =& $attribute->content();
+                    $user = $attribute->content();
                     if ( $user === null )
                     {
                         $user = eZUser::create( $objectID );

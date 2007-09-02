@@ -217,7 +217,7 @@ function expandClass( $classIdentifierParam )
 
     $diff = getAttributeIdDiff( $currentAttributeObjectArray, $attributeObjectsToBeStored );
 
-    $db =& eZDB::instance();
+    $db = eZDB::instance();
     foreach ( $diff as $id )
     {
         $queryResult = $db->query( "UPDATE ezcontentclass_attribute SET version=0 WHERE id=".$id );
@@ -488,7 +488,7 @@ function addData( $contentObjectIdParam = false, $dataArrParam = false )
 
             case 'ezuser':
             {
-                $user =& $attribute->content();
+                $user = $attribute->content();
                 if ( $user === null )
                 {
                     $user = eZUser::create( $objectID );
@@ -524,7 +524,7 @@ function setEZXMLAttribute( &$attribute, &$attributeValue, $link = false )
     /*
     if ( !is_object( $document ) )
     {
-        $cli =& eZCLI::instance();
+        $cli = eZCLI::instance();
         $cli->output( 'Error in xml parsing' );
         return;
     }

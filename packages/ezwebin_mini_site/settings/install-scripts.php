@@ -59,7 +59,7 @@ function eZSitePreInstall( )
     /*
     Extend folder class
     */
-    $db =& eZDB::instance();
+    $db = eZDB::instance();
     $db->begin();
 
     eZWebinInstaller::addClassAttribute( array( 'class_identifier' => 'folder',
@@ -76,7 +76,7 @@ function eZSitePreInstall( )
 
     // hack for images/binaryfiles
     // need to set siteaccess to have correct placement(VarDir) for files.
-    $ini =& eZINI::instance();
+    $ini = eZINI::instance();
     $ini->setVariable( 'FileSettings', 'VarDir', 'var/ezwebin_site' );
 }
 
@@ -316,7 +316,7 @@ returns raw sql result in an array
 function getColumn( $column, $table)
 {
     // Find out the translations that are availalble
-    $db =& eZDB::instance();
+    $db = eZDB::instance();
     $result = array();
     $result = $db->arrayQuery( "SELECT ".$column." FROM ".$table );
 
@@ -426,7 +426,7 @@ function getPersistenceList()
 {
     $persistenceList = array();
     include_once( 'lib/ezutils/classes/ezhttptool.php' );
-    $http =& eZHTTPTool::instance();
+    $http = eZHTTPTool::instance();
     $postVariables = $http->attribute( 'post' );
 
     foreach ( $postVariables as $name => $value )

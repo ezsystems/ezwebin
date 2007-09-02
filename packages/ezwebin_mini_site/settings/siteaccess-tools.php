@@ -40,7 +40,7 @@ function eZSetupUserSiteaccess( $parameters )
 {
     $setupData = loadSetupData( $parameters );
 
-    $settings =& eZINI::instance( "site.ini.append.php", "settings/siteaccess/".$setupData['user_siteaccess'], null, false, null, true );
+    $settings = eZINI::instance( "site.ini.append.php", "settings/siteaccess/".$setupData['user_siteaccess'], null, false, null, true );
     $settings->setVariable( "DesignSettings", "SiteDesign", $setupData["mainSiteDesign"] );
     $settings->setVariable( "SiteAccessSettings", "RelatedSiteAccessList", $setupData["allSiteaccesses"] );
     $settings->save( false, false, false, false, true, true );
@@ -77,8 +77,8 @@ function eZSetupAdminSiteAccess( $parameters )
 {
     $setupData = loadSetupData( $parameters );
 
-    $adminSiteINI =& eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $parameters["admin_siteaccess"], null, false, null, true );
-//    $adminINI =& eZINI::instance( "site.ini.append.php", "settings/siteaccess/admin", null, false, null, true );
+    $adminSiteINI = eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $parameters["admin_siteaccess"], null, false, null, true );
+//    $adminINI = eZINI::instance( "site.ini.append.php", "settings/siteaccess/admin", null, false, null, true );
 //    $adminINI->setVariables( array( "DatabaseSettings" => $adminSiteINI->group( "DatabaseSettings" ) ) );
     $adminSiteINI->setVariable( "DesignSettings", "SiteDesign", $parameters["admin_siteaccess"] );
     $adminSiteINI->setVariable( "DesignSettings", "AdditionalSiteDesignList", array( "admin" ) );
@@ -110,7 +110,7 @@ function createSiteAccess( $siteaccessNameParam,
     //addError( array("createsiteaccess" => $setupData ), false );
 
     // Grab the site.ini for the user siteaccess
-    $userSiteINI =& eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $sourceParam, null, false, null, true );
+    $userSiteINI = eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $sourceParam, null, false, null, true );
 
     //get  params
     $siteaccessName = $siteaccessNameParam;
@@ -134,7 +134,7 @@ function createSiteAccess( $siteaccessNameParam,
     $siteINIFile = $destination . "/site.ini.append.php";
     if( is_file( $siteINIFile ) )
     {
-        $translationSiteINI =& eZINI::instance( "site.ini.append.php", $destination, null, false, null, true );
+        $translationSiteINI = eZINI::instance( "site.ini.append.php", $destination, null, false, null, true );
         $translationSiteINI->setVariable( "RegionalSettings", "Locale", $localeCode );
 
         if ( $localeCode != 'eng-GB' )

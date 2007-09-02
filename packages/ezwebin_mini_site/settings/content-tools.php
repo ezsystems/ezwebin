@@ -73,7 +73,7 @@ function swapNodes( $nodeName1, $nodeName2 )
 
     $objectID = $object->attribute( 'id' );
     $objectVersion = $object->attribute( 'current_version' );
-    $class =& $object->contentClass();
+    $class = $object->contentClass();
     $classID = $class->attribute( 'id' );
 
     //$selectedNodeID = $module->actionParameter( 'NewNode' );
@@ -131,7 +131,7 @@ function swapNodes( $nodeName1, $nodeName2 )
     $node->setAttribute( 'contentobject_id', $selectedObjectID );
     $node->setAttribute( 'contentobject_version', $selectedObjectVersion );
 
-    $db =& eZDB::instance();
+    $db = eZDB::instance();
     $db->begin();
     $node->store();
     $selectedNode->setAttribute( 'contentobject_id', $objectID );

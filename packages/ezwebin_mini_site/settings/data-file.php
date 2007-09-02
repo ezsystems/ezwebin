@@ -128,7 +128,7 @@ function setVersions( $setupData )
 
 function setVersion( $nameParam = false, $versionParam = false )
 {
-    $db =& eZDB::instance();
+    $db = eZDB::instance();
 
     $result = $db->query("INSERT INTO ezsite_data VALUES ('$nameParam', '$versionParam')");
 

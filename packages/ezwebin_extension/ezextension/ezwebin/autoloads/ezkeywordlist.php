@@ -26,7 +26,7 @@ class eZKeywordList
                                                                 'default' => 0 ) ) );
     }
 
-    function modify( &$tpl, &$operatorName, &$operatorParameters, &$rootNamespace, &$currentNamespace, &$operatorValue, &$namedParameters )
+    function modify( $tpl, $operatorName, $operatorParameters, &$rootNamespace, &$currentNamespace, &$operatorValue, &$namedParameters )
     {
         $classIdentifier = $namedParameters['class_identifier'];
         $parentNodeID = $namedParameters['parent_node_id'];
@@ -36,7 +36,7 @@ class eZKeywordList
             case 'ezkeywordlist':
             {
                 include_once( 'lib/ezdb/classes/ezdb.php' );
-                $db =& eZDB::instance();
+                $db = eZDB::instance();
 
                 $rs = $db->arrayQuery( "SELECT DISTINCT ezkeyword.keyword
                                             FROM ezkeyword_attribute_link,
