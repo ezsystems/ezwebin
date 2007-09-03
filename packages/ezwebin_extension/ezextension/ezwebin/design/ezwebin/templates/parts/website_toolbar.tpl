@@ -61,12 +61,12 @@
   {/foreach}
   </select>
   {/if}
-  <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
+  <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
   <input type="image" src={"websitetoolbar/ezwt-icon-new.gif"|ezimage} name="NewButton" title="{'Create here'|i18n('design/ezwebin/parts/website_toolbar')}" />
 {/if}
 
 {if $content_object.can_edit}
-    <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
+    <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
     <input type="image" src={"websitetoolbar/ezwt-icon-edit.gif"|ezimage} name="EditButton" title="{'Edit: %node_name [%class_name]'|i18n( 'design/ezwebin/parts/website_toolbar', , hash( '%node_name', $current_node.name|wash(), '%class_name', $content_object.content_class.name|wash() ) )}" />
 {/if}
 
