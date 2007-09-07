@@ -26,7 +26,7 @@
         <form method="post" action={"content/action/"|ezurl}>
             <input class="button forum-new-topic" type="submit" name="NewButton" value="{'New topic'|i18n( 'design/ezwebin/full/forum' )}" />
             <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
-            <input type="hidden" name="ContentObjectID" value="{$node.contentobject_id.}" />
+            <input type="hidden" name="ContentObjectID" value="{$node.contentobject_id}" />
             <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
             <input class="button forum-keep-me-updated" type="submit" name="ActionAddToNotification" value="{'Keep me updated'|i18n( 'design/ezwebin/full/forum' )}" />
             <input type="hidden" name="NodeID" value="{$node.node_id}" />
