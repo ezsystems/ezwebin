@@ -72,7 +72,7 @@ class eZTagCloud
                                                 AND ezkeyword.class_id = ezcontentclass.id
                                                 AND ezcontentclass.id = ezcontentobject.contentclass_id
                                                 AND ezcontentclass.version = '0'
-                                                AND ezcontentobject.status = '".EZ_CONTENT_OBJECT_STATUS_PUBLISHED."'
+                                                AND ezcontentobject.status = '".eZContentObject::STATUS_PUBLISHED."'
                                                 AND ezcontentobject_attribute.version = ezcontentobject.current_version
                                                 AND ezcontentobject_tree.main_node_id = ezcontentobject_tree.node_id
                                                 $pathString
@@ -114,7 +114,7 @@ class eZTagCloud
                                              'tag' => $key );
                     }
 
-                    include_once( 'kernel/common/template.php' );
+                    require_once( 'kernel/common/template.php' );
                     $tpl = templateInit();
                     $tpl->setVariable( 'tag_cloud', $tagCloud );
 
