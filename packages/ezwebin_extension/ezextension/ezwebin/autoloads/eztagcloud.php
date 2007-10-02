@@ -57,6 +57,12 @@ class eZTagCloud
                         $parentNodeIDSQL = "AND ezcontentobject_tree.node_id != " . (int)$parentNodeID;
                     }
 
+                    $showInvisibleNodesCond = eZContentObjectTreeNode::createShowInvisibleSQLString( true, false );
+                    $limitation = false;
+                    $limitationList = eZContentObjectTreeNode::getLimitationList( $limitation );
+                    $sqlPermissionChecking = eZContentObjectTreeNode::createPermissionCheckingSQL( $limitationList );
+
+
                     $languageFilter = "AND " . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
 
                     $rs = $db->arrayQuery( "SELECT DISTINCT ezkeyword.keyword
@@ -66,6 +72,8 @@ class eZTagCloud
                                                 ezcontentobject_attribute,
                                                 ezcontentobject_tree,
                                                 ezcontentclass
+                                                $sqlPermissionChecking[from]
+
                                             WHERE ezkeyword.id = ezkeyword_attribute_link.keyword_id
                                                 AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
                                                 AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
@@ -78,6 +86,8 @@ class eZTagCloud
                                                 $pathString
                                                 $parentNodeIDSQL
                                                 $classIdentifierSQL
+                                                $showInvisibleNodesCond
+                                                $sqlPermissionChecking[where]
                                                 $languageFilter
                                             ORDER BY ezkeyword.keyword ASC" );
 
