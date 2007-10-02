@@ -35,49 +35,49 @@
 
 function eZSiteCommonINISettings( $parameters )
 {
-	$settings = array();
-	$settings[] = eZCommonSiteINISettings( $parameters );
-	$settings[] = eZCommonContentINISettings( $parameters );
-	$settings[] = eZCommonMenuINISettings( $parameters );
-	$settings[] = eZCommonViewCacheINISettings( $parameters );
-	$settings[] = eZCommonForumINISettings( $parameters );
-	return $settings;
+    $settings = array();
+    $settings[] = eZCommonSiteINISettings( $parameters );
+    $settings[] = eZCommonContentINISettings( $parameters );
+    $settings[] = eZCommonMenuINISettings( $parameters );
+    $settings[] = eZCommonViewCacheINISettings( $parameters );
+    $settings[] = eZCommonForumINISettings( $parameters );
+    return $settings;
 }
 
 function eZCommonSiteINISettings( $parameters )
 {
-	//setup vars
-	$settings = array();
-	$setupData = loadSetupData( $parameters );
+    //setup vars
+    $settings = array();
+    $setupData = loadSetupData( $parameters );
 
-	//set settings	ps: array_merge only accepts array parameters in PHP 5
-	$settings['SiteAccessSettings'] = array( 'AvailableSiteAccessList' => $setupData['allSiteaccesses'] );
+    //set settings	ps: array_merge only accepts array parameters in PHP 5
+    $settings['SiteAccessSettings'] = array( 'AvailableSiteAccessList' => $setupData['allSiteaccesses'] );
 
-	$settings['SiteSettings'] = array( 'SiteList' => $setupData['allSiteaccesses'],
+    $settings['SiteSettings'] = array( 'SiteList' => $setupData['allSiteaccesses'],
 									   'DefaultAccess' => $setupData['primaryLanguage'],
 									   'RootNodeDepth' => 1 );
 
-	$settings['ExtensionSettings'] = array( 'ActiveExtensions' => $setupData['extensionsToActivate'] );
-	$settings['UserSettings'] = array( 'LogoutRedirect' => '/' );
-	$settings['EmbedViewModeSettings'] = array( 'AvailableViewModes' => array(	'embed',
+    $settings['ExtensionSettings'] = array( 'ActiveExtensions' => $setupData['extensionsToActivate'] );
+    $settings['UserSettings'] = array( 'LogoutRedirect' => '/' );
+    $settings['EmbedViewModeSettings'] = array( 'AvailableViewModes' => array(	'embed',
 																				'embed-inline'),
 												'InlineViewModes' => array ( 'embed-inline') );
 
-	return array( 'name' => 'site.ini',
+    return array( 'name' => 'site.ini',
                   'settings' => $settings );
 }
 
 
 function eZCommonMenuINISettings( $parameters )
 {
-	//setup vars
-	$settings = array();
+    //setup vars
+    $settings = array();
 
-	//comment out the line below in order to unlock all menus in ministration interface
-	//$settings['TopAdminMenu'] = array( 'Tabs' => array( 'content', 'media', 'shop', 'my_account') );
+    //comment out the line below in order to unlock all menus in ministration interface
+    //$settings['TopAdminMenu'] = array( 'Tabs' => array( 'content', 'media', 'shop', 'my_account') );
 
 
-	return array( 'name' => 'menu.ini',
+    return array( 'name' => 'menu.ini',
 				  'reset_arrays' => true,
                   'settings' => $settings );
 }
@@ -85,7 +85,7 @@ function eZCommonMenuINISettings( $parameters )
 
 function eZCommonContentINISettings( $parameters )
 {
-	$settings = array( 'object' => array( 'AvailableClasses' => array( 	'0' => 'itemized_sub_items',
+    $settings = array( 'object' => array( 'AvailableClasses' => array( 	'0' => 'itemized_sub_items',
 																		'1' => 'itemized_subtree_items',
 																		'2' => 'highlighted_object',
 																		'3' => 'vertically_listed_sub_items',
@@ -114,230 +114,244 @@ function eZCommonContentINISettings( $parameters )
 								        'CustomAttributesDefaults' => array( 'offset' => '0',
 								                                             'limit' => '5' ) ),
 					   'table'=>
-	array(
+    array(
 'AvailableClasses'=>
-	array(
+    array(
 '0'=>'list',
 '1'=>'cols',
 '2'=>'comparison',
 '3'=>'default'
-	),
+),
 'ClassDescription'=>
-	array(
+array(
 'list'=>'List',
 'cols'=>'Timetable',
 'comparison'=>'Comparison Table',
 'default'=>'Default'
-	),
+),
 'Defaults'=>
-	array(
+array(
 'rows'=>'2',
 'cols'=>'2',
 'width'=>'100%',
 'border'=>'0',
 'class'=>'default'
-	)
-	),
+)
+),
 'factbox'=>
-	array(
+array(
 'CustomAttributes'=>
-	array(
+array(
 '0'=>'align',
 '1'=>'title'
-	),
+),
 'CustomAttributesDefaults'=>
-	array(
+array(
 'align'=>'right',
 'title'=>'factbox'
-	)
-	),
+)
+),
 'quote'=>
-	array(
+array(
 'CustomAttributes'=>
-	array(
+array(
 '0'=>'align',
 '1'=>'author'
-	),
+),
 'CustomAttributesDefaults'=>
-	array(
+array(
 'align'=>'right',
 'autor'=>'Quote author'
-	)
-	)
-	);//end root paranthesis
+)
+)
+);//end root paranthesis
 
-	return array( 'name' => 'content.ini',
+return array( 'name' => 'content.ini',
                   'settings' => $settings );
 }//end function
 
 function eZCommonViewCacheINISettings( $parameters )
 {
-	return array( 'name' => 'viewcache.ini',
+    return array( 'name' => 'viewcache.ini',
                   'settings' => array( 'ViewCacheSettings'=>
-	array(
+    array(
 'SmartCacheClear'=>'enabled',
 'ClearRelationTypes' => array ( 'common',
                                 'reverse_common',
                                 'reverse_embedded',
                                 'reverse_attribute') ),
 'forum_reply' => array( 'DependentClassIdentifier' => array( 'forum_topic', 'forum' ),
-						'ClearCacheMethod' => array( '0' => 'object', '1' => 'parent', '2' => 'relating', '3' => 'siblings') ),
+                        'ClearCacheMethod' => array( '0' => 'object', '1' => 'parent', '2' => 'relating', '3' => 'siblings') ),
 
 'forum_topic' => array( 'DependentClassIdentifier' => array( 'forum' ),
-						'ClearCacheMethod' => array( '0' => 'object', '1' => 'parent', '2' => 'relating', '3' => 'siblings') ),
+                        'ClearCacheMethod' => array( '0' => 'object', '1' => 'parent', '2' => 'relating', '3' => 'siblings') ),
 
 'folder'=> array( 'DependentClassIdentifier'=> array( '0'=>'folder' ),
-				  'ClearCacheMethod'=> array( '0'=>'object', '1'=>'parent', '2'=>'relating' ) ),
+                  'ClearCacheMethod'=> array( '0'=>'object', '1'=>'parent', '2'=>'relating' ) ),
 'gallery'=>
-	array(
+    array(
 'DependentClassIdentifier'=>
-	array(
+    array(
 '0'=>'folder'
-	),
+),
 'ClearCacheMethod'=>
-	array(
+array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-	)
-	),
+)
+),
 'image'=>
-	array(
+array(
 'DependentClassIdentifier'=>
-	array(
+array(
 '0'=>'gallery'
-	),
+),
 'ClearCacheMethod'=>
-	array(
+array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating',
 '3'=>'siblings'
-	)
-	),
+)
+),
 'event'=>
-	array(
+array(
 'DependentClassIdentifier'=>
-	array(
+array(
 '0'=>'event_calender'
-	),
+),
 'ClearCacheMethod'=>
-	array(
+array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-	)
-	),
+)
+),
 'article'=>
-	array(
+array(
 'DependentClassIdentifier'=>
-	array(
+array(
 '0'=>'folder',
 '1'=>'frontpage'
-	),
+),
 'ClearCacheMethod'=>
-	array(
+array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-	)
-	),
+)
+),
 'article_mainpage'=>
-	array(
+array(
 'DependentClassIdentifier'=>
-	array(
+array(
 '0'=>'folder',
 '1'=>'frontpage'
-	),
+),
 'ClearCacheMethod'=>
-	array(
+array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-	)
-	),
-'blog_post'=>
-	array(
+)
+),
+'article_subpage'=>
+array(
 'DependentClassIdentifier'=>
-	array(
+array(
+'0'=>'article_mainpage'
+),
+'ClearCacheMethod'=>
+array(
+'0'=>'object',
+'1'=>'parent',
+'2'=>'relating',
+'3'=>'siblings'
+)
+),
+'blog_post'=>
+array(
+'DependentClassIdentifier'=>
+array(
 '0'=>'frontpage',
 '1'=>'blog'
-	),
+),
 'ClearCacheMethod'=>
-	array(
+array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-	)
-	),
+)
+),
 'product'=>
-	array(
+array(
 'DependentClassIdentifier'=>
-	array(
+array(
 '0'=>'folder',
 '1'=>'frontpage'
-	),
+),
 'ClearCacheMethod'=>
-	array(
+array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-	)
-	),
+)
+),
 'infobox'=>
-	array(
+array(
 'DependentClassIdentifier'=>
-	array(
+array(
 '0'=>'folder'
-	),
+),
 'ClearCacheMethod'=>
-	array(
+array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-	)
-	),
+)
+),
 'documentation_page'=>
-	array(
+array(
 'DependentClassIdentifier'=>
-	array(
+array(
 '0'=>'documentation_page'
-	),
+),
 'ClearCacheMethod'=>
-	array(
+array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-	)
-	),
+)
+),
 'banner'=>
-	array(
+array(
 'DependentClassIdentifier'=>
-	array(
+array(
 '0'=>'frontpage'
-	),
+),
 'ClearCacheMethod'=>
-	array(
+array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-	)
-	)
-	)
-	);//close root paranthesis
+)
+)
+)
+);//close root paranthesis
 
 }//end function
 
 
 function eZCommonForumINISettings( $parameters )
 {
-	//setup vars
-	$settings = array();
+    //setup vars
+    $settings = array();
 
-	$settings['ForumSettings'] = array( 'StickyUserGroupArray' => array( 12 ) );
+    $settings['ForumSettings'] = array( 'StickyUserGroupArray' => array( 12 ) );
 
-	return array( 'name' => 'forum.ini',
-							  'reset_arrays' => false,
+    return array( 'name' => 'forum.ini',
+                              'reset_arrays' => false,
                 'settings' => $settings );
 }//end function
 
