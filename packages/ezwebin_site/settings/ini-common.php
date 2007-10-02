@@ -35,13 +35,13 @@
 
 function eZSiteCommonINISettings( $parameters )
 {
-  $settings = array();
-  $settings[] = eZCommonSiteINISettings( $parameters );
+	$settings = array();
+	$settings[] = eZCommonSiteINISettings( $parameters );
 	$settings[] = eZCommonContentINISettings( $parameters );
 	$settings[] = eZCommonMenuINISettings( $parameters );
 	$settings[] = eZCommonViewCacheINISettings( $parameters );
 	$settings[] = eZCommonForumINISettings( $parameters );
-    return $settings;
+	return $settings;
 }
 
 function eZCommonSiteINISettings( $parameters )
@@ -57,13 +57,13 @@ function eZCommonSiteINISettings( $parameters )
 									   'DefaultAccess' => $setupData['primaryLanguage'],
 									   'RootNodeDepth' => 1 );
 
-  $settings['ExtensionSettings'] = array( 'ActiveExtensions' => $setupData['extensionsToActivate'] );
+	$settings['ExtensionSettings'] = array( 'ActiveExtensions' => $setupData['extensionsToActivate'] );
 	$settings['UserSettings'] = array( 'LogoutRedirect' => '/' );
 	$settings['EmbedViewModeSettings'] = array( 'AvailableViewModes' => array(	'embed',
 																				'embed-inline'),
 												'InlineViewModes' => array ( 'embed-inline') );
 
-    return array( 'name' => 'site.ini',
+	return array( 'name' => 'site.ini',
                   'settings' => $settings );
 }
 
@@ -77,7 +77,7 @@ function eZCommonMenuINISettings( $parameters )
 	//$settings['TopAdminMenu'] = array( 'Tabs' => array( 'content', 'media', 'shop', 'my_account') );
 
 
-    return array( 'name' => 'menu.ini',
+	return array( 'name' => 'menu.ini',
 				  'reset_arrays' => true,
                   'settings' => $settings );
 }
@@ -114,57 +114,57 @@ function eZCommonContentINISettings( $parameters )
 								        'CustomAttributesDefaults' => array( 'offset' => '0',
 								                                             'limit' => '5' ) ),
 					   'table'=>
-array(
+	array(
 'AvailableClasses'=>
-array(
+	array(
 '0'=>'list',
 '1'=>'cols',
 '2'=>'comparison',
 '3'=>'default'
-),
+	),
 'ClassDescription'=>
-array(
+	array(
 'list'=>'List',
 'cols'=>'Timetable',
 'comparison'=>'Comparison Table',
 'default'=>'Default'
-),
+	),
 'Defaults'=>
-array(
+	array(
 'rows'=>'2',
 'cols'=>'2',
 'width'=>'100%',
 'border'=>'0',
 'class'=>'default'
-)
-),
+	)
+	),
 'factbox'=>
-array(
+	array(
 'CustomAttributes'=>
-array(
+	array(
 '0'=>'align',
 '1'=>'title'
-),
+	),
 'CustomAttributesDefaults'=>
-array(
+	array(
 'align'=>'right',
 'title'=>'factbox'
-)
-),
+	)
+	),
 'quote'=>
-array(
+	array(
 'CustomAttributes'=>
-array(
+	array(
 '0'=>'align',
 '1'=>'author'
-),
+	),
 'CustomAttributesDefaults'=>
-array(
+	array(
 'align'=>'right',
 'autor'=>'Quote author'
-)
-)
-);//end root paranthesis
+	)
+	)
+	);//end root paranthesis
 
 	return array( 'name' => 'content.ini',
                   'settings' => $settings );
@@ -172,9 +172,9 @@ array(
 
 function eZCommonViewCacheINISettings( $parameters )
 {
-    return array( 'name' => 'viewcache.ini',
+	return array( 'name' => 'viewcache.ini',
                   'settings' => array( 'ViewCacheSettings'=>
-array(
+	array(
 'SmartCacheClear'=>'enabled',
 'ClearRelationTypes' => array ( 'common',
                                 'reverse_common',
@@ -189,113 +189,142 @@ array(
 'folder'=> array( 'DependentClassIdentifier'=> array( '0'=>'folder' ),
 				  'ClearCacheMethod'=> array( '0'=>'object', '1'=>'parent', '2'=>'relating' ) ),
 'gallery'=>
-array(
+	array(
 'DependentClassIdentifier'=>
-array(
+	array(
 '0'=>'folder'
-),
+	),
 'ClearCacheMethod'=>
-array(
+	array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-)
-),
+	)
+	),
 'image'=>
-array(
+	array(
 'DependentClassIdentifier'=>
-array(
+	array(
 '0'=>'gallery'
-),
+	),
 'ClearCacheMethod'=>
-array(
+	array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating',
 '3'=>'siblings'
-)
-),
+	)
+	),
 'event'=>
-array(
+	array(
 'DependentClassIdentifier'=>
-array(
+	array(
 '0'=>'event_calender'
-),
+	),
 'ClearCacheMethod'=>
-array(
+	array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-)
-),
+	)
+	),
 'article'=>
-array(
+	array(
 'DependentClassIdentifier'=>
-array(
-'0'=>'folder'
-),
-'ClearCacheMethod'=>
-array(
-'0'=>'object',
-'1'=>'parent',
-'2'=>'relating'
-)
-),
-'product'=>
-array(
-'DependentClassIdentifier'=>
-array(
+	array(
 '0'=>'folder',
 '1'=>'frontpage'
-),
+	),
 'ClearCacheMethod'=>
-array(
+	array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-)
-),
+	)
+	),
+'article_mainpage'=>
+	array(
+'DependentClassIdentifier'=>
+	array(
+'0'=>'folder',
+'1'=>'frontpage'
+	),
+'ClearCacheMethod'=>
+	array(
+'0'=>'object',
+'1'=>'parent',
+'2'=>'relating'
+	)
+	),
+'blog_post'=>
+	array(
+'DependentClassIdentifier'=>
+	array(
+'0'=>'frontpage',
+'1'=>'blog'
+	),
+'ClearCacheMethod'=>
+	array(
+'0'=>'object',
+'1'=>'parent',
+'2'=>'relating'
+	)
+	),
+'product'=>
+	array(
+'DependentClassIdentifier'=>
+	array(
+'0'=>'folder',
+'1'=>'frontpage'
+	),
+'ClearCacheMethod'=>
+	array(
+'0'=>'object',
+'1'=>'parent',
+'2'=>'relating'
+	)
+	),
 'infobox'=>
-array(
+	array(
 'DependentClassIdentifier'=>
-array(
+	array(
 '0'=>'folder'
-),
+	),
 'ClearCacheMethod'=>
-array(
+	array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-)
-),
+	)
+	),
 'documentation_page'=>
-array(
+	array(
 'DependentClassIdentifier'=>
-array(
+	array(
 '0'=>'documentation_page'
-),
+	),
 'ClearCacheMethod'=>
-array(
+	array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-)
-),
+	)
+	),
 'banner'=>
-array(
+	array(
 'DependentClassIdentifier'=>
-array(
+	array(
 '0'=>'frontpage'
-),
+	),
 'ClearCacheMethod'=>
-array(
+	array(
 '0'=>'object',
 '1'=>'parent',
 '2'=>'relating'
-)
-)
-)
-);//close root paranthesis
+	)
+	)
+	)
+	);//close root paranthesis
 
 }//end function
 
