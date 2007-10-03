@@ -1212,16 +1212,6 @@ class eZWebinInstaller extends eZSiteInstaller
                         'class_identifier' => 'image',
                         ),
                     ),
-                'tiny_image' =>
-                array (
-                    'Source' => 'content/view/tiny.tpl',
-                    'MatchFile' => 'tiny_image.tpl',
-                    'Subdir' => 'templates',
-                    'Match' =>
-                    array (
-                        'class_identifier' => 'image',
-                        ),
-                    ),
                 'embed-inline_image' =>
                 array (
                     'Source' => 'content/view/embed-inline.tpl',
@@ -2460,16 +2450,6 @@ class eZWebinInstaller extends eZSiteInstaller
                         'Match'=>
                         array(
                         'classification'=>'comparison'
-                        )
-                        ),
-                'tiny_image'=>
-                        array(
-                        'Source'=>'content/view/tiny.tpl',
-                        'MatchFile'=>'tiny/image.tpl',
-                        'Subdir'=>'templates',
-                        'Match'=>
-                        array(
-                        'class_identifier'=>'image'
                         )
                         ),
                 'image_galleryline'=>
