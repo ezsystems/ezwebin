@@ -29,11 +29,11 @@
 include_once( 'kernel/classes/ezsiteinstaller.php' );
 include_once( 'kernel/classes/datatypes/ezmatrix/ezmatrixdefinition.php' );
 
-define( 'EZWEBIN_INSTALLER_MAJOR_VERSION', 1.3 );
-define( 'EZWEBIN_INSTALLER_MINOR_VERSION', 0 );
-
 class eZWebinInstaller extends eZSiteInstaller
 {
+    const MAJOR_VERSION = 1.3;
+    const MINOR_VERSION = 0;
+
     function eZWebinInstaller( $parameters = false )
     {
         eZSiteInstaller::eZSiteInstaller( $parameters );
@@ -60,10 +60,10 @@ class eZWebinInstaller extends eZSiteInstaller
 
         $classIdentifier = 'template_look';
         //get the class
-        $class = eZContentClass::fetchByIdentifier( $classIdentifier, true, EZ_CLASS_VERSION_STATUS_TEMPORARY );
+        $class = eZContentClass::fetchByIdentifier( $classIdentifier, true, eZContentClass::VERSION_STATUS_TEMPORARY );
         if( !$class )
         {
-            $class = eZContentClass::fetchByIdentifier( $classIdentifier, true, EZ_CLASS_VERSION_STATUS_DEFINED );
+            $class = eZContentClass::fetchByIdentifier( $classIdentifier, true, eZContentClass::VERSION_STATUS_DEFINED );
             if( !$class )
             {
                 eZDebug::writeError( "Warning, DEFINED version for class identifier $classIdentifier does not exist." );
@@ -714,7 +714,7 @@ class eZWebinInstaller extends eZSiteInstaller
 
     function solutionVersion()
     {
-        $version = EZWEBIN_INSTALLER_MAJOR_VERSION . '.' . EZWEBIN_INSTALLER_MINOR_VERSION;
+        $version = self::MAJOR_VERSION . '.' . self::MINOR_VERSION;
         return $version;
     }
 
