@@ -1314,13 +1314,6 @@
   <file name="forum_topic.tpl"
         path="/design/ezwebin/override/templates/edit"
         md5sum="1b2dde332e37cdc97b4c1412dca7e638" />
-  <file name="tiny"
-        path="/design/ezwebin/override/templates"
-        md5sum="d41d8cd98f00b204e9800998ecf8427e"
-        type="dir" />
-  <file name="image.tpl"
-        path="/design/ezwebin/override/templates/tiny"
-        md5sum="4a1e2e697b5c0f9a972050cee7bfad23" />
   <file name="datatype"
         path="/design/ezwebin/override/templates"
         md5sum="d41d8cd98f00b204e9800998ecf8427e"
