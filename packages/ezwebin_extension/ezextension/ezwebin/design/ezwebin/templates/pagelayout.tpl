@@ -35,6 +35,7 @@
 {include uri='design:page_head.tpl'}
 <style type="text/css">
     @import url({"stylesheets/core.css"|ezdesign(no)});
+    @import url({"stylesheets/debug.css"|ezdesign(no)});
     @import url({"stylesheets/pagelayout.css"|ezdesign(no)});
     @import url({"stylesheets/content.css"|ezdesign(no)});
     @import url({"stylesheets/websitetoolbar.css"|ezdesign(no)});
