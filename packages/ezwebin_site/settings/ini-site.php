@@ -893,7 +893,7 @@ array(
 'tiny_image'=>
 array(
 'Source'=>'content/view/tiny.tpl',
-'MatchFile'=>'tiny_image.tpl',
+'MatchFile'=>'tiny/image.tpl',
 'Subdir'=>'templates',
 'Match'=>
 array(
