@@ -2448,6 +2448,16 @@ class eZWebinInstaller extends eZSiteInstaller
                         'classification'=>'comparison'
                         )
                         ),
+                'tiny_image'=>
+                        array(
+                        'Source'=>'content/view/tiny.tpl',
+                        'MatchFile'=>'tiny/image.tpl',
+                        'Subdir'=>'templates',
+                        'Match'=>
+                        array(
+                        'class_identifier'=>'image'
+                        )
+                        ),
                 'image_galleryline'=>
                         array(
                         'Source'=>'node/view/galleryline.tpl',
