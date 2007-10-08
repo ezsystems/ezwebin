@@ -1463,7 +1463,11 @@ class eZWebinInstaller extends eZSiteInstaller
 
     function commonViewCacheINISettings()
     {
-        $settings = array( 'ViewCacheSettings' => array( 'SmartCacheClear' => 'enabled' ),
+        $settings = array( 'ViewCacheSettings' => array( 'SmartCacheClear' => 'enabled',
+                                                         'ClearRelationTypes' => array ( 'common',
+                                                                                         'reverse_common',
+                                                                                         'reverse_embedded',
+                                                                                         'reverse_attribute') ),
                            'forum_reply' => array( 'DependentClassIdentifier' => array( 'forum_topic',
                                                                                         'forum' ),
                                                    'ClearCacheMethod' => array( '0' => 'object',
@@ -2543,8 +2547,9 @@ class eZWebinInstaller extends eZSiteInstaller
                                                                              '7'=>'imagelarge',
                                                                              '8'=>'large',
                                                                              '9'=>'rss',
-                                                                             '10'=>'infoboximage',
-                                                                             '11'=>'billboard' ) ),
+                                                                             '10'=>'logo',
+                                                                             '11'=>'infoboximage',
+                                                                             '12'=>'billboard' ) ),
                                'small'=> array( 'Reference'=>'',
                                                 'Filters'=> array( '0'=>'geometry/scaledownonly=100;160' ) ),
                                'medium'=> array( 'Reference'=>'',
@@ -2553,6 +2558,8 @@ class eZWebinInstaller extends eZSiteInstaller
                                                 'Filters'=> array( '0'=>'geometry/scaledownonly=360;440' ) ),
                                'rss'=> array( 'Reference'=>'',
                                               'Filters'=> array( '0'=>'geometry/scale=88;31' ) ),
+                               'logo'=> array( 'Reference'=>'',
+                                               'Filters'=> array( '0'=>'geometry/scaleheight=36' ) ),
                                'listitem'=> array( 'Reference'=>'',
                                                    'Filters'=> array( '0'=>'geometry/scaledownonly=130;190' ) ),
                                'articleimage'=> array( 'Reference'=>'',
