@@ -63,7 +63,7 @@ Banners - subtree
                  package-path="simplefiles/a2c0baa7.jpg" />
   </simple-files>
   <version>
-    <number>1.2</number>
+    <number>1.3</number>
     <release>0</release>
   </version>
   <licence>GPL</licence>
