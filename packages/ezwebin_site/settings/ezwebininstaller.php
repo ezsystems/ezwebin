@@ -727,9 +727,23 @@ class eZWebinInstaller extends eZSiteInstaller
     {
         foreach( $this->setting( 'locales' ) as $locale )
         {
+            // Prepare 'SiteLanguageList':
+            // make $locale as 'top priority language'
+            // and append 'primary language' as fallback language.
+            $primaryLanguage = $this->setting( 'primary_language' );
+            $languageList = array( $locale );
+            if ( $locale != $primaryLanguage )
+            {
+                $languageList[] = $primaryLanguage;
+            }
+
+            // Create siteaccess
             $this->createSiteAccess( array( 'src' => array( 'siteaccess' => $this->setting( 'user_siteaccess' ) ),
                                             'dst' => array( 'siteaccess' => $this->languageNameFromLocale( $locale ),
-                                                            'locale' => $locale ) ) );
+                                                            'settings' => array( 'site.ini' => array( 'RegionalSettings' => array( 'Locale' => $locale,
+                                                                                                                                   'ContentObjectLocale' => $locale,
+                                                                                                                                   'TextTranslation' => $locale != 'eng-GB' ? 'enabled' : 'disabled',
+                                                                                                                                   'SiteLanguageList' => $languageList ) ) ) ) ) );
         }
     }
 
