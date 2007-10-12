@@ -50,8 +50,8 @@
      </collection>
   </files>
   <version>
-    <number>1.2</number>
-    <release>1</release>
+    <number>1.3</number>
+    <release>0</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>
@@ -60,19 +60,19 @@
     <requires>
       <require type="ezpackage"
                name="ezwebin_classes"
-               min-version="1.2" />
+               min-version="1.3" />
       <require type="ezpackage"
                name="ezwebin_extension"
-               min-version="1.2" />
+               min-version="1.3" />
       <require type="ezpackage"
                name="ezwebin_banners"
-               min-version="1.2" />
+               min-version="1.3" />
       <require type="ezpackage"
                name="ezwebin_democontent"
-               min-version="1.2" />
+               min-version="1.3" />
       <require type="ezpackage"
                name="ezwebin_design"
-               min-version="1.2" />
+               min-version="1.3" />
     </requires>
     <obsoletes />
     <conflicts />
