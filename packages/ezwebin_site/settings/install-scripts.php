@@ -217,7 +217,7 @@ function loadSetupData( $parameters )
     //init vars
     $glob_setupData = array();
     $solutionExtensionName = "ezwebin";
-    $solutionExtensionVersion = "1.0.0";
+    $solutionExtensionVersion = "1.2.2";
 
     // get locales chosen by user in the setup-wizard to create list of user siteaccess
     $glob_setupData['locales'] = $parameters['all_language_codes'];
