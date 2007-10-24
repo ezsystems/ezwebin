@@ -1,1 +1,3 @@
-<div class="separator">&nbsp;</div>
+<div class="separator">
+    <div class="separator-design"></div>
+</div>
