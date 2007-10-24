@@ -77,7 +77,7 @@
 {/section}
 
 <div class="button">
-<input type="submit" name="ArchiveButton" value="{'Archive'|i18n('design/ezwebin/shop/orderlist')}" />
+<input type="submit" class="button" name="ArchiveButton" value="{'Archive'|i18n('design/ezwebin/shop/orderlist')}" />
 </div>
 
 {include name=navigator

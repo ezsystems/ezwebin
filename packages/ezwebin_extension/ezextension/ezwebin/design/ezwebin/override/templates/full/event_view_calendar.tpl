@@ -98,9 +98,12 @@
     <h1>{$event_node.name|wash()}</h1>
 </div>
 
-
 <div id="ezagenda_calendar_left">
 <div id="ezagenda_calendar_container">
+
+<div class="border-box">
+<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <table cellspacing="0" cellpadding="0" border="0" summary="Event Calendar">
 <thead>
@@ -127,21 +130,21 @@
          $css_col_class = ''
          $col_end       = or( eq( $dayofweek, 0 ), eq( $counter, $days ) )}
     {if or( eq( $counter, 1 ), eq( $dayofweek, 1 ) )}
-        <tr class="days{if eq( $counter, 1 )} first_row{elseif le( $days|sub( $counter ), 7 )} last_row{/if}">
+        <tr class="days{if eq( $counter, 1 )} first_row{elseif lt( $days|sub( $counter ), 7 )} last_row{/if}">
         {set $css_col_class=' first_col'}
-    {elseif and($col_end, not(and(eq( $counter, $days ), $span2|gt( 0 ), $span2|ne(7))) )}
+    {elseif and( $col_end, not( and( eq( $counter, $days ), $span2|gt( 0 ), $span2|ne( 7 ) ) ) )}
         {set $css_col_class=' last_col'}
     {/if}
     {if and( $span1|gt( 1 ), eq( $counter, 1 ) )}
         {set $col_counter=1 $css_col_class=''}
         {while ne( $col_counter, $span1 )}
-            <td{if $col_counter|eq( 1 )} class="first_col"{/if}>&nbsp;</td>
+            <td>&nbsp;</td>
             {set $col_counter=inc( $col_counter )}
         {/while}
     {elseif and( eq($span1, 0 ), eq( $counter, 1 ) )}
         {set $col_counter=1 $css_col_class=''}
         {while le( $col_counter, 6 )}
-            <td{if $col_counter|eq( 1 )} class="first_col"{/if}>&nbsp;</td>
+            <td>&nbsp;</td>
             {set $col_counter=inc( $col_counter )}
         {/while}
     {/if}
@@ -155,7 +158,11 @@
     {if and( eq( $counter, $days ), $span2|gt( 0 ), $span2|ne(7))}
         {set $col_counter=1}
         {while le( $col_counter, $span2 )}
-            <td{if $col_counter|eq( $span2 )} class="last_col"{/if}>&nbsp;</td>
+            {set $css_col_class=''}
+            {if eq( $col_counter, $span2 )}
+                {set $css_col_class=' last_col'}
+            {/if}
+            <td class="{$css_col_class}">&nbsp;</td>
             {set $col_counter=inc( $col_counter )}
         {/while}
     {/if}
@@ -166,6 +173,10 @@
 {/while}
 </tbody>
 </table>
+
+</div></div></div>
+<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
+</div>
 
 </div>
 

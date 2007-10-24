@@ -26,6 +26,9 @@
     {if $children|count()}
     {foreach $children as $child}
          {node_view_gui view=line content_node=$child}
+         {delimiter}
+             {include uri='design:content/datatype/view/ezxmltags/separator.tpl'}
+         {/delimiter}
     {/foreach}
     {/if}
     </div>

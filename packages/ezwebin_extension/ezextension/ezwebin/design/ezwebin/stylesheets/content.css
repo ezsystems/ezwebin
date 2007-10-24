@@ -1469,34 +1469,117 @@ div.content-view-embed div.class-gallery div.content-view-children
 
 div.factbox
 {
-    margin: 0 auto 1em auto;
-    background: url(../images/fbox_br.png) no-repeat bottom right;
-    background-color: #ECECE3;
+    width: 17em;
 }
 
 div.factbox-header
 {
-    background: url(../images/fbox_hr.png) no-repeat top right;
-    margin: 0;
+    margin-bottom: 0;
+}
+
+div.factbox-header h2
+{
+    margin: 1px 0px 3px 0px;
     padding: 0;
-    background-color: #D5D5C2;
+    font-size: 16px;
 }
 
-div.factbox h2
+div.factbox-header div.border-tl
 {
-    background: url(../images/fbox_hl.png) no-repeat top left;
-    margin: 0;
-    padding: 0.15em 0.5em 0.15em 0.5em;
-    color: #525345;
-    text-align: left;
+    background-image: url(../images/factbox-header/border-tl.gif);
 }
 
-div.factbox-content
+div.factbox-header div.border-tr
 {
-    background: url(../images/fbox_bl.png) no-repeat bottom left;
-    margin: 0;
-    padding: 0.15em 0.5em 0.15em 0.5em;
-    text-align: left;
+    background-image: url(../images/factbox-header/border-tr.gif);
+}
+
+div.factbox-header div.border-tc
+{
+    background-image: url(../images/factbox-header/border-tc.gif);
+}
+
+div.factbox-header div.border-ml
+{
+    background-image: url(../images/factbox-header/border-ml.gif);
+}
+
+div.factbox-header div.border-mr
+{
+    background-image: url(../images/factbox-header/border-mr.gif);
+}
+
+div.factbox-header div.border-mc
+{
+    background: #D5D5C2 url(../images/factbox-header/border-mc.gif) repeat-x top left;
+    padding: 0 6px 0 6px;
+}
+
+div.factbox-header div.border-bl
+{
+    background-image: url(../images/factbox-header/border-bl.gif);
+}
+
+div.factbox-header div.border-br
+{
+    background-image: url(../images/factbox-header/border-br.gif);
+}
+
+div.factbox-header div.border-bc
+{
+    background-image: url(../images/factbox-header/border-bc.gif);
+}
+
+div.factbox-content div.attribute-image
+{
+    margin: 0.5em 0.5em 0.5em 0;
+    float: left;
+}
+
+div.factbox-content div.border-tl
+{
+    background-image: url(../images/factbox/border-tl.gif);
+}
+
+div.factbox-content div.border-tr
+{
+    background-image: url(../images/factbox/border-tr.gif);
+}
+
+div.factbox-content div.border-tc
+{
+    background-image: url(../images/factbox/border-tc.gif);
+}
+
+div.factbox-content div.border-ml
+{
+    background-image: url(../images/factbox/border-ml.gif);
+}
+
+div.factbox-content div.border-mr
+{
+    background-image: url(../images/factbox/border-mr.gif);
+}
+
+div.factbox-content div.border-mc
+{
+    background: #ECECE3 url(../images/factbox/border-mc.gif) repeat-x top left;
+    padding: 3px 6px 3px 6px;
+}
+
+div.factbox-content div.border-bl
+{
+    background-image: url(../images/factbox/border-bl.gif);
+}
+
+div.factbox-content div.border-br
+{
+    background-image: url(../images/factbox/border-br.gif);
+}
+
+div.factbox-content div.border-bc
+{
+    background-image: url(../images/factbox/border-bc.gif);
 }
 
 /* FRONTPAGE */
@@ -1965,6 +2048,11 @@ div.vertically_listed_sub_items div.content-view-embed div.content-view-children
     font-size: 0.85em;
 }
 
+div.vertically_listed_sub_items div.content-view-embed div.content-view-children div.separator
+{
+    display: none;
+}
+
 div.vertically_listed_sub_items
 {
     margin-bottom: 0.5em;
@@ -2171,6 +2259,7 @@ div.separator
 {
     background-image: url(../images/separator.jpg);
     background-repeat: no-repeat;
+    height: 20px;
     clear: both;
 }
 
@@ -2215,7 +2304,6 @@ div.break
 
 div#ezagenda_calendar_left
 {
-    vertical-align: top;
     width: 228px;
     float: left;
 }
@@ -2228,6 +2316,51 @@ div#ezagenda_calendar_container
     padding-bottom: 6px;
 }
 
+div#ezagenda_calendar_container div.border-box div.border-tl
+{
+    background: transparent url(../images/agendabox/border-tl.gif) no-repeat scroll left top;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-tr
+{
+    background:transparent url(../images/agendabox/border-tr.gif) no-repeat scroll right top;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-tc
+{
+    background:transparent url(../images/agendabox/border-tc.gif) repeat-x scroll left top;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-ml
+{
+    background: transparent url(../images/agendabox/border-ml.gif) repeat-y scroll left center;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-mr
+{
+    background:transparent url(../images/agendabox/border-mr.gif) repeat-y scroll right center;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-mc
+{
+    background:#F4F4F4 url(../images/agendabox/border-mc.gif) repeat-x scroll left top;
+    padding: 0.25em 0 0.25em 0;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-bl
+{
+    background: transparent url(../images/agendabox/border-bl.gif) no-repeat scroll left bottom;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-br
+{
+    background: transparent url(../images/agendabox/border-br.gif) no-repeat scroll right bottom;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-bc
+{
+    background:transparent url(../images/agendabox/border-bc.gif) repeat-x scroll left bottom;
+}
 
 div#ezagenda_calendar_container table
 {
@@ -2237,7 +2370,7 @@ div#ezagenda_calendar_container table
     background-color: #F0F0F0;
     margin: auto;
     text-align: left;
-    vertical-align: top;
+    font-size: 0.85em;
 }
 
 div#ezagenda_calendar_container table th
