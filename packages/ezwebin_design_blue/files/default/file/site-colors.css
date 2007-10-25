@@ -1,0 +1,261 @@
+body
+{
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-image: url(images/bg.jpg);
+    background-repeat: repeat-x;
+}
+
+a
+{
+    color: #d03030;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+li
+{
+    background-image: url(images/ul_bullet.gif);
+}
+
+
+input.button, input.defaultbutton
+{
+    border: 1px solid #94d0e1;
+    background-image: url(images/button_bg.jpg);
+    background-repeat: repeat-x;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 11px;
+    color: #005493;
+    background-color: #ADDBEB;
+}
+
+input.button-disabled
+{
+    border: 1px solid #94d0e1;
+    background-image: url(images/disabled_button_bg.jpg);
+    background-repeat: repeat-x;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 11px;
+    color: #fff;
+    background-color: #CFEFFC;
+}
+
+fieldset input.button-disabled
+{
+    margin-top:0.5em;
+}
+
+div#page
+{
+
+}
+
+div#header
+{
+    padding: 0;
+    background-image: url(images/header_bg.jpg);
+    background-repeat: repeat-x;
+    background-position: left 23px;
+    height: 117px;
+    border-bottom: 1px solid #96C1E0;
+}
+
+div#usermenu
+{
+    background-image: none;
+    height: 23px;
+    background-color: #D6E5EF;
+}
+
+div#languages
+{
+    background-image: none;
+    height: 23px;
+}
+
+div#languages a
+{
+    background-image: url(images/languages_a_bg.gif);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 1em;
+    color: #465A5C;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+div#links
+{
+    background-image: none;
+    height: 23px;
+}
+
+div#links a
+{
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+    border-left: none;
+    color: #465A5C;
+    background-image: url(images/links_a_bg.gif);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+div#links li#tagcloud a
+{
+    background-image: none;
+}
+
+div#logo
+{
+    position: relative;
+    top: 26px;
+    left: 20px;
+    margin: 0;
+}
+
+div#searchbox
+{
+    padding-top: 17px;
+}
+
+input#searchtext
+{
+    border: 1px solid #67A9D3;
+}
+
+input#searchbutton
+{
+    border: 1px solid #4787B6;
+    background-image: url(images/searchbutton_bg.jpg);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+div#topmenu ul
+{
+    background-image: url(images/topmenu_bg.jpg);
+}
+
+div#topmenu ul li
+{
+    background-image: url(images/topmenu_li_bg.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+div#topmenu ul li.selected
+{
+    background-image: url(images/topmenu_li_bg.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding-right: 2px;
+}
+
+div#topmenu ul li.lastli
+{
+    background-image: none;
+}
+
+div#topmenu div.topmenu-design
+{
+    padding: 0;
+}
+
+div#topmenu ul li a
+{
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: normal;
+    border-right: none;
+}
+
+div#topmenu ul li a:hover
+{
+    border-bottom: none;
+}
+
+div#topmenu ul li.selected a
+{
+    background-image: url(images/topmenu_li_selected_bg.jpg);
+    background-position: left top;
+    background-repeat: repeat-x;
+    margin-top: 0;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+div#topmenu ul li.selected a span
+{
+    display: block;
+    background-image: url(images/topmenu_a_bullet.gif);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 4px;
+    margin-bottom: -4px;
+}
+
+div#sidemenu h4
+{
+    font-family: "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+div#sidemenu ul.menu-list li a
+{
+    background-image:url(images/sidemenu_bullet.gif);
+    background-position:0.2em 0.5em;
+    background-repeat:no-repeat;
+    display:block;
+    font-size:0.85em;
+    padding-left:18px;
+}
+
+div#sidemenu ul.submenu-list li
+{
+    line-height: 1em;
+}
+
+div#sidemenu ul.submenu-list li a
+{
+    background-image:url(images/ul_submenu_bullet.gif);
+    background-position:0.2em 0.5em;
+    background-repeat:no-repeat;
+    display:block;
+    font-size:0.8em;
+    padding-left:18px;
+    color: #3f93bc;
+}
+
+div#footer
+{
+    margin-top: 0;
+    background-image:url(images/footer_bg.jpg);
+    background-position:center top;
+    background-repeat:no-repeat;
+    height: 40px;
+    color: #FFFFFF;
+    padding-top: 44px;
+}
+
+div#footer a
+{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
