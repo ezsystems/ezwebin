@@ -1,0 +1,1091 @@
+div.quote
+{
+    background-image:url(images/quote-tl.gif);
+}
+
+div.quote-design
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #515151;
+    font-weight: normal;
+    font-size: 17px;
+    background-image:url(images/quote-br.gif);
+}
+
+div.quote-design p.author
+{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    color: #989C9B;
+}
+
+/* General box */
+
+div.border-box div.border-tl
+{
+    background: transparent url(images/box-1-border-tl.gif) no-repeat scroll left top;
+}
+
+div.border-box div.border-tr
+{
+    background:transparent url(images/box-1-border-tr.gif) no-repeat scroll right top;
+}
+
+div.border-box div.border-tc
+{
+    background:transparent url(images/box-1-border-tc.gif) repeat-x scroll left top;
+}
+
+div.border-box div.border-ml
+{
+    background: transparent url(images/box-1-border-ml.gif) repeat-y scroll left center;
+}
+
+div.border-box div.border-mr
+{
+    background:transparent url(images/box-1-border-mr.gif) repeat-y scroll right center;
+}
+
+div.border-box div.border-mc
+{
+    background:#FFF url(images/box-1-border-mc.gif) repeat-x scroll left top;
+}
+
+div.border-box div.border-bl
+{
+    background: transparent url(images/box-1-border-bl.gif) no-repeat scroll left bottom;
+}
+
+div.border-box div.border-br
+{
+    background: transparent url(images/box-1-border-br.gif) no-repeat scroll right bottom;
+}
+
+div.border-box div.border-bc
+{
+    background:transparent url(images/box-1-border-bc.gif) repeat-x scroll left bottom;
+}
+
+/* Box 2 */
+
+div.box-2 div.border-tl
+{
+    background: transparent url(images/box-1-border-tl.gif) no-repeat scroll left top;
+}
+
+div.box-2 div.border-tr
+{
+    background:transparent url(images/box-1-border-tr.gif) no-repeat scroll right top;
+}
+
+div.box-2 div.border-tc
+{
+    background:transparent url(images/box-1-border-tc.gif) repeat-x scroll left top;
+}
+
+div.box-2 div.border-ml
+{
+    background: transparent url(images/box-1-border-ml.gif) repeat-y scroll left center;
+}
+
+div.box-2 div.border-mr
+{
+    background:transparent url(images/box-1-border-mr.gif) repeat-y scroll right center;
+}
+
+div.box-2 div.border-mc
+{
+    background:#FFF url(images/box-1-border-mc.gif) repeat-x scroll left top;
+}
+
+div.box-2 div.border-bl
+{
+    background: transparent url(images/box-1-border-bl.gif) no-repeat scroll left bottom;
+}
+
+div.box-2 div.border-br
+{
+    background: transparent url(images/box-1-border-br.gif) no-repeat scroll right bottom;
+}
+
+div.box-2 div.border-bc
+{
+    background:transparent url(images/box-1-border-bc.gif) repeat-x scroll left bottom;
+}
+
+/* Box 3 */
+
+div.box-3 div.border-tl
+{
+    background: transparent url(images/box-1-border-tl.gif) no-repeat scroll left top;
+}
+
+div.box-3 div.border-tr
+{
+    background:transparent url(images/box-1-border-tr.gif) no-repeat scroll right top;
+}
+
+div.box-3 div.border-tc
+{
+    background:transparent url(images/box-1-border-tc.gif) repeat-x scroll left top;
+}
+
+div.box-3 div.border-ml
+{
+    background: transparent url(images/box-1-border-ml.gif) repeat-y scroll left center;
+}
+
+div.box-3 div.border-mr
+{
+    background:transparent url(images/box-1-border-mr.gif) repeat-y scroll right center;
+}
+
+div.box-3 div.border-mc
+{
+    background:#FFF url(images/box-1-border-mc.gif) repeat-x scroll left top;
+}
+
+div.box-3 div.border-bl
+{
+    background: transparent url(images/box-1-border-bl.gif) no-repeat scroll left bottom;
+}
+
+div.box-3 div.border-br
+{
+    background: transparent url(images/box-1-border-br.gif) no-repeat scroll right bottom;
+}
+
+div.box-3 div.border-bc
+{
+    background:transparent url(images/box-1-border-bc.gif) repeat-x scroll left bottom;
+}
+
+/* Separator */
+
+div.separator
+{
+    display: block;
+    background-image: url(images/sep-bg.gif);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    height: 1px;
+    margin: 0 0 0.75em 0;
+}
+
+div.separator-design
+{
+    background-image: url(images/sep-design-bg.gif);
+    background-repeat: repeat-x;
+    height: 1px;
+}
+
+/* Billboard */
+
+div.content-view-full div.class-frontpage div.attribute-billboard
+{
+
+    background-image: none;
+    padding-bottom:11px;
+    padding-top:0.25em;
+    text-align:left;
+}
+
+/* Infobox header - general box */
+
+div.infobox-header div.border-tl
+{
+    background: transparent url(images/infobox-header-border-tl.gif) no-repeat scroll left top;
+}
+
+div.infobox-header div.border-tr
+{
+    background:transparent url(images/infobox-header-border-tr.gif) no-repeat scroll right top;
+}
+
+div.infobox-header div.border-tc
+{
+    background: #FFF url(images/infobox-header-border-tc.gif) repeat-y scroll left top;
+}
+
+div.infobox-header div.border-ml
+{
+    background: transparent url(images/infobox-header-border-ml.gif) repeat-y scroll left center;
+}
+
+div.infobox-header div.border-mr
+{
+    background:transparent url(images/infobox-header-border-mr.gif) repeat-y scroll right center;
+}
+
+div.infobox-header div.border-mc
+{
+    background:#FFF url(images/infobox-header-border-mc.gif) repeat-y scroll left top;
+}
+
+div.infobox div.border-ml
+{
+    background: transparent url(images/infobox-border-ml.gif) repeat-y scroll left center;
+}
+
+div.infobox div.border-mr
+{
+    background:transparent url(images/infobox-border-mr.gif) repeat-y scroll right center;
+}
+
+div.infobox div.border-mc
+{
+    background:#FFF url(images/infobox-border-mc.gif) repeat-x scroll left top;
+}
+
+div.infobox div.border-bl
+{
+    background: transparent url(images/infobox-border-bl.gif) no-repeat scroll left bottom;
+}
+
+div.infobox div.border-br
+{
+    background: transparent url(images/infobox-border-br.gif) no-repeat scroll right bottom;
+}
+
+div.infobox div.border-bc
+{
+    background:transparent url(images/infobox-border-bc.gif) repeat-x scroll left bottom;
+}
+
+div.infobox-header h2
+{
+    font-size: 13px;
+    font-weight: normal;
+    margin: 5px 0px 6px;
+    padding: 0 0 0 15px;
+    color: #1E81B3;
+    background-image: url(images/infobox-header-dot.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+/* Itemized sub items - general box */
+
+div.itemized_sub_items div.border-box div.border-tl
+{
+    background: transparent url(images/isi-border-tl.gif) no-repeat scroll left top;
+}
+
+div.itemized_sub_items div.border-box div.border-tr
+{
+    background:transparent url(images/isi-border-tr.gif) no-repeat scroll right top;
+}
+
+div.itemized_sub_items div.border-box div.border-tc
+{
+    background:transparent url(images/isi-border-tc.gif) repeat-x scroll left top;
+}
+
+div.itemized_sub_items div.border-box div.border-ml
+{
+    background: transparent url(images/isi-border-ml.gif) repeat-y scroll left center;
+}
+
+div.itemized_sub_items div.border-box div.border-mr
+{
+    background:transparent url(images/isi-border-mr.gif) repeat-y scroll right center;
+}
+
+div.itemized_sub_items div.border-box div.border-mc
+{
+    background:#FFF url(images/isi-border-mc.gif) repeat-x scroll left top;
+}
+
+div.itemized_sub_items div.border-box div.border-bl
+{
+    background: transparent url(images/isi-border-bl.gif) no-repeat scroll left bottom;
+}
+
+div.itemized_sub_items div.border-box div.border-br
+{
+    background: transparent url(images/isi-border-br.gif) no-repeat scroll right bottom;
+}
+
+div.itemized_sub_items div.border-box div.border-bc
+{
+    background:transparent url(images/isi-border-bc.gif) repeat-x scroll left bottom;
+}
+
+/* Itemized sub items - unordered list */
+
+div.itemized_sub_items div.content-view-embed ul li a
+{
+    background-image: url(images/isi_bullet.gif);
+}
+
+/* Image attribute */
+
+div.attribute-image
+{
+    padding: 3px;
+    border: 1px solid #e3e7eb;
+    background-color: #FFFFFF;
+}
+
+/* Header */
+
+div.attribute-header h1
+{
+    font-size: 1.4em;
+    font-family: "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
+    background-image: none;
+    padding-bottom: 0.25em;
+}
+
+div.attribute-header h1.long
+{
+    font-size: 1.4em;
+    font-family: "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
+    background-image: none;
+}
+
+div.user-edit div.attribute-header h1
+{
+    background-image: none;
+    padding-bottom: 25px;
+}
+
+div.content-edit div.class-comment div.attribute-header h1.long, div.content-edit div.class-forum-topic div.attribute-header h1.long, div.content-edit div.class-forum-reply div.attribute-header h1.long, div.content-edit div.class-file div.attribute-header h1.long
+{
+    padding-bottom: 0;
+}
+
+/* Feedback form */
+
+div.class-feedback-form form h4
+{
+    margin-top: 0.5em;
+    font-size: 12px;
+    color: #005493;
+    font-weight: normal;
+    margin-bottom: 0.25em;
+}
+
+div.class-feedback-form div.content-action
+{
+    margin-top: 0.5em;
+}
+
+/* Form */
+
+label, legend
+{
+    font-size: 12px;
+    color: #005493;
+    font-weight: normal;
+    padding-bottom: 0.25em;
+}
+
+fieldset
+{
+    border: 1px solid #d4d4d4;
+    background-image: url(images/input_box_bg.jpg);
+    background-position: left top;
+    background-repeat: repeat-x;
+}
+
+input.box, textarea.box, input.halfbox, div.element input
+{
+    border: 1px solid #d4d4d4;
+    background-image: url(images/input_box_bg.jpg);
+    background-position: left top;
+    background-repeat: repeat-x;
+}
+
+div.date input, div.time input
+{
+    border: 1px solid #d4d4d4;
+    background-image: url(images/input_box_bg.jpg);
+    background-position: left top;
+    background-repeat: repeat-x;
+}
+
+/* Agenda */
+
+div#ezagenda_calendar_container
+{
+    text-align: left;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-tl
+{
+    background: transparent url(images/event-cal-border-tl.gif) no-repeat scroll left top;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-tr
+{
+    background:transparent url(images/event-cal-border-tr.gif) no-repeat scroll right top;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-tc
+{
+    background:transparent url(images/event-cal-border-tc.gif) repeat-x scroll left top;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-ml
+{
+    background: transparent url(images/event-cal-border-ml.gif) repeat-y scroll left center;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-mr
+{
+    background:transparent url(images/event-cal-border-mr.gif) repeat-y scroll right center;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-mc
+{
+    background:#FBFFFF url(images/event-cal-border-mc.gif) repeat-x scroll left top;
+    padding: 0.5em 0.75em;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-bl
+{
+    background: transparent url(images/event-cal-border-bl.gif) no-repeat scroll left bottom;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-br
+{
+    background: transparent url(images/event-cal-border-br.gif) no-repeat scroll right bottom;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-bc
+{
+    background:transparent url(images/event-cal-border-bc.gif) repeat-x scroll left bottom;
+}
+
+div#ezagenda_calendar_container div.border-box
+{
+    width: 91%;
+}
+
+div#ezagenda_calendar_container table
+{
+    font-size: 11px;
+    margin: 0 0 0 0;
+    background-image: none;
+    background-color: transparent;
+}
+
+div#ezagenda_calendar_container table td
+{
+    border-color: #ffffff #c2dbe8 #c2dbe8 #ffffff;
+    color: #717274;
+    padding: 6px;
+}
+
+div#ezagenda_calendar_container table th
+{
+    border-color: #ffffff #c2dbe8 #c2dbe8 #ffffff;
+    font-weight: normal;
+    color: #717274;
+}
+
+div#ezagenda_calendar_container table tr.last_row td
+{
+    border-bottom: none;
+}
+
+div#ezagenda_calendar_container table th.calendar_heading_date
+{
+    font-weight: bold;
+    color: #000000;
+}
+
+div#ezagenda_calendar_container table th.calendar_heading_prev a, div#ezagenda_calendar_container table th.calendar_heading_next a
+{
+    color: #017bdb;
+}
+
+div#ezagenda_calendar_container table td.ezagenda_selected
+{
+    background-color: #fbffff;
+    background-image: url(images/ezagenda_selected.jpg);
+    background-repeat: repeat-x;
+}
+
+div#ezagenda_calendar_today h2, div#ezagenda_calendar_right h2
+{
+    font-family: "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #000000;
+}
+
+div#ezagenda_calendar_today div.ezagenda_day_event h4
+{
+    font-size: 12px;
+}
+
+div#ezagenda_calendar_today div.ezagenda_day_event h4 a
+{
+    color: #3f8abd;
+}
+
+div#ezagenda_calendar_right table.ezagenda_month_event
+{
+    border: none;
+}
+
+div#ezagenda_calendar_right table.ezagenda_month_event td.ezagenda_month_label
+{
+    width: 70px;
+    padding: 0;
+}
+
+div#ezagenda_calendar_right table.ezagenda_month_event td.ezagenda_month_info
+{
+    padding-top: 1.5em;
+}
+
+div#ezagenda_calendar_right table.ezagenda_month_event td.ezagenda_month_info h4
+{
+    color: #000000;
+    font-size: 12px;
+}
+
+div#ezagenda_calendar_right table.ezagenda_month_event td.ezagenda_month_info h4 a
+{
+    color: #3f8abd;
+}
+
+div#ezagenda_calendar_right table.ezagenda_month_event td.ezagenda_month_label h2
+{
+    background-image: url(images/ezagenda_month_label_bg.jpg);
+    background-position: 2px 0px;
+    width: 64px;
+    height: 62px;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 0;
+    padding-top: 1em;
+    color: #FFFFFF;
+    font-weight: normal;
+    padding-left: 0;
+    padding-bottom: -1em;
+}
+
+div#ezagenda_calendar_right table.ezagenda_month_event td.ezagenda_month_label h2 span.ezagenda_month_label_date
+{
+    display: block;
+    font-size: 22px;
+}
+
+div#ezagenda_calendar_today div.ezagenda_day_event
+{
+    border: 1px solid #c7e5ee;
+}
+
+/* Calendar */
+
+div.calendar
+{
+    background-color:#e1f4fa;
+    width:195px;
+}
+
+div.calendar div.calendar-tl
+{
+    background:transparent url(images/calendar-corner-tl.gif) no-repeat scroll left top;
+}
+
+div.calendar div.calendar-tr
+{
+    background:transparent url(images/calendar-corner-tr.gif) no-repeat scroll right top;
+}
+
+div.calendar div.calendar-bl
+{
+    background:transparent url(images/calendar-corner-bl.gif) no-repeat scroll left bottom;
+}
+
+div.calendar div.calendar-br
+{
+    background:transparent url(images/calendar-corner-br.gif) no-repeat scroll right bottom;
+    padding:6px;
+}
+
+div.calendar div.content
+{
+    background-image: url(images/calendar-bg.gif);
+    background-repeat: repeat-x;
+    background-color: #fff;
+    border:1px solid #cbe6f2;
+}
+
+div.calendar div.month a
+{
+    color: #017bdb;
+    text-decoration:none;
+}
+
+div.calendar table
+{
+    width:100%;
+    font-size: 12px;
+}
+
+div.calendar th, div.calendar td
+{
+    border-color:#FFFFFF #c2dbe8 #c2dbe8 #fff;
+}
+
+div.calendar td.currentselected
+{
+    background-color: #FFFFFF;
+    background-image: url(images/calendar_selected.jpg);
+    background-repeat: repeat-x;
+}
+
+/* Vertically listed sub items */
+
+div.vertically_listed_sub_items div.content-view-embed h2
+{
+    padding-left: 0.5em;
+}
+
+div.vertically_listed_sub_items div.content-view-embed div.content-view-children div.separator
+{
+    display: block;
+    margin: 0.75em 0 0.75em 0;
+}
+
+div.vertically_listed_sub_items div.content-view-embed div.content-view-line h2 a
+{
+    border-bottom: 1px dotted #d03030;
+}
+
+/* Horizontally listed sub items */
+
+div.horizontally_listed_sub_items div.content-view-embed h2
+{
+    padding-left: 0.5em;
+    padding-top: 0;
+}
+
+div.horizontally_listed_sub_items div.content-view-horizontallylistedsubitems div.class-image
+{
+    padding-top: 1em;
+}
+
+div.horizontally_listed_sub_items div.content-view-embed div.content-view-horizontallylistedsubitems div.content-image
+{
+    width: 130px;
+    padding: 3px;
+    border: 1px solid #e3e7eb;
+    background-color: #FFFFFF;
+}
+
+div.content-view-horizontallylistedsubitems div.class-image div.caption
+{
+    text-align: left;
+}
+
+div.content-view-horizontallylistedsubitems div.class-image div.caption a
+{
+    background-image: url(images/loupe-ico.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+/* Highlighted object */
+
+div.highlighted_object
+{
+    background-image: none;
+    padding-bottom: 0;
+}
+
+/* Tables */
+
+table.list
+{
+    font-size: 11px;
+}
+
+table.list th, table.cols th, table.comparison th, table.renderedtable th
+{
+    background-color: #DAEAED;
+    background-image: url(images/th_bg.jpg);
+    background-position:left top;
+    background-repeat:repeat-x;
+    border-top:1px solid #fff;
+    color:#342e15;
+    font-weight:bold;
+    text-align:left;
+    white-space:nowrap;
+    height: 29px;
+}
+
+table.list th, table.list td 
+{
+    border-bottom:1px solid #fff;
+    border-right:1px solid #fff;
+    padding:0.5em;
+    vertical-align:top;
+}
+
+table.list th:first-child, table.list td:first-child
+{
+    border-left:1px solid #fff;
+}
+
+table.list tr.bglight, table.cols col.bglight, table.comparison col.bglight, table.renderedtable tr.bglight
+{
+    background-color: #f3fafc;
+}
+
+table.list tr.bgdark, table.cols col.bgdark, table.comparison col.bgdark, table.renderedtable tr.bgdark
+{
+    background-color: #e5f1f5;
+}
+
+table.renderedtable tr.bglight:hover, table.renderedtable tr.bgdark:hover
+{
+    background-color: #e5f1f5;
+}
+
+table.renderedtable tr.bglight:hover td, table.renderedtable tr.bgdark:hover td
+{
+    background-color: #e5f1f5;
+}
+
+table.cols tr.bglight:hover, table.cols tr.bgdark:hover
+{
+    background-color: #e5f1f5;
+}
+
+table.cols tr.bglight:hover td, table.cols tr.bgdark:hover td
+{
+    background-color: #e5f1f5;
+}
+
+table.comparison tr.bglight:hover, table.comparison tr.bgdark:hover
+{
+    background-color: #e5f1f5;
+}
+
+table.comparison tr.bglight:hover td, table.comparison tr.bgdark:hover td
+{
+    background-color: #e5f1f5;
+}
+
+
+/* Factbox */
+
+div.factbox-header
+{
+    margin-bottom: 0;
+}
+
+div.factbox-header h2
+{
+    margin: 1px 0px 0px 0px;
+    padding: 0;
+    font-size: 14px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: #367fb7;
+    font-weight: normal;
+}
+
+div.factbox-header div.border-tl
+{
+    background-image: url(images/factbox-header-border-tl.gif);
+}
+
+div.factbox-header div.border-tr
+{
+    background-image: url(images/factbox-header-border-tr.gif);
+}
+
+div.factbox-header div.border-tc
+{
+    background-image: url(images/factbox-header-border-tc.gif);
+}
+
+div.factbox-header div.border-ml
+{
+    background-image: url(images/factbox-header-border-ml.gif);
+}
+
+div.factbox-header div.border-mr
+{
+    background-image: url(images/factbox-header-border-mr.gif);
+}
+
+div.factbox-header div.border-mc
+{
+    background: #DFF3FA url(images/factbox-header-border-mc.gif) repeat-x top left;
+    padding: 1px 4px 0 4px;
+}
+
+div.factbox-header div.border-bl
+{
+    background-image: url(images/factbox-header-border-bl.gif);
+}
+
+div.factbox-header div.border-br
+{
+    background-image: url(images/factbox-header-border-br.gif);
+}
+
+div.factbox-header div.border-bc
+{
+    background-image: url(images/factbox-header-border-bc.gif);
+}
+
+div.factbox-header div.box-content
+{
+    padding: 10px 5px 5px 5px;
+    border-top: 1px solid #cbe5f1;
+    border-left: 1px solid #e0eff5;
+    border-right: 1px solid #e0eff5;
+    border-bottom: none;
+    background-image: url(images/factbox-box-content.gif);
+    background-position: left top;
+    background-repeat: repeat-x;
+    background-color: #FFFFFF;
+}
+
+/* factbox */
+
+div.factbox-content div.attribute-image
+{
+    margin: 0.5em 0.5em 0.5em 0;
+    float: left;
+}
+
+div.factbox-content div.border-tl
+{
+    background-image: url(images/factbox-border-tl.gif);
+}
+
+div.factbox-content div.border-tr
+{
+    background-image: url(images/factbox-border-tr.gif);
+}
+
+div.factbox-content div.border-tc
+{
+    background-image: url(images/factbox-border-tc.gif);
+}
+
+div.factbox-content div.border-ml
+{
+    background-image: url(images/factbox-border-ml.gif);
+}
+
+div.factbox-content div.border-mr
+{
+    background-image: url(images/factbox-border-mr.gif);
+}
+
+div.factbox-content div.border-mc
+{
+    background: #e1f4fa;
+    padding: 0px 4px 1px 4px;
+}
+
+div.factbox-content div.border-bl
+{
+    background-image: url(images/factbox-border-bl.gif);
+}
+
+div.factbox-content div.border-br
+{
+    background-image: url(images/factbox-border-br.gif);
+}
+
+div.factbox-content div.border-bc
+{
+    background-image: url(images/factbox-border-bc.gif);
+}
+
+div.factbox-content div.box-content
+{
+    padding: 10px 5px 5px 5px;
+    border-top: none;
+    border-left: 1px solid #e0eff5;
+    border-right: 1px solid #e0eff5;
+    border-bottom: 1px solid #e0eff5;
+    background-color: #FFFFFF;
+}
+
+/* PRODUCT - Productbox-header */
+
+div.productbox-header
+{
+    margin-bottom: 0;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+div.productbox-header div.attribute-image
+{
+    border: none;
+}
+div.productbox-header div.border-tl
+{
+    background-image: url(images/productbox-header-border-tl.gif);
+}
+
+div.productbox-header div.border-tr
+{
+    background-image: url(images/productbox-header-border-tr.gif);
+}
+
+div.productbox-header div.border-tc
+{
+    background-image: url(images/productbox-header-border-tc.gif);
+}
+
+div.productbox-header div.border-ml
+{
+    background-image: url(images/productbox-header-border-ml.gif);
+}
+
+div.productbox-header div.border-mr
+{
+    background-image: url(images/productbox-header-border-mr.gif);
+}
+
+div.productbox-header div.border-mc
+{
+    background: #fff;
+    text-align: center;
+}
+
+div.productbox-header div.border-bl
+{
+    background-image: url(images/productbox-header-border-bl.gif);
+}
+
+div.productbox-header div.border-br
+{
+    background-image: url(images/productbox-header-border-br.gif);
+}
+
+div.productbox-header div.border-bc
+{
+    background-image: url(images/productbox-header-border-bc.gif);
+}
+
+/* Forums */
+
+div.content-view-full div.class-forums table.forum
+{
+    background-image: none;
+    padding-bottom: 0;
+}
+
+div.content-view-full div.class-forums table.forum th
+{
+    background-color: #DAEAED;
+    background-image: url(images/th_bg.jpg);
+    background-position:left top;
+    background-repeat:repeat-x;
+    border-top:1px solid #fff;
+    color:#342e15;
+    font-weight:bold;
+    text-align:left;
+    white-space:nowrap;
+    height: 29px;
+}
+
+div.content-view-full div.class-forums table.forum td
+{
+    background-color: #e5f1f5;
+}
+
+div.content-view-full div.class-article div.attribute-byline
+{
+    background-image: none;
+    display:block;
+    padding-bottom:20px;
+}
+
+div.content-view-full div.attribute-byline p.author
+{
+    color: #676767;
+    font-size: 0.85em;
+}
+
+div.content-view-full div.attribute-byline p.date
+{
+    color: #3f8abd;
+    font-size: 0.85em;
+}
+
+/* Blogs */
+div.content-view-line div.class-blog-post div.attribute-byline p.author, div.content-view-full div.class-blog-post div.attribute-byline p.author
+{
+    color: #676767;
+    font-size: 0.85em;
+}
+
+div.content-view-line div.class-blog-post div.attribute-byline p.date, div.content-view-full div.class-blog-post div.attribute-byline p.date
+{
+    border-right: 1px solid #000;
+    padding-right: 5px;
+    color: #3f8abd;
+    font-size: 0.85em;
+}
+
+div.content-view-line div.class-blog-post div.attribute-comments a
+{
+    background-image: url(images/comment-ico.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 16px;
+}
+
+/* Article */
+
+div.content-view-full div.class-article div.attribute-byline p.author
+{
+    border-right: 1px solid #000;
+}
+
+div.content-view-full div.class-article div.attribute-byline p.date
+{
+
+}
+
+div.content-view-full div.class-article div.attribute-long
+{
+    background-image: none;
+    padding-bottom:20px;
+}
+
+/* Tip a friend */
+
+div.attribute-tipafriend
+{
+    margin-top: 20px;
+    background-image: none;
+}
+
+/* Comment */
+
+div.content-view-line div.class-comment div.attribute-byline p.author
+{
+    border-right: none;
+}
+
+div.content-view-full div.class-article div.attribute-byline
+{
+    padding-bottom: 5px;
+}
+
+/* Site map */
+
+div.content-view-sitemap ul li
+{
+    background-image:url(images/ul_bullet.gif);
+}
