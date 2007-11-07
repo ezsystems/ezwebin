@@ -7513,15 +7513,15 @@
             class_remote_id="a3d405b81be900468eb153d774f4f0d2"
             ezremote:class_identifier="folder"
             ezremote:always_available="1"
-            initial_language="eng-US">
+            initial_language="eng-GB">
       <version-list active_version="1"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
                           ezremote:created="Thu, 01 Nov 2007 08:41:40 GMT"
                           ezremote:modified="Thu, 01 Nov 2007 08:41:48 GMT"
-                          initial_language="eng-US">
-          <ezobject:object-translation language="eng-US"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
                                        object_name="News">
             <ezobject:attribute ezremote:id="1015"
                                 ezremote:identifier="name"
@@ -7588,7 +7588,7 @@
             class_remote_id="c15b600eb9198b1924063b5a68758232"
             ezremote:class_identifier="article"
             ezremote:always_available="0"
-            initial_language="eng-US">
+            initial_language="eng-GB">
       <version-list active_version="2"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="2"
@@ -7596,7 +7596,7 @@
                           ezremote:created="Thu, 01 Nov 2007 11:05:52 GMT"
                           ezremote:modified="Thu, 01 Nov 2007 11:06:57 GMT"
                           initial_language="fre-FR">
-          <ezobject:object-translation language="eng-US"
+          <ezobject:object-translation language="eng-GB"
                                        object_name="Lyon: a culture of partnership">
             <ezobject:attribute ezremote:id="1022"
                                 ezremote:identifier="title"
@@ -7848,7 +7848,7 @@
             class_remote_id="c15b600eb9198b1924063b5a68758232"
             ezremote:class_identifier="article"
             ezremote:always_available="0"
-            initial_language="eng-US">
+            initial_language="eng-GB">
       <version-list active_version="3"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="3"
@@ -7856,7 +7856,7 @@
                           ezremote:created="Thu, 01 Nov 2007 11:04:50 GMT"
                           ezremote:modified="Thu, 01 Nov 2007 11:05:40 GMT"
                           initial_language="fre-FR">
-          <ezobject:object-translation language="eng-US"
+          <ezobject:object-translation language="eng-GB"
                                        object_name="Lyon: a land of projects">
             <ezobject:attribute ezremote:id="1033"
                                 ezremote:identifier="title"
@@ -8116,7 +8116,7 @@
             class_remote_id="c15b600eb9198b1924063b5a68758232"
             ezremote:class_identifier="article"
             ezremote:always_available="0"
-            initial_language="eng-US">
+            initial_language="eng-GB">
       <version-list active_version="5"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="5"
@@ -8124,7 +8124,7 @@
                           ezremote:created="Thu, 01 Nov 2007 11:03:46 GMT"
                           ezremote:modified="Thu, 01 Nov 2007 11:04:31 GMT"
                           initial_language="fre-FR">
-          <ezobject:object-translation language="eng-US"
+          <ezobject:object-translation language="eng-GB"
                                        object_name="Lyon: a widely envied quality of life">
             <ezobject:attribute ezremote:id="1044"
                                 ezremote:identifier="title"
@@ -8342,7 +8342,7 @@
             class_remote_id="c15b600eb9198b1924063b5a68758232"
             ezremote:class_identifier="article"
             ezremote:always_available="0"
-            initial_language="eng-US">
+            initial_language="eng-GB">
       <version-list active_version="4"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="4"
@@ -8350,7 +8350,7 @@
                           ezremote:created="Thu, 01 Nov 2007 11:02:09 GMT"
                           ezremote:modified="Thu, 01 Nov 2007 11:03:24 GMT"
                           initial_language="fre-FR">
-          <ezobject:object-translation language="eng-US"
+          <ezobject:object-translation language="eng-GB"
                                        object_name="Lyon encourages talents">
             <ezobject:attribute ezremote:id="1055"
                                 ezremote:identifier="title"
@@ -8685,7 +8685,7 @@
             class_remote_id="c15b600eb9198b1924063b5a68758232"
             ezremote:class_identifier="article"
             ezremote:always_available="0"
-            initial_language="eng-US">
+            initial_language="eng-GB">
       <version-list active_version="4"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="4"
@@ -8693,7 +8693,7 @@
                           ezremote:created="Thu, 01 Nov 2007 11:01:07 GMT"
                           ezremote:modified="Thu, 01 Nov 2007 11:01:35 GMT"
                           initial_language="fre-FR">
-          <ezobject:object-translation language="eng-US"
+          <ezobject:object-translation language="eng-GB"
                                        object_name="Lyon: more for your money">
             <ezobject:attribute ezremote:id="1066"
                                 ezremote:identifier="title"
@@ -8939,7 +8939,7 @@
             class_remote_id="c15b600eb9198b1924063b5a68758232"
             ezremote:class_identifier="article"
             ezremote:always_available="0"
-            initial_language="eng-US">
+            initial_language="eng-GB">
       <version-list active_version="3"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="3"
@@ -8947,7 +8947,7 @@
                           ezremote:created="Thu, 01 Nov 2007 10:57:56 GMT"
                           ezremote:modified="Thu, 01 Nov 2007 10:58:25 GMT"
                           initial_language="fre-FR">
-          <ezobject:object-translation language="eng-US"
+          <ezobject:object-translation language="eng-GB"
                                        object_name="Lyon: world class facilities">
             <ezobject:attribute ezremote:id="1077"
                                 ezremote:identifier="title"
@@ -9142,7 +9142,7 @@
             class_remote_id="c15b600eb9198b1924063b5a68758232"
             ezremote:class_identifier="article"
             ezremote:always_available="0"
-            initial_language="eng-US">
+            initial_language="eng-GB">
       <version-list active_version="4"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="4"
@@ -9150,7 +9150,7 @@
                           ezremote:created="Thu, 01 Nov 2007 10:56:16 GMT"
                           ezremote:modified="Thu, 01 Nov 2007 10:57:40 GMT"
                           initial_language="fre-FR">
-          <ezobject:object-translation language="eng-US"
+          <ezobject:object-translation language="eng-GB"
                                        object_name="Lyon puts Europe at your doorstep">
             <ezobject:attribute ezremote:id="1088"
                                 ezremote:identifier="title"
@@ -9433,7 +9433,7 @@
             class_remote_id="c15b600eb9198b1924063b5a68758232"
             ezremote:class_identifier="article"
             ezremote:always_available="0"
-            initial_language="eng-US">
+            initial_language="eng-GB">
       <version-list active_version="5"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="5"
@@ -9441,7 +9441,7 @@
                           ezremote:created="Thu, 01 Nov 2007 10:54:59 GMT"
                           ezremote:modified="Thu, 01 Nov 2007 10:55:51 GMT"
                           initial_language="fre-FR">
-          <ezobject:object-translation language="eng-US"
+          <ezobject:object-translation language="eng-GB"
                                        object_name="Lyon: the testing ground">
             <ezobject:attribute ezremote:id="1099"
                                 ezremote:identifier="title"
@@ -9725,7 +9725,7 @@
             class_remote_id="c15b600eb9198b1924063b5a68758232"
             ezremote:class_identifier="article"
             ezremote:always_available="0"
-            initial_language="eng-US">
+            initial_language="eng-GB">
       <version-list active_version="4"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="4"
@@ -9733,7 +9733,7 @@
                           ezremote:created="Thu, 01 Nov 2007 10:53:33 GMT"
                           ezremote:modified="Thu, 01 Nov 2007 10:54:44 GMT"
                           initial_language="fre-FR">
-          <ezobject:object-translation language="eng-US"
+          <ezobject:object-translation language="eng-GB"
                                        object_name="Lyon attracts world leaders">
             <ezobject:attribute ezremote:id="1110"
                                 ezremote:identifier="title"
@@ -10007,7 +10007,7 @@
             class_remote_id="c15b600eb9198b1924063b5a68758232"
             ezremote:class_identifier="article"
             ezremote:always_available="0"
-            initial_language="eng-US">
+            initial_language="eng-GB">
       <version-list active_version="5"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="5"
@@ -10015,7 +10015,7 @@
                           ezremote:created="Thu, 01 Nov 2007 10:52:25 GMT"
                           ezremote:modified="Thu, 01 Nov 2007 10:53:19 GMT"
                           initial_language="fre-FR">
-          <ezobject:object-translation language="eng-US"
+          <ezobject:object-translation language="eng-GB"
                                        object_name=" Lyon, an European metropolis">
             <ezobject:attribute ezremote:id="1121"
                                 ezremote:identifier="title"
