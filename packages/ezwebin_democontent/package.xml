@@ -130,27 +130,18 @@ Company - subtree
     <simple-file key="ded458ff1df4a9c856f8d512760a8b56"
                  original-path="var/storage/images/company/news/lyon,-an-european-metropolis/1127-3-eng-US/Lyon,-an-European-metropolis.jpg"
                  package-path="simplefiles/74f6f397.jpg" />
-    <simple-file key="7931782016b7d816a2f296236ab7d215"
-                 original-path="var/storage/images/media/images/visit_grenland/2346-1-eng-GB/visit_grenland.gif"
-                 package-path="simplefiles/59c00fc8.gif" />
-    <simple-file key="272f6db4db997b852d98b230a09ac3ad"
-                 original-path="var/storage/images/communities/articles/in_hac_habitasse_platea/1461-3-eng-GB/in_hac_habitasse_platea.jpg"
-                 package-path="simplefiles/e8abb55c.jpg" />
-    <simple-file key="a3323d2fb2082d1158063e08bf5b11a7"
-                 original-path="var/storage/images/communities/articles/aliquam_erat_volutpat/1090-8-eng-GB/aliquam_erat_volutpat.jpg"
-                 package-path="simplefiles/623cd211.jpg" />
-    <simple-file key="f990dbd31c1ce1280f81c5c61cc5b8c6"
-                 original-path="var/storage/images/communities/photos/langesund_fjord/2231-1-eng-GB/langesund_fjord.jpg"
-                 package-path="simplefiles/6efdd969.jpg" />
-    <simple-file key="2f5c606be99165587fecf4ee459eadce"
-                 original-path="var/storage/images/communities/photos/brevik_bridge/2268-1-eng-GB/brevik_bridge.jpg"
-                 package-path="simplefiles/51902f9b.jpg" />
-    <simple-file key="f8e0869f559c4b7f019de418aa5ffe46"
-                 original-path="var/storage/images/communities/photos/langesund_lighthouse/2272-1-eng-GB/langesund_lighthouse.jpg"
-                 package-path="simplefiles/cbc775cb.jpg" />
-    <simple-file key="d31fcc9807cdc384fd8a248c2e30f695"
-                 original-path="var/storage/images/communities/photos/sunset_at_langesund/2342-1-eng-GB/sunset_at_langesund.jpg"
-                 package-path="simplefiles/730256fc.jpg" />
+    <simple-file key="3ba7d9326f877774c7444634cdab7d89"
+                 original-path="var/storage/images/community/lyon-pictures/lyon/1138-1-eng-US/Lyon.jpg"
+                 package-path="simplefiles/2bb67da5.jpg" />
+    <simple-file key="4d63cb263daac713e79fc69bf315932c"
+                 original-path="var/storage/images/community/lyon-pictures/grand-lyon/1142-1-eng-US/Grand-Lyon.jpg"
+                 package-path="simplefiles/a99e707a.jpg" />
+    <simple-file key="2f4f07da61215caf94307a3b6b3e3373"
+                 original-path="var/storage/images/community/lyon-pictures/lyon-river/1146-1-eng-US/Lyon-River.jpg"
+                 package-path="simplefiles/0472b577.jpg" />
+    <simple-file key="0dd183a2c02c7f5c91eb8ef46ddbff47"
+                 original-path="var/storage/images/community/lyon-pictures/castle-on-the-hill/1150-1-eng-US/Castle-on-the-hill.jpg"
+                 package-path="simplefiles/97e05f2f.jpg" />
   </simple-files>
   <version>
     <number>1.3</number>

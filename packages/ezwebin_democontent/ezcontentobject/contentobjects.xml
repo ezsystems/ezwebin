@@ -5104,48 +5104,57 @@
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="107"
-            name="Communities"
+            ezremote:id="116"
+            name="Community"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="19"
-            ezremote:published="Wed, 10 Jan 2007 11:27:12 GMT"
-            ezremote:modified="Mon, 02 Apr 2007 07:47:15 GMT"
+            ezremote:class_id="23"
+            ezremote:published="Thu, 01 Nov 2007 08:33:57 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 11:15:32 GMT"
             remote_id="378acc2bc7a52400701956047a2f7d45"
             class_remote_id="e36c458e3e4a81298a0945f53a2c81f4"
             ezremote:class_identifier="frontpage"
             ezremote:always_available="1"
             initial_language="eng-GB">
-      <version-list active_version="40"
+      <version-list active_version="6"
                     xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="40"
+        <ezobject:version ezremote:version="6"
                           ezremote:status="1"
-                          ezremote:created="Mon, 02 Apr 2007 07:46:50 GMT"
-                          ezremote:modified="Mon, 02 Apr 2007 07:47:15 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 11:15:15 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 11:15:32 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
-                                       object_name="Communities">
-            <ezobject:attribute ezremote:id="443"
+                                       object_name="Community">
+            <ezobject:attribute ezremote:id="647"
                                 ezremote:identifier="name"
                                 name="Name"
                                 type="ezstring">
-              <text>Communities</text>
+              <text>Community</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="444"
+            <ezobject:attribute ezremote:id="648"
                                 ezremote:identifier="billboard"
                                 name="Billboard"
                                 type="ezobjectrelation">
               <related-object-remote-id>99730850bd806030c4ae9ea92571bdd0</related-object-remote-id>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="445"
+            <ezobject:attribute ezremote:id="649"
                                 ezremote:identifier="left_column"
                                 name="Left column"
                                 type="ezxmltext">
               <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>
+                  <embed size="medium"
+                         class="itemized_sub_items"
+                         align="center"
+                         custom:offset="0"
+                         custom:limit="5"
+                         object_remote_id="27c68e844e2663ddd20dfb59961d5268" />
+                </paragraph>
+              </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="446"
+            <ezobject:attribute ezremote:id="650"
                                 ezremote:identifier="center_column"
                                 name="Center column"
                                 type="ezxmltext">
@@ -5153,119 +5162,16 @@
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                 <paragraph>
-                  <table class="default"
-                         width="100%"
-                         border="0">
-                    <tr>
-                      <td xhtml:width="49%">
-                        <paragraph>
-                          <embed size="medium"
-                                 align="center"
-                                 object_remote_id="ddab27e5d8688e7db74bfcf747e907fb" />
-                        </paragraph>
-                      </td>
-                      <td />
-                      <td xhtml:width="49%">
-                        <paragraph>
-                          <embed size="medium"
-                                 align="center"
-                                 object_remote_id="f2474a82dacb4b344fc7060ad64e138a" />
-                        </paragraph>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <paragraph>
-                          <embed size="medium"
-                                 align="center"
-                                 object_remote_id="b51cda8ef567b780a9348aea09757c8e" />
-                        </paragraph>
-                      </td>
-                      <td />
-                      <td>
-                        <paragraph>
-                          <embed size="medium"
-                                 align="center"
-                                 object_remote_id="ae00347d4220d08e482b836eb9aee7b6" />
-                        </paragraph>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td />
-                      <td />
-                      <td />
-                    </tr>
-                    <tr>
-                      <td>
-                        <section>
-                          <section>
-                            <header>By User:</header>
-                            <paragraph>
-                              <ul>
-                                <li>
-                                  <paragraph><link object_remote_id="ddab27e5d8688e7db74bfcf747e907fb">Developers</link>
-                                  </paragraph>
-                                </li>
-                                <li>
-                                  <paragraph><link object_remote_id="f2474a82dacb4b344fc7060ad64e138a">Desginers</link>
-                                  </paragraph>
-                                </li>
-                                <li>
-                                  <paragraph><link object_remote_id="b51cda8ef567b780a9348aea09757c8e">Educators</link>
-                                  </paragraph>
-                                </li>
-                                <li>
-                                  <paragraph><link object_remote_id="ae00347d4220d08e482b836eb9aee7b6">User Groups</link>
-                                  </paragraph>
-                                </li>
-                              </ul>
-                            </paragraph>
-                          </section>
-                        </section>
-                      </td>
-                      <td />
-                      <td>
-                        <section>
-                          <section>
-                            <header>By Resource:</header>
-                            <paragraph>
-                              <ul>
-                                <li>
-                                  <paragraph><link object_remote_id="27c68e844e2663ddd20dfb59961d5268">Wiki</link>
-                                  </paragraph>
-                                </li>
-                                <li>
-                                  <paragraph><link object_remote_id="70f14638328c93db4a7d3dd5a2cce9ba">Blogs</link>
-                                  </paragraph>
-                                </li>
-                                <li>
-                                  <paragraph><link object_remote_id="cf6517260d77952bee6f4165f26f4575">Discussion forums</link>
-                                  </paragraph>
-                                </li>
-                              </ul>
-                            </paragraph>
-                          </section>
-                        </section>
-                      </td>
-                    </tr>
-                  </table>
-                </paragraph>
-                <paragraph>
-                  <custom name="separator" />
-                </paragraph>
-                <paragraph>
                   <embed size="medium"
+                         class="itemized_sub_items"
                          align="center"
-                         object_remote_id="8dbc0ff94854ed90454c0c68e8274361" />
-                </paragraph>
-                <paragraph>
-                  <embed size="medium"
-                         align="center"
-                         object_remote_id="1d893d4ada31d14eb070f6ecef7389f2" />
+                         custom:offset="0"
+                         custom:limit="5"
+                         object_remote_id="6a715c29ec67ed5e13ded872e1615690" />
                 </paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="447"
+            <ezobject:attribute ezremote:id="651"
                                 ezremote:identifier="right_column"
                                 name="Right column"
                                 type="ezxmltext">
@@ -5273,34 +5179,33 @@
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                 <paragraph>
-                  <embed class="itemized_sub_items"
-                         size="medium"
+                  <embed size="medium"
+                         class="itemized_sub_items"
                          align="center"
+                         custom:offset="0"
+                         custom:limit="5"
                          object_remote_id="219ca29549fe687005593716f9fe5d68" />
-                </paragraph>
-                <paragraph>
-                  <embed class="itemized_sub_items"
-                         size="medium"
-                         align="center"
-                         object_remote_id="70f14638328c93db4a7d3dd5a2cce9ba" />
-                </paragraph>
-                <paragraph>
-                  <embed class="itemized_sub_items"
-                         size="medium"
-                         align="center"
-                         object_remote_id="27f61f5f3bbba797a801db7f00ac7fb3" />
                 </paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="448"
+            <ezobject:attribute ezremote:id="652"
                                 ezremote:identifier="bottom_column"
                                 name="Bottom column"
                                 type="ezxmltext">
               <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>
+                  <embed size="medium"
+                         class="horizontally_listed_sub_items"
+                         align="center"
+                         custom:offset="0"
+                         custom:limit="5"
+                         object_remote_id="c0180d604d5f5d273702b7d675d6c0cd" />
+                </paragraph>
+              </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2168"
+            <ezobject:attribute ezremote:id="653"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">
@@ -5308,323 +5213,41 @@
             </ezobject:attribute></ezobject:object-translation>
           <ezobject:node-assignment-list>
             <node-assignment is-main-node="1"
-                             name="Communities"
-                             node-id="109"
+                             name="Community"
+                             node-id="118"
                              remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
                              sort-field="published"
                              sort-order="0"
                              priority="4" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="246"
-            name="Developers"
+            ezremote:id="121"
+            name="Forum"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="1"
-            ezremote:published="Wed, 21 Mar 2007 07:18:16 GMT"
-            ezremote:modified="Wed, 28 Mar 2007 08:11:50 GMT"
-            remote_id="ddab27e5d8688e7db74bfcf747e907fb"
-            class_remote_id="a3d405b81be900468eb153d774f4f0d2"
-            ezremote:class_identifier="folder"
-            ezremote:always_available="1"
-            initial_language="eng-GB">
-      <version-list active_version="4"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="4"
-                          ezremote:status="1"
-                          ezremote:created="Wed, 28 Mar 2007 08:11:25 GMT"
-                          ezremote:modified="Wed, 28 Mar 2007 08:11:50 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Developers">
-            <ezobject:attribute ezremote:id="1313"
-                                ezremote:identifier="name"
-                                name="Name"
-                                type="ezstring">
-              <text>Developers</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1314"
-                                ezremote:identifier="short_name"
-                                name="Short name"
-                                type="ezstring">
-              <text></text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1315"
-                                ezremote:identifier="short_description"
-                                name="Summary"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Mauris aliquam. Integer tempor. In vel quam. Integer sollicitudin dictum odio. </paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1316"
-                                ezremote:identifier="description"
-                                name="Description"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1317"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string>communities, developers</keyword-string>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1318"
-                                ezremote:identifier="show_children"
-                                name="Display sub items"
-                                type="ezboolean">
-              <value>1</value>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2117"
-                                ezremote:identifier="publish_date"
-                                name="Publish date"
-                                type="ezdatetime">
-              <date_time>Tue, 10 Apr 2007 06:47:51 GMT</date_time>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
-                             name="Developers"
-                             node-id="244"
-                             remote-id="e0b15ab59fd81d82b44109fe412bb055"
-                             sort-field="path"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="247"
-            name="Designers"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="1"
-            ezremote:published="Wed, 21 Mar 2007 07:18:54 GMT"
-            ezremote:modified="Wed, 28 Mar 2007 08:12:36 GMT"
-            remote_id="f2474a82dacb4b344fc7060ad64e138a"
-            class_remote_id="a3d405b81be900468eb153d774f4f0d2"
-            ezremote:class_identifier="folder"
-            ezremote:always_available="1"
-            initial_language="eng-GB">
-      <version-list active_version="3"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="3"
-                          ezremote:status="1"
-                          ezremote:created="Wed, 28 Mar 2007 08:12:23 GMT"
-                          ezremote:modified="Wed, 28 Mar 2007 08:12:36 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Designers">
-            <ezobject:attribute ezremote:id="1319"
-                                ezremote:identifier="name"
-                                name="Name"
-                                type="ezstring">
-              <text>Designers</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1320"
-                                ezremote:identifier="short_name"
-                                name="Short name"
-                                type="ezstring">
-              <text></text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1321"
-                                ezremote:identifier="short_description"
-                                name="Summary"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Pellentesque ut ligula. Morbi quis dui. Donec tempor porta orci. Aliquam neque.</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1322"
-                                ezremote:identifier="description"
-                                name="Description"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1323"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string>communities, designers</keyword-string>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1324"
-                                ezremote:identifier="show_children"
-                                name="Display sub items"
-                                type="ezboolean">
-              <value>1</value>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2120"
-                                ezremote:identifier="publish_date"
-                                name="Publish date"
-                                type="ezdatetime">
-              <date_time>Tue, 10 Apr 2007 06:47:51 GMT</date_time>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
-                             name="Designers"
-                             node-id="245"
-                             remote-id="4b25f91969c99755987c0d88620107e1"
-                             sort-field="path"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="248"
-            name="Educators"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="1"
-            ezremote:published="Wed, 21 Mar 2007 07:19:10 GMT"
-            ezremote:modified="Wed, 28 Mar 2007 08:12:58 GMT"
-            remote_id="b51cda8ef567b780a9348aea09757c8e"
-            class_remote_id="a3d405b81be900468eb153d774f4f0d2"
-            ezremote:class_identifier="folder"
-            ezremote:always_available="1"
-            initial_language="eng-GB">
-      <version-list active_version="3"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="3"
-                          ezremote:status="1"
-                          ezremote:created="Wed, 28 Mar 2007 08:12:44 GMT"
-                          ezremote:modified="Wed, 28 Mar 2007 08:12:58 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Educators">
-            <ezobject:attribute ezremote:id="1325"
-                                ezremote:identifier="name"
-                                name="Name"
-                                type="ezstring">
-              <text>Educators</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1326"
-                                ezremote:identifier="short_name"
-                                name="Short name"
-                                type="ezstring">
-              <text></text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1327"
-                                ezremote:identifier="short_description"
-                                name="Summary"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Nam eget lorem in diam placerat tristique. Aenean dictum. Donec hendrerit. Proin vitae massa. </paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1328"
-                                ezremote:identifier="description"
-                                name="Description"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1329"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string>communities, educators</keyword-string>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1330"
-                                ezremote:identifier="show_children"
-                                name="Display sub items"
-                                type="ezboolean">
-              <value>1</value>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2123"
-                                ezremote:identifier="publish_date"
-                                name="Publish date"
-                                type="ezdatetime">
-              <date_time>Tue, 10 Apr 2007 06:47:51 GMT</date_time>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
-                             name="Educators"
-                             node-id="246"
-                             remote-id="9d2c6381acd318783a8a912c799a2745"
-                             sort-field="path"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="249"
-            name="Discussion forums"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="33"
-            ezremote:published="Wed, 21 Mar 2007 07:19:26 GMT"
-            ezremote:modified="Wed, 21 Mar 2007 07:19:26 GMT"
-            remote_id="cf6517260d77952bee6f4165f26f4575"
-            class_remote_id="60a921e54c1efbb9456bd2283d9e66cb"
-            ezremote:class_identifier="forums"
-            ezremote:always_available="0"
-            initial_language="eng-GB">
-      <version-list active_version="1"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="1"
-                          ezremote:status="1"
-                          ezremote:created="Wed, 21 Mar 2007 07:19:22 GMT"
-                          ezremote:modified="Wed, 21 Mar 2007 07:19:25 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Discussion forums">
-            <ezobject:attribute ezremote:id="1331"
-                                ezremote:identifier="title"
-                                name="Title"
-                                type="ezstring">
-              <text>Discussion forums</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1332"
-                                ezremote:identifier="description"
-                                name="Description"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
-                             name="Discussion forums"
-                             node-id="247"
-                             remote-id="c82532ad3a3e8a4b43a3294247f123f3"
-                             sort-field="path"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="250"
-            name="General"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="27"
-            ezremote:published="Wed, 21 Mar 2007 07:19:44 GMT"
-            ezremote:modified="Wed, 21 Mar 2007 07:19:44 GMT"
+            ezremote:class_id="35"
+            ezremote:published="Thu, 01 Nov 2007 08:33:59 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 11:15:07 GMT"
             remote_id="219ca29549fe687005593716f9fe5d68"
             class_remote_id="b241f924b96b267153f5f55904e0675a"
             ezremote:class_identifier="forum"
             ezremote:always_available="0"
             initial_language="eng-GB">
-      <version-list active_version="1"
+      <version-list active_version="2"
                     xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="1"
+        <ezobject:version ezremote:version="2"
                           ezremote:status="1"
-                          ezremote:created="Wed, 21 Mar 2007 07:19:40 GMT"
-                          ezremote:modified="Wed, 21 Mar 2007 07:19:44 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 11:14:59 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 11:15:07 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
-                                       object_name="General">
-            <ezobject:attribute ezremote:id="1333"
+                                       object_name="Forum">
+            <ezobject:attribute ezremote:id="677"
                                 ezremote:identifier="name"
                                 name="Name"
                                 type="ezstring">
-              <text>General</text>
+              <text>Forum</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1334"
+            <ezobject:attribute ezremote:id="678"
                                 ezremote:identifier="description"
                                 name="Description"
                                 type="ezxmltext">
@@ -5634,21 +5257,21 @@
             </ezobject:attribute></ezobject:object-translation>
           <ezobject:node-assignment-list>
             <node-assignment is-main-node="1"
-                             parent-node-remote-id="c82532ad3a3e8a4b43a3294247f123f3"
-                             name="General"
-                             node-id="248"
+                             parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
+                             name="Forum"
+                             node-id="123"
                              remote-id="5e6762a083ab4c0357bad163902ba8f7"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="284"
+            ezremote:id="122"
             name="Nulla vitae tellus sit amet"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="28"
-            ezremote:published="Fri, 23 Mar 2007 11:53:57 GMT"
-            ezremote:modified="Fri, 23 Mar 2007 11:53:57 GMT"
+            ezremote:class_id="36"
+            ezremote:published="Thu, 01 Nov 2007 08:33:59 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 08:33:59 GMT"
             remote_id="c5976544daefad2cf0855dbe54a4e748"
             class_remote_id="71f99c516743a33562c3893ef98c9b60"
             ezremote:class_identifier="forum_topic"
@@ -5658,30 +5281,30 @@
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Fri, 23 Mar 2007 11:53:43 GMT"
-                          ezremote:modified="Fri, 23 Mar 2007 11:53:57 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 08:33:59 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:33:59 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
                                        object_name="Nulla vitae tellus sit amet">
-            <ezobject:attribute ezremote:id="1597"
+            <ezobject:attribute ezremote:id="679"
                                 ezremote:identifier="subject"
                                 name="Subject"
                                 type="ezstring">
               <text>Nulla vitae tellus sit amet</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1598"
+            <ezobject:attribute ezremote:id="680"
                                 ezremote:identifier="message"
                                 name="Message"
                                 type="eztext">
               <text>Nulla vitae tellus sit amet velit tincidunt gravida. Vivamus cursus, pede et lacinia porttitor, urna ante sagittis velit, id vulputate dui metus a erat.</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1599"
+            <ezobject:attribute ezremote:id="681"
                                 ezremote:identifier="sticky"
                                 name="Sticky"
                                 type="ezboolean">
               <value>0</value>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1600"
+            <ezobject:attribute ezremote:id="682"
                                 ezremote:identifier="notify_me"
                                 name="Notify me about updates"
                                 type="ezsubtreesubscription">
@@ -5691,19 +5314,19 @@
             <node-assignment is-main-node="1"
                              parent-node-remote-id="5e6762a083ab4c0357bad163902ba8f7"
                              name="Nulla vitae tellus sit amet"
-                             node-id="281"
+                             node-id="124"
                              remote-id="2549eee03064d55ae7fc84fe41ae1ef6"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="285"
+            ezremote:id="123"
             name="Ut mollis sodales nibh"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="28"
-            ezremote:published="Fri, 23 Mar 2007 11:59:00 GMT"
-            ezremote:modified="Fri, 23 Mar 2007 11:59:00 GMT"
+            ezremote:class_id="36"
+            ezremote:published="Thu, 01 Nov 2007 08:33:59 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 08:33:59 GMT"
             remote_id="e6ce013587fd32057017c4459c03b681"
             class_remote_id="71f99c516743a33562c3893ef98c9b60"
             ezremote:class_identifier="forum_topic"
@@ -5713,30 +5336,30 @@
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Fri, 23 Mar 2007 11:58:43 GMT"
-                          ezremote:modified="Fri, 23 Mar 2007 11:58:59 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 08:33:59 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:33:59 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
                                        object_name="Ut mollis sodales nibh">
-            <ezobject:attribute ezremote:id="1601"
+            <ezobject:attribute ezremote:id="683"
                                 ezremote:identifier="subject"
                                 name="Subject"
                                 type="ezstring">
               <text>Ut mollis sodales nibh</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1602"
+            <ezobject:attribute ezremote:id="684"
                                 ezremote:identifier="message"
                                 name="Message"
                                 type="eztext">
               <text>Donec vulputate lectus. Suspendisse tempus molestie metus. Nullam non velit eget elit iaculis fringilla. Ut interdum auctor orci. Ut mollis sodales nibh.</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1603"
+            <ezobject:attribute ezremote:id="685"
                                 ezremote:identifier="sticky"
                                 name="Sticky"
                                 type="ezboolean">
               <value>0</value>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1604"
+            <ezobject:attribute ezremote:id="686"
                                 ezremote:identifier="notify_me"
                                 name="Notify me about updates"
                                 type="ezsubtreesubscription">
@@ -5746,19 +5369,19 @@
             <node-assignment is-main-node="1"
                              parent-node-remote-id="5e6762a083ab4c0357bad163902ba8f7"
                              name="Ut mollis sodales nibh"
-                             node-id="282"
+                             node-id="125"
                              remote-id="7bfca4bdde619ac9104e235629e2dbc7"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="286"
+            ezremote:id="124"
             name="Nam risus leo"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="28"
-            ezremote:published="Fri, 23 Mar 2007 12:00:27 GMT"
-            ezremote:modified="Fri, 23 Mar 2007 12:00:27 GMT"
+            ezremote:class_id="36"
+            ezremote:published="Thu, 01 Nov 2007 08:34:00 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 08:34:00 GMT"
             remote_id="bd4ff900964c8b09694478f5432afc41"
             class_remote_id="71f99c516743a33562c3893ef98c9b60"
             ezremote:class_identifier="forum_topic"
@@ -5768,30 +5391,30 @@
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Fri, 23 Mar 2007 11:59:21 GMT"
-                          ezremote:modified="Fri, 23 Mar 2007 12:00:27 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 08:34:00 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:34:00 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
                                        object_name="Nam risus leo">
-            <ezobject:attribute ezremote:id="1605"
+            <ezobject:attribute ezremote:id="687"
                                 ezremote:identifier="subject"
                                 name="Subject"
                                 type="ezstring">
               <text>Nam risus leo</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1606"
+            <ezobject:attribute ezremote:id="688"
                                 ezremote:identifier="message"
                                 name="Message"
                                 type="eztext">
               <text>Nulla facilisi. Nam risus leo, accumsan et, accumsan ut, aliquam sed, dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1607"
+            <ezobject:attribute ezremote:id="689"
                                 ezremote:identifier="sticky"
                                 name="Sticky"
                                 type="ezboolean">
               <value>0</value>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1608"
+            <ezobject:attribute ezremote:id="690"
                                 ezremote:identifier="notify_me"
                                 name="Notify me about updates"
                                 type="ezsubtreesubscription">
@@ -5801,892 +5424,40 @@
             <node-assignment is-main-node="1"
                              parent-node-remote-id="5e6762a083ab4c0357bad163902ba8f7"
                              name="Nam risus leo"
-                             node-id="283"
+                             node-id="126"
                              remote-id="81fd930afe94962395074b762592a356"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="251"
-            name="Articles"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="1"
-            ezremote:published="Wed, 21 Mar 2007 07:20:00 GMT"
-            ezremote:modified="Wed, 28 Mar 2007 08:13:51 GMT"
-            remote_id="27f61f5f3bbba797a801db7f00ac7fb3"
-            class_remote_id="a3d405b81be900468eb153d774f4f0d2"
-            ezremote:class_identifier="folder"
-            ezremote:always_available="1"
-            initial_language="eng-GB">
-      <version-list active_version="2"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="2"
-                          ezremote:status="1"
-                          ezremote:created="Wed, 28 Mar 2007 08:13:39 GMT"
-                          ezremote:modified="Wed, 28 Mar 2007 08:13:50 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Articles">
-            <ezobject:attribute ezremote:id="1335"
-                                ezremote:identifier="name"
-                                name="Name"
-                                type="ezstring">
-              <text>Articles</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1336"
-                                ezremote:identifier="short_name"
-                                name="Short name"
-                                type="ezstring">
-              <text></text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1337"
-                                ezremote:identifier="short_description"
-                                name="Summary"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1338"
-                                ezremote:identifier="description"
-                                name="Description"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1339"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string>articles, communities</keyword-string>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1340"
-                                ezremote:identifier="show_children"
-                                name="Display sub items"
-                                type="ezboolean">
-              <value>1</value>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2125"
-                                ezremote:identifier="publish_date"
-                                name="Publish date"
-                                type="ezdatetime">
-              <date_time>Tue, 10 Apr 2007 06:47:51 GMT</date_time>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
-                             name="Articles"
-                             node-id="249"
-                             remote-id="539faa60824c70a0dc65f87c11c37bf6"
-                             sort-field="path"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="291"
-            name="In hac habitasse platea"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="16"
-            ezremote:published="Fri, 23 Mar 2007 12:40:44 GMT"
-            ezremote:modified="Fri, 23 Mar 2007 12:40:45 GMT"
-            remote_id="8dbc0ff94854ed90454c0c68e8274361"
-            class_remote_id="c15b600eb9198b1924063b5a68758232"
-            ezremote:class_identifier="article"
-            ezremote:always_available="0"
-            initial_language="eng-GB">
-      <version-list active_version="3"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="3"
-                          ezremote:status="1"
-                          ezremote:created="Fri, 23 Mar 2007 12:40:45 GMT"
-                          ezremote:modified="Fri, 23 Mar 2007 12:40:45 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="In hac habitasse platea">
-            <ezobject:attribute ezremote:id="1623"
-                                ezremote:identifier="title"
-                                name="Title"
-                                type="ezstring">
-              <text>In hac habitasse platea</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1624"
-                                ezremote:identifier="short_title"
-                                name="Short title"
-                                type="ezstring">
-              <text></text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1625"
-                                ezremote:identifier="author"
-                                name="Author"
-                                type="ezauthor">
-              <ezauthor>
-                <authors>
-                  <author id="0"
-                          name="Administrator User"
-                          email="nospam@ez.no" />
-                </authors>
-              </ezauthor>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1626"
-                                ezremote:identifier="intro"
-                                name="Summary"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Cras molestie. Nulla congue convallis justo. Nulla facilisi. Suspendisse potenti. In hac habitasse platea dictumst. Donec commodo orci sit amet ligula. Nunc purus.</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1627"
-                                ezremote:identifier="body"
-                                name="Body"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Curabitur pretium, lacus ut tincidunt cursus, mauris lorem suscipit ante, in molestie nisl est eget ante. Suspendisse laoreet nunc ac enim. Nullam hendrerit, enim id convallis hendrerit, sapien est tristique nisl, sed varius lorem ante sed est. In hac habitasse platea dictumst. Nunc enim orci, venenatis ac, ornare sit amet, nonummy a, nulla. Nullam quam massa, imperdiet ultrices, tristique et, suscipit ac, lectus. Sed convallis vulputate justo. Praesent nulla pede, vestibulum condimentum, facilisis eu, blandit eu, massa. Etiam posuere sodales arcu. Vivamus sed quam. In hac habitasse platea dictumst. Nam quis magna. Curabitur elit enim, egestas quis, tristique sit amet, pharetra vel, sem. Nullam quam. Quisque in leo. Pellentesque odio nibh, vehicula ut, tristique vel, adipiscing a, sapien. Fusce commodo dolor.</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1628"
-                                ezremote:identifier="publish_date"
-                                name="Publish date"
-                                type="ezdatetime">
-              <date_time>Fri, 23 Mar 2007 09:54:00 GMT</date_time>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1629"
-                                ezremote:identifier="unpublish_date"
-                                name="Unpublish date"
-                                type="ezdatetime">
-              <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1630"
-                                ezremote:identifier="image"
-                                name="Image"
-                                type="ezimage"
-                                image-file-key="272f6db4db997b852d98b230a09ac3ad"
-                                alternative-text="In hac habitasse" />
-            <ezobject:attribute ezremote:id="1631"
-                                ezremote:identifier="caption"
-                                name="Caption (Image)"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>In hac habitasse</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1632"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string></keyword-string>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1633"
-                                ezremote:identifier="enable_comments"
-                                name="Enable comments"
-                                type="ezboolean">
-              <value>0</value>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="539faa60824c70a0dc65f87c11c37bf6"
-                             name="In hac habitasse platea"
-                             node-id="287"
-                             remote-id="dc887f991d8ec221fb530403180f789c"
-                             sort-field="published"
-                             sort-order="0"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="292"
-            name="Aliquam erat volutpat"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="16"
-            ezremote:published="Fri, 23 Mar 2007 12:48:56 GMT"
-            ezremote:modified="Fri, 23 Mar 2007 12:48:58 GMT"
-            remote_id="1d893d4ada31d14eb070f6ecef7389f2"
-            class_remote_id="c15b600eb9198b1924063b5a68758232"
-            ezremote:class_identifier="article"
-            ezremote:always_available="0"
-            initial_language="eng-GB">
-      <version-list active_version="8"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="8"
-                          ezremote:status="1"
-                          ezremote:created="Fri, 23 Mar 2007 12:48:58 GMT"
-                          ezremote:modified="Fri, 23 Mar 2007 12:48:58 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Aliquam erat volutpat">
-            <ezobject:attribute ezremote:id="1634"
-                                ezremote:identifier="title"
-                                name="Title"
-                                type="ezstring">
-              <text>Aliquam erat volutpat</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1635"
-                                ezremote:identifier="short_title"
-                                name="Short title"
-                                type="ezstring">
-              <text></text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1636"
-                                ezremote:identifier="author"
-                                name="Author"
-                                type="ezauthor">
-              <ezauthor>
-                <authors>
-                  <author id="0"
-                          name="Administrator User"
-                          email="nospam@ez.no" />
-                </authors>
-              </ezauthor>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1637"
-                                ezremote:identifier="intro"
-                                name="Summary"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Fusce purus eros, fringilla id, rhoncus a, elementum sed, turpis. Etiam porta tellus vel lectus condimentum semper. Cras arcu. Vivamus lacinia dui vitae tortor. Morbi suscipit. Mauris nisl purus, pellentesque in, tempor adipiscing, faucibus.</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1638"
-                                ezremote:identifier="body"
-                                name="Body"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Nunc non magna. Etiam neque mi, congue quis, aliquam quis, aliquet id, eros. Vestibulum lobortis suscipit velit. Maecenas rhoncus iaculis nisl. Suspendisse id sem ut sem auctor tincidunt. Suspendisse erat nunc, fermentum et, dapibus eget, hendrerit sit amet, mauris. Curabitur nonummy sollicitudin purus. Vestibulum nonummy. Duis iaculis urna. Aliquam augue. Aliquam scelerisque, libero nec tincidunt varius, nibh massa tempus pede, a iaculis velit turpis vitae massa. Quisque non diam. Curabitur quam dui, blandit vitae, mattis vel, sodales mollis, erat. Nam cursus mollis leo. </paragraph>
-                <paragraph>Donec nibh diam, scelerisque ac, nonummy nec, suscipit vel, nulla. Suspendisse consequat. Phasellus facilisis augue a risus. Nulla facilisi. Nam metus odio, ultricies at, laoreet in, consequat eu, nulla. Curabitur sit amet purus. Ut neque lorem, sollicitudin id, eleifend nec, rutrum sit amet, dolor. Praesent felis eros, porttitor vel, molestie eu, aliquet faucibus, enim. Curabitur volutpat, mi in tempor commodo, orci erat auctor augue, sed semper sapien justo ut urna. Phasellus tellus nibh, consectetuer id, pulvinar et, ullamcorper id, massa. Pellentesque et lacus. Nunc in urna ac sem dignissim semper.</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1639"
-                                ezremote:identifier="publish_date"
-                                name="Publish date"
-                                type="ezdatetime">
-              <date_time>Mon, 19 Mar 2007 09:01:00 GMT</date_time>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1640"
-                                ezremote:identifier="unpublish_date"
-                                name="Unpublish date"
-                                type="ezdatetime">
-              <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1641"
-                                ezremote:identifier="image"
-                                name="Image"
-                                type="ezimage"
-                                image-file-key="a3323d2fb2082d1158063e08bf5b11a7"
-                                alternative-text="Mauris nisl purus" />
-            <ezobject:attribute ezremote:id="1642"
-                                ezremote:identifier="caption"
-                                name="Caption (Image)"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Mauris nisl purus</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1643"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string></keyword-string>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1644"
-                                ezremote:identifier="enable_comments"
-                                name="Enable comments"
-                                type="ezboolean">
-              <value>0</value>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="539faa60824c70a0dc65f87c11c37bf6"
-                             name="Aliquam erat volutpat"
-                             node-id="288"
-                             remote-id="1b3e16c3f03d6069fe50decb99ff8b0e"
-                             sort-field="published"
-                             sort-order="0"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="252"
-            name="User Groups"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="1"
-            ezremote:published="Wed, 21 Mar 2007 07:20:20 GMT"
-            ezremote:modified="Wed, 28 Mar 2007 08:14:07 GMT"
-            remote_id="ae00347d4220d08e482b836eb9aee7b6"
-            class_remote_id="a3d405b81be900468eb153d774f4f0d2"
-            ezremote:class_identifier="folder"
-            ezremote:always_available="1"
-            initial_language="eng-GB">
-      <version-list active_version="6"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="6"
-                          ezremote:status="1"
-                          ezremote:created="Wed, 28 Mar 2007 08:13:58 GMT"
-                          ezremote:modified="Wed, 28 Mar 2007 08:14:07 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="User Groups">
-            <ezobject:attribute ezremote:id="1341"
-                                ezremote:identifier="name"
-                                name="Name"
-                                type="ezstring">
-              <text>User Groups</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1342"
-                                ezremote:identifier="short_name"
-                                name="Short name"
-                                type="ezstring">
-              <text></text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1343"
-                                ezremote:identifier="short_description"
-                                name="Summary"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Morbi dui leo, mollis vitae, sodales at, sodales vitae, est. Donec sit amet neque.</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1344"
-                                ezremote:identifier="description"
-                                name="Description"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1345"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string>communities, user groups</keyword-string>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1346"
-                                ezremote:identifier="show_children"
-                                name="Display sub items"
-                                type="ezboolean">
-              <value>1</value>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2130"
-                                ezremote:identifier="publish_date"
-                                name="Publish date"
-                                type="ezdatetime">
-              <date_time>Tue, 10 Apr 2007 06:47:51 GMT</date_time>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
-                             name="User Groups"
-                             node-id="250"
-                             remote-id="8e4578f7dbabf91f5b6637b7803cad2d"
-                             sort-field="path"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="288"
-            name="Blogs"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="1"
-            ezremote:published="Fri, 23 Mar 2007 12:06:41 GMT"
-            ezremote:modified="Wed, 28 Mar 2007 08:14:24 GMT"
-            remote_id="70f14638328c93db4a7d3dd5a2cce9ba"
-            class_remote_id="a3d405b81be900468eb153d774f4f0d2"
-            ezremote:class_identifier="folder"
-            ezremote:always_available="1"
-            initial_language="eng-GB">
-      <version-list active_version="2"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="2"
-                          ezremote:status="1"
-                          ezremote:created="Wed, 28 Mar 2007 08:14:15 GMT"
-                          ezremote:modified="Wed, 28 Mar 2007 08:14:23 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Blogs">
-            <ezobject:attribute ezremote:id="1611"
-                                ezremote:identifier="name"
-                                name="Name"
-                                type="ezstring">
-              <text>Blogs</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1612"
-                                ezremote:identifier="short_name"
-                                name="Short name"
-                                type="ezstring">
-              <text></text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1613"
-                                ezremote:identifier="short_description"
-                                name="Summary"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Community members blogs.</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1614"
-                                ezremote:identifier="description"
-                                name="Description"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1615"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string>blogs, communities</keyword-string>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1616"
-                                ezremote:identifier="show_children"
-                                name="Display sub items"
-                                type="ezboolean">
-              <value>1</value>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2142"
-                                ezremote:identifier="publish_date"
-                                name="Publish date"
-                                type="ezdatetime">
-              <date_time>Tue, 10 Apr 2007 06:47:51 GMT</date_time>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
-                             name="Blogs"
-                             node-id="284"
-                             remote-id="57038e918d4b65c399799ab238d20668"
-                             sort-field="path"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="148"
-            name="Condimentum elit dignissim"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="35"
-            ezremote:published="Mon, 15 Jan 2007 12:35:49 GMT"
-            ezremote:modified="Fri, 23 Mar 2007 12:11:54 GMT"
-            remote_id="1d1a2667b809243312e733f0c7184f03"
-            class_remote_id="3a6f9c1f075b3bf49d7345576b196fe8"
-            ezremote:class_identifier="blog"
-            ezremote:always_available="0"
-            initial_language="eng-GB">
-      <version-list active_version="9"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="9"
-                          ezremote:status="1"
-                          ezremote:created="Fri, 23 Mar 2007 12:11:45 GMT"
-                          ezremote:modified="Fri, 23 Mar 2007 12:11:53 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Condimentum elit dignissim">
-            <ezobject:attribute ezremote:id="608"
-                                ezremote:identifier="name"
-                                name="Name"
-                                type="ezstring">
-              <text>Condimentum elit dignissim</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="609"
-                                ezremote:identifier="description"
-                                name="Description"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="849"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string></keyword-string>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="57038e918d4b65c399799ab238d20668"
-                             name="Condimentum elit dignissim"
-                             node-id="150"
-                             remote-id="a8875ee010d37e5104a4291269598015"
-                             sort-field="published"
-                             sort-order="0"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="164"
-            name="Etiam ac dolor"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="36"
-            ezremote:published="Wed, 17 Jan 2007 08:01:07 GMT"
-            ezremote:modified="Wed, 17 Jan 2007 08:01:07 GMT"
-            remote_id="009217ecee40d937055950695e12d630"
-            class_remote_id="7ecb961056b7cbb30f22a91357e0a007"
-            ezremote:class_identifier="blog_post"
-            ezremote:always_available="0"
-            initial_language="eng-GB">
-      <version-list active_version="1"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="1"
-                          ezremote:status="1"
-                          ezremote:created="Wed, 17 Jan 2007 08:00:40 GMT"
-                          ezremote:modified="Wed, 17 Jan 2007 08:01:06 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Etiam ac dolor">
-            <ezobject:attribute ezremote:id="685"
-                                ezremote:identifier="title"
-                                name="Title"
-                                type="ezstring">
-              <text>Etiam ac dolor</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="686"
-                                ezremote:identifier="body"
-                                name="Body"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Nullam ac justo eget leo congue vehicula. Suspendisse tortor. Phasellus fermentum scelerisque urna. Ut pulvinar nulla in odio. Donec neque sapien, sollicitudin at, sollicitudin posuere, dictum id, sapien. Etiam ac dolor. Quisque pretium. Donec turpis tellus, malesuada eu, pulvinar eu, blandit eu, augue. Suspendisse eu felis vitae dui vestibulum congue. Ut sit amet nibh. Nulla euismod sagittis lectus. Aliquam erat volutpat. Quisque enim lorem, elementum sed, auctor vel, aliquet at, risus.</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="687"
-                                ezremote:identifier="publication_date"
-                                name="Publication date"
-                                type="ezdatetime">
-              <date_time>Wed, 17 Jan 2007 08:00:00 GMT</date_time>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="766"
-                                ezremote:identifier="unpublish_date"
-                                name="Unpublish date"
-                                type="ezdatetime">
-              <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="688"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string>ipsum, lorem</keyword-string>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="689"
-                                ezremote:identifier="enable_comments"
-                                name="Enable comments"
-                                type="ezboolean">
-              <value>1</value>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="a8875ee010d37e5104a4291269598015"
-                             name="Etiam ac dolor"
-                             node-id="166"
-                             remote-id="1636430b3965c4948f54187f5d79bf86"
-                             sort-field="path"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="169"
-            name="Vestibulum fringilla ante non"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="36"
-            ezremote:published="Wed, 17 Jan 2007 10:42:16 GMT"
-            ezremote:modified="Wed, 17 Jan 2007 10:42:16 GMT"
-            remote_id="cc415f8dc0346c6470cbc43b04387bf3"
-            class_remote_id="7ecb961056b7cbb30f22a91357e0a007"
-            ezremote:class_identifier="blog_post"
-            ezremote:always_available="0"
-            initial_language="eng-GB">
-      <version-list active_version="1"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="1"
-                          ezremote:status="1"
-                          ezremote:created="Wed, 17 Jan 2007 10:41:07 GMT"
-                          ezremote:modified="Wed, 17 Jan 2007 10:42:16 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Vestibulum fringilla ante non">
-            <ezobject:attribute ezremote:id="702"
-                                ezremote:identifier="title"
-                                name="Title"
-                                type="ezstring">
-              <text>Vestibulum fringilla ante non</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="703"
-                                ezremote:identifier="body"
-                                name="Body"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Proin rutrum eleifend tellus. In hac habitasse platea dictumst. Pellentesque vitae magna. Vestibulum fringilla ante non mi. Aliquam erat volutpat. Aenean vel lectus. Phasellus euismod, dolor ac hendrerit rutrum, eros velit tempor felis, ac ultricies felis dolor vitae felis. Nam a dolor. Etiam facilisis. Nullam ac sapien. Sed placerat risus ac erat.</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="704"
-                                ezremote:identifier="publication_date"
-                                name="Publication date"
-                                type="ezdatetime">
-              <date_time>Sun, 17 Dec 2006 10:41:00 GMT</date_time>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="767"
-                                ezremote:identifier="unpublish_date"
-                                name="Unpublish date"
-                                type="ezdatetime">
-              <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="705"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string>ipsum, lorem</keyword-string>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="706"
-                                ezremote:identifier="enable_comments"
-                                name="Enable comments"
-                                type="ezboolean">
-              <value>0</value>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="a8875ee010d37e5104a4291269598015"
-                             name="Vestibulum fringilla ante non"
-                             node-id="171"
-                             remote-id="1ada83eb647b7fc8ed443f4a18fb6d23"
-                             sort-field="path"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="190"
-            name="Pellentesque condimentum"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="36"
-            ezremote:published="Tue, 27 Feb 2007 07:04:27 GMT"
-            ezremote:modified="Tue, 27 Feb 2007 07:04:27 GMT"
-            remote_id="d4f8cb5a866a41cd2f839e5f5ec16965"
-            class_remote_id="7ecb961056b7cbb30f22a91357e0a007"
-            ezremote:class_identifier="blog_post"
-            ezremote:always_available="0"
-            initial_language="eng-GB">
-      <version-list active_version="1"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="1"
-                          ezremote:status="1"
-                          ezremote:created="Tue, 27 Feb 2007 07:03:40 GMT"
-                          ezremote:modified="Tue, 27 Feb 2007 07:04:26 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Pellentesque condimentum">
-            <ezobject:attribute ezremote:id="937"
-                                ezremote:identifier="title"
-                                name="Title"
-                                type="ezstring">
-              <text>Pellentesque condimentum</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="938"
-                                ezremote:identifier="body"
-                                name="Body"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Phasellus sit amet nulla. Vestibulum sit amet eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Sed faucibus rutrum massa. Suspendisse a lectus. Vestibulum dictum ullamcorper erat. Ut nec dui ac dui convallis luctus. Ut lobortis sodales ante. Sed et metus. Duis malesuada. Aenean lacus. Donec cursus, urna eget pretium sollicitudin, mi lorem cursus felis, vel tempor eros ipsum at eros. Nam ultricies, diam et sagittis scelerisque, enim velit pharetra nunc, sed pellentesque mi ante eu ipsum. Morbi nibh.</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="939"
-                                ezremote:identifier="publication_date"
-                                name="Publication date"
-                                type="ezdatetime">
-              <date_time>Mon, 26 Feb 2007 07:03:00 GMT</date_time>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="940"
-                                ezremote:identifier="unpublish_date"
-                                name="Unpublish date"
-                                type="ezdatetime">
-              <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="941"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string>ipsum, lorem</keyword-string>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="942"
-                                ezremote:identifier="enable_comments"
-                                name="Enable comments"
-                                type="ezboolean">
-              <value>1</value>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="a8875ee010d37e5104a4291269598015"
-                             name="Pellentesque condimentum"
-                             node-id="190"
-                             remote-id="7d3cf64310c93b0c24c8ff167be12ccf"
-                             sort-field="published"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="191"
-            name="In sed est eu nunc sodales cursus"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="36"
-            ezremote:published="Tue, 27 Feb 2007 07:07:42 GMT"
-            ezremote:modified="Tue, 27 Feb 2007 07:07:42 GMT"
-            remote_id="9647897477b5d72208f96e8b7ec90f89"
-            class_remote_id="7ecb961056b7cbb30f22a91357e0a007"
-            ezremote:class_identifier="blog_post"
-            ezremote:always_available="0"
-            initial_language="eng-GB">
-      <version-list active_version="1"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="1"
-                          ezremote:status="1"
-                          ezremote:created="Tue, 27 Feb 2007 07:06:56 GMT"
-                          ezremote:modified="Tue, 27 Feb 2007 07:07:41 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="In sed est eu nunc sodales cursus">
-            <ezobject:attribute ezremote:id="943"
-                                ezremote:identifier="title"
-                                name="Title"
-                                type="ezstring">
-              <text>In sed est eu nunc sodales cursus</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="944"
-                                ezremote:identifier="body"
-                                name="Body"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>In sed est eu nunc sodales cursus. Nulla facilisi. Duis ac nulla consectetuer purus viverra luctus. Quisque luctus condimentum justo. Aliquam interdum aliquet felis. Morbi non felis quis lacus fermentum vulputate. Vestibulum pretium. Duis consectetuer tempus elit. Morbi ipsum. Nunc ligula nisl, vestibulum nec, sagittis a, convallis nec, justo. Morbi pharetra. Pellentesque sagittis leo ac diam. Sed tempor hendrerit felis. Vestibulum accumsan. Duis ut metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec eu ligula vel nibh faucibus dictum. Fusce interdum.</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="945"
-                                ezremote:identifier="publication_date"
-                                name="Publication date"
-                                type="ezdatetime">
-              <date_time>Sun, 25 Feb 2007 07:06:00 GMT</date_time>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="946"
-                                ezremote:identifier="unpublish_date"
-                                name="Unpublish date"
-                                type="ezdatetime">
-              <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="947"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string>amet, nulla, phasellus, sit</keyword-string>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="948"
-                                ezremote:identifier="enable_comments"
-                                name="Enable comments"
-                                type="ezboolean">
-              <value>1</value>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="a8875ee010d37e5104a4291269598015"
-                             name="In sed est eu nunc sodales cursus"
-                             node-id="191"
-                             remote-id="b6bd13cefe630e9a733e3a69a8beb469"
-                             sort-field="published"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="289"
-            name="Aenean eget ante"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="35"
-            ezremote:published="Fri, 23 Mar 2007 12:12:41 GMT"
-            ezremote:modified="Fri, 23 Mar 2007 12:12:41 GMT"
-            remote_id="6b920ea9c6890d3c1fa4f046ab4bc5af"
-            class_remote_id="3a6f9c1f075b3bf49d7345576b196fe8"
-            ezremote:class_identifier="blog"
-            ezremote:always_available="0"
-            initial_language="eng-GB">
-      <version-list active_version="1"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="1"
-                          ezremote:status="1"
-                          ezremote:created="Fri, 23 Mar 2007 12:12:25 GMT"
-                          ezremote:modified="Fri, 23 Mar 2007 12:12:41 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Aenean eget ante">
-            <ezobject:attribute ezremote:id="1617"
-                                ezremote:identifier="name"
-                                name="Name"
-                                type="ezstring">
-              <text>Aenean eget ante</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1618"
-                                ezremote:identifier="description"
-                                name="Description"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1619"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string></keyword-string>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="57038e918d4b65c399799ab238d20668"
-                             name="Aenean eget ante"
-                             node-id="285"
-                             remote-id="522a10927ecd5a7310d16e7da2ba9d90"
-                             sort-field="published"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="296"
+            ezremote:id="136"
             name="Wiki"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="20"
-            ezremote:published="Fri, 23 Mar 2007 13:30:44 GMT"
-            ezremote:modified="Tue, 27 Mar 2007 11:07:00 GMT"
+            ezremote:class_id="24"
+            ezremote:published="Thu, 01 Nov 2007 08:34:05 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 08:34:05 GMT"
             remote_id="27c68e844e2663ddd20dfb59961d5268"
             class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
             ezremote:class_identifier="documentation_page"
             ezremote:always_available="0"
             initial_language="eng-GB">
-      <version-list active_version="2"
+      <version-list active_version="1"
                     xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="2"
+        <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Tue, 27 Mar 2007 11:06:50 GMT"
-                          ezremote:modified="Tue, 27 Mar 2007 11:06:59 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 08:34:05 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:34:05 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
                                        object_name="Wiki">
-            <ezobject:attribute ezremote:id="1666"
+            <ezobject:attribute ezremote:id="764"
                                 ezremote:identifier="title"
                                 name="Title"
                                 type="ezstring">
               <text>Wiki</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1667"
+            <ezobject:attribute ezremote:id="765"
                                 ezremote:identifier="body"
                                 name="Body"
                                 type="ezxmltext">
@@ -6696,13 +5467,13 @@
                 <paragraph>Vestibulum ultricies lorem sed pede. Donec massa. Cras imperdiet, lectus mollis rhoncus gravida, enim lacus iaculis libero, consectetuer lobortis sapien purus nec purus. Donec nulla dui, commodo et, porttitor eu, malesuada id, nisi. Cras in mi in dolor ultricies pretium. Curabitur pellentesque auctor ligula. Suspendisse malesuada, nunc a tempor lacinia, lectus turpis commodo urna, eu porta risus nisl nec dui. Sed suscipit feugiat erat. Vestibulum interdum congue arcu. Ut euismod, arcu a ornare auctor, sapien nisl viverra arcu, in mattis nibh justo ac ipsum. Nunc nibh urna, nonummy id, vestibulum eget, interdum at, erat. Nulla consequat.</paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1668"
+            <ezobject:attribute ezremote:id="766"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">
               <keyword-string></keyword-string>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1669"
+            <ezobject:attribute ezremote:id="767"
                                 ezremote:identifier="show_children"
                                 name="Display sub items"
                                 type="ezboolean">
@@ -6712,19 +5483,19 @@
             <node-assignment is-main-node="1"
                              parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
                              name="Wiki"
-                             node-id="292"
+                             node-id="138"
                              remote-id="8b570ac03318b7e29eb5fd1bae15efde"
                              sort-field="published"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="304"
+            ezremote:id="137"
             name="Sed suscipit"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="20"
-            ezremote:published="Tue, 27 Mar 2007 11:01:28 GMT"
-            ezremote:modified="Tue, 27 Mar 2007 11:01:28 GMT"
+            ezremote:class_id="24"
+            ezremote:published="Thu, 01 Nov 2007 08:34:05 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 08:34:05 GMT"
             remote_id="ee8e3c6f437198adaa073a9e2b4dc338"
             class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
             ezremote:class_identifier="documentation_page"
@@ -6734,18 +5505,18 @@
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Tue, 27 Mar 2007 11:00:57 GMT"
-                          ezremote:modified="Tue, 27 Mar 2007 11:01:28 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 08:34:05 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:34:05 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
                                        object_name="Sed suscipit">
-            <ezobject:attribute ezremote:id="1752"
+            <ezobject:attribute ezremote:id="768"
                                 ezremote:identifier="title"
                                 name="Title"
                                 type="ezstring">
               <text>Sed suscipit</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1753"
+            <ezobject:attribute ezremote:id="769"
                                 ezremote:identifier="body"
                                 name="Body"
                                 type="ezxmltext">
@@ -6755,13 +5526,13 @@
                 <paragraph>Sed suscipit feugiat erat. Vestibulum interdum congue arcu. Ut euismod, arcu a ornare auctor, sapien nisl viverra arcu, in mattis nibh justo ac ipsum. Nunc nibh urna, nonummy id, vestibulum eget, interdum at, erat. Nulla consequat.</paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1754"
+            <ezobject:attribute ezremote:id="770"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">
               <keyword-string></keyword-string>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1755"
+            <ezobject:attribute ezremote:id="771"
                                 ezremote:identifier="show_children"
                                 name="Display sub items"
                                 type="ezboolean">
@@ -6771,19 +5542,19 @@
             <node-assignment is-main-node="1"
                              parent-node-remote-id="8b570ac03318b7e29eb5fd1bae15efde"
                              name="Sed suscipit"
-                             node-id="296"
+                             node-id="139"
                              remote-id="4329dcc6a8d441aa7253660512dfd5b6"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="305"
+            ezremote:id="138"
             name="Ut interdum"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="20"
-            ezremote:published="Tue, 27 Mar 2007 11:02:49 GMT"
-            ezremote:modified="Tue, 27 Mar 2007 11:02:49 GMT"
+            ezremote:class_id="24"
+            ezremote:published="Thu, 01 Nov 2007 08:34:06 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 08:34:06 GMT"
             remote_id="4ce7df1966ec83aadb0901ed6162bf9b"
             class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
             ezremote:class_identifier="documentation_page"
@@ -6793,18 +5564,18 @@
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Tue, 27 Mar 2007 11:02:24 GMT"
-                          ezremote:modified="Tue, 27 Mar 2007 11:02:48 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 08:34:06 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:34:06 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
                                        object_name="Ut interdum">
-            <ezobject:attribute ezremote:id="1756"
+            <ezobject:attribute ezremote:id="772"
                                 ezremote:identifier="title"
                                 name="Title"
                                 type="ezstring">
               <text>Ut interdum</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1757"
+            <ezobject:attribute ezremote:id="773"
                                 ezremote:identifier="body"
                                 name="Body"
                                 type="ezxmltext">
@@ -6814,13 +5585,13 @@
                 <paragraph>Etiam nec metus. Proin mauris lorem, lobortis dapibus, semper id, nonummy eu, lacus. Aliquam erat volutpat. Vivamus hendrerit aliquam ipsum. Maecenas suscipit ante sit amet risus. Nullam lacus. Praesent varius imperdiet sapien. Nulla sit amet massa nonummy felis aliquam varius. Vivamus sed arcu. Mauris sodales tristique risus. Cras sed sem. Quisque est eros, lacinia id, placerat sit amet, varius ac, odio. Aenean placerat, justo eu laoreet laoreet, purus quam faucibus risus, vel accumsan mauris ligula in magna.</paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1758"
+            <ezobject:attribute ezremote:id="774"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">
               <keyword-string></keyword-string>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1759"
+            <ezobject:attribute ezremote:id="775"
                                 ezremote:identifier="show_children"
                                 name="Display sub items"
                                 type="ezboolean">
@@ -6830,19 +5601,19 @@
             <node-assignment is-main-node="1"
                              parent-node-remote-id="4329dcc6a8d441aa7253660512dfd5b6"
                              name="Ut interdum"
-                             node-id="297"
+                             node-id="140"
                              remote-id="6cf7b9370a0d9800ed49ba3be13b6be5"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="309"
+            ezremote:id="139"
             name="Fusce pulvinar"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="20"
-            ezremote:published="Wed, 28 Mar 2007 11:24:24 GMT"
-            ezremote:modified="Wed, 28 Mar 2007 11:24:24 GMT"
+            ezremote:class_id="24"
+            ezremote:published="Thu, 01 Nov 2007 08:34:06 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 08:34:06 GMT"
             remote_id="fa54ccddf28481b513b60c68911baef8"
             class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
             ezremote:class_identifier="documentation_page"
@@ -6852,18 +5623,18 @@
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Wed, 28 Mar 2007 11:24:08 GMT"
-                          ezremote:modified="Wed, 28 Mar 2007 11:24:24 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 08:34:06 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:34:06 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
                                        object_name="Fusce pulvinar">
-            <ezobject:attribute ezremote:id="1772"
+            <ezobject:attribute ezremote:id="776"
                                 ezremote:identifier="title"
                                 name="Title"
                                 type="ezstring">
               <text>Fusce pulvinar</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1773"
+            <ezobject:attribute ezremote:id="777"
                                 ezremote:identifier="body"
                                 name="Body"
                                 type="ezxmltext">
@@ -6873,13 +5644,13 @@
                 <paragraph>Donec consectetuer sodales urna. Nam iaculis. Duis cursus nisl ut lorem. Vivamus pharetra pretium nulla. Mauris pharetra augue a dolor. Duis neque lorem, rhoncus nec, mattis id, dapibus vel, nisl. Quisque aliquam pellentesque leo. Ut in ante. Aliquam mollis, dolor eget malesuada euismod, tellus mi hendrerit dui, sit amet vestibulum neque massa ut mauris. Phasellus sed nisi. In eget odio nec tellus semper placerat. Fusce pulvinar malesuada nibh. Aliquam feugiat ligula ut nulla. Phasellus vitae felis in nulla gravida commodo. Cras magna justo, ultricies ut, euismod vitae, congue quis, quam. Mauris est purus, lobortis vitae, rutrum eu, dictum sed, mauris. In vehicula viverra dui. Curabitur id neque. Praesent facilisis. Mauris est. </paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1774"
+            <ezobject:attribute ezremote:id="778"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">
               <keyword-string></keyword-string>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1775"
+            <ezobject:attribute ezremote:id="779"
                                 ezremote:identifier="show_children"
                                 name="Display sub items"
                                 type="ezboolean">
@@ -6889,19 +5660,19 @@
             <node-assignment is-main-node="1"
                              parent-node-remote-id="4329dcc6a8d441aa7253660512dfd5b6"
                              name="Fusce pulvinar"
-                             node-id="301"
+                             node-id="141"
                              remote-id="f71191fcce35c83530cddde467a908b2"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="306"
+            ezremote:id="140"
             name="Duis id tortor"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="20"
-            ezremote:published="Tue, 27 Mar 2007 11:05:32 GMT"
-            ezremote:modified="Tue, 27 Mar 2007 11:05:32 GMT"
+            ezremote:class_id="24"
+            ezremote:published="Thu, 01 Nov 2007 08:34:07 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 08:34:07 GMT"
             remote_id="e20a6ec858de6a28a7ba14c26164753a"
             class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
             ezremote:class_identifier="documentation_page"
@@ -6911,18 +5682,18 @@
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Tue, 27 Mar 2007 11:04:59 GMT"
-                          ezremote:modified="Tue, 27 Mar 2007 11:05:32 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 08:34:07 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:34:07 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
                                        object_name="Duis id tortor">
-            <ezobject:attribute ezremote:id="1760"
+            <ezobject:attribute ezremote:id="780"
                                 ezremote:identifier="title"
                                 name="Title"
                                 type="ezstring">
               <text>Duis id tortor</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1761"
+            <ezobject:attribute ezremote:id="781"
                                 ezremote:identifier="body"
                                 name="Body"
                                 type="ezxmltext">
@@ -6932,13 +5703,13 @@
                 <paragraph>Fusce iaculis. Duis id tortor sit amet quam interdum accumsan. Vestibulum imperdiet odio non nisl. Nulla in odio. Sed sed libero sed risus eleifend bibendum. Cras arcu tellus, congue ac, ornare eget, vulputate non, pede. Vivamus molestie purus ut orci. Integer congue aliquam purus. Fusce eu metus eu mauris imperdiet porta. Nam urna mi, consequat in, iaculis eget, tempor eu, elit. Fusce lorem. Sed nec velit sed augue malesuada blandit. Nullam quis elit id lorem adipiscing condimentum. Nullam aliquam justo nec urna. Integer eget libero. Sed in tellus non lorem iaculis consequat. Aenean at lorem dictum mi imperdiet consequat. Sed euismod sodales magna. Cras consectetuer pede ac massa porta lacinia.</paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1762"
+            <ezobject:attribute ezremote:id="782"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">
               <keyword-string></keyword-string>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1763"
+            <ezobject:attribute ezremote:id="783"
                                 ezremote:identifier="show_children"
                                 name="Display sub items"
                                 type="ezboolean">
@@ -6948,19 +5719,19 @@
             <node-assignment is-main-node="1"
                              parent-node-remote-id="8b570ac03318b7e29eb5fd1bae15efde"
                              name="Duis id tortor"
-                             node-id="298"
+                             node-id="142"
                              remote-id="2d3cf4fe8d439e16e0ed75ef947b5e3d"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="313"
+            ezremote:id="141"
             name="Curabitur lacinia"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="20"
-            ezremote:published="Wed, 28 Mar 2007 11:26:48 GMT"
-            ezremote:modified="Wed, 28 Mar 2007 11:26:48 GMT"
+            ezremote:class_id="24"
+            ezremote:published="Thu, 01 Nov 2007 08:34:07 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 08:34:07 GMT"
             remote_id="5a3d6806ccd2f6edd86f6219ddc51525"
             class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
             ezremote:class_identifier="documentation_page"
@@ -6970,18 +5741,18 @@
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Wed, 28 Mar 2007 11:26:31 GMT"
-                          ezremote:modified="Wed, 28 Mar 2007 11:26:47 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 08:34:07 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:34:07 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
                                        object_name="Curabitur lacinia">
-            <ezobject:attribute ezremote:id="1788"
+            <ezobject:attribute ezremote:id="784"
                                 ezremote:identifier="title"
                                 name="Title"
                                 type="ezstring">
               <text>Curabitur lacinia</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1789"
+            <ezobject:attribute ezremote:id="785"
                                 ezremote:identifier="body"
                                 name="Body"
                                 type="ezxmltext">
@@ -6991,13 +5762,13 @@
                 <paragraph>Mauris pede libero, accumsan vel, tristique eget, tempus sit amet, sapien. Fusce sed arcu. Pellentesque pharetra mattis velit. In nec eros. Praesent viverra metus ut tellus. In tellus elit, imperdiet at, tincidunt egestas, malesuada sed, nisl. Aliquam posuere mattis pede. Curabitur lacinia condimentum nunc. Phasellus mattis. Fusce ac pede. Ut in neque. Fusce adipiscing mi sit amet velit. Cras varius. Vivamus elementum dui id lectus. </paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1790"
+            <ezobject:attribute ezremote:id="786"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">
               <keyword-string></keyword-string>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="1791"
+            <ezobject:attribute ezremote:id="787"
                                 ezremote:identifier="show_children"
                                 name="Display sub items"
                                 type="ezboolean">
@@ -7007,20 +5778,20 @@
             <node-assignment is-main-node="1"
                              parent-node-remote-id="2d3cf4fe8d439e16e0ed75ef947b5e3d"
                              name="Curabitur lacinia"
-                             node-id="305"
+                             node-id="143"
                              remote-id="49c9ad954328ab5f5a76d580873961a4"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="357"
-            name="Photos"
+            ezremote:id="181"
+            name="Lyon Pictures"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="26"
-            ezremote:published="Wed, 11 Apr 2007 12:08:04 GMT"
-            ezremote:modified="Wed, 11 Apr 2007 12:08:04 GMT"
-            remote_id="7b159eea65cea5d757c8b86fbe8c399b"
+            ezremote:class_id="34"
+            ezremote:published="Thu, 01 Nov 2007 09:42:58 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 09:42:58 GMT"
+            remote_id="c0180d604d5f5d273702b7d675d6c0cd"
             class_remote_id="6a320cdc3e274841b82fcd63a86f80d1"
             ezremote:class_identifier="gallery"
             ezremote:always_available="0"
@@ -7029,18 +5800,18 @@
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Wed, 11 Apr 2007 12:07:19 GMT"
-                          ezremote:modified="Wed, 11 Apr 2007 12:08:03 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 09:42:50 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 09:42:58 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
-                                       object_name="Photos">
-            <ezobject:attribute ezremote:id="2225"
+                                       object_name="Lyon Pictures">
+            <ezobject:attribute ezremote:id="1132"
                                 ezremote:identifier="name"
                                 name="Name"
                                 type="ezstring">
-              <text>Photos</text>
+              <text>Lyon Pictures</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2226"
+            <ezobject:attribute ezremote:id="1133"
                                 ezremote:identifier="short_description"
                                 name="Short description"
                                 type="ezxmltext">
@@ -7048,7 +5819,7 @@
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2227"
+            <ezobject:attribute ezremote:id="1134"
                                 ezremote:identifier="description"
                                 name="Description"
                                 type="ezxmltext">
@@ -7056,241 +5827,292 @@
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2228"
+            <ezobject:attribute ezremote:id="1135"
                                 ezremote:identifier="image"
                                 name="Image"
                                 type="ezobjectrelation" /></ezobject:object-translation>
           <ezobject:node-assignment-list>
             <node-assignment is-main-node="1"
                              parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
-                             name="Photos"
-                             node-id="349"
-                             remote-id="8c2a24ff5280c49da4e0b323416586ba"
+                             name="Lyon Pictures"
+                             node-id="183"
+                             remote-id="ae32173cedf3a5ec441e3afcadc4abcb"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="358"
-            name="Langesund fjord"
+            ezremote:id="182"
+            name="Lyon"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="5"
-            ezremote:published="Wed, 11 Apr 2007 12:14:28 GMT"
-            ezremote:modified="Wed, 11 Apr 2007 13:15:57 GMT"
-            remote_id="1950ff49bea5096f09531585f6fed7a6"
+            ezremote:class_id="30"
+            ezremote:published="Thu, 01 Nov 2007 09:44:13 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 09:45:57 GMT"
+            remote_id="e2a6854bd08d7d7df83d4193d4d79138"
             class_remote_id="f6df12aa74e36230eb675f364fccd25a"
             ezremote:class_identifier="image"
-            ezremote:always_available="1"
+            ezremote:always_available="0"
             initial_language="eng-GB">
-      <version-list active_version="3"
+      <version-list active_version="2"
                     xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="3"
+        <ezobject:version ezremote:version="2"
                           ezremote:status="1"
-                          ezremote:created="Wed, 11 Apr 2007 13:15:39 GMT"
-                          ezremote:modified="Wed, 11 Apr 2007 13:15:57 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 09:45:42 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 09:45:57 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
-                                       object_name="Langesund fjord">
-            <ezobject:attribute ezremote:id="2229"
+                                       object_name="Lyon">
+            <ezobject:attribute ezremote:id="1136"
                                 ezremote:identifier="name"
                                 name="Name"
                                 type="ezstring">
-              <text>Langesund fjord</text>
+              <text>Lyon</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2230"
+            <ezobject:attribute ezremote:id="1137"
                                 ezremote:identifier="caption"
                                 name="Caption"
                                 type="ezxmltext">
               <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Langesund fjord</paragraph>
+                <paragraph>Photo by: Jacques Leone.</paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2231"
+            <ezobject:attribute ezremote:id="1138"
                                 ezremote:identifier="image"
                                 name="Image"
                                 type="ezimage"
-                                image-file-key="f990dbd31c1ce1280f81c5c61cc5b8c6"
-                                alternative-text="Langesund fjord" />
-            <ezobject:attribute ezremote:id="2232"
+                                image-file-key="3ba7d9326f877774c7444634cdab7d89"
+                                alternative-text="" />
+            <ezobject:attribute ezremote:id="1139"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">
-              <keyword-string></keyword-string>
+              <keyword-string>Jacques Leone, Lyon</keyword-string>
             </ezobject:attribute></ezobject:object-translation>
           <ezobject:node-assignment-list>
             <node-assignment is-main-node="1"
-                             parent-node-remote-id="8c2a24ff5280c49da4e0b323416586ba"
-                             name="Langesund fjord"
-                             node-id="350"
-                             remote-id="8fb23d1b22ad9cfd5c99bd86902eea95"
+                             parent-node-remote-id="ae32173cedf3a5ec441e3afcadc4abcb"
+                             name="Lyon"
+                             node-id="184"
+                             remote-id="87b0525ae3b7bc6abe9d4232ab6a8696"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="359"
-            name="Brevik bridge"
+            ezremote:id="183"
+            name="Grand Lyon"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="5"
-            ezremote:published="Wed, 11 Apr 2007 12:21:34 GMT"
-            ezremote:modified="Wed, 11 Apr 2007 12:21:34 GMT"
-            remote_id="f2efb3793494a173fc0e19a411d6bbe0"
+            ezremote:class_id="30"
+            ezremote:published="Thu, 01 Nov 2007 09:45:35 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 09:45:35 GMT"
+            remote_id="c6c50ea99e0a14530ef21d8b47780991"
             class_remote_id="f6df12aa74e36230eb675f364fccd25a"
             ezremote:class_identifier="image"
-            ezremote:always_available="1"
-            initial_language="eng-GB">
-      <version-list active_version="1"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="1"
-                          ezremote:status="1"
-                          ezremote:created="Wed, 11 Apr 2007 12:21:12 GMT"
-                          ezremote:modified="Wed, 11 Apr 2007 12:21:34 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Brevik bridge">
-            <ezobject:attribute ezremote:id="2266"
-                                ezremote:identifier="name"
-                                name="Name"
-                                type="ezstring">
-              <text>Brevik bridge</text>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2267"
-                                ezremote:identifier="caption"
-                                name="Caption"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Brevik bridge</paragraph>
-              </section>
-            </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2268"
-                                ezremote:identifier="image"
-                                name="Image"
-                                type="ezimage"
-                                image-file-key="2f5c606be99165587fecf4ee459eadce"
-                                alternative-text="Brevik bridge" />
-            <ezobject:attribute ezremote:id="2269"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
-              <keyword-string></keyword-string>
-            </ezobject:attribute></ezobject:object-translation>
-          <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             parent-node-remote-id="8c2a24ff5280c49da4e0b323416586ba"
-                             name="Brevik bridge"
-                             node-id="351"
-                             remote-id="6db773d49b9b8eab8312c224dab2d21f"
-                             sort-field="path"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="360"
-            name="Langesund lighthouse"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="5"
-            ezremote:published="Wed, 11 Apr 2007 12:24:43 GMT"
-            ezremote:modified="Wed, 11 Apr 2007 12:24:43 GMT"
-            remote_id="f51f739ce127aa00b116273d23f64d8a"
-            class_remote_id="f6df12aa74e36230eb675f364fccd25a"
-            ezremote:class_identifier="image"
-            ezremote:always_available="1"
+            ezremote:always_available="0"
             initial_language="eng-GB">
       <version-list active_version="1"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Wed, 11 Apr 2007 12:24:32 GMT"
-                          ezremote:modified="Wed, 11 Apr 2007 12:24:43 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 09:44:20 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 09:45:35 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
-                                       object_name="Langesund lighthouse">
-            <ezobject:attribute ezremote:id="2270"
+                                       object_name="Grand Lyon">
+            <ezobject:attribute ezremote:id="1140"
                                 ezremote:identifier="name"
                                 name="Name"
                                 type="ezstring">
-              <text>Langesund lighthouse</text>
+              <text>Grand Lyon</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2271"
+            <ezobject:attribute ezremote:id="1141"
                                 ezremote:identifier="caption"
                                 name="Caption"
                                 type="ezxmltext">
               <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Langesund lighthouse</paragraph>
+                <paragraph>Photo by: Jacques Léone.</paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2272"
+            <ezobject:attribute ezremote:id="1142"
                                 ezremote:identifier="image"
                                 name="Image"
                                 type="ezimage"
-                                image-file-key="f8e0869f559c4b7f019de418aa5ffe46"
-                                alternative-text="Langesund lighthouse" />
-            <ezobject:attribute ezremote:id="2273"
+                                image-file-key="4d63cb263daac713e79fc69bf315932c"
+                                alternative-text="" />
+            <ezobject:attribute ezremote:id="1143"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">
-              <keyword-string></keyword-string>
+              <keyword-string>Lyon</keyword-string>
             </ezobject:attribute></ezobject:object-translation>
           <ezobject:node-assignment-list>
             <node-assignment is-main-node="1"
-                             parent-node-remote-id="8c2a24ff5280c49da4e0b323416586ba"
-                             name="Langesund lighthouse"
-                             node-id="352"
-                             remote-id="e6e673943404bd701b97fc4246bf3a3b"
+                             parent-node-remote-id="ae32173cedf3a5ec441e3afcadc4abcb"
+                             name="Grand Lyon"
+                             node-id="185"
+                             remote-id="209806b2b89a813c93ffa40c20ac329c"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="361"
-            name="Sunset at Langesund"
+            ezremote:id="184"
+            name="Lyon River"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="5"
-            ezremote:published="Wed, 11 Apr 2007 13:02:44 GMT"
-            ezremote:modified="Wed, 11 Apr 2007 13:02:44 GMT"
-            remote_id="2b85600946090727afc95b434bd0e4c0"
+            ezremote:class_id="30"
+            ezremote:published="Thu, 01 Nov 2007 09:46:35 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 09:46:35 GMT"
+            remote_id="425a447e91a9adda8a116db25236ef87"
             class_remote_id="f6df12aa74e36230eb675f364fccd25a"
             ezremote:class_identifier="image"
-            ezremote:always_available="1"
+            ezremote:always_available="0"
             initial_language="eng-GB">
       <version-list active_version="1"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Wed, 11 Apr 2007 13:02:05 GMT"
-                          ezremote:modified="Wed, 11 Apr 2007 13:02:44 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 09:46:06 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 09:46:35 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
-                                       object_name="Sunset at Langesund">
-            <ezobject:attribute ezremote:id="2340"
+                                       object_name="Lyon River">
+            <ezobject:attribute ezremote:id="1144"
                                 ezremote:identifier="name"
                                 name="Name"
                                 type="ezstring">
-              <text>Sunset at Langesund</text>
+              <text>Lyon River</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2341"
+            <ezobject:attribute ezremote:id="1145"
                                 ezremote:identifier="caption"
                                 name="Caption"
                                 type="ezxmltext">
               <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Sunset at Langesund</paragraph>
+                <paragraph>Photo by: Jacques Léone.</paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2342"
+            <ezobject:attribute ezremote:id="1146"
                                 ezremote:identifier="image"
                                 name="Image"
                                 type="ezimage"
-                                image-file-key="d31fcc9807cdc384fd8a248c2e30f695"
-                                alternative-text="Sunset at Langesund" />
-            <ezobject:attribute ezremote:id="2343"
+                                image-file-key="2f4f07da61215caf94307a3b6b3e3373"
+                                alternative-text="" />
+            <ezobject:attribute ezremote:id="1147"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string>Lyon, River</keyword-string>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="ae32173cedf3a5ec441e3afcadc4abcb"
+                             name="Lyon River"
+                             node-id="186"
+                             remote-id="fe93be883203dbc770261023340e3d99"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="185"
+            name="Castle on the hill"
+            ezremote:section_id="1"
+            ezremote:owner_id="14"
+            ezremote:class_id="30"
+            ezremote:published="Thu, 01 Nov 2007 09:47:08 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 09:47:08 GMT"
+            remote_id="dc49a26142f4874964db32aaf6adc091"
+            class_remote_id="f6df12aa74e36230eb675f364fccd25a"
+            ezremote:class_identifier="image"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="1"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="1"
+                          ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 09:46:45 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 09:47:07 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Castle on the hill">
+            <ezobject:attribute ezremote:id="1148"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Castle on the hill</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1149"
+                                ezremote:identifier="caption"
+                                name="Caption"
+                                type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>Photo by: Jacques Léone.</paragraph>
+              </section>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1150"
+                                ezremote:identifier="image"
+                                name="Image"
+                                type="ezimage"
+                                image-file-key="0dd183a2c02c7f5c91eb8ef46ddbff47"
+                                alternative-text="" />
+            <ezobject:attribute ezremote:id="1151"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string>Castle, Lyon</keyword-string>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="ae32173cedf3a5ec441e3afcadc4abcb"
+                             name="Castle on the hill"
+                             node-id="187"
+                             remote-id="5a57a167ef5ca3cb2a24db7ee6f379c7"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="188"
+            name="Blog"
+            ezremote:section_id="1"
+            ezremote:owner_id="14"
+            ezremote:class_id="19"
+            ezremote:published="Thu, 01 Nov 2007 11:10:24 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 11:10:24 GMT"
+            remote_id="6a715c29ec67ed5e13ded872e1615690"
+            class_remote_id="3a6f9c1f075b3bf49d7345576b196fe8"
+            ezremote:class_identifier="blog"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="1"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="1"
+                          ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 11:10:19 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 11:10:24 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Blog">
+            <ezobject:attribute ezremote:id="1282"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Blog</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1283"
+                                ezremote:identifier="description"
+                                name="Description"
+                                type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1284"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">
@@ -7298,10 +6120,168 @@
             </ezobject:attribute></ezobject:object-translation>
           <ezobject:node-assignment-list>
             <node-assignment is-main-node="1"
-                             parent-node-remote-id="8c2a24ff5280c49da4e0b323416586ba"
-                             name="Sunset at Langesund"
-                             node-id="353"
-                             remote-id="5cef380e0b21eb74277a77653f102843"
+                             parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
+                             name="Blog"
+                             node-id="190"
+                             remote-id="09fb4147e4b124b9770a527bdd66799c"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="189"
+            name="Visit Lyon"
+            ezremote:section_id="1"
+            ezremote:owner_id="14"
+            ezremote:class_id="20"
+            ezremote:published="Thu, 01 Nov 2007 11:13:10 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 11:13:10 GMT"
+            remote_id="bfe5bf501b832f165089c8d1c0ee959f"
+            class_remote_id="7ecb961056b7cbb30f22a91357e0a007"
+            ezremote:class_identifier="blog_post"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="1"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="1"
+                          ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 11:11:16 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 11:13:10 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Visit Lyon">
+            <ezobject:attribute ezremote:id="1285"
+                                ezremote:identifier="title"
+                                name="Title"
+                                type="ezstring">
+              <text>Visit Lyon</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1286"
+                                ezremote:identifier="body"
+                                name="Body"
+                                type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>Lorem ipsum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. </paragraph>
+                <paragraph>Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. </paragraph>
+                <paragraph>Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. </paragraph>
+                <paragraph>
+                  <ul>
+                    <li>
+                      <paragraph>Lorem ispum dolor sit amet. </paragraph>
+                    </li>
+                    <li>
+                      <paragraph>Lorem ispum dolor sit amet. </paragraph>
+                    </li>
+                    <li>
+                      <paragraph>Lorem ispum dolor sit amet. </paragraph>
+                    </li>
+                    <li>
+                      <paragraph>Lorem ispum dolor sit amet.</paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+              </section>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1287"
+                                ezremote:identifier="publication_date"
+                                name="Publication date"
+                                type="ezdatetime">
+              <date_time>Thu, 01 Nov 2007 11:11:00 GMT</date_time>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1288"
+                                ezremote:identifier="unpublish_date"
+                                name="Unpublish date"
+                                type="ezdatetime" />
+            <ezobject:attribute ezremote:id="1289"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string>Fun, Lyon, Relax, Shopping, Travel</keyword-string>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1290"
+                                ezremote:identifier="enable_comments"
+                                name="Enable comments"
+                                type="ezboolean">
+              <value>1</value>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="09fb4147e4b124b9770a527bdd66799c"
+                             name="Visit Lyon"
+                             node-id="191"
+                             remote-id="8f73d6d4ffca33c619d2f2645340ccc0"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="190"
+            name="Lyon in France"
+            ezremote:section_id="1"
+            ezremote:owner_id="14"
+            ezremote:class_id="20"
+            ezremote:published="Thu, 01 Nov 2007 11:14:00 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 11:14:00 GMT"
+            remote_id="e88c60fabc96a9dc0a5d429b1a9872ed"
+            class_remote_id="7ecb961056b7cbb30f22a91357e0a007"
+            ezremote:class_identifier="blog_post"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="1"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="1"
+                          ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 11:13:37 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 11:13:59 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Lyon in France">
+            <ezobject:attribute ezremote:id="1291"
+                                ezremote:identifier="title"
+                                name="Title"
+                                type="ezstring">
+              <text>Lyon in France</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1292"
+                                ezremote:identifier="body"
+                                name="Body"
+                                type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. </paragraph>
+                <paragraph>Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. </paragraph>
+                <paragraph>Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. Lorem ispum dolor sit amet. </paragraph>
+              </section>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1293"
+                                ezremote:identifier="publication_date"
+                                name="Publication date"
+                                type="ezdatetime">
+              <date_time>Thu, 01 Nov 2007 11:13:00 GMT</date_time>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1294"
+                                ezremote:identifier="unpublish_date"
+                                name="Unpublish date"
+                                type="ezdatetime" />
+            <ezobject:attribute ezremote:id="1295"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string>France, Fun, Lyon</keyword-string>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1296"
+                                ezremote:identifier="enable_comments"
+                                name="Enable comments"
+                                type="ezboolean">
+              <value>1</value>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="09fb4147e4b124b9770a527bdd66799c"
+                             name="Lyon in France"
+                             node-id="192"
+                             remote-id="5cdc175d45aeb3fa054a95f40df56e79"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
@@ -10675,44 +9655,48 @@
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="362"
-            name="Visit Grenland"
+            ezremote:id="186"
+            name="Only Lyon"
             ezremote:section_id="3"
             ezremote:owner_id="14"
-            ezremote:class_id="5"
-            ezremote:published="Wed, 11 Apr 2007 13:37:13 GMT"
-            ezremote:modified="Wed, 11 Apr 2007 13:37:13 GMT"
-            remote_id="f631a1c5d53bb7ec81f556254d513084"
+            ezremote:class_id="30"
+            ezremote:published="Thu, 01 Nov 2007 09:48:30 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 09:48:30 GMT"
+            remote_id="c956f821da5891ba41cada07272dab30"
             class_remote_id="f6df12aa74e36230eb675f364fccd25a"
             ezremote:class_identifier="image"
-            ezremote:always_available="1"
+            ezremote:always_available="0"
             initial_language="eng-GB">
       <version-list active_version="1"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Wed, 11 Apr 2007 13:37:13 GMT"
-                          ezremote:modified="Wed, 11 Apr 2007 13:37:13 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 09:48:29 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 09:48:29 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
-                                       object_name="Visit Grenland">
-            <ezobject:attribute ezremote:id="2344"
+                                       object_name="Only Lyon">
+            <ezobject:attribute ezremote:id="1152"
                                 ezremote:identifier="name"
                                 name="Name"
                                 type="ezstring">
-              <text>Visit Grenland</text>
+              <text>Only Lyon</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2345"
+            <ezobject:attribute ezremote:id="1153"
                                 ezremote:identifier="caption"
                                 name="Caption"
-                                type="ezxmltext" />
-            <ezobject:attribute ezremote:id="2346"
+                                type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1154"
                                 ezremote:identifier="image"
                                 name="Image"
                                 type="ezimage"
-                                image-file-key="7931782016b7d816a2f296236ab7d215"
-                                alternative-text="Visit Grenland" />
-            <ezobject:attribute ezremote:id="2347"
+                                image-file-key="a098ce58b285a7281009e9706aadc9f3"
+                                alternative-text="" />
+            <ezobject:attribute ezremote:id="1155"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">
@@ -10720,10 +9704,10 @@
             </ezobject:attribute></ezobject:object-translation>
           <ezobject:node-assignment-list>
             <node-assignment is-main-node="1"
-                             parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb"
-                             name="Visit Grenland"
-                             node-id="354"
-                             remote-id="8a26131d0b763771a92032bbe6d31d15"
+                             parent-node-remote-id="e2a95a056702cf41379dcf25be043d1c"
+                             name="Only Lyon"
+                             node-id="188"
+                             remote-id="fddd6fba81c3578ffb87a6fe7e6e57d7"
                              sort-field="published"
                              sort-order="0"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
@@ -10893,8 +9877,8 @@
               remote-id="0d55a3f510cc7cd9a7b8eb838f50ff5c">Support</top-node>
     <top-node node-id="100"
               remote-id="0c523dfd6b1eccbfb0d1bfe632ee7411">Partners</top-node>
-    <top-node node-id="109"
-              remote-id="c4604fb2e100a6681a4f53fbe6e5eeae">Communities</top-node>
+    <top-node node-id="118"
+              remote-id="c4604fb2e100a6681a4f53fbe6e5eeae">Community</top-node>
     <top-node node-id="139"
               remote-id="e060ff40aa17eb21dc1e4595c9a5eb9a">Company</top-node>
     <top-node node-id="171"
