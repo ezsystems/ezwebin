@@ -2,40 +2,40 @@
 <content-object>
   <object-list>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="69"
+            ezremote:id="66"
             name="Home"
             ezremote:section_id="1"
             ezremote:owner_id="14"
-            ezremote:class_id="19"
-            ezremote:published="Wed, 10 Jan 2007 11:26:19 GMT"
-            ezremote:modified="Thu, 12 Apr 2007 10:35:33 GMT"
+            ezremote:class_id="23"
+            ezremote:published="Thu, 01 Nov 2007 08:33:32 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 10:50:27 GMT"
             remote_id="8a9c9c761004866fb458d89910f52bee"
             class_remote_id="e36c458e3e4a81298a0945f53a2c81f4"
             ezremote:class_identifier="frontpage"
             ezremote:always_available="1"
             initial_language="eng-GB">
-      <version-list active_version="104"
+      <version-list active_version="9"
                     xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="104"
+        <ezobject:version ezremote:version="9"
                           ezremote:status="1"
-                          ezremote:created="Thu, 12 Apr 2007 10:35:14 GMT"
-                          ezremote:modified="Thu, 12 Apr 2007 10:35:33 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 10:50:07 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 10:50:27 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
                                        object_name="Home">
-            <ezobject:attribute ezremote:id="235"
+            <ezobject:attribute ezremote:id="247"
                                 ezremote:identifier="name"
                                 name="Name"
                                 type="ezstring">
               <text>Home</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="236"
+            <ezobject:attribute ezremote:id="248"
                                 ezremote:identifier="billboard"
                                 name="Billboard"
                                 type="ezobjectrelation">
-              <related-object-remote-id>681b659cf8b00fc42a938e439735e506</related-object-remote-id>
+              <related-object-remote-id>2b2c6d4cec8a2af0bf0bdbdea950df51</related-object-remote-id>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="237"
+            <ezobject:attribute ezremote:id="249"
                                 ezremote:identifier="left_column"
                                 name="Left column"
                                 type="ezxmltext">
@@ -43,7 +43,7 @@
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="238"
+            <ezobject:attribute ezremote:id="250"
                                 ezremote:identifier="center_column"
                                 name="Center column"
                                 type="ezxmltext">
@@ -54,7 +54,9 @@
                   <embed size="medium"
                          class="highlighted_object"
                          align="center"
-                         object_remote_id="357a06355bdc09fa64231f30ef213752" />
+                         custom:offset="0"
+                         custom:limit="5"
+                         object_remote_id="6cb83f9c638ddad0e95dab7c7ac1b115" />
                 </paragraph>
                 <paragraph>
                   <embed size="medium"
@@ -62,12 +64,12 @@
                          align="center"
                          custom:offset="0"
                          custom:limit="5"
-                         object_remote_id="7b159eea65cea5d757c8b86fbe8c399b" />
+                         object_remote_id="c0180d604d5f5d273702b7d675d6c0cd" />
                 </paragraph>
                 <paragraph>
                   <table class="default"
-                         width="100%"
-                         border="0">
+                         border="0"
+                         width="100%">
                     <tr>
                       <td />
                       <td />
@@ -76,22 +78,21 @@
                       <td xhtml:width="50%">
                         <paragraph>
                           <custom name="factbox"
-                                  custom:title="Content from Grenland"
+                                  custom:title="Content from Lyon"
                                   custom:align="left">
-                            <paragraph><link href="http://www.visitgrenland.no">
+                            <paragraph><link href="http://onlylyon.org/">
                                 <embed size="small"
-                                       object_remote_id="f631a1c5d53bb7ec81f556254d513084" />
-                              </link>The content in this eZ Publish release is provided by <link target="_blank"
-                                    href="http://www.visitgrenland.no">VisitGrenland</link>. </paragraph>
+                                       object_remote_id="c956f821da5891ba41cada07272dab30" />
+                              </link>The content in this eZ Publish release is provided by <link href="http://onlylyon.org/">Only Lyon.</link>
+                            </paragraph>
                           </custom>
                         </paragraph>
                       </td>
                       <td>
                         <paragraph>
                           <custom name="quote"
-                                  custom:align="right"
-                                  custom:author="Henrik Ibsen">
-                            <paragraph>community is like a ship; everyone ought be prepared to take the helm.</paragraph>
+                                  custom:align="right">
+                            <paragraph>Lyon offers “the best quality of life”.</paragraph>
                           </custom>
                         </paragraph>
                       </td>
@@ -100,7 +101,7 @@
                 </paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="239"
+            <ezobject:attribute ezremote:id="251"
                                 ezremote:identifier="right_column"
                                 name="Right column"
                                 type="ezxmltext">
@@ -111,11 +112,13 @@
                   <embed size="medium"
                          class="vertically_listed_sub_items"
                          align="center"
-                         object_remote_id="4f4893b4a7b5783a9fdb4acaf0d9ebfc" />
+                         custom:offset="0"
+                         custom:limit="4"
+                         object_remote_id="dc3e2c928288ee4773493fe16db9ec08" />
                 </paragraph>
               </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="240"
+            <ezobject:attribute ezremote:id="252"
                                 ezremote:identifier="bottom_column"
                                 name="Bottom column"
                                 type="ezxmltext">
@@ -123,7 +126,7 @@
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2151"
+            <ezobject:attribute ezremote:id="253"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">

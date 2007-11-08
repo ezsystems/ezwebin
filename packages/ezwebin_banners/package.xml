@@ -58,9 +58,9 @@ Banners - subtree
     <simple-file key="3d26cd8f63aac6ec6774a519bbcb452e"
                  original-path="var/storage/images/media/banners/woman_solutions/1908-2-eng-GB/woman_solutions.jpg"
                  package-path="simplefiles/944390f8.jpg" />
-    <simple-file key="f4f3ad665f7a992e0897cfa27274deed"
-                 original-path="var/storage/images/media/banners/grenland_frontpage/2210-1-eng-GB/grenland_frontpage.jpg"
-                 package-path="simplefiles/a2c0baa7.jpg" />
+    <simple-file key="941156c06bd6bf1956cf5dca16bd2d85"
+                 original-path="var/storage/images/media/banners/only-lyon-banner/1158-1-eng-US/Only-Lyon-Banner.jpg"
+                 package-path="simplefiles/d24c09fc.jpg" />
   </simple-files>
   <version>
     <number>1.3</number>

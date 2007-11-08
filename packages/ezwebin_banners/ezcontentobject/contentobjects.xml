@@ -498,52 +498,52 @@
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="353"
-            name="Grenland frontpage"
+            ezremote:id="187"
+            name="Only Lyon Banner"
             ezremote:section_id="3"
             ezremote:owner_id="14"
-            ezremote:class_id="32"
-            ezremote:published="Wed, 11 Apr 2007 10:57:17 GMT"
-            ezremote:modified="Wed, 11 Apr 2007 10:57:17 GMT"
-            remote_id="681b659cf8b00fc42a938e439735e506"
+            ezremote:class_id="40"
+            ezremote:published="Thu, 01 Nov 2007 10:11:17 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 10:11:17 GMT"
+            remote_id="2b2c6d4cec8a2af0bf0bdbdea950df51"
             class_remote_id="9cb558e25fd946246bbb32950c00228e"
             ezremote:class_identifier="banner"
             ezremote:always_available="0"
-            initial_language="eng-GB">
+            initial_language="eng-US">
       <version-list active_version="1"
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Wed, 11 Apr 2007 10:56:40 GMT"
-                          ezremote:modified="Wed, 11 Apr 2007 10:57:15 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Grenland frontpage">
-            <ezobject:attribute ezremote:id="2208"
+                          ezremote:created="Thu, 01 Nov 2007 10:11:00 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 10:11:17 GMT"
+                          initial_language="eng-US">
+          <ezobject:object-translation language="eng-US"
+                                       object_name="Only Lyon Banner">
+            <ezobject:attribute ezremote:id="1156"
                                 ezremote:identifier="name"
                                 name="Name"
                                 type="ezstring">
-              <text>Grenland frontpage</text>
+              <text>Only Lyon Banner</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2209"
+            <ezobject:attribute ezremote:id="1157"
                                 ezremote:identifier="url"
                                 name="URL"
                                 type="ezstring">
               <text></text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2210"
+            <ezobject:attribute ezremote:id="1158"
                                 ezremote:identifier="image"
                                 name="Image"
                                 type="ezimage"
-                                image-file-key="f4f3ad665f7a992e0897cfa27274deed"
-                                alternative-text="Grenland in Telemark" />
-            <ezobject:attribute ezremote:id="2211"
+                                image-file-key="941156c06bd6bf1956cf5dca16bd2d85"
+                                alternative-text="" />
+            <ezobject:attribute ezremote:id="1159"
                                 ezremote:identifier="image_map"
                                 name="Image map"
                                 type="eztext">
               <text></text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="2212"
+            <ezobject:attribute ezremote:id="1160"
                                 ezremote:identifier="tags"
                                 name="Tags"
                                 type="ezkeyword">
@@ -552,9 +552,9 @@
           <ezobject:node-assignment-list>
             <node-assignment is-main-node="1"
                              parent-node-remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
-                             name="Grenland frontpage"
-                             node-id="345"
-                             remote-id="85b7e6355d90b1cf446eec87b99f244a"
+                             name="Only Lyon Banner"
+                             node-id="189"
+                             remote-id="9432718ead0150ed9b83f9031151b5bd"
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object></object-list>
