@@ -29,11 +29,11 @@
 include_once( 'kernel/classes/ezsiteinstaller.php' );
 include_once( 'kernel/classes/datatypes/ezmatrix/ezmatrixdefinition.php' );
 
-define( 'EZWEBIN_INSTALLER_MAJOR_VERSION', 1.3 );
-define( 'EZWEBIN_INSTALLER_MINOR_VERSION', 0 );
-
 class eZWebinInstaller extends eZSiteInstaller
 {
+    const MAJOR_VERSION = 1.3;
+    const MINOR_VERSION = 0;
+
     function eZWebinInstaller( $parameters = false )
     {
         eZSiteInstaller::eZSiteInstaller( $parameters );
@@ -56,14 +56,14 @@ class eZWebinInstaller extends eZSiteInstaller
 
     function initSettings( $parameters )
     {
-        $siteINI =& eZINI::instance();
+        $siteINI = eZINI::instance();
 
         $classIdentifier = 'template_look';
         //get the class
-        $class = eZContentClass::fetchByIdentifier( $classIdentifier, true, EZ_CLASS_VERSION_STATUS_TEMPORARY );
+        $class = eZContentClass::fetchByIdentifier( $classIdentifier, true, eZContentClass::VERSION_STATUS_TEMPORARY );
         if( !$class )
         {
-            $class = eZContentClass::fetchByIdentifier( $classIdentifier, true, EZ_CLASS_VERSION_STATUS_DEFINED );
+            $class = eZContentClass::fetchByIdentifier( $classIdentifier, true, eZContentClass::VERSION_STATUS_DEFINED );
             if( !$class )
             {
                 eZDebug::writeError( "Warning, DEFINED version for class identifier $classIdentifier does not exist." );
@@ -599,7 +599,7 @@ class eZWebinInstaller extends eZSiteInstaller
     */
     function preInstall()
     {
-        $db =& eZDB::instance();
+        $db = eZDB::instance();
         $db->begin();
 
         // extend 'folder' class
@@ -615,7 +615,7 @@ class eZWebinInstaller extends eZSiteInstaller
 
         // hack for images/binaryfiles
         // need to set siteaccess to have correct placement(VarDir) for files in SetupWizard
-        $ini =& eZINI::instance();
+        $ini = eZINI::instance();
         $ini->setVariable( 'FileSettings', 'VarDir', $this->setting( 'var_dir' ) );
     }
 
@@ -718,7 +718,7 @@ class eZWebinInstaller extends eZSiteInstaller
 
     function solutionVersion()
     {
-        $version = EZWEBIN_INSTALLER_MAJOR_VERSION . '.' . EZWEBIN_INSTALLER_MINOR_VERSION;
+        $version = self::MAJOR_VERSION . '.' . self::MINOR_VERSION;
         return $version;
     }
 
@@ -819,7 +819,7 @@ class eZWebinInstaller extends eZSiteInstaller
 
     function postInstallAdminSiteaccessINIUpdate( $params = false )
     {
-        $siteINI =& eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $this->setting( 'admin_siteaccess' ), null, false, null, true );
+        $siteINI = eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $this->setting( 'admin_siteaccess' ), null, false, null, true );
         $siteINI->setVariable( "DesignSettings", "SiteDesign", $this->setting( 'admin_siteaccess' ) );
         $siteINI->setVariable( "DesignSettings", "AdditionalSiteDesignList", array( "admin" ) );
         $siteINI->setVariable( "SiteAccessSettings", "RelatedSiteAccessList", $this->setting( 'all_siteaccess_list' ) );
@@ -828,7 +828,7 @@ class eZWebinInstaller extends eZSiteInstaller
 
     function postInstallUserSiteaccessINIUpdate( $params = false )
     {
-        $siteINI =& eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $this->setting( 'user_siteaccess' ), null, false, null, true );
+        $siteINI = eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $this->setting( 'user_siteaccess' ), null, false, null, true );
         $siteINI->setVariable( "DesignSettings", "SiteDesign", $this->setting( 'main_site_design' ) );
         $siteINI->setVariable( "SiteAccessSettings", "RelatedSiteAccessList", $this->setting( 'all_siteaccess_list' ) );
         $siteINI->save( false, false, false, false, true, true );

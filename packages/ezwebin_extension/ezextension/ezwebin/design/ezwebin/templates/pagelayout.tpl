@@ -21,7 +21,6 @@
      $pagedesign_class = fetch( 'content', 'class', hash( 'class_id', 'template_look' ) )
      $pagedepth        = $module_result.path|count
      $content_info     = hash()
-     $is_edit          = and( eq( $ui_context, 'edit' ), $requested_uri_string|contains('user/edit')|not() )
 }
 
 {if $pagedesign_class.object_count|eq( 0 )|not}
@@ -62,7 +61,7 @@
 
 {if and( is_set( $content_info.class_identifier ), ezini( 'MenuSettings', 'HideLeftMenuClasses', 'menu.ini' )|contains( $content_info.class_identifier ) )}
     {set $pagestyle = 'nosidemenu noextrainfo'}
-{elseif and( $is_edit, $uri_string|contains("content/versionview")|not )}
+{elseif and( eq( $ui_context, 'edit' ), $uri_string|contains("content/versionview")|not )}
     {set $pagestyle       = 'nosidemenu noextrainfo'}
 {elseif eq( $ui_context, 'browse' )}
     {set $pagestyle       = 'nosidemenu noextrainfo'}
@@ -178,7 +177,7 @@
     <div id="searchbox">
       <form action={"/content/search"|ezurl}>
         <label for="searchtext" class="hide">Search text:</label>
-        {if $is_edit}
+        {if eq( $ui_context, 'edit' )}
         <input id="searchtext" name="SearchText" type="text" value="" size="12" disabled="disabled" />
         <input id="searchbutton" class="button-disabled" type="submit" value="{'Search'|i18n('design/ezwebin/pagelayout')}" alt="Submit" disabled="disabled" />
         {else}
@@ -283,7 +282,13 @@
 <!-- Complete page area: END -->
 
 {if $pagedesign.data_map.footer_script.has_content}
+<script language="javascript" type="text/javascript">
+<!--
+
     {$pagedesign.data_map.footer_script.content}
+
+-->
+</script>
 {/if}
 {/cache-block}
 

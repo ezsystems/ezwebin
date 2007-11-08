@@ -25,7 +25,7 @@ class eZCreateClassListGroups
                                                           'default' => array() ) ) );
     }
 
-    function modify( &$tpl, &$operatorName, &$operatorParameters, &$rootNamespace, &$currentNamespace, &$operatorValue, &$namedParameters )
+    function modify( $tpl, $operatorName, $operatorParameters, &$rootNamespace, &$currentNamespace, &$operatorValue, &$namedParameters )
     {
         $canCreateClassList = $namedParameters['can_create_class_list'];
 
@@ -35,7 +35,7 @@ class eZCreateClassListGroups
             {
                 $groupArray = array();
 
-                $ini =& eZINI::instance( 'websitetoolbar.ini' );
+                $ini = eZINI::instance( 'websitetoolbar.ini' );
 
                 foreach ( $canCreateClassList as $class )
                 {

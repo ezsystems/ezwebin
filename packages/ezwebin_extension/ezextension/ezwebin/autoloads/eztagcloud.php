@@ -23,7 +23,7 @@ class eZTagCloud
         'default' => array() ) ) );
     }
 
-    function modify( &$tpl, &$operatorName, &$operatorParameters, &$rootNamespace, &$currentNamespace, &$operatorValue, &$namedParameters )
+    function modify( $tpl, $operatorName, $operatorParameters, &$rootNamespace, &$currentNamespace, &$operatorValue, &$namedParameters )
     {
         switch ( $operatorName )
         {
@@ -44,7 +44,7 @@ class eZTagCloud
                         $parentNodeID = $namedParameters['params']['parent_node_id'];
 
                     include_once( 'lib/ezdb/classes/ezdb.php' );
-                    $db =& eZDB::instance();
+                    $db = eZDB::instance();
 
                     if( $classIdentifier )
                         $classIdentifierSQL = "AND ezcontentclass.identifier = '" . $classIdentifier . "'";
@@ -57,12 +57,6 @@ class eZTagCloud
                         $parentNodeIDSQL = "AND ezcontentobject_tree.node_id != " . (int)$parentNodeID;
                     }
 
-                    $showInvisibleNodesCond = eZContentObjectTreeNode::createShowInvisibleSQLString( true, false );
-                    $limitation = false;
-                    $limitationList = eZContentObjectTreeNode::getLimitationList( $limitation );
-                    $sqlPermissionChecking = eZContentObjectTreeNode::createPermissionCheckingSQL( $limitationList );
-
-
                     $languageFilter = "AND " . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
 
                     $rs = $db->arrayQuery( "SELECT DISTINCT ezkeyword.keyword
@@ -72,22 +66,18 @@ class eZTagCloud
                                                 ezcontentobject_attribute,
                                                 ezcontentobject_tree,
                                                 ezcontentclass
-                                                $sqlPermissionChecking[from]
-
                                             WHERE ezkeyword.id = ezkeyword_attribute_link.keyword_id
                                                 AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
                                                 AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
                                                 AND ezkeyword.class_id = ezcontentclass.id
                                                 AND ezcontentclass.id = ezcontentobject.contentclass_id
                                                 AND ezcontentclass.version = '0'
-                                                AND ezcontentobject.status = '".EZ_CONTENT_OBJECT_STATUS_PUBLISHED."'
+                                                AND ezcontentobject.status = '".eZContentObject::STATUS_PUBLISHED."'
                                                 AND ezcontentobject_attribute.version = ezcontentobject.current_version
                                                 AND ezcontentobject_tree.main_node_id = ezcontentobject_tree.node_id
                                                 $pathString
                                                 $parentNodeIDSQL
                                                 $classIdentifierSQL
-                                                $showInvisibleNodesCond
-                                                $sqlPermissionChecking[where]
                                                 $languageFilter
                                             ORDER BY ezkeyword.keyword ASC" );
 
@@ -124,8 +114,8 @@ class eZTagCloud
                                              'tag' => $key );
                     }
 
-                    include_once( 'kernel/common/template.php' );
-                    $tpl =& templateInit();
+                    require_once( 'kernel/common/template.php' );
+                    $tpl = templateInit();
                     $tpl->setVariable( 'tag_cloud', $tagCloud );
 
                     $operatorValue = $tpl->fetch( 'design:tagcloud/tagcloud.tpl' );

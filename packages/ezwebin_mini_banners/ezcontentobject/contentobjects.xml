@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content-object>
+  <object-list>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="57"
+            name="Banners"
+            ezremote:section_id="3"
+            ezremote:owner_id="14"
+            ezremote:class_id="1"
+            ezremote:published="Wed, 10 Jan 2007 11:25:58 GMT"
+            ezremote:modified="Wed, 10 Jan 2007 11:25:58 GMT"
+            remote_id="f1826ada5e88c8f79e7048b2145040b2"
+            class_remote_id="a3d405b81be900468eb153d774f4f0d2"
+            ezremote:class_identifier="folder"
+            ezremote:always_available="1"
+            initial_language="eng-GB">
+      <version-list active_version="1"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="1"
+                          ezremote:status="1"
+                          ezremote:created="Wed, 10 Jan 2007 11:25:57 GMT"
+                          ezremote:modified="Wed, 10 Jan 2007 11:25:57 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Banners">
+            <ezobject:attribute ezremote:id="186"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Banners</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="187"
+                                ezremote:identifier="short_name"
+                                name="Short name"
+                                type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="188"
+                                ezremote:identifier="short_description"
+                                name="Summary"
+                                type="ezxmltext" />
+            <ezobject:attribute ezremote:id="189"
+                                ezremote:identifier="description"
+                                name="Description"
+                                type="ezxmltext" />
+            <ezobject:attribute ezremote:id="824"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="190"
+                                ezremote:identifier="show_children"
+                                name="Display sub items"
+                                type="ezboolean">
+              <value>1</value>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="2048"
+                                ezremote:identifier="publish_date"
+                                name="Publish date"
+                                type="ezdatetime">
+              <date_time>Tue, 10 Apr 2007 06:47:50 GMT</date_time>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="75c715a51699d2d309a924eca6a95145"
+                             name="Banners"
+                             node-id="59"
+                             remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
+                             sort-field="published"
+                             sort-order="0"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="353"
+            name="Grenland frontpage"
+            ezremote:section_id="3"
+            ezremote:owner_id="14"
+            ezremote:class_id="32"
+            ezremote:published="Wed, 11 Apr 2007 10:57:17 GMT"
+            ezremote:modified="Wed, 11 Apr 2007 10:57:17 GMT"
+            remote_id="681b659cf8b00fc42a938e439735e506"
+            class_remote_id="9cb558e25fd946246bbb32950c00228e"
+            ezremote:class_identifier="banner"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="1"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="1"
+                          ezremote:status="1"
+                          ezremote:created="Wed, 11 Apr 2007 10:56:40 GMT"
+                          ezremote:modified="Wed, 11 Apr 2007 10:57:15 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Grenland frontpage">
+            <ezobject:attribute ezremote:id="2208"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Grenland frontpage</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="2209"
+                                ezremote:identifier="url"
+                                name="URL"
+                                type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="2210"
+                                ezremote:identifier="image"
+                                name="Image"
+                                type="ezimage"
+                                image-file-key="f4f3ad665f7a992e0897cfa27274deed"
+                                alternative-text="Grenland in Telemark" />
+            <ezobject:attribute ezremote:id="2211"
+                                ezremote:identifier="image_map"
+                                name="Image map"
+                                type="eztext">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="2212"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
+                             name="Grenland frontpage"
+                             node-id="345"
+                             remote-id="85b7e6355d90b1cf446eec87b99f244a"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object></object-list>
+  <site-access-list>
+    <site-access>eng</site-access>
+  </site-access-list>
+  <top-node-list>
+  </top-node-list>
+</content-object>

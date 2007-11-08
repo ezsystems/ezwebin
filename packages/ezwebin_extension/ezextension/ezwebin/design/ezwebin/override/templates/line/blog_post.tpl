@@ -29,9 +29,9 @@
                                                                     'class_filter_type', 'include',
                                                                     'class_filter_array', array( 'comment' ) ) )}
         {if $comment_count|gt( 0 )}
-            <a href={concat( $node.url_alias, "#comments" )|ezurl}>{"View comments"|i18n("design/ezwebin/line/blog_post")} ({$comment_count})</a>
+            <a href={concat( $node.url_alias, "#comments" )|ezurl}>View comments ({$comment_count})</a>
         {else}
-            <a href={concat( $node.url_alias, "#comments" )|ezurl}>{"Add comment"|i18n("design/ezwebin/line/blog_post")}</a>
+            <a href={concat( $node.url_alias, "#comments" )|ezurl}>Add comment</a>
         {/if}
         </p>
         </div>

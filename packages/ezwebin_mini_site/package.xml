@@ -3,7 +3,7 @@
          development="false"
          is_active="true"
          install_type="import">
-  <name>ezwebin_site</name>
+  <name>ezwebin_mini_site</name>
   <summary>Website Interface</summary>
   <description>Website Interface is a web based CMS solution based on eZ Publish. It contains templates and settings that meets the most common requirements for content management systems.</description>
   <vendor>eZ systems</vendor>
@@ -65,16 +65,13 @@
                name="ezwebin_extension"
                min-version="1.3" />
       <require type="ezpackage"
-               name="ezwebin_banners"
+               name="ezwebin_mini_banners"
                min-version="1.3" />
       <require type="ezpackage"
-               name="ezwebin_democontent"
+               name="ezwebin_mini_democontent"
                min-version="1.3" />
       <require type="ezpackage"
-               name="ezwebin_design_gray"
-               min-version="1.3" />
-      <require type="ezpackage"
-               name="ezwebin_design_blue"
+               name="ezwebin_design"
                min-version="1.3" />
     </requires>
     <obsoletes />
@@ -85,9 +82,13 @@
     <settings-file filename='ini-admin.php'/>
     <settings-file filename='ini-common.php'/>
     <settings-file filename='ezwebininstaller.php'/>
+    <settings-file filename='data-file.php'/>
+    <settings-file filename='content-tools.php'/>
     <settings-file filename='install-scripts.php'/>
     <settings-file filename='roles.php'/>
     <settings-file filename='preferences.php'/>
+    <settings-file filename='addobjectattributes.php'/>
+    <settings-file filename='siteaccess-tools.php'/>
   </settings>
   <install />
   <uninstall />
