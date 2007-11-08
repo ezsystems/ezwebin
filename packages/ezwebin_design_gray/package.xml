@@ -2,8 +2,8 @@
 <package version="3.9.2"
          development="false"
          install_type="import">
-  <name>ezwebin_design</name>
-  <summary>eZ Publish Website Interface design</summary>
+  <name>ezwebin_design_gray</name>
+  <summary>eZ Publish Website Interface design (gray)</summary>
   <description>This site style package contains the design for the Website Interface</description>
   <vendor>eZ systems</vendor>
   <type value="sitestyle" />
