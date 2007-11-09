@@ -548,7 +548,7 @@ class eZWebinInstaller extends eZSiteInstaller
                                                               'title' => 'My RSS Feed',
                                                               'rss_export_itmes' => array( 0 => array( 'class_id' => '16',
                                                                                                        'description' => 'intro',
-                                                                                                       'source_node_id' => '153',
+                                                                                                       'source_node_id' => '139',
                                                                                                        'status' => '1',
                                                                                                        'title' => 'title' ) ) ) ),
                                    array( '_function' => 'dbCommit',
