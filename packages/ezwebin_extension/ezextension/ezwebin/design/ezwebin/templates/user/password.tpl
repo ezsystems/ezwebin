@@ -9,7 +9,7 @@
 </div>
 
 {if $message}
-{if or( $oldPasswordNotValid, $newPasswordNotMatch )}
+{if or( $oldPasswordNotValid, $newPasswordNotMatch, $newPasswordTooShort )}
     {if $oldPasswordNotValid}
         <div class="warning">
             <h2>{'Please retype your old password.'|i18n('design/ezwebin/user/password')}</h2>
@@ -18,6 +18,11 @@
     {if $newPasswordNotMatch}
         <div class="warning">
             <h2>{"Password didn't match, please retype your new password."|i18n('design/ezwebin/user/password')}</h2>
+        </div>
+    {/if}
+    {if $newPasswordTooShort}
+        <div class="warning">
+            <h2>{"The new password must be at least %1 characters long, please retype your new password."|i18n( 'design/ezwebin/user/password','',array( ezini('UserSettings','MinPasswordLength') ) )}</h2>
         </div>
     {/if}
 
