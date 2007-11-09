@@ -387,7 +387,7 @@ class eZWebinInstaller
                                                                                                                  'ParentClass' => array( array( '_function' => 'classIDbyIdentifier',
                                                                                                                                                 '_params' => array( 'class_identifier' => 'article' ) ),
                                                                                                                                          array( '_function' => 'classIDbyIdentifier',
-                                                                                                                                                '_params' => array( 'class_identifier' => 'blog' ) ),
+                                                                                                                                                '_params' => array( 'class_identifier' => 'blog_post' ) ),
                                                                                                                                          array( '_function' => 'classIDbyIdentifier',
                                                                                                                                                 '_params' => array( 'class_identifier' => 'article_mainpage' ) ) ) ) ),
 
