@@ -476,7 +476,7 @@ class eZWebinInstaller extends eZSiteInstaller
                                                                                                                  'ParentClass' => array( array( '_function' => 'classIDbyIdentifier',
                                                                                                                                                 '_params' => array( 'identifier' => 'article' ) ),
                                                                                                                                          array( '_function' => 'classIDbyIdentifier',
-                                                                                                                                                '_params' => array( 'identifier' => 'blog' ) ),
+                                                                                                                                                '_params' => array( 'identifier' => 'blog_post' ) ),
                                                                                                                                          array( '_function' => 'classIDbyIdentifier',
                                                                                                                                                 '_params' => array( 'identifier' => 'article_mainpage' ) ) ) ) ),
 
