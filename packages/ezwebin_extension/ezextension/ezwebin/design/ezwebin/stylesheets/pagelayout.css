@@ -128,8 +128,7 @@ div#topmenu ul
 
 div#topmenu li
 {
-    background-image: url(../images/topmenu_bg.png);
-    background-repeat: repeat-x;
+    background-image: none;
     height: 33px;
     margin: 0;
     float: left;
@@ -143,6 +142,8 @@ div#topmenu li
 div#topmenu li.selected
 {
     background-image: url(../images/topmenu_bg_selected.png);
+    background-repeat: repeat-x;
+    background-position: left top;
 
 }
 
