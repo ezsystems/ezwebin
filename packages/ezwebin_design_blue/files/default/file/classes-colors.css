@@ -1089,3 +1089,36 @@ div.content-view-sitemap ul li
 {
     background-image:url(images/ul_bullet.gif);
 }
+
+/* Caption */
+div.content-view-full div.attribute-image div.caption
+{
+    background-color:#DFEEF5;
+}
+
+
+div.message-confirmation, div.message-feedback, div.message-warning, div.message-error, div.warning
+{
+    border: 1px solid #BCDCEA;
+    background-image: url(images/msg-bg.jpg);
+    background-position: left top;
+    background-repeat: repeat-x;
+    background-color: #FFFFFF;
+    margin:0.5em 0pt 1em;
+    padding:0.5em 1em;
+}
+
+div.message-feedback
+{
+    border-color:#BCDCEA;
+}
+
+div.message-warning, div.warning
+{
+    border-color:#BCDCEA;
+}
+
+div.message-error
+{
+    border-color:#BCDCEA;
+}
