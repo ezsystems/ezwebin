@@ -1604,7 +1604,7 @@ class eZWebinInstaller extends eZSiteInstaller
         $adminSiteaccessName = $this->setting( 'admin_siteaccess' );
 
         $settings['SiteSettings'] = array( 'LoginPage' => 'embedded',
-                                           'AdditionalLoginFormActionURL' => $siteaccessUrl['admin'][$adminSiteaccessName]['url'] . '/user/login' );
+                                           'AdditionalLoginFormActionURL' => 'http://' . $siteaccessUrl['admin'][$adminSiteaccessName]['url'] . '/user/login' );
 
         $settings['Session'] = array( 'SessionNamePerSiteAccess' => 'disabled' );
 
