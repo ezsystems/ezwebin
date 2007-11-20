@@ -565,7 +565,7 @@ class eZWebinInstaller extends eZSiteInstaller
     {
         $errCode = $this->lastErrorCode();
 
-        if( $errCode === EZSITE_INSTALLER_ERR_ABORT )
+        if( $errCode === eZSiteInstaller::ERR_ABORT )
             $this->dbCommit( array() );
 
         return $errCode;
