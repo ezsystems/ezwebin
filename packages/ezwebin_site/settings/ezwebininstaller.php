@@ -849,6 +849,7 @@ class eZWebinInstaller extends eZSiteInstaller
         $settings[] = $this->adminContentINISettings();
         $settings[] = $this->adminIconINISettings();
         $settings[] = $this->adminViewCacheINISettings();
+        $settings[] = $this->adminODFINISettings();
 
         return $settings;
     }
@@ -1334,6 +1335,12 @@ class eZWebinInstaller extends eZSiteInstaller
                       'settings' => array( 'ViewCacheSettings' => array( 'SmartCacheClear' => 'enabled' ) ) );
     }
 
+    function adminODFINISettings()
+    {
+        // admin siteaccess uses the same ODF-settings
+        return $this->siteODFINISettings();
+    }
+
     ///////////////////////////////////////////////////////////////////////////
     // Common INI settings
     ///////////////////////////////////////////////////////////////////////////
@@ -1587,6 +1594,7 @@ class eZWebinInstaller extends eZSiteInstaller
         $settings[] = $this->siteBrowseINISettings();
         $settings[] = $this->siteTemplateINISettings();
         $settings[] = $this->siteContentStructureMenuINISettings();
+        $settings[] = $this->siteODFINISettings();
 
         return $settings;
     }
@@ -1625,8 +1633,8 @@ class eZWebinInstaller extends eZSiteInstaller
                         'yui/build/yahoo-dom-event/yahoo-dom-event.js',
                         'yui/build/calendar/calendar.js',
                         'ezdatepicker.js' ) ),
-                'StylesheetSettings' => array( 
-                    'CSSFileList' => array( 
+                'StylesheetSettings' => array(
+                    'CSSFileList' => array(
                         'yui/build/calendar/assets/calendar.css' ) ) ) );
         return $settings;
     }
@@ -2633,6 +2641,17 @@ class eZWebinInstaller extends eZSiteInstaller
                            'settings' => array( 'CharsetSettings' => array( 'DefaultTemplateCharset' => 'utf-8' ) ) );
 
         return $settings;
+    }
+
+    function siteODFINISettings()
+    {
+        // update 'article' class attributes info
+        $articleExtraAttributes = array( 'caption' => 'caption',
+                                         'publish_date' => 'publish_date',
+                                         'unpublish_date' => 'unpublish_date' );
+
+        return array( 'name' => 'odf.ini',
+                      'settings' => array( 'article' => array( 'Attribute' => $articleExtraAttributes ) ) );
     }
 }
 
