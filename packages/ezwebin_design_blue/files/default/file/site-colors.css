@@ -136,6 +136,7 @@ div#searchbox
 input#searchtext
 {
     border: 1px solid #67A9D3;
+    padding: 1px 3px 1px 3px;
 }
 
 input#searchbutton
