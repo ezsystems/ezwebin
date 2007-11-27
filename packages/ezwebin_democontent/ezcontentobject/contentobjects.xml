@@ -80,10 +80,10 @@
                           <custom name="factbox"
                                   custom:title="Content from Lyon"
                                   custom:align="left">
-                            <paragraph><link href="http://onlylyon.org/">
+                            <paragraph><link href="http://www.aderly.com/?xtor=AL-93">
                                 <embed size="small"
                                        object_remote_id="c956f821da5891ba41cada07272dab30" />
-                              </link>The content in this eZ Publish release is provided by <link href="http://onlylyon.org/">Only Lyon.</link>
+                              </link>The content in this eZ Publish release is provided by <link href="http://www.aderly.com/?xtor=AL-93">Only Lyon.</link>
                             </paragraph>
                           </custom>
                         </paragraph>
