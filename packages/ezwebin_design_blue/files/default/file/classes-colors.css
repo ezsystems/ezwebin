@@ -1127,7 +1127,8 @@ div.message-error
 
 .datepicker-icon
 {
-    padding-top: 0.5em;
+    padding-top: 9px;
+    margin-bottom: -2px;
 }
 
 .yui-calcontainer
