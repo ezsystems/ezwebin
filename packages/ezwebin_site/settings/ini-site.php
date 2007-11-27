@@ -37,7 +37,7 @@ function eZSiteINISettings( $parameters )
 {
     $parameters = array_merge( $parameters,
                                array( 'is_admin' => false ) );
-	$setupData = loadSetupData( $parameters );
+    $setupData = loadSetupData( $parameters );
 
     $settings = array();
     $settings[] = eZSiteMenuINISettings();
@@ -46,12 +46,13 @@ function eZSiteINISettings( $parameters )
     $settings[] = eZSiteSiteINISettings( $setupData );
     $settings[] = eZSiteImageINISettings();
     $settings[] = eZSiteContentINISettings( $parameters );
-	$settings[] = eZSiteDesignINISettings( $parameters );
-	$settings[] = eZSiteBrowseINISettings( $parameters );
-	$settings[] = eZSiteTemplateINISettings( $parameters );
+    $settings[] = eZSiteDesignINISettings( $parameters );
+    $settings[] = eZSiteBrowseINISettings( $parameters );
+    $settings[] = eZSiteTemplateINISettings( $parameters );
+    $settings[] = eZSiteODFINISettings();
     //$settings[] = eZSiteIconINISettings( $parameters );
 
-	$settings[] = eZSiteContentStructureMenuINISettings();
+    $settings[] = eZSiteContentStructureMenuINISettings();
 
     return $settings;
 }
@@ -1333,6 +1334,17 @@ function eZSiteTemplateINISettings( $parameters )
                        'settings' => array( 'CharsetSettings' => array( 'DefaultTemplateCharset' => 'utf-8' ) ) );
 
     return $settings;
+}
+
+function eZSiteODFINISettings()
+{
+    // update 'article' class attributes info
+    $articleExtraAttributes = array( 'caption' => 'caption',
+                                     'publish_date' => 'publish_date',
+                                     'unpublish_date' => 'unpublish_date' );
+
+    return array( 'name' => 'odf.ini',
+                  'settings' => array( 'article' => array( 'Attribute' => $articleExtraAttributes ) ) );
 }
 
 ?>

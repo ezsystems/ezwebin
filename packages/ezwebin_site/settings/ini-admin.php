@@ -45,6 +45,7 @@ function eZSiteAdminINISettings( $parameters )
     $settings[] = eZSiteAdminContentINISettings( $parameters );
     $settings[] = eZSiteAdminIconINISettings();
     $settings[] = eZSiteAdminViewCacheINISettings();
+    $settings[] = eZSiteAdminODFINISettings();
 
     return $settings;
 }
@@ -527,6 +528,19 @@ function eZSiteAdminViewCacheINISettings()
 {
     return array( 'name' => 'viewcache.ini',
                   'settings' => array( 'ViewCacheSettings' => array( 'SmartCacheClear' => 'enabled' ) ) );
+}
+
+function eZSiteAdminODFINISettings()
+{
+    // note: do not forget to update eZSiteODFINISettings when updating this function
+
+    // update 'article' class attributes info
+    $articleExtraAttributes = array( 'caption' => 'caption',
+                                     'publish_date' => 'publish_date',
+                                     'unpublish_date' => 'unpublish_date' );
+
+    return array( 'name' => 'odf.ini',
+                  'settings' => array( 'article' => array( 'Attribute' => $articleExtraAttributes ) ) );
 }
 
 ?>

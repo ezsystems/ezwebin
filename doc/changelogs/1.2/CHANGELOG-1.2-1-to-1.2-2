@@ -3,3 +3,5 @@ Changes from 1.2-1 to 1.2-2
 *Bugs:
 - Fixed bug #11592: Inconsistent version data: ezwebin 1.0 value in ezsite_data and 1.2 for 4.0.0alpha1 packages
 - Fixed bug #11837: Registered Members can't comment on Blog
+- Fixed bug #12032: Image captions are not updated.
+  (Manually merged from ezwebin/trunk rev. 2262)
