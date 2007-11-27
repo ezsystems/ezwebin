@@ -1122,3 +1122,117 @@ div.message-error
 {
     border-color:#BCDCEA;
 }
+
+/* DATE PICKER: START */
+
+.datepicker-icon
+{
+    padding-top: 0.5em;
+}
+
+.yui-calcontainer
+{
+    background-image: url(images/calcontainer-bg.png);
+    background-position: left top;
+    background-repeat: repeat-x;
+    border: 1px solid #c7e5ee;
+    background-color: #FFFFFF;
+    font-size: 0.75em;
+}
+
+.yui-calcontainer .calclose
+{
+    background: transparent url(images/calx.gif) no-repeat scroll 0%;
+    margin-right: 0.5em;
+    margin-top: 0.25em;
+    width: 6px;
+    height: 5px;
+}
+
+.yui-calendar .calhead
+{
+    border: 1px solid #d0e8f4;
+}
+
+.yui-calendar .calnavleft
+{
+    background: transparent url(images/callt.gif) no-repeat left center;
+}
+
+.yui-calendar .calnavright
+{
+    background: transparent url(images/calrt.gif) no-repeat right center;
+}
+
+.yui-calendar td.calcell a
+{
+    color:#717274;
+    text-decoration:none;
+}
+
+.yui-calendar td.today a
+{
+    color: #ff0000;
+}
+
+.yui-calendar td.calcell
+{
+    border-right: 1px solid #c2dbe8;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid #cde6f3;
+}
+
+.yui-calendar td.calcell.today
+{
+    border-right: 1px solid #c2dbe8;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid #cde6f3;
+}
+
+.yui-calendar td.calcell.oom
+{
+    border-right: 1px solid #c2dbe8;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid #cde6f3;
+    background-color: #e8f3fa;
+}
+
+.yui-calendar td.calcellright
+{
+    border-right: none;
+}
+
+.yui-calendar td.calcell.oom.calcellright
+{
+    border-right: none;
+}
+
+.yui-calendar td.calcellbottom
+{
+    border-bottom: none;
+}
+
+.yui-calendar td.calcell.oom.calcellbottom
+{
+    border-bottom: none;
+}
+
+.yui-calendar td.calcell.calcellhover
+{
+    background-color:#ffffff;
+    background-image: url(images/calcell-hover.png);
+    background-position: center top;
+    background-repeat: repeat-x;
+    border:none;
+    cursor:pointer;
+}
+
+.yui-calendar td.calcell.calcellhover a
+{
+    color:#717274;
+}
+
+/* DATE PICKER: END */
