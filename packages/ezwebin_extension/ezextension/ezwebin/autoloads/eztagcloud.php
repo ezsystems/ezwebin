@@ -35,6 +35,7 @@ class eZTagCloud
                     $parentNodeID = 0;
                     $classIdentifier = '';
                     $classIdentifierSQL = '';
+                    $pathString = '';
                     $parentNodeIDSQL = '';
 
                     if ( isset( $namedParameters['params']['class_identifier'] ) )
