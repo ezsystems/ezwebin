@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.5.2"
+         development="false"
+         install_type="import">
+  <name>ezwebin_design_blue</name>
+  <summary>eZ Publish Website Interface design (blue)</summary>
+  <description>This site style package contains the design for the Website Interface</description>
+  <vendor>eZ systems</vendor>
+  <type value="sitestyle" />
+  <ezpublish>
+    <version>3.10.0</version>
+    <named-version>3.10</named-version>
+  </ezpublish>
+  <maintainers>
+    <maintainer>
+      <name>Administrator User</name>
+      <email>nospam@ez.no</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <packaging>
+    <timestamp>1193230781</timestamp>
+    <host>localhost</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain"
+              name="LICENCE" />
+  </documents>
+  <changelog>
+    <entry timestamp="1193230781"
+           person="Administrator User"
+           email="nospam@ez.no"
+           release="1">
+      <change>Creation of package.</change>
+    </entry>
+  </changelog>
+  <simple-files />
+  <files>
+    <collection name="default">
+      <file-list type="thumbnail"
+                 variable-name="thumbnail">
+        <file name="thumbnail.png"
+              path="var/ezwebin_site/storage/temp/thumbnail.png"
+              md5sum="d0a098ad93432761ff270ea553e549d4" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="sitecssfile">
+        <file name="site-colors.css"
+              path="var/ezwebin_site/storage/temp/site-colors.css"
+              md5sum="a3bd34d0f3ff613eb8c50b68d89f373b" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="classescssfile">
+        <file name="classes-colors.css"
+              path="var/ezwebin_site/storage/temp/classes-colors.css"
+              md5sum="a8e5f030fd9c1801e91e6e14a43ab627" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="bg.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/bg.jpg"
+              md5sum="ed4534deaeadb1014ec3f62abbfd41b1" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="box-1-border-bc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/box-1-border-bc.gif"
+              md5sum="4bc9918f526c31298f4880d08eeb0151" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="box-1-border-bl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/box-1-border-bl.gif"
+              md5sum="6eff2ad353b511a144a506abb181280d" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="box-1-border-br.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/box-1-border-br.gif"
+              md5sum="33b5afa2b365cbc6ca28b6be349406d2" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="box-1-border-mc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/box-1-border-mc.gif"
+              md5sum="f918a04c1f4ffe690aedc751d9376eda" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="box-1-border-ml.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/box-1-border-ml.gif"
+              md5sum="aac3660d3ade44f8197ceab46cc51833" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="box-1-border-mr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/box-1-border-mr.gif"
+              md5sum="3a71e28fce977da0a9c93ced9b0c50d8" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="box-1-border-tc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/box-1-border-tc.gif"
+              md5sum="6d592b3f2bd1a6739755500046d94d38" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="box-1-border-tl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/box-1-border-tl.gif"
+              md5sum="b3aecd38b728e399cc8f5bdc25c62826" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="box-1-border-tr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/box-1-border-tr.gif"
+              md5sum="fe371aedcb17e2dfcde3bc08bf68d89b" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="button_bg.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/button_bg.jpg"
+              md5sum="04421fc6160df53d2e4bf5871798817e" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="calendar_selected.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/calendar_selected.jpg"
+              md5sum="17585fb81d5fe2c7c4e8242660152248" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="calendar-bg.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/calendar-bg.gif"
+              md5sum="f683c03303633941369890524be61a56" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="calendar-corner-bl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/calendar-corner-bl.gif"
+              md5sum="e564cd7a1a1a9d78293f1bf908fffb1b" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="calendar-corner-br.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/calendar-corner-br.gif"
+              md5sum="a5343ba540d6b7128b8fd10e7c563adf" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="calendar-corner-tl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/calendar-corner-tl.gif"
+              md5sum="55808e6744b69c72eed8b500b9bec496" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="calendar-corner-tr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/calendar-corner-tr.gif"
+              md5sum="101a4bf3bd60f61cf5f03aa0780de642" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="comment-ico.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/comment-ico.gif"
+              md5sum="d2d87cf5f5551e89eb827bd7aa5cd5a7" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="disabled_button_bg.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/disabled_button_bg.jpg"
+              md5sum="4997021458524840a64988f7a6169a12" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="event-cal-border-bc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/event-cal-border-bc.gif"
+              md5sum="8df7158006973a03fcf5589654772949" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="event-cal-border-bl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/event-cal-border-bl.gif"
+              md5sum="4e88a4dc8293768911bbaaf600cdbd42" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="event-cal-border-br.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/event-cal-border-br.gif"
+              md5sum="d369604fb8a36eb4ec836142fa7fed4f" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="event-cal-border-mc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/event-cal-border-mc.gif"
+              md5sum="f918a04c1f4ffe690aedc751d9376eda" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="event-cal-border-ml.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/event-cal-border-ml.gif"
+              md5sum="bf77d76d9b8ffeb37cce4561e0a75b14" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="event-cal-border-mr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/event-cal-border-mr.gif"
+              md5sum="bf77d76d9b8ffeb37cce4561e0a75b14" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="event-cal-border-tc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/event-cal-border-tc.gif"
+              md5sum="ecf514335d92d227fd446d62ae6f6299" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="event-cal-border-tl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/event-cal-border-tl.gif"
+              md5sum="147efeec72961e5254feae66ace73aa4" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="event-cal-border-tr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/event-cal-border-tr.gif"
+              md5sum="2b85b07ad0c982f9e853a94c1094bc58" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="ezagenda_month_label_bg.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/ezagenda_month_label_bg.jpg"
+              md5sum="8fb11ab0230e488217bd3f09447673c1" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="ezagenda_selected.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/ezagenda_selected.jpg"
+              md5sum="17585fb81d5fe2c7c4e8242660152248" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-border-bc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-border-bc.gif"
+              md5sum="8d603f8a52ee273e6a6df44922309657" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-border-bl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-border-bl.gif"
+              md5sum="08e38b52863c136bec882f81103dc0d1" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-border-br.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-border-br.gif"
+              md5sum="9f3ff8fcd4c634af456508cc6d417fb6" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-border-mc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-border-mc.gif"
+              md5sum="932bffdc1848785f9ffe6c7e0fcc6ea9" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-border-ml.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-border-ml.gif"
+              md5sum="db1266868fd1aac83c87f8e64b373e04" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-border-mr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-border-mr.gif"
+              md5sum="db1266868fd1aac83c87f8e64b373e04" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-box-content.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-box-content.gif"
+              md5sum="bdbd8425a19c6b092fb77d0168526c87" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-header-border-mc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-header-border-mc.gif"
+              md5sum="ee0602595ebde0313fa0a50cdeed8b88" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-header-border-ml.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-header-border-ml.gif"
+              md5sum="3a98c9afc9a559974826d24b79f47c4f" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-header-border-mr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-header-border-mr.gif"
+              md5sum="3a98c9afc9a559974826d24b79f47c4f" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-header-border-tc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-header-border-tc.gif"
+              md5sum="7724b39dbe86b09d1a5cf958f2d929c1" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-header-border-tl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-header-border-tl.gif"
+              md5sum="dfb58ef30b79d0111cff11e9bbac40ef" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="factbox-header-border-tr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/factbox-header-border-tr.gif"
+              md5sum="b7b0dc810332f634cc4288ef5de079ad" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="footer_bg.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/footer_bg.jpg"
+              md5sum="148d9662b7005f8a51a5fe4339537b7d" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="header_bg.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/header_bg.jpg"
+              md5sum="89abb8ae6892bb0e3c00b78bdaabd795" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-border-bc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-border-bc.gif"
+              md5sum="91a7c86745a1dbf30eae232b721fe0ae" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-border-bl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-border-bl.gif"
+              md5sum="c633ffa7644924a0e3d748363136ff4a" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-border-br.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-border-br.gif"
+              md5sum="bbc022ef19558bf83f72514961160ff2" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-border-mc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-border-mc.gif"
+              md5sum="1ffd89bf804ebcb8f9e27b84ed2ac794" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-border-ml.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-border-ml.gif"
+              md5sum="37994a32d9947272bd171e4927386169" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-border-mr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-border-mr.gif"
+              md5sum="bf32d28ee3c8db0616a13c9284dc2533" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-header-border-mc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-header-border-mc.gif"
+              md5sum="491f483bb642b717082bc2d624fc2cec" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-header-border-ml.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-header-border-ml.gif"
+              md5sum="37994a32d9947272bd171e4927386169" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-header-border-mr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-header-border-mr.gif"
+              md5sum="bf32d28ee3c8db0616a13c9284dc2533" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-header-border-tc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-header-border-tc.gif"
+              md5sum="b040dd6ac2e478492e3591c240b097ba" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-header-border-tl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-header-border-tl.gif"
+              md5sum="f12602f9aaf5fd2c3d177fc07fbeb88f" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-header-border-tr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-header-border-tr.gif"
+              md5sum="1707e7009ce09a9c93089ca7764d40f6" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="infobox-header-dot.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/infobox-header-dot.gif"
+              md5sum="b0318c79c011c62062ef4a0d12a07339" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="input_box_bg.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/input_box_bg.jpg"
+              md5sum="d66a60ca0bcf1c4db38c557dad86a036" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="isi_bullet.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/isi_bullet.gif"
+              md5sum="0aadaea0b83d61a4ef9925134fa9acbb" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="isi-border-bc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/isi-border-bc.gif"
+              md5sum="d418389df1b95c4e9c7376a43028e737" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="isi-border-bl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/isi-border-bl.gif"
+              md5sum="b51f0a318dc2166ccd748b282c13c0cd" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="isi-border-br.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/isi-border-br.gif"
+              md5sum="6687756b094919cc12d28714f4b04845" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="isi-border-mc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/isi-border-mc.gif"
+              md5sum="9ea0525007a7102729c593a0e61b78c4" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="isi-border-ml.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/isi-border-ml.gif"
+              md5sum="05933b9441ef155a70a942d83475a7a2" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="isi-border-mr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/isi-border-mr.gif"
+              md5sum="298d1a81bf28694cb8ee314be029ce5c" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="isi-border-tc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/isi-border-tc.gif"
+              md5sum="c24839cfc3317b4a9f65e82af94338e7" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="isi-border-tl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/isi-border-tl.gif"
+              md5sum="1bda895f0eb71b078126bea98ed1dba5" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="isi-border-tr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/isi-border-tr.gif"
+              md5sum="7f41c8fa160c1ce3a1dec047fd91914f" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="languages_a_bg.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/languages_a_bg.gif"
+              md5sum="dc2d4476df8f8b5d9b2379cf0ea19394" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="links_a_bg.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/links_a_bg.gif"
+              md5sum="51419f6703e1f42313cceea463363dba" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="loupe-ico.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/loupe-ico.gif"
+              md5sum="c7265b3603b61b00727a8a6a1f590b75" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="productbox-header-border-bc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/productbox-header-border-bc.gif"
+              md5sum="53fca32f8b3841f109357ba3165a3594" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="productbox-header-border-bl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/productbox-header-border-bl.gif"
+              md5sum="444cd93357da0aeb48596eb7be4f5cd9" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="productbox-header-border-br.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/productbox-header-border-br.gif"
+              md5sum="14f81f5e97f0c65cb3bd1a4c9e3302f8" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="productbox-header-border-mc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/productbox-header-border-mc.gif"
+              md5sum="8a671c57a9a04e71e6ca923686b8c96a" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="productbox-header-border-ml.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/productbox-header-border-ml.gif"
+              md5sum="a95ee781d54f3b43f19c4989c83bb77d" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="productbox-header-border-mr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/productbox-header-border-mr.gif"
+              md5sum="a95ee781d54f3b43f19c4989c83bb77d" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="productbox-header-border-tc.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/productbox-header-border-tc.gif"
+              md5sum="9298de92318a4e37172eeb15ac9afbdf" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="productbox-header-border-tl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/productbox-header-border-tl.gif"
+              md5sum="61c06d8969a65f744c9f541ff7f29887" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="productbox-header-border-tr.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/productbox-header-border-tr.gif"
+              md5sum="3b3241a800b4f4dc162ee3dd6db583fc" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="quote-br.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/quote-br.gif"
+              md5sum="d56dd8679a4bd51c85812daaa2564769" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="quote-tl.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/quote-tl.gif"
+              md5sum="d56dd8679a4bd51c85812daaa2564769" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="searchbutton_bg.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/searchbutton_bg.jpg"
+              md5sum="d5d9efbe4be26979eb165269bbbd94c7" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="sep-bg.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/sep-bg.gif"
+              md5sum="b9981608dfc42db8b33cb8a8f25c048e" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="sep-design-bg.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/sep-design-bg.gif"
+              md5sum="87eb015c74d7ac0b8094e6ab2133eb42" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="sidemenu_bullet.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/sidemenu_bullet.gif"
+              md5sum="cf44bffff9cfd666678f1c401fd73f0e" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="th_bg.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/th_bg.jpg"
+              md5sum="098f92f4dee2f020fb1751a986a2e9c1" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="topmenu_a_bullet.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/topmenu_a_bullet.gif"
+              md5sum="36d1ccd611e178dfea2f7af1ec18a938" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="topmenu_bg.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/topmenu_bg.jpg"
+              md5sum="f95812b9add8decac68aa53058644299" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="topmenu_li_bg.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/topmenu_li_bg.jpg"
+              md5sum="ca828f0764ad2709234868d767a0c773" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="topmenu_li_selected_bg.jpg"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/topmenu_li_selected_bg.jpg"
+              md5sum="951855e678076721eced382558405eeb" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="ul_bullet.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/ul_bullet.gif"
+              md5sum="0aadaea0b83d61a4ef9925134fa9acbb" />
+      </file-list>
+      <file-list type="file"
+                 variable-name="imagefiles">
+        <file name="ul_submenu_bullet.gif"
+              sub-directory="images"
+              path="var/ezwebin_site/storage/temp/ul_submenu_bullet.gif"
+              md5sum="b7b70c24137206b3b5149cea65095d4c" />
+      </file-list>
+    </collection>
+  </files>
+  <version>
+    <number>1.3</number>
+    <release>0</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides>
+      <provide type="ezfile"
+               name="collection"
+               value="default" />
+    </provides>
+    <requires />
+    <obsoletes />
+    <conflicts />
+  </dependencies>
+  <install>
+    <item type="ezfile"
+          collection="default" />
+  </install>
+  <uninstall>
+    <item type="ezfile"
+          collection="default" />
+  </uninstall>
+</package>

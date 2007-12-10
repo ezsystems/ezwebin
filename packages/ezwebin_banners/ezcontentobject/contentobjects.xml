@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content-object>
+  <object-list>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="57"
+            name="Banners"
+            ezremote:section_id="3"
+            ezremote:owner_id="14"
+            ezremote:class_id="1"
+            ezremote:published="Wed, 10 Jan 2007 11:25:58 GMT"
+            ezremote:modified="Wed, 10 Jan 2007 11:25:58 GMT"
+            remote_id="f1826ada5e88c8f79e7048b2145040b2"
+            class_remote_id="a3d405b81be900468eb153d774f4f0d2"
+            ezremote:class_identifier="folder"
+            ezremote:always_available="1"
+            initial_language="eng-GB">
+      <version-list active_version="1"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="1"
+                          ezremote:status="1"
+                          ezremote:created="Wed, 10 Jan 2007 11:25:57 GMT"
+                          ezremote:modified="Wed, 10 Jan 2007 11:25:57 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Banners">
+            <ezobject:attribute ezremote:id="186"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Banners</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="187"
+                                ezremote:identifier="short_name"
+                                name="Short name"
+                                type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="188"
+                                ezremote:identifier="short_description"
+                                name="Summary"
+                                type="ezxmltext" />
+            <ezobject:attribute ezremote:id="189"
+                                ezremote:identifier="description"
+                                name="Description"
+                                type="ezxmltext" />
+            <ezobject:attribute ezremote:id="824"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="190"
+                                ezremote:identifier="show_children"
+                                name="Display sub items"
+                                type="ezboolean">
+              <value>1</value>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="2048"
+                                ezremote:identifier="publish_date"
+                                name="Publish date"
+                                type="ezdatetime">
+              <date_time>Tue, 10 Apr 2007 06:47:50 GMT</date_time>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="75c715a51699d2d309a924eca6a95145"
+                             name="Banners"
+                             node-id="59"
+                             remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
+                             sort-field="published"
+                             sort-order="0"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="258"
+            name="Woman (Communities)"
+            ezremote:section_id="3"
+            ezremote:owner_id="14"
+            ezremote:class_id="32"
+            ezremote:published="Wed, 21 Mar 2007 09:26:34 GMT"
+            ezremote:modified="Mon, 02 Apr 2007 07:45:03 GMT"
+            remote_id="99730850bd806030c4ae9ea92571bdd0"
+            class_remote_id="9cb558e25fd946246bbb32950c00228e"
+            ezremote:class_identifier="banner"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="2"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="2"
+                          ezremote:status="1"
+                          ezremote:created="Mon, 02 Apr 2007 07:44:44 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 07:45:03 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Woman (Communities)">
+            <ezobject:attribute ezremote:id="1375"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Woman (Communities)</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1376"
+                                ezremote:identifier="url"
+                                name="URL"
+                                type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1377"
+                                ezremote:identifier="image"
+                                name="Image"
+                                type="ezimage"
+                                image-file-key="9afb84fc725496e93b4c0413c9994f9e"
+                                alternative-text="Woman (Communities)" />
+            <ezobject:attribute ezremote:id="1378"
+                                ezremote:identifier="image_map"
+                                name="Image map"
+                                type="eztext">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1379"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
+                             name="Woman (Communities)"
+                             node-id="256"
+                             remote-id="eaa7f2f48c3f35801961abad12151db4"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="259"
+            name="Woman (Frontpage)"
+            ezremote:section_id="3"
+            ezremote:owner_id="14"
+            ezremote:class_id="32"
+            ezremote:published="Wed, 21 Mar 2007 11:00:36 GMT"
+            ezremote:modified="Mon, 02 Apr 2007 07:45:33 GMT"
+            remote_id="52f728d4880ca5def392e4f2e782ee6d"
+            class_remote_id="9cb558e25fd946246bbb32950c00228e"
+            ezremote:class_identifier="banner"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="7"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="7"
+                          ezremote:status="1"
+                          ezremote:created="Mon, 02 Apr 2007 07:45:19 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 07:45:32 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Woman (Frontpage)">
+            <ezobject:attribute ezremote:id="1380"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Woman (Frontpage)</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1381"
+                                ezremote:identifier="url"
+                                name="URL"
+                                type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1382"
+                                ezremote:identifier="image"
+                                name="Image"
+                                type="ezimage"
+                                image-file-key="28571362e8ac1b5b92267057b9b757ef"
+                                alternative-text="Woman (Frontpage)" />
+            <ezobject:attribute ezremote:id="1383"
+                                ezremote:identifier="image_map"
+                                name="Image map"
+                                type="eztext">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1384"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
+                             name="Woman (Frontpage)"
+                             node-id="257"
+                             remote-id="b8c85fd926d61dab6e68fa1865cee987"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="260"
+            name="Woman (Products)"
+            ezremote:section_id="3"
+            ezremote:owner_id="14"
+            ezremote:class_id="32"
+            ezremote:published="Thu, 22 Mar 2007 08:40:27 GMT"
+            ezremote:modified="Mon, 02 Apr 2007 07:46:00 GMT"
+            remote_id="ec19f2662ebb0f930ce024a48f17f7ee"
+            class_remote_id="9cb558e25fd946246bbb32950c00228e"
+            ezremote:class_identifier="banner"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="2"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="2"
+                          ezremote:status="1"
+                          ezremote:created="Mon, 02 Apr 2007 07:45:47 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 07:45:59 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Woman (Products)">
+            <ezobject:attribute ezremote:id="1385"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Woman (Products)</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1386"
+                                ezremote:identifier="url"
+                                name="URL"
+                                type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1387"
+                                ezremote:identifier="image"
+                                name="Image"
+                                type="ezimage"
+                                image-file-key="c5bd8c7efa8d3e0ddfd3a42cb8f70444"
+                                alternative-text="Woman (Products)" />
+            <ezobject:attribute ezremote:id="1388"
+                                ezremote:identifier="image_map"
+                                name="Image map"
+                                type="eztext">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1389"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
+                             name="Woman (Products)"
+                             node-id="258"
+                             remote-id="c65aba2485585bdd09dfb66afccf645e"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="295"
+            name="Woman (Partners)"
+            ezremote:section_id="3"
+            ezremote:owner_id="14"
+            ezremote:class_id="32"
+            ezremote:published="Fri, 23 Mar 2007 13:19:12 GMT"
+            ezremote:modified="Mon, 02 Apr 2007 07:47:54 GMT"
+            remote_id="55e6c9acf534ff2f3564290cb38ffddc"
+            class_remote_id="9cb558e25fd946246bbb32950c00228e"
+            ezremote:class_identifier="banner"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="3"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="3"
+                          ezremote:status="1"
+                          ezremote:created="Mon, 02 Apr 2007 07:47:48 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 07:47:54 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Woman (Partners)">
+            <ezobject:attribute ezremote:id="1661"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Woman (Partners)</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1662"
+                                ezremote:identifier="url"
+                                name="URL"
+                                type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1663"
+                                ezremote:identifier="image"
+                                name="Image"
+                                type="ezimage"
+                                image-file-key="4ae98c0da61ce4a94886d3955d6609b2"
+                                alternative-text="Woman (Partners)" />
+            <ezobject:attribute ezremote:id="1664"
+                                ezremote:identifier="image_map"
+                                name="Image map"
+                                type="eztext">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1665"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
+                             name="Woman (Partners)"
+                             node-id="291"
+                             remote-id="64bb803471e53898aa38a7c29e482370"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="302"
+            name="Pencils (Support)"
+            ezremote:section_id="3"
+            ezremote:owner_id="14"
+            ezremote:class_id="32"
+            ezremote:published="Tue, 27 Mar 2007 08:37:11 GMT"
+            ezremote:modified="Mon, 02 Apr 2007 07:49:43 GMT"
+            remote_id="768a04778081c6e08db5d77dd01f98a9"
+            class_remote_id="9cb558e25fd946246bbb32950c00228e"
+            ezremote:class_identifier="banner"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="2"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="2"
+                          ezremote:status="1"
+                          ezremote:created="Mon, 02 Apr 2007 07:48:06 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 07:49:42 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Pencils (Support)">
+            <ezobject:attribute ezremote:id="1742"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Pencils (Support)</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1743"
+                                ezremote:identifier="url"
+                                name="URL"
+                                type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1744"
+                                ezremote:identifier="image"
+                                name="Image"
+                                type="ezimage"
+                                image-file-key="edd7d3b61c594004df1f81bf1ec72ee9"
+                                alternative-text="Pencils (Support)" />
+            <ezobject:attribute ezremote:id="1745"
+                                ezremote:identifier="image_map"
+                                name="Image map"
+                                type="eztext">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1746"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
+                             name="Pencils (Support)"
+                             node-id="294"
+                             remote-id="95e29503817570c6458fa0f37d227306"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="303"
+            name="Woman (Training)"
+            ezremote:section_id="3"
+            ezremote:owner_id="14"
+            ezremote:class_id="32"
+            ezremote:published="Tue, 27 Mar 2007 09:17:32 GMT"
+            ezremote:modified="Mon, 02 Apr 2007 07:55:42 GMT"
+            remote_id="a7c0be8039efe452ca7d1e7ec1d28dcf"
+            class_remote_id="9cb558e25fd946246bbb32950c00228e"
+            ezremote:class_identifier="banner"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="2"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="2"
+                          ezremote:status="1"
+                          ezremote:created="Mon, 02 Apr 2007 07:55:20 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 07:55:42 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Woman (Training)">
+            <ezobject:attribute ezremote:id="1747"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Woman (Training)</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1748"
+                                ezremote:identifier="url"
+                                name="URL"
+                                type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1749"
+                                ezremote:identifier="image"
+                                name="Image"
+                                type="ezimage"
+                                image-file-key="c21b8a15309768adf426301e831ca6cd"
+                                alternative-text="Woman (Training)" />
+            <ezobject:attribute ezremote:id="1750"
+                                ezremote:identifier="image_map"
+                                name="Image map"
+                                type="eztext">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1751"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
+                             name="Woman (Training)"
+                             node-id="295"
+                             remote-id="aa4a1afd9c02d00f2f31186e8a271332"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="332"
+            name="Woman (Solutions)"
+            ezremote:section_id="3"
+            ezremote:owner_id="14"
+            ezremote:class_id="32"
+            ezremote:published="Fri, 30 Mar 2007 08:35:16 GMT"
+            ezremote:modified="Mon, 02 Apr 2007 07:56:42 GMT"
+            remote_id="1000aa14a05b968a2faa3def83aa1994"
+            class_remote_id="9cb558e25fd946246bbb32950c00228e"
+            ezremote:class_identifier="banner"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="3"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="3"
+                          ezremote:status="1"
+                          ezremote:created="Mon, 02 Apr 2007 07:56:01 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 07:56:42 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Woman (Solutions)">
+            <ezobject:attribute ezremote:id="1906"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Woman (Solutions)</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1907"
+                                ezremote:identifier="url"
+                                name="URL"
+                                type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1908"
+                                ezremote:identifier="image"
+                                name="Image"
+                                type="ezimage"
+                                image-file-key="3d26cd8f63aac6ec6774a519bbcb452e"
+                                alternative-text="Woman (Solutions)" />
+            <ezobject:attribute ezremote:id="1909"
+                                ezremote:identifier="image_map"
+                                name="Image map"
+                                type="eztext">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1910"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
+                             name="Woman (Solutions)"
+                             node-id="324"
+                             remote-id="93d5115082a23b266613868051b8d803"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="187"
+            name="Only Lyon Banner"
+            ezremote:section_id="3"
+            ezremote:owner_id="14"
+            ezremote:class_id="40"
+            ezremote:published="Thu, 01 Nov 2007 10:11:17 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 10:11:17 GMT"
+            remote_id="2b2c6d4cec8a2af0bf0bdbdea950df51"
+            class_remote_id="9cb558e25fd946246bbb32950c00228e"
+            ezremote:class_identifier="banner"
+            ezremote:always_available="0"
+            initial_language="eng-GB">
+      <version-list active_version="1"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="1"
+                          ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 10:11:00 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 10:11:17 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Only Lyon Banner">
+            <ezobject:attribute ezremote:id="1156"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Only Lyon Banner</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1157"
+                                ezremote:identifier="url"
+                                name="URL"
+                                type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1158"
+                                ezremote:identifier="image"
+                                name="Image"
+                                type="ezimage"
+                                image-file-key="941156c06bd6bf1956cf5dca16bd2d85"
+                                alternative-text="" />
+            <ezobject:attribute ezremote:id="1159"
+                                ezremote:identifier="image_map"
+                                name="Image map"
+                                type="eztext">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="1160"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             parent-node-remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
+                             name="Only Lyon Banner"
+                             node-id="189"
+                             remote-id="9432718ead0150ed9b83f9031151b5bd"
+                             sort-field="path"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object></object-list>
+  <site-access-list>
+    <site-access>eng</site-access>
+  </site-access-list>
+  <top-node-list>
+  </top-node-list>
+</content-object>
