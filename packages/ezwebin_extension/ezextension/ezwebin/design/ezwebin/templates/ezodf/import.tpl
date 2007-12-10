@@ -29,8 +29,6 @@
   <li><a href={"/ezodf/import"|ezurl}>{"Import another document"|i18n("design/ezwebin/ezodf/import")}</a></li>
 </ul>
 
-</div>
-
 <div class="block">
     <input class="button" type="submit" name="StoreButton" value="{'Upload file'|i18n('design/ezwebin/ezodf/import')}" />
 </div>
