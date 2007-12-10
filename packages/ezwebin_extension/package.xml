@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.9.2"
+         development="false"
+         install_type="install">
+  <name>ezwebin_extension</name>
+  <summary>ezwebin extension</summary>
+  <description>ezwebin extension</description>
+  <vendor>eZ systems</vendor>
+  <type value="extension" />
+  <ezpublish>
+    <version>3.9.2</version>
+    <named-version>3.9</named-version>
+  </ezpublish>
+  <packaging>
+    <timestamp>1173346361</timestamp>
+    <host>packages.ez.no</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain"
+              name="LICENCE" />
+  </documents>
+  <simple-files />
+  <version>
+    <number>1.3</number>
+    <release>0</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides />
+    <requires />
+    <obsoletes />
+    <conflicts />
+  </dependencies>
+  <install>
+    <item type="ezextension"
+          filename="extension-ezwebin"
+          sub-directory="ezextension" />
+  </install>
+  <uninstall>
+    <item type="ezextension"
+          filename="extension-ezwebin"
+          sub-directory="ezextension" />
+  </uninstall>
+</package>
