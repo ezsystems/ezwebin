@@ -56,7 +56,7 @@
                          align="center"
                          custom:offset="0"
                          custom:limit="5"
-                         object_remote_id="6cb83f9c638ddad0e95dab7c7ac1b115" />
+                         object_remote_id="932072228b62943d3d3521e7712b54e9" />
                 </paragraph>
                 <paragraph>
                   <embed size="medium"
@@ -5878,7 +5878,7 @@
               <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Photo by: Jacques Leone.</paragraph>
+                <paragraph>Crédits Grand Lyon Jacques Léone</paragraph>
               </section>
             </ezobject:attribute>
             <ezobject:attribute ezremote:id="1138"
@@ -5937,7 +5937,7 @@
               <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Photo by: Jacques Léone.</paragraph>
+                <paragraph>Crédits Grand Lyon Jacques Léone</paragraph>
               </section>
             </ezobject:attribute>
             <ezobject:attribute ezremote:id="1142"
@@ -5996,7 +5996,7 @@
               <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Photo by: Jacques Léone.</paragraph>
+                <paragraph>Crédits Grand Lyon Jacques Léone</paragraph>
               </section>
             </ezobject:attribute>
             <ezobject:attribute ezremote:id="1146"
@@ -6055,7 +6055,7 @@
               <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-                <paragraph>Photo by: Jacques Léone.</paragraph>
+                <paragraph>Crédits Grand Lyon Jacques Léone</paragraph>
               </section>
             </ezobject:attribute>
             <ezobject:attribute ezremote:id="1150"
@@ -6623,47 +6623,6 @@
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                        xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                 <paragraph>They have worked together to gear up their city and improve its visibility and its attractiveness. They have shown, once again, that the idea of &quot;doing things together&quot; is firmly rooted in Lyon.</paragraph>
-                <section>
-                  <header>Services Aderly</header>
-                  <paragraph>
-                    <line>ADERLY is the Lyon Area Economic Development Agency. </line>
-                    <line>Its mission is to support and advise French and foreign companies
-                      <strong> at every step of their set-up and development projects </strong>in the Lyon region, as a facilitator.</line>
-                    <line>Its services include: </line>
-                  </paragraph>
-                  <paragraph>
-                    <ul>
-                      <li>
-                        <paragraph>Feasibility studies and specifications</paragraph>
-                      </li>
-                      <li>
-                        <paragraph>Finding facilities that meet your needs</paragraph>
-                      </li>
-                      <li>
-                        <paragraph>Regulatory and fiscal advice</paragraph>
-                      </li>
-                      <li>
-                        <paragraph>Administrative procedures</paragraph>
-                      </li>
-                      <li>
-                        <paragraph>Fundraising</paragraph>
-                      </li>
-                      <li>
-                        <paragraph>Business Opportunities and partnerships</paragraph>
-                      </li>
-                      <li>
-                        <paragraph>Putting you in contact with local authorities</paragraph>
-                      </li>
-                      <li>
-                        <paragraph>Recruitment</paragraph>
-                      </li>
-                      <li>
-                        <paragraph>Welcoming your employees and helping them get settled in: housing searches, children’s schooling, job searches for spouses and more.</paragraph>
-                      </li>
-                    </ul>
-                  </paragraph>
-                  <paragraph>Since it was created, ADERLY has helped over 1000 international firms and organizations to set up or develop their operations in the Lyon area. These include Euronews, Framatome, Ikea, Club Méditerranée, Interpol, JTEKT, Lafarge, MDS Pharma and Renault Trucks.</paragraph>
-                </section>
               </section>
             </ezobject:attribute>
             <ezobject:attribute ezremote:id="1027"
@@ -6819,6 +6778,150 @@
                              sort-field="path"
                              sort-order="1"
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
+    <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="157" name="Set up in Lyon with ADERLY" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 01 Nov 2007 08:52:05 GMT" ezremote:modified="Thu, 01 Nov 2007 16:52:03 GMT" remote_id="932072228b62943d3d3521e7712b54e9" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+      <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="12">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="12" ezremote:status="1" ezremote:created="Thu, 01 Nov 2007 08:52:05 GMT" ezremote:modified="Thu, 01 Nov 2007 16:52:03 GMT" initial_language="fre-FR">
+          <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB" object_name="Set up in Lyon with ADERLY">
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1034" ezremote:identifier="title" name="Title" type="ezstring">
+              <text>Set up in Lyon with ADERLY</text>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1035" ezremote:identifier="short_title" name="Short title" type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1036" ezremote:identifier="author" name="Author" type="ezauthor">
+              <ezauthor>
+                <authors>
+                  <author id="0" name="Administrator User" email="nospam@ez.no"/>
+                </authors>
+              </ezauthor>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1037" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>ADERLY is the Lyon Area Economic Development Agency. Since 1974, it has helped more than 1000 firms and organization, <strong>at every step of their set-up and development projects</strong> in the Lyon region, as a facilitator.<emphasize> </emphasize></paragraph>
+              </section>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1038" ezremote:identifier="body" name="Body" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>Aderly assists <strong>all types of companies</strong> (except retail) in their set-up projects, from SMBs to major groups, in all business sectors, with a special focus on strategic functions (banking-finance, professional services, headquarters, service centers and more) and sectors of excellence (chemicals-environment, life sciences, transport systems, digital entertainment and more).</paragraph>
+                <paragraph>
+                  <strong>Its aims</strong>
+                </paragraph>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                  <ul>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <strong>Promote the Lyon area</strong>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Assist your company</strong> throughout all the phases of the set-up process (search for business sites, advice on recruitment, assistance with administrative formalities, and more)</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Help your employees and their families</strong> to settle into their new environment</paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+                <paragraph>
+                  <strong>Some references:</strong>
+                </paragraph>
+                <paragraph>Euronews, Ikea, Club Méditerranée, Interpol, JTEKT, Lafarge, MDS Pharma, Renault Trucks, Genzyme ..<emphasize>.</emphasize></paragraph>
+                <paragraph>
+                  <custom name="quote" custom:align="center" custom:author="Roland Benedetti, Manager for France and Southern Europe">
+                    <paragraph>
+                      <emphasize>Lyon's main advantage to us was its proximity to the metropolis we cover in Southern Europe, most particularly Geneva, Paris and Milan. We were quickly convinced by Lyon because the city and its area appeared to be undergoing very deep and positive changes! We bet on the future and expect a quality of life and work which we're sure we won't come to regret.</emphasize>
+                    </paragraph>
+                  </custom>
+                </paragraph>
+              </section>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1039" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+              <value>0</value>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1040" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="aff2bf6b520c711124f2a63ba4409988" alternative-text=""/>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1041" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1042" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime"/>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1043" ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime"/>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1044" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute>
+          </ezobject:object-translation>
+          <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="fre-FR" object_name="Implantez-vous à Lyon avec l’Aderly">
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1045" ezremote:identifier="title" name="Title" type="ezstring">
+              <text>Implantez-vous à Lyon avec l’Aderly</text>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1046" ezremote:identifier="short_title" name="Short title" type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1047" ezremote:identifier="author" name="Author" type="ezauthor">
+              <ezauthor>
+                <authors>
+                  <author id="0" name="Administrator User" email="nospam@ez.no"/>
+                </authors>
+              </ezauthor>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1048" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>L’Aderly est l’Agence pour le Développement Economique de la Région Lyonnaise. Depuis 1974, elle a accompagné plus de 1000 entreprises et organisations, <strong>dans toutes les étapes de leurs projets de développement et d’implantation</strong> à Lyon et dans sa région.</paragraph>
+              </section>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1049" ezremote:identifier="body" name="Body" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>L'Aderly accompagne <strong>tous types d'entreprises</strong> (hors commerces) dans leurs projets d'implantation, des PME aux grands groupes, et dans tous les secteurs d'activité, avec une attention particulière sur les fonctions stratégiques (banque-finance, tertiaire supérieur, centres de décision, service centers) et les secteurs d'excellence (chimie-environnement, sciences de la vie, systèmes de transports, loisirs numériques).</paragraph>
+                <paragraph>
+                  <strong>Ses missions</strong>
+                </paragraph>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                  <ul>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                        <strong>Promouvoir la région lyonnaise</strong>
+                      </paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Accompagner les entreprises</strong> dans toutes les phases de leur projet d'implantation (recherche de sites d'implantation adaptés, conseil pour le recrutement, accompagnement dans les démarches administratives, etc.)</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Accueillir et conseiller les collaborateurs</strong> et leurs familles dans leur installation</paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+                <paragraph>
+                  <strong>Quelques références</strong>
+                  <strong>:</strong>
+                </paragraph>
+                <paragraph>Euronews, Ikea, Club Méditerranée, Interpol, JTEKT, Lafarge, MDS Pharma, Renault Trucks, Genzyme</paragraph>
+                <paragraph>
+                  <custom name="quote" custom:align="center" custom:author="Roland Benedetti, Directeur de ce bureau régional France et Europe du Sud">
+                    <paragraph>
+                      <emphasize>Lyon présente les avantages d’une proximité avec les grandes villes de la région de couverture, notamment Genève, Paris et Milan. </emphasize>
+                      <emphasize>Par ailleurs, Lyon s’est imposée car cette ville et cette région nous semblaient en pleine transformation, dans le bon sens du terme ! </emphasize>
+                      <emphasize>Nous parions sur l’avenir et misons sur une qualité de vie et de travail que nous ne regretterons certainement pas.</emphasize>
+                    </paragraph>
+                  </custom>
+                </paragraph>
+              </section>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1050" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+              <value>0</value>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1051" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="aff2bf6b520c711124f2a63ba4409988" alternative-text=""/>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1052" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1053" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime"/>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1054" ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime"/>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1055" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute>
+          </ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1" name="Set up in Lyon with ADERLY" node-id="159" remote-id="10d57795c986ca61689e6c2c11382eb3" parent-node-remote-id="9f804eee139dcee343dbe4175d14654c" sort-field="path" sort-order="1" priority="0"/>
+          </ezobject:node-assignment-list>
+        </ezobject:version>
+      </ezobject:version-list>
+    </ezremote:object>
     <object xmlns:ezremote="http://ez.no/ezobject"
             ezremote:id="172"
             name="Lyon: a land of projects"
@@ -9106,7 +9209,9 @@
                                 type="ezxmltext">
               <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>Crédits Grand Lyon Jacques Léone</paragraph>
+              </section>
             </ezobject:attribute>
             <ezobject:attribute ezremote:id="1129"
                                 ezremote:identifier="publish_date"
@@ -9227,7 +9332,9 @@
                                 type="ezxmltext">
               <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
                        xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <paragraph>Crédits Grand Lyon Jacques Léone</paragraph>
+              </section>
             </ezobject:attribute>
             <ezobject:attribute ezremote:id="1180"
                                 ezremote:identifier="publish_date"
