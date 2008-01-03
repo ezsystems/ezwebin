@@ -549,6 +549,21 @@
                                 type="ezkeyword">
               <keyword-string></keyword-string>
             </ezobject:attribute></ezobject:object-translation>
+<ezobject:object-translation language="fre-FR" object_name="Only Lyon Banner">
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1061" ezremote:identifier="name" name="Name" type="ezstring">
+              <text>Only Lyon Banner</text>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1062" ezremote:identifier="url" name="URL" type="ezstring">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1063" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="66656807d38397c6daae083aecf96116" alternative-text=""/>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1064" ezremote:identifier="image_map" name="Image map" type="eztext">
+              <text></text>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1065" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute>
+          </ezobject:object-translation>
           <ezobject:node-assignment-list>
             <node-assignment is-main-node="1"
                              parent-node-remote-id="437ef9d0a9b7ae326ec83fa3bb73956d"
