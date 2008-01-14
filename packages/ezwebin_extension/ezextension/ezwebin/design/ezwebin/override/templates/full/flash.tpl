@@ -9,7 +9,7 @@
 
     <div class="attribute-header">
         <h1>{$node.name|wash()}</h1>
-    <div>
+    </div>
 
     <div class="attribute-short">
         {attribute_view_gui attribute=$node.data_map.description}
