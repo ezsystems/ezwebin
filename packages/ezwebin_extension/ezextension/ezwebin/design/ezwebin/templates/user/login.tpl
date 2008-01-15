@@ -87,7 +87,7 @@ function AdminSiteaccessCheckbox( val )
 <input type="hidden" name="RedirectURI" value="{$User:redirect_uri|wash}" />
 
 {if and( is_set( $User:post_data ), is_array( $User:post_data ) )}
-  {foreach $User:post_data as $key => $post_data}
+  {foreach $User:post_data as $key => $postData}
      <input name="Last_{$key}" value="{$postData}" type="hidden" /><br/>
   {/foreach}
 {/if}
