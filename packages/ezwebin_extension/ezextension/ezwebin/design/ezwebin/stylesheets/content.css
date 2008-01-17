@@ -1700,11 +1700,6 @@ div.user-edit div.attribute-header h1
 
 /* PRODUCT */
 
-div.content-view-line div.class-product
-{
-    clear: both;
-}
-
 div.content-view-embed div.content-view-line div.class-product
 {
     clear: none;
