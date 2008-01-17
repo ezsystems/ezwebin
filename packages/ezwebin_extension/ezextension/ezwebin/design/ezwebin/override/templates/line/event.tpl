@@ -14,7 +14,7 @@
     {if $node.object.data_map.category.has_content}
     <span class="ezagenda_keyword">
     {"Category"|i18n("design/ezwebin/line/event")}:
-    {$node.data_map.category.class_content.options[$node.data_map.category.value[0]].name|wash()}
+    {attribute_view_gui attribute=$node.data_map.category}
     </span>
     {/if}
 
