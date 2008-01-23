@@ -978,6 +978,48 @@ div.productbox-header div.border-bc
 
 /* Forums */
 
+div.content-view-line div.class-forum table.forum
+{
+    background-image: none;
+    padding-bottom: 0;
+}
+
+div.content-view-line div.class-forum table.forum td ul
+{
+    margin-left: 1.25em;
+    padding: 0;
+}
+
+div.content-view-line div.class-forum table.forum td ul li
+{
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+div.content-view-line div.class-forum table.forum td ul li a
+{
+    font-weight: normal;
+}
+
+div.content-view-line div.class-forum table.forum th
+{
+    background-color: #DAEAED;
+    background-image: url(images/th_bg.jpg);
+    background-position:left top;
+    background-repeat:repeat-x;
+    border-top:1px solid #fff;
+    color:#342e15;
+    font-weight:bold;
+    text-align:left;
+    white-space:nowrap;
+    height: 29px;
+}
+
+div.content-view-line div.class-forum table.forum td
+{
+    background-color: #F3FAFC;
+}
+
 div.content-view-full div.class-forums table.forum
 {
     background-image: none;
