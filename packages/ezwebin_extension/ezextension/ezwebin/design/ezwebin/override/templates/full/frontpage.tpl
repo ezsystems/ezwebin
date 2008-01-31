@@ -1,3 +1,7 @@
+{set scope=global persistent_variable=hash('left_menu', false(),
+                                           'extra_menu', false(),
+                                           'show_path', false())}
+
 {def $frontpagestyle='noleftcolumn norightcolumn'}
 
 {if $node.object.data_map.left_column.has_content}

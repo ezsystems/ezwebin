@@ -17,6 +17,7 @@
 
      The pre set optional attributes are:
      'enable_comments' a checkbox to indicates if you want to enable comments or not
+     'enable_tipafriend' a checkbox to indicates if you want to enable tipp a friend or not
      'show_children' a checkbox to indicates if you want to show children or not
      'show_children_exclude' a text_line with classes you want to exclude, like: 'article,infobox,folder'
      'show_children_pr_page' a Integer with the number of children you want to show pr page
@@ -92,9 +93,10 @@
                          view_parameters=$view_parameters
                          item_limit=$page_limit}
 
-            {/if}
         {/if}
+    {/if}
 
+    {if and( is_unset( $versionview_mode ), is_set( $node.data_map.enable_tipafriend ), $node.data_map.enable_tipafriend.data_int )}
         {def $tipafriend_access=fetch( 'user', 'has_access_to', hash( 'module', 'content',
                                                                       'function', 'tipafriend' ) )}
         {if and( ezmodule( 'content/tipafriend' ), $tipafriend_access )}
@@ -102,6 +104,7 @@
             <p><a href={concat( "/content/tipafriend/", $node.node_id )|ezurl} title="{'Tip a friend'|i18n( 'design/ezwebin/full/article' )}">{'Tip a friend'|i18n( 'design/ezwebin/full/article' )}</a></p>
         </div>
         {/if}
+    {/if}
 
     </div>
 </div>

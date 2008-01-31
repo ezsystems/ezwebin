@@ -1,20 +1,21 @@
 <div class="border-box">
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
 <div class="border-ml"><div class="border-mr"><div class="border-mc">
+{def $left_menu_depth = $pagedata.current_menu|eq('LeftOnly')|choose( 1, 0 )}
+        <h4><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $pagedata.path_array[$left_menu_depth].node_id)|ezurl}{else}{$pagedata.path_array[$left_menu_depth].url_alias|ezurl}{/if}>{$pagedata.path_array[$left_menu_depth].text}</a></h4>
 
-        <h4><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $module_result.path[$pagerootdepth].node_id)|ezurl}{else}{$module_result.path[$pagerootdepth].url_alias|ezurl}{/if}>{$module_result.path[$pagerootdepth].text}</a></h4>
-
-{if or(is_unset($module_result.content_info.class_identifier), ne( $module_result.content_info.class_identifier, 'documentation_page' ))}
-   {def $root_node=fetch( 'content', 'node', hash( 'node_id', $module_result.path[$pagerootdepth].node_id ) )
+{if ne( $pagedata.class_identifier, 'documentation_page' )}
+   {def $root_node=fetch( 'content', 'node', hash( 'node_id', $pagedata.path_array[$left_menu_depth].node_id ) )
         $left_menu_items = fetch( 'content', 'list', hash( 'parent_node_id', $root_node.node_id,
                                                            'sort_by', $root_node.sort_array,
+                                                           'data_map_load', false(),
                                                            'class_filter_type', 'include',
                                                            'class_filter_array', ezini( 'MenuContentSettings', 'LeftIdentifierList', 'menu.ini' ) ) )
          $left_menu_items_count = $left_menu_items|count()
          $li_class = array()
          $a_class = array()
-         $current_node_in_path_2 = cond(and($current_node_id, $pagedepth|gt($pagerootdepth|inc)), $path_array[$pagerootdepth].node_id, 0  )
-         $current_node_in_path_3 = cond(and($current_node_id, $pagedepth|gt($pagerootdepth|sum(2))), $path_array[$pagerootdepth|inc].node_id, 0  )}
+         $current_node_in_path_2 = first_set( $pagedata.path_array[$left_menu_depth|inc].node_id,  0 )
+         $current_node_in_path_3 = first_set( $pagedata.path_array[$left_menu_depth|sum(2)].node_id,  0 )}
 
         {if $left_menu_items_count}
         <ul class="menu-list">
@@ -30,11 +31,12 @@
             {/if}
                <li{if $li_class} class="{$li_class|implode(" ")}"{/if}><div class="second_level_menu"><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $item.node_id)|ezurl}{else}{$item.url_alias|ezurl}{/if}{if $a_class} class="{$a_class|implode(" ")}"{/if}>{$item.name|wash()}</a></div>
 
-               {if and( is_set( $module_result.path[$pagerootdepth|inc].node_id ), $item.node_id, eq( $module_result.path[$pagerootdepth|inc].node_id, $item.node_id ) )}
+               {if eq( $current_node_in_path_2, $item.node_id )}
                {def $sub_menu_items = fetch( 'content', 'list', hash( 'parent_node_id', $item.node_id,
                                                                      'sort_by', $item.sort_array,
-                                                                       'class_filter_type', 'include',
-                                                                       'class_filter_array', ezini( 'MenuContentSettings', 'LeftIdentifierList', 'menu.ini' ) ) )
+                                                                     'data_map_load', false(),
+                                                                     'class_filter_type', 'include',
+                                                                     'class_filter_array', ezini( 'MenuContentSettings', 'LeftIdentifierList', 'menu.ini' ) ) )
                  $sub_menu_items_count = $sub_menu_items|count}
             {if $sub_menu_items_count}
             <ul class="submenu-list">
@@ -62,16 +64,15 @@
 
     <div class="contentstructure">
 
-   {def $current_node=fetch( content, node, hash( node_id, $module_result.node_id ) )
-        $chapter_container=fetch( content, node, hash( node_id, $current_node.path_array[$pagerootdepth|inc] ) )
+   {def $chapter_container=fetch( content, node, hash( node_id, $pagedata.path_array[$left_menu_depth].node_id  ) )
         $class_filter=ezini( 'TreeMenu', 'ShowClasses', 'contentstructuremenu.ini' )
-        $depth=is_set( $current_node.path_array[$pagerootdepth|sum(2)] )|choose( $pagerootdepth|sum(3), 0 )
-        $node_to_unfold=is_set( $current_node.path_array[$pagerootdepth|sum(2)] )|choose(0 , $current_node.path_array[$pagerootdepth|sum(2)] )
+        $depth=is_set(  $pagedata.path_array[$left_menu_depth|inc]  )|choose( $pagedata.page_root_depth|sum($left_menu_depth, 2), 0 )
+        $node_to_unfold=is_set(  $pagedata.path_array[$left_menu_depth|inc]  )|choose(0 , $pagedata.path_array[$left_menu_depth|inc].node_id )
         $contentStructureTree = content_structure_tree( $chapter_container.node_id, $class_filter, $depth, 0, 'false', false(), $node_to_unfold )}
 
-    {include uri='design:simplified_treemenu/show_simplified_menu.tpl' contentStructureTree=$contentStructureTree is_root_node=true() skip_self_node=true() current_node_id=$module_result.node_id unfold_node=$node_to_unfold chapter_level=0}
+    {include uri='design:simplified_treemenu/show_simplified_menu.tpl' contentStructureTree=$contentStructureTree is_root_node=true() skip_self_node=true() current_node_id=$current_node_id unfold_node=$node_to_unfold chapter_level=0}
 
-    {undef $current_node $chapter_container $class_filter $depth $node_to_unfold $contentStructureTree}
+    {undef $chapter_container $class_filter $depth $node_to_unfold $contentStructureTree}
     </div>
 {/if}
 

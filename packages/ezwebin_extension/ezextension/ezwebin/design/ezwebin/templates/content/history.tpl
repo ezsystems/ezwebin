@@ -37,9 +37,11 @@
 {/switch}
 
 
-{def $page_limit=30
-     $version_list=fetch(content,version_list,hash(contentobject, $object,limit,$page_limit,offset,$view_parameters.offset))
-     $list_count=fetch(content,version_count, hash(contentobject, $object))}
+{def $page_limit   = 30
+     $version_list = fetch(content,version_list,hash(contentobject, $object,limit,$page_limit,offset,$view_parameters.offset))
+     $list_count   = fetch(content,version_count, hash(contentobject, $object))
+     $current_user = fetch( 'user', 'current_user' )}
+
 
 <form name="versionsform" action={concat( '/content/history/', $object.id, '/' )|ezurl} method="post">
 
@@ -122,7 +124,7 @@
 
     {* Edit button. *}
     <td>
-        {if and( array(0, 5)|contains($version.status), $version.creator_id|eq( $user_id ), $can_edit ) }
+        {if and( array(0, 5)|contains($version.status), $version.creator_id|eq( $current_user.contentobject_id ), $can_edit ) }
             <input type="image" src={'edit.gif'|ezimage} name="HistoryEditButton[{$version.version}]" value="" title="{'Edit the contents of version #%version_number.'|i18n( 'design/ezwebin/content/history',, hash( '%version_number', $version.version ) )}" />
         {else}
             <input type="image" src={'edit-disabled.gif'|ezimage} name="HistoryEditButton[{$version.version}]" value="" disabled="disabled" title="{'You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.'|i18n( 'design/ezwebin/content/history',, hash( '%version_number', $version.version ) )}" />
@@ -337,7 +339,7 @@
 
     {* Edit button. *}
     <td>
-        {if and( array(0, 5)|contains($draft_version.status), $draft_version.creator_id|eq( $user_id ), $can_edit ) }
+        {if and( array(0, 5)|contains($draft_version.status), $draft_version.creator_id|eq( $current_user.contentobject_id ), $can_edit ) }
             <input type="image" src={'edit.gif'|ezimage} name="HistoryEditButton[{$draft_version.version}]" value="" title="{'Edit the contents of version #%version_number.'|i18n( 'design/ezwebin/content/history',, hash( '%version_number', $draft_version.version ) )}" />
         {else}
             <input type="image" src={'edit-disabled.gif'|ezimage} name="HistoryEditButton[{$draft_version.version}]" disabled="disabled" value="" title="{'You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.'|i18n( 'design/ezwebin/content/history',, hash( '%version_number', $draft_version.version ) )}" />

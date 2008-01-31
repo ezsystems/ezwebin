@@ -2,36 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{$site.http_equiv.Content-language|wash}" lang="{$site.http_equiv.Content-language|wash}">
 <head>
 {def $basket_is_empty   = cond( $current_user.is_logged_in, fetch( shop, basket ).is_empty, 1 )
-     $current_node_id   = first_set( $module_result.node_id, 0 )
-     $user_hash         = concat( $current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ) )
-     $user_id           = $current_user.contentobject_id}
+     $user_hash         = concat( $current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ) )}
 
-{if and( $current_node_id|eq(0), is_set( $module_result.path.0 ) , is_set( $module_result.path[$module_result.path|count|dec].node_id ) )}
-    {set $current_node_id = $module_result.path[$module_result.path|count|dec].node_id}
-{/if}
-
-{cache-block keys=array( $uri_string, $basket_is_empty, $user_id )}
-{def $pagestyle        = 'nosidemenu noextrainfo'
+{cache-block keys=array( $module_result.uri, $basket_is_empty, $current_user.contentobject_id )}
+{def $pagedata         = ezpagedata()
+     $pagestyle        = $pagedata.css_classes
      $locales          = fetch( 'content', 'translation_list' )
-     $pagerootdepth    = ezini( 'SiteSettings', 'RootNodeDepth', 'site.ini' )
-     $indexpage        = ezini( 'NodeSettings', 'RootNode', 'content.ini' )
-     $infobox_count    = 0
-     $path_normalized  = ''
-     $path_array       = array()
-     $pagedesign_class = fetch( 'content', 'class', hash( 'class_id', 'template_look' ) )
-     $pagedepth        = $module_result.path|count
-     $content_info     = hash()
+     $pagedesign       = $pagedata.template_look
+     $current_node_id  = $pagedata.node_id
 }
 
-{if $pagedesign_class.object_count|eq( 0 )|not}
-    {def $pagedesign = $pagedesign_class.object_list[0]}
-{/if}
+{include uri='design:page_head.tpl'}             
 
-{if is_set( $module_result.content_info )}
-    {set $content_info = $module_result.content_info}
-{/if}
-
-{include uri='design:page_head.tpl'}
 <style type="text/css">
     @import url({"stylesheets/core.css"|ezdesign(no)});
     @import url({"stylesheets/debug.css"|ezdesign(no)});
@@ -55,47 +37,8 @@
 <body>
 <!-- Complete page area: START -->
 
-{if $pagerootdepth|not}
-    {set $pagerootdepth = 1}
-{/if}
-
-{if and( is_set( $content_info.class_identifier ), ezini( 'MenuSettings', 'HideLeftMenuClasses', 'menu.ini' )|contains( $content_info.class_identifier ) )}
-    {set $pagestyle = 'nosidemenu noextrainfo'}
-{elseif and( eq( $ui_context, 'edit' ), $uri_string|contains("content/versionview")|not )}
-    {set $pagestyle       = 'nosidemenu noextrainfo'}
-{elseif eq( $ui_context, 'browse' )}
-    {set $pagestyle       = 'nosidemenu noextrainfo'}
-{elseif $current_node_id}
-    {if is_set( $module_result.path[$pagerootdepth|dec].node_id )}
-        {set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
-    {/if}
-    {if is_set( $module_result.path[1] )}
-        {set $infobox_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $current_node_id,
-                                                                    'class_filter_type', 'include',
-                                                                    'class_filter_array', array( 'infobox' ) ) )}
-        {if ne( $infobox_count , 0 ) }
-            {set $pagestyle = 'sidemenu extrainfo'}
-        {else}
-            {set $pagestyle = 'sidemenu noextrainfo'}
-        {/if}
-    {/if}
-{/if}
-
-{if is_set($module_result.section_id)}
-    {set $pagestyle = concat( $pagestyle, " section_id_", $module_result.section_id )}
-{/if}
-
-{foreach $module_result.path as $index => $path}
-    {if $index|ge($pagerootdepth)}
-        {set $path_array = $path_array|append($path)}
-    {/if}
-    {if is_set($path.node_id)}
-        {set $path_normalized = $path_normalized|append( concat('subtree_level_', $index, '_node_id_', $path.node_id, ' ' ))}
-    {/if}
-{/foreach}
-
 <!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
-<div id="page" class="{$pagestyle} {$path_normalized|trim()} current_node_id_{$current_node_id}">
+<div id="page" class="{$pagestyle}">
 
   <!-- Header area: START -->
   <div id="header" class="float-break">
@@ -129,14 +72,14 @@
         <ul>
             {if $pagedesign.data_map.tag_cloud_url.data_text|ne('')}
                 {if $pagedesign.data_map.tag_cloud_url.content|eq('')}
-                <li id="tagcloud"><a href={concat("/content/view/tagcloud/", $indexpage)|ezurl} title="{$pagedesign.data_map.tag_cloud_url.data_text|wash}">{$pagedesign.data_map.tag_cloud_url.data_text|wash}</a></li>
+                <li id="tagcloud"><a href={concat("/content/view/tagcloud/", $pagedata.root_node)|ezurl} title="{$pagedesign.data_map.tag_cloud_url.data_text|wash}">{$pagedesign.data_map.tag_cloud_url.data_text|wash}</a></li>
                 {else}
                 <li id="tagcloud"><a href={$pagedesign.data_map.tag_cloud_url.content|ezurl} title="{$pagedesign.data_map.tag_cloud_url.data_text|wash}">{$pagedesign.data_map.tag_cloud_url.data_text|wash}</a></li>
                 {/if}
             {/if}
             {if $pagedesign.data_map.site_map_url.data_text|ne('')}
                 {if $pagedesign.data_map.site_map_url.content|eq('')}
-                <li id="sitemap"><a href={concat("/content/view/sitemap/", $indexpage)|ezurl} title="{$pagedesign.data_map.site_map_url.data_text|wash}">{$pagedesign.data_map.site_map_url.data_text|wash}</a></li>
+                <li id="sitemap"><a href={concat("/content/view/sitemap/", $pagedata.root_node)|ezurl} title="{$pagedesign.data_map.site_map_url.data_text|wash}">{$pagedesign.data_map.site_map_url.data_text|wash}</a></li>
                 {else}
                 <li id="sitemap"><a href={$pagedesign.data_map.site_map_url.content|ezurl} title="{$pagedesign.data_map.site_map_url.data_text|wash}">{$pagedesign.data_map.site_map_url.data_text|wash}</a></li>
                 {/if}
@@ -166,7 +109,7 @@
         </ul>
     </div>
     </div>
-  {cache-block keys=array( $uri_string, $user_hash )}
+  {cache-block keys=array( $module_result.uri, $user_hash )}
     <div id="logo">
     {if $pagedesign.data_map.image.content.is_valid|not()}
         <h1><a href={"/"|ezurl} title="{ezini('SiteSettings','SiteName')}">{ezini('SiteSettings','SiteName')}</a></h1>
@@ -177,7 +120,7 @@
     <div id="searchbox">
       <form action={"/content/search"|ezurl}>
         <label for="searchtext" class="hide">Search text:</label>
-        {if eq( $ui_context, 'edit' )}
+        {if $pagedata.is_edit}
         <input id="searchtext" name="SearchText" type="text" value="" size="12" disabled="disabled" />
         <input id="searchbutton" class="button-disabled" type="submit" value="{'Search'|i18n('design/ezwebin/pagelayout')}" alt="Submit" disabled="disabled" />
         {else}
@@ -196,16 +139,13 @@
 
   <!-- Top menu area: START -->
   <div id="topmenu" class="float-break">
-    {include uri='design:menu/flat_top.tpl'}
+  {if $pagedata.top_menu}
+    {include uri=concat('design:menu/', $pagedata.top_menu, '.tpl')}
+  {/if}
   </div>
   <!-- Top menu area: END -->
-  {if not( and( is_set( $content_info.class_identifier ),
-                eq( $content_info.class_identifier, 'frontpage' ),
-            and( is_set( $content_info.viewmode ), ne( $content_info.viewmode, 'sitemap' ) ),
-            and( is_set( $content_info.viewmode ), ne( $content_info.viewmode, 'tagcloud' ) )
-          )
-         )}
 
+  {if $pagedata.show_path}
   <!-- Path area: START -->
   <div id="path">
     {include uri='design:parts/path.tpl'}
@@ -213,31 +153,32 @@
   <!-- Path area: END -->
   {/if}
 
-
   <!-- Toolbar area: START -->
   <div id="toolbar">
-  {if and( $current_node_id,
-           $current_user.is_logged_in,
-           and( is_set( $content_info.viewmode ), ne( $content_info.viewmode, 'sitemap' ) ),
-           and( is_set( $content_info.viewmode ), ne( $content_info.viewmode, 'tagcloud' ) ) ) }
+  {if $pagedata.website_toolbar}
   {include uri='design:parts/website_toolbar.tpl'}
   {/if}
   </div>
   <!-- Toolbar area: END -->
 
-
   <!-- Columns area: START -->
   <div id="columns" class="float-break">
+  {if $pagedata.left_menu}
     <!-- Side menu area: START -->
     <div id="sidemenu-position">
       <div id="sidemenu">
-          <!-- Used only for height resize script -->
-          {if and($current_node_id, gt($module_result.path|count, $pagerootdepth))}
-          {include uri='design:menu/flat_left.tpl'}
-          {/if}
+        {if is_array( $pagedata.left_menu )}
+            {foreach $pagedata.left_menu as $left_menu}
+                {include uri=concat('design:menu/', $left_menu, '.tpl')}
+                {delimiter}<div class="hr"></div>{/delimiter}
+            {/foreach}
+        {else}
+            {include uri=concat('design:menu/', $pagedata.left_menu, '.tpl')}
+        {/if}
        </div>
     </div>
     <!-- Side menu area: END -->
+  {/if}
   {/cache-block}
 {/cache-block}
     <!-- Main area: START -->
@@ -251,30 +192,31 @@
       </div>
     </div>
     <!-- Main area: END -->
-{cache-block keys=array($uri_string, $user_hash, $access_type.name)}
+{cache-block keys=array($module_result.uri, $user_hash, $access_type.name)}
+
+  {if is_unset($pagedesign)}
+    {def $pagedata   = ezpagedata()
+         $pagedesign = $pagedata.template_look}
+  {/if}
+  {if $pagedata.extra_menu}
     <!-- Extra area: START -->
     <div id="extrainfo-position">
       <div id="extrainfo">
-          <!-- Extra content: START -->
-          {if $current_node_id}
-            {include uri='design:parts/extra_info.tpl'}
-          {/if}
-          <!-- Extra content: END -->
+        {if is_array( $pagedata.extra_menu )}
+            {foreach $pagedata.extra_menu as $extra_menu}
+                {include uri=concat('design:parts/', $extra_menu, '.tpl')}
+                {delimiter}<div class="hr"></div>{/delimiter}
+            {/foreach}
+        {else}
+            {include uri=concat('design:parts/', $pagedata.extra_menu, '.tpl')}
+        {/if}
       </div>
     </div>
     <!-- Extra area: END -->
+    {/if}
 
   </div>
   <!-- Columns area: END -->
-
-  {if is_unset($pagedesign)}
-      {if is_unset($pagedesign_class)}
-          {def $pagedesign_class = fetch( 'content', 'class', hash( 'class_id', 'template_look' ) )}
-      {/if}
-      {if $pagedesign_class.object_count|gt( 0 )}
-          {def $pagedesign = $pagedesign_class.object_list[0]}
-      {/if}
-  {/if}
 
 {include uri='design:page_footer.tpl'}
 
@@ -290,9 +232,9 @@
 -->
 </script>
 {/if}
-{/cache-block}
 
 {* This comment will be replaced with actual debug report (if debug is on). *}
 <!--DEBUG_REPORT-->
+{/cache-block}
 </body>
 </html>

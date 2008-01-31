@@ -4,4 +4,8 @@
 [ExtensionSettings]
 DesignExtensions[]=ezwebin
 
+# List of javascripts to use in footer
+[JavaScriptSettings]
+JavaScriptFooterList[]
+
 */ ?>

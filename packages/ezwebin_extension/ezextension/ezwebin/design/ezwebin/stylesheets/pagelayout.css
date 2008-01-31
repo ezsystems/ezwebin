@@ -169,6 +169,42 @@ div#topmenu li a:hover
     border-bottom: 3px solid #ABAB9E;
 }
 
+div#topmenu ul#topmenu-secondlevel
+{
+    height: 23px;
+    background-image: none;
+}
+
+div#topmenu ul#topmenu-secondlevel li
+{
+    height: 23px;
+}
+
+div#topmenu ul#topmenu-secondlevel li.selected,
+div#topmenu ul#topmenu-secondlevel li.selected a
+{
+	font-style: italic;
+	background-image: none;
+}
+
+div#topmenu ul#topmenu-secondlevel li a
+{
+    color: #555;
+    height: 16px;
+    line-height: 16px;
+}
+
+div#topmenu ul#topmenu-secondlevel li a:hover
+{
+    color: #111;
+}
+
+div#topmenu ul#topmenu-secondlevel li.selected a span
+{
+    padding-bottom: 0px;
+    background-image: none;
+}
+
 div#topmenu div.topmenu-design
 {
     background-color: #FFF;

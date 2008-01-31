@@ -1,4 +1,6 @@
 {* Blog post - Full view *}
+{set scope=global persistent_variable=hash('left_menu', false(),
+                                           'extra_menu', false())}
 
 <div class="class-blog extrainfo">
     <div class="columns-blog float-break">

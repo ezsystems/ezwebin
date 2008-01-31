@@ -27,6 +27,10 @@ LeftIdentifierList[]=link
 LeftIdentifierList[]=blog
 LeftIdentifierList[]=frontpage
 
+# DEPRICATED: use persistent_variable in node full veiw instead
+# {set scope=global persistent_variable=hash('left_menu', false(),
+#                                            'extra_menu', false(),
+#                                            'show_path', false())}
 [MenuSettings]
 HideLeftMenuClasses[]
 HideLeftMenuClasses[]=frontpage
