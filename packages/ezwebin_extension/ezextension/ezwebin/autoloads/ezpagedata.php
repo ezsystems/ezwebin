@@ -5,9 +5,9 @@
 // Created on: <18-Aug-2007 10:49:08 ar>
 //
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
-// SOFTWARE NAME: eZ publish
-// SOFTWARE RELEASE: 3.9.x
-// COPYRIGHT NOTICE: Copyright (C) 1999-2007 eZ systems AS
+// SOFTWARE NAME: eZ Publish
+// SOFTWARE RELEASE: 4.0.x
+// COPYRIGHT NOTICE: Copyright (C) 1999-2008 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
@@ -102,7 +102,6 @@ class eZPageData
                     $ini             = eZINI::instance( 'site.ini' );
                     $menuIni         = eZINI::instance( 'menu.ini' );
                     $contentIni      = eZINI::instance( 'content.ini' );
-                    $hideMenuClasses = $menuIni->variable('MenuSettings', 'HideLeftMenuClasses');
                     $uiContext       = $tpl->variable('ui_context');
                     $reqUriString    = $tpl->variable('requested_uri_string');
                     $pageData['is_edit'] = ( $uiContext === 'edit' && strpos($reqUriString, 'user/edit') === false  );
@@ -112,19 +111,26 @@ class eZPageData
                     $pageData['page_depth']      = count( $moduleResult['path'] );
                     $pageData['root_node']      = (int) $contentIni->variable( 'NodeSettings', 'RootNode' );
 
-
-                    // TODO: get this automatically by using root node id on path array
-                    // paths outside the content tree are not supposed to be clipped anyway
-                    if ( $currentNodeId && $ini->hasVariable( 'SiteSettings', 'RootNodeDepth' ) )
+                    /*
+                      RootNodeDepth is a setting for letting you have a very simple multisite setup
+                      The content of the menues will be the same on all system pages like user/login
+                      and when you surf bellow the defined page_root_depth
+                      The sites will also share siteaccess and thus also the same ez publish design and templates
+                      You can however custimize the design with css using the class on div#page:
+                      subtree_level_x_node_id_y class
+                      It is recommended to turn it of by setting it to 0 for normal sites                       
+                    */
+                    if ( $currentNodeId &&
+                         $ini->hasVariable( 'SiteSettings', 'RootNodeDepth' ) &&
+                         $ini->variable( 'SiteSettings', 'RootNodeDepth' ) !== '0' )
                     {
                         $pageData['page_root_depth']  = $ini->variable( 'SiteSettings', 'RootNodeDepth' ) -1;
-                    }
 
-                    /* TODO: add support for something similary to whats been proposed in issue #012004
-                    if ( isset( $moduleResult['path'][ $pageData['page_root_depth'] ]['node_id'] ))
-                    {
-                        $pageData['root_node'] = $moduleResult['path'][$pageData['page_root_depth'] ]['node_id'];        
-                    }*/
+                        if ( isset( $moduleResult['path'][ $pageData['page_root_depth'] ]['node_id'] ))
+                        {
+                            $pageData['root_node'] = $moduleResult['path'][$pageData['page_root_depth'] ]['node_id'];        
+                        }
+                    }
 
                     if ( isset( $moduleResult['content_info'] ))
                     {
@@ -169,7 +175,7 @@ class eZPageData
                         $pageData['website_toolbar'] = ( $currentNodeId && $currentUser->attribute('is_logged_in') );
                     }
 
-                    // Figuring out if left and or extra menu should be visable
+                    /// Figgure out which menues to use
                     $pageData['top_menu']     = $menuIni->variable('SelectedMenu', 'TopMenu');
                     $pageData['left_menu']    = $menuIni->variable('SelectedMenu', 'LeftMenu');
                     $pageData['current_menu'] = $menuIni->variable('SelectedMenu', 'CurrentMenu');
@@ -200,16 +206,13 @@ class eZPageData
                         $pageData['left_menu']  = false;
                         $pageData['extra_menu'] = false;
                     }
-                    /*
-                     * Only enable this for bc, recommened method for disabling menus are 
-                     * now with persistent_variable.left_menu and extra_menu
-                    
-                    else if ( in_array( $pageData['content_info']['class_identifier'], $hideMenuClasses ))
+                    // Depricated: Please use persistant variable instead since it's more flexible                
+                    else if ( $menuIni->hasVariable('MenuSettings', 'HideLeftMenuClasses') &&
+                              in_array( $pageData['content_info']['class_identifier'], $menuIni->variable('MenuSettings', 'HideLeftMenuClasses') ))
                     {
                         $pageData['left_menu']  = false;
                         $pageData['extra_menu'] = false;
                     }
-                    */
 
                     if ( $pageData['extra_menu'] === 'extra_info' )
                     {
