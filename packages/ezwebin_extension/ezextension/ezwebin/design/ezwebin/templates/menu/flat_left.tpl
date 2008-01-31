@@ -64,15 +64,16 @@
 
     <div class="contentstructure">
 
-   {def $chapter_container=fetch( content, node, hash( node_id, $pagedata.path_array[$left_menu_depth].node_id  ) )
-        $class_filter=ezini( 'TreeMenu', 'ShowClasses', 'contentstructuremenu.ini' )
-        $depth=is_set(  $pagedata.path_array[$left_menu_depth|inc]  )|choose( $pagedata.page_root_depth|sum($left_menu_depth, 2), 0 )
-        $node_to_unfold=is_set(  $pagedata.path_array[$left_menu_depth|inc]  )|choose(0 , $pagedata.path_array[$left_menu_depth|inc].node_id )
+   {def $current_node         = fetch( content, node, hash( node_id, $current_node_id ) )
+        $chapter_container    = fetch( content, node, hash( node_id, $current_node.path_array[$left_menu_depth|inc] ) )
+        $class_filter         = ezini( 'TreeMenu', 'ShowClasses', 'contentstructuremenu.ini' )
+        $depth                = is_set( $current_node.path_array[$left_menu_depth|sum(2)] )|choose( $left_menu_depth|sum(3), 0 )
+        $node_to_unfold       = is_set( $current_node.path_array[$left_menu_depth|sum(2)] )|choose(0 , $current_node.path_array[$left_menu_depth|sum(2)] )
         $contentStructureTree = content_structure_tree( $chapter_container.node_id, $class_filter, $depth, 0, 'false', false(), $node_to_unfold )}
-
+{$depth} {$current_node_id} {$chapter_container.node_id} {$node_to_unfold}
     {include uri='design:simplified_treemenu/show_simplified_menu.tpl' contentStructureTree=$contentStructureTree is_root_node=true() skip_self_node=true() current_node_id=$current_node_id unfold_node=$node_to_unfold chapter_level=0}
 
-    {undef $chapter_container $class_filter $depth $node_to_unfold $contentStructureTree}
+    {undef $current_node $chapter_container $class_filter $depth $node_to_unfold $contentStructureTree}
     </div>
 {/if}
 
