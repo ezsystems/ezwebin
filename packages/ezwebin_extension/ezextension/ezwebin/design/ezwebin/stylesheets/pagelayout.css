@@ -171,27 +171,30 @@ div#topmenu li a:hover
 
 div#topmenu ul#topmenu-secondlevel
 {
-    height: 23px;
+    height: 29px;
     background-image: none;
+    background-color: #F5F6F1;
+    border-bottom: 1px solid #E9E9E1;
 }
 
 div#topmenu ul#topmenu-secondlevel li
 {
-    height: 23px;
+    height: 29px;
 }
 
 div#topmenu ul#topmenu-secondlevel li.selected,
 div#topmenu ul#topmenu-secondlevel li.selected a
 {
-	font-style: italic;
-	background-image: none;
+    font-style: italic;
+    background-image: none;
 }
 
 div#topmenu ul#topmenu-secondlevel li a
 {
     color: #555;
-    height: 16px;
-    line-height: 16px;
+    height: 20px;
+    line-height: 20px;
+    border-right: 1px solid #E9E9E1;
 }
 
 div#topmenu ul#topmenu-secondlevel li a:hover
