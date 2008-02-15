@@ -79,6 +79,7 @@ class eZPageData
                     {
                        $pageData['template_look'] = $obj[0];
                     }
+                    
 
                     if ( $tpl->hasVariable('module_result') )
                     {
@@ -121,6 +122,8 @@ class eZPageData
                       It is recommended to turn it of by setting it to 0 for normal sites                       
                     */
                     if ( $currentNodeId &&
+                         isset( $moduleResult['path'][0] ) &&
+                         $moduleResult['path'][0]['node_id'] === 2 &&
                          $ini->hasVariable( 'SiteSettings', 'RootNodeDepth' ) &&
                          $ini->variable( 'SiteSettings', 'RootNodeDepth' ) !== '0' )
                     {
