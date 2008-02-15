@@ -7,7 +7,7 @@
   {else}
     {$path.text|wash}
   {/if}
-  {delimiter}/{/delimiter}
+  {delimiter}<span class="path-separator">/</span>{/delimiter}
   {/foreach}
   </p>
   <!-- Path content: END -->
