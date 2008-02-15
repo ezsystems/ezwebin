@@ -113,13 +113,22 @@ class eZPageData
                     $pageData['root_node']      = (int) $contentIni->variable( 'NodeSettings', 'RootNode' );
 
                     /*
-                      RootNodeDepth is a setting for letting you have a very simple multisite setup
+                      RootNodeDepth is a setting for letting you have a very simple multisite setup.
                       The content of the menues will be the same on all system pages like user/login
-                      and when you surf bellow the defined page_root_depth
-                      The sites will also share siteaccess and thus also the same ez publish design and templates
-                      You can however custimize the design with css using the class on div#page:
+                      and when you surf bellow the defined page_root_depth.
+                      The sites will also share siteaccess and thus also the same ez publish design and templates.
+                      You can however custimize the design with css using the class on div#page html output:
                       subtree_level_x_node_id_y class
-                      It is recommended to turn it of by setting it to 0 for normal sites                       
+
+                      Note: It is recommended to turn it of by setting it to 0 for normal sites!
+
+                      Example having 2 or more 'sub-sites' with RootNodeDepth=2:
+                        root (menu shows sub sites as menu choices like it will on system pages)
+                        - sub site 1 (menu show content of this sub site)
+                        - sub site 2 (-- " --)
+                        - sub site 3 (-- " --)
+                        - sub site 4 (-- " --)
+                        - sub site 5 (-- " --)
                     */
                     if ( $currentNodeId &&
                          isset( $moduleResult['path'][0] ) &&
@@ -209,7 +218,7 @@ class eZPageData
                         $pageData['left_menu']  = false;
                         $pageData['extra_menu'] = false;
                     }
-                    // Depricated: Please use persistant variable instead since it's more flexible                
+                    // Depricated: Use persistant variable instead since it's more flexible                
                     else if ( $menuIni->hasVariable('MenuSettings', 'HideLeftMenuClasses') &&
                               in_array( $pageData['content_info']['class_identifier'], $menuIni->variable('MenuSettings', 'HideLeftMenuClasses') ))
                     {
