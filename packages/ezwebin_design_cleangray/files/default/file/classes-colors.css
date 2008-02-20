@@ -1,0 +1,606 @@
+div.border-box div.border-tl, div.border-box div.border-tr, div.border-box div.border-tc, div.border-box div.border-ml, div.border-box div.border-mr, div.border-box div.border-mc, div.border-box div.border-bl, div.border-box div.border-br, div.border-box div.border-bc
+{
+    background-image: none;
+    background-color: transparent;
+}
+
+div.border-box div.border-mc
+{
+    padding-top: 0;
+}
+
+div.nosidemenu div#main-position
+{
+    margin-left: 0;
+}
+
+div.noextrainfo div#main-position
+{
+    margin-right: 0;
+}
+
+
+div.attribute-header h1, div.attribute-header h1.long
+{
+    background-image: none;
+}
+
+div.itemized_sub_items div.border-box div.border-tl
+{
+    background-image: url(images/box-1/border-tl.gif);
+}
+
+div.itemized_sub_items div.border-box div.border-tr
+{
+    background-image: url(images/box-1/border-tr.gif);
+}
+
+div.itemized_sub_items div.border-box div.border-tc
+{
+    background-image: url(images/box-1/border-tc.gif);
+}
+
+div.itemized_sub_items div.border-box div.border-ml
+{
+    background-image: url(images/box-1/border-ml.gif);
+}
+
+div.itemized_sub_items div.border-box div.border-mr
+{
+    background-image: url(images/box-1/border-mr.gif);
+}
+
+div.itemized_sub_items div.border-box div.border-mc
+{
+    background-color: #FFFFFF;
+}
+
+div.itemized_sub_items div.border-box div.border-bl
+{
+    background-image: url(images/box-1/border-bl.gif);
+}
+
+div.itemized_sub_items div.border-box div.border-br
+{
+    background-image: url(images/box-1/border-br.gif);
+}
+
+div.itemized_sub_items div.border-box div.border-bc
+{
+    background-image: url(images/box-1/border-bc.gif);
+}
+
+/* Sidemenu box */
+
+div#sidemenu div.border-box div.border-tl
+{
+    background-image: url(images/box-4/border-tl.gif);
+}
+
+div#sidemenu div.border-box div.border-tr
+{
+    background-image: url(images/box-4/border-tr.gif);
+}
+
+div#sidemenu div.border-box div.border-tc
+{
+    background-image: url(images/box-4/border-tc.gif);
+}
+
+div#sidemenu div.border-box div.border-ml
+{
+    background-image: url(images/box-4/border-ml.gif);
+}
+
+div#sidemenu div.border-box div.border-mr
+{
+    background-image: url(images/box-4/border-mr.gif);
+}
+
+div#sidemenu div.border-box div.border-mc
+{
+    background: url(images/infobox-header/border-mc.jpg) repeat-x top left;
+    padding-top: 0.5em;
+}
+
+div#sidemenu div.border-box div.border-bl
+{
+    background-image: url(images/box-4/border-bl.gif);
+}
+
+div#sidemenu div.border-box div.border-br
+{
+    background-image: url(images/box-4/border-br.gif);
+}
+
+div#sidemenu div.border-box div.border-bc
+{
+    background-image: url(images/box-4/border-bc.gif);
+}
+
+
+/* Box 2 */
+
+div.box-2 div.border-tl
+{
+    background-image: url(images/box-2/border-tl.gif);
+}
+
+div.box-2 div.border-tr
+{
+    background-image: url(images/box-2/border-tr.gif);
+}
+
+div.box-2 div.border-tc
+{
+    background-image: url(images/box-2/border-tc.gif);
+}
+
+div.box-2 div.border-ml
+{
+    background-image: url(images/box-2/border-ml.gif);
+}
+
+div.box-2 div.border-mr
+{
+    background-image: url(images/box-2/border-mr.gif);
+}
+
+div.box-2 div.border-mc
+{
+    background: #F1F3F2 url(images/box-2/border-mc.gif) repeat-x top left;
+}
+
+div.box-2 div.border-bl
+{
+    background-image: url(images/box-2/border-bl.gif);
+}
+
+div.box-2 div.border-br
+{
+    background-image: url(images/box-2/border-br.gif);
+}
+
+div.box-2 div.border-bc
+{
+    background-image: url(images/box-2/border-bc.gif);
+}
+
+div.box-3 div.border-tl
+{
+    background-image: url(images/box-3/border-tl.gif);
+}
+
+div.box-3 div.border-tr
+{
+    background-image: url(images/box-3/border-tr.gif);
+}
+
+div.box-3 div.border-tc
+{
+    background-image: url(images/box-3/border-tc.gif);
+}
+
+div.box-3 div.border-ml
+{
+    background-image: url(images/box-3/border-ml.gif);
+}
+
+div.box-3 div.border-mr
+{
+    background-image: url(images/box-3/border-mr.gif);
+}
+
+div.box-3 div.border-mc
+{
+    background: #f4f4f4 url(images/box-3/border-mc.gif) repeat-x top left;
+}
+
+div.box-3 div.border-bl
+{
+    background-image: url(images/box-3/border-bl.gif);
+}
+
+div.box-3 div.border-br
+{
+    background-image: url(images/box-3/border-br.gif);
+}
+
+div.box-3 div.border-bc
+{
+    background-image: url(images/box-3/border-bc.gif);
+}
+
+div.factbox-header
+{
+    margin-bottom: 0;
+}
+
+div.factbox-header h2
+{
+    margin: 1px 0px 3px 0px;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+div.factbox-header div.border-tl
+{
+    background-image: url(images/factbox-header/border-tl.gif);
+}
+
+div.factbox-header div.border-tr
+{
+    background-image: url(images/factbox-header/border-tr.gif);
+}
+
+div.factbox-header div.border-tc
+{
+    background-image: url(images/factbox-header/border-tc.gif);
+}
+
+div.factbox-header div.border-ml
+{
+    background-image: url(images/factbox-header/border-ml.gif);
+}
+
+div.factbox-header div.border-mr
+{
+    background-image: url(images/factbox-header/border-mr.gif);
+}
+
+div.factbox-header div.border-mc
+{
+    background: #FFF url(images/factbox-header/border-mc.gif) repeat-x top left;
+    padding: 0 6px 0 6px;
+}
+
+div.factbox-header div.border-bl
+{
+    background-image: url(images/factbox-header/border-bl.gif);
+}
+
+div.factbox-header div.border-br
+{
+    background-image: url(images/factbox-header/border-br.gif);
+}
+
+div.factbox-header div.border-bc
+{
+    background-image: url(images/factbox-header/border-bc.gif);
+}
+
+div.factbox-content div.attribute-image
+{
+    margin: 0.5em 0.5em 0.5em 0;
+    float: left;
+}
+
+div.factbox-content div.border-tl
+{
+    background-image: url(images/factbox/border-tl.gif);
+}
+
+div.factbox-content div.border-tr
+{
+    background-image: url(images/factbox/border-tr.gif);
+}
+
+div.factbox-content div.border-tc
+{
+    background-image: url(images/factbox/border-tc.gif);
+}
+
+div.factbox-content div.border-ml
+{
+    background-image: url(images/factbox/border-ml.gif);
+}
+
+div.factbox-content div.border-mr
+{
+    background-image: url(images/factbox/border-mr.gif);
+}
+
+div.factbox-content div.border-mc
+{
+    background: #fff url(images/factbox/border-mc.jpg) repeat-x bottom left;
+    padding: 3px 6px 3px 6px;
+}
+
+div.factbox-content div.border-bl
+{
+    background-image: url(images/factbox/border-bl.gif);
+}
+
+div.factbox-content div.border-br
+{
+    background-image: url(images/factbox/border-br.gif);
+}
+
+div.factbox-content div.border-bc
+{
+    background-image: url(images/factbox/border-bc.gif);
+}
+
+div.productbox-header div.border-tl
+{
+    background-image: url(images/productbox-header/border-tl.gif);
+}
+
+div.productbox-header div.border-tr
+{
+    background-image: url(images/productbox-header/border-tr.gif);
+}
+
+div.productbox-header div.border-tc
+{
+    background-image: url(images/productbox-header/border-tc.gif);
+}
+
+div.productbox-header div.border-ml
+{
+    background-image: url(images/productbox-header/border-ml.gif);
+}
+
+div.productbox-header div.border-mr
+{
+    background-image: url(images/productbox-header/border-mr.gif);
+}
+
+div.productbox-header div.border-mc
+{
+    background: #fff;
+    text-align: center;
+}
+
+div.productbox-header div.border-bl
+{
+    background-image: url(images/productbox-header/border-bl.gif);
+}
+
+div.productbox-header div.border-br
+{
+    background-image: url(images/productbox-header/border-br.gif);
+}
+
+div.productbox-header div.border-bc
+{
+    background-image: url(images/productbox-header/border-bc.gif);
+}
+
+/* PRODUCT - Productbox */
+
+div.productbox
+{
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+div.productbox a
+{
+    font-weight: bold;
+}
+
+div.productbox div.border-tl
+{
+    background-image: url(images/productbox/border-tl.gif);
+}
+
+div.productbox div.border-tr
+{
+    background-image: url(images/productbox/border-tr.gif);
+}
+
+div.productbox div.border-tc
+{
+    background-image: url(images/productbox/border-tc.gif);
+}
+
+div.productbox div.border-ml
+{
+    background-image: url(images/productbox/border-ml.gif);
+}
+
+div.productbox div.border-mr
+{
+    background-image: url(images/productbox/border-mr.gif);
+}
+
+div.productbox div.border-mc
+{
+    background: #fff url(images/productbox/border-mc.gif) repeat-x top left;
+    text-align: center;
+}
+
+div.productbox div.border-bl
+{
+    background-image: url(images/productbox/border-bl.gif);
+}
+
+div.productbox div.border-br
+{
+    background-image: url(images/productbox/border-br.gif);
+}
+
+div.productbox div.border-bc
+{
+    background-image: url(images/productbox/border-bc.gif);
+}
+
+
+div.infobox-header h2
+{
+    margin: 5px 0px 6px 0px;
+    padding: 0;
+    font-size: 16px;
+}
+
+div.infobox-header div.border-tl
+{
+    background-image: url(images/infobox-header/border-tl.gif);
+}
+
+div.infobox-header div.border-tr
+{
+    background-image: url(images/infobox-header/border-tr.gif);
+}
+
+div.infobox-header div.border-tc
+{
+    background-image: url(images/infobox-header/border-tc.gif);
+}
+
+div.infobox-header div.border-ml
+{
+    background-image: url(images/infobox-header/border-ml.gif);
+}
+
+div.infobox-header div.border-mr
+{
+    background-image: url(images/infobox-header/border-mr.gif);
+}
+
+div.infobox-header div.border-mc
+{
+    background: url(images/infobox-header/border-mc.jpg) repeat-x top left;
+    padding: 0 6px 0 6px;
+}
+
+div.infobox-header div.border-bl
+{
+    background-image: url(images/infobox-header/border-bl.gif);
+}
+
+div.infobox-header div.border-br
+{
+    background-image: url(images/infobox-header/border-br.gif);
+}
+
+div.infobox-header div.border-bc
+{
+    background-image: url(images/infobox-header/border-bc.gif);
+}
+
+/* Infobox */
+
+div.infobox div.attribute-image
+{
+    margin: 0.5em 0.5em 0.5em 0;
+    float: left;
+}
+
+div.infobox div.border-tl
+{
+    background-image: url(images/infobox/border-tl.gif);
+}
+
+div.infobox div.border-tr
+{
+    background-image: url(images/infobox/border-tr.gif);
+}
+
+div.infobox div.border-tc
+{
+    background-image: url(images/infobox/border-tc.gif);
+}
+
+div.infobox div.border-ml
+{
+    background-image: url(images/infobox/border-ml.gif);
+}
+
+div.infobox div.border-mr
+{
+    background-image: url(images/infobox/border-mr.gif);
+}
+
+div.infobox div.border-mc
+{
+    background: #ffffff;
+    padding: 3px 6px 3px 6px;
+}
+
+div.infobox div.border-bl
+{
+    background-image: url(images/infobox/border-bl.gif);
+}
+
+div.infobox div.border-br
+{
+    background-image: url(images/infobox/border-br.gif);
+}
+
+div.infobox div.border-bc
+{
+    background-image: url(images/infobox/border-bc.gif);
+}
+
+div.separator
+{
+    display: block;
+    background-image: url(images/sep-bg.gif);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    height: 1px;
+    margin: 0 0 0.75em 0;
+}
+
+div.separator-design
+{
+    background-image: url(images/sep-design-bg.gif);
+    background-repeat: repeat-x;
+    height: 1px;
+}
+
+div.content-view-full div.class-article div.attribute-byline, div.content-view-full div.class-article div.attribute-long, div.attribute-tipafriend, div.content-view-full div.class-gallery div.content-view-children
+{
+    background-image: none;
+}
+
+
+div#ezagenda_calendar_container div.border-box div.border-tl
+{
+    background: transparent url(images/agendabox/border-tl.gif) no-repeat scroll left top;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-tr
+{
+    background:transparent url(images/agendabox/border-tr.gif) no-repeat scroll right top;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-tc
+{
+    background:transparent url(images/agendabox/border-tc.gif) repeat-x scroll left top;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-ml
+{
+    background: transparent url(images/agendabox/border-ml.gif) repeat-y scroll left center;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-mr
+{
+    background:transparent url(images/agendabox/border-mr.gif) repeat-y scroll right center;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-mc
+{
+    background:#F4F4F4 url(images/agendabox/border-mc.gif) repeat-x scroll left top;
+    padding: 0.25em 0 0.25em 0;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-bl
+{
+    background: transparent url(images/agendabox/border-bl.gif) no-repeat scroll left bottom;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-br
+{
+    background: transparent url(images/agendabox/border-br.gif) no-repeat scroll right bottom;
+}
+
+div#ezagenda_calendar_container div.border-box div.border-bc
+{
+    background:transparent url(images/agendabox/border-bc.gif) repeat-x scroll left bottom;
+}
