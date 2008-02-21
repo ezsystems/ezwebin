@@ -1,4 +1,5 @@
 {* Poll - Line view *}
+{set-block scope=root variable=cache_ttl}900{/set-block}
 
 <div class="content-view-line">
     <div class="class-poll">
