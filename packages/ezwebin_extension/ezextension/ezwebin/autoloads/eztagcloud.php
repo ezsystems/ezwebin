@@ -73,7 +73,6 @@ class eZTagCloud
                                                  ezcontentobject_tree,
                                                  ezcontentclass
                                                  $sqlPermissionChecking[from]
-
                                             WHERE ezkeyword.id = ezkeyword_attribute_link.keyword_id
                                                 AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
                                                 AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
