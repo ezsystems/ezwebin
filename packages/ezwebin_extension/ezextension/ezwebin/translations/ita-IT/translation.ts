@@ -163,7 +163,7 @@
     </message>
     <message>
         <source>Search with at least one of the words</source>
-        <translation>Cerca con almeno una parola</translation>
+        <translation type="obsolete">Cerca con almeno una parola</translation>
     </message>
     <message>
         <source>Published</source>
@@ -225,12 +225,16 @@
         <source>Search for &quot;%1&quot; returned %2 matches</source>
         <translation>La ricerca di &quot;%1&quot; ha prodotto %2 risultati</translation>
     </message>
+    <message>
+        <source>Last month</source>
+        <translation type="unfinished">Ultimo mese</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/advancedsearchh</name>
     <message>
         <source>Last month</source>
-        <translation>Ultimo mese</translation>
+        <translation type="obsolete">Ultimo mese</translation>
     </message>
 </context>
 <context>
@@ -277,6 +281,29 @@
     <message>
         <source>Type</source>
         <translation>Tipo</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -461,6 +488,14 @@
         <source>Documentation</source>
         <translation>Documentazione</translation>
     </message>
+    <message>
+        <source>Translating content from %from_lang to %to_lang</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content in %language</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_attribute</name>
@@ -641,7 +676,7 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
     </message>
     <message>
         <source>Edited language</source>
-        <translation>Lingua modificata</translation>
+        <translation type="obsolete">Lingua modificata</translation>
     </message>
     <message>
         <source>Creator</source>
@@ -769,6 +804,14 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
     </message>
     <message>
         <source>There is no need to do copies of untouched drafts.</source>
+        <translation type="obsolete"></translation>
+    </message>
+    <message>
+        <source>Modified translation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no need to do a copies of untouched drafts.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1451,11 +1494,11 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete"></translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete"></translation>
     </message>
 </context>
 <context>
@@ -1607,6 +1650,72 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
+    <message>
+        <source>Receive all messages combined in one digest</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Receive digests</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Daily, at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Once per week, on </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Once per month, on day number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/notification/handler/ezsubtree/settings/edit</name>
+    <message>
+        <source>My item notifications [%notification_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Nome</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Tipo</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="unfinished">Sezione</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">Sconosciuto</translation>
+    </message>
+    <message>
+        <source>You have not subscribed to receive notifications about any items.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected</source>
+        <translation type="unfinished">Elimina selezionati</translation>
+    </message>
+    <message>
+        <source>Add items</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/notification/settings</name>
     <message>
         <source>Notification settings</source>
@@ -1614,7 +1723,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Store</source>
-        <translation>Registra</translation>
+        <translation type="obsolete">Registra</translation>
+    </message>
+    <message>
+        <source>Apply changes</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1671,27 +1784,27 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/settings/edit</name>
     <message>
         <source>Node notification</source>
-        <translation>Notifica nodo</translation>
+        <translation type="obsolete">Notifica nodo</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nome</translation>
+        <translation type="obsolete">Nome</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation>Classe</translation>
+        <translation type="obsolete">Classe</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation>Sezione</translation>
+        <translation type="obsolete">Sezione</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Seleziona</translation>
+        <translation type="obsolete">Seleziona</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Elimina</translation>
+        <translation type="obsolete">Elimina</translation>
     </message>
 </context>
 <context>
@@ -2363,6 +2476,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Cancel</source>
         <translation type="unfinished">Annulla</translation>
     </message>
+    <message>
+        <source>The new password must be at least %1 characters long, please retype your new password.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/register</name>
@@ -2421,6 +2538,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/view/ezmedia</name>
     <message>
         <source>No media file is available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No %link_startFlash player%link_end avaliable!</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

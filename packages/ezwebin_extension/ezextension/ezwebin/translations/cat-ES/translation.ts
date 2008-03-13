@@ -273,6 +273,29 @@
     </message>
 </context>
 <context>
+    <name>design/ezwebin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
@@ -787,6 +810,41 @@
     <message>
         <source>Type</source>
         <translation>Tipus</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/pendinglist</name>
+    <message>
+        <source>My pending items [%pending_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Nom</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="unfinished">Classe</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="unfinished">Secció</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last modified</source>
+        <translation type="unfinished">Darrera modificació</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">Desconegut</translation>
+    </message>
+    <message>
+        <source>Your pending list is empty</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1570,6 +1628,72 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     </message>
 </context>
 <context>
+    <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
+    <message>
+        <source>Receive all messages combined in one digest</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Receive digests</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Daily, at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Once per week, on </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Once per month, on day number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/notification/handler/ezsubtree/settings/edit</name>
+    <message>
+        <source>My item notifications [%notification_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Nom</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Tipus</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="unfinished">Secció</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">Desconegut</translation>
+    </message>
+    <message>
+        <source>You have not subscribed to receive notifications about any items.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected</source>
+        <translation type="unfinished">Esborra seleccionats</translation>
+    </message>
+    <message>
+        <source>Add items</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/notification/settings</name>
     <message>
         <source>Notification settings</source>
@@ -1577,7 +1701,11 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     </message>
     <message>
         <source>Store</source>
-        <translation>Emmagatzema</translation>
+        <translation type="obsolete">Emmagatzema</translation>
+    </message>
+    <message>
+        <source>Apply changes</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1634,27 +1762,27 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     <name>design/ezwebin/settings/edit</name>
     <message>
         <source>Node notification</source>
-        <translation>Notificació de node</translation>
+        <translation type="obsolete">Notificació de node</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nom</translation>
+        <translation type="obsolete">Nom</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation>Classe</translation>
+        <translation type="obsolete">Classe</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation>Secció</translation>
+        <translation type="obsolete">Secció</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Selecciona</translation>
+        <translation type="obsolete">Selecciona</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Esborra</translation>
+        <translation type="obsolete">Esborra</translation>
     </message>
 </context>
 <context>
@@ -2003,6 +2131,14 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
         <source>Order history</source>
         <translation>Historial de comandes</translation>
     </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished">Data</translation>
+    </message>
+    <message>
+        <source>Order status</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/userregister</name>
@@ -2186,6 +2322,10 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
         <source>Change password</source>
         <translation>Canvia contrasenya</translation>
     </message>
+    <message>
+        <source>My pending items</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/forgotpassword</name>
@@ -2313,6 +2453,10 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     <message>
         <source>Cancel</source>
         <translation>Cancel·la</translation>
+    </message>
+    <message>
+        <source>The new password must be at least %1 characters long, please retype your new password.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
