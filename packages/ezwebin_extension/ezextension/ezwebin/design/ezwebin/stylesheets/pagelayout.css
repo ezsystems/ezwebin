@@ -114,7 +114,8 @@ input#searchbutton
 div#topmenu
 {
     margin: 0;
-    padding: 0;
+    padding: 0 0.25em 0 0.2em;
+    background-color: #FFFFFF;
 }
 
 div#topmenu ul
@@ -206,12 +207,6 @@ div#topmenu ul#topmenu-secondlevel li.selected a span
 {
     padding-bottom: 0px;
     background-image: none;
-}
-
-div#topmenu div.topmenu-design
-{
-    background-color: #FFF;
-    padding: 0 0.25em 0 0.2em;
 }
 
 /* PATH */
