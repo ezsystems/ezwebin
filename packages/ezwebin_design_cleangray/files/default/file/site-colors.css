@@ -110,10 +110,6 @@ div#topmenu
 {
     border-top: 1px solid #D0D5D8;
     border-bottom: 1px solid #D0D5D8;
-}
-
-div#topmenu div.topmenu-design
-{
     background-color: #F2F3F5;
     padding: 0;
 }
