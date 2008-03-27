@@ -132,6 +132,7 @@ class eZPageData
                     */
                     if ( $currentNodeId &&
                          isset( $moduleResult['path'][0] ) &&
+                         isset( $moduleResult['path'][0]['node_id'] ) &&
                          $moduleResult['path'][0]['node_id'] === 2 &&
                          $ini->hasVariable( 'SiteSettings', 'RootNodeDepth' ) &&
                          $ini->variable( 'SiteSettings', 'RootNodeDepth' ) !== '0' )
