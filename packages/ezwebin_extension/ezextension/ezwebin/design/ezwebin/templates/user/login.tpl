@@ -77,7 +77,9 @@ function AdminSiteaccessCheckbox( val )
 
 <div class="buttonblock">
 <input class="defaultbutton" type="submit" name="LoginButton" value="{'Login'|i18n('design/ezwebin/user/login','Button')}" tabindex="1" />
-<input class="button" type="submit" name="RegisterButton" id="RegisterButton" value="{'Sign up'|i18n('design/ezwebin/user/login','Button')}" tabindex="1" />
+{if ezmodule( 'user/register' )}
+    <input class="button" type="submit" name="RegisterButton" id="RegisterButton" value="{'Sign up'|i18n('design/ezwebin/user/login','Button')}" tabindex="1" />
+{/if}
 </div>
 
 {if ezini( 'SiteSettings', 'LoginPage' )|eq( 'custom' )}

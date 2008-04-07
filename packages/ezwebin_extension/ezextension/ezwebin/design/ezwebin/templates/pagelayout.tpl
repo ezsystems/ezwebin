@@ -95,7 +95,7 @@
             <li id="logout"><a href={"/user/logout"|ezurl} title="{$pagedesign.data_map.logout_label.data_text|wash}">{$pagedesign.data_map.logout_label.data_text|wash} ( {$current_user.contentobject.name|wash} )</a></li>
             {/if}
         {else}
-            {if $pagedesign.data_map.register_user_label.has_content}
+            {if and( $pagedesign.data_map.register_user_label.has_content, ezmodule( 'user/register' ) )}
             <li id="registeruser"><a href={"/user/register"|ezurl} title="{$pagedesign.data_map.register_user_label.data_text|wash}">{$pagedesign.data_map.register_user_label.data_text|wash}</a></li>
             {/if}
             {if $pagedesign.data_map.login_label.has_content}
