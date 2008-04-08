@@ -27,9 +27,14 @@
             {attribute_edit_gui attribute=$object.data_map.message}
         </div>
 
+        {def $notification_access=fetch( 'user', 'has_access_to', hash( 'module', 'notification', 'function', 'addtonotification' ) )}
         <div class="block">
-            <label>{$object.data_map.notify_me.contentclass_attribute.name}</label>
-            {attribute_edit_gui attribute=$object.data_map.notify_me}
+            {if $notification_access }
+                <label>{$object.data_map.notify_me.contentclass_attribute.name}</label>
+                {attribute_edit_gui attribute=$object.data_map.notify_me}
+            {else}
+                {attribute_edit_gui attribute=$object.data_map.notify_me type='hidden'}
+            {/if}
         </div>
 
         {def $current_user=fetch( 'user', 'current_user' )
