@@ -20,6 +20,10 @@
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
         <translation>用 %login_link_start 登入 %login_link_end 或是用 %create_link_start 以新增一個使用者帳號 %create_link_end 來下註解 。</translation>
     </message>
+    <message>
+        <source>%login_link_startLog in%login_link_end to comment.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/blog/calendar</name>
@@ -1467,6 +1471,17 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>People who bought this also bought</source>
         <translation>買這個的人也買了</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/blog_post</name>
+    <message>
+        <source>View comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add comment</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

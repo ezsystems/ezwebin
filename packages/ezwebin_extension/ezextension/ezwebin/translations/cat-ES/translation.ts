@@ -20,6 +20,10 @@
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
         <translation>%login_link_startConnecta%login_link_end o %create_link_startcrea un compte d&apos;usuari%create_link_end per a comentar.</translation>
     </message>
+    <message>
+        <source>%login_link_startLog in%login_link_end to comment.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/blog/calendar</name>
@@ -1477,6 +1481,17 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     <message>
         <source>People who bought this also bought</source>
         <translation>Les persones que han comprat això també van comprar</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/blog_post</name>
+    <message>
+        <source>View comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add comment</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
