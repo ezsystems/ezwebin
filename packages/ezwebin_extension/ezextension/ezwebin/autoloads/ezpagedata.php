@@ -214,6 +214,11 @@ class eZPageData
                         $pageData['left_menu']  = false;
                         $pageData['extra_menu'] = false;
                     }
+                    else if( strpos($reqUriString, 'content/versionview') === 0 )
+                    {
+                        $pageData['left_menu']  = false;
+                        $pageData['extra_menu'] = false;
+                    }
                     else if ( !$currentNodeId || $uiContext === 'browse' )
                     {
                         $pageData['left_menu']  = false;
