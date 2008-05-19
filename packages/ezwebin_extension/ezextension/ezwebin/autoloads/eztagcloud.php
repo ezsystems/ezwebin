@@ -58,15 +58,25 @@ class eZTagCloud
                         $parentNodeIDSQL = "AND ezcontentobject_tree.node_id != " . (int)$parentNodeID;
                     }
 
-                    $languageFilter = "AND " . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
+                    $showInvisibleNodesCond = eZContentObjectTreeNode::createShowInvisibleSQLString( true, false );
+                    $limitation = false;
+                    $limitationList = eZContentObjectTreeNode::getLimitationList( $limitation );
+                    $sqlPermissionChecking = eZContentObjectTreeNode::createPermissionCheckingSQL( $limitationList );
 
+                    $versionNameJoins = " AND ezcontentobject_tree.contentobject_id = ezcontentobject_name.contentobject_id AND
+                                                ezcontentobject_tree.contentobject_version = ezcontentobject_name.content_version AND ";
+                    $languageFilter = " AND " . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
+                    $versionNameJoins .= eZContentLanguage::sqlFilter( 'ezcontentobject_name', 'ezcontentobject' );
+                    
                     $rs = $db->arrayQuery( "SELECT DISTINCT ezkeyword.keyword
                                             FROM ezkeyword,
                                                 ezkeyword_attribute_link,
                                                 ezcontentobject,
+                                                ezcontentobject_name,
                                                 ezcontentobject_attribute,
                                                 ezcontentobject_tree,
                                                 ezcontentclass
+                                                $sqlPermissionChecking[from]
                                             WHERE ezkeyword.id = ezkeyword_attribute_link.keyword_id
                                                 AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
                                                 AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
@@ -79,14 +89,17 @@ class eZTagCloud
                                                 $pathString
                                                 $parentNodeIDSQL
                                                 $classIdentifierSQL
+                                                $showInvisibleNodesCond
+                                                $sqlPermissionChecking[where]
                                                 $languageFilter
+                                                $versionNameJoins
                                             ORDER BY ezkeyword.keyword ASC" );
 
                     include_once ('lib/ezutils/classes/ezfunctionhandler.php');
 
                     foreach( $rs as $row )
                     {
-                        $tags[$row['keyword']] = eZFunctionHandler::execute( 'content', 'keyword_count', array( 'alphabet' => $row['keyword'] ) );
+                        $tags[$row['keyword']] = eZFunctionHandler::execute( 'content', 'keyword_count', array( 'alphabet' => $row['keyword'], 'strict_matching' => true ) );
                     }
 
                     $maxFontSize = 200;
