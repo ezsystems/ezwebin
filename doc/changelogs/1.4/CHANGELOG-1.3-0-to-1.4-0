@@ -6,3 +6,4 @@ Changes from 1.3-0 to 1.4-0
 - Added enhancement #12822: Links to user/register should not be displayed if user/register is disabled
 - Added enhancement #12826: Forum: Should not link to notifications if user doesn't have access to adding notifications
 - Fixed bug #012928: eztagcloud does not look for permissions
+- Added enhancement #013051: Add language priority check and permission filter to ezkeywordlist tpl operator
