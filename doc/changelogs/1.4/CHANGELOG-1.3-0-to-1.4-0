@@ -8,3 +8,4 @@ Changes from 1.3-0 to 1.4-0
 - Fixed bug #012928: eztagcloud does not look for permissions
 - Added enhancement #013051: Add language priority check and permission filter to ezkeywordlist tpl operator
 - Fixed bug #012905: ezwebin notification settings template
+- Fixed bug #011482: ezarchive operator - month list is in wrong order
