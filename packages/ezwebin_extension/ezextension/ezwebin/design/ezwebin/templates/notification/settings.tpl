@@ -24,7 +24,7 @@
 
 <br />
 
-{include handler=$handler view_parameters=$view_parameters uri=concat( 'design:notification/handler/', $handlers.ezsubtree.id_string, '/settings/edit.tpl' )}
+{include handler=$handlers.ezsubtree view_parameters=$view_parameters uri=concat( 'design:notification/handler/', $handlers.ezsubtree.id_string, '/settings/edit.tpl' )}
 
 </form>
 
