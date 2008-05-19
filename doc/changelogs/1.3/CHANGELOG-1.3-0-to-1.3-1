@@ -6,3 +6,5 @@ Changes from 1.3-0 to 1.3-1
   (Merged from trunk (1.4-0) rev. 2506)
 - Fixed bug #12162: HostMatchMapItems is not set correctly after installation
   (Merged from trunk (1.4-0) rev. 2784)
+- Fixed bug #012928: eztagcloud does not look for permissions
+  (Merged from trunk (1.4-0) rev. 2911)
