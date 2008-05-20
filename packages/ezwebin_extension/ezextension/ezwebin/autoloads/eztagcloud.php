@@ -33,6 +33,7 @@ class eZTagCloud
                     $tags = array();
                     $tagCloud = array();
                     $parentNodeID = 0;
+                    $classID = '';
                     $classIdentifier = '';
                     $classIdentifierSQL = '';
                     $pathString = '';
@@ -48,7 +49,12 @@ class eZTagCloud
                     $db = eZDB::instance();
 
                     if( $classIdentifier )
+                    {
+                        $class = eZContentClass::fetchByIdentifier( $classIdentifier );
+                        if ( $class )
+                            $classID = $class->attribute( 'id' );
                         $classIdentifierSQL = "AND ezcontentclass.identifier = '" . $classIdentifier . "'";
+                    }
 
                     if( $parentNodeID )
                     {
@@ -99,7 +105,9 @@ class eZTagCloud
 
                     foreach( $rs as $row )
                     {
-                        $tags[$row['keyword']] = eZFunctionHandler::execute( 'content', 'keyword_count', array( 'alphabet' => $row['keyword'], 'strict_matching' => true ) );
+                        $tags[$row['keyword']] = eZFunctionHandler::execute( 'content', 'keyword_count', array( 'alphabet' => $row['keyword'], 
+                                                                                                                'strict_matching' => true,
+                                                                                                                'classid' => $classID  ) );
                     }
 
                     $maxFontSize = 200;
