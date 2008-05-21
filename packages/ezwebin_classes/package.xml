@@ -124,6 +124,9 @@
       <provide type="ezcontentclass"
                name="contentclass"
                value="forums" />
+      <provide type="ezcontentclass"
+               name="contentclass"
+               value="silverlight" />
     </provides>
     <requires />
     <obsoletes />
@@ -208,6 +211,9 @@
     <item type="ezcontentclass"
           filename="class-forums"
           sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-silverlight"
+          sub-directory="ezcontentclass" />
   </install>
   <uninstall>
     <item type="ezcontentclass"
@@ -287,6 +293,9 @@
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-forums"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-silverlight"
           sub-directory="ezcontentclass" />
   </uninstall>
 </package>
