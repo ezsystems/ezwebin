@@ -1828,6 +1828,16 @@ class eZWebinInstaller extends eZSiteInstaller
                         'class_identifier'=>'real_video'
                         )
                         ),
+                'full_silverlight'=>
+                        array(
+                        'Source'=>'node/view/full.tpl',
+                        'MatchFile'=>'full/silverlight.tpl',
+                        'Subdir'=>'templates',
+                        'Match'=>
+                        array(
+                        'class_identifier'=>'silverlight'
+                        )
+                        ),
                 'full_windows_media'=>
                         array(
                         'Source'=>'node/view/full.tpl',
@@ -2086,6 +2096,16 @@ class eZWebinInstaller extends eZSiteInstaller
                         'Match'=>
                         array(
                         'class_identifier'=>'product'
+                        )
+                        ),
+                'line_silverlight'=>
+                        array(
+                        'Source'=>'node/view/line.tpl',
+                        'MatchFile'=>'line/silverlight.tpl',
+                        'Subdir'=>'templates',
+                        'Match'=>
+                        array(
+                        'class_identifier'=>'silverlight'
                         )
                         ),
                 'line_quicktime'=>
