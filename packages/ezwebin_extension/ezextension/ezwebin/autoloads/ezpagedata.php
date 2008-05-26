@@ -114,8 +114,8 @@ class eZPageData
 
                     /*
                       RootNodeDepth is a setting for letting you have a very simple multisite, single database setup.
-                      The content of the menues will be the same on all system pages like user/login
-                      and when you surf bellow the defined page_root_depth.
+                      The content of the menues will be the same on all system pages like user/login, content/edit 
+                      and so on, and also when you surf bellow the defined page_root_depth.
                       The sites will also share siteaccess and thus also the same ez publish design and templates.
                       You can however custimize the design with css using the class on div#page html output:
                       subtree_level_x_node_id_y class
@@ -157,8 +157,8 @@ class eZPageData
                     }
 
                     $viewMode = '';
-                    $persistentVariable = array();
-                    $pageData['show_path'] = true;
+                    $persistent = array();
+                    $pageData['show_path'] = 'path';
                     $pageData['website_toolbar'] = false;
                     $pageData['persistent_variable'] = array();
                     if (  isset( $pageData['content_info']['viewmode'] ) )
@@ -168,18 +168,21 @@ class eZPageData
 
                     if ( isset( $pageData['content_info']['persistent_variable'] ) )
                     {
-                        $persistentVariable = $pageData['content_info']['persistent_variable'];
-                        $pageData['persistent_variable'] = $persistentVariable;
+                        $persistent = $pageData['content_info']['persistent_variable'];
+                        $pageData['persistent_variable'] = $persistent;
                     }
 
-                    if ( isset( $persistentVariable['show_path'] ) )
+                    if ( isset( $persistent['show_path'] ) )
                     {
-                        $pageData['show_path'] = $persistentVariable['show_path'];
+                        $pageData['show_path'] = $persistent['show_path'] === true ? 'path' : $persistent['show_path'];
+                    }
+                    else if ( $viewMode === 'sitemap' || $viewMode === 'tagcloud' )
+                    {
+                        $pageData['show_path'] = false;
                     }
 
                     if ( $viewMode === 'sitemap' || $viewMode === 'tagcloud' )
                     {
-                        $pageData['show_path'] = false;
                         $pageData['website_toolbar'] = false;
                     }
                     else if ( $tpl->hasVariable('current_user') )
@@ -194,19 +197,38 @@ class eZPageData
                     $pageData['current_menu'] = $menuIni->variable('SelectedMenu', 'CurrentMenu');
                     $pageData['extra_menu']   = 'extra_info';
 
-                    if ( isset( $persistentVariable['left_menu'] ) )
+                    if ( $menuIni->hasVariable('MenuSettings', 'HideLeftMenuClasses') )
                     {
-                        $pageData['left_menu'] = $persistentVariable['left_menu'];
+                        $hideMenuClasses = $menuIni->variable('MenuSettings', 'HideLeftMenuClasses');
+                    }
+                    else
+                    {
+                        $hideMenuClasses = array();
                     }
 
-                    if ( isset( $persistentVariable['extra_menu'] ) )
+                    if ( isset( $persistent['left_menu'] ) )
                     {
-                        $pageData['extra_menu'] = $persistentVariable['extra_menu'];
+                        if ( $persistent['left_menu'] !== true )
+                            $pageData['left_menu'] = $persistent['left_menu'];
+                    }
+                    else if ( in_array( $pageData['content_info']['class_identifier'], $hideMenuClasses ) )
+                    {
+                        $pageData['left_menu'] = false;
                     }
 
-                    if ( isset( $persistentVariable['top_menu'] ) )
+                    if ( isset( $persistent['extra_menu'] ) )
                     {
-                        $pageData['top_menu'] = $persistentVariable['top_menu'];
+                       if ( $persistent['extra_menu'] !== true )
+                            $pageData['extra_menu'] = $persistent['extra_menu'];
+                    }
+                    else if ( in_array( $pageData['content_info']['class_identifier'], $hideMenuClasses ) )
+                    {
+                        $pageData['extra_menu'] = false;
+                    }
+
+                    if ( isset( $persistent['top_menu'] ) && $persistent['top_menu'] !== true )
+                    {
+                        $pageData['top_menu'] = $persistent['top_menu'];
                     }
 
                     if ( $pageData['is_edit'] && strpos($reqUriString, 'content/versionview') === false )
@@ -220,13 +242,6 @@ class eZPageData
                         $pageData['extra_menu'] = false;
                     }
                     else if ( !$currentNodeId || $uiContext === 'browse' )
-                    {
-                        $pageData['left_menu']  = false;
-                        $pageData['extra_menu'] = false;
-                    }
-                    // Depricated: Use persistant variable instead since it's more flexible                
-                    else if ( $menuIni->hasVariable('MenuSettings', 'HideLeftMenuClasses') &&
-                              in_array( $pageData['content_info']['class_identifier'], $menuIni->variable('MenuSettings', 'HideLeftMenuClasses') ))
                     {
                         $pageData['left_menu']  = false;
                         $pageData['extra_menu'] = false;

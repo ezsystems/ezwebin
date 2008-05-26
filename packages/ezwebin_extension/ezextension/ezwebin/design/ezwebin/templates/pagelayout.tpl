@@ -148,7 +148,7 @@
   {if $pagedata.show_path}
   <!-- Path area: START -->
   <div id="path">
-    {include uri='design:parts/path.tpl'}
+    {include uri=concat('design:parts/', $pagedata.show_path, '.tpl')}
   </div>
   <!-- Path area: END -->
   {/if}
