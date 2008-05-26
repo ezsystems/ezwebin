@@ -113,7 +113,7 @@ class eZPageData
                     $pageData['root_node']      = (int) $contentIni->variable( 'NodeSettings', 'RootNode' );
 
                     /*
-                      RootNodeDepth is a setting for letting you have a very simple multisite, single database setup.
+                      RootNodeDepth is a setting for letting you have a very simple multisite, single database and singe siteaccess setup.
                       The content of the menues will be the same on all system pages like user/login, content/edit 
                       and so on, and also when you surf bellow the defined page_root_depth.
                       The sites will also share siteaccess and thus also the same ez publish design and templates.
