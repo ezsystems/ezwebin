@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6
     font-family: "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
 }
 
-li
+ul li
 {
     background-image: url(images/ul_bullet.gif);
 }
