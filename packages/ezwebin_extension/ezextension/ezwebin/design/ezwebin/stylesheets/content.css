@@ -2,6 +2,17 @@
 
 /* This stylesheet should contain all styles for content class templates */
 
+/* LIST */
+
+ul li
+{
+    padding-left: 14px;
+    background-image: url(../images/bullet_list.png);
+    background-repeat: no-repeat;
+    background-position: 0 0.4em;
+    list-style-type: none;
+}
+
 /* Translation */
 
 div.block div.original
