@@ -2460,9 +2460,8 @@ div#ezagenda_calendar_right table.ezagenda_month_event
 table.ezagenda_month_event td.ezagenda_month_label
 {
     vertical-align: top;
-    padding-left: 7px;
-    padding-right: 7px;
-    width: 50px;
+    padding: 0;
+    width: 70px;
 }
 
 table.ezagenda_month_event td.ezagenda_month_label h2
@@ -2472,18 +2471,19 @@ table.ezagenda_month_event td.ezagenda_month_label h2
     color:#979797;
     font-size: 1.8em;
     font-weight: normal;
-    background-color: #eeeee5;
-    width: 39px;
-    margin-top: 9px;
-    background-image:url(../images/date_bg.png);
-    background-position: center bottom;
-    background-repeat: repeat-x;
+    width: 40px;
+    margin: 9px 10px;
+    background: #eeeee5 url(../images/date_bg.png) repeat-x scroll center bottom;
     text-align: center;
+}
+
+table.ezagenda_month_event td.ezagenda_month_label h2 span.ezagenda_month_label_date
+{
+    display: block;
 }
 
 table.ezagenda_month_event td.ezagenda_month_info
 {
-    width: auto;
     vertical-align: top;
     padding-top: 8px;
 }
