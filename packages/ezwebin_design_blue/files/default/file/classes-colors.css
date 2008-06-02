@@ -533,7 +533,7 @@ div#ezagenda_calendar_right table.ezagenda_month_event
 
 div#ezagenda_calendar_right table.ezagenda_month_event td.ezagenda_month_label
 {
-    width: 70px;
+    width: 74px;
     padding: 0;
 }
 
@@ -555,19 +555,14 @@ div#ezagenda_calendar_right table.ezagenda_month_event td.ezagenda_month_info h4
 
 div#ezagenda_calendar_right table.ezagenda_month_event td.ezagenda_month_label h2
 {
-    background-image: url(images/ezagenda_month_label_bg.jpg);
-    background-position: 2px 0px;
+    background: #FFF url(images/ezagenda_month_label_bg.jpg) no-repeat scroll 2px 0px;
     width: 64px;
     height: 62px;
-    background-repeat: no-repeat;
-    background-color: #FFFFFF;
     border: none;
-    padding: 0;
-    padding-top: 1em;
+    margin-left: 0;
+    padding: 1em 0 0 0;
     color: #FFFFFF;
     font-weight: normal;
-    padding-left: 0;
-    padding-bottom: -1em;
 }
 
 div#ezagenda_calendar_right table.ezagenda_month_event td.ezagenda_month_label h2 span.ezagenda_month_label_date
