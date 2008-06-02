@@ -211,7 +211,7 @@ class eZPageData
                         if ( $persistent['left_menu'] !== true )
                             $pageData['left_menu'] = $persistent['left_menu'];
                     }
-                    else if ( in_array( $pageData['content_info']['class_identifier'], $hideMenuClasses ) )
+                    else if ( isset( $pageData['content_info']['class_identifier'] ) && in_array( $pageData['content_info']['class_identifier'], $hideMenuClasses ) )
                     {
                         $pageData['left_menu'] = false;
                     }
@@ -221,7 +221,7 @@ class eZPageData
                        if ( $persistent['extra_menu'] !== true )
                             $pageData['extra_menu'] = $persistent['extra_menu'];
                     }
-                    else if ( in_array( $pageData['content_info']['class_identifier'], $hideMenuClasses ) )
+                    else if ( isset( $pageData['content_info']['class_identifier'] ) && in_array( $pageData['content_info']['class_identifier'], $hideMenuClasses ) )
                     {
                         $pageData['extra_menu'] = false;
                     }
