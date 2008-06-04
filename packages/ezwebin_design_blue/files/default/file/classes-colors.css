@@ -1110,6 +1110,11 @@ div.attribute-tipafriend
 
 /* Comment */
 
+div.content-view-line div.class-comment div.attribute-byline p.date
+{
+    border: none;
+}
+
 div.content-view-line div.class-comment div.attribute-byline p.author
 {
     border-right: none;
