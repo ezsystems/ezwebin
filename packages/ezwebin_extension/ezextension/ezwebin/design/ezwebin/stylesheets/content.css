@@ -984,6 +984,42 @@ div.content-view-full div.class-comment div.attribute-byline
     display: block;
 }
 
+div.content-view-line div.class-comment
+{
+    border: 1px solid #EAE8E1;
+    padding: 0.5em 0.5em 0.25em 0.5em;
+    margin: 1em 0 1em 0;
+}
+
+div.content-view-line div.class-comment div.attribute-byline
+{
+    background: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+div.content-view-line div.class-comment p.author
+{
+    float: right;
+    clear: right;
+    width: 48%;
+    display: block;
+    text-align: right;
+    margin-top: -0.1em;
+    font-style: italic;
+}
+
+div.content-view-line div.class-comment p.date
+{
+    float: left;
+    clear: left;
+    width: 48%;
+    display: block;
+    margin: 0 0.2em 0 0.2em;
+    color: #CCCCCC;
+    font-size: 0.9em;
+}
+
 /* ARTICLE (main-page)*/
 
 div.content-view-full div.class-article-mainpage div.attribute-short
@@ -1339,51 +1375,6 @@ div.content-view-line div.class-file div.attribute-file
 div.content-view-line div.class-file
 {
     margin-bottom: 2em;
-}
-
-/* COMMENT */
-
-div.content-view-line div.class-comment h3
-{
-    margin-top: 0.5em;
-}
-
-div.content-view-line div.class-comment
-{
-    border: 1px solid #EAE8E1;
-    padding: 0 0.5em 0.25em 0.5em;
-    margin: 1em 0 1em 0;
-}
-
-div.content-view-line div.class-comment div.attribute-byline
-{
-    background: none;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    display: inline;
-}
-
-div.content-view-line div.class-comment p.author
-{
-    float: right;
-    clear: right;
-    width: 48%;
-    display: block;
-    text-align: right;
-    margin-top: -0.1em;
-    font-style: italic;
-}
-
-div.content-view-line div.class-comment p.date
-{
-    float: left;
-    clear: left;
-    width: 48%;
-    display: block;
-    margin: 0 0.2em 0 0.2em;
-    display: inline;
-    color: #CCCCCC;
-    font-size: 0.9em;
 }
 
 /* INFOBOX */

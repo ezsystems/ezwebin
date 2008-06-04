@@ -3,12 +3,11 @@
 <div class="content-view-line">
     <div class="class-comment">
 
-    <h3>{$node.name|wash}</h3>
+    <h2>{$node.name|wash}</h2>
 
-    <div class="attribute-byline">
-        <p class="author">{$node.data_map.author.content|wash}</p>
+    <div class="attribute-byline float-break">
         <p class="date">{$node.object.published|l10n(datetime)}</p>
-        <div class="break"></div>
+        <p class="author">{$node.data_map.author.content|wash}</p>
     </div>
 
     <div class="attribute-message">
