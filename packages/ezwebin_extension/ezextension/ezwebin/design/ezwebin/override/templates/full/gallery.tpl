@@ -26,11 +26,15 @@
         </div>
 
         {def $page_limit=12
-             $children=fetch_alias( children, hash( parent_node_id, $node.node_id,
-                                                   offset, $view_parameters.offset,
-                                                   limit, $page_limit,
-                                                   sort_by, $node.sort_array ) )
-             $children_count=fetch_alias( children_count, hash( parent_node_id, $node.node_id ) )}
+             $children = fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
+                                                         'offset', $view_parameters.offset,
+                                                         'limit', $page_limit,
+                                                         'class_filter_type', 'include',
+                                                         'class_filter_array', array( 'image' ),
+                                                         'sort_by', $node.sort_array ) )
+             $children_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id,
+                                                                     'class_filter_type', 'include',
+                                                                     'class_filter_array', array( 'image' ) ) )}
 
         {if $children|count}
             <div class="attribute-link">
