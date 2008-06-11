@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension name="ezwebin">
   <file name="autoloads" md5sum="" type="dir"/>
-  <file name="ezarchive.php" path="/autoloads" md5sum="a0079f21f9cc7e3faaa8e2a906ec7721"/>
+  <file name="ezarchive.php" path="/autoloads" md5sum="731c8c85bdc8c73f80e5a6a1f20ba5e8"/>
   <file name="ezcreateclasslistgroups.php" path="/autoloads" md5sum="12c6dcdcb9320b159f1882280f2b2c20"/>
-  <file name="ezkeywordlist.php" path="/autoloads" md5sum="05dab3fefcb5c96f29fa2ab78a297234"/>
-  <file name="eztagcloud.php" path="/autoloads" md5sum="a326203b1d5a48131dcbf1fb912bac94"/>
+  <file name="ezkeywordlist.php" path="/autoloads" md5sum="33a4b9b76d2e317156b117e2083c1b34"/>
+  <file name="eztagcloud.php" path="/autoloads" md5sum="136498fda23de4e0a45697fbf311f914"/>
   <file name="eztemplateautoload.php" path="/autoloads" md5sum="13be48e37a2193904012813c74b15314"/>
   <file name="design" md5sum="" type="dir"/>
   <file name="ezwebin" path="/design" md5sum="" type="dir"/>
@@ -294,15 +294,15 @@
   <file name="event_calendar.tpl" path="/design/ezwebin/override/templates/full" md5sum="ca28a612fc9f3cb41fded53b292c66a4"/>
   <file name="feedback_form.tpl" path="/design/ezwebin/override/templates/full" md5sum="21ae62324833f1912ac69d7561019d39"/>
   <file name="file.tpl" path="/design/ezwebin/override/templates/full" md5sum="e465a236b3066c7fbcaebf3c8514647b"/>
-  <file name="flash.tpl" path="/design/ezwebin/override/templates/full" md5sum="f18836e176d33354ae553f9f5b3ada75"/>
+  <file name="flash.tpl" path="/design/ezwebin/override/templates/full" md5sum="84beeefecb637196c1a9b083694c6f39"/>
   <file name="folder.tpl" path="/design/ezwebin/override/templates/full" md5sum="28c5628fbfdd7420961306ffe0549fd4"/>
   <file name="forum.tpl" path="/design/ezwebin/override/templates/full" md5sum="fce75a31751f326c307aeaf2e9bf558f"/>
   <file name="forums.tpl" path="/design/ezwebin/override/templates/full" md5sum="9d28b393c1f23d517131b77d0178741a"/>
   <file name="forum_reply.tpl" path="/design/ezwebin/override/templates/full" md5sum="8cf2647de0582f83269c98962a6178f3"/>
   <file name="forum_topic.tpl" path="/design/ezwebin/override/templates/full" md5sum="e1220a88bec810f6e8e52c8d80edd9cd"/>
   <file name="frontpage.tpl" path="/design/ezwebin/override/templates/full" md5sum="0a47796db156cd2eefaff3b97b95e9d2"/>
-  <file name="gallery.tpl" path="/design/ezwebin/override/templates/full" md5sum="ba5db2009717897e21e312a1aeab1301"/>
-  <file name="image.tpl" path="/design/ezwebin/override/templates/full" md5sum="3560962331c2e388db74e73209d99842"/>
+  <file name="gallery.tpl" path="/design/ezwebin/override/templates/full" md5sum="5f86e8df27426c6bd7110e5ca8bae4d4"/>
+  <file name="image.tpl" path="/design/ezwebin/override/templates/full" md5sum="0fe71059686de2d0feda45c4addec8d5"/>
   <file name="infobox.tpl" path="/design/ezwebin/override/templates/full" md5sum="349e479ec0b47165337cfc81ae6e80ee"/>
   <file name="link.tpl" path="/design/ezwebin/override/templates/full" md5sum="77c0b32eef28fb97bcd009e96ed94db3"/>
   <file name="multicalendar.tpl" path="/design/ezwebin/override/templates/full" md5sum="e549dddec3fa5044394fa3ff514fe337"/>
@@ -333,10 +333,10 @@
   <file name="article_subpage.tpl" path="/design/ezwebin/override/templates/line" md5sum="a12b9295927656caae4fde6cee578f39"/>
   <file name="banner.tpl" path="/design/ezwebin/override/templates/line" md5sum="b860db864c4d25d256ee09998d515685"/>
   <file name="blog.tpl" path="/design/ezwebin/override/templates/line" md5sum="281650cc77c50c68eb63add065904e6b"/>
-  <file name="blog_post.tpl" path="/design/ezwebin/override/templates/line" md5sum="25a4bc0d6cadb82481d5f9f8eea83396"/>
-  <file name="comment.tpl" path="/design/ezwebin/override/templates/line" md5sum="e76d966e1690428b454ddf6cc716d504"/>
+  <file name="blog_post.tpl" path="/design/ezwebin/override/templates/line" md5sum="fada1bd3823720e8adffc10804ebf314"/>
+  <file name="comment.tpl" path="/design/ezwebin/override/templates/line" md5sum="495b3c4b9752b2c30aec3f2b7c4980a8"/>
   <file name="documentation_page.tpl" path="/design/ezwebin/override/templates/line" md5sum="ab9cc62ff01237880f583039043ad605"/>
-  <file name="event.tpl" path="/design/ezwebin/override/templates/line" md5sum="fcb9d92bfb608803b8f2828ac4272dca"/>
+  <file name="event.tpl" path="/design/ezwebin/override/templates/line" md5sum="12a36a8d5b3f876610bdbedd2a24b633"/>
   <file name="event_calendar.tpl" path="/design/ezwebin/override/templates/line" md5sum="a37d6b0b3de1fcfe2a2bf8ae095ecc01"/>
   <file name="feedback_form.tpl" path="/design/ezwebin/override/templates/line" md5sum="326b43007d19af1b4c126042ff3e32ce"/>
   <file name="file.tpl" path="/design/ezwebin/override/templates/line" md5sum="63a28e34a94411b4416009089feb8184"/>
@@ -363,11 +363,11 @@
   <file name="browsers" path="/design/ezwebin/stylesheets" md5sum="" type="dir"/>
   <file name="ie5.css" path="/design/ezwebin/stylesheets/browsers" md5sum="ad0ab504d38a98537a10e1046185dc06"/>
   <file name="ie7lte.css" path="/design/ezwebin/stylesheets/browsers" md5sum="d1371265d701e13972b32ec97d0d782b"/>
-  <file name="content.css" path="/design/ezwebin/stylesheets" md5sum="98ed3f1a7381c11540fdb47be8396ac9"/>
-  <file name="core.css" path="/design/ezwebin/stylesheets" md5sum="38bbba2a163361f720534ba37fb9ddd5"/>
+  <file name="content.css" path="/design/ezwebin/stylesheets" md5sum="54adfa2ca43a132e06a8da6a7c5b25cf"/>
+  <file name="core.css" path="/design/ezwebin/stylesheets" md5sum="4cd1c822a21ed745f5106bf08e29c47e"/>
   <file name="ezdhtml" path="/design/ezwebin/stylesheets" md5sum="" type="dir"/>
   <file name="toolbar.css" path="/design/ezwebin/stylesheets/ezdhtml" md5sum="76adb7e9a433629038af1eb9f11f2006"/>
-  <file name="pagelayout.css" path="/design/ezwebin/stylesheets" md5sum="2efd4c0dc8d5be5917346d97a87d1944"/>
+  <file name="pagelayout.css" path="/design/ezwebin/stylesheets" md5sum="6cd9490d23176d751c261ff0f3296de1"/>
   <file name="print.css" path="/design/ezwebin/stylesheets" md5sum="8a95a4d4367134092dbb75d121ce845d"/>
   <file name="websitetoolbar.css" path="/design/ezwebin/stylesheets" md5sum="a5ebfdf35704df2041cca1c25656f5c2"/>
   <file name="yui" path="/design/ezwebin/stylesheets" md5sum="" type="dir"/>
@@ -427,7 +427,7 @@
   <file name="ezodf" path="/design/ezwebin/templates" md5sum="" type="dir"/>
   <file name="browse_place.tpl" path="/design/ezwebin/templates/ezodf" md5sum="7dbe626a2ee321b4eb9c377fc16cd32a"/>
   <file name="export.tpl" path="/design/ezwebin/templates/ezodf" md5sum="32df5dddacce105b98f24cd9a852542f"/>
-  <file name="import.tpl" path="/design/ezwebin/templates/ezodf" md5sum="c0f0fcf2fe11570f1fad5668a3c6bf1b"/>
+  <file name="import.tpl" path="/design/ezwebin/templates/ezodf" md5sum="5b16b531180eb7ccf5eb8f0f8e3dad3f"/>
   <file name="full" path="/design/ezwebin/templates" md5sum="" type="dir"/>
   <file name="event_view_calendar.tpl" path="/design/ezwebin/templates/full" md5sum="3fa277416db41dcb130d2ec4cd4ab6f6"/>
   <file name="event_view_program.tpl" path="/design/ezwebin/templates/full" md5sum="14384c64f3b9b3ec28c5771275f582c0"/>
@@ -456,7 +456,7 @@
   <file name="ezsubtree" path="/design/ezwebin/templates/notification/handler" md5sum="" type="dir"/>
   <file name="settings" path="/design/ezwebin/templates/notification/handler/ezsubtree" md5sum="" type="dir"/>
   <file name="edit.tpl" path="/design/ezwebin/templates/notification/handler/ezsubtree/settings" md5sum="96919537111440224fd2fed3bd566900"/>
-  <file name="settings.tpl" path="/design/ezwebin/templates/notification" md5sum="54a1e6d8080ded631cef15e47c8e2055"/>
+  <file name="settings.tpl" path="/design/ezwebin/templates/notification" md5sum="c8e683ed87d6748cdb3c6e762d959712"/>
   <file name="pagelayout.tpl" path="/design/ezwebin/templates" md5sum="f9b292634d7c7e759615986e3029bf9d"/>
   <file name="page_footer.tpl" path="/design/ezwebin/templates" md5sum="e10bebcdd6d43a3bb33244f85704c374"/>
   <file name="parts" path="/design/ezwebin/templates" md5sum="" type="dir"/>
@@ -469,7 +469,7 @@
   <file name="extra_info.tpl" path="/design/ezwebin/templates/parts/blog" md5sum="213676019020ec64b9ced9efa71968bc"/>
   <file name="extra_info.tpl" path="/design/ezwebin/templates/parts" md5sum="a3dba1ce7385f76f38905e2344d8e01c"/>
   <file name="path.tpl" path="/design/ezwebin/templates/parts" md5sum="b8bcf8d39023fd38520f01fb232678c3"/>
-  <file name="website_toolbar.tpl" path="/design/ezwebin/templates/parts" md5sum="c11a68252408dfed80b9efce1eb64ad7"/>
+  <file name="website_toolbar.tpl" path="/design/ezwebin/templates/parts" md5sum="8afc1d67df5d42955ed17e59b301d99b"/>
   <file name="website_toolbar_edit.tpl" path="/design/ezwebin/templates/parts" md5sum="d4e541211f7199484f674c476fc01330"/>
   <file name="website_toolbar_versionview.tpl" path="/design/ezwebin/templates/parts" md5sum="e2685436deb2c28697e87fdb9b0e13cc"/>
   <file name="shop" path="/design/ezwebin/templates" md5sum="" type="dir"/>
@@ -488,7 +488,7 @@
   <file name="activate.tpl" path="/design/ezwebin/templates/user" md5sum="f2da06e4a618249f7908ec845397af5b"/>
   <file name="edit.tpl" path="/design/ezwebin/templates/user" md5sum="4d220e63f07774c5b84c2c4754afaa95"/>
   <file name="forgotpassword.tpl" path="/design/ezwebin/templates/user" md5sum="5da804daa3025e3237ab8aad2b026be7"/>
-  <file name="login.tpl" path="/design/ezwebin/templates/user" md5sum="a03bd50e48b1fe0a95a8207f77691f5b"/>
+  <file name="login.tpl" path="/design/ezwebin/templates/user" md5sum="ccd065e4dea4ff5fc9d21ac2ac93ba8e"/>
   <file name="password.tpl" path="/design/ezwebin/templates/user" md5sum="8ac83b906ddc4f9c2e0f99049ccbc81a"/>
   <file name="register.tpl" path="/design/ezwebin/templates/user" md5sum="c23ca4781da0b1190e17baa7989798a8"/>
   <file name="success.tpl" path="/design/ezwebin/templates/user" md5sum="28c16720bf700d4e267193f3f295845d"/>
