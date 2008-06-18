@@ -1633,7 +1633,7 @@ class eZWebinInstaller extends eZSiteInstaller
                     'JavaScriptList' => array(
                         'insertmedia.js',
                         'yui/build/yahoo-dom-event/yahoo-dom-event.js',
-                        'yui/build/calendar/calendar.js',
+                        'yui/build/calendar/calendar-min.js',
                         'ezdatepicker.js' ) ),
                 'StylesheetSettings' => array(
                     'CSSFileList' => array(
