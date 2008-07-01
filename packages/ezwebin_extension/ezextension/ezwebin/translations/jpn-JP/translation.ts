@@ -1558,6 +1558,13 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/line/silverlight</name>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/windows_media</name>
     <message>
         <source>View movie</source>
@@ -1706,10 +1713,6 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>通知設定</translation>
     </message>
     <message>
-        <source>Store</source>
-        <translation type="obsolete">保存</translation>
-    </message>
-    <message>
         <source>Apply changes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1762,33 +1765,6 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Documentation</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/settings/edit</name>
-    <message>
-        <source>Node notification</source>
-        <translation type="obsolete">ノードの通知</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">名前</translation>
-    </message>
-    <message>
-        <source>Class</source>
-        <translation type="obsolete">クラス</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="obsolete">セクション</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation type="obsolete">選択</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">削除</translation>
     </message>
 </context>
 <context>

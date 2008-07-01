@@ -1566,6 +1566,13 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
     </message>
 </context>
 <context>
+    <name>design/ezwebin/line/silverlight</name>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/windows_media</name>
     <message>
         <source>View movie</source>
@@ -1714,10 +1721,6 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
         <translation>Opciones de notificación</translation>
     </message>
     <message>
-        <source>Store</source>
-        <translation type="obsolete">Almacenar</translation>
-    </message>
-    <message>
         <source>Apply changes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1770,33 +1773,6 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
     <message>
         <source>Import</source>
         <translation>Importar</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/settings/edit</name>
-    <message>
-        <source>Node notification</source>
-        <translation type="obsolete">Notificación de nodo</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Nombre</translation>
-    </message>
-    <message>
-        <source>Class</source>
-        <translation type="obsolete">Clase</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="obsolete">Sección</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation type="obsolete">Seleccionar</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">Eliminar</translation>
     </message>
 </context>
 <context>

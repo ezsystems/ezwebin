@@ -20,6 +20,10 @@
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>%login_link_startLog in%login_link_end to comment.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/blog/calendar</name>
@@ -1470,6 +1474,17 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/line/blog_post</name>
+    <message>
+        <source>View comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/event</name>
     <message>
         <source>Category</source>
@@ -1539,6 +1554,13 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View movie</source>
         <translation>Ver filme</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/silverlight</name>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1690,10 +1712,6 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>Configurações de notificação</translation>
     </message>
     <message>
-        <source>Store</source>
-        <translation type="obsolete">Armazenar</translation>
-    </message>
-    <message>
         <source>Apply changes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1746,33 +1764,6 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Documentation</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/settings/edit</name>
-    <message>
-        <source>Node notification</source>
-        <translation type="obsolete">Notificacão do nó</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Nome</translation>
-    </message>
-    <message>
-        <source>Class</source>
-        <translation type="obsolete">Classe</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="obsolete">Seção</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation type="obsolete">Selecionar</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">Remover</translation>
     </message>
 </context>
 <context>

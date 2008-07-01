@@ -166,10 +166,6 @@
         <translation>Cerca l&apos;espressione esatta</translation>
     </message>
     <message>
-        <source>Search with at least one of the words</source>
-        <translation type="obsolete">Cerca con almeno una parola</translation>
-    </message>
-    <message>
         <source>Published</source>
         <translation>Pubblicato</translation>
     </message>
@@ -232,13 +228,6 @@
     <message>
         <source>Last month</source>
         <translation type="unfinished">Ultimo mese</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/content/advancedsearchh</name>
-    <message>
-        <source>Last month</source>
-        <translation type="obsolete">Ultimo mese</translation>
     </message>
 </context>
 <context>
@@ -679,10 +668,6 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
         <translation>Stato</translation>
     </message>
     <message>
-        <source>Edited language</source>
-        <translation type="obsolete">Lingua modificata</translation>
-    </message>
-    <message>
         <source>Creator</source>
         <translation>Creatore</translation>
     </message>
@@ -805,10 +790,6 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
     <message>
         <source>Back to history</source>
         <translation>Torna alla cronologia</translation>
-    </message>
-    <message>
-        <source>There is no need to do copies of untouched drafts.</source>
-        <translation type="obsolete"></translation>
     </message>
     <message>
         <source>Modified translation</source>
@@ -1578,6 +1559,13 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/line/silverlight</name>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/windows_media</name>
     <message>
         <source>View movie</source>
@@ -1726,10 +1714,6 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>Impostazioni del sistema di notifica</translation>
     </message>
     <message>
-        <source>Store</source>
-        <translation type="obsolete">Registra</translation>
-    </message>
-    <message>
         <source>Apply changes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1782,33 +1766,6 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Import</source>
         <translation>Importa</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/settings/edit</name>
-    <message>
-        <source>Node notification</source>
-        <translation type="obsolete">Notifica nodo</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Nome</translation>
-    </message>
-    <message>
-        <source>Class</source>
-        <translation type="obsolete">Classe</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="obsolete">Sezione</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation type="obsolete">Seleziona</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">Elimina</translation>
     </message>
 </context>
 <context>

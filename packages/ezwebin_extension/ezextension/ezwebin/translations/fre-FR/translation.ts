@@ -1561,6 +1561,13 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/line/silverlight</name>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/windows_media</name>
     <message>
         <source>View movie</source>
@@ -1709,10 +1716,6 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>Paramètres de notification</translation>
     </message>
     <message>
-        <source>Store</source>
-        <translation type="obsolete">Stocker</translation>
-    </message>
-    <message>
         <source>Apply changes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1765,33 +1768,6 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Import</source>
         <translation>Importer</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/settings/edit</name>
-    <message>
-        <source>Node notification</source>
-        <translation type="obsolete">Notification de noeud</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Nom</translation>
-    </message>
-    <message>
-        <source>Class</source>
-        <translation type="obsolete">Classe</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="obsolete">Section</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation type="obsolete">Sélectionner</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">Supprimer</translation>
     </message>
 </context>
 <context>
