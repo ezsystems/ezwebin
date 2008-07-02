@@ -74,7 +74,7 @@ class eZTagCloud
                     $languageFilter = " AND " . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
                     $versionNameJoins .= eZContentLanguage::sqlFilter( 'ezcontentobject_name', 'ezcontentobject' );
                     
-                    $rs = $db->arrayQuery( "SELECT DISTINCT ezkeyword.keyword
+                    $rs = $db->arrayQuery( "SELECT ezkeyword.keyword
                                             FROM ezkeyword,
                                                 ezkeyword_attribute_link,
                                                 ezcontentobject,
@@ -92,6 +92,7 @@ class eZTagCloud
                                                 AND ezcontentobject.status = '".eZContentObject::STATUS_PUBLISHED."'
                                                 AND ezcontentobject_attribute.version = ezcontentobject.current_version
                                                 AND ezcontentobject_tree.main_node_id = ezcontentobject_tree.node_id
+                                                AND ezcontentobject_attribute.contentobject_id = ezcontentobject.id
                                                 $pathString
                                                 $parentNodeIDSQL
                                                 $classIdentifierSQL
