@@ -2483,7 +2483,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
-        <translation>Ihr Benutzerkonto wurde erfolgreich erstellt. Eine Email wird an die angegebene Email gesendet. Bitt folgen Sie den Instruktionen in der Email, um Ihr Benutzerkonto zu aktivieren.</translation>
+        <translation>Ihr Benutzerkonto wurde erfolgreich erstellt. Eine Email wird an die angegebene Email gesendet. Bitte folgen Sie den Instruktionen in der Email, um Ihr Benutzerkonto zu aktivieren.</translation>
     </message>
 </context>
 <context>
