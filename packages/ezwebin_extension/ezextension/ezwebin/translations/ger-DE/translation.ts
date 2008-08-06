@@ -1750,7 +1750,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Subtotal inc. VAT</source>
-        <translation>Zwischensumme ohne MwSt.</translation>
+        <translation>Zwischensumme mit MwSt.</translation>
     </message>
     <message>
         <source>You have no products in your basket.</source>
