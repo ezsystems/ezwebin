@@ -31,8 +31,8 @@ div#header ul li
     list-style-type: none;
     list-style-image: none;
     padding: 0;
-    display: inline;
-    margin-left: 1em;
+    margin: 0;
+    float: left;
 }
 
 div#logo
@@ -61,6 +61,16 @@ div#languages
     font-size: 0.85em;
 }
 
+div#languages ul li
+{
+    margin-left: 8px;
+}
+
+div#languages a
+{
+    padding-right: 2px;
+}
+
 div#links
 {
     background-image: url(../images/header_bg_right.png);
@@ -76,14 +86,17 @@ div#links
     width: 75%;
 }
 
+div#links ul li
+{
+    float: right;
+}
+
 div#links a
 {
     color: #515346;
     border-left: 1px solid #CECEC2;
-    display: block;
-    float: right;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
+    padding-left: 8px;
+    padding-right: 8px;
     height: 18px;
 }
 
