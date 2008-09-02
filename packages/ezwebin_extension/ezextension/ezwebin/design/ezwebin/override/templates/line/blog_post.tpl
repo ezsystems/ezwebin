@@ -18,7 +18,7 @@
         </p>
     </div>
 
-        <div class="attribute-body">
+        <div class="attribute-body float-break">
             {attribute_view_gui attribute=$node.data_map.body}
         </div>
 
