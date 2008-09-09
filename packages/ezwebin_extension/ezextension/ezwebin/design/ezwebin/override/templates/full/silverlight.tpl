@@ -13,7 +13,17 @@
         {attribute_view_gui attribute=$node.data_map.description}
     </div>
 
-    {def $attribute=$node.data_map.file}
+    {def $attribute=$node.data_map.file
+         $width = '100%'
+         $height = '100%'}
+
+    {if $attribute.content.width|gt( 0 )}
+        {set $width = $attribute.content.width}
+    {/if}
+
+    {if $attribute.content.height|gt( 0 )}
+        {set $height = $attribute.content.height}
+    {/if}
 
     {literal}
     <script type="text/javascript">
@@ -24,7 +34,7 @@
 
     <div id="silverlightControlHost">
       <!-- Silverlight plug-in control -->
-        <object data="data:application/x-silverlight," type="application/x-silverlight" {if $attribute.content.width|gt( 0 )}width="{$attribute.content.width}"{/if} {if $attribute.content.height|gt( 0 )}height="{$attribute.content.height}"{/if}>
+        <object data="data:application/x-silverlight," type="application/x-silverlight-2-b2" width="{$width}" height="{$height}">
             <param name="source" value="{concat( "content/download/", $attribute.contentobject_id, "/", $attribute.content.contentobject_attribute_id, "/", $attribute.content.original_filename)|ezurl( 'no' )}" />
             <param name="onError" value="onErrorHandler" />
             <param name="onResize" value="onResizeHandler" />
