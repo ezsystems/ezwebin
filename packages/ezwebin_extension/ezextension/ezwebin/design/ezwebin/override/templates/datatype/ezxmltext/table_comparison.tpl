@@ -1,4 +1,5 @@
-<table {section show=ne($classification|trim,'')}class="{$classification|wash}"{section-else}class="renderedtable"{/section} {section show=ne($border|trim,'')} border="{$border}"{/section} cellpadding="2" cellspacing="0" {section show=ne($width|trim,'')} width="{$width}"{/section}>
+<table class="{$classification|wash}"{if ne($border|trim,'')} border="{$border}"{/if} cellpadding="{first_set($cellpadding, '2')}" cellspacing="0"{if ne($width|trim,'')} width="{$width}"{/if}{if and(is_set( $summary ), $summary)} summary="{$summary|wash}"{/if}{if and(is_set( $title ), $title)} title="{$title|wash}"{/if}{if and(is_set( $align ), $align)} align="{$align|wash}"{/if}>
+{if and(is_set( $caption ), $caption)}<caption>{$caption|wash}</caption>{/if}
 <col class="bgdark" />
 {section loop=$col_count}
 <col class="bglight" />
