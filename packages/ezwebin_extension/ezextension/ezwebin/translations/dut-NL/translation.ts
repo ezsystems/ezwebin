@@ -3,37 +3,37 @@
     <name>design/ezwebin/article/article_index</name>
     <message>
         <source>Article index</source>
-        <translation>Artikel index</translation>
+        <translation>Artikelindex</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/article/comments</name>
     <message>
+        <source>%login_link_startLog in%login_link_end to comment.</source>
+        <translation>%login_link_startMeld u aan%login_link_end om commentaar te geven.</translation>
+    </message>
+    <message>
         <source>Comments</source>
-        <translation>Kommentarer</translation>
+        <translation>Commentaren</translation>
     </message>
     <message>
         <source>New comment</source>
-        <translation>Ny kommentar</translation>
+        <translation>Nieuw commentaar</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_startLog in%login_link_end eller %create_link_startcreate en bruger konto%create_link_end for at kommenterer.</translation>
-    </message>
-    <message>
-        <source>%login_link_startLog in%login_link_end to comment.</source>
-        <translation>%login_link_startLog in%login_link_end to comment.</translation>
+        <translation>%login_link_startMeld u aan%login_link_end of %create_link_startmaak een gebruikersaccount aan%create_link_end om commentaar te geven.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/blog/calendar</name>
     <message>
         <source>Previous month</source>
-        <translation>Sidste måned</translation>
+        <translation>Vorige maand</translation>
     </message>
     <message>
         <source>Next month</source>
-        <translation>Næste måned</translation>
+        <translation>Volgende maand</translation>
     </message>
     <message>
         <source>Calendar</source>
@@ -41,250 +41,250 @@
     </message>
     <message>
         <source>Mon</source>
-        <translation>Man</translation>
+        <translation>Maandag</translation>
     </message>
     <message>
         <source>Tue</source>
-        <translation>Tir</translation>
+        <translation>Dinsdag</translation>
     </message>
     <message>
         <source>Wed</source>
-        <translation>Ons</translation>
+        <translation>Woensdag</translation>
     </message>
     <message>
         <source>Thu</source>
-        <translation>Tor</translation>
+        <translation>Donderdag</translation>
     </message>
     <message>
         <source>Fri</source>
-        <translation>Fre</translation>
+        <translation>Vrijdag</translation>
     </message>
     <message>
         <source>Sat</source>
-        <translation>Lør</translation>
+        <translation>Zaterdag</translation>
     </message>
     <message>
         <source>Sun</source>
-        <translation>Søn</translation>
+        <translation>Zondag</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/blog/extra_info</name>
     <message>
         <source>Tags</source>
-        <translation>Mærker</translation>
+        <translation>Labels</translation>
     </message>
     <message>
         <source>Archive</source>
-        <translation>Arkivere</translation>
+        <translation>Archiveren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfo/form</name>
     <message>
         <source>Form %formname</source>
-        <translation>Formular %formname</translation>
+        <translation>Formulier %formname</translation>
     </message>
     <message>
         <source>Thank you for your feedback.</source>
-        <translation>Tak for din tilbagemelding.</translation>
-    </message>
-    <message>
-        <source>Return to site</source>
-        <translation>Tilbage til hjemmeside</translation>
+        <translation>Dank u voor uw feedback.</translation>
     </message>
     <message>
         <source>You have already submitted this form. The data you entered was:</source>
-        <translation>Du har allerde indsent denne formular. De indtastede data var:</translation>
+        <translation>U heeft dit formulier reeds ingediend. De ingevulde gegevens waren:</translation>
+    </message>
+    <message>
+        <source>Return to site</source>
+        <translation>Terug naar site</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfo/poll</name>
     <message>
         <source>Poll %pollname</source>
-        <translation>Afstemning %pollname</translation>
+        <translation>Poll %pollname</translation>
     </message>
     <message>
         <source>Results</source>
-        <translation>Resultater</translation>
+        <translation>Resultaten</translation>
     </message>
     <message>
         <source>Please log in to vote on this poll.</source>
-        <translation>Log ind for at stemme for denne afstemning.</translation>
+        <translation>Gelieve u aan te melden om in deze poll te stemmen.</translation>
     </message>
     <message>
         <source>You have already voted for this poll.</source>
-        <translation>Du har allerede stemt til denne afstemning.</translation>
+        <translation>U heeft reeds in deze poll gestemd.</translation>
     </message>
     <message>
         <source>Votes</source>
-        <translation>Stemmer</translation>
+        <translation>Stemmen</translation>
     </message>
     <message>
         <source>%count total votes</source>
-        <translation>%count totale stemmer</translation>
+        <translation>%count totaal stemmen</translation>
     </message>
     <message>
         <source>Back to poll</source>
-        <translation>Tilbage til afstemning</translation>
+        <translation>Terug naar poll</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfomail/feedback</name>
     <message>
         <source>Feedback from %1</source>
-        <translation>Feedback fra %1</translation>
+        <translation>Feedback van %1</translation>
     </message>
     <message>
         <source>The following feedback was collected</source>
-        <translation>De følgende feedback var samlet</translation>
+        <translation>De volgende feedback werd verzameld</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfomail/form</name>
     <message>
         <source>Collected information from %1</source>
-        <translation>Indsamler informationer fra %1</translation>
+        <translation>Verzamelde informatie van %1</translation>
     </message>
     <message>
         <source>The following information was collected</source>
-        <translation>De følgede informationer var indsamlet</translation>
+        <translation>De volgende informatie werd verzameld</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/advancedsearch</name>
     <message>
         <source>Advanced search</source>
-        <translation>Avancerede søgning</translation>
+        <translation>Geavanceerd zoeken</translation>
     </message>
     <message>
         <source>Search all the words</source>
-        <translation>Søg efter alle ordene</translation>
+        <translation>Zoek naar alle woorden</translation>
     </message>
     <message>
         <source>Search the exact phrase</source>
-        <translation>Søg efter eksakt frase</translation>
+        <translation>Zoek naar de exacte zin</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Publiceret</translation>
+        <translation>Gepubliceerd</translation>
     </message>
     <message>
         <source>Any time</source>
-        <translation>Når som helst</translation>
+        <translation>Elke tijd</translation>
     </message>
     <message>
         <source>Last day</source>
-        <translation>Sidste døgn</translation>
+        <translation>Laatste dag</translation>
     </message>
     <message>
         <source>Last week</source>
-        <translation>Sidste uge</translation>
-    </message>
-    <message>
-        <source>Last three months</source>
-        <translation>Sidste tre måneder</translation>
-    </message>
-    <message>
-        <source>Last year</source>
-        <translation>Sidste år</translation>
-    </message>
-    <message>
-        <source>Display per page</source>
-        <translation>Vis pr. side</translation>
-    </message>
-    <message>
-        <source>5 items</source>
-        <translation>5 artikler</translation>
-    </message>
-    <message>
-        <source>10 items</source>
-        <translation>10 artikler</translation>
-    </message>
-    <message>
-        <source>20 items</source>
-        <translation>20 artikler</translation>
-    </message>
-    <message>
-        <source>30 items</source>
-        <translation>30 artikler</translation>
-    </message>
-    <message>
-        <source>50 items</source>
-        <translation>50 artikler</translation>
-    </message>
-    <message>
-        <source>Search</source>
-        <translation>Søg</translation>
-    </message>
-    <message>
-        <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation>Ingen resultater blev fundet ved søg etter &quot;%1&quot;</translation>
-    </message>
-    <message>
-        <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation>Søg efter &quot;%1&quot; gav %2 resultater</translation>
+        <translation>Vorige week</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Sidste måned</translation>
+        <translation>Vorige maand</translation>
+    </message>
+    <message>
+        <source>Last three months</source>
+        <translation>Laatste drie maanden</translation>
+    </message>
+    <message>
+        <source>Last year</source>
+        <translation>Vorig jaar</translation>
+    </message>
+    <message>
+        <source>Display per page</source>
+        <translation>Per pagina weergeven</translation>
+    </message>
+    <message>
+        <source>5 items</source>
+        <translation>5 items</translation>
+    </message>
+    <message>
+        <source>10 items</source>
+        <translation>10 items</translation>
+    </message>
+    <message>
+        <source>20 items</source>
+        <translation>20 items</translation>
+    </message>
+    <message>
+        <source>30 items</source>
+        <translation>30 items</translation>
+    </message>
+    <message>
+        <source>50 items</source>
+        <translation>50 items</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Zoeken</translation>
+    </message>
+    <message>
+        <source>No results were found when searching for &quot;%1&quot;</source>
+        <translation>Geen resultaten gevonden bij het zoeken naar &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Search for &quot;%1&quot; returned %2 matches</source>
+        <translation>Zoek naar &quot;%1&quot; leverde %2 resultaten op</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/browse</name>
     <message>
         <source>Browse</source>
-        <translation>Gennemse</translation>
+        <translation>Bladeren</translation>
     </message>
     <message>
         <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the &quot;Select&quot; button.</source>
-        <translation>For at vælge et objekt, klik på den rette radioknappen eller afkrydsningsboksen, og klik &quot;Vælg&quot; knappen.</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>Tilbage</translation>
-    </message>
-    <message>
-        <source>Top level</source>
-        <translation>Topniveau</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Vælg</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Afbrud</translation>
+        <translation>Om objecten te selecteren, kies de passende radioknop of checkbox(es) en klik op de &quot;Selecteren&quot;-knop.</translation>
     </message>
     <message>
         <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
-        <translation>For at vælge et objekt, der er et underobjekt af en af de synlige objekter, klik på hovedobjektes navn for at vise listen med dets underobjekter.</translation>
+        <translation>Om een object te selecteren dat een onderliggend knooppunt is van één van de weergegeven objecten, klik op de bovenliggende objectnaam om een lijst van de onderliggende knooppunten weer te geven.</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Terug</translation>
+    </message>
+    <message>
+        <source>Top level</source>
+        <translation>Kopniveau</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Selecteren</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annuleren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/browse_mode_list</name>
     <message>
+        <source>Invert selection</source>
+        <translation>Selectie omkeren</translation>
+    </message>
+    <message>
         <source>Name</source>
-        <translation>Navn</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <source>Type</source>
         <translation>Type</translation>
-    </message>
-    <message>
-        <source>Invert selection</source>
-        <translation>Onvendt valg</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation>År</translation>
+        <translation>Jaar</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>Måned</translation>
+        <translation>Maand</translation>
     </message>
     <message>
         <source>Day</source>
@@ -292,22 +292,22 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation>Time</translation>
+        <translation>Uur</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minut</translation>
+        <translation>Minuut</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Versioner af %object_name [%version_count]</translation>
+        <translation>Versies voor &lt;%object_name&gt; (%version_count)</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Version</translation>
+        <translation>Versie</translation>
     </message>
     <message>
         <source>Status</source>
@@ -315,92 +315,96 @@
     </message>
     <message>
         <source>Translations</source>
-        <translation>Oversættelser</translation>
+        <translation>Vertalingen</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Oprettet af</translation>
+        <translation>Creator</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>ændret</translation>
+        <translation>Gewijzigd</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>Udkast</translation>
+        <translation>Concept</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Publiceret</translation>
+        <translation>Gepubliceerd</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>Venter</translation>
+        <translation>In behandeling</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>Arkiveret</translation>
+        <translation>Gearchiveerd</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>Forkastet</translation>
+        <translation>Verworpen</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>Urørt udkast</translation>
+        <translation>Onaangeroerd concept</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Dette objektet har ingen versioner.</translation>
+        <translation>Dit object heeft geen versies.</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>Vis forskellen</translation>
+        <translation>Verschillen weergeven</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Forskellen mellem versionerne %oldVersion og %newVersion</translation>
+        <translation>Verschillen tussen versies %oldVersion en %newVersion</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>Gammel version</translation>
+        <translation>Oude versie</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>Linje ændringer</translation>
+        <translation>Inline wijzigingen</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>Afsnit ændringer</translation>
+        <translation>Wijzigingen blokkeren</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>Ny version</translation>
+        <translation>Nieuwe versie</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/draft</name>
     <message>
         <source>Select all</source>
-        <translation>Vælg alt</translation>
+        <translation>Selecteer alles</translation>
     </message>
     <message>
         <source>Deselect all</source>
-        <translation>Vælg ingen</translation>
+        <translation>Deselecteer alles</translation>
     </message>
     <message>
         <source>My drafts</source>
-        <translation>Mine udkast</translation>
+        <translation>Mijn concepten</translation>
+    </message>
+    <message>
+        <source>Empty draft</source>
+        <translation>Leeg concept</translation>
     </message>
     <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation>Dette er den ting du er i gang med at redigere. Udkastene ændret af dig og kan kun ses af dig.
-Du kan redigere udkastene, eller fjerne dem hvis du ikke har behov for dem længere.</translation>
+        <translation>Dit zijn de objecten waarmee u momenteel werkt. U bent de eigenaar van de concepten en deze kunnen enkel door u gezien worden.
+      U kunt ofwel de concepten bewerken of verwijderen indien u ze niet meer nodig heeft.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Navn</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <source>Class</source>
@@ -408,403 +412,399 @@ Du kan redigere udkastene, eller fjerne dem hvis du ikke har behov for dem læng
     </message>
     <message>
         <source>Section</source>
-        <translation>Sektion</translation>
+        <translation>Sectie</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Version</translation>
+        <translation>Versie</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation>Sprog</translation>
+        <translation>Taal</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation>Sidst ændret</translation>
+        <translation>Laatst gewijzigd</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Rediger</translation>
+        <translation>Bewerken</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Fjern</translation>
+        <translation>Verwijderen</translation>
     </message>
     <message>
         <source>You have no drafts</source>
-        <translation>Du har ingen udkast</translation>
-    </message>
-    <message>
-        <source>Empty draft</source>
-        <translation>Tom udkast</translation>
+        <translation>U heeft geen concepten</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
     <message>
-        <source>Manage versions</source>
-        <translation>Redigér versioner</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation>Gem og afslut</translation>
-    </message>
-    <message>
-        <source>Preview</source>
-        <translation>Vis udkast</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation>Oversat</translation>
-    </message>
-    <message>
         <source>Edit %1 - %2</source>
-        <translation>Redigér %1 - %2</translation>
-    </message>
-    <message>
-        <source>Send for publishing</source>
-        <translation>Send til publicering</translation>
-    </message>
-    <message>
-        <source>Store draft</source>
-        <translation>Gem udkast</translation>
-    </message>
-    <message>
-        <source>Discard draft</source>
-        <translation>Kasseret udkast</translation>
-    </message>
-    <message>
-        <source>Translate from</source>
-        <translation>Oversat fra</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>Dokumentation</translation>
+        <translation>Bewerk %1 - %2</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
-        <translation>Oversætter indhold fra %from_lang til %to_lang</translation>
+        <translation>Vertaal inhoud van %from_lang naar %to_lang</translation>
     </message>
     <message>
         <source>Content in %language</source>
-        <translation>Indhold i %language</translation>
+        <translation>Inhoud in %language</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Verzend voor publicatie</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Concept opslaan</translation>
+    </message>
+    <message>
+        <source>Discard draft</source>
+        <translation>Concept verwerpen</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Beheer versies</translation>
+    </message>
+    <message>
+        <source>Store and exit</source>
+        <translation>Opslaan en afsluiten</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Voorbeeld</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Vertaal van</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Vertalen</translation>
+    </message>
+    <message>
+        <source>Documentation</source>
+        <translation>Documentatie</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_attribute</name>
     <message>
         <source>Not translatable</source>
-        <translation>Kun ikke oversættes</translation>
+        <translation>Niet te vertalen</translation>
     </message>
     <message>
         <source>Required</source>
-        <translation>Nødvendig</translation>
+        <translation>Vereist</translation>
     </message>
     <message>
         <source>Information collector</source>
-        <translation>Informations samler</translation>
+        <translation>Informatieverzamelaar</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_draft</name>
     <message>
         <source>The currently published version is %version and was published at %time.</source>
-        <translation>Den nuværende publicerede version er %version og blev publiceret %time.</translation>
+        <translation>De huidige gepubliceerde versie is %version en was gepubliceerd op %time.</translation>
     </message>
     <message>
         <source>The last modification was done at %modified.</source>
-        <translation>Sidste ændring blev gjort %modified.</translation>
+        <translation>De laatste wijziging werd gemaakt op %modified.</translation>
     </message>
     <message>
         <source>The object is owned by %owner.</source>
-        <translation>Dette objektet ejes af %owner.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by you.
-        You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Objektet bliver allerede redigeret af dig selv. 
-Du kan enten forsætte med at redigerer et af dine udkast eller du kan oprette et nyt udkast.</translation>
-    </message>
-    <message>
-        <source>Current drafts</source>
-        <translation>Eksisterende udkast</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Version</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>Navn</translation>
-    </message>
-    <message>
-        <source>Owner</source>
-        <translation>Ejer</translation>
-    </message>
-    <message>
-        <source>Created</source>
-        <translation>Oprettet</translation>
-    </message>
-    <message>
-        <source>Last modified</source>
-        <translation>Sidst endret</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Redigér</translation>
-    </message>
-    <message>
-        <source>New draft</source>
-        <translation>Nyt udkast</translation>
+        <translation>Het object is eigendom van %owner.</translation>
     </message>
     <message>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Objektet bliver allerede redigeret af dig selv. 
-Du kan enten forsætte med at redigerer et af dine udkast eller du kan oprette et nyt udkast.</translation>
+        <translation>Dit object werd reeds bewerkt door uzelf of anderen.
+    U kunt ofwel één van uw concepten verder bewerken of u kunt een nieuw concept aanmaken.</translation>
+    </message>
+    <message>
+        <source>This object is already being edited by you.
+        You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation>Dit object werd reeds bewerkt door uzelf.
+    U kunt ofwel één van uw concepten verder bewerken of u kunt een nieuw concept aanmaken.</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation>Objektet bliver allerede redigeret af dig selv. 
-Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt udkast.</translation>
+        <translation>Dit object werd reeds bewerkt door iemand anders.
+    U moet ofwel de persoon contacteren i.v.m. het concept of een nieuw concept voor eigen gebruik aanmaken.</translation>
+    </message>
+    <message>
+        <source>Current drafts</source>
+        <translation>Huidige concepten</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versie</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Naam</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eigenaar</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Aangemaakt</translation>
+    </message>
+    <message>
+        <source>Last modified</source>
+        <translation>Laatst gewijzigd</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bewerken</translation>
+    </message>
+    <message>
+        <source>New draft</source>
+        <translation>Nieuw concept</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_languages</name>
     <message>
         <source>Existing languages</source>
-        <translation>Eksisterende sprog</translation>
-    </message>
-    <message>
-        <source>New languages</source>
-        <translation>Nye sprog</translation>
-    </message>
-    <message>
-        <source>You do not have permission to edit the object in any available languages.</source>
-        <translation>Du har ikke tilladelse til at redigere objektet i nogen tilgængelig sprog.</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Redigér</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Afbrud</translation>
+        <translation>Bestaande talen</translation>
     </message>
     <message>
         <source>Select the language you want to use when editing the object.</source>
-        <translation>Vælg det sprog du vil bruge når du redigerer dette objekt.</translation>
+        <translation>Selecteer de te gebruiken talen bij het bewerken van het object.</translation>
+    </message>
+    <message>
+        <source>New languages</source>
+        <translation>Nieuwe talen</translation>
     </message>
     <message>
         <source>Select the language you want to add to the object.</source>
-        <translation>Vælg de sprog du vil vil tilføje til dette objekt.</translation>
+        <translation>Selecteer de taal, die u aan het object wenst toe te voegen.</translation>
     </message>
     <message>
         <source>Select the language the new translation will be based on.</source>
-        <translation>vælg det sprog den nye oversættelse skal være baseret på.</translation>
+        <translation>Selecteer op welke taal de nieuwe vertaling gebaseerd moet zijn.</translation>
     </message>
     <message>
         <source>Use an empty, untranslated draft</source>
-        <translation>Brug et tomt udkast </translation>
+        <translation>Gebruik een leeg, onvertaald concept</translation>
     </message>
     <message>
         <source>You do not have permission to create a translation in another language.</source>
-        <translation>Du har ikke rettigheder til at oprettet en oversættelse i et andet sprog.</translation>
+        <translation>U heeft geen toestemming om een vertaling in een andere taal aan te maken.</translation>
     </message>
     <message>
         <source>However, you can select one of the following languages for editing.</source>
-        <translation>Derimod kan du vælge en af de følgende sprog til redigering.</translation>
+        <translation>U kunt echter één van de volgende talen voor het bewerken selecteren.</translation>
+    </message>
+    <message>
+        <source>You do not have permission to edit the object in any available languages.</source>
+        <translation>U heeft geen toestemming om het object in de beschikbare talen te bewerken.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bewerken</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annuleren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/history</name>
     <message>
         <source>Version not a draft</source>
-        <translation>Versionen er ikke et udkast</translation>
+        <translation>Versie niet een draft</translation>
+    </message>
+    <message>
+        <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
+        <translation>Versie %1 is niet langer beschikbaar om te bewerken. Enkel concepten kunnen bewerkt worden.</translation>
+    </message>
+    <message>
+        <source>To edit this version, first create a copy of it.</source>
+        <translation>Om deze versie te bewerken, maak eerst een kopie van deze aan.</translation>
     </message>
     <message>
         <source>Version not yours</source>
-        <translation>Ikke din version</translation>
+        <translation>Niet uw versie</translation>
+    </message>
+    <message>
+        <source>Version %1 was not created by you. Only your own drafts can be edited.</source>
+        <translation>Versie %1 werd niet door u aangemaakt. Enkel uw eigen concepten kunnen bewerkt worden.</translation>
     </message>
     <message>
         <source>Unable to create new version</source>
-        <translation>Kan ikke oprette ny version</translation>
+        <translation>Niet in staat om een nieuwe versie aan te maken</translation>
     </message>
     <message>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation>Grænsen for versionshistorik er nået og ingen arkiveret version kan fjernes af systemet.</translation>
+        <translation>De geschiedenislimiet van de versie werd overschreden en geen gearchiveerde versie kan verwijderd worden door het systeem.</translation>
+    </message>
+    <message>
+        <source>You can either change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
+        <translation>U kunt ofwel uw geschiedenisinstellingen van de versie in inhoud.ini wijzigen, conceptversies verwijderen of de bestaande concepten bewerken.</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Versioner af %object_name [%version_count]</translation>
+        <translation>Versies voor &lt;%object_name&gt; (%version_count)</translation>
+    </message>
+    <message>
+        <source>Toggle selection</source>
+        <translation>Wissel selectie</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Version</translation>
+        <translation>Versie</translation>
     </message>
     <message>
         <source>Status</source>
         <translation>Status</translation>
     </message>
     <message>
+        <source>Modified translation</source>
+        <translation>Gewijzigde vertaling</translation>
+    </message>
+    <message>
         <source>Creator</source>
-        <translation>Oprettet af</translation>
+        <translation>Creator</translation>
     </message>
     <message>
         <source>Created</source>
-        <translation>Oprettet</translation>
+        <translation>Aangemaakt</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Ændret</translation>
+        <translation>Gewijzigd</translation>
     </message>
     <message>
         <source>Select version #%version_number for removal.</source>
-        <translation>Vælg version #%version_number for fjernelse.</translation>
-    </message>
-    <message>
-        <source>View the contents of version #%version_number. Translation: %translation.</source>
-        <translation>Se indholdet af version #%version_number. Oversættelse: %translation.</translation>
-    </message>
-    <message>
-        <source>Draft</source>
-        <translation>udkast</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation>Publiceret</translation>
-    </message>
-    <message>
-        <source>Pending</source>
-        <translation>Venter</translation>
-    </message>
-    <message>
-        <source>Archived</source>
-        <translation>Arkiveret</translation>
-    </message>
-    <message>
-        <source>Rejected</source>
-        <translation>Forkastet</translation>
-    </message>
-    <message>
-        <source>Untouched draft</source>
-        <translation>Urørt udkast</translation>
-    </message>
-    <message>
-        <source>Create a copy of version #%version_number.</source>
-        <translation>Opret en kopi af version #%version_number.</translation>
-    </message>
-    <message>
-        <source>Edit the contents of version #%version_number.</source>
-        <translation>Redigér indholdet af version #%version_number.</translation>
-    </message>
-    <message>
-        <source>This object does not have any versions.</source>
-        <translation>Dette objektet har ingen versioner.</translation>
-    </message>
-    <message>
-        <source>Remove selected</source>
-        <translation>Fjern valgte</translation>
-    </message>
-    <message>
-        <source>Remove the selected versions from the object.</source>
-        <translation>Fjern de valgte versionerne fra objektet.</translation>
-    </message>
-    <message>
-        <source>Show differences</source>
-        <translation>Vis forskel</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>Tilbage</translation>
-    </message>
-    <message>
-        <source>Published version</source>
-        <translation>Publiceret version</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation>Oversættelser</translation>
-    </message>
-    <message>
-        <source>New drafts [%newerDraftCount]</source>
-        <translation>Nye udkast [%newerDraftCount]</translation>
-    </message>
-    <message>
-        <source>This object does not have any drafts.</source>
-        <translation>Dette objektet har ingen udkast.</translation>
-    </message>
-    <message>
-        <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Forskel mellem version %oldVersion og %newVersion</translation>
-    </message>
-    <message>
-        <source>Old version</source>
-        <translation>Gammel version</translation>
-    </message>
-    <message>
-        <source>Inline changes</source>
-        <translation>Linje ændringer</translation>
-    </message>
-    <message>
-        <source>Block changes</source>
-        <translation>Afsnit ændringer</translation>
-    </message>
-    <message>
-        <source>New version</source>
-        <translation>Ny version</translation>
-    </message>
-    <message>
-        <source>Back to history</source>
-        <translation>Tilbage til historik</translation>
-    </message>
-    <message>
-        <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
-        <translation>Version %1 er ikke tilgængelig længere. Det er kun udkast der kan redigeres.</translation>
-    </message>
-    <message>
-        <source>To edit this version, first create a copy of it.</source>
-        <translation>For at redigerer denne version, må du først lave en kopi.</translation>
-    </message>
-    <message>
-        <source>Version %1 was not created by you. Only your own drafts can be edited.</source>
-        <translation>Version %1 var ikke oprettet af dig. Du kan kun redigerer egne udkast.</translation>
-    </message>
-    <message>
-        <source>You can either change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation>Du kan ændre opsætningen af din versionhistorie i contetn.ini.</translation>
-    </message>
-    <message>
-        <source>Toggle selection</source>
-        <translation>Skift valg</translation>
+        <translation>Selecteer versienr. %version_number om te verwijderen.</translation>
     </message>
     <message>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
-        <translation>Version #%version_number kan ikke fjernes det entent er den publiserede version af objektet eller fordi du ikke har rettigheder til at fjerne det.</translation>
+        <translation>Versienr. %version_number kan niet verwijderd worden omdat het ofwel de gepubliceerde versie van het object is of omdat u geen toestemming heeft om deze te verwijderen.</translation>
+    </message>
+    <message>
+        <source>View the contents of version #%version_number. Translation: %translation.</source>
+        <translation>Bekijk de inhoud van versienr. %version_number. Vertaling: %translation.</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Concept</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Gepubliceerd</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>In behandeling</translation>
+    </message>
+    <message>
+        <source>Archived</source>
+        <translation>Gearchiveerd</translation>
+    </message>
+    <message>
+        <source>Rejected</source>
+        <translation>Verworpen</translation>
+    </message>
+    <message>
+        <source>Untouched draft</source>
+        <translation>Onaangeroerd concept</translation>
     </message>
     <message>
         <source>There is no need to do a copies of untouched drafts.</source>
-        <translation>Der er ikke behov for at oprette en kopi af et urørt udkast.</translation>
+        <translation>Het is niet nodig om onaangeroerde concepten te kopiëren.</translation>
+    </message>
+    <message>
+        <source>Create a copy of version #%version_number.</source>
+        <translation>Maak een kopie van versienr. %version_number aan.</translation>
     </message>
     <message>
         <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
-        <translation>Du kan ikke oprette kopier af versioner fordi du ikke har rettigheder til et redigerer dette objekt.</translation>
+        <translation>U kunt de versies niet kopiëren omdat u geen toestemming heeft om het object te bewerken.</translation>
+    </message>
+    <message>
+        <source>Edit the contents of version #%version_number.</source>
+        <translation>Bewerk de inhoud van versienur. %version_number.</translation>
     </message>
     <message>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
-        <translation>du kan ikke redigerer indholdet af version #%version_number, enten fordi det ikke er et udkast eller fordi du ikke har rettigheder til at redigerer dette objekt.</translation>
+        <translation>U kunt de inhoud van versienr. %version_number niet bewerken ofwel omdat het geen concept is of omdat u geen toestemming heeft om het object te bewerken.</translation>
     </message>
     <message>
-        <source>Modified translation</source>
-        <translation>Ændret oversættelse</translation>
+        <source>This object does not have any versions.</source>
+        <translation>Dit object heeft geen versies.</translation>
+    </message>
+    <message>
+        <source>Remove selected</source>
+        <translation>Selectie verwijderen</translation>
+    </message>
+    <message>
+        <source>Remove the selected versions from the object.</source>
+        <translation>Verwijder de geselecteerde versies van het object.</translation>
+    </message>
+    <message>
+        <source>Show differences</source>
+        <translation>Verschillen weergeven</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Terug</translation>
+    </message>
+    <message>
+        <source>Published version</source>
+        <translation>Gepubliceerde versie</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Vertalingen</translation>
+    </message>
+    <message>
+        <source>New drafts [%newerDraftCount]</source>
+        <translation>Nieuwe concepten (%newerDraftCount)</translation>
+    </message>
+    <message>
+        <source>This object does not have any drafts.</source>
+        <translation>Dit object heeft geen concepten.</translation>
+    </message>
+    <message>
+        <source>Differences between versions %oldVersion and %newVersion</source>
+        <translation>Verschillen tussen versies %oldVersion en %newVersion</translation>
+    </message>
+    <message>
+        <source>Old version</source>
+        <translation>Oude versie</translation>
+    </message>
+    <message>
+        <source>Inline changes</source>
+        <translation>Inline wijzigingen</translation>
+    </message>
+    <message>
+        <source>Block changes</source>
+        <translation>Wijzigingen blokkeren</translation>
+    </message>
+    <message>
+        <source>New version</source>
+        <translation>Nieuwe versie</translation>
+    </message>
+    <message>
+        <source>Back to history</source>
+        <translation>Terug naar geschiedenis</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/keyword</name>
     <message>
         <source>Keyword: %keyword</source>
-        <translation>nøgleord: %keyword</translation>
+        <translation>Sleutelwoord: %keyword</translation>
     </message>
     <message>
         <source>Link</source>
@@ -819,11 +819,11 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     <name>design/ezwebin/content/pendinglist</name>
     <message>
         <source>My pending items [%pending_count]</source>
-        <translation>Mine nuværende punkter [%pending_count]</translation>
+        <translation>Mijn items in behandeling (%pending_count)</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Navn</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <source>Class</source>
@@ -831,200 +831,200 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     </message>
     <message>
         <source>Section</source>
-        <translation>Sektion</translation>
+        <translation>Selectie</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Version</translation>
+        <translation>Versie</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation>Sidst ændret</translation>
+        <translation>Laatst gewijzigd</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Ukendt</translation>
+        <translation>Onbekend</translation>
     </message>
     <message>
         <source>Your pending list is empty</source>
-        <translation>Din nuværende liste er tom</translation>
+        <translation>Uw lijst met items in behandeling is leeg</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/search</name>
     <message>
         <source>Search</source>
-        <translation>Søg</translation>
+        <translation>Zoeken</translation>
     </message>
     <message>
         <source>For more options try the %1Advanced search%2</source>
         <comment>The parameters are link start and end tags.</comment>
-        <translation>For flere muligheder prøv %1Avanceret søgning%2</translation>
-    </message>
-    <message>
-        <source>Search tips</source>
-        <translation>Søgetips</translation>
-    </message>
-    <message>
-        <source>Check spelling of keywords.</source>
-        <translation>Tjek stavningen af ordene.</translation>
-    </message>
-    <message>
-        <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation>Søg efter &quot;%1&quot; gav %2 resultater</translation>
+        <translation>Voor meer opties probeer het %1Advanced search%2</translation>
     </message>
     <message>
         <source>The following words were excluded from the search:</source>
-        <translation>Følgede ord er udladt fra søgningen:</translation>
+        <translation>De volgende woorden werden geëxcludeerd van het zoeken:</translation>
     </message>
     <message>
         <source>No results were found when searching for &quot;%1&quot;.</source>
-        <translation>Ingen resultat var fundet under søgninge efter &quot;%1&quot;.</translation>
+        <translation>Geen gevonden resultaten bij het zoeken naar &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <source>Search tips</source>
+        <translation>Zoektips</translation>
+    </message>
+    <message>
+        <source>Check spelling of keywords.</source>
+        <translation>Controleer de spelling van de sleutelwoorden.</translation>
     </message>
     <message>
         <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
-        <translation>Prøv at skifte søgeorderne (f.eks. &quot;bil&quot; i stedet for &quot;biler&quot;).</translation>
+        <translation>Probeer enkele sleutelwoorden te wijzigen (bijv. &quot;auto&quot; in plaats van &quot;auto&apos;s&quot;).</translation>
     </message>
     <message>
         <source>Try searching with less specific keywords.</source>
-        <translation>Prøv at søg med mindre specifike søgeord.</translation>
+        <translation>Probeer te zoeken met minder specifieke sleutelwoorden.</translation>
     </message>
     <message>
         <source>Reduce number of keywords to get more results.</source>
-        <translation>Reducer antallet af søgeord for at få flere resultater.</translation>
+        <translation>Reduceer het aantal sleutelwoorden om meer resultaten te krijgen.</translation>
+    </message>
+    <message>
+        <source>Search for &quot;%1&quot; returned %2 matches</source>
+        <translation>Het zoeken naar &quot;%1&quot; leverde %2 resultaten op</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/tipafriend</name>
     <message>
         <source>Tip a friend</source>
-        <translation>Tip en ven</translation>
+        <translation>Tip een vriend</translation>
     </message>
     <message>
         <source>The message was sent.</source>
-        <translation>Beskeden var sendt.</translation>
+        <translation>Het bericht werd verzonden.</translation>
     </message>
     <message>
         <source>Click here to return to the original page.</source>
-        <translation>Klik here for at returnerer til den oprindelige side.</translation>
+        <translation>Klik hier om terug naar de originele pagina te keren.</translation>
     </message>
     <message>
         <source>The message was not sent.</source>
-        <translation>Beskeden var ikke sendt.</translation>
+        <translation>Het bericht werd niet verzonden.</translation>
     </message>
     <message>
         <source>The message was not sent due to an unknown error. Please notify the site administrator about this error.</source>
-        <translation>Beskeden var ikke sendt på grund af en ukend fejl. Giv administratoren besked omkring denne fejl.</translation>
+        <translation>Het bericht werd niet verzonden omwille van een onbekende fout. Gelieve de sitebeheerder over deze fout in te lichten.</translation>
     </message>
     <message>
         <source>Please correct the following errors:</source>
-        <translation>Ret venligst følgende fejl:</translation>
+        <translation>Gelieve de volgende fouten te corrigeren:</translation>
     </message>
     <message>
         <source>Your name</source>
-        <translation>Dit navn</translation>
+        <translation>Uw naam</translation>
     </message>
     <message>
         <source>Your email address</source>
-        <translation>Din email adresse</translation>
+        <translation>Uw e-mailadres</translation>
     </message>
     <message>
         <source>Recipient&apos;s email address</source>
-        <translation>Modtagerens email adresse</translation>
+        <translation>E-mailadres ontvanger</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Kommentar</translation>
+        <translation>Commentaar</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>Send</translation>
+        <translation>Verzenden</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Afbryd</translation>
+        <translation>Annuleren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/view/versionview</name>
     <message>
+        <source>Manage versions</source>
+        <translation>Beheer versies</translation>
+    </message>
+    <message>
         <source>Edit</source>
-        <translation>Rediger</translation>
+        <translation>Bewerken</translation>
     </message>
     <message>
         <source>Publish</source>
-        <translation>Publicer</translation>
-    </message>
-    <message>
-        <source>Manage versions</source>
-        <translation>Redigér versioner</translation>
+        <translation>Publiceren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Redigér %1 - %2</translation>
+        <translation>Bewerk %1 - %2</translation>
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Send til publicering</translation>
+        <translation>Verzend voor publicatie</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Forkast</translation>
+        <translation>Verwerpen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/edit/file</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Redigér %1 - %2</translation>
+        <translation>Bewerk %1 - %2</translation>
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Send til publicering</translation>
+        <translation>Verzend voor publicatie</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Forkast</translation>
+        <translation>Verwerpen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/edit/forum_reply</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Redigér %1 - %2</translation>
+        <translation>Bewerk %1 - %2</translation>
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Send til publicering</translation>
+        <translation>Verzend voor publicatie</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Forkast</translation>
+        <translation>Verwerpen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/edit/forum_topic</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Redigér %1 - %2</translation>
+        <translation>Bewerk %1 - %2</translation>
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Send til publicering</translation>
+        <translation>Verzend voor publicatie</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Forkast</translation>
+        <translation>Verwerpen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/embed/forum</name>
     <message>
         <source>Latest from</source>
-        <translation>Sidste fra</translation>
+        <translation>Laatste van</translation>
     </message>
 </context>
 <context>
@@ -1038,38 +1038,38 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     <name>design/ezwebin/ezinfo/about</name>
     <message>
         <source>eZ Publish information: %version</source>
-        <translation>eZ Publish information: %version</translation>
-    </message>
-    <message>
-        <source>Licence</source>
-        <translation>Licence</translation>
-    </message>
-    <message>
-        <source>Contributors</source>
-        <translation>Bidragyderer </translation>
-    </message>
-    <message>
-        <source>Copyright Notice</source>
-        <translation>Copyright meddelelse</translation>
-    </message>
-    <message>
-        <source>Third-Party Software</source>
-        <translation>Tredjepart software</translation>
-    </message>
-    <message>
-        <source>Extensions</source>
-        <translation>Udvidelser</translation>
+        <translation>eZ Publish informatie: %version</translation>
     </message>
     <message>
         <source>What is eZ Publish?</source>
-        <translation>Hvad er eZ publish?</translation>
+        <translation>Wat is eZ Publish?</translation>
+    </message>
+    <message>
+        <source>Licence</source>
+        <translation>Licentie</translation>
+    </message>
+    <message>
+        <source>Contributors</source>
+        <translation>Bijdragers</translation>
+    </message>
+    <message>
+        <source>Copyright Notice</source>
+        <translation>Copyrightbericht</translation>
+    </message>
+    <message>
+        <source>Third-Party Software</source>
+        <translation>Third-Party Software</translation>
+    </message>
+    <message>
+        <source>Extensions</source>
+        <translation>Extensies</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/browse_place</name>
     <message>
         <source>Choose document placement</source>
-        <translation>Vælg dokumentområde</translation>
+        <translation>Kies de documentplaatsing</translation>
     </message>
     <message>
         <source>Please choose the placement for the OpenOffice.org object.
@@ -1077,532 +1077,532 @@ Du bør enten forsætte med at redigerer et af dine udkast eller oprette et nyt 
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation>Væl venligst området for OpenOffice.org-objekt
+        <translation>Gelieve de plaatsing voor het OpenOffice.org-object te kiezen.
 
-    Vælg venligtst området og klik %buttonname knappen.
-    Det er også muligt at anvende foregående og at bogmærke punkter for hurtig placering.
-    Klik på områdenavn for at ændre browserlisten.</translation>
+    Selecteer de plaatsingen en klik op de %buttonname-knop.
+    Het gebruik van de recente en de bladwijzer-items voor een snelle plaatsing is ook mogelijk.
+    Klik op de plaatsingsnamen om de lijst van het bladeren te wijzigen.</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Vælg</translation>
+        <translation>Selecteren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/export</name>
     <message>
         <source>OpenOffice.org export</source>
-        <translation>OpenOffice.org eksport</translation>
+        <translation>OpenOffice.org-export</translation>
     </message>
     <message>
         <source>Export eZ publish content to OpenOffice.org</source>
-        <translation>Eksporter eZ publish-indhold til OpenOffice.org</translation>
+        <translation>Exporteer eZ publish inhoud naar OpenOffice.org</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Fejl</translation>
+        <translation>Fout</translation>
     </message>
     <message>
         <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation>Her kan du eksportere ethvert eZ publish indholdsobjekt til en OpenOffice.org Skrivedokumentformat.</translation>
+        <translation>Hier kunt u elk eZ publish inhoudsobject exporteren naar een OpenOffice.org schrijfdocumentformaat.</translation>
     </message>
     <message>
         <source>Export Object</source>
-        <translation>Eksportobjekt</translation>
+        <translation>Object exporteren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/import</name>
     <message>
         <source>Document is now imported</source>
-        <translation>Dokument er nu importeret</translation>
+        <translation>Document is nu geïmporteerd</translation>
     </message>
     <message>
         <source>OpenOffice.org import</source>
-        <translation>OpenOffice.org import</translation>
+        <translation>OpenOffice.org-import</translation>
     </message>
     <message>
         <source>The object was imported as: %class_name</source>
-        <translation>Objektet blev importeret som: %class_name</translation>
+        <translation>Het object werd geïmporteerd als: %class_name</translation>
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Dokument importeret som</translation>
+        <translation>Document geïmporteerd als</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
-        <translation>Billederne er placeret i medier og kan genbruges.</translation>
+        <translation>De afbeeldingen werden in de media geplaatst en kunnen opnieuw gebruikt worden.</translation>
     </message>
     <message>
         <source>Import another document</source>
-        <translation>Importer et andet dokument</translation>
+        <translation>Een ander document importeren</translation>
     </message>
     <message>
         <source>Upload file</source>
-        <translation>Upload fil</translation>
+        <translation>Bestand uploaden</translation>
     </message>
     <message>
         <source>Import OpenOffice.org document</source>
-        <translation>Import OpenOffice.org-dokument</translation>
+        <translation>Importeer OpenOffice.org-document</translation>
     </message>
     <message>
         <source>Replace document</source>
-        <translation>Erstat dokument</translation>
+        <translation>Document vervangen</translation>
     </message>
     <message>
         <source>Import to</source>
-        <translation>Importer til</translation>
+        <translation>Importeer naar</translation>
     </message>
     <message>
         <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>Du kan importere OpneOffice.org-Skrivedokumenter direkte ind i eZ publish fra denne side. Du vil blive spurgt,
-hvor dokumentet skal placeres og eZ Publish ordner resten. Dokumentet konverteres til
-den passende klasse under importen, du vil blive informeret om dette, når eksporten er gennemført.
-Billeder placeres i mediebiblioteket, så du kan genbruge dem i andre artikler.</translation>
+        <translation>U kunt OpenOffice.org schrijfdocumenten direct importeren in eZ publish vanaf deze pagina. U wordt
+gevraagd waar het document te plaatsen en eZ publish doet de rest. Het document wordt geconverteerd in
+de passende klasse tijdens de import. U krijgt hierover een bericht nadat de import voltooid is.
+Afbeeldingen worden in de mediabibliotheek geplaatst zodaat u deze in andere artikelen opnieuw kunt gebruiken.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article</name>
     <message>
         <source>Comments</source>
-        <translation>Kommentarer</translation>
+        <translation>Commentaren</translation>
     </message>
     <message>
         <source>New comment</source>
-        <translation>Ny kommentar</translation>
+        <translation>Nieuw commentaar</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_startLog i%login_link_end eller %create_link_startcreate en bruger konto%create_link_end for at kommenterer.</translation>
+        <translation>%login_link_startMeld u aan%login_link_end of %create_link_startmaak een gebruikersaccount aan%create_link_end om commentaar te geven.</translation>
     </message>
     <message>
         <source>Tip a friend</source>
-        <translation>Tip en ven</translation>
+        <translation>Tip een vriend</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_mainpage</name>
     <message>
         <source>Tip a friend</source>
-        <translation>Tip en ven</translation>
+        <translation>Tip een vriend</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_subpage</name>
     <message>
         <source>Tip a friend</source>
-        <translation>Tip en ven</translation>
+        <translation>Tip een vriend</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/blog_post</name>
     <message>
         <source>Tags:</source>
-        <translation>Mærkater: </translation>
+        <translation>Labels:</translation>
     </message>
     <message>
         <source>Comments</source>
-        <translation>Kommentarer</translation>
+        <translation>Commentaren</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_startLog i%login_link_end eller %create_link_startcreate en bruger konto%create_link_end for at kommenterer.</translation>
+        <translation>%login_link_startMeld u aan%login_link_end of %create_link_startmaak een gebruikersaccount aan%create_link_end om commentaar te geven.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/documentation_page</name>
     <message>
+        <source>Table of contents</source>
+        <translation>Inhoudstabel</translation>
+    </message>
+    <message>
         <source>Created:</source>
-        <translation>Oprettet:</translation>
+        <translation>Aangemaakt:</translation>
     </message>
     <message>
         <source>Modified:</source>
-        <translation>Ændret:</translation>
-    </message>
-    <message>
-        <source>Table of contents</source>
-        <translation>Indholdstabel</translation>
+        <translation>Gewijzigd:</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/event</name>
     <message>
         <source>Category</source>
-        <translation>Kategori</translation>
+        <translation>Categorie</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_calendar</name>
     <message>
         <source>Mon</source>
-        <translation>Man</translation>
+        <translation>Maandag</translation>
     </message>
     <message>
         <source>Tue</source>
-        <translation>Tir</translation>
+        <translation>Dinsdag</translation>
     </message>
     <message>
         <source>Wed</source>
-        <translation>Ons</translation>
+        <translation>Woensdag</translation>
     </message>
     <message>
         <source>Thu</source>
-        <translation>Tor</translation>
+        <translation>Donderdag</translation>
     </message>
     <message>
         <source>Fri</source>
-        <translation>Fre</translation>
+        <translation>Vrijdag</translation>
     </message>
     <message>
         <source>Sat</source>
-        <translation>Lør</translation>
+        <translation>Zaterdag</translation>
     </message>
     <message>
         <source>Sun</source>
-        <translation>Søn</translation>
+        <translation>Zondag</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>I dag</translation>
+        <translation>Vandaag</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation>Kategori</translation>
+        <translation>Categorie</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
     <message>
         <source>Past events</source>
-        <translation>Tidligere hændelser</translation>
+        <translation>Voorbije gebeurtenissen</translation>
     </message>
     <message>
         <source>Future events</source>
-        <translation>Kommende hændelse</translation>
+        <translation>Toekomstige gebeurtenissen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/feedback_form</name>
     <message>
         <source>Send form</source>
-        <translation>Send formular</translation>
+        <translation>Formulier verzenden</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/forum</name>
     <message>
         <source>New topic</source>
-        <translation>Nyt emne</translation>
+        <translation>Nieuw topic</translation>
     </message>
     <message>
         <source>Keep me updated</source>
-        <translation>Hold mig opdateret</translation>
+        <translation>Hou me op de hoogte</translation>
     </message>
     <message>
         <source>You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%</source>
-        <translation>Du skal være logget ind for at få adgang til forumet. Du kan gøre det %login_link_start%her%login_link_end%</translation>
+        <translation>U dient aangemeld te zijn om toegang tot de forums te krijgen. U kunt dit %login_link_start%hier%login_link_end% doen</translation>
     </message>
     <message>
         <source>Topic</source>
-        <translation>Emne</translation>
+        <translation>Topic</translation>
     </message>
     <message>
         <source>Replies</source>
-        <translation>Svar</translation>
+        <translation>Antwoorden</translation>
     </message>
     <message>
         <source>Author</source>
-        <translation>Forfatter</translation>
+        <translation>Auteur</translation>
     </message>
     <message>
         <source>Last reply</source>
-        <translation>Sidste svar</translation>
+        <translation>Laatste antwoord</translation>
     </message>
     <message>
         <source>Pages</source>
-        <translation>Sider</translation>
+        <translation>Pagina&apos;s</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/forum_reply</name>
     <message>
         <source>Message preview</source>
-        <translation>Vis beskeden</translation>
+        <translation>Berichtvoorbeeld</translation>
     </message>
     <message>
         <source>Author</source>
-        <translation>Forfatter</translation>
+        <translation>Auteur</translation>
     </message>
     <message>
         <source>Topic</source>
-        <translation>Emne</translation>
+        <translation>Topic</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation>Sted</translation>
+        <translation>Locatie</translation>
     </message>
     <message>
         <source>Moderated by</source>
-        <translation>Modereret af</translation>
+        <translation>Gewijzigd door</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Redigér</translation>
+        <translation>Bewerken</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/forum_topic</name>
     <message>
         <source>Previous topic</source>
-        <translation>Forrige emne</translation>
+        <translation>Vorig topic</translation>
     </message>
     <message>
         <source>Next topic</source>
-        <translation>Næste emne</translation>
+        <translation>Volgend topic</translation>
     </message>
     <message>
         <source>New reply</source>
-        <translation>Nyt svar</translation>
+        <translation>Nieuw antwoord</translation>
     </message>
     <message>
         <source>Keep me updated</source>
-        <translation>Hold mig opdateret</translation>
-    </message>
-    <message>
-        <source>Author</source>
-        <translation>Forfatter</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Besked</translation>
-    </message>
-    <message>
-        <source>Location</source>
-        <translation>Sted</translation>
-    </message>
-    <message>
-        <source>Moderated by</source>
-        <translation>Modereret af</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Redigér</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Fjern</translation>
-    </message>
-    <message>
-        <source>Remove this item.</source>
-        <translation>Fjern denne.</translation>
+        <translation>Hou me op de hoogte</translation>
     </message>
     <message>
         <source>You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%</source>
-        <translation>Du må være logget ind for at få adgang til forum. Du kan gøre det %login_link_start%her%login_link_end%</translation>
+        <translation>U dient aangemeld te zijn om toegang tot de forums te krijgen. U kunt dit %login_link_start%hier%login_link_end% doen</translation>
+    </message>
+    <message>
+        <source>Author</source>
+        <translation>Auteur</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Bericht</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Locatie</translation>
+    </message>
+    <message>
+        <source>Moderated by</source>
+        <translation>Gewijzigd door</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bewerken</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Verwijderen</translation>
+    </message>
+    <message>
+        <source>Remove this item.</source>
+        <translation>Verwijder dit item.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/forums</name>
     <message>
         <source>Topics</source>
-        <translation>Emner</translation>
+        <translation>Topics</translation>
     </message>
     <message>
         <source>Posts</source>
-        <translation>Indlæg</translation>
+        <translation>Posten</translation>
     </message>
     <message>
         <source>Last reply</source>
-        <translation>Sidste svar</translation>
+        <translation>Laatste antwoord</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/gallery</name>
     <message>
         <source>View as slideshow</source>
-        <translation>Se som diasshow</translation>
+        <translation>Weergave als slideshow</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/image</name>
     <message>
         <source>Previous image</source>
-        <translation>Forrige billede</translation>
+        <translation>Vorige afbeelding</translation>
     </message>
     <message>
         <source>Next image</source>
-        <translation>Neste billede</translation>
+        <translation>Volgende afbeelding</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/multicalendar</name>
     <message>
         <source>Event</source>
-        <translation>Begivenhed</translation>
+        <translation>Gebeurtenis</translation>
     </message>
     <message>
         <source>Start date</source>
-        <translation>Start dato</translation>
+        <translation>Startdatum</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation>Kategori</translation>
+        <translation>Categorie</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation>Beskrivelse</translation>
+        <translation>Omschrijving</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/poll</name>
     <message>
         <source>Vote</source>
-        <translation>Stem</translation>
+        <translation>Stemmen</translation>
     </message>
     <message>
         <source>Result</source>
-        <translation>Resultat</translation>
+        <translation>Resultaat</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/product</name>
     <message>
         <source>Add to basket</source>
-        <translation>Tilføj til indkøbskurv</translation>
+        <translation>Aan winkelmandje toevoegen</translation>
     </message>
     <message>
         <source>Add to wish list</source>
-        <translation>Tilføj til ønskeliste</translation>
+        <translation>Aan wensenlijst toevoegen</translation>
     </message>
     <message>
         <source>People who bought this also bought</source>
-        <translation>Dem som købte denne købte også</translation>
+        <translation>De mensen die dit kochten, kochten ook</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
-        <translation>Se kommentarer</translation>
+        <translation>Commentaren bekijken</translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation>Tilføj kommentarer</translation>
+        <translation>Commentaren toevoegen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/event</name>
     <message>
         <source>Category</source>
-        <translation>Kategori</translation>
+        <translation>Categorie</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/event_calendar</name>
     <message>
         <source>Next events</source>
-        <translation>Næste events</translation>
+        <translation>Volgende gebeurtenissen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/flash</name>
     <message>
         <source>View flash</source>
-        <translation>Se flash</translation>
+        <translation>Flash zien</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum</name>
     <message>
-        <source>Last reply</source>
-        <translation>Sidste svar</translation>
-    </message>
-    <message>
-        <source>Enter forum</source>
-        <translation>Gå til forum</translation>
-    </message>
-    <message>
         <source>Number of topics</source>
-        <translation>Nr. på emne</translation>
+        <translation>Aantal topics</translation>
     </message>
     <message>
         <source>Number of posts</source>
-        <translation>Nr. af poster</translation>
+        <translation>Aantal posten</translation>
+    </message>
+    <message>
+        <source>Last reply</source>
+        <translation>Laatste antwoord</translation>
+    </message>
+    <message>
+        <source>Enter forum</source>
+        <translation>Forum binnengaan</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum_reply</name>
     <message>
         <source>Reply to:</source>
-        <translation>Svar til:</translation>
+        <translation>Antwoord aan:</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/poll</name>
     <message>
         <source>%count votes</source>
-        <translation>%count stemmer</translation>
+        <translation>%count stemmen</translation>
     </message>
     <message>
         <source>Vote</source>
-        <translation>Stem</translation>
+        <translation>Stemmen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/quicktime</name>
     <message>
         <source>View movie</source>
-        <translation>Se film</translation>
+        <translation>Film zien</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/real_video</name>
     <message>
         <source>View movie</source>
-        <translation>Se film</translation>
+        <translation>Film zien</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/silverlight</name>
     <message>
         <source>View</source>
-        <translation>Se</translation>
+        <translation>Weergave</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/windows_media</name>
     <message>
         <source>View movie</source>
-        <translation>Se film</translation>
+        <translation>Film zien</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/link</name>
     <message>
         <source>%sitetitle front page</source>
-        <translation>%sitetitle forside</translation>
+        <translation>%sitetitle voorpagina</translation>
     </message>
     <message>
         <source>Search %sitetitle</source>
-        <translation>Søg %sitetitle</translation>
+        <translation>Zoek %sitetitle</translation>
     </message>
     <message>
         <source>Printable version</source>
-        <translation>Udskriftsversion</translation>
+        <translation>Afdrukbare versie</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/node/removeobject</name>
     <message>
         <source>Are you sure you want to remove these items?</source>
-        <translation>Er du sikker på at du vil fjerne disse?</translation>
+        <translation>Bent u zeker dat u deze items wilt verwijderen?</translation>
     </message>
     <message>
         <source>%nodename and its %childcount children. %additionalwarning</source>
-        <translation>%nodename og dets %childcount underobjekter. %additionalwarning</translation>
+        <translation>%nodename en zijn %childcount onderliggendeknooppunten. %additionalwarning</translation>
     </message>
     <message>
         <source>%nodename %additionalwarning</source>
@@ -1610,38 +1610,38 @@ Billeder placeres i mediebiblioteket, så du kan genbruge dem i andre artikler.<
     </message>
     <message>
         <source>Move to trash</source>
-        <translation>Flyt til trash</translation>
+        <translation>Naar prullenbak verhuizen</translation>
     </message>
     <message>
         <source>Note</source>
-        <translation>Notat</translation>
-    </message>
-    <message>
-        <source>Confirm</source>
-        <translation>Bekræft</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Afbryd</translation>
+        <translation>Opgelet</translation>
     </message>
     <message>
         <source>If %trashname is checked, removed items can be found in the trash.</source>
-        <translation>Hvis %trashname er tjekked, fjernede genstande kan findes i trash.</translation>
+        <translation>Indien %trashname aangevinkt is, verwijderde items kunnen in de prullenbak teruggevonden worden.</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Bevestigen</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annuleren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/notification/addingresult</name>
     <message>
         <source>Add to my notifications</source>
-        <translation>Tilføj til mine meldinger</translation>
+        <translation>Aan mijn notificaties toevoegen</translation>
     </message>
     <message>
         <source>Notification for node &lt;%node_name&gt; already exists.</source>
-        <translation>Du er allerede tilmeldt opdateringsmeldinger af %node_name.</translation>
+        <translation>Notificatie voor knooppunt &lt;%node_name&gt; bestaat reeds.</translation>
     </message>
     <message>
         <source>Notification for node &lt;%node_name&gt; was added successfully.</source>
-        <translation>Tilmelding til opdateringsmeldinger for node %node_name er oprettet.</translation>
+        <translation>Notificatie voor knooppunt &lt;%node_name&gt; werd succesvol toegevoegd.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -1652,312 +1652,316 @@ Billeder placeres i mediebiblioteket, så du kan genbruge dem i andre artikler.<
     <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
     <message>
         <source>Receive all messages combined in one digest</source>
-        <translation>Modtag alle meddelelser samlet i én oversigt</translation>
+        <translation>Ontvang alle berichten gecombineerd in één overzicht</translation>
     </message>
     <message>
         <source>Receive digests</source>
-        <translation>Modtag oversigter</translation>
+        <translation>Overzicht ontvangen</translation>
     </message>
     <message>
         <source>Daily, at</source>
-        <translation>Dagligt, på</translation>
+        <translation>Dagelijks, om</translation>
     </message>
     <message>
         <source>Once per week, on </source>
-        <translation>Én gang om ugen på</translation>
+        <translation>Eenmaal per week, op</translation>
     </message>
     <message>
         <source>Once per month, on day number</source>
-        <translation>Én gang om måneden på dag nummer</translation>
+        <translation>Eenmaal per maand, op dagnummer</translation>
     </message>
     <message>
         <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
-        <translation>Hvis nummeret på dagen er længere end antallet af dage i den pågældende måned, så vil den sidste dag i den pågældende måned blive brugt.</translation>
+        <translation>Indien dagnummer groter is dan het aantal dagen in de huidige maand, dan zal de laatste dag van de huidige maand gebruikt worden.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/notification/handler/ezsubtree/settings/edit</name>
     <message>
         <source>My item notifications [%notification_count]</source>
-        <translation>Mine punktbemærkninger</translation>
+        <translation>Mijn itemnotificaties (%notification_count)</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation>Spejlvend udvalget.</translation>
+        <translation>Selectie omkeren.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Navn</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>TypeType</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation>Sektion</translation>
+        <translation>Sectie</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Ukendt</translation>
+        <translation>Onbekend</translation>
     </message>
     <message>
         <source>You have not subscribed to receive notifications about any items.</source>
-        <translation>Du har ikke skrevet dig op til at modtage bemærkninger om nogle punkter.</translation>
+        <translation>U heeft zich niet ingeschreven om notificaties over de items te ontvangen.</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation>Fjern valgte</translation>
+        <translation>Selectie verwijderen</translation>
     </message>
     <message>
         <source>Add items</source>
-        <translation>Tilføj punkter</translation>
+        <translation>Items toevoegen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/notification/settings</name>
     <message>
         <source>Notification settings</source>
-        <translation>Varslingsindstillinger</translation>
+        <translation>Notificatieinstellingen</translation>
     </message>
     <message>
         <source>Apply changes</source>
-        <translation>Tilføj ændringer</translation>
+        <translation>Wijzigingen toepassen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/pagelayout</name>
     <message>
         <source>Search</source>
-        <translation>Søg</translation>
+        <translation>Zoeken</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/parts/website_toolbar</name>
     <message>
-        <source>Create here</source>
-        <translation>Tilføj her</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation>Flyt</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Fjern</translation>
-    </message>
-    <message>
-        <source>Import</source>
-        <translation>Importer</translation>
-    </message>
-    <message>
-        <source>Export</source>
-        <translation>Eksporter</translation>
-    </message>
-    <message>
-        <source>Replace</source>
-        <translation>Erstat</translation>
-    </message>
-    <message>
         <source>About</source>
-        <translation>Omkring</translation>
+        <translation>Over</translation>
+    </message>
+    <message>
+        <source>Create here</source>
+        <translation>Maak hier aan</translation>
     </message>
     <message>
         <source>Edit: %node_name [%class_name]</source>
-        <translation>Redigér: %node_name [%class_name]</translation>
+        <translation>Bewerk %node_name (%class_name)</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Verplaatsen</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Verwijderen</translation>
     </message>
     <message>
         <source>Add locations</source>
-        <translation>Tilføj steder</translation>
+        <translation>Locaties toevoegen</translation>
     </message>
     <message>
         <source>Documentation</source>
-        <translation>Dokumentation</translation>
+        <translation>Documentatie</translation>
+    </message>
+    <message>
+        <source>Replace</source>
+        <translation>Vervangen</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>Export</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>Import</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/basket</name>
     <message>
         <source>Shopping basket</source>
-        <translation>Indkøbskurv</translation>
+        <translation>Winkelmandje</translation>
     </message>
     <message>
         <source>Account information</source>
-        <translation>Information om brugerkonto</translation>
+        <translation>Accountinformatie</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation>Bekræft ordre</translation>
+        <translation>Order bevestigen</translation>
     </message>
     <message>
         <source>Basket</source>
-        <translation>Indkøbskurv</translation>
-    </message>
-    <message>
-        <source>VAT is unknown</source>
-        <translation>MOMS er ukendt</translation>
-    </message>
-    <message>
-        <source>VAT percentage is not yet known for some of the items being purchased.</source>
-        <translation>MOMS procentsats er endnu ikke kendt for enkelte af varende du handler.</translation>
-    </message>
-    <message>
-        <source>This probably means that some information about you is not yet available and will be obtained during checkout.</source>
-        <translation>Dette betyder at nogle information om dig ikke findes endnu og vil blive lagt ind senere i bestillingsproceduren.</translation>
-    </message>
-    <message>
-        <source>Attempted to add object without price to basket.</source>
-        <translation>Forsøget at lægge varer uden pris til indkøbskurv.</translation>
-    </message>
-    <message>
-        <source>Your payment was aborted.</source>
-        <translation>Betalingen blev afbrudt.</translation>
-    </message>
-    <message>
-        <source>Count</source>
-        <translation>Antal</translation>
-    </message>
-    <message>
-        <source>VAT</source>
-        <translation>MOMS</translation>
-    </message>
-    <message>
-        <source>Price inc. VAT</source>
-        <translation>Pris inkl. MOMS</translation>
-    </message>
-    <message>
-        <source>Discount</source>
-        <translation>Rabat</translation>
-    </message>
-    <message>
-        <source>Update</source>
-        <translation>Opdater</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Fjern</translation>
-    </message>
-    <message>
-        <source>Selected options</source>
-        <translation>Valgte mulighed</translation>
-    </message>
-    <message>
-        <source>Shipping</source>
-        <translation>Fragt</translation>
-    </message>
-    <message>
-        <source>Order total</source>
-        <translation>Ordretotal</translation>
-    </message>
-    <message>
-        <source>Continue shopping</source>
-        <translation>Forsæt med at handle</translation>
-    </message>
-    <message>
-        <source>Checkout</source>
-        <translation>Til kassen</translation>
+        <translation>Winkelmandje</translation>
     </message>
     <message>
         <source>The following items were removed from your basket because the products were changed.</source>
-        <translation>Følgende vare er blevet fjernet fra indkøbskurven fordi produktet er blevet ændret.</translation>
+        <translation>De volgende items werden uit uw winkelmandje verwijderd omdat de producten gewijzigd werden.</translation>
+    </message>
+    <message>
+        <source>VAT is unknown</source>
+        <translation>Btw is onbekend</translation>
+    </message>
+    <message>
+        <source>VAT percentage is not yet known for some of the items being purchased.</source>
+        <translation>Btw-percentage is nog onbekend voor sommige van de gekochte items.</translation>
+    </message>
+    <message>
+        <source>This probably means that some information about you is not yet available and will be obtained during checkout.</source>
+        <translation>Dit betekent waarschijnlijk dat sommige informatie over u nog niet beschikbaar is en verkregen zal worden tijdens de checkout.</translation>
+    </message>
+    <message>
+        <source>Attempted to add object without price to basket.</source>
+        <translation>Poging om object zonder prijs in het winkelmandje toe te voegen.</translation>
+    </message>
+    <message>
+        <source>Your payment was aborted.</source>
+        <translation>Uw betaling werd afgebroken.</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>Tellen</translation>
+    </message>
+    <message>
+        <source>VAT</source>
+        <translation>Btw</translation>
+    </message>
+    <message>
+        <source>Price inc. VAT</source>
+        <translation>Prijs incl. btw</translation>
+    </message>
+    <message>
+        <source>Discount</source>
+        <translation>Korting</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation>Total pris. ex. MOMS</translation>
+        <translation>Toaal prijs excl. btw</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation>Total pris ink. MOMS</translation>
+        <translation>Totaal prijs incl. btw</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Ukendt</translation>
+        <translation>Onbekend</translation>
+    </message>
+    <message>
+        <source>Update</source>
+        <translation>Update</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Verwijderen</translation>
+    </message>
+    <message>
+        <source>Selected options</source>
+        <translation>Geselecteerde opties</translation>
     </message>
     <message>
         <source>Subtotal ex. VAT</source>
-        <translation>Subtotal ex. MOMS</translation>
+        <translation>Subtotaal excl. btw</translation>
     </message>
     <message>
         <source>Subtotal inc. VAT</source>
-        <translation>Subtotal ink. MOMS</translation>
+        <translation>Subtotaal incl. btw</translation>
+    </message>
+    <message>
+        <source>Shipping</source>
+        <translation>Shipping</translation>
+    </message>
+    <message>
+        <source>Order total</source>
+        <translation>Ordertotaal</translation>
+    </message>
+    <message>
+        <source>Continue shopping</source>
+        <translation>Winkelen voortzetten</translation>
+    </message>
+    <message>
+        <source>Checkout</source>
+        <translation>Kassa</translation>
     </message>
     <message>
         <source>You have no products in your basket.</source>
-        <translation>Du har ingen produkter i din indkøbskurv.</translation>
+        <translation>U heeft geen producten in uw winkelmandje.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/confirmorder</name>
     <message>
         <source>Shopping basket</source>
-        <translation>Indkøbskurv</translation>
+        <translation>Winkelmandje</translation>
     </message>
     <message>
         <source>Account information</source>
-        <translation>Information om brugerkonto</translation>
+        <translation>Accountinformatie</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation>Bekræft ordre</translation>
+        <translation>Order bevestigen</translation>
     </message>
     <message>
         <source>Product items</source>
-        <translation>Produkter</translation>
+        <translation>Productitems</translation>
     </message>
     <message>
         <source>Count</source>
-        <translation>Antal</translation>
+        <translation>Tellen</translation>
     </message>
     <message>
         <source>VAT</source>
-        <translation>MOMS</translation>
+        <translation>Btw</translation>
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation>Pris inkl. MOMS</translation>
+        <translation>Prijs incl. btw</translation>
     </message>
     <message>
         <source>Discount</source>
-        <translation>Rabat</translation>
-    </message>
-    <message>
-        <source>Selected options</source>
-        <translation>Valgte mulighed</translation>
-    </message>
-    <message>
-        <source>Order summary</source>
-        <translation>Ordreoversigt</translation>
-    </message>
-    <message>
-        <source>Subtotal of items</source>
-        <translation>Subtotal varer</translation>
-    </message>
-    <message>
-        <source>Order total</source>
-        <translation>Ordretotal</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Afbryd</translation>
-    </message>
-    <message>
-        <source>Confirm</source>
-        <translation>Bekræft</translation>
+        <translation>Korting</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation>Totalpris ex. MOMS</translation>
+        <translation>Toaal prijs excl. btw</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation>Totalpris ink. MOMS</translation>
+        <translation>Totaal prijs incl. btw</translation>
+    </message>
+    <message>
+        <source>Selected options</source>
+        <translation>Geselecteerde opties</translation>
+    </message>
+    <message>
+        <source>Order summary</source>
+        <translation>Samenvatting order</translation>
+    </message>
+    <message>
+        <source>Subtotal of items</source>
+        <translation>Subtotaal items</translation>
+    </message>
+    <message>
+        <source>Order total</source>
+        <translation>Ordertotaal</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annuleren</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Bevestigen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/customerorderview</name>
     <message>
+        <source>Customer information</source>
+        <translation>Klantinformatie</translation>
+    </message>
+    <message>
         <source>Order list</source>
-        <translation>Ordreliste</translation>
+        <translation>Orderlijst</translation>
     </message>
     <message>
         <source>ID</source>
@@ -1965,216 +1969,220 @@ Billeder placeres i mediebiblioteket, så du kan genbruge dem i andre artikler.<
     </message>
     <message>
         <source>Date</source>
-        <translation>Dato</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation>Total eks. MOMS</translation>
+        <translation>Toaal excl. btw</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation>Total inkl. MOMS</translation>
+        <translation>Toaal incl. btw</translation>
     </message>
     <message>
         <source>Purchase list</source>
-        <translation>Indkøbsliste</translation>
+        <translation>Inkooplijst</translation>
     </message>
     <message>
         <source>Product</source>
-        <translation>Produkt</translation>
+        <translation>Product</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Beløb</translation>
-    </message>
-    <message>
-        <source>Customer information</source>
-        <translation>Kunde information</translation>
+        <translation>Bedrag</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderlist</name>
     <message>
         <source>Order list</source>
-        <translation>Ordreliste</translation>
+        <translation>Orderlijst</translation>
     </message>
     <message>
         <source>Sort result by</source>
-        <translation>Sorteret resultat efter</translation>
+        <translation>Sorteer resultaat op</translation>
     </message>
     <message>
         <source>Order time</source>
-        <translation>Order tid</translation>
+        <translation>Ordertijdstip</translation>
     </message>
     <message>
         <source>User name</source>
-        <translation>Bruger navn</translation>
+        <translation>Gebruikersnaam</translation>
     </message>
     <message>
         <source>Order ID</source>
-        <translation>Order ID</translation>
+        <translation>Order-ID</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation>Opadgående</translation>
+        <translation>Aflopend</translation>
     </message>
     <message>
         <source>Sort ascending</source>
-        <translation>Sorter opadgående</translation>
+        <translation>Sorteer aflopend</translation>
     </message>
     <message>
         <source>Descending</source>
-        <translation>Nedadgående</translation>
+        <translation>Oplopend</translation>
     </message>
     <message>
         <source>Sort descending</source>
-        <translation>Soter nedadgående</translation>
+        <translation>Sorteer oplopend</translation>
     </message>
     <message>
         <source>Sort</source>
-        <translation>Sorter</translation>
+        <translation>Sorteren</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation>Id</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Dato</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Customer</source>
-        <translation>Kunde</translation>
+        <translation>Klant</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation>Total eks. MOMS</translation>
+        <translation>Totaal excl. btw</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation>Total inkl. MOMS</translation>
+        <translation>Toaal incl. btw</translation>
     </message>
     <message>
         <source>The order list is empty</source>
-        <translation>Orderlisten er tom</translation>
+        <translation>De orderlijst is leeg</translation>
     </message>
     <message>
         <source>Archive</source>
-        <translation>Arkiveret</translation>
+        <translation>Archiveren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderview</name>
     <message>
         <source>Order %order_id [%order_status]</source>
-        <translation>Ordre %order_id [%order_status]</translation>
+        <translation>Order %order_id (%order_status)</translation>
     </message>
     <message>
         <source>Product items</source>
-        <translation>Produkter</translation>
+        <translation>Productitems</translation>
     </message>
     <message>
         <source>Product</source>
-        <translation>Produkt</translation>
+        <translation>Product</translation>
     </message>
     <message>
         <source>Count</source>
-        <translation>Antal</translation>
+        <translation>Tellen</translation>
     </message>
     <message>
         <source>VAT</source>
-        <translation>MOMS</translation>
+        <translation>Btw</translation>
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation>Pris inkl. MOMS</translation>
+        <translation>Toaal incl. btw</translation>
     </message>
     <message>
         <source>Discount</source>
-        <translation>Rabat</translation>
-    </message>
-    <message>
-        <source>Order summary</source>
-        <translation>Ordresammendrag</translation>
-    </message>
-    <message>
-        <source>Summary</source>
-        <translation>Sammendrag</translation>
-    </message>
-    <message>
-        <source>Subtotal of items</source>
-        <translation>Subtotal varer</translation>
-    </message>
-    <message>
-        <source>Order total</source>
-        <translation>Ordretotal</translation>
-    </message>
-    <message>
-        <source>Order history</source>
-        <translation>Ordrehistorik</translation>
+        <translation>Korting</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation>Totalpris ex. MOMS</translation>
+        <translation>Toaal prijs excl. btw</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation>Totalpris ink. MOMS</translation>
+        <translation>Totaal prijs incl. btw</translation>
+    </message>
+    <message>
+        <source>Order summary</source>
+        <translation>Samenvatting order</translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation>Samenvatting</translation>
+    </message>
+    <message>
+        <source>Subtotal of items</source>
+        <translation>Subtotaal items</translation>
+    </message>
+    <message>
+        <source>Order total</source>
+        <translation>Ordertotaal</translation>
+    </message>
+    <message>
+        <source>Order history</source>
+        <translation>Ordergeschiedenis</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Dato</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Order status</source>
-        <translation>Ordrestatus</translation>
+        <translation>Orderstatus</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/userregister</name>
     <message>
         <source>Shopping basket</source>
-        <translation>Indkøbskurv</translation>
+        <translation>Winkelmandje</translation>
     </message>
     <message>
         <source>Account information</source>
-        <translation>Information om brugerkonto</translation>
+        <translation>Accountinformatie</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation>Bekræft ordre</translation>
+        <translation>Order bevestigen</translation>
     </message>
     <message>
         <source>Your account information</source>
-        <translation>Din kontoinfo</translation>
+        <translation>Uw accountinformatie</translation>
+    </message>
+    <message>
+        <source>Input did not validate. All fields marked with * must be filled in.</source>
+        <translation>Invoer werd niet gevalideerd. Alle velden gemarkeerd met * moeten ingevuld zijn.</translation>
     </message>
     <message>
         <source>First name</source>
-        <translation>Fornavn</translation>
+        <translation>Voornaam</translation>
     </message>
     <message>
         <source>Last name</source>
-        <translation>Efternavn</translation>
+        <translation>Achternaam</translation>
+    </message>
+    <message>
+        <source>Email</source>
+        <translation>E-mail</translation>
     </message>
     <message>
         <source>Company</source>
-        <translation>Firma</translation>
+        <translation>Bedrijf</translation>
     </message>
     <message>
         <source>Street</source>
-        <translation>Adresse</translation>
+        <translation>Straat</translation>
     </message>
     <message>
         <source>Zip</source>
-        <translation>Postnr</translation>
+        <translation>Postcode</translation>
     </message>
     <message>
         <source>Place</source>
-        <translation>Sted</translation>
+        <translation>Plaats</translation>
     </message>
     <message>
         <source>State</source>
-        <translation>State</translation>
+        <translation>Provincie</translation>
     </message>
     <message>
         <source>Country</source>
@@ -2182,88 +2190,80 @@ Billeder placeres i mediebiblioteket, så du kan genbruge dem i andre artikler.<
     </message>
     <message>
         <source>Comment</source>
-        <translation>Kommentar</translation>
+        <translation>Commentaar</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Afbryd</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Forsæt</translation>
+        <translation>Verdergaan</translation>
     </message>
     <message>
         <source>All fields marked with * must be filled in.</source>
-        <translation>Alle felter mærket med * skal udfyldes.</translation>
-    </message>
-    <message>
-        <source>Input did not validate. All fields marked with * must be filled in.</source>
-        <translation>Fejl i input. Alle felter mærkeret med * skal udfyldes.</translation>
-    </message>
-    <message>
-        <source>Email</source>
-        <translation>E-mail</translation>
+        <translation>Alle velden gemarkeerd met * moeten ingevuld zijn.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/wishlist</name>
     <message>
         <source>Wish list</source>
-        <translation>Ønskeliste</translation>
+        <translation>Wensenlijst</translation>
     </message>
     <message>
         <source>Product</source>
-        <translation>Produkt</translation>
+        <translation>Product</translation>
     </message>
     <message>
         <source>Count</source>
-        <translation>Antal</translation>
+        <translation>Tellen</translation>
     </message>
     <message>
         <source>Selected options</source>
-        <translation>Valgte optioner</translation>
+        <translation>Geselecteerde opties</translation>
     </message>
     <message>
         <source>Store</source>
-        <translation>Gem</translation>
+        <translation>Opslaan</translation>
     </message>
     <message>
         <source>Remove items</source>
-        <translation>Fjern artikler</translation>
+        <translation>Verwijder items</translation>
     </message>
     <message>
         <source>Empty wish list</source>
-        <translation>Tøm ønskelisten</translation>
+        <translation>Wensenlijst leegmaken</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/simplified_treemenu/show_simplified_menu</name>
     <message>
         <source>Fold/Unfold</source>
-        <translation>Fold ud/ind</translation>
+        <translation>Inpakken/Uitpakken</translation>
     </message>
     <message>
         <source>Node ID: %node_id Visibility: %visibility</source>
-        <translation>Node-ID: %node_id Synlighed: %visibility</translation>
+        <translation>Knooppunt-ID: %node_id Zichtbaarheid: %visibility</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/activate</name>
     <message>
         <source>Activate account</source>
-        <translation>Aktiver kontoen</translation>
+        <translation>Account activeren</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation>Din konto er nu aktivert.</translation>
-    </message>
-    <message>
-        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Beklager, aktiveringsnøglen var ikke gyldig. Kontoen blev ikke aktiveret.</translation>
+        <translation>Uw account is nu geactiveerd.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation>Din konto er allerede aktiv.</translation>
+        <translation>Uw account is reeds actief.</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation>Soory, de ingegeven sleutel was geen geldige sleutel. De account werd niet geactiveerd.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2274,167 +2274,177 @@ Billeder placeres i mediebiblioteket, så du kan genbruge dem i andre artikler.<
     <name>design/ezwebin/user/edit</name>
     <message>
         <source>User profile</source>
-        <translation>Brugerprofil</translation>
+        <translation>Gebruikersprofiel</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation>Brugernavn</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>Navn</translation>
-    </message>
-    <message>
-        <source>My drafts</source>
-        <translation>Mine udkast</translation>
-    </message>
-    <message>
-        <source>My orders</source>
-        <translation>Mine ordre</translation>
-    </message>
-    <message>
-        <source>My notification settings</source>
-        <translation>Mine beskedindstillinger</translation>
-    </message>
-    <message>
-        <source>My wish list</source>
-        <translation>Min ønskeliste</translation>
-    </message>
-    <message>
-        <source>Edit profile</source>
-        <translation>Rediger profilen</translation>
-    </message>
-    <message>
-        <source>Change password</source>
-        <translation>Ændre adgangskode</translation>
+        <translation>Gebruikersnaam</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>E-mail</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Naam</translation>
+    </message>
+    <message>
+        <source>My drafts</source>
+        <translation>Mijn concepten</translation>
+    </message>
+    <message>
+        <source>My orders</source>
+        <translation>Mijn orders</translation>
     </message>
     <message>
         <source>My pending items</source>
-        <translation>Mine igangværende punkter</translation>
+        <translation>Mijn items in behandeling</translation>
+    </message>
+    <message>
+        <source>My notification settings</source>
+        <translation>Mijn notificatieinstellingen</translation>
+    </message>
+    <message>
+        <source>My wish list</source>
+        <translation>Mijjn wensenlijst</translation>
+    </message>
+    <message>
+        <source>Edit profile</source>
+        <translation>Profiel bewerken</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Wachtwoord wijzigen</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/forgotpassword</name>
     <message>
-        <source>Password was successfully generated and sent to: %1</source>
-        <translation>Adgangskoden blev oprettet og sendt til: %1</translation>
-    </message>
-    <message>
-        <source>The key is invalid or has been used. </source>
-        <translation>Nøgle er ugyldig eller er allerede blevet brugt. </translation>
-    </message>
-    <message>
-        <source>Have you forgotten your password?</source>
-        <translation>Har du glemt din adgangskode?</translation>
-    </message>
-    <message>
-        <source>Generate new password</source>
-        <translation>Generer nyt kodeord</translation>
-    </message>
-    <message>
         <source>An email has been sent to the following address: %1. It contains a link you need to click so that we can confirm that the correct user has received the new password.</source>
-        <translation>En email er blevet send til den følgende adresse: %1. Den indholder et link du skal bruge til at bekræfte at den aktuelle bruger har modtaget den nye adgagnskode. </translation>
+        <translation>Een e-mail werd verzonden naar het volgende adres: %1. De e-mail bevat een link waarop u dient te klikken zodat wij kunnen bevestigen dat de correcte gebruiker het nieuw wachtwoord heeft ontvangen.</translation>
     </message>
     <message>
         <source>There is no registered user with that email address.</source>
-        <translation>Der er ingen registeret bruger med denne email adresse.</translation>
+        <translation>Er is geen geregistreerde gebruiker met dat e-mailadres.</translation>
+    </message>
+    <message>
+        <source>Password was successfully generated and sent to: %1</source>
+        <translation>Wachtwoord werd succesvol aangemaakt en verzonden naar: %1</translation>
+    </message>
+    <message>
+        <source>The key is invalid or has been used. </source>
+        <translation>De sleutel is ongeldig of werd gebruikt.</translation>
+    </message>
+    <message>
+        <source>Have you forgotten your password?</source>
+        <translation>Bent u uw wachtwoord vergeten?</translation>
     </message>
     <message>
         <source>If you have forgotten your password, enter your email address and we will create a new password and send it to you.</source>
-        <translation>Hvis du har glemt adgangskoden, indtast din email adresse og vi vil oprette en ny adgagnskode og sende den til dig.</translation>
+        <translation>Indien u uw wachtwoord bent vergeten, voer uw e-mailadres in en wij zullen een nieuw wachtwoord aanmaken en het u toezenden.</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>E-mail</translation>
+    </message>
+    <message>
+        <source>Generate new password</source>
+        <translation>Nieuw wachtwoord aanmaken</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/login</name>
     <message>
         <source>Login</source>
-        <translation>Log ind</translation>
+        <translation>Aanmelden</translation>
     </message>
     <message>
         <source>Could not login</source>
-        <translation>Kunne ikke logge ind</translation>
+        <translation>Kon u niet aanmelden</translation>
     </message>
     <message>
         <source>A valid username and password is required to login.</source>
-        <translation>Et gyldig brugernavn og adgangskode kræves for at logge ind.</translation>
+        <translation>Een geldige gebruikersnaam en geldig wachtwoord is vereist om u aan te melden.</translation>
     </message>
     <message>
         <source>Access not allowed</source>
-        <translation>Ingen tilgang</translation>
+        <translation>Toegang niet toegestaan</translation>
     </message>
     <message>
         <source>You are not allowed to access %1.</source>
-        <translation>Du har ikke tilgang til %1.</translation>
+        <translation>U heeft geen toegang %1.</translation>
     </message>
     <message>
         <source>Username</source>
         <comment>User name</comment>
-        <translation>Brugernavn</translation>
+        <translation>Gebruikersnaam
+
+Gebruikersnaam</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>adgangskoder</translation>
+        <translation>Wachtwoord</translation>
+    </message>
+    <message>
+        <source>Log in to the eZ Publish Administration Interface</source>
+        <translation>Meld u aan bij de eZ Publish Beheerinterface</translation>
     </message>
     <message>
         <source>Remember me</source>
-        <translation>Husk mig</translation>
+        <translation>Onthoud mij</translation>
     </message>
     <message>
         <source>Login</source>
         <comment>Button</comment>
-        <translation>Log ind</translation>
-    </message>
-    <message>
-        <source>Forgot your password?</source>
-        <translation>Har du glemt din adgangskode?</translation>
-    </message>
-    <message>
-        <source>Log in to the eZ Publish Administration Interface</source>
-        <translation>Log ind til eZ publish interfacet</translation>
+        <translation>Aanmelden
+
+Knop</translation>
     </message>
     <message>
         <source>Sign up</source>
         <comment>Button</comment>
-        <translation>Tilmeld</translation>
+        <translation>Aanmelden
+
+Knop</translation>
+    </message>
+    <message>
+        <source>Forgot your password?</source>
+        <translation>Wachtwoord vergeten?</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/password</name>
     <message>
         <source>Change password for user</source>
-        <translation>Skift adgangskode for bruger</translation>
+        <translation>Wijzig wachtwoord voor gebruiker</translation>
     </message>
     <message>
         <source>Please retype your old password.</source>
-        <translation>Indtast din gamle adgangskode igen.</translation>
+        <translation>Gelieve uw oud wachtwoord opnieuw in te voeren.</translation>
     </message>
     <message>
         <source>Password didn&apos;t match, please retype your new password.</source>
-        <translation>Adgangskode er forkert, vær venlig at indtaste din nye adgangskode.</translation>
+        <translation>Wachtwoord kwam niet overeen, gelieve uw nieuw wachtwoord opnieuw in te geven.</translation>
+    </message>
+    <message>
+        <source>The new password must be at least %1 characters long, please retype your new password.</source>
+        <translation>Het nieuw wachtwoord moet tenminste %1 tekens lang zijn, gelieve uw nieuw wachtwoord opnieuw in te voeren.</translation>
     </message>
     <message>
         <source>Password successfully updated.</source>
-        <translation>Adgangskode er nu opdateret.</translation>
+        <translation>Wachtwoord succesvol geüpdated.</translation>
     </message>
     <message>
         <source>Old password</source>
-        <translation>Gammel adgangskode</translation>
+        <translation>Oud wachtwoord</translation>
     </message>
     <message>
         <source>New password</source>
-        <translation>Ny adgangskode</translation>
+        <translation>Nieuw wachtwoord</translation>
     </message>
     <message>
         <source>Retype password</source>
-        <translation>Indtast adgangskode igen</translation>
+        <translation>Wachtwoord opnieuw ingeven</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2442,26 +2452,22 @@ Billeder placeres i mediebiblioteket, så du kan genbruge dem i andre artikler.<
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Annuller</translation>
-    </message>
-    <message>
-        <source>The new password must be at least %1 characters long, please retype your new password.</source>
-        <translation>Den nye adgangskode skal være mindst %1 tegn langt, indtast adgangskode igen.</translation>
+        <translation>Annuleren</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/register</name>
     <message>
         <source>Register user</source>
-        <translation>Registrer bruger</translation>
+        <translation>Gebruiker registreren</translation>
     </message>
     <message>
         <source>Input did not validate</source>
-        <translation>Fejl i indtastning</translation>
+        <translation>Invoer werd niet gevalideerd</translation>
     </message>
     <message>
         <source>Input was stored successfully</source>
-        <translation>Indtastningen blev gemt</translation>
+        <translation>Invoer werd succesvol opgeslagen</translation>
     </message>
     <message>
         <source>Register</source>
@@ -2469,63 +2475,63 @@ Billeder placeres i mediebiblioteket, så du kan genbruge dem i andre artikler.<
     </message>
     <message>
         <source>Discard</source>
-        <translation>Forkast</translation>
+        <translation>Verwerpen</translation>
     </message>
     <message>
         <source>Unable to register new user</source>
-        <translation>Kan ikke tilmelde ny bruger</translation>
+        <translation>Nieuwe gebruiker registeren was niet mogelijk</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Tilbage</translation>
+        <translation>Terug</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/success</name>
     <message>
         <source>User registered</source>
-        <translation>Bruger registreret</translation>
-    </message>
-    <message>
-        <source>Your account was successfully created.</source>
-        <translation>Din konto blev oprettet.</translation>
+        <translation>Gebruiker geregistreerd</translation>
     </message>
     <message>
         <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
-        <translation>Din konto er nu oprettet. En e-mail vil blive sent til den deffinerede adressede. </translation>
+        <translation>Uw account was succesvol aangemaakt. Een e-mail zal naar het gespecificeerd adres verzonden worden. Volg de instructies in deze e-mail om uw account te activeren.</translation>
+    </message>
+    <message>
+        <source>Your account was successfully created.</source>
+        <translation>Uw account werd succesvol aangemaakt.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/view/ezbinaryfile</name>
     <message>
         <source>The file could not be found.</source>
-        <translation>Fandt ikke filen.</translation>
+        <translation>Het bestand kon niet gevonden worden.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/view/ezmedia</name>
     <message>
         <source>No %link_startFlash player%link_end avaliable!</source>
-        <translation>Ingen %link_startFlash player%link_end tilgængeligt!</translation>
+        <translation>Geen %link_startFlash player%ling_end beschikbaar!</translation>
     </message>
     <message>
         <source>No media file is available.</source>
-        <translation>Ingen mediefil er tilgængelig.</translation>
+        <translation>Geen mediabestand is beschikbaar.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/view/ezprice</name>
     <message>
         <source>Price</source>
-        <translation>Pris</translation>
+        <translation>Prijs</translation>
     </message>
     <message>
         <source>Your price</source>
-        <translation>Din pris</translation>
+        <translation>Uw prijs</translation>
     </message>
     <message>
         <source>You save</source>
-        <translation>Du sparer</translation>
+        <translation>Uw slaat op</translation>
     </message>
 </context>
 <context>
