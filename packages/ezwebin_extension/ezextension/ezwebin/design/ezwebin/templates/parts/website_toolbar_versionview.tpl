@@ -1,3 +1,6 @@
+{def $custom_templates = ezini( 'CustomTemplateSettings', 'CustomTemplateList', 'websitetoolbar.ini' )
+     $include_in_view = ezini( 'CustomTemplateSettings', 'IncludeInView', 'websitetoolbar.ini' )}
+
 <!-- eZ website toolbar: START -->
 
 <div id="ezwt">
@@ -27,8 +30,19 @@
 <input disabled="disabled" type="image" src={"websitetoolbar/ezwt-icon-edit-disabled.gif"|ezimage} name="EditButton" title="{'Edit'|i18n( 'design/ezwebin/content/view/versionview' )}" />
 <input disabled="disabled" type="image" src={"websitetoolbar/ezwt-icon-publish-disabled.gif"|ezimage} name="PreviewPublishButton" title="{'Publish'|i18n( 'design/ezwebin/content/view/versionview' )}" />
 {/if}
-</form>
 
+{* Custom templates inclusion *}
+{foreach $custom_templates as $custom_template}
+    {if is_set( $include_in_view[$custom_template] )}
+        {def $views = $include_in_view[$custom_template]|explode( ';' )}
+        {if $views|contains( 'versionview' )}
+            {include uri=concat( 'design:parts/websitetoolbar/', $custom_template, '.tpl' )}
+        {/if}
+        {undef $views}
+    {/if}
+{/foreach}
+
+</form>
 </div>
 
 <div id="ezwt-help">

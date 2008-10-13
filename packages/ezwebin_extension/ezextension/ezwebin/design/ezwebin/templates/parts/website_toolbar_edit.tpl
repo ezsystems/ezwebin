@@ -1,3 +1,6 @@
+{def $custom_templates = ezini( 'CustomTemplateSettings', 'CustomTemplateList', 'websitetoolbar.ini' )
+     $include_in_view = ezini( 'CustomTemplateSettings', 'IncludeInView', 'websitetoolbar.ini' )}
+
 <!-- eZ website toolbar: START -->
 
 <div id="ezwt">
@@ -35,6 +38,17 @@
 {else}
     <input type="image" src={"websitetoolbar/ezwt-icon-add_translation.gif"|ezimage} name="FromLanguageButton" title="{'Translate'|i18n( 'design/ezwebin/content/edit' )}" />
 {/if}
+
+{* Custom templates inclusion *}
+{foreach $custom_templates as $custom_template}
+    {if is_set( $include_in_view[$custom_template] )}
+        {def $views = $include_in_view[$custom_template]|explode( ';' )}
+        {if $views|contains( 'edit' )}
+            {include uri=concat( 'design:parts/websitetoolbar/', $custom_template, '.tpl' )}
+        {/if}
+        {undef $views}
+    {/if}
+{/foreach}
 </div>
 
 <div id="ezwt-help">

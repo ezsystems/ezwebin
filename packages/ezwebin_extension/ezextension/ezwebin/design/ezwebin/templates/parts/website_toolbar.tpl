@@ -8,7 +8,9 @@
      $website_toolbar_access = fetch( 'user', 'has_access_to', hash( 'module', 'websitetoolbar', 'function', 'use' ) )
      $content_object_language_code = ''
      $policies = fetch( 'user', 'user_role', hash( 'user_id', $current_user.contentobject_id ) )
-     $available_for_current_class = false()}
+     $available_for_current_class = false()
+     $custom_templates = ezini( 'CustomTemplateSettings', 'CustomTemplateList', 'websitetoolbar.ini' )
+     $include_in_view = ezini( 'CustomTemplateSettings', 'IncludeInView', 'websitetoolbar.ini' )}
 
      {foreach $policies as $policy}
         {if and( eq( $policy.moduleName, 'websitetoolbar' ),
@@ -83,6 +85,17 @@
 {else}
     <input type="image" src={"websitetoolbar/ezwt-icon-locations-disabled.gif"|ezimage} name="AddAssignmentButton" title="{'Add locations'|i18n( 'design/ezwebin/parts/website_toolbar' )}" disabled="disabled" />
 {/if}
+
+{* Custom templates inclusion *}
+{foreach $custom_templates as $custom_template}
+    {if is_set( $include_in_view[$custom_template] )}
+        {def $views = $include_in_view[$custom_template]|explode( ';' )}
+        {if $views|contains( 'full' )}
+            {include uri=concat( 'design:parts/websitetoolbar/', $custom_template, '.tpl' )}
+        {/if}
+        {undef $views}
+    {/if}
+{/foreach}
 
   <input type="hidden" name="HasMainAssignment" value="1" />
   <input type="hidden" name="ContentObjectID" value="{$content_object.id}" />
