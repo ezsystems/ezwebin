@@ -1,4 +1,6 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS><TS version="1.1" language="it_IT">
+<defaultcodec></defaultcodec>
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
@@ -489,7 +491,7 @@
     </message>
     <message>
         <source>The object is owned by %owner.</source>
-        <translation>L&apos;oggetto è di proprietà di%owner.</translation>
+        <translation>L&apos;oggetto è di proprietà di %owner.</translation>
     </message>
     <message>
         <source>This object is already being edited by yourself and others.
@@ -621,7 +623,7 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
     </message>
     <message>
         <source>You can either change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation>Puoi cambiare le tue impostazioni della cronologia dele versioni nel content.ini, rimuovere versioni di bozze o modificare bozze esistenti</translation>
+        <translation>Puoi cambiare le tue impostazioni della cronologia delle versioni nel content.ini, rimuovere versioni di bozze o modificare bozze esistenti.</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
@@ -769,7 +771,7 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
     </message>
     <message>
         <source>There is no need to do copies of untouched drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non vi è alcun alcun bisogno di effettuare copie di bozze non modificate.</translation>
     </message>
 </context>
 <context>
@@ -791,35 +793,35 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
     <name>design/ezwebin/content/pendinglist</name>
     <message>
         <source>My pending items [%pending_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>La mia lista di elementi in attesa [%pending_count]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nome</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Classe</translation>
+        <translation>Classe</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">Sezione</translation>
+        <translation>Sezione</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">Versione</translation>
+        <translation>Versione</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation type="unfinished">Ultima modifica</translation>
+        <translation>Ultima modifica</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Sconosciuto</translation>
+        <translation>Sconosciuto</translation>
     </message>
     <message>
         <source>Your pending list is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>La tua lista di attesa è vuota</translation>
     </message>
 </context>
 <context>
@@ -863,7 +865,7 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
     <message>
         <source>For more options try the %1Advanced search%2</source>
         <comment>The parameters are link start and end tags.</comment>
-        <translation type="unfinished">Per maggiori opzioni prova la %1Ricerca avanzata%2</translation>
+        <translation>Per maggiori opzioni prova la %1Ricerca avanzata%2</translation>
     </message>
 </context>
 <context>
@@ -1041,7 +1043,7 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
     <name>design/ezwebin/ezodf/browse_place</name>
     <message>
         <source>Choose document placement</source>
-        <translation type="unfinished"></translation>
+        <translation>Scegli la collocazione del documento</translation>
     </message>
     <message>
         <source>Please choose the placement for the OpenOffice.org object.
@@ -1049,84 +1051,91 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Scegli la collocazione dell&apos;oggetto OpenOffice.org.
+
+    Seleziona la collocazione e premi il pulsante %buttonname.
+    Puoi anche usare gli elementi recenti e i preferiti per una veloce collocazione.
+    Clicca sui nomi delle collocazioni per cambiare l&apos;elenco da sfogliare.</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation type="unfinished">Seleziona</translation>
+        <translation>Seleziona</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/export</name>
     <message>
         <source>OpenOffice.org export</source>
-        <translation type="unfinished"></translation>
+        <translation>Esportazione OpenOffice.org</translation>
     </message>
     <message>
         <source>Export eZ publish content to OpenOffice.org</source>
-        <translation type="unfinished"></translation>
+        <translation>Esporta il contenuto eZ publish in OpenOffice.org</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Errore</translation>
     </message>
     <message>
         <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation type="unfinished"></translation>
+        <translation>Qui puoi esportare qualsiasi contenuto eZ publish in un documento in formato OpenOffice.org Writer.</translation>
     </message>
     <message>
         <source>Export Object</source>
-        <translation type="unfinished"></translation>
+        <translation>Esporta Oggetto</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/import</name>
     <message>
         <source>Document is now imported</source>
-        <translation type="unfinished"></translation>
+        <translation>Il documento ora è stato importato</translation>
     </message>
     <message>
         <source>OpenOffice.org import</source>
-        <translation type="unfinished"></translation>
+        <translation>Importazione OpenOffice.org</translation>
     </message>
     <message>
         <source>The object was imported as: %class_name</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;oggetto è stato importato come: %class_name</translation>
     </message>
     <message>
         <source>Document imported as</source>
-        <translation type="unfinished"></translation>
+        <translation>Il documento è stato importato come</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le immagini sono state collocate in media e possono essere riutilizzate.</translation>
     </message>
     <message>
         <source>Import another document</source>
-        <translation type="unfinished"></translation>
+        <translation>Importa un altro documento</translation>
     </message>
     <message>
         <source>Upload file</source>
-        <translation type="unfinished"></translation>
+        <translation>Carica file</translation>
     </message>
     <message>
         <source>Import OpenOffice.org document</source>
-        <translation type="unfinished"></translation>
+        <translation>Importa un documento OpenOffice.org</translation>
     </message>
     <message>
         <source>Replace document</source>
-        <translation type="unfinished"></translation>
+        <translation>Sostituisci documento</translation>
     </message>
     <message>
         <source>Import to</source>
-        <translation type="unfinished"></translation>
+        <translation>Importa a</translation>
     </message>
     <message>
         <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Puoi importare documenti OpenOffice.org Writer direttamente in eZ Publish da questa pagina. Ti verrà
+richiesto dove collocare i documenti e eZ Publish farà il resto. Il documento viene convertito nella
+classe appropriata durante l&apos;importazione, puoi riceverne notifica ad importazione avvenuta.
+Le immagini sono state collocate in media e possono essere riutilizzate in altri articoli.</translation>
     </message>
 </context>
 <context>
@@ -1451,11 +1460,11 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Guarda il commento</translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi un commento</translation>
     </message>
 </context>
 <context>
@@ -2042,11 +2051,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">Data</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Order status</source>
-        <translation type="unfinished"></translation>
+        <translation>Stato dell&apos;ordine</translation>
     </message>
 </context>
 <context>
@@ -2233,7 +2242,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>My pending items</source>
-        <translation type="unfinished"></translation>
+        <translation>I  miei elementi in attesa</translation>
     </message>
 </context>
 <context>
@@ -2312,56 +2321,56 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Username</source>
         <comment>User name</comment>
-        <translation type="unfinished">Nome utente</translation>
+        <translation>Nome utente</translation>
     </message>
     <message>
         <source>Login</source>
         <comment>Button</comment>
-        <translation type="unfinished">Login</translation>
+        <translation>Login</translation>
     </message>
     <message>
         <source>Sign up</source>
         <comment>Button</comment>
-        <translation type="unfinished">Iscriviti</translation>
+        <translation>Iscriviti</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/password</name>
     <message>
         <source>Change password for user</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambia password per l&apos;utente</translation>
     </message>
     <message>
         <source>Please retype your old password.</source>
-        <translation type="unfinished"></translation>
+        <translation>Reinserisci la tua vecchia password.</translation>
     </message>
     <message>
         <source>Password didn&apos;t match, please retype your new password.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le password non coincidono, reinserisci la tua nuova password.</translation>
     </message>
     <message>
         <source>Password successfully updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Password aggiornata con successo.</translation>
     </message>
     <message>
         <source>Old password</source>
-        <translation type="unfinished"></translation>
+        <translation>Vecchia password</translation>
     </message>
     <message>
         <source>New password</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuova password</translation>
     </message>
     <message>
         <source>Retype password</source>
-        <translation type="unfinished"></translation>
+        <translation>Riscrivi password</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Annulla</translation>
+        <translation>Annulla</translation>
     </message>
 </context>
 <context>
@@ -2421,7 +2430,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/view/ezmedia</name>
     <message>
         <source>No media file is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nessun file media disponibile.</translation>
     </message>
 </context>
 <context>
