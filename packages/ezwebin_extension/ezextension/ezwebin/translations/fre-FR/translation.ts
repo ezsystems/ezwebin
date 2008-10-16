@@ -22,7 +22,7 @@
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">%login_link_starAuthentifiez vous%login_link_end pour commenter</translation>
     </message>
 </context>
 <context>
@@ -280,23 +280,23 @@
     <name>design/ezwebin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Année</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mois</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Jour</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Heure</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Minute</translation>
     </message>
 </context>
 <context>
@@ -483,11 +483,11 @@ Vous pouvez éditez ces brouillons soit les supprimer si vous n&apos;en avez plu
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Traduction du contenu à partir de %from_lang vers %to_lang</translation>
     </message>
     <message>
         <source>Content in %language</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Contenu en %language</translation>
     </message>
 </context>
 <context>
@@ -798,7 +798,7 @@ Vous devriez soit contacter l&apos;auteur d&apos;un des brouillons en cours, soi
     </message>
     <message>
         <source>Modified translation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Traduction modifiée</translation>
     </message>
 </context>
 <context>
@@ -820,7 +820,7 @@ Vous devriez soit contacter l&apos;auteur d&apos;un des brouillons en cours, soi
     <name>design/ezwebin/content/pendinglist</name>
     <message>
         <source>My pending items [%pending_count]</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mes articles en attente (%pending_count)</translation>
     </message>
     <message>
         <source>Name</source>
@@ -848,7 +848,7 @@ Vous devriez soit contacter l&apos;auteur d&apos;un des brouillons en cours, soi
     </message>
     <message>
         <source>Your pending list is empty</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Votre liste en attente est vide</translation>
     </message>
 </context>
 <context>
@@ -864,8 +864,7 @@ Vous devriez soit contacter l&apos;auteur d&apos;un des brouillons en cours, soi
     </message>
     <message>
         <source>The following words were excluded from the search:</source>
-        <translation>
-Les mots suivants ont été exclus de la recherche :</translation>
+        <translation>Les mots suivants ont été exclus de la recherche :</translation>
     </message>
     <message>
         <source>No results were found when searching for &quot;%1&quot;.</source>
@@ -1071,7 +1070,7 @@ Les mots suivants ont été exclus de la recherche :</translation>
     <name>design/ezwebin/ezodf/browse_place</name>
     <message>
         <source>Choose document placement</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Choisir l&apos;emplacement du document</translation>
     </message>
     <message>
         <source>Please choose the placement for the OpenOffice.org object.
@@ -1079,7 +1078,11 @@ Les mots suivants ont été exclus de la recherche :</translation>
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Choisissez l&apos;emplacement de l&apos;objet OpenOffice.
+
+Sélectionnez l&apos;emplacement et cliquez sur le bouton %buttonname.
+L&apos;utilisation des éléments récents et des favoris pour un placement rapide est également possible.
+Cliquez sur le nom des emplacement pour changer la liste de navigation.</translation>
     </message>
     <message>
         <source>Select</source>
@@ -1090,73 +1093,76 @@ Les mots suivants ont été exclus de la recherche :</translation>
     <name>design/ezwebin/ezodf/export</name>
     <message>
         <source>OpenOffice.org export</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Exportation OpenOffice.org</translation>
     </message>
     <message>
         <source>Export eZ publish content to OpenOffice.org</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Exporter du contenu eZ Publish vers OpenOffice.org</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Erreur</translation>
     </message>
     <message>
         <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Vous pouvez exporter ici tout objet de contenu eZ Publish vers un format de document OpenOffice.org Writer.</translation>
     </message>
     <message>
         <source>Export Object</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Exporter un objet</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/import</name>
     <message>
         <source>Document is now imported</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Le document a été importé</translation>
     </message>
     <message>
         <source>OpenOffice.org import</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Import OpenOffice.org</translation>
     </message>
     <message>
         <source>The object was imported as: %class_name</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">L&apos;objet a été importé en tant que : %class_name</translation>
     </message>
     <message>
         <source>Document imported as</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Document importé en tant que</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Les images sont placées dans le média et peuvent être réutilisées.</translation>
     </message>
     <message>
         <source>Import another document</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Importer un autre document</translation>
     </message>
     <message>
         <source>Upload file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Télécharger un fichier</translation>
     </message>
     <message>
         <source>Import OpenOffice.org document</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Importer un document OpenOffice.org</translation>
     </message>
     <message>
         <source>Replace document</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Remplacer un document</translation>
     </message>
     <message>
         <source>Import to</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Importer vers</translation>
     </message>
     <message>
         <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Vous pouvez directement importer des documents OpenOffice.org Writer vers eZ Publish à partir de cette page. Vous devez
+indiquer l&apos;emplacement du document et eZ Publish s&apos;occupe du reste. Le document est converti dans
+la classe appropriée lors de l&apos;importation. Vous recevrez un avis concernant cette conversion une fois l&apos;importation terminée.
+Les images sont placées dans la médiathèque, vous pouvez donc les réutiliser dans d&apos;autres articles. </translation>
     </message>
 </context>
 <context>
@@ -1481,11 +1487,11 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lire les commentaires</translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ajouter des commentaires</translation>
     </message>
 </context>
 <context>
@@ -1564,7 +1570,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/line/silverlight</name>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualiser</translation>
     </message>
 </context>
 <context>
@@ -1647,38 +1653,38 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
     <message>
         <source>Receive all messages combined in one digest</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Recevoir tous les messages combinés en un résumé</translation>
     </message>
     <message>
         <source>Receive digests</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Recevoir les résumés</translation>
     </message>
     <message>
         <source>Daily, at</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Quotidiennement, à</translation>
     </message>
     <message>
         <source>Once per week, on </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Une fois par semaine, le</translation>
     </message>
     <message>
         <source>Once per month, on day number</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Une fois par semaine, le</translation>
     </message>
     <message>
         <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Si une date est supérieure au nombre de jours dans le mois en cours, le dernier jour du mois en cours sera utilisé.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/notification/handler/ezsubtree/settings/edit</name>
     <message>
         <source>My item notifications [%notification_count]</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mes notifications d&apos;articles (%notification_count)</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Inverser la sélection</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1698,7 +1704,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>You have not subscribed to receive notifications about any items.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Vous n&apos;êtes inscrit à aucune notification.</translation>
     </message>
     <message>
         <source>Remove selected</source>
@@ -1706,7 +1712,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Add items</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ajouter des éléments</translation>
     </message>
 </context>
 <context>
@@ -1717,7 +1723,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Apply changes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Appliquer les modifications</translation>
     </message>
 </context>
 <context>
@@ -2122,7 +2128,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Order status</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Statut de la commande</translation>
     </message>
 </context>
 <context>
@@ -2309,7 +2315,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>My pending items</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mes articles en attente</translation>
     </message>
 </context>
 <context>
@@ -2405,31 +2411,31 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/user/password</name>
     <message>
         <source>Change password for user</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Changer le mot de passe de l&apos;utilisateur</translation>
     </message>
     <message>
         <source>Please retype your old password.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Veuillez saisir à nouveau votre ancien mot de passe.</translation>
     </message>
     <message>
         <source>Password didn&apos;t match, please retype your new password.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mot de passe incorrect, veuillez saisir à nouveau votre mot de passe.</translation>
     </message>
     <message>
         <source>Password successfully updated.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mot de passe mis à jour</translation>
     </message>
     <message>
         <source>Old password</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ancien mot de passe</translation>
     </message>
     <message>
         <source>New password</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nouveau mot de passe</translation>
     </message>
     <message>
         <source>Retype password</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Saisir à nouveau le mot de passe</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2441,7 +2447,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>The new password must be at least %1 characters long, please retype your new password.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Le nouveau mot de passe doit comporter au moins %1 caractères. Veuillez saisir à nouveau votre nouveau mot de passe.</translation>
     </message>
 </context>
 <context>
@@ -2501,11 +2507,11 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/view/ezmedia</name>
     <message>
         <source>No %link_startFlash player%link_end avaliable!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Aucun %link_startFlashPlayer%link_end disponible !</translation>
     </message>
     <message>
         <source>No media file is available.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Aucun fichier média disponible</translation>
     </message>
 </context>
 <context>
