@@ -18,11 +18,11 @@
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_startConnecta%login_link_end o %create_link_startcrea un compte d&apos;usuari%create_link_end per a comentar.</translation>
+        <translation>%login_link_startLog in%login_link_end or %create_link_startcreate un compte d&apos;usuari%create_link_end per a fer comentaris.</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startLog in%login_link_end per a incloure comentaris.</translation>
     </message>
 </context>
 <context>
@@ -227,7 +227,7 @@
     </message>
     <message>
         <source>Last month</source>
-        <translation type="unfinished">Darrer mes</translation>
+        <translation>Darrer mes</translation>
     </message>
 </context>
 <context>
@@ -280,23 +280,23 @@
     <name>design/ezwebin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Any</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mes</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Dia</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>Hora</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Minut</translation>
     </message>
 </context>
 <context>
@@ -483,11 +483,11 @@
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
-        <translation type="unfinished"></translation>
+        <translation>Traduint el contingut de %from_lang%to_lang</translation>
     </message>
     <message>
         <source>Content in %language</source>
-        <translation type="unfinished"></translation>
+        <translation>Contingut en %language</translation>
     </message>
 </context>
 <context>
@@ -798,7 +798,7 @@
     </message>
     <message>
         <source>Modified translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Traducció rectificada</translation>
     </message>
 </context>
 <context>
@@ -820,35 +820,35 @@
     <name>design/ezwebin/content/pendinglist</name>
     <message>
         <source>My pending items [%pending_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Els meus articles pendents [%pending_count]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nom</translation>
+        <translation>Nom</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Classe</translation>
+        <translation>Classe</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">Secció</translation>
+        <translation>Secció</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versió</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation type="unfinished">Darrera modificació</translation>
+        <translation>Darrera modificació</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Desconegut</translation>
+        <translation>Desconegut</translation>
     </message>
     <message>
         <source>Your pending list is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>La llista d&apos;articles pendents està buida</translation>
     </message>
 </context>
 <context>
@@ -1070,7 +1070,7 @@
     <name>design/ezwebin/ezodf/browse_place</name>
     <message>
         <source>Choose document placement</source>
-        <translation type="unfinished">Tria ubicació del document</translation>
+        <translation>Tria la ubicació del document</translation>
     </message>
     <message>
         <source>Please choose the placement for the OpenOffice.org object.
@@ -1078,7 +1078,7 @@
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation type="unfinished">Si us plau, tria ubicació per l&apos;objecte OpenOffice.org.
+        <translation>Si us plau, tria una ubicació per l&apos;objecte OpenOffice.org.
 
     Tria les ubicacions i prem el botó %buttonname.
     També pots utilitzar els elements recents i els favorits per a una ubicació ràpida.
@@ -1086,83 +1086,83 @@
     </message>
     <message>
         <source>Select</source>
-        <translation type="unfinished">Selecciona</translation>
+        <translation>Selecciona</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/export</name>
     <message>
         <source>OpenOffice.org export</source>
-        <translation type="unfinished">Exportació OpenOffice.org</translation>
+        <translation>Exportació OpenOffice.org</translation>
     </message>
     <message>
         <source>Export eZ publish content to OpenOffice.org</source>
-        <translation type="unfinished">Exporta el contingut eZ publish a OpenOffice.org</translation>
+        <translation>Exporta el contingut eZ publish a OpenOffice.org</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Error</translation>
+        <translation>Error</translation>
     </message>
     <message>
         <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation type="unfinished">Aquí pots exportar qualsevol objecte de contingut eZ publish a format OpenOffice.org Writer.</translation>
+        <translation>Aquí pots exportar qualsevol objecte de contingut eZ publish a format OpenOffice.org Writer.</translation>
     </message>
     <message>
         <source>Export Object</source>
-        <translation type="unfinished">Exporta Objecte</translation>
+        <translation>Exporta l&apos;Objecte</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/import</name>
     <message>
         <source>Document is now imported</source>
-        <translation type="unfinished">S&apos;ha importat el document</translation>
+        <translation>S&apos;ha importat el document</translation>
     </message>
     <message>
         <source>OpenOffice.org import</source>
-        <translation type="unfinished">Importació OpenOffice.org</translation>
+        <translation>Importació OpenOffice.org</translation>
     </message>
     <message>
         <source>The object was imported as: %class_name</source>
-        <translation type="unfinished">S&apos;ha importat l&apos;objecte com: %class_name</translation>
+        <translation>S&apos;ha importat l&apos;objecte com: %class_name</translation>
     </message>
     <message>
         <source>Document imported as</source>
-        <translation type="unfinished">Document importat com</translation>
+        <translation>Document importat com</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
-        <translation type="unfinished">Les imatges es col·loquen en la biblioteca multimèdia i poden ser reutilitzades.</translation>
+        <translation>Les imatges es col·loquen en la biblioteca multimèdia i poden ser reutilitzades.</translation>
     </message>
     <message>
         <source>Import another document</source>
-        <translation type="unfinished">Importa un altre document</translation>
+        <translation>Importa un altre document</translation>
     </message>
     <message>
         <source>Upload file</source>
-        <translation type="unfinished">Carrega fitxer</translation>
+        <translation>Carrega fitxer</translation>
     </message>
     <message>
         <source>Import OpenOffice.org document</source>
-        <translation type="unfinished">Importa document OpenOffice.org</translation>
+        <translation>Importa document OpenOffice.org</translation>
     </message>
     <message>
         <source>Replace document</source>
-        <translation type="unfinished">Reemplaça document</translation>
+        <translation>Reemplaça document</translation>
     </message>
     <message>
         <source>Import to</source>
-        <translation type="unfinished">Importa a</translation>
+        <translation>Importa a</translation>
     </message>
     <message>
         <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="unfinished">Pots importar documents OpenOffice.org directament dintre de eZ publish des d&apos;aquesta pàgina. Només et preguntarà
-on col·locar el document, la resta ho farà eZ publish. El document es converteix en
-la classe apropiada durant la importació, rebràs una notificació sobre això quan acabi la importació.
-Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilitzades en altres articles. </translation>
+        <translation>Pots importar documents OpenOffice.org directament a eZ publish des d&apos;aquesta pàgina. eZ publish et preguntarà
+on vols col·locar el document i el programa farà la resta. El document es converteix en
+la classe apropiada durant la importació i el programa t&apos;envia una notificació quan la importació finalitza.
+Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitzades en altres articles. </translation>
     </message>
 </context>
 <context>
@@ -1487,11 +1487,11 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Veure comentaris</translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Afegir un comentari</translation>
     </message>
 </context>
 <context>
@@ -1570,7 +1570,7 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     <name>design/ezwebin/line/silverlight</name>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualitza</translation>
     </message>
 </context>
 <context>
@@ -1653,66 +1653,66 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
     <message>
         <source>Receive all messages combined in one digest</source>
-        <translation type="unfinished"></translation>
+        <translation>Rebre tots els missatges en un únic resum</translation>
     </message>
     <message>
         <source>Receive digests</source>
-        <translation type="unfinished"></translation>
+        <translation>Rebre resum</translation>
     </message>
     <message>
         <source>Daily, at</source>
-        <translation type="unfinished"></translation>
+        <translation>Diàriament, a</translation>
     </message>
     <message>
         <source>Once per week, on </source>
-        <translation type="unfinished"></translation>
+        <translation>Un cop per setmana, a</translation>
     </message>
     <message>
         <source>Once per month, on day number</source>
-        <translation type="unfinished"></translation>
+        <translation>Un cop al mes, el dia</translation>
     </message>
     <message>
         <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si el mes actual no inclou el dia indicat es prendrà l&apos;últim dia del mes.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/notification/handler/ezsubtree/settings/edit</name>
     <message>
         <source>My item notifications [%notification_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Les meves notificacions d&apos;articles [%notification_count]</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Invertir la selecció.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nom</translation>
+        <translation>Nom</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Tipus</translation>
+        <translation>Tipus</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">Secció</translation>
+        <translation>Secció</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Desconegut</translation>
+        <translation>Desconegut</translation>
     </message>
     <message>
         <source>You have not subscribed to receive notifications about any items.</source>
-        <translation type="unfinished"></translation>
+        <translation>No has acceptat rebre notificacions sobre cap element.</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">Esborra seleccionats</translation>
+        <translation>Esborra seleccionats</translation>
     </message>
     <message>
         <source>Add items</source>
-        <translation type="unfinished"></translation>
+        <translation>Afegeix articles</translation>
     </message>
 </context>
 <context>
@@ -1723,7 +1723,7 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     </message>
     <message>
         <source>Apply changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Guardar les modificacions</translation>
     </message>
 </context>
 <context>
@@ -2124,11 +2124,11 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">Data</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Order status</source>
-        <translation type="unfinished"></translation>
+        <translation>Estat de l&apos;ordre</translation>
     </message>
 </context>
 <context>
@@ -2315,7 +2315,7 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     </message>
     <message>
         <source>My pending items</source>
-        <translation type="unfinished"></translation>
+        <translation>Els meus articles pendents</translation>
     </message>
 </context>
 <context>
@@ -2423,7 +2423,7 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     </message>
     <message>
         <source>Password successfully updated.</source>
-        <translation>Contrasenya actualitzada correctament.</translation>
+        <translation>La contrasenya s&apos;ha actualitzat correctament.</translation>
     </message>
     <message>
         <source>Old password</source>
@@ -2447,7 +2447,7 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     </message>
     <message>
         <source>The new password must be at least %1 characters long, please retype your new password.</source>
-        <translation type="unfinished"></translation>
+        <translation>La nova contrasenya ha de tenir com a mínim % 1 characters long, si us plau torna a escriure la nova contrasenya.</translation>
     </message>
 </context>
 <context>
@@ -2507,11 +2507,11 @@ Les imatges es col·loquen en la biblioteca multimèdia per a poder ser reutilit
     <name>design/ezwebin/view/ezmedia</name>
     <message>
         <source>No %link_startFlash player%link_end avaliable!</source>
-        <translation type="unfinished"></translation>
+        <translation>No %link_startFlash player%link_end disponible!</translation>
     </message>
     <message>
         <source>No media file is available.</source>
-        <translation type="unfinished">No hi ha cap arxiu multimèdia disponible.</translation>
+        <translation>No hi ha cap arxiu multimèdia disponible.</translation>
     </message>
 </context>
 <context>
