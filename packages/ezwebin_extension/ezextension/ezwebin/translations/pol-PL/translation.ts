@@ -3,80 +3,80 @@
     <name>design/ezwebin/article/article_index</name>
     <message>
         <source>Article index</source>
-        <translation type="unfinished"></translation>
+        <translation>Spis artykułów</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/article/comments</name>
     <message>
         <source>Comments</source>
-        <translation type="unfinished">Komentarze</translation>
+        <translation>Komentarze</translation>
     </message>
     <message>
         <source>New comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowy komentarz</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startLog w%login_link_end lub %create_link_startcreate użytkownika%create_link_end do skomentowania.</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startLog w%login_link_end do skomentowania.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/blog/calendar</name>
     <message>
         <source>Previous month</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprzedni miesiąc</translation>
     </message>
     <message>
         <source>Next month</source>
-        <translation type="unfinished"></translation>
+        <translation>Następny miesiąc</translation>
     </message>
     <message>
         <source>Calendar</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalendarz</translation>
     </message>
     <message>
         <source>Mon</source>
-        <translation type="unfinished">Pon</translation>
+        <translation>Pon</translation>
     </message>
     <message>
         <source>Tue</source>
-        <translation type="unfinished">Wt</translation>
+        <translation>Wt</translation>
     </message>
     <message>
         <source>Wed</source>
-        <translation type="unfinished">Śr</translation>
+        <translation>Śr</translation>
     </message>
     <message>
         <source>Thu</source>
-        <translation type="unfinished">Czw</translation>
+        <translation>Czw</translation>
     </message>
     <message>
         <source>Fri</source>
-        <translation type="unfinished">Pt</translation>
+        <translation>Pt</translation>
     </message>
     <message>
         <source>Sat</source>
-        <translation type="unfinished">So</translation>
+        <translation>So</translation>
     </message>
     <message>
         <source>Sun</source>
-        <translation type="unfinished">N</translation>
+        <translation>N</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/blog/extra_info</name>
     <message>
         <source>Tags</source>
-        <translation type="unfinished"></translation>
+        <translation>Znaczniki</translation>
     </message>
     <message>
         <source>Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Archiwalne</translation>
     </message>
 </context>
 <context>
@@ -95,61 +95,61 @@
     </message>
     <message>
         <source>You have already submitted this form. The data you entered was:</source>
-        <translation type="unfinished"></translation>
+        <translation>Już potwierdziłeś ten formularz. Dane które wprowadziłeś:</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfo/poll</name>
     <message>
         <source>Poll %pollname</source>
-        <translation type="unfinished"></translation>
+        <translation>Ankieta %pollname</translation>
     </message>
     <message>
         <source>Results</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyniki</translation>
     </message>
     <message>
         <source>Please log in to vote on this poll.</source>
-        <translation type="unfinished"></translation>
+        <translation>Proszę się zalogować aby głosować w tej ankiecie.</translation>
     </message>
     <message>
         <source>You have already voted for this poll.</source>
-        <translation type="unfinished"></translation>
+        <translation>Już brałeś udział w tej ankiecie.</translation>
     </message>
     <message>
         <source>Votes</source>
-        <translation type="unfinished"></translation>
+        <translation>Głosy</translation>
     </message>
     <message>
         <source>%count total votes</source>
-        <translation type="unfinished"></translation>
+        <translation>%count Suma głosów</translation>
     </message>
     <message>
         <source>Back to poll</source>
-        <translation type="unfinished"></translation>
+        <translation>Wróć do ankiety</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfomail/feedback</name>
     <message>
         <source>Feedback from %1</source>
-        <translation type="unfinished">Odpowiedź od %1
+        <translation>Odpowiedź od %1
 <byte value="x9"/><byte value="x9"/></translation>
     </message>
     <message>
         <source>The following feedback was collected</source>
-        <translation type="unfinished">Zebrano następujące informacje</translation>
+        <translation>Zebrano następujące informacje</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfomail/form</name>
     <message>
         <source>Collected information from %1</source>
-        <translation type="unfinished">Zbieranie informacji z %1</translation>
+        <translation>Zbieranie informacji z %1</translation>
     </message>
     <message>
         <source>The following information was collected</source>
-        <translation type="unfinished">Zebrano następujące informacje</translation>
+        <translation>Zebrano następujące informacje</translation>
     </message>
 </context>
 <context>
@@ -228,7 +228,7 @@
     </message>
     <message>
         <source>Last month</source>
-        <translation type="unfinished">Ostatni miesiąc</translation>
+        <translation>Ostatni miesiąc</translation>
     </message>
 </context>
 <context>
@@ -259,7 +259,7 @@
     </message>
     <message>
         <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aby zaznaczyć obiekt który jest jednym z podrzędnych do wyświetlonych obiektów, kliknij na nazwie obiektu nadrzędnego aby wyświetlić listę podrzędnych.</translation>
     </message>
 </context>
 <context>
@@ -274,30 +274,30 @@
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Odwróć zaznaczenie</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Rok</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Miesiąc</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Dzień</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>Godzina</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Minuta</translation>
     </message>
 </context>
 <context>
@@ -437,7 +437,7 @@
     </message>
     <message>
         <source>Empty draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Pusty szkic</translation>
     </message>
 </context>
 <context>
@@ -472,38 +472,38 @@
     </message>
     <message>
         <source>Discard draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Porzuć szkic</translation>
     </message>
     <message>
         <source>Translate from</source>
-        <translation type="unfinished"></translation>
+        <translation>Przetłumacz z</translation>
     </message>
     <message>
         <source>Documentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentacja</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
-        <translation type="unfinished"></translation>
+        <translation>Przetłumacz treść z %from_lang to %to_lang</translation>
     </message>
     <message>
         <source>Content in %language</source>
-        <translation type="unfinished"></translation>
+        <translation>Treść w %language</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_attribute</name>
     <message>
         <source>Not translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie przetłumaczalne</translation>
     </message>
     <message>
         <source>Required</source>
-        <translation type="unfinished"></translation>
+        <translation>Wymagany</translation>
     </message>
     <message>
         <source>Information collector</source>
-        <translation type="unfinished"></translation>
+        <translation>System zbierania informacji</translation>
     </message>
 </context>
 <context>
@@ -561,12 +561,14 @@
     <message>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation>Obiekt jest obecnie modyfikowany przez ciebie i innych.
+    Możesz kontynuować edycję swojego szkicu lub stworzyć nowy.</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Obiekt jest obecnie modyfikowany przez ciebie lub kogoś innego.
+        Możesz skontaktować się z tą osobą albo utworzyć nowy szkic na własny użytek.</translation>
     </message>
 </context>
 <context>
@@ -593,27 +595,27 @@
     </message>
     <message>
         <source>Select the language you want to use when editing the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz język który chcesz użyć podczas edycji objektu.</translation>
     </message>
     <message>
         <source>Select the language you want to add to the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz język aby dodać objekt.</translation>
     </message>
     <message>
         <source>Select the language the new translation will be based on.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz język w oparciu o który będzie nowe tłumaczenie.</translation>
     </message>
     <message>
         <source>Use an empty, untranslated draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Użyj pustego, nieprzetłumaczalnego szkicu</translation>
     </message>
     <message>
         <source>You do not have permission to create a translation in another language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie posiadasz uprawnień aby utworzyć tłumaczenie w innym języku.</translation>
     </message>
     <message>
         <source>However, you can select one of the following languages for editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jednakże, możesz wybrać jeden z następujących języków do edycji.</translation>
     </message>
 </context>
 <context>
@@ -760,93 +762,93 @@
     </message>
     <message>
         <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wersja %1 nie jest dostępna do edycji. Tylko szkice mogą być edytowane.</translation>
     </message>
     <message>
         <source>To edit this version, first create a copy of it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aby edytować tę wersję, stwórz jej kopię w pierwszej kolejności.</translation>
     </message>
     <message>
         <source>Version %1 was not created by you. Only your own drafts can be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wersja %1 nie została utworzona przez Ciebie. Tylko Twoje własne szkice mogą być edytowane.</translation>
     </message>
     <message>
         <source>You can either change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Możesz albo zmienić ustawienia historii w content.ini, usunąć szkice albo edytować istniejące.</translation>
     </message>
     <message>
         <source>Toggle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmień zaznaczenie</translation>
     </message>
     <message>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wersja #%version_number nie może być usunięta, ponieważ to jest opublikowana wersja obiektu, albo nie masz uprawnień aby ją usunąć.</translation>
     </message>
     <message>
         <source>There is no need to do a copies of untouched drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie potrzeba wykonywać kopii niezmienionych szkiców.</translation>
     </message>
     <message>
         <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie możesz wykonać kopii, ponieważ nie masz uprawnień do edycji obiektu.</translation>
     </message>
     <message>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie możesz edytować treści #%version_number ponieważ to nie jest szkic lub nie masz uprawnień do edycji obiektu.</translation>
     </message>
     <message>
         <source>Modified translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Modyfikacja tłumaczenia</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/keyword</name>
     <message>
         <source>Keyword: %keyword</source>
-        <translation type="unfinished"></translation>
+        <translation>Słowo kluczowe: %keyword</translation>
     </message>
     <message>
         <source>Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Link</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Typ</translation>
+        <translation>Typ</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/pendinglist</name>
     <message>
         <source>My pending items [%pending_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Moje oczekujące pozycje [%pending_count]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nazwa</translation>
+        <translation>Nazwa</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Klasa</translation>
+        <translation>Klasa</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">Sekcja</translation>
+        <translation>Sekcja</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">Wersja</translation>
+        <translation>Wersja</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation type="unfinished">Ostatnia modyfikacja</translation>
+        <translation>Ostatnia modyfikacja</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieznane</translation>
     </message>
     <message>
         <source>Your pending list is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Twoja lista oczekujących jest pusta</translation>
     </message>
 </context>
 <context>
@@ -874,74 +876,74 @@
     </message>
     <message>
         <source>The following words were excluded from the search:</source>
-        <translation type="unfinished"></translation>
+        <translation>Następujące słowa zostały wyłączone z poszukiwania:</translation>
     </message>
     <message>
         <source>No results were found when searching for &quot;%1&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie znaleziono żadnych wyników wyszukiwania dla &quot;%1&quot;.</translation>
     </message>
     <message>
         <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Spróbuj zmienić jakieś wyrazy (np., &quot;samochód&quot; zamiast &quot;samochody&quot;).</translation>
     </message>
     <message>
         <source>Try searching with less specific keywords.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spróbuj wyszukiwania z mniejszą ilością słów kluczowych.</translation>
     </message>
     <message>
         <source>Reduce number of keywords to get more results.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zredukuj liczbę słów kluczowych aby otrzymać więcej wyników.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/tipafriend</name>
     <message>
         <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
+        <translation>Poradź się przyjaciela</translation>
     </message>
     <message>
         <source>The message was sent.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiadomość została wysłana.</translation>
     </message>
     <message>
         <source>Click here to return to the original page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknij tutaj aby wrócić do oryginalnej strony.</translation>
     </message>
     <message>
         <source>The message was not sent.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiadmość nie została wysłana.</translation>
     </message>
     <message>
         <source>The message was not sent due to an unknown error. Please notify the site administrator about this error.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiadmość nie została wysłana z powodu nieznanego błędu. Proszę powiadomić administratora strony o tym problemie.</translation>
     </message>
     <message>
         <source>Please correct the following errors:</source>
-        <translation type="unfinished"></translation>
+        <translation>Proszę poprawić następujące błędy:</translation>
     </message>
     <message>
         <source>Your name</source>
-        <translation type="unfinished"></translation>
+        <translation>Twoja nazwa</translation>
     </message>
     <message>
         <source>Your email address</source>
-        <translation type="unfinished"></translation>
+        <translation>Twój adres e-mail</translation>
     </message>
     <message>
         <source>Recipient&apos;s email address</source>
-        <translation type="unfinished"></translation>
+        <translation>Adres e-mail odbiorcy</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished">Komentarz</translation>
+        <translation>Komentarz</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyślij</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Anuluj</translation>
+        <translation>Anuluj</translation>
     </message>
 </context>
 <context>
@@ -956,7 +958,7 @@
     </message>
     <message>
         <source>Manage versions</source>
-        <translation type="unfinished">Zarządzaj wersjami</translation>
+        <translation>Zarządzaj wersjami</translation>
     </message>
 </context>
 <context>
@@ -1030,7 +1032,7 @@
     <name>design/ezwebin/embed/poll</name>
     <message>
         <source>Vote</source>
-        <translation type="unfinished"></translation>
+        <translation>Głosuj</translation>
     </message>
 </context>
 <context>
@@ -1061,14 +1063,14 @@
     </message>
     <message>
         <source>What is eZ Publish?</source>
-        <translation type="unfinished"></translation>
+        <translation>Co to jest eZ Publish?</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/browse_place</name>
     <message>
         <source>Choose document placement</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz lokalizację dokumentu</translation>
     </message>
     <message>
         <source>Please choose the placement for the OpenOffice.org object.
@@ -1076,84 +1078,91 @@
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Proszę wybrac lokalizajcję dla obiektu OpenOffice.org.
+
+    Wybierz lokalizacje i kliknij na prrzycisk %buttonname
+    Możliwe jest także używanie ostatnio otawartych oraz pozycji zakładek dla szybszego rozmieszczania.
+    Kliknij na nazwie lokalizacji aby zmienić przeglądaną listę.</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation type="unfinished">Wybierz</translation>
+        <translation>Wybierz</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/export</name>
     <message>
         <source>OpenOffice.org export</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksport OpenOffice.org</translation>
     </message>
     <message>
         <source>Export eZ publish content to OpenOffice.org</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksportuj zawartość eZ publish do OpenOffice.org</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd</translation>
     </message>
     <message>
         <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tutaj możesz eksportować każdą zawartość obiektu eZ publish do Edytora tekstu OpenOffice.org.</translation>
     </message>
     <message>
         <source>Export Object</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksportuj obiekt</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/import</name>
     <message>
         <source>Document is now imported</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokument jest teraz importowany</translation>
     </message>
     <message>
         <source>OpenOffice.org import</source>
-        <translation type="unfinished"></translation>
+        <translation>Import OpenOffice.org</translation>
     </message>
     <message>
         <source>The object was imported as: %class_name</source>
-        <translation type="unfinished"></translation>
+        <translation>Objekt został zaimportowany jako : %class_name</translation>
     </message>
     <message>
         <source>Document imported as</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokument zaimportowany jako</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zdjęcia zostały umieszczone w media i mogą być ponownie użyte.</translation>
     </message>
     <message>
         <source>Import another document</source>
-        <translation type="unfinished"></translation>
+        <translation>Import innego dokumentu</translation>
     </message>
     <message>
         <source>Upload file</source>
-        <translation type="unfinished"></translation>
+        <translation>Wysyłanie pliku</translation>
     </message>
     <message>
         <source>Import OpenOffice.org document</source>
-        <translation type="unfinished"></translation>
+        <translation>Import dokumentu OpenOffice.org</translation>
     </message>
     <message>
         <source>Replace document</source>
-        <translation type="unfinished"></translation>
+        <translation>Zastąp dokument</translation>
     </message>
     <message>
         <source>Import to</source>
-        <translation type="unfinished"></translation>
+        <translation>Impotruj do</translation>
     </message>
     <message>
         <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Z tej strony możesz importować dokument Edytora tekstu OpenOffice.org prosto do eZ publish. Zostaniesz
+zapytany gdzie umieścić dokument, a eZ publish wykona resztę. Dokument jest konwertowany podczas
+importu do odpowiedniej klasy. Otrzymasz powiadomienie kiedy import zostanie zakończony.
+Zdjęcia są umieszczone w bibliotece media więc możesz użyć je ponownie w innych artykułach.</translation>
     </message>
 </context>
 <context>
@@ -1164,44 +1173,44 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>New comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowy komentarz</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startLog w%login_link_end lub %create_link_startcreate użytkownika%create_link_end do skomentowania.</translation>
     </message>
     <message>
         <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
+        <translation>Poradź się przyjaciela</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_mainpage</name>
     <message>
         <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
+        <translation>Poradź się przyjaciela</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_subpage</name>
     <message>
         <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
+        <translation>Poradź się przyjaciela</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/blog_post</name>
     <message>
         <source>Tags:</source>
-        <translation type="unfinished"></translation>
+        <translation>Znaczniki:</translation>
     </message>
     <message>
         <source>Comments</source>
-        <translation type="unfinished">Komentarze</translation>
+        <translation>Komentarze</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startLog w%login_link_end lub %create_link_startcreate użytkownika%create_link_end do skomentowania.</translation>
     </message>
 </context>
 <context>
@@ -1216,7 +1225,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Table of contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Spis treści</translation>
     </message>
 </context>
 <context>
@@ -1280,7 +1289,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/full/feedback_form</name>
     <message>
         <source>Send form</source>
-        <translation>Wyślij</translation>
+        <translation>Wyślij formularz</translation>
     </message>
 </context>
 <context>
@@ -1433,30 +1442,30 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/full/multicalendar</name>
     <message>
         <source>Event</source>
-        <translation type="unfinished"></translation>
+        <translation>Zdarzenie</translation>
     </message>
     <message>
         <source>Start date</source>
-        <translation type="unfinished"></translation>
+        <translation>Data początkowa</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">Kategoria</translation>
+        <translation>Kategoria</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Opis</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/poll</name>
     <message>
         <source>Vote</source>
-        <translation type="unfinished"></translation>
+        <translation>Głosuj</translation>
     </message>
     <message>
         <source>Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Wynik</translation>
     </message>
 </context>
 <context>
@@ -1478,11 +1487,11 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobacz komentarze</translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj komentarz</translation>
     </message>
 </context>
 <context>
@@ -1518,11 +1527,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Number of topics</source>
-        <translation type="unfinished"></translation>
+        <translation>Liczba tematów</translation>
     </message>
     <message>
         <source>Number of posts</source>
-        <translation type="unfinished"></translation>
+        <translation>Liczba postów</translation>
     </message>
 </context>
 <context>
@@ -1536,11 +1545,11 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/line/poll</name>
     <message>
         <source>%count votes</source>
-        <translation type="unfinished"></translation>
+        <translation>%count głosy</translation>
     </message>
     <message>
         <source>Vote</source>
-        <translation type="unfinished"></translation>
+        <translation>Głosuj</translation>
     </message>
 </context>
 <context>
@@ -1561,7 +1570,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/line/silverlight</name>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Widok</translation>
     </message>
 </context>
 <context>
@@ -1618,7 +1627,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>If %trashname is checked, removed items can be found in the trash.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli %trashname jest zaznaczony, usunięte pozycje można odnaleźć w koszu.</translation>
     </message>
 </context>
 <context>
@@ -1644,66 +1653,66 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
     <message>
         <source>Receive all messages combined in one digest</source>
-        <translation type="unfinished"></translation>
+        <translation>Przyjmuj wszystkie wiadomości połączone w jednym streszczeniu</translation>
     </message>
     <message>
         <source>Receive digests</source>
-        <translation type="unfinished"></translation>
+        <translation>Przyjmuj streszczenia</translation>
     </message>
     <message>
         <source>Daily, at</source>
-        <translation type="unfinished"></translation>
+        <translation>Codziennie, o </translation>
     </message>
     <message>
         <source>Once per week, on </source>
-        <translation type="unfinished"></translation>
+        <translation>Raz w tygodniu, o</translation>
     </message>
     <message>
         <source>Once per month, on day number</source>
-        <translation type="unfinished"></translation>
+        <translation>Raz w miesiącu, dnia</translation>
     </message>
     <message>
         <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli dzień jest większy niż liczba dni w bieżącym miesiącu, zostanie użyty ostatni dzień bieżącego miesiąca.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/notification/handler/ezsubtree/settings/edit</name>
     <message>
         <source>My item notifications [%notification_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Mój spis powiadomień [%notification_count]</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odwróć zaznaczenie.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nazwa</translation>
+        <translation>Nazwa</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Typ</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">Sekcja</translation>
+        <translation>Sekcja</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieznane</translation>
     </message>
     <message>
         <source>You have not subscribed to receive notifications about any items.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie jesteś zapisany do listy subskrypcyjnej aby otrzymywać powiadomienia.</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">Usuń zaznaczone</translation>
+        <translation>Usuń zaznaczone</translation>
     </message>
     <message>
         <source>Add items</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj pozycje</translation>
     </message>
 </context>
 <context>
@@ -1714,7 +1723,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Apply changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Zatwierdź zmiany</translation>
     </message>
 </context>
 <context>
@@ -1744,7 +1753,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Export</source>
-        <translation>Exportuj</translation>
+        <translation>Eksportuj</translation>
     </message>
     <message>
         <source>Replace</source>
@@ -1752,19 +1761,19 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>O</translation>
     </message>
     <message>
         <source>Edit: %node_name [%class_name]</source>
-        <translation type="unfinished"></translation>
+        <translation>Edytuj: %node_name [%class_name]</translation>
     </message>
     <message>
         <source>Add locations</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj lokalizacje</translation>
     </message>
     <message>
         <source>Documentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentacja</translation>
     </message>
 </context>
 <context>
@@ -1851,31 +1860,31 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>The following items were removed from your basket because the products were changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Następujące pozycje zostały usunięte z twojego koszyka, ponieważ produkty zostały zmienione.</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Suma bez VAT</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Suma z VAT</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieznane</translation>
     </message>
     <message>
         <source>Subtotal ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Razem bez VAT</translation>
     </message>
     <message>
         <source>Subtotal inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Razem z VAT</translation>
     </message>
     <message>
         <source>You have no products in your basket.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie masz produktów w swoim koszyku.</translation>
     </message>
 </context>
 <context>
@@ -1938,11 +1947,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Suma bez VAT</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Suma z VAT</translation>
     </message>
 </context>
 <context>
@@ -1981,78 +1990,78 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Customer information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informacje dla Klientów</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderlist</name>
     <message>
         <source>Order list</source>
-        <translation type="unfinished">Lista zamówień</translation>
+        <translation>Lista zamówień</translation>
     </message>
     <message>
         <source>Sort result by</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortuj wynik według</translation>
     </message>
     <message>
         <source>Order time</source>
-        <translation type="unfinished"></translation>
+        <translation>Czas zamówienia</translation>
     </message>
     <message>
         <source>User name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nazwa użytkownika</translation>
     </message>
     <message>
         <source>Order ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Numer zamówienia</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>Rosnąco</translation>
     </message>
     <message>
         <source>Sort ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortuj rosnąco</translation>
     </message>
     <message>
         <source>Descending</source>
-        <translation type="unfinished"></translation>
+        <translation>Malejąco</translation>
     </message>
     <message>
         <source>Sort descending</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortuj malejąco</translation>
     </message>
     <message>
         <source>Sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortuj</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished">ID</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">Data</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Customer</source>
-        <translation type="unfinished"></translation>
+        <translation>Klient</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished">Suma bez VAT</translation>
+        <translation>Suma bez VAT</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished">Suma z VAT</translation>
+        <translation>Suma z VAT</translation>
     </message>
     <message>
         <source>The order list is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista zamówień jest pusta</translation>
     </message>
     <message>
         <source>Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Archiwalne</translation>
     </message>
 </context>
 <context>
@@ -2107,19 +2116,19 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Suma bez VAT</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Suma z VAT</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">Data</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Order status</source>
-        <translation type="unfinished"></translation>
+        <translation>Status zamówienia</translation>
     </message>
 </context>
 <context>
@@ -2190,11 +2199,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Input did not validate. All fields marked with * must be filled in.</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawne dane wejściowe. Wszystkie pola oznaczone * muszą zostać wypełnione.</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>E-mail</translation>
     </message>
 </context>
 <context>
@@ -2270,7 +2279,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Username</source>
-        <translation>Nazwa użytkownika</translation>
+        <translation>Użytkownik</translation>
     </message>
     <message>
         <source>Name</source>
@@ -2302,11 +2311,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>E-mail</translation>
     </message>
     <message>
         <source>My pending items</source>
-        <translation type="unfinished"></translation>
+        <translation>Moje oczekujące pozycje</translation>
     </message>
 </context>
 <context>
@@ -2329,19 +2338,19 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>An email has been sent to the following address: %1. It contains a link you need to click so that we can confirm that the correct user has received the new password.</source>
-        <translation type="unfinished"></translation>
+        <translation>E-mail został wysłany na następujące adresy: %1. E-mail zawiera link, który należy kliknąć abyśmy potwierdzili, że właściwy użytkownik otrzymał nowe hasło.</translation>
     </message>
     <message>
         <source>There is no registered user with that email address.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie ma zarejestrowanego użytkownika o podanym adresie e-mail.</translation>
     </message>
     <message>
         <source>If you have forgotten your password, enter your email address and we will create a new password and send it to you.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jesli zapomniałeś hasło, wpisz swój adres e-mail. Utworzymy nowe hasło i wyślemy do ciebie.</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>E-mail</translation>
     </message>
 </context>
 <context>
@@ -2369,7 +2378,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Username</source>
         <comment>User name</comment>
-        <translation>Nazwa użytkownika</translation>
+        <translation>Użytkownik</translation>
     </message>
     <message>
         <source>Password</source>
@@ -2390,55 +2399,55 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Log in to the eZ Publish Administration Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaloguj do Panelu Administracyjnego eZ Publish</translation>
     </message>
     <message>
         <source>Sign up</source>
         <comment>Button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Załóż konto</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/password</name>
     <message>
         <source>Change password for user</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmień hasło dla użytkownika</translation>
     </message>
     <message>
         <source>Please retype your old password.</source>
-        <translation type="unfinished"></translation>
+        <translation>Proszę powtórzyć swoje stare hasło.</translation>
     </message>
     <message>
         <source>Password didn&apos;t match, please retype your new password.</source>
-        <translation type="unfinished"></translation>
+        <translation>Niepoprawne hasło . Proszę powtórzyć swoje nowe hasło.</translation>
     </message>
     <message>
         <source>Password successfully updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hasło zostało zaktualizowane.</translation>
     </message>
     <message>
         <source>Old password</source>
-        <translation type="unfinished"></translation>
+        <translation>Stare hasło</translation>
     </message>
     <message>
         <source>New password</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowe hasło</translation>
     </message>
     <message>
         <source>Retype password</source>
-        <translation type="unfinished"></translation>
+        <translation>Powtórz hasło</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Anuluj</translation>
+        <translation>Anuluj</translation>
     </message>
     <message>
         <source>The new password must be at least %1 characters long, please retype your new password.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowe hasło musi mieć przynajmniej %1 znaków. Proszę powtórzyć swoje nowe hasło.</translation>
     </message>
 </context>
 <context>
@@ -2484,7 +2493,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
-        <translation type="unfinished"></translation>
+        <translation>Twoje konto zostało utworzone. Zostanie wysłany e-mail na podane adresy. Postępuj zgodnie z instrukcjami z e-maila aby aktywować swoje konto.</translation>
     </message>
 </context>
 <context>
@@ -2498,11 +2507,11 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/view/ezmedia</name>
     <message>
         <source>No %link_startFlash player%link_end avaliable!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie dostępny %link_startFlash player%link_end !</translation>
     </message>
     <message>
         <source>No media file is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie dostępny plik mediów.</translation>
     </message>
 </context>
 <context>
