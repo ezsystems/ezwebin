@@ -5,7 +5,10 @@
      $can_create_languages = $content_object.can_create_languages
      $is_container = $content_object.content_class.is_container
      $odf_display_classes = ezini( 'WebsiteToolbarSettings', 'ODFDisplayClasses', 'websitetoolbar.ini' )
+     $odf_hide_container_classes = ezini( 'WebsiteToolbarSettings', 'HideODFContainerClasses', 'websitetoolbar.ini' )
      $website_toolbar_access = fetch( 'user', 'has_access_to', hash( 'module', 'websitetoolbar', 'function', 'use' ) )
+     $odf_import_access = fetch( 'user', 'has_access_to', hash( 'module', 'ezodf', 'function', 'import' ) )
+     $odf_export_access = fetch( 'user', 'has_access_to', hash( 'module', 'ezodf', 'function', 'export' ) )
      $content_object_language_code = ''
      $policies = fetch( 'user', 'user_role', hash( 'user_id', $current_user.contentobject_id ) )
      $available_for_current_class = false()
@@ -123,19 +126,25 @@
 
 {if $disable_oo|not}
 
+{if $odf_import_access}
 <form method="post" action={"/ezodf/import/"|ezurl} class="right">
   <input type="hidden" name="ImportType" value="replace" />
   <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ObjectID" value="{$content_object.id}" />
   <input type="image" src={"websitetoolbar/ezwt-icon-replace.gif"|ezimage} name="ReplaceAction" title="{'Replace'|i18n('design/ezwebin/parts/website_toolbar')}" />
 </form>
+{/if}
+{if $odf_export_access}
 <form method="post" action={"/ezodf/export/"|ezurl} class="right">
   <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ObjectID" value="{$content_object.id}" />
   <input type="image" src={"websitetoolbar/ezwt-icon-export.gif"|ezimage} name="ExportAction" title="{'Export'|i18n('design/ezwebin/parts/website_toolbar')}" />
 </form>
-{if and( $content_object.content_class.is_container, ne( $content_object.content_class.identifier, 'article' ) )}
-{* Import OOo / OASIS document *}
+{/if}
+
+{if and( $content_object.content_class.is_container, 
+            $odf_hide_container_classes|contains( $content_object.content_class.identifier )|not(), 
+                $odf_import_access )}
 <form method="post" action={"/ezodf/import/"|ezurl} class="right">
   <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
   <input type="hidden" name="ObjectID" value="{$content_object.id}" />
