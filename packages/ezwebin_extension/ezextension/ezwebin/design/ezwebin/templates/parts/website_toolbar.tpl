@@ -1,7 +1,7 @@
 {def $current_node = fetch( 'content', 'node', hash( 'node_id', $current_node_id ) )
      $content_object = $current_node.object
      $can_edit_languages = $content_object.can_edit_languages
-     $can_manage_location = or( fetch( 'content', 'access', hash( 'access', 'manage_locations', 'contentobject', $current_node ) ), fetch( 'content', 'access', hash( 'access', 'create', 'contentobject', $current_node ) ) )
+     $can_manage_location = fetch( 'content', 'access', hash( 'access', 'manage_locations', 'contentobject', $current_node ) )
      $can_create_languages = $content_object.can_create_languages
      $is_container = $content_object.content_class.is_container
      $odf_display_classes = ezini( 'WebsiteToolbarSettings', 'ODFDisplayClasses', 'websitetoolbar.ini' )
@@ -81,10 +81,12 @@
     <input type="image" src={"websitetoolbar/ezwt-icon-remove.gif"|ezimage} name="ActionRemove" title="{'Remove'|i18n('design/ezwebin/parts/website_toolbar')}" />
 {/if}
 
-{if and( $can_manage_location, ne( $current_node.node_id, ezini( 'NodeSettings', 'RootNode','content.ini' ) ), ne( $current_node.node_id, ezini( 'NodeSettings', 'MediaRootNode', 'content.ini' ) ), ne( $current_node.node_id, ezini( 'NodeSettings', 'UserRootNode', 'content.ini' ) ) )}
-    <input type="image" src={"websitetoolbar/ezwt-icon-locations.gif"|ezimage} name="AddAssignmentButton" title="{'Add locations'|i18n( 'design/ezwebin/parts/website_toolbar' )}" />
-{else}
-    <input type="image" src={"websitetoolbar/ezwt-icon-locations-disabled.gif"|ezimage} name="AddAssignmentButton" title="{'Add locations'|i18n( 'design/ezwebin/parts/website_toolbar' )}" disabled="disabled" />
+{if $can_manage_location}
+    {if and( $can_manage_location, ne( $current_node.node_id, ezini( 'NodeSettings', 'RootNode','content.ini' ) ), ne( $current_node.node_id, ezini( 'NodeSettings', 'MediaRootNode', 'content.ini' ) ), ne( $current_node.node_id, ezini( 'NodeSettings', 'UserRootNode', 'content.ini' ) ) )}
+        <input type="image" src={"websitetoolbar/ezwt-icon-locations.gif"|ezimage} name="AddAssignmentButton" title="{'Add locations'|i18n( 'design/ezwebin/parts/website_toolbar' )}" />
+    {else}
+        <input type="image" src={"websitetoolbar/ezwt-icon-locations-disabled.gif"|ezimage} name="AddAssignmentButton" title="{'Add locations'|i18n( 'design/ezwebin/parts/website_toolbar' )}" disabled="disabled" />
+    {/if}
 {/if}
 
 {* Custom templates inclusion *}
