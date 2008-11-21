@@ -37,18 +37,50 @@ class eZTagCloud
                 $classIdentifierSQL = '';
                 $pathString = '';
                 $parentNodeIDSQL = '';
+                $dbParams = array();
+                $params = $namedParameters['params'];
+                $orderBySql = 'ORDER BY ezkeyword.keyword ASC';
 
-                if ( isset( $namedParameters['params']['class_identifier'] ) )
-                    $classIdentifier = $namedParameters['params']['class_identifier'];
+                if ( isset( $params['class_identifier'] ) )
+                    $classIdentifier = $params['class_identifier'];
 
-                if ( isset( $namedParameters['params']['parent_node_id'] ) )
-                    $parentNodeID = $namedParameters['params']['parent_node_id'];
+                if ( isset( $params['parent_node_id'] ) )
+                    $parentNodeID = $params['parent_node_id'];
+
+                if ( isset( $params['limit'] ) )
+                    $dbParams['limit'] = $params['limit'];
+
+                if ( isset( $params['offset'] ) )
+                    $dbParams['offset'] = $params['offset'];
+
+		        if ( isset( $params['sort_by'] ) && is_array( $params['sort_by'] ) && count(  $params['sort_by'] ) )
+		        {
+		            $orderBySql = 'ORDER BY ';
+		            $orderArr = is_string( $params['sort_by'][0] ) ? array( $params['sort_by'] ) : $params['sort_by'];
+
+		            foreach( $orderArr as $key => $order )
+		            {
+		                if ( $key !== 0 ) $orderBySql .= ', ';
+		                $direction = isset( $order[1] ) ? $order[1] : false;
+		                switch( $order[0] )
+		                {
+		                    case 'keyword':
+		                    {
+		                        $orderBySql .= 'ezkeyword.keyword ' . ( $direction ? 'ASC' : 'DESC');
+		                    }break;
+		                    case 'count':
+		                    {
+		                        $orderBySql .= 'keyword_count ' . ( $direction ? 'ASC' : 'DESC');
+		                    }break;
+		                }
+		            }
+		        }
 
                 $db = eZDB::instance();
 
                 if( $classIdentifier )
                 {
-                    $classID = eZContentClass::classIDByIdentifier( $classIdentifier );
+                    $classID = eZContentObjectTreeNode::classIDByIdentifier( $classIdentifier );
                     $classIdentifierSQL = "AND ezcontentobject.contentclass_id = '" . $classID . "'";
                 }
 
@@ -88,7 +120,7 @@ class eZTagCloud
                                             $sqlPermissionChecking[where]
                                             $languageFilter
                 						GROUP BY ezkeyword.id
-                                        ORDER BY ezkeyword.keyword ASC" );
+                                        $orderBySql", $dbParams );
 
                 foreach( $rs as $row )
                 {
@@ -124,7 +156,6 @@ class eZTagCloud
                 require_once( 'kernel/common/template.php' );
                 $tpl = templateInit();
                 $tpl->setVariable( 'tag_cloud', $tagCloud );
-
                 $operatorValue = $tpl->fetch( 'design:tagcloud/tagcloud.tpl' );
             } break;
         }
