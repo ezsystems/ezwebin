@@ -53,28 +53,28 @@ class eZTagCloud
                 if ( isset( $params['offset'] ) )
                     $dbParams['offset'] = $params['offset'];
 
-		        if ( isset( $params['sort_by'] ) && is_array( $params['sort_by'] ) && count(  $params['sort_by'] ) )
-		        {
-		            $orderBySql = 'ORDER BY ';
-		            $orderArr = is_string( $params['sort_by'][0] ) ? array( $params['sort_by'] ) : $params['sort_by'];
+	            if ( isset( $params['sort_by'] ) && is_array( $params['sort_by'] ) && count(  $params['sort_by'] ) )
+                {
+                    $orderBySql = 'ORDER BY ';
+                    $orderArr = is_string( $params['sort_by'][0] ) ? array( $params['sort_by'] ) : $params['sort_by'];
 
-		            foreach( $orderArr as $key => $order )
-		            {
-		                if ( $key !== 0 ) $orderBySql .= ', ';
-		                $direction = isset( $order[1] ) ? $order[1] : false;
-		                switch( $order[0] )
-		                {
-		                    case 'keyword':
-		                    {
-		                        $orderBySql .= 'ezkeyword.keyword ' . ( $direction ? 'ASC' : 'DESC');
-		                    }break;
-		                    case 'count':
-		                    {
-		                        $orderBySql .= 'keyword_count ' . ( $direction ? 'ASC' : 'DESC');
-		                    }break;
-		                }
-		            }
-		        }
+                    foreach( $orderArr as $key => $order )
+                    {
+                        if ( $key !== 0 ) $orderBySql .= ', ';
+                        $direction = isset( $order[1] ) ? $order[1] : false;
+                        switch( $order[0] )
+                        {
+                            case 'keyword':
+                            {
+                                $orderBySql .= 'ezkeyword.keyword ' . ( $direction ? 'ASC' : 'DESC');
+                            }break;
+                            case 'count':
+                            {
+                                $orderBySql .= 'keyword_count ' . ( $direction ? 'ASC' : 'DESC');
+                            }break;
+                        }
+                    }
+                }
 
                 $db = eZDB::instance();
 
@@ -110,7 +110,7 @@ class eZTagCloud
                                             AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
                                             AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
                                             AND ezcontentobject_attribute.contentobject_id = ezcontentobject.id
-                                            AND ezcontentobject.status = ".eZContentObject::STATUS_PUBLISHED."
+                                            AND ezcontentobject.status = " . eZContentObject::STATUS_PUBLISHED . "
                                             AND ezcontentobject_attribute.version = ezcontentobject.current_version
                                             AND ezcontentobject_tree.main_node_id = ezcontentobject_tree.node_id
                                             $pathString
@@ -119,7 +119,7 @@ class eZTagCloud
                                             $showInvisibleNodesCond
                                             $sqlPermissionChecking[where]
                                             $languageFilter
-                						GROUP BY ezkeyword.id
+                                        GROUP BY ezkeyword.id
                                         $orderBySql", $dbParams );
 
                 foreach( $rs as $row )
