@@ -8,24 +8,24 @@
 <div class="warning">
 <h2>{"Are you sure you want to remove these items?"|i18n("design/ezwebin/node/removeobject")}</h2>
 <ul>
-{section name=Result loop=$DeleteResult}
-    {section show=$Result:item.childCount|gt(0)}
+{foreach $remove_list as $remove_item}
+    {if $remove_item.childCount|gt(0)}
         <li>{"%nodename and its %childcount children. %additionalwarning"
              |i18n( 'design/ezwebin/node/removeobject',,
-                    hash( '%nodename', $Result:item.nodeName,
-                          '%childcount', $Result:item.childCount,
-                          '%additionalwarning', $Result:item.additionalWarning ) )}</li>
-    {section-else}
+                    hash( '%nodename', $remove_item.nodeName,
+                          '%childcount', $remove_item.childCount,
+                          '%additionalwarning', $remove_item.additionalWarning ) )}</li>
+    {else}
         <li>{"%nodename %additionalwarning"
              |i18n( 'design/ezwebin/node/removeobject',,
-                    hash( '%nodename', $Result:item.nodeName,
-                          '%additionalwarning', $Result:item.additionalWarning ) )}</li>
-    {/section}
-{/section}
+                    hash( '%nodename', $remove_item.nodeName,
+                          '%additionalwarning', $remove_item.additionalWarning ) )}</li>
+    {/if}
+{/foreach}
 </ul>
 </div>
 
-{section show=$moveToTrashAllowed}
+{if $move_to_trash_allowed}
   <input type="hidden" name="SupportsMoveToTrash" value="1" />
   <p><input type="checkbox" name="MoveToTrash" value="1" checked="checked" />{'Move to trash'|i18n('design/ezwebin/node/removeobject')}</p>
 
@@ -33,7 +33,7 @@
                                                     |i18n( 'design/ezwebin/node/removeobject',,
                                                            hash( '%trashname', concat( '<i>', 'Move to trash' | i18n( 'design/ezwebin/node/removeobject' ), '</i>' ) ) )}</p>
   <br />
-{/section}
+{/if}
 
 
 <div class="buttonblock">
