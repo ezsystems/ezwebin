@@ -49,7 +49,7 @@
 
         <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
         <input class="button forum-edit-reply" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/full/forum_reply')}" />
-        <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
+        <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
         </form>
         {/if}
 
