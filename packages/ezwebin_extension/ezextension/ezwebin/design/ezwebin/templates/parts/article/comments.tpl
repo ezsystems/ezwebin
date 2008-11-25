@@ -13,7 +13,7 @@
                     <form method="post" action={"content/action"|ezurl}>
                     <input type="hidden" name="ClassIdentifier" value="comment" />
                     <input type="hidden" name="NodeID" value="{$used_node.object.main_node.node_id}" />
-                    <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'Locale', 'site.ini')}" />
+                    <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
                     <input class="button new_comment" type="submit" name="NewButton" value="{'New comment'|i18n( 'design/ezwebin/article/comments' )}" />
                     </form>
                 {else}
