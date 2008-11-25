@@ -4,5 +4,9 @@ Changes from 1.3-1 to 1.3-2
 
 *Enhancements*
 
+- Implemented enhancement #13643: eztagcloud() performance optimization
+  (Merged from ezwebin trunk rev. 3331)
 - Implemented enhancement #12886: Adjust ezwebin footer message to 2008
   (Merged from ezwebin trunk rev. 3250)
+- Implemented enhancement #12249: eztagcloud template operator (ezwebin/ezflow) doesn't seem to have any tag limit
+  (Merged from ezwebin trunk rev. 3331)
