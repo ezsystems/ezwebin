@@ -133,8 +133,7 @@
     <name>design/ezwebin/collectedinfomail/feedback</name>
     <message>
         <source>Feedback from %1</source>
-        <translation>Odpowiedź od %1
-<byte value="x9"/><byte value="x9"/></translation>
+        <translation>Odpowiedź od %1</translation>
     </message>
     <message>
         <source>The following feedback was collected</source>
