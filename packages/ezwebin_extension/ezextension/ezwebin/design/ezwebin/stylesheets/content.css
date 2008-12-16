@@ -2927,3 +2927,17 @@ div.shop-userregister ul li
 {
     background-image: none;
 }
+
+/* Sort view (works like in admin) */
+
+div.controlbar label
+{
+    display:inline;
+    padding:0;
+    vertical-align:bottom;
+}
+
+div.controlbar div.right
+{
+    text-align:right;
+}

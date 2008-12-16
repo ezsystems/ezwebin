@@ -89,6 +89,8 @@
     {/if}
 {/if}
 
+<a href={concat( "websitetoolbar/sort/", $current_node.node_id )|ezurl()} title="{'Sorting'|i18n( 'design/ezwebin/parts/website_toolbar' )}"><img src={"websitetoolbar/ezwt-icon-sort.gif"|ezimage} alt="{'Sorting'|i18n( 'design/ezwebin/parts/website_toolbar' )}" /></a>
+
 {* Custom templates inclusion *}
 {foreach $custom_templates as $custom_template}
     {if is_set( $include_in_view[$custom_template] )}

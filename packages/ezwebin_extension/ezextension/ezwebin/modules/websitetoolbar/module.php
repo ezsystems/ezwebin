@@ -2,10 +2,10 @@
 //
 // Created on: <17-Aug-2004 12:57:54 ls>
 //
-// SOFTWARE NAME: eZ publish
-// SOFTWARE RELEASE: 3.9.2
+// SOFTWARE NAME: eZ Publish
+// SOFTWARE RELEASE: 4.x
 // BUILD VERSION: 18839
-// COPYRIGHT NOTICE: Copyright (C) 1999-2006 eZ systems AS
+// COPYRIGHT NOTICE: Copyright (C) 1999-2008 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
@@ -30,6 +30,15 @@ $Module = array( 'name' => 'Website Toolbar',
                  'function' => array( 'script' => 'websitetoolbar.php' ) );
 
 $ViewList = array();
+
+$ViewList['sort'] = array( 'functions' => array( 'use' ),
+                           'script' => 'sort.php',
+                           'params' => array( 'NodeID' ),
+                           'unordered_params' => array( 'language' => 'Language',
+                                                        'offset' => 'Offset',
+                                                        'year' => 'Year',
+                                                        'month' => 'Month',
+                                                        'day' => 'Day' ) );
 
 $FunctionList['use'] = array( 'Class' => array( 'name'=> 'Class',
                                                 'values'=> array(),
