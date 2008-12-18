@@ -186,7 +186,7 @@
   <file name="browsers" path="/design/ezwebin/stylesheets" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ie5.css" path="/design/ezwebin/stylesheets/browsers" md5sum="713ac758aeedd38a8e5b23fbeb203e61"/>
   <file name="ie7lte.css" path="/design/ezwebin/stylesheets/browsers" md5sum="04d65734d7b81f7f277320ca5cc898cb"/>
-  <file name="content.css" path="/design/ezwebin/stylesheets" md5sum="c907c8047e1b6eaff499dbe3b7c85244"/>
+  <file name="content.css" path="/design/ezwebin/stylesheets" md5sum="eb18419f9f5173a52b9409fbf20363f1"/>
   <file name="ezdhtml" path="/design/ezwebin/stylesheets" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="toolbar.css" path="/design/ezwebin/stylesheets/ezdhtml" md5sum="ecaf038659962aac7cdcf931b2b86167"/>
   <file name="core.css" path="/design/ezwebin/stylesheets" md5sum="fa313c7bb3975ba659982647037b3e08"/>
@@ -213,6 +213,7 @@
   <file name="ezwt-bc.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="a924db69a1ac25768cd446be6c9583ea"/>
   <file name="ezwt-icon-import.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="29a6f1647c921af0f08f1590d2b277a4"/>
   <file name="ezwt-icon-publish-disabled.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="2ba7bbb884df6d0a4ed0ac92549b7165"/>
+  <file name="ezwt-icon-sort.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="31882017182061e6cba9c4b64c6ef799"/>
   <file name="ezwt-icon-preview-disabled.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="7cda5823c3078d0bc06ca3fd9f857109"/>
   <file name="ezwt-icon-add_translation-disabled.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="feba25da01dcb8cb23a39f3bd576e801"/>
   <file name="ezwt-br.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="8376ffd45425e66b019924e2ae83d431"/>
@@ -503,12 +504,13 @@
   <file name="parts" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="websitetoolbar" path="/design/ezwebin/templates/parts" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="help.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="5e7b9cbf875c95b651e0acddb97b4fd5"/>
+  <file name="sort.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="f9a47c00c79cad30ea4400d70428b2d7"/>
   <file name="logo.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="a0755121254b25824f5167aae2772bf8"/>
   <file name="path.tpl" path="/design/ezwebin/templates/parts" md5sum="115fa4232998d71c227da18e1b949adc"/>
   <file name="blog" path="/design/ezwebin/templates/parts" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="calendar.tpl" path="/design/ezwebin/templates/parts/blog" md5sum="839bebcd47cdd6894c0a809d235cef20"/>
   <file name="extra_info.tpl" path="/design/ezwebin/templates/parts/blog" md5sum="0dd7bc2ebb269e064d28796a9baa5ba5"/>
-  <file name="website_toolbar.tpl" path="/design/ezwebin/templates/parts" md5sum="36ce4eb68f4dbdff4f49f3d1bedeffda"/>
+  <file name="website_toolbar.tpl" path="/design/ezwebin/templates/parts" md5sum="a7e68c207fcf51ba4534a512bac7d1b5"/>
   <file name="website_toolbar_versionview.tpl" path="/design/ezwebin/templates/parts" md5sum="5a29bbc79949cab6df71efb2cffa5688"/>
   <file name="article" path="/design/ezwebin/templates/parts" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="comments.tpl" path="/design/ezwebin/templates/parts/article" md5sum="7a9f20b0f86b392ad7f2bb011d753333"/>
@@ -564,7 +566,8 @@
   <file name="modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="websitetoolbar" path="/modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="websitetoolbar.php" path="/modules/websitetoolbar" md5sum="8783e34a8630177e4a3310a0fda1c170"/>
-  <file name="module.php" path="/modules/websitetoolbar" md5sum="ca75495b22cd214d21d2b6ed787f2e4f"/>
+  <file name="module.php" path="/modules/websitetoolbar" md5sum="c4a6090e3e713792e067fb6a1ce715e2"/>
+  <file name="sort.php" path="/modules/websitetoolbar" md5sum="28710899512d1d94b74b909b89e0555f"/>
   <file name="settings" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="module.ini.append.php" path="/settings" md5sum="47d417559e8ac9f584608226835f9980"/>
   <file name="design.ini.append.php" path="/settings" md5sum="0164745f1d8380129a01acc935f02587"/>
