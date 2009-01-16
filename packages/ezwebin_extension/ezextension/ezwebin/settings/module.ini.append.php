@@ -2,5 +2,6 @@
 
 [ModuleSettings]
 ExtensionRepositories[]=ezwebin
+ModuleList[]=websitetoolbar
 
 */ ?>
