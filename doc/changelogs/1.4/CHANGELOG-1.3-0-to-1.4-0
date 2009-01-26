@@ -16,6 +16,7 @@ Changes from 1.3-0 to 1.4-0
 - Fixed bug #12383: ShowRemoveToTrashCheck does not work with ezWebin
 - Fixed bug #14246: Missing tooltip
 - Fixed bug #14278: ezwebin misses ModuleList[]
+- Fixed bug #14168: "an European metropolis" should be "a European metropolis"
 
 *Enhancements*
 
