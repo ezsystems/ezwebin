@@ -29,7 +29,7 @@
 
         {def $notification_access=fetch( 'user', 'has_access_to', hash( 'module', 'notification', 'function', 'addtonotification' ) )}
         <div class="block">
-            {if $notification_access }
+            {if $notification_access}
                 <label>{$object.data_map.notify_me.contentclass_attribute.name}</label>
                 {attribute_edit_gui attribute=$object.data_map.notify_me}
             {else}
@@ -45,7 +45,7 @@
                 <div class="block">
                     <label>{$object.data_map.sticky.contentclass_attribute.name}</label>
                         {attribute_edit_gui attribute=$object.data_map.sticky}
-                    </div>
+                </div>
                 {/if}
             {/foreach}
 
