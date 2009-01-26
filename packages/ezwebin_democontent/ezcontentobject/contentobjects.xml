@@ -9083,7 +9083,7 @@
                              priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object>
     <object xmlns:ezremote="http://ez.no/ezobject"
             ezremote:id="180"
-            name="Lyon, an European metropolis"
+            name="Lyon, a European metropolis"
             ezremote:section_id="1"
             ezremote:owner_id="14"
             ezremote:class_id="16"
@@ -9102,12 +9102,12 @@
                           ezremote:modified="Thu, 01 Nov 2007 10:53:19 GMT"
                           initial_language="fre-FR">
           <ezobject:object-translation language="eng-GB"
-                                       object_name="Lyon, an European metropolis">
+                                       object_name="Lyon, a European metropolis">
             <ezobject:attribute ezremote:id="1121"
                                 ezremote:identifier="title"
                                 name="Title"
                                 type="ezstring">
-              <text>Lyon, an European metropolis</text>
+              <text>Lyon, a European metropolis</text>
             </ezobject:attribute>
             <ezobject:attribute ezremote:id="1122"
                                 ezremote:identifier="short_title"
@@ -9353,7 +9353,7 @@
           <ezobject:node-assignment-list>
             <node-assignment is-main-node="1"
                              parent-node-remote-id="9f804eee139dcee343dbe4175d14654c"
-                             name="Lyon, an European metropolis"
+                             name="Lyon, a European metropolis"
                              node-id="182"
                              remote-id="3f921d3c490a6c17870b1f01fcfbceed"
                              sort-field="path"
