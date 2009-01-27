@@ -1,4 +1,4 @@
-                        <div class="attirbute-tag-cloud">
+                        <div class="attribute-tag-cloud">
                         <p>
                             {eztagcloud( hash( 'class_identifier', 'blog_post',
                                                'parent_node_id', $used_node.node_id ) )}
