@@ -14,6 +14,8 @@ Changes from 1.3-1 to 1.3-2
   (Merged from ezwebin trunk 1.4-0alpha2 rev. 3529)
 - Fixed bug #014071: Small typo error at parts/blog/extra_info.tpl (webin)
   (Merged from ezwebin trunk 1.4-0alpha2 rev. 3532)
+- Fixed bug #011921: Banner image has deprecated border attribute
+  (Merged from ezwebin trunk 1.4-0alpha2 rev. 3536)
 
 *Enhancements*
 
