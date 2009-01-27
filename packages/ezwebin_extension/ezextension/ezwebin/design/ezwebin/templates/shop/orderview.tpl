@@ -105,13 +105,13 @@
 {foreach $order.order_items as $order_item sequence array( 'bglight', 'bgdark' ) as $style}
 <tr class="{$style}">
     <td>
-    {$OrderItem:item.description}:
+    {$order_item.description}:
     </td>
     <td>
-    {$OrderItem:item.price_ex_vat|l10n( 'currency', $locale, $symbol )}
+    {$order_item.price_ex_vat|l10n( 'currency', $locale, $symbol )}
     </td>
     <td>
-    {$OrderItem:item.price_inc_vat|l10n( 'currency', $locale, $symbol )}
+    {$order_item.price_inc_vat|l10n( 'currency', $locale, $symbol )}
     </td>
 </tr>
 {/foreach}
