@@ -15,7 +15,7 @@
                                                'limit', $limit,
                                                'offset', $offset, 
                                                'class_filter_type', 'exclude',
-                                               'class_filter_array', array( 'infobox' ),
+                                               'class_filter_array', ezini( 'MenuContentSettings', 'ExtraIdentifierList', 'menu.ini' ),
                                                'sort_by', $object.main_node.sort_array ) ) }
     <h2>{$object.name|wash()}</h2>
 <div class="border-box box-3">

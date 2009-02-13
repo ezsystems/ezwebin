@@ -67,7 +67,7 @@
                 {/if}
         {elseif and( is_set( $node.data_map.show_children ), $node.data_map.show_children.data_int )}
                 {def $page_limit = first_set($node.data_map.show_children_pr_page.data_int, 10)
-                     $classes = array( 'infobox' )
+                     $classes = ezini( 'MenuContentSettings', 'ExtraIdentifierList', 'menu.ini' )
                      $children = array()
                      $children_count = ''}
                 {if is_set( $node.data_map.show_children_exclude )}

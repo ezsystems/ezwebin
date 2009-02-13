@@ -27,12 +27,12 @@
 
         {if $node.object.data_map.show_children.data_int}
             {def $page_limit = 10
-                 $classes = array( 'infobox' )
+                 $classes = ezini( 'MenuContentSettings', 'ExtraIdentifierList', 'menu.ini' )
                  $children = array()
                  $children_count = ''}
                  
             {if le( $node.depth, '3')}
-                {set $classes=array( 'infobox', 'folder' )}
+                {set $classes = $classes|append('folder')}
             {/if}
 
             {set $children=fetch_alias( 'children', hash( 'parent_node_id', $node.node_id,

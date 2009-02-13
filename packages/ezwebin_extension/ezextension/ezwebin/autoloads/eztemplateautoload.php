@@ -15,5 +15,5 @@ $eZTemplateOperatorArray[] = array( 'script' => 'extension/ezwebin/autoloads/ezt
                                     'operator_names' => array( 'eztagcloud' ) );
 $eZTemplateOperatorArray[] = array( 'script' => 'extension/ezwebin/autoloads/ezpagedata.php',
                                     'class' => 'eZPageData',
-                                    'operator_names' => array( 'ezpagedata' ) );
+                                    'operator_names' => array( 'ezpagedata', 'ezpagedata_set', 'ezpagedata_append' ) );
 ?>

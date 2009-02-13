@@ -33,11 +33,11 @@
                                                              offset, $view_parameters.offset,
                                                              sort_by, $node.sort_array,
                                                              class_filter_type, exclude,
-                                                             class_filter_array, array( 'infobox' ),
+                                                             class_filter_array, ezini( 'MenuContentSettings', 'ExtraIdentifierList', 'menu.ini' ),
                                                              limit, $page_limit ) )
                  $children_count=fetch_alias( 'children_count', hash( parent_node_id, $node.node_id,
                                                              class_filter_type, exclude,
-                                                             class_filter_array, array( 'infobox' ) ) )}
+                                                             class_filter_array, ezini( 'MenuContentSettings', 'ExtraIdentifierList', 'menu.ini' ) ) )}
 
             <div class="content-view-children">
                 {foreach $children as $child }

@@ -10,7 +10,7 @@
     <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
     {def $children = array()
          $classes_type = 'exclude'
-         $classes = array( 'infobox' )}
+         $classes = ezini( 'MenuContentSettings', 'ExtraIdentifierList', 'menu.ini' )}
 
     {if is_unset( $limit )}
         {def $limit = 5}
@@ -21,7 +21,7 @@
     {/if}
 
     {if le( $#node.depth, '3')}
-        {set $classes=array( 'infobox', 'folder' )}
+        {set $classes = $classes|append('folder')}
     {/if}
     
     {* choose menu mode to specify what classes to include *}
