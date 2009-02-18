@@ -84,37 +84,7 @@ class eZPageData
             case 'ezpagedata_set':
             case 'ezpagedata_append':
             {
-                $persistentVariable = array();
-                $persistentVariableKey = $namedParameters['key'];
-                $persistentVariableValue = $namedParameters['value'];
-                if ( $tpl->hasVariable('persistent_variable') && is_array( $tpl->variable('persistent_variable') ) )
-                {
-                   $persistentVariable = $tpl->variable('persistent_variable');
-                }
-
-                if ( $operatorName === 'ezpagedata_set' )
-                {
-                    $persistentVariable[ $persistentVariableKey ] = $persistentVariableValue;
-                }
-                else
-                {
-                    if ( isset( $persistentVariable[ $persistentVariableKey ] ) && is_array( $persistentVariable[ $persistentVariableKey ] ) )
-                    {
-                        $persistentVariable[ $persistentVariableKey ][] = $persistentVariableValue;
-                    }
-                    else
-                    {
-                        $persistentVariable[ $persistentVariableKey ] = array( $persistentVariableKey => $persistentVariableValue );
-                    }
-                }
-                //isset( $persistentVariable[ $persistentVariableKey ] )
-
-                // set the finnished array in the template
-                $tpl->setVariable('persistent_variable', $persistentVariable);
-                
-                // storing the value internally as well in case this is not a view that supports persistent_variable (ezpagedata will look for it)
-                self::$persistentVariable = $persistentVariable;
-
+                self::setPersistentVariable( $namedParameters['key'], $namedParameters['value'], $tpl, $operatorName === 'ezpagedata_append' );
             }break;
             case 'ezpagedata':
             {                    
@@ -464,6 +434,54 @@ class eZPageData
                               'url' => false,
                               'url_alias' => false );
         return $path;
+    }
+
+    // reusable function for setting persistent_variable
+    static public function setPersistentVariable( $key, $value, $tpl, $append = false )
+    {
+        $persistentVariable = array();
+        if ( $tpl->hasVariable('persistent_variable') && is_array( $tpl->variable('persistent_variable') ) )
+        {
+           $persistentVariable = $tpl->variable('persistent_variable');
+        }
+        else if ( self::$persistentVariable !== null && is_array( self::$persistentVariable ) )
+        {
+            $persistentVariable = self::$persistentVariable;
+        }
+
+        if ( $append )
+        {
+            if ( isset( $persistentVariable[ $key ] ) && is_array( $persistentVariable[ $key ] ) )
+            {
+                $persistentVariable[ $key ][] = $value;
+            }
+            else
+            {
+                $persistentVariable[ $key ] = array( $value );
+            }
+        }
+        else
+        {
+            $persistentVariable[ $key ] = $value;
+        }
+
+        // set the finnished array in the template
+        $tpl->setVariable('persistent_variable', $persistentVariable);
+        
+        // storing the value internally as well in case this is not a view that supports persistent_variable (ezpagedata will look for it)
+        self::$persistentVariable = $persistentVariable;
+    }
+    
+    // reusable function for getting persistent_variable
+    static public function getPersistentVariable( $key = null )
+    {
+        if ( $key !== null )
+        {
+            if ( isset( self::$persistentVariable[ $key ] ) )
+                return self::$persistentVariable[ $key ];
+            return null;
+        }
+        return self::$persistentVariable;
     }
 
     // Internal version of the $persistent_variable used on view that don't support it
