@@ -4,7 +4,11 @@
 {def $basket_is_empty   = cond( $current_user.is_logged_in, fetch( shop, basket ).is_empty, 1 )
      $user_hash         = concat( $current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ) )}
 
-{cache-block keys=array( $module_result.uri, $basket_is_empty, $current_user.contentobject_id )}
+{if is_set( $extra_cache_key )|not}
+    {def $extra_cache_key = ''}
+{/if}
+
+{cache-block keys=array( $module_result.uri, $basket_is_empty, $current_user.contentobject_id, $extra_cache_key )}
 {def $pagedata         = ezpagedata()
      $pagestyle        = $pagedata.css_classes
      $locales          = fetch( 'content', 'translation_list' )
@@ -26,7 +30,7 @@
   {include uri='design:page_header.tpl'}
   <!-- Header area: END -->
   
-  {cache-block keys=array( $module_result.uri, $user_hash )}
+  {cache-block keys=array( $module_result.uri, $user_hash, $extra_cache_key )}
 
   <!-- Top menu area: START -->
   {if $pagedata.top_menu}
@@ -59,7 +63,7 @@
     <!-- Main area: START -->
     {include uri='design:page_mainarea.tpl'}
     <!-- Main area: END -->
-{cache-block keys=array($module_result.uri, $user_hash, $access_type.name)}
+{cache-block keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
 
     {if is_unset($pagedesign)}
         {def $pagedata   = ezpagedata()

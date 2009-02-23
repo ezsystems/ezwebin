@@ -1,5 +1,7 @@
 <div class="topmenu-design">
     <!-- Top menu content: START -->
+    <div id="topmenu-firstlevel-overlay"></div>
+
     <div id="topmenu-firstlevel-position">
         <ul id="topmenu-firstlevel">
         {def $root_node = fetch( 'content', 'node', hash( 'node_id', $pagedata.root_node ) )
@@ -44,9 +46,9 @@
         </ul>
     </div>
 
-    <div id="topmenu-overlay"></div>
-
     {if $level_2_items|count()}
+    <div id="topmenu-secondlevel-overlay"></div>
+        
     <div id="topmenu-secondlevel-position">
         <ul id="topmenu-secondlevel">
             {foreach $level_2_items as $key => $item}
