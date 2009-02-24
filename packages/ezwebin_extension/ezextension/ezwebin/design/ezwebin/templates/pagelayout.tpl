@@ -26,6 +26,13 @@
 <!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
 <div id="page" class="{$pagestyle}">
 
+  {if and( is_set( $pagedata.persistent_variable.extra_template_list ), 
+             $pagedata.persistent_variable.extra_template_list|count() )}
+    {foreach $pagedata.persistent_variable.extra_template_list as $extra_template}
+      {include uri=concat('design:extra/', $extra_template)}
+    {/foreach}
+  {/if}
+
   <!-- Header area: START -->
   {include uri='design:page_header.tpl'}
   <!-- Header area: END -->
@@ -45,7 +52,9 @@
   <!-- Path area: END -->
   
   <!-- Toolbar area: START -->
-  {include uri='design:page_toolbar.tpl'}
+  {if and( $pagedata.website_toolbar, $pagedata.is_edit|not)}
+    {include uri='design:page_toolbar.tpl'}
+  {/if}
   <!-- Toolbar area: END -->
 
   <!-- Columns area: START -->

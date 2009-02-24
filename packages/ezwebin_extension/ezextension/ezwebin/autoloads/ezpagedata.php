@@ -353,14 +353,12 @@ class eZPageData
                 }
                 else if ( $pageData['extra_menu'] && $pageData['extra_menu_class_list'] && $pageData['extra_menu_node_id'] )
                 {
-                    
-                    $pageData['extra_menu_subitems'] = eZContentObjectTreeNode::subTreeCountByNodeID( 
-                                             array( 'Depth' => 1,
-                                                    'DepthOperator'    => 'eq',
-                                                    'ClassFilterType'  => 'include',
-                                                    'ClassFilterArray' => $pageData['extra_menu_class_list']
-                                                    ), $pageData['extra_menu_node_id'] );
-                    if ( !$pageData['extra_menu_subitems'] ) $pageData['extra_menu'] = false;
+                        $pageData['extra_menu_subitems'] = eZContentObjectTreeNode::subTreeCountByNodeID( array( 'Depth' => 1,
+                                                                                                                 'DepthOperator'    => 'eq',
+                                                                                                                 'ClassFilterType'  => 'include',
+                                                                                                                 'ClassFilterArray' => $pageData['extra_menu_class_list'] ), $pageData['extra_menu_node_id'] );
+                    if ( $menuIni->variable( 'MenuContentSettings', 'ExtraMenuSubitemsCheck' ) === 'enabled' )
+                        if ( !$pageData['extra_menu_subitems'] ) $pageData['extra_menu'] = false;
                 }
 
                 // Init path parameters
@@ -393,6 +391,12 @@ class eZPageData
                     }
                 }
                 $pageData['css_classes'] .= $pageData['path_normalized'];
+
+                if ( isset( $pageData['persistent_variable']['pagestyle_css_classes'] )
+                        && is_array( $pageData['persistent_variable']['pagestyle_css_classes'] ) )
+                {
+                    $pageData['css_classes'] .= ' ' . implode( ' ', $pageData['persistent_variable']['pagestyle_css_classes'] );
+                }
 
                 $operatorValue = $pageData;
             } break;

@@ -27,7 +27,7 @@ class ezwebinInfo
     static function info()
     {
         return array( 'Name' => "eZ Publish Website Interface",
-                      'Version' => "1.4.0alpha2",
+                      'Version' => "1.4.0beta1",
                       'Copyright' => "Copyright (C) 1999-2009 eZ Systems AS",
                       'License' => "GNU General Public License v2.0"
                      );

@@ -5,7 +5,7 @@
     <a href={cond( is_set( $path.url_alias ), $path.url_alias,
                                         $path.url )|ezurl}>{$path.text|wash}</a>
   {else}
-    {$path.text|wash}
+    <span class="path-text">{$path.text|wash}</span>
   {/if}
   {delimiter}<span class="path-separator">/</span>{/delimiter}
   {/foreach}
