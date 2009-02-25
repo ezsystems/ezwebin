@@ -353,12 +353,14 @@ class eZPageData
                 }
                 else if ( $pageData['extra_menu'] && $pageData['extra_menu_class_list'] && $pageData['extra_menu_node_id'] )
                 {
+                    if ( $menuIni->variable( 'MenuContentSettings', 'ExtraMenuSubitemsCheck' ) === 'enabled' )
+                    {
                         $pageData['extra_menu_subitems'] = eZContentObjectTreeNode::subTreeCountByNodeID( array( 'Depth' => 1,
                                                                                                                  'DepthOperator'    => 'eq',
                                                                                                                  'ClassFilterType'  => 'include',
                                                                                                                  'ClassFilterArray' => $pageData['extra_menu_class_list'] ), $pageData['extra_menu_node_id'] );
-                    if ( $menuIni->variable( 'MenuContentSettings', 'ExtraMenuSubitemsCheck' ) === 'enabled' )
                         if ( !$pageData['extra_menu_subitems'] ) $pageData['extra_menu'] = false;
+                    }
                 }
 
                 // Init path parameters
