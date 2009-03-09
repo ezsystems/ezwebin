@@ -13,6 +13,8 @@
 
 <div id="ezwt-standardactions" class="left">
 
+    <input type="image" src={"websitetoolbar/ezwt-icon-publish.gif"|ezimage} name="PublishButton" title="{'Send for publishing'|i18n('design/ezwebin/content/edit')}" />
+
     <input type="image" src={"websitetoolbar/ezwt-icon-versions.gif"|ezimage} name="VersionsButton" title="{'Manage versions'|i18n('design/ezwebin/content/edit')}" />
 
     <input type="image" src={"websitetoolbar/ezwt-icon-exit.gif"|ezimage} name="StoreExitButton" title="{'Store and exit'|i18n( 'design/ezwebin/content/edit' )}" />
