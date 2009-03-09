@@ -49,7 +49,7 @@ if ( $nodeID !== 0 )
 
 if ( !$node instanceof eZContentObjectTreeNode )
 {
-    $Result['content'] = ezi18n( 'design/standard/ezwebin', 'Invalid or missing parameter: %parameter', null, array( '%parameter' => 'NodeID' ) );
+    $Result['content'] = ezi18n( 'design/ezwebin/websitetoolbar/sort', 'Invalid or missing parameter: %parameter', null, array( '%parameter' => 'NodeID' ) );
     return $Result;
 }
 
