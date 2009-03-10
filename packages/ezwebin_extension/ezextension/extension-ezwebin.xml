@@ -5,7 +5,7 @@
   <file name="ezcreateclasslistgroups.php" path="/autoloads" md5sum="27d607ab2b7d7e9f91a69186bc828cc1"/>
   <file name="ezkeywordlist.php" path="/autoloads" md5sum="9a4f5d0b73d8cd83be30e0120c6e9e78"/>
   <file name="ezpagedata.php" path="/autoloads" md5sum="78b6f3ecc72b478ec494a0193582dd7e"/>
-  <file name="eztagcloud.php" path="/autoloads" md5sum="7f7fdb4d9071f7dd75dd4383a6e843c6"/>
+  <file name="eztagcloud.php" path="/autoloads" md5sum="dd2874a383def695ed6768ca9fc397f2"/>
   <file name="eztemplateautoload.php" path="/autoloads" md5sum="d4821002ded92ecdbb4ca3ad76aefb76"/>
   <file name="design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ezwebin" path="/design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -493,7 +493,7 @@
   <file name="extra_info.tpl" path="/design/ezwebin/templates/parts" md5sum="dfbf3fa4f9bae1694d26b4100ad11037"/>
   <file name="path.tpl" path="/design/ezwebin/templates/parts" md5sum="3183c5ec17d9b88810cbbf298e95da2c"/>
   <file name="website_toolbar.tpl" path="/design/ezwebin/templates/parts" md5sum="a7e68c207fcf51ba4534a512bac7d1b5"/>
-  <file name="website_toolbar_edit.tpl" path="/design/ezwebin/templates/parts" md5sum="dc7b1e247a6d6ec98370b524addd1fc1"/>
+  <file name="website_toolbar_edit.tpl" path="/design/ezwebin/templates/parts" md5sum="cdedbfd0ddea0274db4715972bbe7fd6"/>
   <file name="website_toolbar_versionview.tpl" path="/design/ezwebin/templates/parts" md5sum="5a29bbc79949cab6df71efb2cffa5688"/>
   <file name="websitetoolbar" path="/design/ezwebin/templates/parts" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="help.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="5e7b9cbf875c95b651e0acddb97b4fd5"/>
@@ -519,11 +519,11 @@
   <file name="password.tpl" path="/design/ezwebin/templates/user" md5sum="3eb339b908386da6a8d2f79364258ec3"/>
   <file name="register.tpl" path="/design/ezwebin/templates/user" md5sum="105ae8f826940ced30189c1e9d269d68"/>
   <file name="success.tpl" path="/design/ezwebin/templates/user" md5sum="63cacdd61189fc8eb9362e20c13be28f"/>
-  <file name="ezinfo.php" md5sum="7f3f8c7cca44ecaf857d727e3362f21c"/>
+  <file name="ezinfo.php" md5sum="890f231b19a2f401ce8dd02afcd7334a"/>
   <file name="modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="websitetoolbar" path="/modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="module.php" path="/modules/websitetoolbar" md5sum="c4a6090e3e713792e067fb6a1ce715e2"/>
-  <file name="sort.php" path="/modules/websitetoolbar" md5sum="28710899512d1d94b74b909b89e0555f"/>
+  <file name="sort.php" path="/modules/websitetoolbar" md5sum="75953a9f232c04fe824574888d2441ed"/>
   <file name="websitetoolbar.php" path="/modules/websitetoolbar" md5sum="8783e34a8630177e4a3310a0fda1c170"/>
   <file name="packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="article-1.0-1.ezpkg" path="/packages" md5sum="f97ea3180f7a432577609869f80cd1d2"/>
