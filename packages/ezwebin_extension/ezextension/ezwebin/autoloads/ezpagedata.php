@@ -328,21 +328,21 @@ class eZPageData
                     $pageData['extra_menu_class_list'] = $menuIni->variable('MenuContentSettings', 'ExtraIdentifierList');
                 }
 
-                // A set of hardcoded cases where left/extra menu's are hidden
+                // A set of cases where left/extra menu's are hidden unless set by parameters
                 if ( $pageData['is_edit'] && strpos($reqUriString, 'content/versionview') === false )
                 {
-                    $pageData['left_menu']  = false;
-                    $pageData['extra_menu'] = false;
+                    if ( !isset( $parameters['left_menu'] ) ) $pageData['left_menu']  = false;
+                    if ( !isset( $parameters['extra_menu'] ) ) $pageData['extra_menu'] = false;
                 }
                 else if( strpos($reqUriString, 'content/versionview') === 0 )
                 {
-                    $pageData['left_menu']  = false;
-                    $pageData['extra_menu'] = false;
+                    if ( !isset( $parameters['left_menu'] ) ) $pageData['left_menu']  = false;
+                    if ( !isset( $parameters['extra_menu'] ) ) $pageData['extra_menu'] = false;
                 }
                 else if ( !$currentNodeId || $uiContext === 'browse' )
                 {
-                    $pageData['left_menu']  = false;
-                    $pageData['extra_menu'] = false;
+                    if ( !isset( $parameters['left_menu'] ) ) $pageData['left_menu']  = false;
+                    if ( !isset( $parameters['extra_menu'] ) ) $pageData['extra_menu'] = false;
                 }
 
                 // Count extra menu objects if all extra menu settings are present
@@ -358,7 +358,8 @@ class eZPageData
                         $pageData['extra_menu_subitems'] = eZContentObjectTreeNode::subTreeCountByNodeID( array( 'Depth' => 1,
                                                                                                                  'DepthOperator'    => 'eq',
                                                                                                                  'ClassFilterType'  => 'include',
-                                                                                                                 'ClassFilterArray' => $pageData['extra_menu_class_list'] ), $pageData['extra_menu_node_id'] );
+                                                                                                                 'ClassFilterArray' => $pageData['extra_menu_class_list'] ),
+                                                                                                          $pageData['extra_menu_node_id'] );
                         if ( !$pageData['extra_menu_subitems'] ) $pageData['extra_menu'] = false;
                     }
                 }
