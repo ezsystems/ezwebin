@@ -821,10 +821,10 @@ class eZWebinInstaller extends eZSiteInstaller
 
     function postInstallAdminSiteaccessINIUpdate( $params = false )
     {
-        $siteINI = eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $this->setting( 'admin_siteaccess' ), null, false, null, true );
-        $siteINI->setVariable( "DesignSettings", "SiteDesign", $this->setting( 'admin_siteaccess' ) );
-        $siteINI->setVariable( "DesignSettings", "AdditionalSiteDesignList", array( "admin" ) );
-        $siteINI->setVariable( "SiteAccessSettings", "RelatedSiteAccessList", $this->setting( 'all_siteaccess_list' ) );
+        $siteINI = eZINI::instance( 'site.ini.append.php', 'settings/siteaccess/' . $this->setting( 'admin_siteaccess' ), null, false, null, true );
+        $siteINI->setVariable( 'DesignSettings', 'SiteDesign', $this->setting( 'admin_siteaccess' ) );
+        $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array( 'admin' ) );
+        $siteINI->setVariable( 'SiteAccessSettings', 'RelatedSiteAccessList', $this->setting( 'all_siteaccess_list' ) );
         $siteINI->save();
     }
 
@@ -1377,6 +1377,16 @@ class eZWebinInstaller extends eZSiteInstaller
         $accessType = $this->setting( 'access_type' );
         $siteaccessTypes = $this->setting( 'siteaccess_urls' );
 
+        // set 'language settings'
+        $translationSA = array();
+        
+        foreach( $siteaccessTypes['translation'] as $name => $urlInfo )
+        {
+            $translationSA[$name] = ucfirst( $name );
+        }
+        
+        $settings['RegionalSettings'] = array( 'TranslationSA' => $translationSA );
+
         $portMatch = array();
         $hostMatch = array();
         // get info about translation siteacceses.
@@ -1566,7 +1576,6 @@ class eZWebinInstaller extends eZSiteInstaller
                       'settings' => $settings );
     }
 
-
     function commonForumINISettings()
     {
         $settings = array();
@@ -1621,7 +1630,6 @@ class eZWebinInstaller extends eZSiteInstaller
         return array( 'name' => 'site.ini',
                       'settings' => $settings );
     }
-
 
     function siteDesignINISettings()
     {
@@ -2594,8 +2602,6 @@ class eZWebinInstaller extends eZSiteInstaller
         return $toolbar;
     }
 
-
-
     function siteImageINISettings()
     {
         $settings = array( 'name' => 'image.ini',
@@ -2643,7 +2649,6 @@ class eZWebinInstaller extends eZSiteInstaller
         return $settings;
     }
 
-
     function siteContentINISettings()
     {
         $settings = array( 'name' => 'content.ini',
@@ -2665,7 +2670,6 @@ class eZWebinInstaller extends eZSiteInstaller
 
         return $settings;
     }
-
 
     function siteTemplateINISettings()
     {
