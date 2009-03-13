@@ -157,11 +157,11 @@ class eZPageData
                 $menuIni      = eZINI::instance( 'menu.ini' );
                 $contentIni   = eZINI::instance( 'content.ini' );
                 $uiContext    = $tpl->variable('ui_context');
-                $reqUriString = $tpl->variable('requested_uri_string');
+                $uriString    = $tpl->variable('uri_string');
                 $pageData['show_path']           = 'path';
                 $pageData['website_toolbar']     = false;
                 $pageData['node_id']             = $currentNodeId;
-                $pageData['is_edit']             = ( $uiContext === 'edit' && strpos($reqUriString, 'user/edit') === false  );
+                $pageData['is_edit']             = ( $uiContext === 'edit' && strpos( $uriString, 'user/edit' ) === false  );
                 $pageData['page_root_depth']     = 0;
                 $pageData['page_depth']          = count( $moduleResult['path'] );
                 $pageData['root_node']           = (int) $contentIni->variable( 'NodeSettings', 'RootNode' );
@@ -255,7 +255,7 @@ class eZPageData
                 {
                     $pageData['website_toolbar'] = $parameters['website_toolbar'];
                 }
-                else if ( $viewMode === 'sitemap' || $viewMode === 'tagcloud' )
+                else if ( $viewMode === 'sitemap' || $viewMode === 'tagcloud' || strpos( $uriString, 'content/versionview' ) === 0 )
                 {
                     $pageData['website_toolbar'] = false;
                 }
@@ -329,12 +329,7 @@ class eZPageData
                 }
 
                 // A set of cases where left/extra menu's are hidden unless set by parameters
-                if ( $pageData['is_edit'] && strpos($reqUriString, 'content/versionview') === false )
-                {
-                    if ( !isset( $parameters['left_menu'] ) ) $pageData['left_menu']  = false;
-                    if ( !isset( $parameters['extra_menu'] ) ) $pageData['extra_menu'] = false;
-                }
-                else if( strpos($reqUriString, 'content/versionview') === 0 )
+                if ( $pageData['is_edit'] || strpos( $uriString, 'content/versionview' ) === 0 )
                 {
                     if ( !isset( $parameters['left_menu'] ) ) $pageData['left_menu']  = false;
                     if ( !isset( $parameters['extra_menu'] ) ) $pageData['extra_menu'] = false;
