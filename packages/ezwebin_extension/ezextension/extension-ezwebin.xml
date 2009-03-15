@@ -4,7 +4,7 @@
   <file name="ezarchive.php" path="/autoloads" md5sum="dda59daa09793d27fedfb0c092468fc4"/>
   <file name="ezcreateclasslistgroups.php" path="/autoloads" md5sum="27d607ab2b7d7e9f91a69186bc828cc1"/>
   <file name="ezkeywordlist.php" path="/autoloads" md5sum="9a4f5d0b73d8cd83be30e0120c6e9e78"/>
-  <file name="ezpagedata.php" path="/autoloads" md5sum="78b6f3ecc72b478ec494a0193582dd7e"/>
+  <file name="ezpagedata.php" path="/autoloads" md5sum="4a8ab20a9c11329a3e3307f31736aa8d"/>
   <file name="eztagcloud.php" path="/autoloads" md5sum="dd2874a383def695ed6768ca9fc397f2"/>
   <file name="eztemplateautoload.php" path="/autoloads" md5sum="d4821002ded92ecdbb4ca3ad76aefb76"/>
   <file name="design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -472,7 +472,7 @@
   <file name="page_head_script.tpl" path="/design/ezwebin/templates" md5sum="2eb07aa6957ba6eede3d08ed83d410fe"/>
   <file name="page_head_style.tpl" path="/design/ezwebin/templates" md5sum="fa94b472a9e5e1ee429f796b61fcbae0"/>
   <file name="page_header.tpl" path="/design/ezwebin/templates" md5sum="69f423c538fc32c77c2d1797c9e1f86b"/>
-  <file name="page_header_languages.tpl" path="/design/ezwebin/templates" md5sum="7a8cd4cde7a2a57937545cc4f9ef5e88"/>
+  <file name="page_header_languages.tpl" path="/design/ezwebin/templates" md5sum="1f1aaa0a2eb23433f7fa9277c73ccad0"/>
   <file name="page_header_links.tpl" path="/design/ezwebin/templates" md5sum="42855e14cc0cd5b3c2316e188a228944"/>
   <file name="page_header_logo.tpl" path="/design/ezwebin/templates" md5sum="ea795a778dc944e1ba2a18a4c33ae18a"/>
   <file name="page_header_searchbox.tpl" path="/design/ezwebin/templates" md5sum="b550273d083f84ad61d3829aad54ec98"/>
@@ -498,6 +498,7 @@
   <file name="websitetoolbar" path="/design/ezwebin/templates/parts" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="help.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="5e7b9cbf875c95b651e0acddb97b4fd5"/>
   <file name="logo.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="a0755121254b25824f5167aae2772bf8"/>
+  <file name="object_states.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="6b9b6f9e7f3962ce24dc1c43263feca6"/>
   <file name="sort.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="f9a47c00c79cad30ea4400d70428b2d7"/>
   <file name="shop" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="basket.tpl" path="/design/ezwebin/templates/shop" md5sum="17b5983b4493acb0ce453f700a076d4d"/>
@@ -509,6 +510,8 @@
   <file name="wishlist.tpl" path="/design/ezwebin/templates/shop" md5sum="c9265d9764c9bbcadc89c0929c2100f5"/>
   <file name="simplified_treemenu" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="show_simplified_menu.tpl" path="/design/ezwebin/templates/simplified_treemenu" md5sum="2b07b50d09e616a743aa31627e127ba7"/>
+  <file name="state" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="assign.tpl" path="/design/ezwebin/templates/state" md5sum="18045b62a97c0e82c129b19d947e7fd7"/>
   <file name="tagcloud" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="tagcloud.tpl" path="/design/ezwebin/templates/tagcloud" md5sum="8f11b63f8c62630473cb556ef6929222"/>
   <file name="user" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -553,7 +556,7 @@
   <file name="module.ini.append.php" path="/settings" md5sum="4b4c52a0239e44745a9d15a4e2fba005"/>
   <file name="site.ini.append.php" path="/settings" md5sum="601cbb0ebd7bc6b9b77d86a51eaa451f"/>
   <file name="template.ini.append.php" path="/settings" md5sum="43355616710f7c52164ff3da4a1a6f43"/>
-  <file name="websitetoolbar.ini" path="/settings" md5sum="09e15ae733a50e3e25396d8a43972f74"/>
+  <file name="websitetoolbar.ini" path="/settings" md5sum="62947a42d3a52c099d198935a7fa7dff"/>
   <file name="translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="cat-ES" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="translation.ts" path="/translations/cat-ES" md5sum="807843aa87c0362010d71aa73af0f309"/>
