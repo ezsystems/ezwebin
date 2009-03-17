@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension name="ezwebin">
   <file name="autoloads" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="ezarchive.php" path="/autoloads" md5sum="dda59daa09793d27fedfb0c092468fc4"/>
-  <file name="ezcreateclasslistgroups.php" path="/autoloads" md5sum="27d607ab2b7d7e9f91a69186bc828cc1"/>
-  <file name="ezkeywordlist.php" path="/autoloads" md5sum="9a4f5d0b73d8cd83be30e0120c6e9e78"/>
-  <file name="ezpagedata.php" path="/autoloads" md5sum="4a8ab20a9c11329a3e3307f31736aa8d"/>
-  <file name="eztagcloud.php" path="/autoloads" md5sum="dd2874a383def695ed6768ca9fc397f2"/>
-  <file name="eztemplateautoload.php" path="/autoloads" md5sum="d4821002ded92ecdbb4ca3ad76aefb76"/>
+  <file name="ezarchive.php" path="/autoloads" md5sum="cebf3474c6f599b6fbb0570d90141aed"/>
+  <file name="ezcreateclasslistgroups.php" path="/autoloads" md5sum="dadc89bc774538478d7e9e04a287e5b2"/>
+  <file name="ezkeywordlist.php" path="/autoloads" md5sum="b58769f407d01fb91d9e0413103961de"/>
+  <file name="ezpagedata.php" path="/autoloads" md5sum="e8a6323dfcad259f90258698dc80a6d8"/>
+  <file name="eztagcloud.php" path="/autoloads" md5sum="5b47c1529c43b0b2ff4647441bdcead5"/>
+  <file name="eztemplateautoload.php" path="/autoloads" md5sum="dbcf7b92c797d5b2e7cd3a0fcebd3d67"/>
   <file name="design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ezwebin" path="/design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="images" path="/design/ezwebin" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -499,7 +499,7 @@
   <file name="websitetoolbar" path="/design/ezwebin/templates/parts" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="help.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="5e7b9cbf875c95b651e0acddb97b4fd5"/>
   <file name="logo.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="a0755121254b25824f5167aae2772bf8"/>
-  <file name="object_states.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="c6f4419e1a1b26c9a06ef74292ea9c36"/>
+  <file name="object_states.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="cb41276a30eaf67bce67ff15aeb56c11"/>
   <file name="sort.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="f9a47c00c79cad30ea4400d70428b2d7"/>
   <file name="shop" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="basket.tpl" path="/design/ezwebin/templates/shop" md5sum="17b5983b4493acb0ce453f700a076d4d"/>
@@ -512,7 +512,7 @@
   <file name="simplified_treemenu" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="show_simplified_menu.tpl" path="/design/ezwebin/templates/simplified_treemenu" md5sum="2b07b50d09e616a743aa31627e127ba7"/>
   <file name="state" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="assign.tpl" path="/design/ezwebin/templates/state" md5sum="18045b62a97c0e82c129b19d947e7fd7"/>
+  <file name="assign.tpl" path="/design/ezwebin/templates/state" md5sum="c60fce035d19b2c969a7df3ac16f6c24"/>
   <file name="tagcloud" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="tagcloud.tpl" path="/design/ezwebin/templates/tagcloud" md5sum="8f11b63f8c62630473cb556ef6929222"/>
   <file name="user" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -523,12 +523,12 @@
   <file name="password.tpl" path="/design/ezwebin/templates/user" md5sum="3eb339b908386da6a8d2f79364258ec3"/>
   <file name="register.tpl" path="/design/ezwebin/templates/user" md5sum="105ae8f826940ced30189c1e9d269d68"/>
   <file name="success.tpl" path="/design/ezwebin/templates/user" md5sum="63cacdd61189fc8eb9362e20c13be28f"/>
-  <file name="ezinfo.php" md5sum="890f231b19a2f401ce8dd02afcd7334a"/>
+  <file name="ezinfo.php" md5sum="bba7f25142c6182795e688087ac39e1f"/>
   <file name="modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="websitetoolbar" path="/modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="module.php" path="/modules/websitetoolbar" md5sum="c4a6090e3e713792e067fb6a1ce715e2"/>
-  <file name="sort.php" path="/modules/websitetoolbar" md5sum="75953a9f232c04fe824574888d2441ed"/>
-  <file name="websitetoolbar.php" path="/modules/websitetoolbar" md5sum="8783e34a8630177e4a3310a0fda1c170"/>
+  <file name="module.php" path="/modules/websitetoolbar" md5sum="891dc2eccbdbbf2f120f8c97936f362e"/>
+  <file name="sort.php" path="/modules/websitetoolbar" md5sum="b36b9b984447144e5f17f9631a9a2a44"/>
+  <file name="websitetoolbar.php" path="/modules/websitetoolbar" md5sum="4cf759a533ba2dbb4c0616a234d18cc0"/>
   <file name="packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="article-1.0-1.ezpkg" path="/packages" md5sum="f97ea3180f7a432577609869f80cd1d2"/>
   <file name="article_main_page-1.0-1.ezpkg" path="/packages" md5sum="5f3c9ea5857d7772bc1c8adeb08f78fd"/>
@@ -560,39 +560,39 @@
   <file name="websitetoolbar.ini" path="/settings" md5sum="62947a42d3a52c099d198935a7fa7dff"/>
   <file name="translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="cat-ES" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/cat-ES" md5sum="807843aa87c0362010d71aa73af0f309"/>
+  <file name="translation.ts" path="/translations/cat-ES" md5sum="6f53e8d9a184101595de69d0de393a4d"/>
   <file name="chi-CN" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/chi-CN" md5sum="b5eaa11dc3cba95577e285bbe7546916"/>
+  <file name="translation.ts" path="/translations/chi-CN" md5sum="3949d8141ac115a6233eeb1910593721"/>
   <file name="chi-TW" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/chi-TW" md5sum="0dae0d8e5681ad2feeb86d2c0083f9c8"/>
+  <file name="translation.ts" path="/translations/chi-TW" md5sum="45614d8fbf7a102d934c7302640a745a"/>
   <file name="cze-CZ" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/cze-CZ" md5sum="3c3cd664013ec7df1cb40b9fcb5404ce"/>
+  <file name="translation.ts" path="/translations/cze-CZ" md5sum="df2cb974914a885f648b2a4d20485c77"/>
   <file name="dan-DK" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/dan-DK" md5sum="b7e64a9890dbff967dfe6bcd14f7266c"/>
+  <file name="translation.ts" path="/translations/dan-DK" md5sum="1b5354df3baea8b196adcad20992b40d"/>
   <file name="dut-NL" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/dut-NL" md5sum="2982ace538736d902ab6fcfb26964eed"/>
+  <file name="translation.ts" path="/translations/dut-NL" md5sum="05a5916093135108a74acc107c91c6ab"/>
   <file name="esl-ES" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/esl-ES" md5sum="232d15b36941b21c4cb22f1dff90b3a6"/>
+  <file name="translation.ts" path="/translations/esl-ES" md5sum="8657604b64c393e19c96594053ca08c0"/>
   <file name="fin-FI" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/fin-FI" md5sum="37b5a1846d3ca82f624041f912663639"/>
+  <file name="translation.ts" path="/translations/fin-FI" md5sum="db9770212c1bc33821cd641b49b08760"/>
   <file name="fre-FR" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/fre-FR" md5sum="423cb6bbe0c26be825ec9811848bd5b3"/>
+  <file name="translation.ts" path="/translations/fre-FR" md5sum="e54e60bb5263e727eb721b40e3de2e61"/>
   <file name="ger-DE" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/ger-DE" md5sum="2141e8b2e5d3dbda00a440b9b2784d63"/>
+  <file name="translation.ts" path="/translations/ger-DE" md5sum="05aeff6c4dca1d6ba750602d990bd91f"/>
   <file name="ita-IT" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/ita-IT" md5sum="feaa2f70736914b54dfba169874652e0"/>
+  <file name="translation.ts" path="/translations/ita-IT" md5sum="ca89e6da23ce88b5b5907f13f729b165"/>
   <file name="jpn-JP" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/jpn-JP" md5sum="c6965bd627b350c4eb6412081fea682f"/>
+  <file name="translation.ts" path="/translations/jpn-JP" md5sum="8d1759ad36ad4e1d10dbcd56b8ddcc84"/>
   <file name="nor-NO" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/nor-NO" md5sum="d92ccfde0987cb7668beb1352a9d51b8"/>
+  <file name="translation.ts" path="/translations/nor-NO" md5sum="de2eab3c99a93813491eb570b71cb5da"/>
   <file name="pol-PL" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/pol-PL" md5sum="e5bf290fc821f514bd7202fdad563fa6"/>
+  <file name="translation.ts" path="/translations/pol-PL" md5sum="ed627d3a2c232adac9b94c5846d5bf2d"/>
   <file name="por-BR" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/por-BR" md5sum="05da5108b3c60f4d3409c5688bc908e1"/>
+  <file name="translation.ts" path="/translations/por-BR" md5sum="2b6f7107eaa2dc85046a6225526cb612"/>
   <file name="ser-SR" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/ser-SR" md5sum="501a8ef66af06df8069d6f9006f359fc"/>
+  <file name="translation.ts" path="/translations/ser-SR" md5sum="418cacd986431ffbbe4cfd553d3a6497"/>
   <file name="swe-SE" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/swe-SE" md5sum="6a76ccd5090bc03d28f864e188796880"/>
+  <file name="translation.ts" path="/translations/swe-SE" md5sum="c0054b60a6643fb6ad127b01bb44b855"/>
   <file name="untranslated" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/untranslated" md5sum="10a2c344dd2cfeea1c7506a54d44e0bd"/>
+  <file name="translation.ts" path="/translations/untranslated" md5sum="d068d0ba8e337893937e1b314dcbcb51"/>
 </extension>
