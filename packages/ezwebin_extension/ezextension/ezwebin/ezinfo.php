@@ -1,5 +1,5 @@
 <?php
-// SOFTWARE NAME: eZ publish
+// SOFTWARE NAME: eZ Publish
 // SOFTWARE RELEASE: 4.1.x
 // COPYRIGHT NOTICE: Copyright (C) 1999-2009 eZ systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0

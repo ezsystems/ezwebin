@@ -1,11 +1,7 @@
 <?php
-//
-// Created on: <17-Aug-2004 12:57:54 ls>
-//
 // SOFTWARE NAME: eZ Publish
-// SOFTWARE RELEASE: 4.x
-// BUILD VERSION: 18839
-// COPYRIGHT NOTICE: Copyright (C) 1999-2008 eZ Systems AS
+// SOFTWARE RELEASE: 4.1.x
+// COPYRIGHT NOTICE: Copyright (C) 1999-2009 eZ systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
@@ -22,6 +18,8 @@
 //   Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 //   MA 02110-1301, USA.
 //
+//
+// ## END COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 //
 
 $Module = array( 'name' => 'Website Toolbar',
