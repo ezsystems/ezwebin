@@ -478,10 +478,6 @@
         <translation>翻譯來自</translation>
     </message>
     <message>
-        <source>Documentation</source>
-        <translation>文件</translation>
-    </message>
-    <message>
         <source>Translating content from %from_lang to %to_lang</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1722,6 +1718,14 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Search</source>
         <translation>搜尋</translation>
     </message>
+    <message>
+        <source>Skip to main content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search text:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/parts/website_toolbar</name>
@@ -1764,6 +1768,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Documentation</source>
         <translation>文件</translation>
+    </message>
+    <message>
+        <source>Sorting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit object states</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2524,6 +2536,152 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Site map</source>
         <translation>網站地圖</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/websitetoolbar/objectstates</name>
+    <message>
+        <source>Object states for object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content object state group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Available states</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set states</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply states from the list above.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/websitetoolbar/sort</name>
+    <message>
+        <source>Sub items [%children_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show 10 items per page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show 50 items per page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show 25 items per page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">名稱</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">型態</translation>
+    </message>
+    <message>
+        <source>Modifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="unfinished">區段</translation>
+    </message>
+    <message>
+        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">不明</translation>
+    </message>
+    <message>
+        <source>The current item does not contain any sub items.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update priorities</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply changes to the priorities of the items in the list above.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sorting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class identifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation type="unfinished">已發布</translation>
+    </message>
+    <message>
+        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Descending</source>
+        <translation type="unfinished">遞減</translation>
+    </message>
+    <message>
+        <source>Ascending</source>
+        <translation type="unfinished">遞增</translation>
+    </message>
+    <message>
+        <source>Set</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid or missing parameter: %parameter</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

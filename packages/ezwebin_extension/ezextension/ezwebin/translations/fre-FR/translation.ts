@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="en_US">
+<!DOCTYPE TS><TS>
 <defaultcodec></defaultcodec>
 <context>
     <name>design/ezwebin/article/article_index</name>
@@ -478,10 +477,6 @@ Vous pouvez éditez ces brouillons soit les supprimer si vous n&apos;en avez plu
     <message>
         <source>Translate</source>
         <translation>Traduire</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>Documentation</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
@@ -1734,6 +1729,14 @@ Les images sont placées dans la médiathèque, vous pouvez donc les réutiliser
         <source>Search</source>
         <translation>Recherche</translation>
     </message>
+    <message>
+        <source>Skip to main content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search text:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/parts/website_toolbar</name>
@@ -1776,6 +1779,14 @@ Les images sont placées dans la médiathèque, vous pouvez donc les réutiliser
     <message>
         <source>Import</source>
         <translation>Importer</translation>
+    </message>
+    <message>
+        <source>Sorting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit object states</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2536,6 +2547,152 @@ Les images sont placées dans la médiathèque, vous pouvez donc les réutiliser
     <message>
         <source>Site map</source>
         <translation>Plan du site</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/websitetoolbar/objectstates</name>
+    <message>
+        <source>Object states for object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content object state group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Available states</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set states</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply states from the list above.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/websitetoolbar/sort</name>
+    <message>
+        <source>Sub items [%children_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show 10 items per page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show 50 items per page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show 25 items per page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Nom</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Type</translation>
+    </message>
+    <message>
+        <source>Modifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished">Modifié</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="unfinished">Section</translation>
+    </message>
+    <message>
+        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">Inconnu</translation>
+    </message>
+    <message>
+        <source>The current item does not contain any sub items.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update priorities</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply changes to the priorities of the items in the list above.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sorting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class identifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation type="unfinished">Publié</translation>
+    </message>
+    <message>
+        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Descending</source>
+        <translation type="unfinished">Décroissant</translation>
+    </message>
+    <message>
+        <source>Ascending</source>
+        <translation type="unfinished">Croissant</translation>
+    </message>
+    <message>
+        <source>Set</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid or missing parameter: %parameter</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
