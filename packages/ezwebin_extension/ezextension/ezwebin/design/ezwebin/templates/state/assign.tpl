@@ -7,15 +7,15 @@
 <input type="hidden" name="RedirectRelativeURI" value="{$node.url_alias}" />
 
 <div class="attribute-header">
-    <h1 class="long">{'Object states for object'|i18n( 'design/admin/node/view/full' )}&nbsp;: <a href={$node.url_alias|ezurl}>{$node.name}</a></h1>
+    <h1 class="long">{'Object states for object'|i18n( 'design/ezwebin/websitetoolbar/objectstates' )}&nbsp;: <a href={$node.url_alias|ezurl}>{$node.name}</a></h1>
 </div>
 
 
 {if $node.object.allowed_assign_state_list|count}
 	<table class="list" cellspacing="0">
 	    <tr>
-	        <th class="object-states-group">{'Content object state group'|i18n( 'design/admin/node/view/full' )}</th>
-	        <th class="available-states">{'Available states'|i18n( 'design/admin/node/view/full' )}</th>
+	        <th class="object-states-group">{'Content object state group'|i18n( 'design/ezwebin/websitetoolbar/objectstates' )}</th>
+	        <th class="available-states">{'Available states'|i18n( 'design/ezwebin/websitetoolbar/objectstates' )}</th>
 	    </tr>
 	
 	    {foreach $node.object.allowed_assign_state_list as $allowed_assign_state_info sequence array( bglight, bgdark ) as $sequence}
@@ -34,7 +34,7 @@
 {else}
 	<div class="block">
 	    <p>
-		{'No content object state is configured. This can be done %urlstart here %urlend.'|i18n( 'design/admin/node/view/full', '', hash( '%urlstart', concat( '<a href=', 'state/groups'|ezurl, '>' ), 
+		{'No content object state is configured. This can be done %urlstart here %urlend.'|i18n( 'design/ezwebin/websitetoolbar/objectstates', '', hash( '%urlstart', concat( '<a href=', 'state/groups'|ezurl, '>' ), 
 		                                                                                                                                  '%urlend', '</a>' ) )}
 	    </p>
 	</div>
@@ -45,9 +45,9 @@
 <div class="block">
 <div class="left">
     {if $node.object.allowed_assign_state_list|count}
-    <input type="submit" value="{'Set states'|i18n( 'design/admin/node/view/full' )}" name="AssignButton" class="button" title="{'Apply states from the list above.'|i18n( 'design/admin/node/view/full' )}" />
+    <input type="submit" value="{'Set states'|i18n( 'design/ezwebin/websitetoolbar/objectstates' )}" name="AssignButton" class="button" title="{'Apply states from the list above.'|i18n( 'design/ezwebin/websitetoolbar/objectstates' )}" />
     {else}
-    <input type="submit" value="{'Set states'|i18n( 'design/admin/node/view/full' )}" name="AssignButton" class="button-disabled" title="{'No state to be applied to this content object. You might need to be assigned a more permissive access policy.'|i18n( 'design/admin/node/view/full' )}"/>
+    <input type="submit" value="{'Set states'|i18n( 'design/ezwebin/websitetoolbar/objectstates' )}" name="AssignButton" class="button-disabled" title="{'No state to be applied to this content object. You might need to be assigned a more permissive access policy.'|i18n( 'design/ezwebin/websitetoolbar/objectstates' )}"/>
     {/if}
 </div>
 <div class="break"></div>
