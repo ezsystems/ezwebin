@@ -5,8 +5,8 @@
 // Created on: <18-Aug-2007 10:49:08 ar>
 //
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
-// SOFTWARE NAME: eZ Publish
-// SOFTWARE RELEASE: 4.1.x
+// SOFTWARE NAME: eZ Publish Website Interface
+// SOFTWARE RELEASE: 1.4-0
 // COPYRIGHT NOTICE: Copyright (C) 1999-2009 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >

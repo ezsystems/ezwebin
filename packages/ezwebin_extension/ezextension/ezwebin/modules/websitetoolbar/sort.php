@@ -3,9 +3,9 @@
 // Created on: <30-Oct-2008 09:31:00 ar>
 //
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
-// SOFTWARE NAME: eZ Publish
-// SOFTWARE RELEASE: 4.1.x
-// COPYRIGHT NOTICE: Copyright (C) 2008 eZ Systems AS
+// SOFTWARE NAME: eZ Publish Website Interface
+// SOFTWARE RELEASE: 1.4-0
+// COPYRIGHT NOTICE: Copyright (C) 1999-2009 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
