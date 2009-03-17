@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="en_US">
+<!DOCTYPE TS><TS>
 <defaultcodec></defaultcodec>
 <context>
     <name>design/ezwebin/article/article_index</name>
@@ -21,6 +20,10 @@
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
         <translation>コメントを投稿するには、%login_link_startログインする%login_link_end か %create_link_startユーザアカウントを作成してください%create_link_end</translation>
+    </message>
+    <message>
+        <source>%login_link_startLog in%login_link_end to comment.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -275,6 +278,29 @@
     </message>
 </context>
 <context>
+    <name>design/ezwebin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
@@ -452,10 +478,6 @@
     <message>
         <source>Translate from</source>
         <translation>から翻訳</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>ドキュメンテーション</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
@@ -789,6 +811,41 @@
     <message>
         <source>Type</source>
         <translation>タイプ</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/pendinglist</name>
+    <message>
+        <source>My pending items [%pending_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">名前</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="unfinished">クラス</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="unfinished">セクション</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished">バージョン</translation>
+    </message>
+    <message>
+        <source>Last modified</source>
+        <translation type="unfinished">最新の修正</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">不明</translation>
+    </message>
+    <message>
+        <source>Your pending list is empty</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1420,6 +1477,17 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/line/blog_post</name>
+    <message>
+        <source>View comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/event</name>
     <message>
         <source>Category</source>
@@ -1489,6 +1557,13 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View movie</source>
         <translation>動画を再生</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/silverlight</name>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1568,14 +1643,80 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
+    <message>
+        <source>Receive all messages combined in one digest</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Receive digests</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Daily, at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Once per week, on </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Once per month, on day number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/notification/handler/ezsubtree/settings/edit</name>
+    <message>
+        <source>My item notifications [%notification_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">名前</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">タイプ</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="unfinished">セクション</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">不明</translation>
+    </message>
+    <message>
+        <source>You have not subscribed to receive notifications about any items.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected</source>
+        <translation type="unfinished">選択項目の削除</translation>
+    </message>
+    <message>
+        <source>Add items</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/notification/settings</name>
     <message>
         <source>Notification settings</source>
         <translation>通知設定</translation>
     </message>
     <message>
-        <source>Store</source>
-        <translation>保存</translation>
+        <source>Apply changes</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1583,6 +1724,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search</source>
         <translation>検索</translation>
+    </message>
+    <message>
+        <source>Skip to main content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search text:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1627,32 +1776,13 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Documentation</source>
         <translation>ドキュメンテーション</translation>
     </message>
-</context>
-<context>
-    <name>design/ezwebin/settings/edit</name>
     <message>
-        <source>Node notification</source>
-        <translation>ノードの通知</translation>
+        <source>Sorting</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Name</source>
-        <translation>名前</translation>
-    </message>
-    <message>
-        <source>Class</source>
-        <translation>クラス</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation>セクション</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>選択</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>削除</translation>
+        <source>Edit object states</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2001,6 +2131,14 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Total price inc. VAT</source>
         <translation>合計（税込）</translation>
     </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished">日付</translation>
+    </message>
+    <message>
+        <source>Order status</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/userregister</name>
@@ -2184,6 +2322,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Email</source>
         <translation>Email</translation>
     </message>
+    <message>
+        <source>My pending items</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/forgotpassword</name>
@@ -2312,6 +2454,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
+    <message>
+        <source>The new password must be at least %1 characters long, please retype your new password.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/register</name>
@@ -2397,6 +2543,152 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Site map</source>
         <translation>サイトマップ</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/websitetoolbar/objectstates</name>
+    <message>
+        <source>Object states for object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content object state group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Available states</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set states</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply states from the list above.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/websitetoolbar/sort</name>
+    <message>
+        <source>Sub items [%children_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show 10 items per page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show 50 items per page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show 25 items per page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">名前</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">タイプ</translation>
+    </message>
+    <message>
+        <source>Modifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished">修正日時</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="unfinished">セクション</translation>
+    </message>
+    <message>
+        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished">不明</translation>
+    </message>
+    <message>
+        <source>The current item does not contain any sub items.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update priorities</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply changes to the priorities of the items in the list above.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sorting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class identifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation type="unfinished">公開中</translation>
+    </message>
+    <message>
+        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Descending</source>
+        <translation type="unfinished">降順</translation>
+    </message>
+    <message>
+        <source>Ascending</source>
+        <translation type="unfinished">昇順</translation>
+    </message>
+    <message>
+        <source>Set</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid or missing parameter: %parameter</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
