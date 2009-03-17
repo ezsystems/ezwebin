@@ -1,4 +1,5 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS><TS version="1.1" language="it_IT">
 <defaultcodec></defaultcodec>
 <context>
     <name>design/ezwebin/article/article_index</name>
@@ -23,7 +24,7 @@
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startLog in%login_link_end per inviare un commento.</translation>
     </message>
 </context>
 <context>
@@ -73,7 +74,7 @@
     <name>design/ezwebin/blog/extra_info</name>
     <message>
         <source>Tags</source>
-        <translation>Espressioni</translation>
+        <translation>Parole chiave</translation>
     </message>
     <message>
         <source>Archive</source>
@@ -228,7 +229,7 @@
     </message>
     <message>
         <source>Last month</source>
-        <translation type="unfinished">Ultimo mese</translation>
+        <translation>Ultimo mese</translation>
     </message>
 </context>
 <context>
@@ -281,23 +282,23 @@
     <name>design/ezwebin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Anno</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mese</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Giorno</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>Ora</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Minuto</translation>
     </message>
 </context>
 <context>
@@ -480,11 +481,11 @@
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
-        <translation type="unfinished"></translation>
+        <translation>Traduzione del contenuto da %from_lang a %to_lang</translation>
     </message>
     <message>
         <source>Content in %language</source>
-        <translation type="unfinished"></translation>
+        <translation>Contenuto in %language</translation>
     </message>
 </context>
 <context>
@@ -790,11 +791,11 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
     </message>
     <message>
         <source>Modified translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Traduzione modificata</translation>
     </message>
     <message>
         <source>There is no need to do a copies of untouched drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non è necessario fare delle copie di bozze intatte.</translation>
     </message>
 </context>
 <context>
@@ -1198,7 +1199,7 @@ Le immagini sono state collocate in media e possono essere riutilizzate in altri
     <name>design/ezwebin/full/blog_post</name>
     <message>
         <source>Tags:</source>
-        <translation>Espressioni:</translation>
+        <translation>Parole chiave:</translation>
     </message>
     <message>
         <source>Comments</source>
@@ -1566,7 +1567,7 @@ Le immagini sono state collocate in media e possono essere riutilizzate in altri
     <name>design/ezwebin/line/silverlight</name>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualizza</translation>
     </message>
 </context>
 <context>
@@ -1649,66 +1650,66 @@ Le immagini sono state collocate in media e possono essere riutilizzate in altri
     <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
     <message>
         <source>Receive all messages combined in one digest</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricevi tutti i messaggi combinati in un&apos;unica raccolta</translation>
     </message>
     <message>
         <source>Receive digests</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricevi raccolte</translation>
     </message>
     <message>
         <source>Daily, at</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogni giorno, alle</translation>
     </message>
     <message>
         <source>Once per week, on </source>
-        <translation type="unfinished"></translation>
+        <translation>Settimanalmente, il</translation>
     </message>
     <message>
         <source>Once per month, on day number</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensilmente, il giorno numero</translation>
     </message>
     <message>
         <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se il numero del giorno supera il numero dei giorni nel mese corrente, verrà usato l&apos;ultimo giorno del mese corrente.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/notification/handler/ezsubtree/settings/edit</name>
     <message>
         <source>My item notifications [%notification_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>I miei elementi di notifica [%notification_count]</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inverti selezione.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nome</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Tipo</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">Sezione</translation>
+        <translation>Sezione</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Sconosciuto</translation>
+        <translation>Sconosciuto</translation>
     </message>
     <message>
         <source>You have not subscribed to receive notifications about any items.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non ti sei iscritto per ricevere notifiche per nessun elemento.</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">Elimina selezionati</translation>
+        <translation>Elimina selezionati</translation>
     </message>
     <message>
         <source>Add items</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi elementi</translation>
     </message>
 </context>
 <context>
@@ -1719,7 +1720,7 @@ Le immagini sono state collocate in media e possono essere riutilizzate in altri
     </message>
     <message>
         <source>Apply changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Applica modifiche</translation>
     </message>
 </context>
 <context>
@@ -2459,7 +2460,7 @@ Le immagini sono state collocate in media e possono essere riutilizzate in altri
     </message>
     <message>
         <source>The new password must be at least %1 characters long, please retype your new password.</source>
-        <translation type="unfinished"></translation>
+        <translation>La nuova password deve contenere almeno %1 caratteri, sei pregato di reinserire la tua nuova password.</translation>
     </message>
 </context>
 <context>
@@ -2523,7 +2524,7 @@ Le immagini sono state collocate in media e possono essere riutilizzate in altri
     </message>
     <message>
         <source>No %link_startFlash player%link_end avaliable!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nessun %link_startFlash player%link_end disponibile!</translation>
     </message>
 </context>
 <context>
