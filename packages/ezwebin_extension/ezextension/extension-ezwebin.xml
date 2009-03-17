@@ -211,6 +211,7 @@
   <file name="ezwt-icon-move.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="e24e2304861bdab600e343baeea77667"/>
   <file name="ezwt-icon-new-disabled.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="5ef1b36a8f607dd7026a645b6fc3edfc"/>
   <file name="ezwt-icon-new.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="c1ad0dae773bc438481eb25f8d2be94a"/>
+  <file name="ezwt-icon-objectstates.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="d693ddb077e60c331c1753e1d7a37245"/>
   <file name="ezwt-icon-preview-disabled.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="7cda5823c3078d0bc06ca3fd9f857109"/>
   <file name="ezwt-icon-preview.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="71e7ecef71bc1c64c31ccc8cdf65d6c8"/>
   <file name="ezwt-icon-publish-disabled.gif" path="/design/ezwebin/images/websitetoolbar" md5sum="2ba7bbb884df6d0a4ed0ac92549b7165"/>
@@ -419,7 +420,7 @@
   <file name="diff.tpl" path="/design/ezwebin/templates/content" md5sum="e9db51ce8bc512b4d995203e5c8f1787"/>
   <file name="draft.tpl" path="/design/ezwebin/templates/content" md5sum="1590851a067178f386b67f90775a3ffa"/>
   <file name="edit.tpl" path="/design/ezwebin/templates/content" md5sum="3e058724797fc6aaff0f1c600d91a4f7"/>
-  <file name="edit_attribute.tpl" path="/design/ezwebin/templates/content" md5sum="f7e130a1add45e1f23c514543c413b31"/>
+  <file name="edit_attribute.tpl" path="/design/ezwebin/templates/content" md5sum="bd06192db4a4e25c1552c4873be48edc"/>
   <file name="edit_draft.tpl" path="/design/ezwebin/templates/content" md5sum="ba29cd7c414c65213cf7b538fcfd6b6a"/>
   <file name="edit_languages.tpl" path="/design/ezwebin/templates/content" md5sum="29be98ad1cb1b818ee0530e4363314f3"/>
   <file name="history.tpl" path="/design/ezwebin/templates/content" md5sum="307f58ffb1736ed0f1f3abcd979626b4"/>
@@ -498,7 +499,7 @@
   <file name="websitetoolbar" path="/design/ezwebin/templates/parts" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="help.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="5e7b9cbf875c95b651e0acddb97b4fd5"/>
   <file name="logo.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="a0755121254b25824f5167aae2772bf8"/>
-  <file name="object_states.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="6b9b6f9e7f3962ce24dc1c43263feca6"/>
+  <file name="object_states.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="c6f4419e1a1b26c9a06ef74292ea9c36"/>
   <file name="sort.tpl" path="/design/ezwebin/templates/parts/websitetoolbar" md5sum="f9a47c00c79cad30ea4400d70428b2d7"/>
   <file name="shop" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="basket.tpl" path="/design/ezwebin/templates/shop" md5sum="17b5983b4493acb0ce453f700a076d4d"/>
