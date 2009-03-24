@@ -119,7 +119,7 @@ class eZTagCloud
                                             $showInvisibleNodesCond
                                             $sqlPermissionChecking[where]
                                             $languageFilter
-                                        GROUP BY ezkeyword.id
+                                        GROUP BY ezkeyword.id, ezkeyword.keyword
                                         $orderBySql", $dbParams );
 
                 foreach( $rs as $row )
