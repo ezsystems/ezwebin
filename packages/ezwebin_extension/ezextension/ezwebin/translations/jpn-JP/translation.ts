@@ -1,4 +1,5 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS><TS version="1.1" language="en_US">
 <defaultcodec></defaultcodec>
 <context>
     <name>design/ezwebin/article/article_index</name>
@@ -23,7 +24,7 @@
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>コメントを投稿するには、%login_link_startログイン%login_link_endして下さい。</translation>
     </message>
 </context>
 <context>
@@ -281,23 +282,23 @@
     <name>design/ezwebin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>年</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>月</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>日</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>時間</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>分</translation>
     </message>
 </context>
 <context>
@@ -480,12 +481,16 @@
         <translation>から翻訳</translation>
     </message>
     <message>
+        <source>Documentation</source>
+        <translation type="obsolete">ドキュメンテーション</translation>
+    </message>
+    <message>
         <source>Translating content from %from_lang to %to_lang</source>
-        <translation>%from_lang から%to_langへコンテントを翻訳</translation>
+        <translation>%from_lang から%to_langへコンテンツを翻訳</translation>
     </message>
     <message>
         <source>Content in %language</source>
-        <translation>%languageでのコンテント</translation>
+        <translation>%languageでのコンテンツ</translation>
     </message>
 </context>
 <context>
@@ -663,7 +668,7 @@
     </message>
     <message>
         <source>View the contents of version #%version_number. Translation: %translation.</source>
-        <translation>バージョン#%version_numberのコンテントを表示。翻訳:%translation</translation>
+        <translation>バージョン#%version_numberのコンテンツを表示。翻訳:%translation</translation>
     </message>
     <message>
         <source>Draft</source>
@@ -695,7 +700,7 @@
     </message>
     <message>
         <source>Edit the contents of version #%version_number.</source>
-        <translation>バージョン#%version_numberのコンテントを編集</translation>
+        <translation>バージョン#%version_numberのコンテンツを編集</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
@@ -817,35 +822,35 @@
     <name>design/ezwebin/content/pendinglist</name>
     <message>
         <source>My pending items [%pending_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>保留中のアイテム [%pending_count]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名前</translation>
+        <translation>名前</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">クラス</translation>
+        <translation>クラス</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">セクション</translation>
+        <translation>セクション</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">バージョン</translation>
+        <translation>バージョン</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation type="unfinished">最新の修正</translation>
+        <translation>最新の修正</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">不明</translation>
+        <translation>不明</translation>
     </message>
     <message>
         <source>Your pending list is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>保留中のアイテムはありません。</translation>
     </message>
 </context>
 <context>
@@ -924,11 +929,11 @@
     </message>
     <message>
         <source>Your email address</source>
-        <translation>メールアドレス</translation>
+        <translation>e-mail</translation>
     </message>
     <message>
         <source>Recipient&apos;s email address</source>
-        <translation>宛先のメールアドレス</translation>
+        <translation>受信者のe-mail</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -1093,7 +1098,7 @@
     </message>
     <message>
         <source>Export eZ publish content to OpenOffice.org</source>
-        <translation>eZ PublishコンテントをOpenOffice.orgファイルとしてエクスポートする</translation>
+        <translation>eZ PublishコンテンツをOpenOffice.orgファイルとしてエクスポートする</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1480,11 +1485,11 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
-        <translation type="unfinished"></translation>
+        <translation>コメントを表示</translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation type="unfinished"></translation>
+        <translation>コメントを投稿する</translation>
     </message>
 </context>
 <context>
@@ -1563,7 +1568,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/line/silverlight</name>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>表示</translation>
     </message>
 </context>
 <context>
@@ -1646,66 +1651,66 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
     <message>
         <source>Receive all messages combined in one digest</source>
-        <translation type="unfinished"></translation>
+        <translation>すべての通知をダイジェスト形式で受け取る</translation>
     </message>
     <message>
         <source>Receive digests</source>
-        <translation type="unfinished"></translation>
+        <translation>ダイジェストの受信</translation>
     </message>
     <message>
         <source>Daily, at</source>
-        <translation type="unfinished"></translation>
+        <translation>毎日 (指定時刻)</translation>
     </message>
     <message>
         <source>Once per week, on </source>
-        <translation type="unfinished"></translation>
+        <translation>週に一回 (曜日指定)</translation>
     </message>
     <message>
         <source>Once per month, on day number</source>
-        <translation type="unfinished"></translation>
+        <translation>月に一回 (指定)</translation>
     </message>
     <message>
         <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>指定日が該当月に存在しない場合、月の最終日がそれに代わります。</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/notification/handler/ezsubtree/settings/edit</name>
     <message>
         <source>My item notifications [%notification_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>通知アイテム [%notification_count]</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>選択の反転</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名前</translation>
+        <translation>名前</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">タイプ</translation>
+        <translation>タイプ</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">セクション</translation>
+        <translation>セクション</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">不明</translation>
+        <translation>不明</translation>
     </message>
     <message>
         <source>You have not subscribed to receive notifications about any items.</source>
-        <translation type="unfinished"></translation>
+        <translation>登録した通知アイテムはありません。</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">選択項目の削除</translation>
+        <translation>選択項目の削除</translation>
     </message>
     <message>
         <source>Add items</source>
-        <translation type="unfinished"></translation>
+        <translation>アイテムの追加</translation>
     </message>
 </context>
 <context>
@@ -1715,8 +1720,12 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>通知設定</translation>
     </message>
     <message>
+        <source>Store</source>
+        <translation type="obsolete">保存</translation>
+    </message>
+    <message>
         <source>Apply changes</source>
-        <translation type="unfinished"></translation>
+        <translation>変更を適用</translation>
     </message>
 </context>
 <context>
@@ -1727,11 +1736,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Skip to main content</source>
-        <translation type="unfinished"></translation>
+        <translation>メインコンテンツへスキップ</translation>
     </message>
     <message>
         <source>Search text:</source>
-        <translation type="unfinished"></translation>
+        <translation>検索テキスト: </translation>
     </message>
 </context>
 <context>
@@ -1778,11 +1787,38 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Sorting</source>
-        <translation type="unfinished"></translation>
+        <translation>ソート</translation>
     </message>
     <message>
         <source>Edit object states</source>
-        <translation type="unfinished"></translation>
+        <translation>オブジェクトステートの編集</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/settings/edit</name>
+    <message>
+        <source>Node notification</source>
+        <translation type="obsolete">ノードの通知</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="obsolete">名前</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="obsolete">クラス</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="obsolete">セクション</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="obsolete">選択</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation type="obsolete">削除</translation>
     </message>
 </context>
 <context>
@@ -2133,11 +2169,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">日付</translation>
+        <translation>日付</translation>
     </message>
     <message>
         <source>Order status</source>
-        <translation type="unfinished"></translation>
+        <translation>注文ステータス</translation>
     </message>
 </context>
 <context>
@@ -2212,7 +2248,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>e-mail</translation>
     </message>
 </context>
 <context>
@@ -2320,11 +2356,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>e-mail</translation>
     </message>
     <message>
         <source>My pending items</source>
-        <translation type="unfinished"></translation>
+        <translation>保留中のアイテム</translation>
     </message>
 </context>
 <context>
@@ -2359,7 +2395,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>e-mail</translation>
     </message>
 </context>
 <context>
@@ -2456,7 +2492,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>The new password must be at least %1 characters long, please retype your new password.</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいパスワードは%1以上である必要があります。再度新しいパスワードを入力して下さい。</translation>
     </message>
 </context>
 <context>
@@ -2549,146 +2585,146 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/websitetoolbar/objectstates</name>
     <message>
         <source>Object states for object</source>
-        <translation type="unfinished"></translation>
+        <translation>オブジェクトのオブジェクトステート</translation>
     </message>
     <message>
         <source>Content object state group</source>
-        <translation type="unfinished"></translation>
+        <translation>コンテンツオブジェクトステートグループ</translation>
     </message>
     <message>
         <source>Available states</source>
-        <translation type="unfinished"></translation>
+        <translation>利用可能なステート</translation>
     </message>
     <message>
         <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定されているコンテンツオブジェクトステートはありません。%urlstartこちら%urlendから設定できます。</translation>
     </message>
     <message>
         <source>Set states</source>
-        <translation type="unfinished"></translation>
+        <translation>ステートを設定</translation>
     </message>
     <message>
         <source>Apply states from the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>上記のリストからステートを適応。</translation>
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished"></translation>
+        <translation>このコンテンツオブジェクトに適応出来るステートはありません。より高いアクセス権限が必要かもしれません。</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/websitetoolbar/sort</name>
     <message>
         <source>Sub items [%children_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>サブアイテム  [%children_count]</translation>
     </message>
     <message>
         <source>Show 10 items per page.</source>
-        <translation type="unfinished"></translation>
+        <translation>表示: 10 アイテム/ページ</translation>
     </message>
     <message>
         <source>Show 50 items per page.</source>
-        <translation type="unfinished"></translation>
+        <translation>表示: 50 アイテム/ページ</translation>
     </message>
     <message>
         <source>Show 25 items per page.</source>
-        <translation type="unfinished"></translation>
+        <translation>表示: 25 アイテム/ページ</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>優先度</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名前</translation>
+        <translation>名前</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">タイプ</translation>
+        <translation>タイプ</translation>
     </message>
     <message>
         <source>Modifier</source>
-        <translation type="unfinished"></translation>
+        <translation>修正者</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished">修正日時</translation>
+        <translation>修正日時</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">セクション</translation>
+        <translation>セクション</translation>
     </message>
     <message>
         <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>アイテムの表示順をコントロールするには、優先度を利用して下さい。正と負両方の正数を利用出来ます。変更を適用するには「優先度の更新」ボタンをクリックして下さい。</translation>
     </message>
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;%node_name&gt;を編集する権限を持っていないため、優先度を更新することが出来ません。</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">不明</translation>
+        <translation>不明</translation>
     </message>
     <message>
         <source>The current item does not contain any sub items.</source>
-        <translation type="unfinished"></translation>
+        <translation>このアイテムはサブアイテムを持っていません。</translation>
     </message>
     <message>
         <source>Update priorities</source>
-        <translation type="unfinished"></translation>
+        <translation>優先度の更新</translation>
     </message>
     <message>
         <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>子アイテムリストに優先度の変更を適用します。</translation>
     </message>
     <message>
         <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation type="unfinished"></translation>
+        <translation>このアイテムの編集権限を持っていないか、優先度以外のソート方法が設定されているため、優先度の更新はできません。</translation>
     </message>
     <message>
         <source>Sorting</source>
-        <translation type="unfinished"></translation>
+        <translation>ソート</translation>
     </message>
     <message>
         <source>Class identifier</source>
-        <translation type="unfinished"></translation>
+        <translation>クラス識別子</translation>
     </message>
     <message>
         <source>Class name</source>
-        <translation type="unfinished"></translation>
+        <translation>クラス名</translation>
     </message>
     <message>
         <source>Depth</source>
-        <translation type="unfinished"></translation>
+        <translation>深度</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation type="unfinished">公開中</translation>
+        <translation>公開日時</translation>
     </message>
     <message>
         <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation type="unfinished"></translation>
+        <translation>このアイテムの編集権限を持っていないため、ソート方法を設定することができません。</translation>
     </message>
     <message>
         <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation type="unfinished"></translation>
+        <translation>このメニューで子アイテムのソート方法を指定します。</translation>
     </message>
     <message>
         <source>Descending</source>
-        <translation type="unfinished">降順</translation>
+        <translation>降順</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished">昇順</translation>
+        <translation>昇順</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Invalid or missing parameter: %parameter</source>
-        <translation type="unfinished"></translation>
+        <translation>無効なパラメータか、パラメータが見つかりません: %parameter</translation>
     </message>
 </context>
 </TS>
