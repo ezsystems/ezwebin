@@ -150,19 +150,24 @@ input#searchbutton
     cursor: pointer;
 }
 
+div#topmenu
+{
+    padding: 0;
+}
+
 div#topmenu ul
 {
     background-image: url(images/topmenu_bg.jpg);
 }
 
-div#topmenu ul li
+div#topmenu ul#topmenu-firstlevel li
 {
     background-image: url(images/topmenu_li_bg.jpg);
     background-position: right top;
     background-repeat: no-repeat;
 }
 
-div#topmenu ul li.selected
+div#topmenu ul#topmenu-firstlevel li.selected
 {
     background-image: url(images/topmenu_li_bg.jpg);
     background-position: right top;
@@ -170,76 +175,71 @@ div#topmenu ul li.selected
     padding-right: 2px;
 }
 
-div#topmenu ul li.lastli
+div#topmenu ul#topmenu-firstlevel li.lastli
 {
     background-image: none;
 }
 
-div#topmenu
+div#topmenu ul#topmenu-firstlevel li
 {
-    padding: 0;
+    background-image: url(images/topmenu_li_bg.jpg);
+    background-position: top right;
 }
 
-div#topmenu ul li a
+div#topmenu ul#topmenu-firstlevel li a
 {
     color: #FFFFFF;
     font-size: 11px;
     font-weight: normal;
-    border-right: none;
+    margin: 0;
+    padding: 5px 15px 6px 15px;
 }
 
-div#topmenu ul li a:hover
+div#topmenu ul#topmenu-firstlevel li.selected a
 {
+    background-image: url(images/topmenu_li_selected_bg.jpg);
+    background-position: top left;
+    background-repeat: repeat-x;
+    margin: 0 1px 0 0;
+    padding-bottom: 0;
     border-bottom: none;
 }
 
-div#topmenu ul li.selected a
+div#topmenu ul#topmenu-firstlevel li a:hover
 {
-    background-image: url(images/topmenu_li_selected_bg.jpg);
-    background-position: left top;
-    background-repeat: repeat-x;
-    margin-top: 0;
-    padding-top: 6px;
-    padding-bottom: 5px;
+    border-bottom: none;
+    margin: 0;
 }
 
-div#topmenu ul li.selected a span
+div#topmenu ul#topmenu-firstlevel li.selected a:hover
+{
+    border-bottom: none;
+    margin: 0 1px 0 0;
+}
+
+div#topmenu ul#topmenu-firstlevel li.selected a span
 {
     display: block;
     background-image: url(images/topmenu_a_bullet.gif);
     background-position: center bottom;
     background-repeat: no-repeat;
-    padding-bottom: 4px;
-    margin-bottom: -4px;
+    padding-bottom: 6px;
 }
 
 div#topmenu ul#topmenu-secondlevel
 {
-    height: 29px;
-    background-image: none;
     background-color: #D9EBF5;
     border-bottom: 1px solid #9ECCE4;
 }
 
 div#topmenu ul#topmenu-secondlevel li
 {
-    height: 29px;
-    background-image: none;
-}
-
-div#topmenu ul#topmenu-secondlevel li.selected,
-div#topmenu ul#topmenu-secondlevel li.selected a
-{
-    font-style: italic;
     background-image: none;
 }
 
 div#topmenu ul#topmenu-secondlevel li a
 {
     color: #555;
-    height: 20px;
-    line-height: 20px;
-    border-right: none;
 }
 
 div#topmenu ul#topmenu-secondlevel li a:hover

@@ -108,60 +108,65 @@ div#path
 
 div#topmenu
 {
-    border-top: 1px solid #D0D5D8;
-    border-bottom: 1px solid #D0D5D8;
-    background-color: #F2F3F5;
     padding: 0;
 }
 
 div#topmenu ul
 {
+    border-top: 1px solid #D0D5D8;
+    border-bottom: 1px solid #D0D5D8;
+    background-image: none;
+    background-color: #F2F3F5;
+}
+
+div#topmenu ul#topmenu-firstlevel li
+{
+    border-right: 1px solid #D0D5D8;
     background-image: none;
 }
 
-div#topmenu li
+div#topmenu ul#topmenu-firstlevel li a
 {
-    border-right: 1px solid #D0D5D8;
-}
-
-div#topmenu li.selected
-{
-    background-image: url(images/topmenu_li_selected.gif);
-}
-
-div#topmenu li a
-{
-    border-right: none;
     font-weight: normal;
     color: #1A3232;
+    margin: 0;
+    padding: 5px 15px 6px 15px;
 }
 
-div#topmenu li.selected a
+div#topmenu ul#topmenu-firstlevel li.selected
 {
-    color: #F7FFFF;
+    background-image: url(images/topmenu_li_selected.gif);
+    background-repeat: repeat-x;
+    background-position: left top;
 }
 
-div#topmenu ul li.selected a span
+div#topmenu ul#topmenu-firstlevel li.selected a
+{
+    border-bottom: none;
+    color: #F7FFFF;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+div#topmenu ul#topmenu-firstlevel li a:hover, div#topmenu ul#topmenu-firstlevel li.selected a:hover
+{
+    border-bottom: none;
+    margin: 0;
+}
+
+div#topmenu ul#topmenu-firstlevel li.selected a span
 {
     display: block;
     background-image: url(images/topmenu_a_bullet.gif);
     background-position: center bottom;
     background-repeat: no-repeat;
-    padding-bottom: 5px;
-}
-
-div#topmenu li a:hover
-{
-    border-bottom: none;
-}
-div#topmenu ul#topmenu-firstlevel
-{
+    padding-bottom: 6px;
 }
 
 div#topmenu ul#topmenu-secondlevel
 {
-    border-top: 1px solid #D0D5D8;
-    border-bottom: none;
+    border-bottom: 1px solid #D0D5D8;
+    border-top: none;
     background-color: #FFFFFF;
     background-image: url(images/topmenu_secondlevel_bg.jpg);
     background-repeat: repeat-x;
