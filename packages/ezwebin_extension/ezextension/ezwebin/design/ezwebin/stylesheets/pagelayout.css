@@ -64,7 +64,7 @@ div#languages
 
 div#languages ul li
 {
-    margin-left: 8px;
+    margin-left: 5px;
 }
 
 div#languages a
@@ -81,7 +81,7 @@ div#links
     clear: right;
     text-align: right;
     padding-right: 0;
-    font-size: 0.9em;
+    font-size: 0.85em;
     font-weight: bold;
     height: 25px;
     width: 75%;
@@ -127,65 +127,87 @@ input#searchbutton
 div#topmenu
 {
     margin: 0;
-    padding: 0;
+    padding: 0 0.25em 0 0.2em;
+    background-color: #FFFFFF;
 }
 
 div#topmenu ul
 {
+    background-image: url(../images/topmenu_bg.png);
     margin: 0;
     padding: 0;
-    background-image: url(../images/topmenu_bg.png);
-    background-repeat: repeat-x;
-    height: 33px;
+    list-style: none;
+    clear: both;
+    float: left;
+    width: 100%;
 }
 
-div#topmenu li
+div#topmenu ul li
 {
-    background-image: none;
-    height: 33px;
-    margin: 0;
     float: left;
+    margin: 0;
     padding: 0;
     font-size: 0.85em;
+}
+
+div#topmenu ul li
+{
     font-weight: bold;
-    list-style-type: none;
-    list-style-image: none;
+    background-image: url(../images/topmenu_li_bg.png);
+    background-position: center right;
+    background-repeat: no-repeat;
 }
 
-div#topmenu li.selected
+div#topmenu ul li a
 {
-    background-image: url(../images/topmenu_bg_selected.png);
-    background-repeat: repeat-x;
-    background-position: left top;
-
-}
-
-div#topmenu li a
-{
-    text-decoration: none;
-    color: #4F5241;
-    border-right: 1px solid #C3C4B6;
     display: block;
-    float: left;
-    margin: 0;
-    padding: 15px;
-    margin-top: 4px;
-    padding-top: 2px;
-    padding-bottom: 0;
-    height: 22px;
-    line-height: 22px;
-    background-color: transparent;
+    color: #4F5241;
+    line-height:22px;
+    margin: 0 0 6px 0;
+    padding: 5px 15px 0 15px;
+    text-decoration: none;
 }
 
-div#topmenu li a:hover
+div#topmenu ul li.selected a, div#topmenu ul li a:hover
 {
     border-bottom: 3px solid #ABAB9E;
+    margin: 0 0 3px 0;
 }
 
-div#topmenu div.topmenu-design
+div#topmenu ul li.lastli
 {
-    background-color: #FFF;
-    padding: 0 0.25em 0 0.2em;
+    background-image: none;
+}
+
+div#topmenu ul#topmenu-secondlevel
+{
+    background-image: none;
+    background-color: #F5F6F1;
+    border-bottom: 1px solid #E9E9E1;
+}
+
+div#topmenu ul#topmenu-secondlevel li
+{
+    background-image: none;
+    font-weight: normal;
+}
+
+div#topmenu ul#topmenu-secondlevel li.selected
+{
+    font-style: italic;
+}
+
+div#topmenu ul#topmenu-secondlevel li.selected a, div#topmenu ul#topmenu-secondlevel li a:hover
+{
+    color: #111;
+    border-bottom: none;
+    margin-bottom: 6px;
+}
+
+div#topmenu ul#topmenu-secondlevel li a
+{
+    color: #555;
+    text-decoration: underline;
 }
 
 /* PATH */
