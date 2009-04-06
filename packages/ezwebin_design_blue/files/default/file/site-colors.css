@@ -160,14 +160,14 @@ div#topmenu ul
     background-image: url(images/topmenu_bg.jpg);
 }
 
-div#topmenu ul#topmenu-firstlevel li
+div#topmenu ul li
 {
     background-image: url(images/topmenu_li_bg.jpg);
     background-position: right top;
     background-repeat: no-repeat;
 }
 
-div#topmenu ul#topmenu-firstlevel li.selected
+div#topmenu ul li.selected
 {
     background-image: url(images/topmenu_li_bg.jpg);
     background-position: right top;
@@ -175,18 +175,12 @@ div#topmenu ul#topmenu-firstlevel li.selected
     padding-right: 2px;
 }
 
-div#topmenu ul#topmenu-firstlevel li.lastli
+div#topmenu ul li.lastli
 {
     background-image: none;
 }
 
-div#topmenu ul#topmenu-firstlevel li
-{
-    background-image: url(images/topmenu_li_bg.jpg);
-    background-position: top right;
-}
-
-div#topmenu ul#topmenu-firstlevel li a
+div#topmenu ul li a
 {
     color: #FFFFFF;
     font-size: 11px;
@@ -195,7 +189,7 @@ div#topmenu ul#topmenu-firstlevel li a
     padding: 5px 15px 6px 15px;
 }
 
-div#topmenu ul#topmenu-firstlevel li.selected a
+div#topmenu ul li.selected a
 {
     background-image: url(images/topmenu_li_selected_bg.jpg);
     background-position: top left;
@@ -205,19 +199,19 @@ div#topmenu ul#topmenu-firstlevel li.selected a
     border-bottom: none;
 }
 
-div#topmenu ul#topmenu-firstlevel li a:hover
+div#topmenu ul li a:hover
 {
     border-bottom: none;
     margin: 0;
 }
 
-div#topmenu ul#topmenu-firstlevel li.selected a:hover
+div#topmenu ul li.selected a:hover
 {
     border-bottom: none;
     margin: 0 1px 0 0;
 }
 
-div#topmenu ul#topmenu-firstlevel li.selected a span
+div#topmenu ul li.selected a span
 {
     display: block;
     background-image: url(images/topmenu_a_bullet.gif);
@@ -245,12 +239,18 @@ div#topmenu ul#topmenu-secondlevel li a
 div#topmenu ul#topmenu-secondlevel li a:hover
 {
     color: #111;
+    padding-bottom: 0;
+}
+
+div#topmenu ul#topmenu-secondlevel li.selected a
+{
+    background-image: none;
 }
 
 div#topmenu ul#topmenu-secondlevel li.selected a span
 {
-    padding-bottom: 0px;
     background-image: none;
+    padding-bottom: 0;
 }
 
 div#sidemenu h4
