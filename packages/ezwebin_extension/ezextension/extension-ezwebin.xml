@@ -188,6 +188,7 @@
   <file name="th_bg.png" path="/design/ezwebin/images" md5sum="53540d259b7358b565a989e81629839e"/>
   <file name="topmenu_bg.png" path="/design/ezwebin/images" md5sum="2080fa89bf94ed9fa9b015a72421f5d8"/>
   <file name="topmenu_bg_selected.png" path="/design/ezwebin/images" md5sum="7945ad17c5d4100a2b4c119903a72b33"/>
+  <file name="topmenu_li_bg.png" path="/design/ezwebin/images" md5sum="f01bbdfbfb70e7356c55550cbaac64eb"/>
   <file name="trash-infobox-ico.gif" path="/design/ezwebin/images" md5sum="31d37022b0c8e29eb0e9367996228c61"/>
   <file name="trash.gif" path="/design/ezwebin/images" md5sum="a54e5021b1c597539a60da86ef766f0c"/>
   <file name="websitetoolbar" path="/design/ezwebin/images" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -373,10 +374,10 @@
   <file name="ie5.css" path="/design/ezwebin/stylesheets/browsers" md5sum="713ac758aeedd38a8e5b23fbeb203e61"/>
   <file name="ie7lte.css" path="/design/ezwebin/stylesheets/browsers" md5sum="04d65734d7b81f7f277320ca5cc898cb"/>
   <file name="content.css" path="/design/ezwebin/stylesheets" md5sum="eb18419f9f5173a52b9409fbf20363f1"/>
-  <file name="core.css" path="/design/ezwebin/stylesheets" md5sum="ca9ca99cfaab033c6a33b356cc185167"/>
+  <file name="core.css" path="/design/ezwebin/stylesheets" md5sum="d3f64bc2e6c86957e32483deb3695f1f"/>
   <file name="ezdhtml" path="/design/ezwebin/stylesheets" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="toolbar.css" path="/design/ezwebin/stylesheets/ezdhtml" md5sum="ecaf038659962aac7cdcf931b2b86167"/>
-  <file name="pagelayout.css" path="/design/ezwebin/stylesheets" md5sum="220ef08c8399927ef99772630f40d6fa"/>
+  <file name="pagelayout.css" path="/design/ezwebin/stylesheets" md5sum="a39901c99eb1e4f36740ad2ec2403c33"/>
   <file name="print.css" path="/design/ezwebin/stylesheets" md5sum="9dc8843ed65c17fedbb802ea765d871e"/>
   <file name="websitetoolbar.css" path="/design/ezwebin/stylesheets" md5sum="a25284e987ab6345fc642a0ea4c61a81"/>
   <file name="yui" path="/design/ezwebin/stylesheets" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -580,9 +581,9 @@
   <file name="ger-DE" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="translation.ts" path="/translations/ger-DE" md5sum="05aeff6c4dca1d6ba750602d990bd91f"/>
   <file name="ita-IT" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/ita-IT" md5sum="ca89e6da23ce88b5b5907f13f729b165"/>
+  <file name="translation.ts" path="/translations/ita-IT" md5sum="9ac1b16ba1995fdeb5c02d11bd82ed1a"/>
   <file name="jpn-JP" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/jpn-JP" md5sum="8d1759ad36ad4e1d10dbcd56b8ddcc84"/>
+  <file name="translation.ts" path="/translations/jpn-JP" md5sum="9a03333ff033eee637bd966e170e45d6"/>
   <file name="nor-NO" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="translation.ts" path="/translations/nor-NO" md5sum="de2eab3c99a93813491eb570b71cb5da"/>
   <file name="pol-PL" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
