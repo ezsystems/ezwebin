@@ -119,13 +119,13 @@ div#topmenu ul
     background-color: #F2F3F5;
 }
 
-div#topmenu ul#topmenu-firstlevel li
+div#topmenu ul li
 {
     border-right: 1px solid #D0D5D8;
     background-image: none;
 }
 
-div#topmenu ul#topmenu-firstlevel li a
+div#topmenu ul li a
 {
     font-weight: normal;
     color: #1A3232;
@@ -133,14 +133,14 @@ div#topmenu ul#topmenu-firstlevel li a
     padding: 5px 15px 6px 15px;
 }
 
-div#topmenu ul#topmenu-firstlevel li.selected
+div#topmenu ul li.selected
 {
     background-image: url(images/topmenu_li_selected.gif);
     background-repeat: repeat-x;
     background-position: left top;
 }
 
-div#topmenu ul#topmenu-firstlevel li.selected a
+div#topmenu ul li.selected a
 {
     border-bottom: none;
     color: #F7FFFF;
@@ -148,13 +148,13 @@ div#topmenu ul#topmenu-firstlevel li.selected a
     margin: 0;
 }
 
-div#topmenu ul#topmenu-firstlevel li a:hover, div#topmenu ul#topmenu-firstlevel li.selected a:hover
+div#topmenu ul li a:hover, div#topmenu ul li.selected a:hover
 {
     border-bottom: none;
     margin: 0;
 }
 
-div#topmenu ul#topmenu-firstlevel li.selected a span
+div#topmenu ul li.selected a span
 {
     display: block;
     background-image: url(images/topmenu_a_bullet.gif);
@@ -175,6 +175,16 @@ div#topmenu ul#topmenu-secondlevel
 div#topmenu ul#topmenu-secondlevel li
 {
     border: none;
+}
+
+div#topmenu ul#topmenu-secondlevel li a:hover
+{
+    padding-bottom: 0;
+}
+
+div#topmenu ul#topmenu-secondlevel li.selected a span
+{
+    padding-bottom: 0;
 }
 
 div#sidemenu
