@@ -148,6 +148,7 @@ div#topmenu ul li
     margin: 0;
     padding: 0;
     font-size: 0.85em;
+    white-space: nowrap;
 }
 
 div#topmenu ul li
