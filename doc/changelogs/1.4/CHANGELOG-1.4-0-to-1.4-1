@@ -4,6 +4,8 @@ Changes from 1.4-0 to 1.4-1
 
 - Fixed bug #014721: Top menu does not display correctly when it wraps
   (Merged from ezwebin trunk rev. 3812)
+- Fixed bug #14821: ezpagedata categorizes content/action as is_edit even on infocollector validation warnings
+  (Merged from ezwebin trunk rev. 3885)
 
 *Enhancements*
 
