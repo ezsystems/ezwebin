@@ -161,11 +161,20 @@ class eZPageData
                 $pageData['show_path']           = 'path';
                 $pageData['website_toolbar']     = false;
                 $pageData['node_id']             = $currentNodeId;
-                $pageData['is_edit']             = ( $uiContext === 'edit' && strpos( $uriString, 'user/edit' ) === false  );
+                $pageData['is_edit']             = false;
                 $pageData['page_root_depth']     = 0;
                 $pageData['page_depth']          = count( $moduleResult['path'] );
                 $pageData['root_node']           = (int) $contentIni->variable( 'NodeSettings', 'RootNode' );
 
+                // is_edit if not on user/edit and not on content/action when
+                // you get info collector warning about missing attributes 
+                if ( $uiContext === 'edit'
+                  && strpos( $uriString, 'user/edit' ) === false
+                  &&  ( !isset( $moduleResult['content_info'] ) || strpos( $uriString, 'content/action' ) === false ) )
+                {
+                    $pageData['is_edit'] = true;
+                }
+                  
                 if ( isset( $moduleResult['content_info']['viewmode'] ) )
                 {
                     $viewMode = $moduleResult['content_info']['viewmode'];
