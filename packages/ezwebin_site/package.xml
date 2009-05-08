@@ -65,6 +65,9 @@
                name="ezwebin_extension"
                min-version="1.4" />
       <require type="ezpackage"
+               name="ezwt_extension"
+               min-version="1.0" />
+      <require type="ezpackage"
                name="ezwebin_banners"
                min-version="1.4" />
       <require type="ezpackage"

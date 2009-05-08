@@ -1,0 +1,28 @@
+
+Installation
+------------
+Copy the ezwt extension to your existing eZ Publish installation, then enable it in the Administration Interface (in the Extensions menu under the Setup tab).
+
+Next, insert the following lines into your pagelayout.tpl file:
+
+<style type="text/css">
+@import url({"stylesheets/websitetoolbar.css"|ezdesign});
+</style>
+
+{def $user_hash = concat( $current_user.role_id_list|implode( '_' ), '_', $current_user.limited_assignment_value_list|implode( '_' ) )}
+ 
+{cache-block keys=array( $uri_string, $user_hash )}
+
+    {include uri='design:parts/website_toolbar.tpl' current_node_id=$module_result.node_id}
+
+{/cache-block}
+
+Wrapping cache blocks around eZ Website Toolbar in pagelayout.tpl template prevent additional SQL calls to database server.
+
+In content/edit.tpl or its override file, include:
+{include uri='design:parts/website_toolbar_edit.tpl'}
+
+In content/view/versionview.tpl or its override file, include:
+{include uri='design:parts/website_toolbar_versionview.tpl'}
+
+Finally, clear all the caches (under the Cache window on the right of the Administration Interface) and you should now be able to use the Website Toolbar in your existing eZ Publish project. Of course, you will need to configure it a bit more (see extension/ezwt/settings/websitetoolbar.ini.append.php).
