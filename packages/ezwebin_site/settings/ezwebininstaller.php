@@ -96,7 +96,7 @@ class eZWebinInstaller extends eZSiteInstaller
         $this->addSetting( 'design_list', eZSiteInstaller::getParam( $parameters, 'design_list', array() ) );
 
         $this->addSetting( 'main_site_design', strtolower( $this->solutionName() ) );
-        $this->addSetting( 'extension_list', array( strtolower( $this->solutionName() ) ) );
+        $this->addSetting( 'extension_list', array( strtolower( $this->solutionName() ), 'ezwt' ) );
         $this->addSetting( 'version', $this->solutionVersion() );
 
         $this->addSetting( 'locales', eZSiteInstaller::getParam( $parameters, 'all_language_codes', array() ) );
