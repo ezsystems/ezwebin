@@ -1,8 +1,10 @@
 <div class="border-box">
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
 <div class="border-ml"><div class="border-mr"><div class="border-mc">
-{def $left_menu_depth = $pagedata.current_menu|eq('LeftOnly')|choose( 1, 0 )}
-        <h4><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $pagedata.path_array[$left_menu_depth].node_id)|ezurl}{else}{$pagedata.path_array[$left_menu_depth].url_alias|ezurl}{/if}>{$pagedata.path_array[$left_menu_depth].text}</a></h4>
+{def $left_menu_depth = $pagedata.current_menu|eq('LeftOnly')|choose( 1, 0 )
+     $left_menu_root_url = cond( $pagedata.path_array[$left_menu_depth].url_alias, $pagedata.path_array[$left_menu_depth].url_alias, $requested_uri_string )}
+
+    <h4><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $pagedata.path_array[$left_menu_depth].node_id)|ezurl}{else}{$left_menu_root_url|ezurl}{/if}>{$pagedata.path_array[$left_menu_depth].text}</a></h4>
 
 {if ne( $pagedata.class_identifier, 'documentation_page' )}
     {def $root_node=fetch( 'content', 'node', hash( 'node_id', $pagedata.path_array[$left_menu_depth].node_id ) )
@@ -83,6 +85,8 @@
     {undef $current_node $chapter_container $class_filter $depth $node_to_unfold $contentStructureTree}
     </div>
 {/if}
+
+{undef $left_menu_root_url $left_menu_depth}
 
 </div></div></div>
 <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
