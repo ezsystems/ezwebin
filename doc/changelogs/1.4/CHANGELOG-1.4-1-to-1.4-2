@@ -4,6 +4,8 @@ Changes from 1.4-1 to 1.4-2
 
 - Fixed bug #14909: SiteURL not correctly set for multilingual, hostname based install
   (Merged from ezwebin trunk rev. 3925)
+- Fixed bug #11176: Link on top item of flat_left menu in ezwebin is broken if it is current page.
+  (Merged from ezwebin trunk rev. 3939)
   
 *Enhancements*
 
