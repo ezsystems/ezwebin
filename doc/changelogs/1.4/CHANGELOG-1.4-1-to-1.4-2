@@ -6,6 +6,8 @@ Changes from 1.4-1 to 1.4-2
   (Merged from ezwebin trunk rev. 3925)
 - Fixed bug #11176: Link on top item of flat_left menu in ezwebin is broken if it is current page.
   (Merged from ezwebin trunk rev. 3939)
+- Fixed bug #14949: obsolete "Website Toolbar access" attribute in user group
+  (Merged from ezwebin trunk rev. 3944)
   
 *Enhancements*
 
