@@ -6,6 +6,7 @@ Changes from 1.4-0 to 1.5-0
 - Fixed bug #14821: ezpagedata categorizes content/action as is_edit even on infocollector validation warnings
 - Fixed bug #14909: SiteURL not correctly set for multilingual, hostname based install
 - Fixed bug #11176: Link on top item of flat_left menu in ezwebin is broken if it is current page.
+- Fixed bug #14949: obsolete "Website Toolbar access" attribute in user group
 
 *Enhancements*
 
