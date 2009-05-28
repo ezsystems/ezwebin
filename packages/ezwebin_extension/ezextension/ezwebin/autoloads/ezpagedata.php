@@ -337,16 +337,19 @@ class eZPageData
                     $pageData['extra_menu_class_list'] = $menuIni->variable('MenuContentSettings', 'ExtraIdentifierList');
                 }
 
-                // A set of cases where left/extra menu's are hidden unless set by parameters
-                if ( $pageData['is_edit'] || strpos( $uriString, 'content/versionview' ) === 0 )
+                if ( $menuIni->variable( 'MenuSettings', 'AlwaysAvailable' ) === 'false' )
                 {
-                    if ( !isset( $parameters['left_menu'] ) ) $pageData['left_menu']  = false;
-                    if ( !isset( $parameters['extra_menu'] ) ) $pageData['extra_menu'] = false;
-                }
-                else if ( !$currentNodeId || $uiContext === 'browse' )
-                {
-                    if ( !isset( $parameters['left_menu'] ) ) $pageData['left_menu']  = false;
-                    if ( !isset( $parameters['extra_menu'] ) ) $pageData['extra_menu'] = false;
+                    // A set of cases where left/extra menu's are hidden unless set by parameters
+                    if ( $pageData['is_edit'] || strpos( $uriString, 'content/versionview' ) === 0 )
+                    {
+                        if ( !isset( $parameters['left_menu'] ) ) $pageData['left_menu']  = false;
+                        if ( !isset( $parameters['extra_menu'] ) ) $pageData['extra_menu'] = false;
+                    }
+                    else if ( !$currentNodeId || $uiContext === 'browse' )
+                    {
+                        if ( !isset( $parameters['left_menu'] ) ) $pageData['left_menu']  = false;
+                        if ( !isset( $parameters['extra_menu'] ) ) $pageData['extra_menu'] = false;
+                    }
                 }
 
                 // Count extra menu objects if all extra menu settings are present
