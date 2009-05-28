@@ -33,7 +33,7 @@ ExtraIdentifierList[]=infobox
 
 # Control extra menu visibility depening on
 # available subitems for current node
-ExtraMenuSubitemsCheck=enabled
+ExtraMenuSubitemsCheck=disabled
 
 # DEPRICATED: use persistent_variable in node full veiw instead
 # {set scope=global persistent_variable=hash('left_menu', false(),
@@ -44,5 +44,8 @@ HideLeftMenuClasses[]
 HideLeftMenuClasses[]=frontpage
 HideLeftMenuClasses[]=blog
 HideLeftMenuClasses[]=blog_post
+
+# true or false, while set to false menus can be hide in certain cases
+AlwaysAvailable=true
 
 */ ?>
