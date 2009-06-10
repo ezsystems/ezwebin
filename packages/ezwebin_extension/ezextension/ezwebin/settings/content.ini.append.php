@@ -3,6 +3,7 @@
 [CustomTagSettings]
 AvailableCustomTags[]=separator
 AvailableCustomTags[]=children_menu
+AvailableCustomTags[]=video
 
 [folder]
 SummaryInFullView=enabled
@@ -20,5 +21,11 @@ CustomAttributesDefaults[limit]=5
 CustomAttributesDefaults[like]=left_menu
 #menu modes: 'left_menu' | 'top_menu' | 'children' or ''
 
+[video]
+CustomAttributes[]=width
+CustomAttributes[]=height
+CustomAttributes[]=source
+CustomAttributes[]=allow_full_screen
+CustomAttributes[]=allow_script_access
 
 */ ?>
