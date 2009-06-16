@@ -220,11 +220,11 @@
     </message>
     <message>
         <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation>Aucun résultat pour la recherche sur &quot;%1&quot;</translation>
+        <translation>Aucun résultat pour la recherche pour &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation>La recherche sur &quot;%1&quot; renvois %2 résultats</translation>
+        <translation>La recherche pour &quot;%1&quot; renvoie %2 résultats</translation>
     </message>
     <message>
         <source>Last month</source>
@@ -889,7 +889,7 @@ Vous devriez soit contacter l&apos;auteur d&apos;un des brouillons en cours, soi
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation>La recherche sur &quot;%1&quot; renvois %2 résultats</translation>
+        <translation>La recherche pour &quot;%1&quot; renvoie %2 résultats</translation>
     </message>
 </context>
 <context>
