@@ -50,6 +50,17 @@
             </div>
         {/if}
 
+        {if $node.data_map.tags.content.related_objects}
+        <div class="attribute-relatedcontent">
+            <h1>{"Related content"|i18n("design/ezwebin/full/article")}</h1>
+            <ul>
+            {foreach $node.data_map.tags.content.related_objects|reverse() as $related_object max 7}
+                <li><a href="{$related_object.url_alias|ezurl( 'no' )}" title="{$related_object.name|wash()}">{$related_object.name|wash()}</a></li>
+            {/foreach}
+            </ul>
+        </div>
+        {/if}
+
         {if is_unset( $versionview_mode )}
         {if $node.data_map.enable_comments.data_int}
             <h1>{"Comments"|i18n("design/ezwebin/full/article")}</h1>

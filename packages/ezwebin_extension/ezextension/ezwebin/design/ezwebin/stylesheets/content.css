@@ -23,6 +23,14 @@ div.block div.original
     border: 1px dashed #bfbeb6;
 }
 
+/* RELATED CONTENT */
+
+div.attribute-relatedcontent
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 /* BOX GENERAL DESIGN */
 
 div.border-box
@@ -1398,7 +1406,7 @@ div.content-view-full div.class-gallery div.attribute-link
     clear: both;
 }
 
-div.content-view-full div.class-gallery div.content-view-galleryline
+div.content-view-full div.content-view-galleryline
 {
     border: 1px solid #EFEEE9;
     margin: 0 1.25em 1em auto;
@@ -1406,34 +1414,34 @@ div.content-view-full div.class-gallery div.content-view-galleryline
     float: left;
 }
 
-div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-image
+div.content-view-full div.content-view-galleryline div.attribute-image
 {
     float: none;
     margin: 0;
     padding: 0;
 }
 
-div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-image p
+div.content-view-full div.content-view-galleryline div.attribute-image p
 {
     margin: 0;
     padding: 0;
 }
 
-div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-image img
+div.content-view-full div.content-view-galleryline div.attribute-image img
 {
     display: block;
     margin: 0;
     padding: 0;
 }
 
-div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-image a
+div.content-view-full div.content-view-galleryline div.attribute-image a
 {
     margin: 0;
     padding: 0;
     display: inline;
 }
 
-div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-name
+div.content-view-full div.content-view-galleryline div.attribute-name
 {
     border-top: 1px solid #EFEEE9;
     background-image: url(../images/img_caption_bg.png);
@@ -1444,7 +1452,7 @@ div.content-view-full div.class-gallery div.content-view-galleryline div.attribu
     text-align: center;
     overflow: hidden;
 }
-div.content-view-full div.class-gallery div.content-view-galleryline div.attribute-name p
+div.content-view-full div.content-view-galleryline div.attribute-name p
 {
     margin: 0;
     padding: 0.5em 0 0.4em 0;
