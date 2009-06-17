@@ -86,7 +86,7 @@
 
         {if $node.data_map.tags.content.related_objects}
         <div class="attribute-relatedcontent">
-            <h1>{"Related content"|i18n("design/ezwebin/full/article")}</h1>
+            <h1>{"Related content"|i18n("design/ezwebin/full/image")}</h1>
             {def $filters = ezini( 'gallerythumbnail', 'Filters', 'image.ini' )}
             
              {foreach $filters as $filter}
