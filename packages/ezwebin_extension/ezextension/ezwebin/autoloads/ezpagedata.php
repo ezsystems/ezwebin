@@ -387,7 +387,7 @@ class eZPageData
                 }
 
                 // Generate relative path array as well full path id array and path css classes for div#page
-                $path = isset( $moduleResult['path'] ) ? $moduleResult['path'] : array();
+                $path = ( isset( $moduleResult['path'] ) && is_array( $moduleResult['path'] ) ) ? $moduleResult['path'] : array();
                 foreach ( $path as $key => $item )
                 {
                     if ( $key >= $pageData['page_root_depth'])
