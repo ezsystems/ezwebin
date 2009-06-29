@@ -29,7 +29,6 @@ HiddenContentClasses[]=common_ini_settings
 # Template should be placed in design/<design_name>/templates/parts/websitetoolbar
 # Example: design/<design_name>/templates/parts/websitetoolbar/customtemplateexample.tpl
 # NOTE: do not use .tpl extension in the setting value
-CustomTemplateList[]
 # CustomTemplateList[]=customtemplateexample
 CustomTemplateList[]=object_states
 
