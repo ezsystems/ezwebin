@@ -49,6 +49,7 @@
 
         <antcall target="update-package-xml"/>
         <antcall target="update-ezinfo-php"/>
+        <antcall target="update-license-headers"/>
     </target>
 
     <target name="update-package-xml">
@@ -100,6 +101,19 @@
             <fileset dir="${basedir}" includes="**/*ezinfo.php"/>
         </replaceregexp>
 
+    </target>
+
+    <target name="update-license-headers">
+        <echo message="Updating license headers"/>
+
+        <!-- SOFTWARE RELEASE -->
+        <replaceregexp byline="true">
+            <regexp pattern="// SOFTWARE RELEASE: (.*)"/>
+            <substitution expression="// SOFTWARE RELEASE: ${ezwebin.version.alias}-${ezwebin.version.release}"/>
+            <fileset dir="${basedir}">
+                <include name="**/*.php"/>
+            </fileset>
+        </replaceregexp>
     </target>
 
     <!-- called by build -->
