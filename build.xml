@@ -48,6 +48,7 @@
         </antcall>
 
         <antcall target="update-package-xml"/>
+        <antcall target="update-ezinfo-php"/>
     </target>
 
     <target name="update-package-xml">
@@ -86,6 +87,17 @@
             <regexp pattern='^(    \074release\076)(.*)(\074/release\076)$'/>
             <substitution expression='\1${ezwebin.version.release}\3'/>
             <fileset dir="${basedir}" includes="**/*package.xml"/>
+        </replaceregexp>
+
+    </target>
+
+    <target name="update-ezinfo-php">
+        <echo message="Updating ezinfo.php"/>
+
+        <replaceregexp byline="true">
+            <regexp pattern='^(                      \047Version\047 => \047)(.*)(\047,)$'/>
+            <substitution expression='\1${ezwebin.version.alias}-${ezwebin.version.release}\3'/>
+            <fileset dir="${basedir}" includes="**/*ezinfo.php"/>
         </replaceregexp>
 
     </target>
