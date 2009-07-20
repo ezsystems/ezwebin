@@ -56,16 +56,16 @@
             <fileset dir="${basedir}" includes="**/*package.xml"/>
         </replaceregexp>
 
-        <!-- <version>xxxx</version> -->
+        <!-- <number>xxxx</number> -->
         <replaceregexp byline="true">
-            <regexp pattern='^(    \074version\076)(.*)(\074/version\076)$'/>
+            <regexp pattern='^(    \074number\076)(.*)(\074/number\076)$'/>
             <substitution expression='\1${ezwebin.version.major}.${ezwebin.version.minor}.${ezwebin.version.release}\3'/>
             <fileset dir="${basedir}" includes="**/*package.xml"/>
         </replaceregexp>
 
-        <!-- <named-version>yyy</named-version> -->
+        <!-- <release>yyy</release> -->
         <replaceregexp byline="true">
-            <regexp pattern='^(    \074named-version\076)(.*)(\074/named-version\076)$'/>
+            <regexp pattern='^(    \074release\076)(.*)(\074/release\076)$'/>
             <substitution expression='\1${ezwebin.version.alias}\3'/>
             <fileset dir="${basedir}" includes="**/*package.xml"/>
         </replaceregexp>
