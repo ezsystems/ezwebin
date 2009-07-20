@@ -66,7 +66,7 @@
         <!-- <named-version>yyy</named-version> -->
         <replaceregexp byline="true">
             <regexp pattern='^(    \074named-version\076)(.*)(\074/named-version\076)$'/>
-            <substitution expression='\1${ezwebin.version.major}.${ezwebin.version.alias}\3'/>
+            <substitution expression='\1${ezwebin.version.alias}\3'/>
             <fileset dir="${basedir}" includes="**/*package.xml"/>
         </replaceregexp>
 
