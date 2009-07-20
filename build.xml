@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<project name="eZPublish" basedir="build" default="build">
+
+    <description>eZWebin packages build file</description>
+
+    <property file="../properties/ezwebin.properties"/>
+
+    <target name="infos">
+        <echo message="EZWEBIN BUILD INFORMATIONS"/>
+        <echo message="--------------------------"/>
+        <echo message="ezwebin.version.major          : ${ezwebin.version.major}"/>
+        <echo message="ezwebin.version.minor          : ${ezwebin.version.minor}"/>
+        <echo message="ezwebin.version.release        : ${ezwebin.version.release}"/>
+        <echo message="ezwebin.version.alias          : ${ezwebin.version.alias}"/>
+        <echo message="ezwebin.svn.trunk.packages.url : ${ezwebin.svn.trunk.packages.url}"/>
+        <echo message="php.cli.executable.path        : ${php.cli.executable.path}"/>
+    </target>
+
+    <target name="warning" depends="infos">
+        <echo message="Please check informations defined above are correct"/>
+        <echo message="If not feel free to update the properties/ezwebin.properties file"/>
+        <echo message="This script will wait for 5 seconds before it starts"/>
+
+        <sleep seconds="5"/>
+    </target>
+
+    <target name="init" depends="warning">
+        <exec executable="svn" failonerror="true">
+            <arg value="export"/>
+            <arg value="${ezwebin.svn.trunk.packages.url}"/>
+            <arg value="packages"/>
+        </exec>
+    </target>
+
+    <target name="build" depends="init">
+        <antcall target="run-ezpxmlfilelist-php">
+            <param name="extension.name" value="ezwebin_extension"/>
+        </antcall>
+
+        <antcall target="run-ezpxmlfilelist-php">
+            <param name="extension.name" value="ezwt_extension"/>
+        </antcall>
+    </target>
+
+    <!-- called by build -->
+    <target name="run-ezpxmlfilelist-php">
+        <echo message="Building XML file list for extension ${extension.name}"/>
+        <exec executable="${php.cli.executable.path}" failonerror="true">
+            <arg value="../bin/ezpxmlextfilelist.php"/>
+            <arg value="-e"/>
+            <arg value="${basedir}"/>
+            <arg value="-n"/>
+            <arg value="${extension.name}"/>
+        </exec>
+    </target>
+
+    <target name="dist">
+        <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_banners"/></antcall>
+        <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_classes"/></antcall>
+        <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_democontent"/></antcall>
+        <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_design_blue"/></antcall>
+        <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_design_gray"/></antcall>
+        <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_design_cleangray"/></antcall>
+        <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_extension"/></antcall>
+        <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_site"/></antcall>
+        <antcall target="create-package-tarball"><param name="package.name" value="ezwt_extension"/></antcall>
+    </target>
+
+    <!-- called by target dist -->
+    <target name="create-package-tarball">
+        <tar destfile="${package.name}.ezpkg"
+             compression="gzip"
+             longfile="gnu"
+             basedir="${basedir}/packages/${package.name}"/>
+    </target>
+
+    <target name="distclean">
+        <delete includeemptydirs="true">
+            <fileset dir="${basedir}" includes="**/*.ezpkg"/>
+        </delete>
+    </target>
+
+    <target name="cleanall" depends="distclean">
+        <delete dir="packages"/>
+    </target>
+</project>
