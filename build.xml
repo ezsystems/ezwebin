@@ -47,7 +47,6 @@
     <!-- called by build -->
     <target name="run-ezpxmlfilelist-php">
         <echo message="Building XML file list for extension ${extension.name}"/>
-        <echo message="ezpxmlextfilelist.php -e ${basedir}/package/${extension.name}/${extension.short.name}/ezextension -n ${extension.short.name} > ${basedir}/packages/${extension.name}/ezextension/extension-${extension.short.name}.xml"/>
         <exec executable="${php.cli.executable.path}" failonerror="true">
             <arg value="../bin/ezpxmlextfilelist.php"/>
             <arg value="-e"/>
