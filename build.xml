@@ -42,6 +42,34 @@
             <param name="extension.name"       value="ezwt_extension"/>
             <param name="extension.short.name" value="ezwt"/>
         </antcall>
+
+        <antcall name="update-package-xml"/>
+    </target>
+
+    <target name="update-package-xml">
+        <echo message="Updating package.xml with correct version numbers"/>
+
+        <!-- <package version="1.4-0" -->
+        <replaceregexp byline="true">
+            <regexp pattern='^(\074package version=")(.*)(")$'/>
+            <substitution expression='\1${ezwebin.version.major}.${ezwebin.version.minor}-${ezwebin.version.release}\3'/>
+            <fileset dir="${basedir}" includes="**/*package.xml"/>
+        </replaceregexp>
+
+        <!-- <version>xxxx</version> -->
+        <replaceregexp byline="true">
+            <regexp pattern='^(    \074version\076)(.*)(\074/version\076)$'/>
+            <substitution expression='\1${ezwebin.version.major}.${ezwebin.version.minor}.${ezwebin.version.release}\3'/>
+            <fileset dir="${basedir}" includes="**/*package.xml"/>
+        </replaceregexp>
+
+        <!-- <named-version>yyy</named-version> -->
+        <replaceregexp byline="true">
+            <regexp pattern='^(    \074named-version\076)(.*)(\074/named-version\076)$'/>
+            <substitution expression='\1${ezwebin.version.major}.${ezwebin.version.alias}\3'/>
+            <fileset dir="${basedir}" includes="**/*package.xml"/>
+        </replaceregexp>
+
     </target>
 
     <!-- called by build -->
