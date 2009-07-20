@@ -49,7 +49,7 @@
     <target name="update-package-xml">
         <echo message="Updating package.xml with correct version numbers"/>
 
-        <!-- <package version="1.4-0" -->
+        <!-- <package version="zzzz" -->
         <replaceregexp byline="true">
             <regexp pattern='^(\074package version=")(.*)(")$'/>
             <substitution expression='\1${ezwebin.version.major}.${ezwebin.version.minor}-${ezwebin.version.release}\3'/>
@@ -59,14 +59,14 @@
         <!-- <number>xxxx</number> -->
         <replaceregexp byline="true">
             <regexp pattern='^(    \074number\076)(.*)(\074/number\076)$'/>
-            <substitution expression='\1${ezwebin.version.major}.${ezwebin.version.minor}.${ezwebin.version.release}\3'/>
+            <substitution expression='\1${ezwebin.version.alias}\3'/>
             <fileset dir="${basedir}" includes="**/*package.xml"/>
         </replaceregexp>
 
         <!-- <release>yyy</release> -->
         <replaceregexp byline="true">
             <regexp pattern='^(    \074release\076)(.*)(\074/release\076)$'/>
-            <substitution expression='\1${ezwebin.version.alias}\3'/>
+            <substitution expression='\1${ezwebin.version.release}\3'/>
             <fileset dir="${basedir}" includes="**/*package.xml"/>
         </replaceregexp>
 
