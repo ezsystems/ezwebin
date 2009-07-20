@@ -43,7 +43,7 @@
             <param name="extension.short.name" value="ezwt"/>
         </antcall>
 
-        <antcall name="update-package-xml"/>
+        <antcall target="update-package-xml"/>
     </target>
 
     <target name="update-package-xml">
