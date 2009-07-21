@@ -41,12 +41,12 @@
             <param name="extension.name"       value="ezwebin_extension"/>
             <param name="extension.short.name" value="ezwebin"/>
         </antcall>
-
+<!--
         <antcall target="run-ezpxmlfilelist-php">
             <param name="extension.name"       value="ezwt_extension"/>
             <param name="extension.short.name" value="ezwt"/>
         </antcall>
-
+-->
         <antcall target="update-package-xml"/>
         <antcall target="update-ezinfo-php"/>
         <antcall target="update-license-headers"/>
@@ -122,10 +122,10 @@
         <exec executable="${php.cli.executable.path}" failonerror="true">
             <arg value="../bin/ezpxmlextfilelist.php"/>
             <arg value="-e"/>
-            <arg value="${basedir}/packages/${extension.name}/${extension.short.name}/ezextension"/>
+            <arg value="${basedir}/packages/${extension.name}/ezextension/${extension.short.name}"/>
             <arg value="-n"/>
             <arg value="${extension.short.name}"/>
-            <redirector output="${basedir}/packages/${extension.name}/ezextension/extension-${extension.short.name}.xml" append="true"/>
+            <redirector output="${basedir}/packages/${extension.name}/ezextension/extension-${extension.short.name}.xml" append="false"/>
         </exec>
     </target>
 
@@ -138,7 +138,9 @@
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_design_cleangray"/></antcall>
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_extension"/></antcall>
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_site"/></antcall>
+<!--
         <antcall target="create-package-tarball"><param name="package.name" value="ezwt_extension"/></antcall>
+-->
     </target>
 
     <!-- called by target dist -->
