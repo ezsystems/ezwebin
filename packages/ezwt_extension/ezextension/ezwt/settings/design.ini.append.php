@@ -1,6 +1,0 @@
-<?php /*
-
-[ExtensionSettings]
-DesignExtensions[]=ezwt
-
-*/ ?>
