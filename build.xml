@@ -216,7 +216,7 @@
             <arg value="${ezwebin.build.dir}/packages/${extension.name}/${extension.short.name}/ezextension"/>
             <arg value="-n"/>
             <arg value="${extension.short.name}"/>
-            <redirector output="${ezwebin.build.dir}/packages/${extension.name}/ezextension/extension-${extension.short.name}.xml" append="true"/>
+            <redirector output="${ezwebin.build.dir}/packages/ezextension/${extension.name}/extension-${extension.short.name}.xml" append="false"/>
         </exec>
     </target>
 
