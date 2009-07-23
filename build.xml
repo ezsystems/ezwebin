@@ -92,6 +92,22 @@
         <antcall target="update-license-headers"/>
     </target>
 
+    <!-- trying something for Lukasz -->
+    <target name="build-externals">
+        <delete dir="${ezwebin.build.dir}/packages"/>
+        <mkdir dir="${ezwebin.build.dir}/ezwt/"/>
+
+        <!-- downloads the build file -->
+        <get src="http://svn.projects.ez.no/ezwebsitetoolbar/trunk/build.xml" dest="ezwtbuild.xml"/>
+
+        <!-- downloads the property files -->
+        <get src="http://svn.projects.ez.no/ezwebsitetoolbar/trunk/ant/ezwt.properties" dest="ant/ezwt.properties"/>
+        <ant antfile="ezwtbuild.xml" dir="." target="all" inheritAll="true"/>
+
+        <delete file="ezwtbuild.xml"/>
+        <delete file="ant/ezwt.properties"/>
+    </target>
+
     <!-- Meta target, calls build and dist -->
     <target name="all" depends="build,dist"/>
 
