@@ -92,7 +92,7 @@
         <antcall target="update-license-headers"/>
     </target>
 
-    <!-- trying something for Lukasz -->
+    <!-- building eZWebsiteToolbar as a dependency -->
     <target name="build-externals">
         <delete dir="${ezwebin.build.dir}/packages"/>
 
