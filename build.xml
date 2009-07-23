@@ -108,7 +108,7 @@
     </target>
 
     <!-- Meta target, calls build and dist -->
-    <target name="all" depends="build,dist"/>
+    <target name="all" depends="build,dist,build-externals"/>
 
     <!-- creates all the tarballs for packages -->
     <target name="dist">
