@@ -80,13 +80,6 @@
             <param name="extension.short.name" value="ezwebin"/>
         </antcall>
 
-        <!--
-        <antcall target="run-ezpxmlfilelist-php">
-            <param name="extension.name"       value="ezwt_extension"/>
-            <param name="extension.short.name" value="ezwt"/>
-        </antcall>
-        -->
-
         <antcall target="update-package-xml"/>
         <antcall target="update-ezinfo-php"/>
         <antcall target="update-license-headers"/>
@@ -94,17 +87,66 @@
 
     <!-- building eZWebsiteToolbar as a dependency -->
     <target name="build-externals">
-        <delete dir="${ezwebin.build.dir}/packages"/>
+        <!-- eZWebsiteToolbar -->
+        <antcall target="-build-external">
+            <param name="external.dependancy.build.file.url"
+                   value="${external.dependancy.ezwt.svn.trunk.build.file.url}"/>
 
-        <!-- downloads the build file -->
-        <get src="${external.dependancy.ezwt.svn.trunk.packages.url}" dest="ezwtbuild.xml"/>
+            <param name="external.dependancy.properties.file.url"
+                   value="${external.dependancy.ezwt.properties.file.url}"/>
 
-        <!-- downloads the property files -->
-        <get src="${external.dependancy.ezwt.properties.file.url}" dest="ant/${external.dependancy.ezwt.properties.file.name}"/>
-        <ant antfile="${external.dependancy.ezwt.build.script.name}" dir="." target="all" inheritAll="true"/>
+            <param name="external.dependancy.properties.file.name"
+                   value="${external.dependancy.ezwt.properties.file.name}"/>
+        </antcall>
 
-        <delete file="${external.dependancy.ezwt.build.script.name}"/>
-        <delete file="ant/${external.dependancy.ezwt.properties.file.name}"/>
+        <!-- eZJSCore -->
+        <antcall target="-build-external">
+            <param name="external.dependancy.build.file.url"
+                   value="${external.dependancy.ezjscore.svn.trunk.build.file.url}"/>
+
+            <param name="external.dependancy.properties.file.url"
+                   value="${external.dependancy.ezjscore.properties.file.url}"/>
+
+            <param name="external.dependancy.properties.file.name"
+                   value="${external.dependancy.ezjscore.properties.file.name}"/>
+        </antcall>
+
+        <!-- eZGmapLocation -->
+        <antcall target="-build-external">
+            <param name="external.dependancy.build.file.url"
+                   value="${external.dependancy.ezgmaplocation.svn.trunk.build.file.url}"/>
+
+            <param name="external.dependancy.properties.file.url"
+                   value="${external.dependancy.ezgmaplocation.properties.file.url}"/>
+
+            <param name="external.dependancy.properties.file.name"
+                   value="${external.dependancy.ezgmaplocation.properties.file.name}"/>
+        </antcall>
+
+        <!-- eZFLGmapBlock -->
+        <antcall target="-build-external">
+            <param name="external.dependancy.build.file.url"
+                   value="${external.dependancy.ezflgmapblock.svn.trunk.build.file.url}"/>
+
+            <param name="external.dependancy.properties.file.url"
+                   value="${external.dependancy.ezflgmapblock.properties.file.url}"/>
+
+            <param name="external.dependancy.properties.file.name"
+                   value="${external.dependancy.ezflgmapblock.properties.file.name}"/>
+        </antcall>
+
+        <!-- eZStarrating -->
+        <antcall target="-build-external">
+            <param name="external.dependancy.build.file.url"
+                   value="${external.dependancy.ezstarrating.svn.trunk.build.file.url}"/>
+
+            <param name="external.dependancy.properties.file.url"
+                   value="${external.dependancy.ezstarrating.properties.file.url}"/>
+
+            <param name="external.dependancy.properties.file.name"
+                   value="${external.dependancy.ezstarrating.properties.file.name}"/>
+        </antcall>
+
     </target>
 
     <!-- Meta target, calls build and dist -->
@@ -243,6 +285,24 @@
              basedir="${ezwebin.build.dir}/packages/${package.name}"/>
     </target>
 
+    <target name="-build-external">
+        <delete dir="${ezwebin.build.dir}/packages"/>
+
+        <get src="${external.dependancy.build.file.url}"
+             dest="externalbuild.xml"/>
+
+        <get src="${external.dependancy.properties.file.url}"
+             dest="ant/${external.dependancy.properties.file.name}"/>
+
+        <ant antfile="externalbuild.xml"
+             dir="."
+             target="all"
+             inheritAll="true"/>
+
+        <delete file="ant/${external.dependancy.properties.file.name}"/>
+
+        <delete file="externalbuild.xml"/>
+    </target>
     <!-- ============================================================= -->
     <!-- end of low level ( private ) targets, for internal usage ONLY -->
     <!-- ============================================================= -->
