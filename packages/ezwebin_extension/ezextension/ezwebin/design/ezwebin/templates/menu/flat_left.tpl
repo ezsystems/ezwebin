@@ -17,7 +17,8 @@
          $li_class = array()
          $a_class = array()
          $current_node_in_path_2 = first_set( $pagedata.path_array[$left_menu_depth|inc].node_id,  0 )
-         $current_node_in_path_3 = first_set( $pagedata.path_array[$left_menu_depth|sum(2)].node_id,  0 )}
+         $current_node_in_path_3 = first_set( $pagedata.path_array[$left_menu_depth|sum(2)].node_id,  0 )
+         $website_toolbar_access = fetch( 'user', 'has_access_to', hash( 'module', 'websitetoolbar', 'function', 'use' ) )}
 
     {if $left_menu_items_count}
         <ul class="menu-list">
@@ -32,7 +33,7 @@
                 {set $a_class = $a_class|append("current")}
             {/if}
             {if eq( $item.class_identifier, 'link')}
-                <li{if $li_class} class="{$li_class|implode(" ")}"{/if}><div class="second_level_menu"><a {if eq( $ui_context, 'browse' )}href={concat("content/browse/", $item.node_id)|ezurl}{else}href={$item.data_map.location.content|ezurl} target="_blank"{/if}{if $a_class} class="{$a_class|implode(" ")}"{/if} title="{$item.data_map.location.data_text|wash}">{$item.name|wash()}</a></div>
+                <li{if $li_class} class="{$li_class|implode(" ")}"{/if}><div class="second_level_menu"><a {if eq( $ui_context, 'browse' )}href={concat("content/browse/", $item.node_id)|ezurl}{else}href={if $website_toolbar_access}{$item.url_alias|ezurl}{else}{$item.data_map.location.content|ezurl}{/if}{if and( is_set( $item.data_map.open_in_new_window.data_int ), $item.data_map.open_in_new_window.data_int )} target="_blank"{/if}{/if}{if $a_class} class="{$a_class|implode(" ")}"{/if} title="{$item.data_map.location.data_text|wash}">{$item.name|wash()}</a></div>
             {else}
                 <li{if $li_class} class="{$li_class|implode(" ")}"{/if}><div class="second_level_menu"><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $item.node_id)|ezurl}{else}{$item.url_alias|ezurl}{/if}{if $a_class} class="{$a_class|implode(" ")}"{/if}>{$item.name|wash()}</a></div>
             {/if}
@@ -56,7 +57,7 @@
                         {set $a_class = $a_class|append("current")}
                     {/if}
                     {if eq( $subitem.class_identifier, 'link')}
-                        <li{if $li_class} class="{$li_class|implode(" ")}"{/if}><div class="third_level_menu"><a {if eq( $ui_context, 'browse' )}href={concat("content/browse/", $subitem.node_id)|ezurl}{else}href={$subitem.data_map.location.content|ezurl} target="_blank"{/if}{if $a_class} class="{$a_class|implode(" ")}"{/if} title="{$subitem.data_map.location.data_text|wash}">{$subitem.name|wash()}</a></div></li>
+                        <li{if $li_class} class="{$li_class|implode(" ")}"{/if}><div class="third_level_menu"><a {if eq( $ui_context, 'browse' )}href={concat("content/browse/", $subitem.node_id)|ezurl}{else}href={if $website_toolbar_access}{$subitem.url_alias|ezurl}{else}{$subitem.data_map.location.content|ezurl}{/if}{if and( is_set( $subitem.data_map.open_in_new_window.data_int ), $subitem.data_map.open_in_new_window.data_int )} target="_blank"{/if}{/if}{if $a_class} class="{$a_class|implode(" ")}"{/if} title="{$subitem.data_map.location.data_text|wash}">{$subitem.name|wash()}</a></div></li>
                     {else}
                         <li{if $li_class} class="{$li_class|implode(" ")}"{/if}><div class="third_level_menu"><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $subitem.node_id)|ezurl}{else}{$subitem.url_alias|ezurl}{/if}{if $a_class} class="{$a_class|implode(" ")}"{/if}>{$subitem.name|wash()}</a></div></li>
                     {/if}
@@ -69,7 +70,7 @@
         {/foreach}
         </ul>
     {/if}
-    {undef $root_node $left_menu_items $left_menu_items_count $a_class $li_class $current_node_in_path_2 $current_node_in_path_3}
+    {undef $root_node $left_menu_items $left_menu_items_count $a_class $li_class $current_node_in_path_2 $current_node_in_path_3 $website_toolbar_access}
 {else}
 
     <div class="contentstructure">
