@@ -599,6 +599,29 @@ class eZWebinInstaller extends eZSiteInstaller
                                                                         'name' => 'Publish date',
                                                                         'data_type_string' => 'ezdatetime',
                                                                         'default_value' => 0 ) ) ) );
+
+        $extensionPackage = eZPackage::fetch( 'ezstarrating_extension', false, false, false );
+
+        if ( $extensionPackage instanceof eZPackage )
+        {
+            switch ($db->databaseName())
+            {
+                case 'mysql':
+                    $sqlFile = 'mysql.sql';
+                    $path = $extensionPackage->path() . '/ezextension/ezstarrating/sql/mysql';
+                    break;
+                case 'postgresql':
+                    $sqlFile = 'postgresql.sql';
+                    $path = $extensionPackage->path() . '/ezextension/ezstarrating/sql/postgresql';
+                    break;
+            }
+            $res = $db->insertFile( $path, $sqlFile, false );
+            if ( !$res )
+            {
+                eZDebug::writeError( 'Can\'t initialize ezstarrating database shema.', __METHOD__ );
+            }
+        }
+
         $db->commit();
 
         // hack for images/binaryfiles
