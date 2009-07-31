@@ -123,18 +123,6 @@
                    value="${external.dependancy.ezgmaplocation.properties.file.name}"/>
         </antcall>
 
-        <!-- eZFLGmapBlock -->
-        <antcall target="-build-external">
-            <param name="external.dependancy.build.file.url"
-                   value="${external.dependancy.ezflgmapblock.svn.trunk.build.file.url}"/>
-
-            <param name="external.dependancy.properties.file.url"
-                   value="${external.dependancy.ezflgmapblock.properties.file.url}"/>
-
-            <param name="external.dependancy.properties.file.name"
-                   value="${external.dependancy.ezflgmapblock.properties.file.name}"/>
-        </antcall>
-
         <!-- eZStarrating -->
         <antcall target="-build-external">
             <param name="external.dependancy.build.file.url"
