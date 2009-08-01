@@ -145,7 +145,7 @@
       <placement>11</placement>
       <datatype-parameters/>
     </attribute>
-    <attribute datatype="ezsrrating" required="false" searchable="false" information-collector="false" translatable="true" unsupported="true">
+    <attribute datatype="ezsrrating" required="false" searchable="false" information-collector="false" translatable="true">
       <remote>
         <id>325</id>
       </remote>
