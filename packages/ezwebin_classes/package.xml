@@ -93,6 +93,9 @@
                value="image" />
       <provide type="ezcontentclass"
                name="contentclass"
+               value="link" />
+      <provide type="ezcontentclass"
+               name="contentclass"
                value="quicktime" />
       <provide type="ezcontentclass"
                name="contentclass"
@@ -179,6 +182,9 @@
           filename="class-image"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
+          filename="class-link"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
           filename="class-quicktime"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
@@ -260,6 +266,9 @@
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-image"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-link"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-quicktime"
