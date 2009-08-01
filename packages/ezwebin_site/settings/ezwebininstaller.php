@@ -628,6 +628,22 @@ class eZWebinInstaller extends eZSiteInstaller
         // need to set siteaccess to have correct placement(VarDir) for files in SetupWizard
         $ini = eZINI::instance();
         $ini->setVariable( 'FileSettings', 'VarDir', $this->setting( 'var_dir' ) );
+
+        $contentINI = eZINI::instance( 'content.ini' );
+        $datatypeRepositories = $contentINI->variable( 'DataTypeSettings', 'ExtensionDirectories' );
+        $datatypeRepositories[] = 'ezstarrating';
+        $contentINI->setVariables( array( 
+            'DataTypeSettings' => array( 
+                'ExtensionDirectories' => $datatypeRepositories 
+            ) 
+        ) );
+        $availableDatatype = $contentINI->variable( 'DataTypeSettings', 'AvailableDataTypes' );
+        $availableDatatype[] = 'ezsrrating';
+        $contentINI->setVariables( array( 
+            'DataTypeSettings' => array( 
+                'AvailableDataTypes' => $availableDatatype 
+            ) 
+        ) );
     }
 
     function languageMatrixDefinition()
