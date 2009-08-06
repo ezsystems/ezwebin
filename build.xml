@@ -150,9 +150,6 @@
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_design_cleangray"/></antcall>
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_extension"/></antcall>
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_site"/></antcall>
-        <!--
-        <antcall target="create-package-tarball"><param name="package.name" value="ezwt_extension"/></antcall>
-        -->
     </target>
 
     <!-- Cleans the generated tarball by dist-->
@@ -267,18 +264,12 @@
 
     <!-- called by target dist -->
     <target name="create-package-tarball">
-        <!--
-        <tar destfile="${ezwebin.build.dir}/${package.name}.ezpkg"
-             compression="gzip"
-             longfile="gnu"
-             basedir="${ezwebin.build.dir}/packages/${package.name}"/>
-        -->
+        <echo message="Building ${package.name}.ezpkg"/>
         <!-- Switched to the system tar command                             -->
         <!-- Ref : https://issues.apache.org/bugzilla/show_bug.cgi?id=47653 -->
-        <exec executable="tar">
-            <arg value="cvzf"/>
-            <arg value="${ezwebin.build.dir}/${package.name}.ezpkg"/>
+        <exec executable="./ant/createzpkg.sh">
             <arg value="${ezwebin.build.dir}/packages/${package.name}"/>
+            <arg value="${ezwebin.build.dir}/${package.name}"/>
         </exec>
     </target>
 
