@@ -267,10 +267,19 @@
 
     <!-- called by target dist -->
     <target name="create-package-tarball">
+        <!--
         <tar destfile="${ezwebin.build.dir}/${package.name}.ezpkg"
              compression="gzip"
              longfile="gnu"
              basedir="${ezwebin.build.dir}/packages/${package.name}"/>
+        -->
+        <!-- Switched to the system tar command                             -->
+        <!-- Ref : https://issues.apache.org/bugzilla/show_bug.cgi?id=47653 -->
+        <exec executable="tar">
+            <arg value="cvzf"/>
+            <arg value="${ezwebin.build.dir}/${package.name}.ezpkg"/>
+            <arg value="${ezwebin.build.dir}/packages/${package.name}"/>
+        </exec>
     </target>
 
     <target name="-build-external">
