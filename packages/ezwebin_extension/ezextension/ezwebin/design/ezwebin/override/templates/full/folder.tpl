@@ -32,7 +32,7 @@
                  $children_count = ''}
                  
             {if le( $node.depth, '3')}
-                {set $classes = $classes|append('folder')}
+                {set $classes = $classes|merge( ezini( 'ChildrenNodeList', 'ExcludedClasses', 'content.ini' ) )}
             {/if}
 
             {set $children=fetch_alias( 'children', hash( 'parent_node_id', $node.node_id,

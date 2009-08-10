@@ -28,4 +28,8 @@ CustomAttributes[]=source
 CustomAttributes[]=allow_full_screen
 CustomAttributes[]=allow_script_access
 
+[ChildrenNodeList]
+ExcludedClasses[]=folder
+ExcludedClasses[]=link
+
 */ ?>
