@@ -600,28 +600,6 @@ class eZWebinInstaller extends eZSiteInstaller
                                                                         'data_type_string' => 'ezdatetime',
                                                                         'default_value' => 0 ) ) ) );
 
-        $extensionPackage = eZPackage::fetch( 'ezstarrating_extension', false, false, false );
-
-        if ( $extensionPackage instanceof eZPackage )
-        {
-            switch ($db->databaseName())
-            {
-                case 'mysql':
-                    $sqlFile = 'mysql.sql';
-                    $path = $extensionPackage->path() . '/ezextension/ezstarrating/sql/mysql';
-                    break;
-                case 'postgresql':
-                    $sqlFile = 'postgresql.sql';
-                    $path = $extensionPackage->path() . '/ezextension/ezstarrating/sql/postgresql';
-                    break;
-            }
-            $res = $db->insertFile( $path, $sqlFile, false );
-            if ( !$res )
-            {
-                eZDebug::writeError( 'Can\'t initialize ezstarrating database shema.', __METHOD__ );
-            }
-        }
-
         $db->commit();
 
         // hack for images/binaryfiles
@@ -632,6 +610,7 @@ class eZWebinInstaller extends eZSiteInstaller
         $contentINI = eZINI::instance( 'content.ini' );
         $datatypeRepositories = $contentINI->variable( 'DataTypeSettings', 'ExtensionDirectories' );
         $datatypeRepositories[] = 'ezstarrating';
+        $datatypeRepositories[] = 'ezgmaplocation';
         $contentINI->setVariables( array( 
             'DataTypeSettings' => array( 
                 'ExtensionDirectories' => $datatypeRepositories 
@@ -639,11 +618,54 @@ class eZWebinInstaller extends eZSiteInstaller
         ) );
         $availableDatatype = $contentINI->variable( 'DataTypeSettings', 'AvailableDataTypes' );
         $availableDatatype[] = 'ezsrrating';
+        $availableDatatype[] = 'ezgmaplocation';
         $contentINI->setVariables( array( 
             'DataTypeSettings' => array( 
                 'AvailableDataTypes' => $availableDatatype 
             ) 
         ) );
+
+        $this->insertDBFile( 'ezstarrating_extension', 'ezstarrating' );
+        $this->insertDBFile( 'ezgmaplocation_extension', 'ezgmaplocation' );
+    }
+
+    function insertDBFile( $packageName, $extensionName, $loadContent = false )
+    {
+        $db = eZDB::instance();
+        $extensionPackage = eZPackage::fetch( $packageName, false, false, false );
+
+         if ( $extensionPackage instanceof eZPackage )
+         {
+             switch ($db->databaseName())
+             {
+                 case 'mysql':
+                     $sqlFile = 'mysql.sql';
+                     $path = $extensionPackage->path() . '/ezextension/' . $extensionName .  '/sql/mysql';
+                     break;
+                 case 'postgresql':
+                     $sqlFile = 'postgresql.sql';
+                     $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/postgresql';
+                     break;
+             }
+             
+             $res = $db->insertFile( $path, $sqlFile, false );
+             
+             if ( !$res  )
+             {
+                 eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database shema.', __METHOD__ );
+             }
+             
+             if ( $res && $loadContent )
+             {
+                 $sqlFile = 'democontent.sql';
+                 $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/common';
+                 $res = $db->insertFile( $path, $sqlFile, false );
+                 if ( ! $res )
+                 {
+                     eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' demo data.', __METHOD__ );
+                 }
+             }
+         }
     }
 
     function languageMatrixDefinition()
