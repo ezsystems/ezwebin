@@ -1,11 +1,11 @@
-{* Article - Full view *}
+{* Geo Article - Full view *}
 
 <div class="border-box">
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
 <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
     <div class="content-view-full">
-        <div class="class-article">
+        <div class="class-geo-article">
 
         <div class="attribute-header">
             <h1>{$node.data_map.title.content|wash()}</h1>
