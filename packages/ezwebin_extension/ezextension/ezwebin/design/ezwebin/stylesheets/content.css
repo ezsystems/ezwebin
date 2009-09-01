@@ -1458,6 +1458,14 @@ div.content-view-full div.content-view-galleryline div.attribute-name p
     padding: 0.5em 0 0.4em 0;
 }
 
+div.content-view-full div.content-view-galleryline a.attribute-thumbnail
+{
+    display: block;
+    background-image: url(../images/movie-ico.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 div.content-view-full div.class-gallery div.content-view-children
 {
     background-image: url(../images/attribute_header_bg_medium.png);

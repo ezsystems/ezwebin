@@ -30,11 +30,11 @@
                                                          'offset', $view_parameters.offset,
                                                          'limit', $page_limit,
                                                          'class_filter_type', 'include',
-                                                         'class_filter_array', array( 'image' ),
+                                                         'class_filter_array', array( 'image', 'flash_player' ),
                                                          'sort_by', $node.sort_array ) )
              $children_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id,
                                                                      'class_filter_type', 'include',
-                                                                     'class_filter_array', array( 'image' ) ) )}
+                                                                     'class_filter_array', array( 'image', 'flash_player' ) ) )}
 
         {if $children|count}
             <div class="attribute-link">
