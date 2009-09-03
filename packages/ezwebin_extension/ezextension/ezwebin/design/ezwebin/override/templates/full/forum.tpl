@@ -2,7 +2,7 @@
      $topic_list = fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
                                                   'limit', $page_limit,
                                                   'offset', $view_parameters.offset,
-                                                  'sort_by', array( array( attribute, false(), 'forum_topic/sticky' ), array( 'modified_subnode', false() ) ) ) )
+                                                  'sort_by', array( array( attribute, false(), 'forum_topic/sticky' ), array( 'modified_subnode', false() ), array( 'node_id', false() ) ) ) )
      $topic_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id ) )}
 
 <div class="border-box">

@@ -38,7 +38,7 @@
                 <td>{fetch('content','tree_count',hash(parent_node_id,$child.node_id))}</td>
                 <td class="last-reply">{def $topic_list=fetch_alias( children, hash( parent_node_id, $child.node_id,
                                                                                      limit, 1,
-                                                                                     sort_by, array( 'modified_subnode', false() ) ) )}
+                                                                                     'sort_by', array( array( 'modified_subnode', false() ), array( 'node_id', false() ) ) ) )}
                     {foreach $topic_list as $topic}
                          <a href={$topic.url_alias|ezurl}>{$topic.name}</a>
                         <p class="date">{$topic.object.published|l10n(shortdatetime)}</p>

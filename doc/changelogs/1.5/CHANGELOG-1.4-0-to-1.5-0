@@ -8,6 +8,7 @@ Changes from 1.4-0 to 1.5-0
 - Fixed bug #11176: Link on top item of flat_left menu in ezwebin is broken if it is current page.
 - Fixed bug #14949: obsolete "Website Toolbar access" attribute in user group
 - Fixed bug #14569: Install consistently(?) creates AdditionalLoginFormActionURL error
+- Fixed bug #13520: Next / previous links in Forum not working properly
 
 *Enhancements*
 

@@ -19,10 +19,10 @@
         {set $offset = $object_parameters.offset}
     {/if}
 
-    {set $children=fetch( content, list, hash( 'parent_node_id', $object.main_node_id, 
-                                               'limit', $limit,
-                                               'offset', $offset,
-                                               'sort_by', array( 'modified_subnode', false() ) ) ) }
+    {set $children=fetch( 'content', 'list', hash( 'parent_node_id', $object.main_node_id,
+                                                   'limit', $limit,
+                                                   'offset', $offset,
+                                                   'sort_by', array( array( 'modified_subnode', false() ), array( 'node_id', false() ) ) ) )}
 
     {if $children|count()}
     

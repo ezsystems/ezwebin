@@ -13,13 +13,13 @@
                                                 class_filter_array, array( 'forum_topic' ),
                                                 limit, 1,
                                                 attribute_filter, array( and, array( 'modified_subnode', '<', $node.modified_subnode ) ),
-                                                sort_by, array( array( 'modified_subnode', false() ) ) ) )
+                                                'sort_by', array( array( 'modified_subnode', false() ), array( 'node_id', false() ) ) ) )
      next_topic=fetch_alias( subtree, hash( parent_node_id, $node.parent_node_id,
                                             class_filter_type, include,
                                             class_filter_array, array( 'forum_topic' ),
                                             limit, 1,
                                             attribute_filter, array( and, array( 'modified_subnode', '>', $node.modified_subnode ) ),
-                                            sort_by, array( array( 'modified_subnode', true() ) ) ) ) }
+                                            'sort_by', array( array( 'modified_subnode', true() ), array( 'node_id', true() ) ) ) ) }
 
 
 <div class="border-box">
