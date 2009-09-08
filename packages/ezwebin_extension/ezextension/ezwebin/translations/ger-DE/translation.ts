@@ -1,4 +1,6 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="de_DE" sourcelanguage="en">
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
@@ -269,11 +271,11 @@
     </message>
     <message>
         <source>Type</source>
-        <translation>Art</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation>Auswahl invertieren</translation>
+        <translation>Auswahl umkehren</translation>
     </message>
 </context>
 <context>
@@ -443,19 +445,19 @@ Sie können hier Entwürfe bearbeiten und löschen.</translation>
     <name>design/ezwebin/content/edit</name>
     <message>
         <source>Manage versions</source>
-        <translation>Versionen verwalten</translation>
+        <translation type="obsolete">Versionen verwalten</translation>
     </message>
     <message>
         <source>Store and exit</source>
-        <translation>Speichern und verlassen</translation>
+        <translation type="obsolete">Speichern und verlassen</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Vorschau</translation>
+        <translation type="obsolete">Vorschau</translation>
     </message>
     <message>
         <source>Translate</source>
-        <translation>Übersetzen</translation>
+        <translation type="obsolete">Übersetzen</translation>
     </message>
     <message>
         <source>Edit %1 - %2</source>
@@ -463,7 +465,7 @@ Sie können hier Entwürfe bearbeiten und löschen.</translation>
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Zur Veröffentlichung</translation>
+        <translation>Zur Veröffentlichung schicken</translation>
     </message>
     <message>
         <source>Store draft</source>
@@ -475,7 +477,7 @@ Sie können hier Entwürfe bearbeiten und löschen.</translation>
     </message>
     <message>
         <source>Translate from</source>
-        <translation>Übersetzen von</translation>
+        <translation type="obsolete">Übersetzen von</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
@@ -699,7 +701,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     </message>
     <message>
         <source>Remove selected</source>
-        <translation>Ausgewählte entfernen</translation>
+        <translation>Ausgewähltes entfernen</translation>
     </message>
     <message>
         <source>Remove the selected versions from the object.</source>
@@ -771,7 +773,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     </message>
     <message>
         <source>Toggle selection</source>
-        <translation>Auswahl ein-/ausschalten</translation>
+        <translation>Auswahl umkehren</translation>
     </message>
     <message>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
@@ -806,7 +808,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     </message>
     <message>
         <source>Type</source>
-        <translation>Art</translation>
+        <translation>Typ</translation>
     </message>
 </context>
 <context>
@@ -943,15 +945,15 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     <name>design/ezwebin/content/view/versionview</name>
     <message>
         <source>Edit</source>
-        <translation>Bearbeiten</translation>
+        <translation type="obsolete">Bearbeiten</translation>
     </message>
     <message>
         <source>Publish</source>
-        <translation>Veröffentlichen</translation>
+        <translation type="obsolete">Veröffentlichen</translation>
     </message>
     <message>
         <source>Manage versions</source>
-        <translation>Versionen verwalten</translation>
+        <translation type="obsolete">Versionen verwalten</translation>
     </message>
 </context>
 <context>
@@ -962,7 +964,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Zur Veröffentlichung</translation>
+        <translation>Zur Veröffentlichung schicken</translation>
     </message>
     <message>
         <source>Discard</source>
@@ -977,7 +979,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Zur Veröffentlichung </translation>
+        <translation>Zur Veröffentlichung schicken</translation>
     </message>
     <message>
         <source>Discard</source>
@@ -992,7 +994,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Zur Veröffentlichung </translation>
+        <translation>Zur Veröffentlichung schicken</translation>
     </message>
     <message>
         <source>Discard</source>
@@ -1007,7 +1009,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Zur Veröffentlichung </translation>
+        <translation>Zur Veröffentlichung schicken</translation>
     </message>
     <message>
         <source>Discard</source>
@@ -1175,6 +1177,10 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
         <source>Tip a friend</source>
         <translation>Einem Freund empfehlen</translation>
     </message>
+    <message>
+        <source>Related content</source>
+        <translation>Verwandter Inhalt</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_mainpage</name>
@@ -1203,6 +1209,10 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
         <translation>Bitte melden Sie sich %login_link_startLogan%login_link_end oder %create_link_startregistrieren%create_link_end Sie sich um kommentieren zu können.</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation>Verwandter Inhalt</translation>
     </message>
 </context>
 <context>
@@ -1428,6 +1438,10 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     <message>
         <source>Next image</source>
         <translation>Nächstes Bild</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation>Verwandter Inhalt</translation>
     </message>
 </context>
 <context>
@@ -1661,7 +1675,7 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Once per month, on day number</source>
-        <translation>Einmal monatlich, am Tag Nr. </translation>
+        <translation>Einmal monatlich, am Tag Nummer</translation>
     </message>
     <message>
         <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
@@ -1676,7 +1690,7 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation>Auswahl invertieren.</translation>
+        <translation>Auswahl umkehren.</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1684,7 +1698,7 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Type</source>
-        <translation>Art</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Section</source>
@@ -1700,7 +1714,7 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Remove selected</source>
-        <translation>Auswahl entfernen</translation>
+        <translation>Ausgewähltes entfernen</translation>
     </message>
     <message>
         <source>Add items</source>
@@ -1726,62 +1740,54 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Skip to main content</source>
-        <translation type="unfinished"></translation>
+        <translation>Zu Hauptinhalt springen</translation>
     </message>
     <message>
         <source>Search text:</source>
-        <translation type="unfinished"></translation>
+        <translation>Suchtext:</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/parts/website_toolbar</name>
     <message>
         <source>Create here</source>
-        <translation>Hier erstellen</translation>
+        <translation type="obsolete">Hier erstellen</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Verschieben</translation>
+        <translation type="obsolete">Verschieben</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation type="obsolete">Entfernen</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation>Importieren</translation>
+        <translation type="obsolete">Importieren</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation>Exportieren</translation>
+        <translation type="obsolete">Exportieren</translation>
     </message>
     <message>
         <source>Replace</source>
-        <translation>Ersetzen</translation>
+        <translation type="obsolete">Ersetzen</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Über</translation>
+        <translation type="obsolete">Über</translation>
     </message>
     <message>
         <source>Edit: %node_name [%class_name]</source>
-        <translation>Bearbeite: %node_name [%class_name]</translation>
+        <translation type="obsolete">Bearbeite: %node_name [%class_name]</translation>
     </message>
     <message>
         <source>Add locations</source>
-        <translation>Orte hinzufügen</translation>
+        <translation type="obsolete">Orte hinzufügen</translation>
     </message>
     <message>
         <source>Documentation</source>
-        <translation>Dokumentation</translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Edit object states</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Dokumentation</translation>
     </message>
 </context>
 <context>
@@ -1804,7 +1810,7 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>VAT is unknown</source>
-        <translation>unbekannte USt.</translation>
+        <translation>Unbekannte USt</translation>
     </message>
     <message>
         <source>VAT percentage is not yet known for some of the items being purchased.</source>
@@ -1828,11 +1834,11 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>VAT</source>
-        <translation>USt.</translation>
+        <translation>USt</translation>
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation>Preis mit USt.</translation>
+        <translation>Preis inkl. USt</translation>
     </message>
     <message>
         <source>Discount</source>
@@ -1868,15 +1874,15 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>The following items were removed from your basket because the products were changed.</source>
-        <translation>Die folgenden Positionen wurden von Ihrem Warenkorb entfernt, da die Produkte geändert wurden</translation>
+        <translation>Die folgenden Positionen wurden von Ihrem Warenkorb entfernt, da die Produkte geändert wurden.</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation>Gesamtsumme ohne USt.</translation>
+        <translation>Gesamtsumme exkl. USt</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation>Gesamtsumme inkl. USt.</translation>
+        <translation>Gesamtsumme inkl. USt</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -1884,15 +1890,15 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Subtotal ex. VAT</source>
-        <translation>Zwischensumme ohne USt.</translation>
+        <translation>Zwischensumme exkl. USt</translation>
     </message>
     <message>
         <source>Subtotal inc. VAT</source>
-        <translation>Zwischensumme ohne USt.</translation>
+        <translation>Zwischensumme inkl. USt</translation>
     </message>
     <message>
         <source>You have no products in your basket.</source>
-        <translation>Sie haben keine Produkte im Warenkorb</translation>
+        <translation>Sie haben keine Produkte im Warenkorb.</translation>
     </message>
 </context>
 <context>
@@ -1919,11 +1925,11 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>VAT</source>
-        <translation>USt.</translation>
+        <translation>USt</translation>
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation>Preis mit USt.</translation>
+        <translation>Preis inkl. USt</translation>
     </message>
     <message>
         <source>Discount</source>
@@ -1935,7 +1941,7 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Order summary</source>
-        <translation>Bestellauflistung</translation>
+        <translation>Zusammenfassung der Bestellung</translation>
     </message>
     <message>
         <source>Subtotal of items</source>
@@ -1955,11 +1961,11 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation>Gesamtsumme ohne USt.</translation>
+        <translation>Gesamtsumme exkl. USt</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation>Gesamtsumme inkl. USt.</translation>
+        <translation>Gesamtsumme inkl. USt</translation>
     </message>
 </context>
 <context>
@@ -1978,11 +1984,11 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation>Gesamtsumme ohne USt.</translation>
+        <translation>Gesamt exkl. USt</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation>Gesamtsumme inkl. USt.</translation>
+        <translation>Gesamt inkl. USt</translation>
     </message>
     <message>
         <source>Purchase list</source>
@@ -2025,7 +2031,7 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Ascending</source>
-        <translation>Absteigend</translation>
+        <translation>Aufsteigend</translation>
     </message>
     <message>
         <source>Sort ascending</source>
@@ -2033,7 +2039,7 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Descending</source>
-        <translation>Aufsteigend</translation>
+        <translation>Absteigend</translation>
     </message>
     <message>
         <source>Sort descending</source>
@@ -2057,11 +2063,11 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation>Gesamtsumme ohne USt.</translation>
+        <translation>Gesamt exkl. USt</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation>Gesamtsumme inkl. USt.</translation>
+        <translation>Gesamt inkl. USt</translation>
     </message>
     <message>
         <source>The order list is empty</source>
@@ -2092,11 +2098,11 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>VAT</source>
-        <translation>USt.</translation>
+        <translation>USt</translation>
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation>Preis inkl. USt.</translation>
+        <translation>Preis inkl. USt</translation>
     </message>
     <message>
         <source>Discount</source>
@@ -2104,7 +2110,7 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Order summary</source>
-        <translation>Bestellauflistung</translation>
+        <translation>Zusammenfassung der Bestellung</translation>
     </message>
     <message>
         <source>Summary</source>
@@ -2124,11 +2130,11 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation>Gesamtsumme ohne USt.</translation>
+        <translation>Gesamtsumme exkl. USt</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation>Gesamtsumme inkl. USt.</translation>
+        <translation>Gesamtsumme inkl. USt</translation>
     </message>
     <message>
         <source>Date</source>
@@ -2330,7 +2336,7 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     <name>design/ezwebin/user/forgotpassword</name>
     <message>
         <source>Password was successfully generated and sent to: %1</source>
-        <translation>Das Passwort wurde erfolgreich generiert und an %1 versendet.</translation>
+        <translation>Das Passwort wurde erfolgreich erstellt und an %1 gesendet</translation>
     </message>
     <message>
         <source>The key is invalid or has been used. </source>
@@ -2423,7 +2429,7 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Please retype your old password.</source>
-        <translation>Bitte wiederholen Sie Ihre altes Passwort</translation>
+        <translation>Bitte wiederholen Sie Ihre altes Passwort.</translation>
     </message>
     <message>
         <source>Password didn&apos;t match, please retype your new password.</source>
@@ -2501,7 +2507,7 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     </message>
     <message>
         <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
-        <translation>Ihr Benutzerkonto wurde erfolgreich erstellt. Eine Email wird an die angegebene Email gesendet. Bitt folgen Sie den Instruktionen in der Email, um Ihr Benutzerkonto zu aktivieren.</translation>
+        <translation>Ihr Benutzerkonto wurde erfolgreich erstellt. Eine E-Mail wird an die angegebene E-Mail Adresse gesendet. Bitte folgen Sie den Instruktionen in der E-Mail, um Ihr Benutzerkonto zu aktivieren.</translation>
     </message>
 </context>
 <context>
@@ -2548,146 +2554,66 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     <name>design/ezwebin/websitetoolbar/objectstates</name>
     <message>
         <source>Object states for object</source>
-        <translation type="unfinished"></translation>
+        <translation>Objekt Zustände für Objekt</translation>
     </message>
     <message>
         <source>Content object state group</source>
-        <translation type="unfinished"></translation>
+        <translation>Content Objekt Status Gruppe</translation>
     </message>
     <message>
         <source>Available states</source>
-        <translation type="unfinished"></translation>
+        <translation>Verfügbare Zustände</translation>
     </message>
     <message>
         <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
-        <translation type="unfinished"></translation>
+        <translation>Es sind keine Objekt Zustände vorhanden. Hier können Sie %urlstart Objekt Zustände %urlend anlegen.</translation>
     </message>
     <message>
         <source>Set states</source>
-        <translation type="unfinished"></translation>
+        <translation>Zustände einstellen</translation>
     </message>
     <message>
         <source>Apply states from the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zustände der Liste anwenden.</translation>
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Keiner der Zustände kann dem Content Objekt von Ihnen zugewiesen werden, da Ihnen die Berechtigung fehlt.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/websitetoolbar/sort</name>
     <message>
-        <source>Sub items [%children_count]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 10 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 50 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 25 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Name</source>
-        <translation type="unfinished">Name</translation>
+        <translation type="obsolete">Name</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Art</translation>
-    </message>
-    <message>
-        <source>Modifier</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Art</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished">Geändert</translation>
+        <translation type="obsolete">Geändert</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">Sektion</translation>
-    </message>
-    <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Sektion</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Unbekannt</translation>
-    </message>
-    <message>
-        <source>The current item does not contain any sub items.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Update priorities</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Class identifier</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Class name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Depth</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Unbekannt</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation type="unfinished">Veröffentlicht</translation>
-    </message>
-    <message>
-        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Veröffentlicht</translation>
     </message>
     <message>
         <source>Descending</source>
-        <translation type="unfinished">Aufsteigend</translation>
+        <translation type="obsolete">Aufsteigend</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished">Absteigend</translation>
-    </message>
-    <message>
-        <source>Set</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Invalid or missing parameter: %parameter</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Absteigend</translation>
     </message>
 </context>
 </TS>
