@@ -651,7 +651,7 @@ Vous devriez soit contacter l&apos;auteur d&apos;un des brouillons en cours, soi
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Versions pour &lt;object_name&gt; [%version_count]</translation>
+        <translation>Versions pour &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Toggle selection</source>
