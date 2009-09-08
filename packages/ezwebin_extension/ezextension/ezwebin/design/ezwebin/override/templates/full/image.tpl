@@ -84,24 +84,7 @@
             {attribute_view_gui attribute=$node.data_map.caption}
         </div>
 
-        {if $node.data_map.tags.content.related_objects}
-        <div class="attribute-relatedcontent">
-            <h1>{"Related content"|i18n("design/ezwebin/full/image")}</h1>
-            {def $filters = ezini( 'gallerythumbnail', 'Filters', 'image.ini' )}
-            
-             {foreach $filters as $filter}
-                {if or($filter|contains( "geometry/scale" ), $filter|contains( "geometry/scaledownonly" ), $filter|contains( "geometry/crop" ) )}
-                   {def $image_style = $filter|explode("=").1}
-                   {set $image_style = concat("width:", $image_style|explode(";").0, "px ;", "height:", $image_style|explode(";").1, "px")}
-                   {break}
-                {/if}
-             {/foreach}
-
-            {foreach $node.data_map.tags.content.related_objects|reverse() as $related_object max 7}
-                {node_view_gui view=galleryline content_node=$related_object.object.main_node}
-            {/foreach}
-        </div>
-        {/if}
+        {include uri='design:parts/image/related_content.tpl'}
 
     </div>
 </div>
