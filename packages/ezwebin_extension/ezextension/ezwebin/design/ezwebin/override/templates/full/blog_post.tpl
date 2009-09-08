@@ -34,16 +34,7 @@
                                     {attribute_view_gui attribute=$node.data_map.body}
                                 </div>
 
-                                {if $node.data_map.tags.content.related_objects}
-                                <div class="attribute-relatedcontent">
-                                    <h1>{"Related content"|i18n("design/ezwebin/full/blog_post")}</h1>
-                                    <ul>
-                                    {foreach $node.data_map.tags.content.related_objects|reverse() as $related_object max 7}
-                                        <li><a href="{$related_object.url_alias|ezurl( 'no' )}" title="{$related_object.name|wash()}">{$related_object.name|wash()}</a></li>
-                                    {/foreach}
-                                    </ul>
-                                </div>
-                                {/if}
+                                {include uri='design:parts/related_content.tpl'}
 
                                 {if $node.data_map.enable_comments.data_int}
                                 <div class="attribute-comments">

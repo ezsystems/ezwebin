@@ -54,7 +54,7 @@
             {attribute_view_gui attribute=$node.data_map.star_rating}
         </div>
 
-        {include uri='design:parts/article/related_content.tpl'}
+        {include uri='design:parts/related_content.tpl'}
 
         {if is_unset( $versionview_mode )}
         {if $node.data_map.enable_comments.data_int}
