@@ -1,4 +1,6 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
@@ -397,12 +399,6 @@
         <translation>Prázdný koncept</translation>
     </message>
     <message>
-        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation>Toto jsou objekty na kterých momentálně pracujete. Koncepty jsou vlastněny Vámi a mohou být viděny pouze Vámi.
-Koncepty můžete rovněž editovat nebo je odstranit pokud je nepotřebujete.</translation>
-    </message>
-    <message>
         <source>Name</source>
         <translation>Jméno</translation>
     </message>
@@ -438,6 +434,11 @@ Koncepty můžete rovněž editovat nebo je odstranit pokud je nepotřebujete.</
         <source>You have no drafts</source>
         <translation>Nemáte žádné koncepty</translation>
     </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
@@ -464,26 +465,6 @@ Koncepty můžete rovněž editovat nebo je odstranit pokud je nepotřebujete.</
     <message>
         <source>Discard draft</source>
         <translation>Zrušit koncept</translation>
-    </message>
-    <message>
-        <source>Manage versions</source>
-        <translation>Spravovat verze</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation>Uložit a odejít</translation>
-    </message>
-    <message>
-        <source>Preview</source>
-        <translation>Náhled</translation>
-    </message>
-    <message>
-        <source>Translate from</source>
-        <translation>Přeložit z</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation>Přeložit</translation>
     </message>
 </context>
 <context>
@@ -516,24 +497,6 @@ Koncepty můžete rovněž editovat nebo je odstranit pokud je nepotřebujete.</
         <translation>Objekt je vlastněn %owner.</translation>
     </message>
     <message>
-        <source>This object is already being edited by yourself and others.
-    You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Tento objekt je právě editován.
-Můžete pokračovat v editaci jednoho z Vašich konceptů nebo vytvořit nový.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by you.
-        You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Tento objekt je právě editován.
-Můžete pokračovat v editaci jednoho z Vašich konceptů nebo vytvořit nový.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by someone else.
-        You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation>Tento objekt je právě editován.
-Můžete pokračovat v editaci jednoho z Vašich konceptů nebo vytvořit nový.</translation>
-    </message>
-    <message>
         <source>Current drafts</source>
         <translation>Nynější koncepty</translation>
     </message>
@@ -564,6 +527,21 @@ Můžete pokračovat v editaci jednoho z Vašich konceptů nebo vytvořit nový.
     <message>
         <source>New draft</source>
         <translation>Nový koncept</translation>
+    </message>
+    <message>
+        <source>This object is already being edited by yourself and others.
+    You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by you.
+        You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by someone else.
+        You should either contact the person about their draft or create a new draft for your own use.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -942,21 +920,6 @@ Můžete pokračovat v editaci jednoho z Vašich konceptů nebo vytvořit nový.
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/view/versionview</name>
-    <message>
-        <source>Manage versions</source>
-        <translation>Spravovat verze</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Editovat</translation>
-    </message>
-    <message>
-        <source>Publish</source>
-        <translation>Publikovat</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
@@ -1068,20 +1031,16 @@ Můžete pokračovat v editaci jednoho z Vašich konceptů nebo vytvořit nový.
         <translation>Zvolte umístění dokumentu</translation>
     </message>
     <message>
+        <source>Select</source>
+        <translation>Vybrat</translation>
+    </message>
+    <message>
         <source>Please choose the placement for the OpenOffice.org object.
 
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation>Prosím zvolte umístění pro OpenOffice.org objekt
-
-Vyberte umístění a klikněte na tlačítko  %buttonname
-Použití posledních a oblíbených položek pro rychlé umístění je rovněž možné.
-Klikněte na jména umístění pro změnu procházení.</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Vybrat</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1154,9 +1113,7 @@ Klikněte na jména umístění pro změnu procházení.</translation>
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>Můžete importovat OpenOffice.org Writer dokumenty přímo do eZ Publish z této stránky. Budete tázán
-kam se má dokument uložit a eZ Publish udělá zbyek. Dokument je během importu konvertován do příslušné třídy.
-Budete o tomto po importu informováni. Obrázky jsou ukládány do knihoven médií, proto je můžete používat i dále pro další články.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1176,6 +1133,10 @@ Budete o tomto po importu informováni. Obrázky jsou ukládány do knihoven mé
     <message>
         <source>Tip a friend</source>
         <translation>Doporučit příteli</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1430,6 +1391,10 @@ Budete o tomto po importu informováni. Obrázky jsou ukládány do knihoven mé
     <message>
         <source>Next image</source>
         <translation>Další obrázek</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1732,57 +1697,6 @@ Budete o tomto po importu informováni. Obrázky jsou ukládány do knihoven mé
     </message>
     <message>
         <source>Search text:</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/parts/website_toolbar</name>
-    <message>
-        <source>About</source>
-        <translation>O programu</translation>
-    </message>
-    <message>
-        <source>Create here</source>
-        <translation>Vytvořit zde</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation>Editovat %node_name [%class_name]</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation>Přesunout</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Odstranit</translation>
-    </message>
-    <message>
-        <source>Add locations</source>
-        <translation>Přidat lokace</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>Dokumentace</translation>
-    </message>
-    <message>
-        <source>Replace</source>
-        <translation>Nahradit</translation>
-    </message>
-    <message>
-        <source>Export</source>
-        <translation>Export</translation>
-    </message>
-    <message>
-        <source>Import</source>
-        <translation>Import</translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Edit object states</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2574,121 +2488,6 @@ Budete o tomto po importu informováni. Obrázky jsou ukládány do knihoven mé
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/websitetoolbar/sort</name>
-    <message>
-        <source>Sub items [%children_count]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 10 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 50 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 25 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="unfinished">Jméno</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="unfinished">Typ</translation>
-    </message>
-    <message>
-        <source>Modifier</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="unfinished">Sekce</translation>
-    </message>
-    <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation type="unfinished">Neznámý</translation>
-    </message>
-    <message>
-        <source>The current item does not contain any sub items.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Update priorities</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Class identifier</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Class name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Depth</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="unfinished">Publikováno</translation>
-    </message>
-    <message>
-        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Descending</source>
-        <translation type="unfinished">Sestupně</translation>
-    </message>
-    <message>
-        <source>Ascending</source>
-        <translation type="unfinished">Vzestupně</translation>
-    </message>
-    <message>
-        <source>Set</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Invalid or missing parameter: %parameter</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

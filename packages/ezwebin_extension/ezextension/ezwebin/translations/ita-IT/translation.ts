@@ -1,5 +1,6 @@
-<!DOCTYPE TS><TS>
-<defaultcodec></defaultcodec>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
@@ -398,12 +399,6 @@
         <translation>Svuota bozze</translation>
     </message>
     <message>
-        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation>Questi sono gli oggetti correnti sui quali stai lavorando. Le bozze sono di tua proprietà e possono essere viste solo da te.
-      Puoi sia modificare le bozze o eliminarle se non ti servono più.</translation>
-    </message>
-    <message>
         <source>Name</source>
         <translation>Nome</translation>
     </message>
@@ -439,6 +434,11 @@
         <source>You have no drafts</source>
         <translation>Non hai nessuna bozza</translation>
     </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
@@ -457,26 +457,6 @@
     <message>
         <source>Discard draft</source>
         <translation>Annulla bozza</translation>
-    </message>
-    <message>
-        <source>Manage versions</source>
-        <translation>Amministra versioni</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation>Registra ed esci</translation>
-    </message>
-    <message>
-        <source>Preview</source>
-        <translation>Anteprima</translation>
-    </message>
-    <message>
-        <source>Translate from</source>
-        <translation>Traduci da</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation>Traduci</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
@@ -517,24 +497,6 @@
         <translation>L&apos;oggetto è di proprietà di %owner.</translation>
     </message>
     <message>
-        <source>This object is already being edited by yourself and others.
-    You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Quest&apos;ggetto è stato già modificato da te e da altri. 
-Puoi continuare a modificare una delle tue bozze oppure creare una nuova bozza.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by you.
-        You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Quest&apos;ggetto è stato già modificato da te.
-Puoi continuare a modificare una delle tue bozze oppure creare una nuova bozza.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by someone else.
-        You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation>Quest&apos;oggetto è stato già modificato da qualcun&apos;altro. 
-Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</translation>
-    </message>
-    <message>
         <source>Current drafts</source>
         <translation>Bozze correnti</translation>
     </message>
@@ -565,6 +527,21 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
     <message>
         <source>New draft</source>
         <translation>Nuova bozza</translation>
+    </message>
+    <message>
+        <source>This object is already being edited by yourself and others.
+    You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by you.
+        You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by someone else.
+        You should either contact the person about their draft or create a new draft for your own use.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -943,21 +920,6 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/view/versionview</name>
-    <message>
-        <source>Manage versions</source>
-        <translation>Amministra versioni</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Modifica</translation>
-    </message>
-    <message>
-        <source>Publish</source>
-        <translation>Pubblica</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
@@ -1069,20 +1031,16 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
         <translation>Scegli la collocazione del documento</translation>
     </message>
     <message>
+        <source>Select</source>
+        <translation>Seleziona</translation>
+    </message>
+    <message>
         <source>Please choose the placement for the OpenOffice.org object.
 
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation>Scegli la collocazione dell&apos;oggetto OpenOffice.org.
-
-    Seleziona la collocazione e premi il pulsante %buttonname.
-    Puoi anche usare gli elementi recenti e i preferiti per una veloce collocazione.
-    Clicca sui nomi delle collocazioni per cambiare l&apos;elenco da sfogliare.</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Seleziona</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1155,10 +1113,7 @@ Puoi contattare la persona per la sua bozza oppure crearne una tua personale.</t
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>Puoi importare documenti OpenOffice.org Writer direttamente in eZ Publish da questa pagina. Ti verrà
-richiesto dove collocare i documenti e eZ Publish farà il resto. Il documento viene convertito nella
-classe appropriata durante l&apos;importazione, puoi riceverne notifica ad importazione avvenuta.
-Le immagini sono state collocate in media e possono essere riutilizzate in altri articoli.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1178,6 +1133,10 @@ Le immagini sono state collocate in media e possono essere riutilizzate in altri
     <message>
         <source>Tip a friend</source>
         <translation>Segnala ad un amico</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1432,6 +1391,10 @@ Le immagini sono state collocate in media e possono essere riutilizzate in altri
     <message>
         <source>Next image</source>
         <translation>Immagine Successiva</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1734,57 +1697,6 @@ Le immagini sono state collocate in media e possono essere riutilizzate in altri
     </message>
     <message>
         <source>Search text:</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/parts/website_toolbar</name>
-    <message>
-        <source>About</source>
-        <translation>Riguardo</translation>
-    </message>
-    <message>
-        <source>Create here</source>
-        <translation>Crea qui</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation>Modifica: %node_name [%class_name]</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation>Sposta</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Elimina</translation>
-    </message>
-    <message>
-        <source>Add locations</source>
-        <translation>Aggiungi collocazioni</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>Documentazione</translation>
-    </message>
-    <message>
-        <source>Replace</source>
-        <translation>Sostituisci</translation>
-    </message>
-    <message>
-        <source>Export</source>
-        <translation>Esporta</translation>
-    </message>
-    <message>
-        <source>Import</source>
-        <translation>Importa</translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Edit object states</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2576,121 +2488,6 @@ Le immagini sono state collocate in media e possono essere riutilizzate in altri
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/websitetoolbar/sort</name>
-    <message>
-        <source>Sub items [%children_count]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 10 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 50 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 25 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="unfinished">Nome</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="unfinished">Tipo</translation>
-    </message>
-    <message>
-        <source>Modifier</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="unfinished">Modificata il</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="unfinished">Sezione</translation>
-    </message>
-    <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation type="unfinished">Sconosciuto</translation>
-    </message>
-    <message>
-        <source>The current item does not contain any sub items.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Update priorities</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Class identifier</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Class name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Depth</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="unfinished">Pubblicato</translation>
-    </message>
-    <message>
-        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Descending</source>
-        <translation type="unfinished">Discendente</translation>
-    </message>
-    <message>
-        <source>Ascending</source>
-        <translation type="unfinished">Ascendente</translation>
-    </message>
-    <message>
-        <source>Set</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Invalid or missing parameter: %parameter</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

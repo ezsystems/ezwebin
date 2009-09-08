@@ -1,4 +1,6 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
@@ -397,12 +399,6 @@
         <translation>Leeg concept</translation>
     </message>
     <message>
-        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation>Dit zijn de objecten waarmee u momenteel werkt. U bent de eigenaar van de concepten en deze kunnen enkel door u gezien worden.
-      U kunt ofwel de concepten bewerken of verwijderen indien u ze niet meer nodig heeft.</translation>
-    </message>
-    <message>
         <source>Name</source>
         <translation>Naam</translation>
     </message>
@@ -438,6 +434,11 @@
         <source>You have no drafts</source>
         <translation>U heeft geen concepten</translation>
     </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
@@ -464,26 +465,6 @@
     <message>
         <source>Discard draft</source>
         <translation>Concept verwerpen</translation>
-    </message>
-    <message>
-        <source>Manage versions</source>
-        <translation>Beheer versies</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation>Opslaan en afsluiten</translation>
-    </message>
-    <message>
-        <source>Preview</source>
-        <translation>Voorbeeld</translation>
-    </message>
-    <message>
-        <source>Translate from</source>
-        <translation>Vertaal van</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation>Vertalen</translation>
     </message>
 </context>
 <context>
@@ -516,24 +497,6 @@
         <translation>Het object is eigendom van %owner.</translation>
     </message>
     <message>
-        <source>This object is already being edited by yourself and others.
-    You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Dit object werd reeds bewerkt door uzelf of anderen.
-    U kunt ofwel één van uw concepten verder bewerken of u kunt een nieuw concept aanmaken.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by you.
-        You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Dit object werd reeds bewerkt door uzelf.
-    U kunt ofwel één van uw concepten verder bewerken of u kunt een nieuw concept aanmaken.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by someone else.
-        You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation>Dit object werd reeds bewerkt door iemand anders.
-    U moet ofwel de persoon contacteren i.v.m. het concept of een nieuw concept voor eigen gebruik aanmaken.</translation>
-    </message>
-    <message>
         <source>Current drafts</source>
         <translation>Huidige concepten</translation>
     </message>
@@ -564,6 +527,21 @@
     <message>
         <source>New draft</source>
         <translation>Nieuw concept</translation>
+    </message>
+    <message>
+        <source>This object is already being edited by yourself and others.
+    You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by you.
+        You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by someone else.
+        You should either contact the person about their draft or create a new draft for your own use.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -942,21 +920,6 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/view/versionview</name>
-    <message>
-        <source>Manage versions</source>
-        <translation>Beheer versies</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Bewerken</translation>
-    </message>
-    <message>
-        <source>Publish</source>
-        <translation>Publiceren</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
@@ -1068,20 +1031,16 @@
         <translation>Kies de documentplaatsing</translation>
     </message>
     <message>
+        <source>Select</source>
+        <translation>Selecteren</translation>
+    </message>
+    <message>
         <source>Please choose the placement for the OpenOffice.org object.
 
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation>Gelieve de plaatsing voor het OpenOffice.org-object te kiezen.
-
-    Selecteer de plaatsingen en klik op de %buttonname-knop.
-    Het gebruik van de recente en de bladwijzer-items voor een snelle plaatsing is ook mogelijk.
-    Klik op de plaatsingsnamen om de lijst van het bladeren te wijzigen.</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Selecteren</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1154,10 +1113,7 @@
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>U kunt OpenOffice.org schrijfdocumenten direct importeren in eZ publish vanaf deze pagina. U wordt
-gevraagd waar het document te plaatsen en eZ publish doet de rest. Het document wordt geconverteerd in
-de passende klasse tijdens de import. U krijgt hierover een bericht nadat de import voltooid is.
-Afbeeldingen worden in de mediabibliotheek geplaatst zodaat u deze in andere artikelen opnieuw kunt gebruiken.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1177,6 +1133,10 @@ Afbeeldingen worden in de mediabibliotheek geplaatst zodaat u deze in andere art
     <message>
         <source>Tip a friend</source>
         <translation>Tip een vriend</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1431,6 +1391,10 @@ Afbeeldingen worden in de mediabibliotheek geplaatst zodaat u deze in andere art
     <message>
         <source>Next image</source>
         <translation>Volgende afbeelding</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1733,57 +1697,6 @@ Afbeeldingen worden in de mediabibliotheek geplaatst zodaat u deze in andere art
     </message>
     <message>
         <source>Search text:</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/parts/website_toolbar</name>
-    <message>
-        <source>About</source>
-        <translation>Over</translation>
-    </message>
-    <message>
-        <source>Create here</source>
-        <translation>Maak hier aan</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation>Bewerk %node_name (%class_name)</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation>Verplaatsen</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Verwijderen</translation>
-    </message>
-    <message>
-        <source>Add locations</source>
-        <translation>Locaties toevoegen</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>Documentatie</translation>
-    </message>
-    <message>
-        <source>Replace</source>
-        <translation>Vervangen</translation>
-    </message>
-    <message>
-        <source>Export</source>
-        <translation>Export</translation>
-    </message>
-    <message>
-        <source>Import</source>
-        <translation>Import</translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Edit object states</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2581,121 +2494,6 @@ Knop</translation>
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/websitetoolbar/sort</name>
-    <message>
-        <source>Sub items [%children_count]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 10 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 50 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 25 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="unfinished">Naam</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="unfinished">Type</translation>
-    </message>
-    <message>
-        <source>Modifier</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="unfinished">Gewijzigd</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation type="unfinished">Onbekend</translation>
-    </message>
-    <message>
-        <source>The current item does not contain any sub items.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Update priorities</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Class identifier</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Class name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Depth</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="unfinished">Gepubliceerd</translation>
-    </message>
-    <message>
-        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Descending</source>
-        <translation type="unfinished">Oplopend</translation>
-    </message>
-    <message>
-        <source>Ascending</source>
-        <translation type="unfinished">Aflopend</translation>
-    </message>
-    <message>
-        <source>Set</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Invalid or missing parameter: %parameter</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

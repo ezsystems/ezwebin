@@ -1,42 +1,6 @@
-<!DOCTYPE TS><TS>
-<context>
-    <name>design/ezwebin/websitetoolbar/objectstates</name>
-    <message>
-        <source>Object states for object</source>
-        <translation>Estat de l&apos;objecte</translation>
-    </message>
-    <message>
-        <source>Content object state group</source>
-        <translation>Grup d&apos;estat de l&apos;objecte</translation>
-    </message>
-    <message>
-        <source>Available states</source>
-        <translation>Estats disponibles</translation>
-    </message>
-    <message>
-        <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
-        <translation>Cap estat del objecte de contingut està configurat. Això, pot ser fet %urlstart aquí %urlend.</translation>
-    </message>
-    <message>
-        <source>Set states</source>
-        <translation>Establir estats</translation>
-    </message>
-    <message>
-        <source>Apply states from the list above.</source>
-        <translation>Aplica els estats en el llistat d&apos;adalt.</translation>
-    </message>
-    <message>
-        <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation>Cap estat està aplicat a aquest objecte de contingut. És necessari assignar una política més permissiva.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/parts/website_toolbar</name>
-    <message>
-        <source>Edit object states</source>
-        <translation>Editar estats de l&apos;objecte</translation>
-    </message>
-</context>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
@@ -435,12 +399,6 @@
         <translation>Esborrany buit</translation>
     </message>
     <message>
-        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation>Aquests són els objectes amb els quals estàs treballant. Els esborranys et pertanyen i només els pots veure tu.
-      Pots editar o esborrar els esborranys si ja no els necessites més.</translation>
-    </message>
-    <message>
         <source>Name</source>
         <translation>Nom</translation>
     </message>
@@ -476,6 +434,11 @@
         <source>You have no drafts</source>
         <translation>No tens esborranys</translation>
     </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
@@ -494,30 +457,6 @@
     <message>
         <source>Discard draft</source>
         <translation>Descarta esborrany</translation>
-    </message>
-    <message>
-        <source>Manage versions</source>
-        <translation>Gestiona versions</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation>Emmagatzema i surt</translation>
-    </message>
-    <message>
-        <source>Preview</source>
-        <translation>Previsualitza</translation>
-    </message>
-    <message>
-        <source>Translate from</source>
-        <translation>Tradueix de</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation>Tradueix</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation type="obsolete">Documentació</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
@@ -558,25 +497,6 @@
         <translation>L&apos;objecte pertany a %owner.</translation>
     </message>
     <message>
-        <source>This object is already being edited by yourself and others.
-    You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Aquest objecte ja està sent editat per uns altres i per tu.
-    Pots continuar editant un dels teus esborranys o pots crear un de nou.
-</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by you.
-        You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Aquest objecte ja està sent editat per tu.
-        Pots continuar editant un dels teus esborranys o pots crear un de nou.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by someone else.
-        You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation>Aquest objecte ja està sent editat per algú més.
-        Hauries de contactar amb la persona que ho està editant o pots crear un nou esborrador per al teu propi ús.</translation>
-    </message>
-    <message>
         <source>Current drafts</source>
         <translation>Esborranys actuals</translation>
     </message>
@@ -607,6 +527,21 @@
     <message>
         <source>New draft</source>
         <translation>Nou esborrany</translation>
+    </message>
+    <message>
+        <source>This object is already being edited by yourself and others.
+    You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by you.
+        You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by someone else.
+        You should either contact the person about their draft or create a new draft for your own use.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -985,21 +920,6 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/view/versionview</name>
-    <message>
-        <source>Manage versions</source>
-        <translation>Gestiona versions</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Edita</translation>
-    </message>
-    <message>
-        <source>Publish</source>
-        <translation>Publica</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
@@ -1111,20 +1031,16 @@
         <translation>Tria la ubicació del document</translation>
     </message>
     <message>
+        <source>Select</source>
+        <translation>Selecciona</translation>
+    </message>
+    <message>
         <source>Please choose the placement for the OpenOffice.org object.
 
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation>Si us plau, tria una ubicació per l&apos;objecte OpenOffice.org.
-
-    Tria les ubicacions i prem el botó %buttonname.
-    També pots utilitzar els elements recents i els favorits per a una ubicació ràpida.
-    Prem en els noms de les ubicacions per a canviar la llista de navegació.</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Selecciona</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1197,10 +1113,7 @@
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>Pots importar documents OpenOffice.org directament a eZ publish des d&apos;aquesta pàgina. eZ publish et preguntarà
-on vols col·locar el document i el programa farà la resta. El document es converteix en
-la classe apropiada durant la importació i el programa t&apos;envia una notificació quan la importació finalitza.
-Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitzades en altres articles. </translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1220,6 +1133,10 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
     <message>
         <source>Tip a friend</source>
         <translation>Avisa a un amic</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1474,6 +1391,10 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
     <message>
         <source>Next image</source>
         <translation>Següent imatge</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1777,53 +1698,6 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
     <message>
         <source>Search text:</source>
         <translation>Cercar texte:</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/parts/website_toolbar</name>
-    <message>
-        <source>About</source>
-        <translation>Sobre</translation>
-    </message>
-    <message>
-        <source>Create here</source>
-        <translation>Crea aquí</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation>Edita: %node_name [%class_name]</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation>Mou</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Esborra</translation>
-    </message>
-    <message>
-        <source>Add locations</source>
-        <translation>Afegeix localitzacions</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>Documentació</translation>
-    </message>
-    <message>
-        <source>Replace</source>
-        <translation>Reemplaça</translation>
-    </message>
-    <message>
-        <source>Export</source>
-        <translation>Exporta</translation>
-    </message>
-    <message>
-        <source>Import</source>
-        <translation>Importa</translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation>Ordenació</translation>
     </message>
 </context>
 <context>
@@ -2587,118 +2461,34 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
     </message>
 </context>
 <context>
-    <name>design/ezwebin/websitetoolbar/sort</name>
+    <name>design/ezwebin/websitetoolbar/objectstates</name>
     <message>
-        <source>Sub items [%children_count]</source>
-        <translation>Sub elements [%children_count]</translation>
+        <source>Object states for object</source>
+        <translation>Estat de l&apos;objecte</translation>
     </message>
     <message>
-        <source>Show 10 items per page.</source>
-        <translation>Mostrar 10 elements per pàgina.</translation>
+        <source>Content object state group</source>
+        <translation>Grup d&apos;estat de l&apos;objecte</translation>
     </message>
     <message>
-        <source>Show 50 items per page.</source>
-        <translation>Mostrar 50 elements per pàgina.</translation>
+        <source>Available states</source>
+        <translation>Estats disponibles</translation>
     </message>
     <message>
-        <source>Show 25 items per page.</source>
-        <translation>Mostrar 25 elements per pàgina.</translation>
+        <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
+        <translation>Cap estat del objecte de contingut està configurat. Això, pot ser fet %urlstart aquí %urlend.</translation>
     </message>
     <message>
-        <source>Priority</source>
-        <translation>Prioritat</translation>
+        <source>Set states</source>
+        <translation>Establir estats</translation>
     </message>
     <message>
-        <source>Name</source>
-        <translation>Nom</translation>
+        <source>Apply states from the list above.</source>
+        <translation>Aplica els estats en el llistat d&apos;adalt.</translation>
     </message>
     <message>
-        <source>Type</source>
-        <translation>Tipus</translation>
-    </message>
-    <message>
-        <source>Modifier</source>
-        <translation>Modificador</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation>Modificat</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation>Secció</translation>
-    </message>
-    <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation>Utilitza els camps de prioritat per controlar l&apos;ordre d&apos;aparició dels elements. Es pot utilitzar nombres enters positius i negatius. Prem el botò de &quot;Actualitzar prioritats&quot; per aplicar els canvis.</translation>
-    </message>
-    <message>
-        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation>No està autoritzat per actuaitzar les prioritats degut a que no té permisos per editar &lt;%node_name&gt;.</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Desconegut</translation>
-    </message>
-    <message>
-        <source>The current item does not contain any sub items.</source>
-        <translation>L&apos;element actual no conté cap sub element.</translation>
-    </message>
-    <message>
-        <source>Update priorities</source>
-        <translation>Actualitzar prioritats</translation>
-    </message>
-    <message>
-        <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation>Aplicar canvis a les prioritats del elements en la llista de dalt.</translation>
-    </message>
-    <message>
-        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation>No pot actualitzar les prioritats degut a que no té permisos per editar l&apos;element actual o degut a que no s&apos;està utilitzant una ordenació per prioritats.</translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation>Ordenació</translation>
-    </message>
-    <message>
-        <source>Class identifier</source>
-        <translation>Identificador de classe</translation>
-    </message>
-    <message>
-        <source>Class name</source>
-        <translation>Nom de la classe</translation>
-    </message>
-    <message>
-        <source>Depth</source>
-        <translation>Profunditat</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation>Publicat</translation>
-    </message>
-    <message>
-        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation>No pot establir el mètode d&apos;ordenació de la ubicació actual degut a que no té permisos  per editar l&apos;element actual.</translation>
-    </message>
-    <message>
-        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation>Utilitza aquest controls per establir un mètode d&apos;ordenació per als sub elements a la ubicació actual.</translation>
-    </message>
-    <message>
-        <source>Descending</source>
-        <translation>Descendent</translation>
-    </message>
-    <message>
-        <source>Ascending</source>
-        <translation>Ascendent</translation>
-    </message>
-    <message>
-        <source>Set</source>
-        <translation>Establir</translation>
-    </message>
-    <message>
-        <source>Invalid or missing parameter: %parameter</source>
-        <translation>Paràmetre invàlid o no introduït: %parameter</translation>
+        <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
+        <translation>Cap estat està aplicat a aquest objecte de contingut. És necessari assignar una política més permissiva.</translation>
     </message>
 </context>
 </TS>

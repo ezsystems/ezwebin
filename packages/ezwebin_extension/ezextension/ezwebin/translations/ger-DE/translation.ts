@@ -395,12 +395,6 @@
         <translation>Meine Entwürfe</translation>
     </message>
     <message>
-        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation>Diese Objekte werden derzeit von Ihnen bearbeitet. Die Entwürfe gehören Ihnen und können nur von Ihnen eingesehen werden.
-Sie können hier Entwürfe bearbeiten und löschen.</translation>
-    </message>
-    <message>
         <source>Name</source>
         <translation>Name</translation>
     </message>
@@ -440,25 +434,14 @@ Sie können hier Entwürfe bearbeiten und löschen.</translation>
         <source>Empty draft</source>
         <translation>Leerer Entwurf</translation>
     </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
-    <message>
-        <source>Manage versions</source>
-        <translation type="obsolete">Versionen verwalten</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation type="obsolete">Speichern und verlassen</translation>
-    </message>
-    <message>
-        <source>Preview</source>
-        <translation type="obsolete">Vorschau</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation type="obsolete">Übersetzen</translation>
-    </message>
     <message>
         <source>Edit %1 - %2</source>
         <translation>Bearbeiten %1 - %2</translation>
@@ -474,10 +457,6 @@ Sie können hier Entwürfe bearbeiten und löschen.</translation>
     <message>
         <source>Discard draft</source>
         <translation>Entwurf verwerfen</translation>
-    </message>
-    <message>
-        <source>Translate from</source>
-        <translation type="obsolete">Übersetzen von</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
@@ -518,11 +497,6 @@ Sie können hier Entwürfe bearbeiten und löschen.</translation>
         <translation>Dieses Objekt gehört %owner.</translation>
     </message>
     <message>
-        <source>This object is already being edited by you.
-        You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Das Objekt wird bereits von Ihnen bearbeitet.Sie können entweder einen Ihrer Entwürfe weiter bearbeiten oder einen neuen erstellen.</translation>
-    </message>
-    <message>
         <source>Current drafts</source>
         <translation>Derzeitige Entwürfe</translation>
     </message>
@@ -557,13 +531,17 @@ Sie können hier Entwürfe bearbeiten und löschen.</translation>
     <message>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Diese Objekt wird bereits durch Sie und andere bearbeitet
-Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf erstellen.</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by you.
+        You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation>Das Objekt wird schon von jemand anderem bearbeitet.Sie sollten entweder die Person kontaktieren oder einen neuen eigenen Entwurf erstellen.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -942,21 +920,6 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/view/versionview</name>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Bearbeiten</translation>
-    </message>
-    <message>
-        <source>Publish</source>
-        <translation type="obsolete">Veröffentlichen</translation>
-    </message>
-    <message>
-        <source>Manage versions</source>
-        <translation type="obsolete">Versionen verwalten</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
@@ -1068,19 +1031,16 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
         <translation>Wählen Sie den Dokumentenort</translation>
     </message>
     <message>
+        <source>Select</source>
+        <translation>Auswählen</translation>
+    </message>
+    <message>
         <source>Please choose the placement for the OpenOffice.org object.
 
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation>Bitte wählen Sie, wo OpenOffice.org-Objekte abgelegt werden sollen 
-    Wählen Sie die Platzierung und klicken Sie auf %buttonname.
-    Sie können auch die letzten Elemente und die Lesezeichen-Elemente für Schnellplatzierungen nutzen. 
-    Klicken Sie auf die Platzierungsnamen, um die Browse-Auflistung zu ändern.</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Auswählen</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1153,10 +1113,7 @@ Sie können entweder einen Ihrer Entwürfe bearbeiten oder einen neuen Entwurf e
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>Sie können auf dieser Seite Dokumente von OpenOffice.org Writer direkt nach eZ publish importieren. Sie werden
-gefragt, wo die Dokumente abgelegt werden sollen. eZ publish erledigt den Rest. Das Dokument wird während
-des Imports in die entsprechende Klasse konvertiert. Nach abgeschlossenem Import erhalten Sie eine entsprechende Meldung.
-Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Artikeln wieder verwenden.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1209,10 +1166,6 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
         <translation>Bitte melden Sie sich %login_link_startLogan%login_link_end oder %create_link_startregistrieren%create_link_end Sie sich um kommentieren zu können.</translation>
-    </message>
-    <message>
-        <source>Related content</source>
-        <translation>Verwandter Inhalt</translation>
     </message>
 </context>
 <context>
@@ -1745,49 +1698,6 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     <message>
         <source>Search text:</source>
         <translation>Suchtext:</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/parts/website_toolbar</name>
-    <message>
-        <source>Create here</source>
-        <translation type="obsolete">Hier erstellen</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation type="obsolete">Verschieben</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">Entfernen</translation>
-    </message>
-    <message>
-        <source>Import</source>
-        <translation type="obsolete">Importieren</translation>
-    </message>
-    <message>
-        <source>Export</source>
-        <translation type="obsolete">Exportieren</translation>
-    </message>
-    <message>
-        <source>Replace</source>
-        <translation type="obsolete">Ersetzen</translation>
-    </message>
-    <message>
-        <source>About</source>
-        <translation type="obsolete">Über</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation type="obsolete">Bearbeite: %node_name [%class_name]</translation>
-    </message>
-    <message>
-        <source>Add locations</source>
-        <translation type="obsolete">Orte hinzufügen</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation type="obsolete">Dokumentation</translation>
     </message>
 </context>
 <context>
@@ -2579,41 +2489,6 @@ Bilder werden in der Medienbibliothek abgelegt. So können Sie sie in anderen Ar
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
         <translation>Keiner der Zustände kann dem Content Objekt von Ihnen zugewiesen werden, da Ihnen die Berechtigung fehlt.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/websitetoolbar/sort</name>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Name</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="obsolete">Art</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="obsolete">Geändert</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="obsolete">Sektion</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation type="obsolete">Unbekannt</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="obsolete">Veröffentlicht</translation>
-    </message>
-    <message>
-        <source>Descending</source>
-        <translation type="obsolete">Aufsteigend</translation>
-    </message>
-    <message>
-        <source>Ascending</source>
-        <translation type="obsolete">Absteigend</translation>
     </message>
 </context>
 </TS>

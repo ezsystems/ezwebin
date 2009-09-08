@@ -1,5 +1,6 @@
-<!DOCTYPE TS><TS>
-<defaultcodec></defaultcodec>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
@@ -398,12 +399,6 @@
         <translation>空草稿</translation>
     </message>
     <message>
-        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation>这些是您目前正在编辑的对象。草稿的所有者为您，并且只有您可以查看草稿。
-      您可以编辑草稿或者如果您不需要它们，也可以删除它们。</translation>
-    </message>
-    <message>
         <source>Name</source>
         <translation>名称</translation>
     </message>
@@ -439,6 +434,11 @@
         <source>You have no drafts</source>
         <translation>您没有草稿</translation>
     </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
@@ -457,26 +457,6 @@
     <message>
         <source>Discard draft</source>
         <translation>放弃草稿</translation>
-    </message>
-    <message>
-        <source>Manage versions</source>
-        <translation>版本管理</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation>保存并退出</translation>
-    </message>
-    <message>
-        <source>Preview</source>
-        <translation>预览</translation>
-    </message>
-    <message>
-        <source>Translate from</source>
-        <translation>翻译自</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation>翻译</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
@@ -517,24 +497,6 @@
         <translation>该对象属于%owner。</translation>
     </message>
     <message>
-        <source>This object is already being edited by yourself and others.
-    You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>该对象已被您与其他人编辑过。
-    您可以继续编辑您的某个草稿或创建一个新草稿。</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by you.
-        You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>该对象已被您编辑过。
-        您可以继续编辑您的某个草稿或创建一个新草稿。</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by someone else.
-        You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation>该对象已被其他人编辑过。
-        您应该联系对方或创建您自己的草稿。</translation>
-    </message>
-    <message>
         <source>Current drafts</source>
         <translation>当前草稿</translation>
     </message>
@@ -565,6 +527,21 @@
     <message>
         <source>New draft</source>
         <translation>新建草稿</translation>
+    </message>
+    <message>
+        <source>This object is already being edited by yourself and others.
+    You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by you.
+        You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by someone else.
+        You should either contact the person about their draft or create a new draft for your own use.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -943,21 +920,6 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/view/versionview</name>
-    <message>
-        <source>Manage versions</source>
-        <translation>版本管理</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>编辑</translation>
-    </message>
-    <message>
-        <source>Publish</source>
-        <translation>发布</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
@@ -1069,20 +1031,16 @@
         <translation>选择文档位置</translation>
     </message>
     <message>
+        <source>Select</source>
+        <translation>选择</translation>
+    </message>
+    <message>
         <source>Please choose the placement for the OpenOffice.org object.
 
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation>请选择OpenOffice.org对象的放置位置。
-
-    选择位置并点击%buttonname按钮。
-    也可以使用最近访问列表或书签来快速定位。
-    点击位置名称来刷新浏览目录树。</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>选择</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1155,10 +1113,7 @@
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>在这个页面，您可以将OpenOffice.org Writer文档直接导入eZ publish。您将被
-询问在何处放置该文档，eZ publish会自动完成其余工作。该文档将被转换为
-适当的类，导入结束后系统会给出您相应的提示。
-图片被放置于媒体库，因而您可以在其他文章中重用。</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1178,6 +1133,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Tip a friend</source>
         <translation>发送给好友</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1432,6 +1391,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Next image</source>
         <translation>下一图片</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1734,57 +1697,6 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Search text:</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/parts/website_toolbar</name>
-    <message>
-        <source>About</source>
-        <translation>关于</translation>
-    </message>
-    <message>
-        <source>Create here</source>
-        <translation>在此创建</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation>编辑: %node_name [%class_name]</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation>移动</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>删除</translation>
-    </message>
-    <message>
-        <source>Add locations</source>
-        <translation>添加位置</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>文档</translation>
-    </message>
-    <message>
-        <source>Replace</source>
-        <translation>替换</translation>
-    </message>
-    <message>
-        <source>Export</source>
-        <translation>导出</translation>
-    </message>
-    <message>
-        <source>Import</source>
-        <translation>导入</translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Edit object states</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2576,121 +2488,6 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/websitetoolbar/sort</name>
-    <message>
-        <source>Sub items [%children_count]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 10 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 50 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 25 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="unfinished">名称</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="unfinished">类型</translation>
-    </message>
-    <message>
-        <source>Modifier</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="unfinished">修改</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="unfinished">分区</translation>
-    </message>
-    <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation type="unfinished">未知</translation>
-    </message>
-    <message>
-        <source>The current item does not contain any sub items.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Update priorities</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Class identifier</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Class name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Depth</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Descending</source>
-        <translation type="unfinished">降序</translation>
-    </message>
-    <message>
-        <source>Ascending</source>
-        <translation type="unfinished">升序</translation>
-    </message>
-    <message>
-        <source>Set</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Invalid or missing parameter: %parameter</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

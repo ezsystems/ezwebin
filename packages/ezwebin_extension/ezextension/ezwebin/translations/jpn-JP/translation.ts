@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="en_US">
-<defaultcodec></defaultcodec>
+<!DOCTYPE TS>
+<TS version="2.0" language="en_US">
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
@@ -396,12 +396,6 @@
         <translation>編集中の下書き</translation>
     </message>
     <message>
-        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation>現在あなたが編集しているオブジェクトです。このドラフトはあなたの所有で、あなたのみ閲覧可能です。
-編集または削除が可能です。</translation>
-    </message>
-    <message>
         <source>Name</source>
         <translation>名前</translation>
     </message>
@@ -441,25 +435,14 @@
         <source>Empty draft</source>
         <translation>下書きを空にする</translation>
     </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
-    <message>
-        <source>Manage versions</source>
-        <translation>バージョン管理</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation>保存して編集終了</translation>
-    </message>
-    <message>
-        <source>Preview</source>
-        <translation>プレビュー</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation>翻訳</translation>
-    </message>
     <message>
         <source>Edit %1 - %2</source>
         <translation>%1 - %2の編集</translation>
@@ -475,14 +458,6 @@
     <message>
         <source>Discard draft</source>
         <translation>下書きの破棄</translation>
-    </message>
-    <message>
-        <source>Translate from</source>
-        <translation>から翻訳</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation type="obsolete">ドキュメンテーション</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
@@ -523,11 +498,6 @@
         <translation>オブジェクトは ユーザ %owner の所有です。</translation>
     </message>
     <message>
-        <source>This object is already being edited by you.
-        You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>このオブジェクトを現在編集中です。このまま編集を続けるか、新しい下書きを作成して下さい。</translation>
-    </message>
-    <message>
         <source>Current drafts</source>
         <translation>現在の下書き</translation>
     </message>
@@ -562,14 +532,17 @@
     <message>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>このオブジェクトはすであなたと他のユーザによって編集されています。
-すでに存在する下書きを変更するか新しい下書きを作ることができます。</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by you.
+        You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation>このオブジェクツはすでだれかに編集されています。
-下書きの作成者に連絡をするか新しい下書きを作ることができます。</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -949,21 +922,6 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/view/versionview</name>
-    <message>
-        <source>Edit</source>
-        <translation>編集</translation>
-    </message>
-    <message>
-        <source>Publish</source>
-        <translation>公開</translation>
-    </message>
-    <message>
-        <source>Manage versions</source>
-        <translation>バージョン管理</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
@@ -1075,19 +1033,16 @@
         <translation>ドキュメントのロケーションを選択してください</translation>
     </message>
     <message>
+        <source>Select</source>
+        <translation>選択</translation>
+    </message>
+    <message>
         <source>Please choose the placement for the OpenOffice.org object.
 
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation>OpenOffice.orgオブジェクトのロケーションを選択してください。
-ロケーションを選択したら、%buttonnameボタンをクリックしてください。
-履歴とお気に入りを使うこともできます。
-ロケーション名をクリックするとリストを変更することができます。</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>選択</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1160,7 +1115,7 @@
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>このページから OpenOffice.orgライタードキュメントをeZ Publishに直接インポートすることができます。ドキュメントの配置先を決めれば、eZ Publishは自動でオブジェクトを作成します。インポートの際に、ドキュメントは適切なクラスに変換され、インポートが終了すれば、その情報が表示されます。画像はメディアリソースに配置されますので、後に再利用することができます。</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1180,6 +1135,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Tip a friend</source>
         <translation>友達に教える</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1434,6 +1393,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Next image</source>
         <translation>次のイメージ</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1720,10 +1683,6 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>通知設定</translation>
     </message>
     <message>
-        <source>Store</source>
-        <translation type="obsolete">保存</translation>
-    </message>
-    <message>
         <source>Apply changes</source>
         <translation>変更を適用</translation>
     </message>
@@ -1741,84 +1700,6 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>検索テキスト: </translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/parts/website_toolbar</name>
-    <message>
-        <source>Create here</source>
-        <translation>ここに作成</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation>移動</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>削除</translation>
-    </message>
-    <message>
-        <source>Import</source>
-        <translation>インポート</translation>
-    </message>
-    <message>
-        <source>Export</source>
-        <translation>エクスポート</translation>
-    </message>
-    <message>
-        <source>Replace</source>
-        <translation>リプレイス</translation>
-    </message>
-    <message>
-        <source>About</source>
-        <translation>アバウト</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation>%node_name [%class_name]の編集</translation>
-    </message>
-    <message>
-        <source>Add locations</source>
-        <translation>配置の追加</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>ドキュメンテーション</translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation>ソート</translation>
-    </message>
-    <message>
-        <source>Edit object states</source>
-        <translation>オブジェクトステートの編集</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/settings/edit</name>
-    <message>
-        <source>Node notification</source>
-        <translation type="obsolete">ノードの通知</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">名前</translation>
-    </message>
-    <message>
-        <source>Class</source>
-        <translation type="obsolete">クラス</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="obsolete">セクション</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation type="obsolete">選択</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">削除</translation>
     </message>
 </context>
 <context>
@@ -2610,121 +2491,6 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
         <translation>このコンテンツオブジェクトに適応出来るステートはありません。より高いアクセス権限が必要かもしれません。</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/websitetoolbar/sort</name>
-    <message>
-        <source>Sub items [%children_count]</source>
-        <translation>サブアイテム  [%children_count]</translation>
-    </message>
-    <message>
-        <source>Show 10 items per page.</source>
-        <translation>表示: 10 アイテム/ページ</translation>
-    </message>
-    <message>
-        <source>Show 50 items per page.</source>
-        <translation>表示: 50 アイテム/ページ</translation>
-    </message>
-    <message>
-        <source>Show 25 items per page.</source>
-        <translation>表示: 25 アイテム/ページ</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>優先度</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>名前</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>タイプ</translation>
-    </message>
-    <message>
-        <source>Modifier</source>
-        <translation>修正者</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation>修正日時</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation>セクション</translation>
-    </message>
-    <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation>アイテムの表示順をコントロールするには、優先度を利用して下さい。正と負両方の正数を利用出来ます。変更を適用するには「優先度の更新」ボタンをクリックして下さい。</translation>
-    </message>
-    <message>
-        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation>&lt;%node_name&gt;を編集する権限を持っていないため、優先度を更新することが出来ません。</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>不明</translation>
-    </message>
-    <message>
-        <source>The current item does not contain any sub items.</source>
-        <translation>このアイテムはサブアイテムを持っていません。</translation>
-    </message>
-    <message>
-        <source>Update priorities</source>
-        <translation>優先度の更新</translation>
-    </message>
-    <message>
-        <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation>子アイテムリストに優先度の変更を適用します。</translation>
-    </message>
-    <message>
-        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation>このアイテムの編集権限を持っていないか、優先度以外のソート方法が設定されているため、優先度の更新はできません。</translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation>ソート</translation>
-    </message>
-    <message>
-        <source>Class identifier</source>
-        <translation>クラス識別子</translation>
-    </message>
-    <message>
-        <source>Class name</source>
-        <translation>クラス名</translation>
-    </message>
-    <message>
-        <source>Depth</source>
-        <translation>深度</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation>公開日時</translation>
-    </message>
-    <message>
-        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation>このアイテムの編集権限を持っていないため、ソート方法を設定することができません。</translation>
-    </message>
-    <message>
-        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation>このメニューで子アイテムのソート方法を指定します。</translation>
-    </message>
-    <message>
-        <source>Descending</source>
-        <translation>降順</translation>
-    </message>
-    <message>
-        <source>Ascending</source>
-        <translation>昇順</translation>
-    </message>
-    <message>
-        <source>Set</source>
-        <translation>設定</translation>
-    </message>
-    <message>
-        <source>Invalid or missing parameter: %parameter</source>
-        <translation>無効なパラメータか、パラメータが見つかりません: %parameter</translation>
     </message>
 </context>
 </TS>

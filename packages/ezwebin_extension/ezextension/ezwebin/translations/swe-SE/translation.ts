@@ -1,4 +1,6 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
@@ -397,12 +399,6 @@
         <translation>Töm utkast</translation>
     </message>
     <message>
-        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation>Dessa är objekten som du arbetar med just nu. Bara du som ägare kan se utkasten.
-      Du kan antingen redigera utkasten eller ta bort dem om du inte behöver dem.</translation>
-    </message>
-    <message>
         <source>Name</source>
         <translation>Namn</translation>
     </message>
@@ -438,6 +434,11 @@
         <source>You have no drafts</source>
         <translation>Du har inga utkast</translation>
     </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
@@ -464,26 +465,6 @@
     <message>
         <source>Discard draft</source>
         <translation>Ta bort utkast</translation>
-    </message>
-    <message>
-        <source>Manage versions</source>
-        <translation>Hantera versioner</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation>Spara och stäng</translation>
-    </message>
-    <message>
-        <source>Preview</source>
-        <translation>Förhandsgranska</translation>
-    </message>
-    <message>
-        <source>Translate from</source>
-        <translation>Översätt från</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation>Översätt</translation>
     </message>
 </context>
 <context>
@@ -516,24 +497,6 @@
         <translation>Objektet ägs av %owner.</translation>
     </message>
     <message>
-        <source>This object is already being edited by yourself and others.
-    You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Du och andra personer redigerar redan objektet.
-    Du kan antingen fortsätta att redigera ett av dina utkast eller skapa ett nytt utkast.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by you.
-        You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Du redigerar redan objektet.
-        Du kan antingen fortsätta att redigera ett av dina utkast eller skapa ett nytt utkast.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by someone else.
-        You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation>Objektet redigeras av någon annan.
-        Du bör antingen kontakta personen angående utkastet eller skapa ett nytt utkast som du kan använda.</translation>
-    </message>
-    <message>
         <source>Current drafts</source>
         <translation>Aktuella utkast</translation>
     </message>
@@ -564,6 +527,21 @@
     <message>
         <source>New draft</source>
         <translation>Nytt utkast</translation>
+    </message>
+    <message>
+        <source>This object is already being edited by yourself and others.
+    You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by you.
+        You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already being edited by someone else.
+        You should either contact the person about their draft or create a new draft for your own use.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -942,21 +920,6 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/view/versionview</name>
-    <message>
-        <source>Manage versions</source>
-        <translation>Hantera versioner</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Redigera</translation>
-    </message>
-    <message>
-        <source>Publish</source>
-        <translation>Publicera</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
@@ -1068,20 +1031,16 @@
         <translation>Välj dokumentplacering</translation>
     </message>
     <message>
+        <source>Select</source>
+        <translation>Välj</translation>
+    </message>
+    <message>
         <source>Please choose the placement for the OpenOffice.org object.
 
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation>Var god välj placering av OpenOffice.org-objektet.
-
-    Välj placering och klicka på knappen %buttonname.
-    Du kan även använda senaste och bokmärkta poster för snabb placering.
-    Klicka på placeringsnamnen för att ändra listningen.</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Välj</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1154,11 +1113,7 @@
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>Var god välj placering av OpenOffice.org-objektet.
-
-    Välj placering och klicka på knappen %buttonname.
-    Du kan även använda senaste och bokmärkta poster för snabb placering.
-    Klicka på placeringsnamnen för att ändra listningen.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1178,6 +1133,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Tip a friend</source>
         <translation>Tipsa en vän</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1432,6 +1391,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Next image</source>
         <translation>Nästa bild</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1734,57 +1697,6 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Search text:</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/parts/website_toolbar</name>
-    <message>
-        <source>About</source>
-        <translation>Om</translation>
-    </message>
-    <message>
-        <source>Create here</source>
-        <translation>Skapa här</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation>Redigera: %node_name [%class_name]</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation>Flytta</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Ta bort</translation>
-    </message>
-    <message>
-        <source>Add locations</source>
-        <translation>Lägg till platser</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>Dokumentation</translation>
-    </message>
-    <message>
-        <source>Replace</source>
-        <translation>Ersätt</translation>
-    </message>
-    <message>
-        <source>Export</source>
-        <translation>Exportera</translation>
-    </message>
-    <message>
-        <source>Import</source>
-        <translation>Importera</translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Edit object states</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2576,121 +2488,6 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/websitetoolbar/sort</name>
-    <message>
-        <source>Sub items [%children_count]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 10 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 50 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show 25 items per page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="unfinished">Namn</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="unfinished">Typ</translation>
-    </message>
-    <message>
-        <source>Modifier</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="unfinished">Modifierad</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="unfinished">Avsnitt</translation>
-    </message>
-    <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation type="unfinished">Okänd</translation>
-    </message>
-    <message>
-        <source>The current item does not contain any sub items.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Update priorities</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Class identifier</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Class name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Depth</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="unfinished">Publicerad</translation>
-    </message>
-    <message>
-        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Descending</source>
-        <translation type="unfinished">Fallande</translation>
-    </message>
-    <message>
-        <source>Ascending</source>
-        <translation type="unfinished">Stigande</translation>
-    </message>
-    <message>
-        <source>Set</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Invalid or missing parameter: %parameter</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
