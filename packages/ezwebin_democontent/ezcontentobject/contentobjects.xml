@@ -5228,7 +5228,7 @@
             ezremote:section_id="1"
             ezremote:owner_id="14"
             ezremote:class_id="35"
-            ezremote:published="Thu, 01 Nov 2007 08:33:59 GMT"
+            ezremote:published="Thu, 01 Nov 2007 08:14:59 GMT"
             ezremote:modified="Thu, 01 Nov 2007 11:15:07 GMT"
             remote_id="219ca29549fe687005593716f9fe5d68"
             class_remote_id="b241f924b96b267153f5f55904e0675a"
@@ -5328,8 +5328,8 @@
             ezremote:section_id="1"
             ezremote:owner_id="14"
             ezremote:class_id="36"
-            ezremote:published="Thu, 01 Nov 2007 08:33:59 GMT"
-            ezremote:modified="Thu, 01 Nov 2007 08:33:59 GMT"
+            ezremote:published="Thu, 01 Nov 2007 08:42:59 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 08:42:59 GMT"
             remote_id="e6ce013587fd32057017c4459c03b681"
             class_remote_id="71f99c516743a33562c3893ef98c9b60"
             ezremote:class_identifier="forum_topic"
@@ -5339,8 +5339,8 @@
                     xmlns:ezobject="http://ez.no/object/">
         <ezobject:version ezremote:version="1"
                           ezremote:status="1"
-                          ezremote:created="Thu, 01 Nov 2007 08:33:59 GMT"
-                          ezremote:modified="Thu, 01 Nov 2007 08:33:59 GMT"
+                          ezremote:created="Thu, 01 Nov 2007 08:42:59 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:42:59 GMT"
                           initial_language="eng-GB">
           <ezobject:object-translation language="eng-GB"
                                        object_name="Ut mollis sodales nibh">
