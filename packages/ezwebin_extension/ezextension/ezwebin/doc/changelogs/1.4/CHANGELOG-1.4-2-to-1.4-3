@@ -1,0 +1,6 @@
+Changes from 1.4-2 to 1.4-3
+
+*Bugs*
+
+- Fixed bug #15165: Forum - Notification button missing for users with correct privileges
+  (Merged from ezwebin trunk rev. 4158)
