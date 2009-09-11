@@ -4,3 +4,5 @@ Changes from 1.4-2 to 1.4-3
 
 - Fixed bug #15165: Forum - Notification button missing for users with correct privileges
   (Merged from ezwebin trunk rev. 4158)
+- Fixed bug #15451: SQL query error from eZArchive when accessing "extra info" on webin blogs.
+  (Merged from ezwebin trunk rev. 4166)

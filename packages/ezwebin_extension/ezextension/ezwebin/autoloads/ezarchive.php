@@ -61,22 +61,50 @@ class eZArchive
             {
                 include_once( 'lib/ezdb/classes/ezdb.php' );
                 $db = eZDB::instance();
+                $SQL = '';
 
-                $rs = $db->arrayQuery( "SELECT MONTH( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) AS month,
-                                                YEAR( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) AS year,
-                                                UNIX_TIMESTAMP( CONCAT( YEAR( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) , '-', MONTH( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) , '-', 01 ) ) AS timestamp
-                                        FROM ezcontentobject_attribute,
-                                             ezcontentclass,
-                                             ezcontentclass_attribute,
-                                             ezcontentobject_tree
-                                        WHERE ezcontentclass_attribute.contentclass_id = ezcontentclass.id
-                                            AND ezcontentclass.identifier = '" . $classIdentifier ."'
-                                            AND ezcontentclass_attribute.id = ezcontentobject_attribute.contentclassattribute_id
-                                            AND ezcontentclass_attribute.identifier = 'publication_date'
-                                            AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
-                                            AND ezcontentobject_tree.parent_node_id = " . $parentNodeID . "
-                                            GROUP BY YEAR( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) DESC,
-                                                     MONTH( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) DESC" );
+                switch ( $db->databaseName() )
+                {
+                    case 'mysql':
+                        $SQL = "SELECT MONTH( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) AS month,
+                                       YEAR( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) AS year,
+                                       UNIX_TIMESTAMP( CONCAT( YEAR( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) , '-', MONTH( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) , '-', 01 ) ) AS timestamp
+                                FROM ezcontentobject_attribute,
+                                     ezcontentclass,
+                                     ezcontentclass_attribute,
+                                     ezcontentobject_tree
+                                WHERE ezcontentclass_attribute.contentclass_id = ezcontentclass.id
+                                    AND ezcontentclass.identifier = '" . $classIdentifier ."'
+                                    AND ezcontentclass_attribute.id = ezcontentobject_attribute.contentclassattribute_id
+                                    AND ezcontentclass_attribute.identifier = 'publication_date'
+                                    AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
+                                    AND ezcontentobject_tree.parent_node_id = " . $parentNodeID . "
+                                GROUP BY YEAR( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) DESC,
+                                         MONTH( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) DESC";
+                        break;
+                    case 'postgresql':
+                        $SQL = "SELECT EXTRACT(MONTH FROM to_timestamp( ezcontentobject_attribute.data_int ) ) AS month,
+                                       EXTRACT(YEAR FROM to_timestamp( ezcontentobject_attribute.data_int ) ) AS year,
+                                       EXTRACT(EPOCH FROM DATE(EXTRACT(YEAR FROM to_timestamp( ezcontentobject_attribute.data_int ) ) || '-' || EXTRACT(MONTH FROM to_timestamp( ezcontentobject_attribute.data_int ) ) || '-' || '01' ) ) AS timestamp
+                                FROM ezcontentobject_attribute,
+                                     ezcontentclass,
+                                     ezcontentclass_attribute,
+                                     ezcontentobject_tree
+                                WHERE ezcontentclass_attribute.contentclass_id = ezcontentclass.id
+                                    AND ezcontentclass.identifier = '" . $classIdentifier ."'
+                                    AND ezcontentclass_attribute.id = ezcontentobject_attribute.contentclassattribute_id
+                                    AND ezcontentclass_attribute.identifier = 'publication_date'
+                                    AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
+                                    AND ezcontentobject_tree.parent_node_id = " . $parentNodeID . "
+                                GROUP BY EXTRACT(YEAR FROM to_timestamp( ezcontentobject_attribute.data_int ) ),
+                                         EXTRACT(MONTH FROM to_timestamp( ezcontentobject_attribute.data_int ) ),
+                                         EXTRACT(EPOCH FROM DATE(EXTRACT(YEAR FROM to_timestamp( ezcontentobject_attribute.data_int ) ) || '-' || EXTRACT(MONTH FROM to_timestamp( ezcontentobject_attribute.data_int ) ) || '-' || '01' ) )
+                                ORDER BY EXTRACT(YEAR FROM to_timestamp( ezcontentobject_attribute.data_int ) ) DESC, 
+                                         EXTRACT(MONTH FROM to_timestamp( ezcontentobject_attribute.data_int ) ) DESC";
+                        break;
+                }
+
+                $rs = $db->arrayQuery( $SQL );
                 $operatorValue = $rs;
             } break;
         }
