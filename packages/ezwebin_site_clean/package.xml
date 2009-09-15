@@ -80,6 +80,9 @@
                name="ezwebin_banners"
                min-version="1.5" />
       <require type="ezpackage"
+               name="ezwebin_democontent_clean"
+               min-version="1.5" />
+      <require type="ezpackage"
                name="ezwebin_design_cleangray"
                min-version="1.5" />
       <require type="ezpackage"
