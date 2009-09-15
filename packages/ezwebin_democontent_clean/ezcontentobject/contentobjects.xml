@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content-object>
+  <object-list>
+    <object xmlns:ezremote="http://ez.no/ezobject"
+            ezremote:id="66"
+            name="Home"
+            ezremote:section_id="1"
+            ezremote:owner_id="14"
+            ezremote:class_id="23"
+            ezremote:published="Thu, 01 Nov 2007 08:33:32 GMT"
+            ezremote:modified="Thu, 01 Nov 2007 10:50:27 GMT"
+            remote_id="8a9c9c761004866fb458d89910f52bee"
+            class_remote_id="e36c458e3e4a81298a0945f53a2c81f4"
+            ezremote:class_identifier="frontpage"
+            ezremote:always_available="1"
+            initial_language="eng-GB">
+      <version-list active_version="9"
+                    xmlns:ezobject="http://ez.no/object/">
+        <ezobject:version ezremote:version="9"
+                          ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 10:50:07 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 10:50:27 GMT"
+                          initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB"
+                                       object_name="Home">
+            <ezobject:attribute ezremote:id="247"
+                                ezremote:identifier="name"
+                                name="Name"
+                                type="ezstring">
+              <text>Home</text>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="248"
+                                ezremote:identifier="billboard"
+                                name="Billboard"
+                                type="ezobjectrelation">
+              <related-object-remote-id>2b2c6d4cec8a2af0bf0bdbdea950df51</related-object-remote-id>
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="249"
+                                ezremote:identifier="left_column"
+                                name="Left column"
+                                type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="251"
+                                ezremote:identifier="right_column"
+                                name="Right column"
+                                type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="252"
+                                ezremote:identifier="bottom_column"
+                                name="Bottom column"
+                                type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+            </ezobject:attribute>
+            <ezobject:attribute ezremote:id="253"
+                                ezremote:identifier="tags"
+                                name="Tags"
+                                type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute></ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment is-main-node="1"
+                             name="Home"
+                             node-id="278"
+                             remote-id="07cdfd23373b17c6b337251c22b7ea57"
+                             sort-field="priority"
+                             sort-order="1"
+                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object></object-list>
+  <site-access-list>
+    <site-access>eng</site-access>
+  </site-access-list>
+  <top-node-list>
+    <top-node node-id="278"
+              remote-id="07cdfd23373b17c6b337251c22b7ea57">Home</top-node>
+  </top-node-list>
+</content-object>
