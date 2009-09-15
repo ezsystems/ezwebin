@@ -2,17 +2,9 @@
 <package version="1.4-0"
          development="false"
          install_type="install">
-  <name>ezwebin_democontent</name>
-  <summary>Home, News and Events, Products, Partner, Community, Knowledge Base, Company</summary>
-  <description>This package contains the following nodes :
-Home - subtree
-News and Events - subtree
-Products - subtree
-Partner - subtree
-Community - subtree
-Knowledge Base - subtree
-Company - subtree
-</description>
+  <name>ezwebin_democontent_clean</name>
+  <summary></summary>
+  <description></description>
   <vendor>eZ systems</vendor>
   <type value="contentobject" />
   <ezpublish>
