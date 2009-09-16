@@ -852,13 +852,6 @@ class eZWebinInstaller extends eZSiteInstaller
                 ) 
             ), 
             array( 
-                '_function' => 'setSection', 
-                '_params' => array( 
-                    'location' => 'partners', 
-                    'section_name' => 'Restricted' 
-                ) 
-            ), 
-            array( 
                 '_function' => 'addPoliciesForRole', 
                 '_params' => array( 
                     'role_name' => 'Partner', 
@@ -1202,27 +1195,6 @@ class eZWebinInstaller extends eZSiteInstaller
                         array( 
                             'identifier' => 'show_children', 
                             'new_name' => 'Display sub items' 
-                        ) 
-                    ) 
-                ) 
-            ), 
-            array( 
-                '_function' => 'setRSSExport', 
-                '_params' => array( 
-                    'creator' => '14', 
-                    'access_url' => 'my_feed', 
-                    'main_node_only' => '1', 
-                    'number_of_objects' => '10', 
-                    'rss_version' => '2.0', 
-                    'status' => '1', 
-                    'title' => 'My RSS Feed', 
-                    'rss_export_itmes' => array( 
-                        0 => array( 
-                            'class_id' => '16', 
-                            'description' => 'intro', 
-                            'source_node_id' => '139', 
-                            'status' => '1', 
-                            'title' => 'title' 
                         ) 
                     ) 
                 ) 

@@ -33,7 +33,6 @@
                                 ezremote:identifier="billboard"
                                 name="Billboard"
                                 type="ezobjectrelation">
-              <related-object-remote-id>2b2c6d4cec8a2af0bf0bdbdea950df51</related-object-remote-id>
             </ezobject:attribute>
             <ezobject:attribute ezremote:id="249"
                                 ezremote:identifier="left_column"
