@@ -145,11 +145,13 @@
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_banners"/></antcall>
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_classes"/></antcall>
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_democontent"/></antcall>
+        <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_democontent_clean"/></antcall>
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_design_blue"/></antcall>
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_design_gray"/></antcall>
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_design_cleangray"/></antcall>
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_extension"/></antcall>
         <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_site"/></antcall>
+        <antcall target="create-package-tarball"><param name="package.name" value="ezwebin_site_clean"/></antcall>
     </target>
 
     <!-- Cleans the generated tarball by dist-->
