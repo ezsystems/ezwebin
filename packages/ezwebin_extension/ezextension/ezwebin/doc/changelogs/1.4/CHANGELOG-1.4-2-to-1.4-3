@@ -6,3 +6,5 @@ Changes from 1.4-2 to 1.4-3
   (Merged from ezwebin trunk rev. 4158)
 - Fixed bug #15451: SQL query error from eZArchive when accessing "extra info" on webin blogs.
   (Merged from ezwebin trunk rev. 4166)
+- Fixed bug #15526: Small problem with fetch in event_view_program.tpl
+  (Merged from ezwebin trunk rev. 4214)
