@@ -12,7 +12,7 @@ Changes from 1.4-0 to 1.5-0
 - Fixed bug #15165: Forum - Notification button missing for users with correct privileges
 - Fixed bug #15410: ezstarrating doesn't work for anyone except admin
 - Fixed bug #15451: SQL query error from eZArchive when accessing "extra info" on webin blogs.
-* Fixed bug #15526: Small problem with fetch in event_view_program.tpl
+- Fixed bug #15526: Small problem with fetch in event_view_program.tpl
 
 *Enhancements*
 
