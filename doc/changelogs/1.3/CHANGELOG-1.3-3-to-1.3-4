@@ -6,6 +6,8 @@ Changes from 1.3-3 to 1.3-4
   (Merged from ezwebin trunk rev. 3925)
 - Fixed bug #14949: obsolete "Website Toolbar access" attribute in user group
   (Merged from ezwebin trunk rev. 3944)
+- Fixed bug #15526: Small problem with fetch in event_view_program.tpl
+  (Merged from ezwebin trunk rev. 4214)
 
 *Enhancements*
 
