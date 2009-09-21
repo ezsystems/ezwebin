@@ -39,7 +39,7 @@
                   <paragraph align="LEFT">For more information, please visit our <link href="http://ez.no/doc">documentation</link>. You might also consider exchanging with our community via our <link href="http://ez.no/developer/forum">forums</link> or browsing existing extensions in the<link href="http://projects.ez.no/"> community contribution corner</link>.</paragraph>
                   <paragraph align="LEFT">If you are running a business project, you should consider help from eZ Systems professional services such as <link href="http://ez.no/support_and_services/training">training</link>, <link href="http://ez.no/support_and_services/expert_consulting">consulting</link> or <link href="http://ez.no/support_and_services/ez_publish_premium">Premium</link> support and maintenance.</paragraph>
                   <paragraph align="center">
-                    <embed size="medium" view="embed-inline" align="right" custom:offset="0" custom:limit="5" object_remote_id="a83232094ae11887b81cc2b4a0616cb8"/>
+                    <embed size="medium" view="embed-inline" align="right" custom:offset="0" custom:limit="5" object_remote_id="82005c9dbc259a187e1f4784fcd699f8"/>
                   </paragraph>
                 </section>
               </section>
@@ -55,7 +55,28 @@
             </ezobject:attribute>
           </ezobject:object-translation>
           <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1" name="Home" node-id="2" remote-id="f3e90596361e31d496d4026eb624c983" sort-field="priority" sort-order="1" priority="0"/>
+            <node-assignment is-main-node="1" name="Home" node-id="278" remote-id="07cdfd23373b17c6b337251c22b7ea57" sort-field="priority" sort-order="1" priority="0"/>
+          </ezobject:node-assignment-list>
+        </ezobject:version>
+      </ezobject:version-list>
+    </ezremote:object>
+    <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="59" name="original_outlined_ez_logo-mini" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="30" ezremote:published="Mon, 21 Sep 2009 10:04:37 GMT" ezremote:modified="Mon, 21 Sep 2009 10:04:37 GMT" remote_id="82005c9dbc259a187e1f4784fcd699f8" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
+      <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 21 Sep 2009 10:04:36 GMT" ezremote:modified="Mon, 21 Sep 2009 10:04:36 GMT" initial_language="eng-GB">
+          <ezobject:object-translation language="eng-GB" object_name="original_outlined_ez_logo-mini">
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="222" ezremote:identifier="name" name="Name" type="ezstring">
+              <text>eZ Logo</text>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="223" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+            </ezobject:attribute>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="224" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="a5c4e45a977a01b2d8af166fa9fefaab" alternative-text=""/>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="225" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+              <keyword-string></keyword-string>
+            </ezobject:attribute>
+          </ezobject:object-translation>
+          <ezobject:node-assignment-list>
+            <node-assignment parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" is-main-node="1" name="original_outlined_ez_logo-mini" node-id="61" remote-id="6d2d1b22aa7d049f64d0552a70fe8b02" sort-field="published" sort-order="0" priority="0"/>
           </ezobject:node-assignment-list>
         </ezobject:version>
       </ezobject:version-list>
@@ -65,6 +86,6 @@
     <site-access>eng</site-access>
   </site-access-list>
   <top-node-list>
-    <top-node node-id="2" remote-id="f3e90596361e31d496d4026eb624c983">Home</top-node>
+    <top-node node-id="278" remote-id="07cdfd23373b17c6b337251c22b7ea57">Home</top-node>
   </top-node-list>
 </content-object>
