@@ -1,82 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<content-object>
-  <object-list>
-    <object xmlns:ezremote="http://ez.no/ezobject"
-            ezremote:id="66"
-            name="Home"
-            ezremote:section_id="1"
-            ezremote:owner_id="14"
-            ezremote:class_id="23"
-            ezremote:published="Thu, 01 Nov 2007 08:33:32 GMT"
-            ezremote:modified="Thu, 01 Nov 2007 10:50:27 GMT"
-            remote_id="8a9c9c761004866fb458d89910f52bee"
-            class_remote_id="e36c458e3e4a81298a0945f53a2c81f4"
-            ezremote:class_identifier="frontpage"
-            ezremote:always_available="1"
-            initial_language="eng-GB">
-      <version-list active_version="9"
-                    xmlns:ezobject="http://ez.no/object/">
-        <ezobject:version ezremote:version="9"
-                          ezremote:status="1"
-                          ezremote:created="Thu, 01 Nov 2007 10:50:07 GMT"
-                          ezremote:modified="Thu, 01 Nov 2007 10:50:27 GMT"
-                          initial_language="eng-GB">
-          <ezobject:object-translation language="eng-GB"
-                                       object_name="Home">
-            <ezobject:attribute ezremote:id="247"
-                                ezremote:identifier="name"
-                                name="Name"
-                                type="ezstring">
+<?xml version="1.0" encoding="utf-8"?>
+<content-object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+  <object-list xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+    <ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="57" name="Home" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23" ezremote:published="Thu, 01 Nov 2007 08:33:32 GMT" ezremote:modified="Mon, 21 Sep 2009 07:44:23 GMT" remote_id="8a9c9c761004866fb458d89910f52bee" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="frontpage" ezremote:always_available="1" initial_language="eng-GB">
+      <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="13">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="13" ezremote:status="1" ezremote:created="Mon, 21 Sep 2009 07:44:03 GMT" ezremote:modified="Mon, 21 Sep 2009 07:44:22 GMT" initial_language="eng-GB">
+          <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB" object_name="Home">
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="200" ezremote:identifier="name" name="Name" type="ezstring">
               <text>Home</text>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="248"
-                                ezremote:identifier="billboard"
-                                name="Billboard"
-                                type="ezobjectrelation">
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="201" ezremote:identifier="billboard" name="Billboard" type="ezobjectrelation"/>
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="202" ezremote:identifier="left_column" name="Left column" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="249"
-                                ezremote:identifier="left_column"
-                                name="Left column"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="203" ezremote:identifier="center_column" name="Center column" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                <section>
+                  <header>Welcome to your new eZ Publish 4.2 installation</header>
+                  <paragraph align="LEFT">You chose the Website Interface package with a clean install and no evaluation data, this installation is empty of content.</paragraph>
+                  <paragraph align="LEFT">This page is the home page of your website, you can access the administration interface of your website by selecting the appropriate check box on the <link href="/user/login">login page</link>. You will need to use the "admin" username and the password you defined when installing eZ Publish.</paragraph>
+                  <paragraph align="LEFT">If you want to use the eZ toolbar for front end editing, please <link href="/user/login">login</link> to the website with the same administrator account or with any account you might have setup with sufficient rights.</paragraph>
+                  <paragraph align="LEFT">If you want to get started easily and run your website project, the usual next steps for you might be:</paragraph>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                    <ol>
+                      <li>
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Configure users and permissions</strong> using the administration interface, to grant access and rights to all the team involved in the making of your website. See <link href="http://ez.no/doc/ez_publish/user_manual/4_0/the_administration_interface/the_user_accounts_tab">user manual</link>.</paragraph>
+                      </li>
+                      <li>
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Customize the layout styles and templates</strong> of your website in order to match your branding requirements. See<link href="http://ez.no/doc/ez_publish/technical_manual/4_x/templates"> the documentation</link>.</paragraph>
+                      </li>
+                      <li>
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Add additional new features</strong> leveraging existing extensions in the ecosystem. See <link href="http://ez.no/doc/ez_publish/technical_manual/4_x/installation/extensions">the documentation</link>.</paragraph>
+                      </li>
+                      <li>
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>Start publishing content</strong> in the repository and <strong>launch your website.</strong> See <link href="http://ez.no/doc/ez_publish/user_manual/4_0/daily_tasks">the documentation</link>.</paragraph>
+                      </li>
+                    </ol>
+                  </paragraph>
+                  <paragraph align="LEFT">For more information, please visit our <link href="http://ez.no/doc">documentation</link>. You might also consider exchanging with our community via our <link href="http://ez.no/developer/forum">forums</link> or browsing existing extensions in the<link href="http://projects.ez.no/"> community contribution corner</link>.</paragraph>
+                  <paragraph align="LEFT">If you are running a business project, you should consider help from eZ Systems professional services such as <link href="http://ez.no/support_and_services/training">training</link>, <link href="http://ez.no/support_and_services/expert_consulting">consulting</link> or <link href="http://ez.no/support_and_services/ez_publish_premium">Premium</link> support and maintenance.</paragraph>
+                  <paragraph align="center">
+                    <embed size="medium" view="embed-inline" align="right" custom:offset="0" custom:limit="5" object_remote_id="a83232094ae11887b81cc2b4a0616cb8"/>
+                  </paragraph>
+                </section>
+              </section>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="251"
-                                ezremote:identifier="right_column"
-                                name="Right column"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="204" ezremote:identifier="right_column" name="Right column" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="252"
-                                ezremote:identifier="bottom_column"
-                                name="Bottom column"
-                                type="ezxmltext">
-              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
-                       xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
-                       xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" />
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="205" ezremote:identifier="bottom_column" name="Bottom column" type="ezxmltext">
+              <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
             </ezobject:attribute>
-            <ezobject:attribute ezremote:id="253"
-                                ezremote:identifier="tags"
-                                name="Tags"
-                                type="ezkeyword">
+            <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="206" ezremote:identifier="tags" name="Tags" type="ezkeyword">
               <keyword-string></keyword-string>
-            </ezobject:attribute></ezobject:object-translation>
+            </ezobject:attribute>
+          </ezobject:object-translation>
           <ezobject:node-assignment-list>
-            <node-assignment is-main-node="1"
-                             name="Home"
-                             node-id="278"
-                             remote-id="07cdfd23373b17c6b337251c22b7ea57"
-                             sort-field="priority"
-                             sort-order="1"
-                             priority="0" /></ezobject:node-assignment-list></ezobject:version></version-list></object></object-list>
+            <node-assignment is-main-node="1" name="Home" node-id="2" remote-id="f3e90596361e31d496d4026eb624c983" sort-field="priority" sort-order="1" priority="0"/>
+          </ezobject:node-assignment-list>
+        </ezobject:version>
+      </ezobject:version-list>
+    </ezremote:object>
+  </object-list>
   <site-access-list>
     <site-access>eng</site-access>
   </site-access-list>
   <top-node-list>
-    <top-node node-id="278"
-              remote-id="07cdfd23373b17c6b337251c22b7ea57">Home</top-node>
+    <top-node node-id="2" remote-id="f3e90596361e31d496d4026eb624c983">Home</top-node>
   </top-node-list>
 </content-object>
