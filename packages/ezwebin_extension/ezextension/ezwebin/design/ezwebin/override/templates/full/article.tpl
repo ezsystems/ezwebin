@@ -28,7 +28,7 @@
                     {attribute_view_gui attribute=$node.data_map.image image_class=medium}
 
                     {if $node.data_map.caption.has_content}
-                    <div class="caption">
+                    <div class="caption" style="width: {$node.data_map.image.content.medium.width}px">
                         {attribute_view_gui attribute=$node.data_map.caption}
                     </div>
                     {/if}
