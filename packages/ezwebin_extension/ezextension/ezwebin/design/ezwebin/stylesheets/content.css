@@ -636,6 +636,13 @@ div.attribute-header h1.long
     background-image: url('../images/icons/rss_icon.gif');
 }
 
+/* Stand alone RSS/ATOM Feed icon */
+div.attribute-rss-icon
+{
+    float: right;
+}
+
+
 /* BROWSE */
 
 div.context-toolbar div.block div.right

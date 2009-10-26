@@ -1,4 +1,5 @@
 {* Folder - Full view *}
+{def $rss_export = fetch( 'rss', 'export_by_node', hash( 'node_id', $node.node_id ) )}
 
 <div class="border-box">
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
@@ -7,10 +8,16 @@
 <div class="content-view-full">
     <div class="class-folder">
 
+        {if $rss_export}
+        <div class="attribute-rss-icon">
+            <a href="{concat( '/rss/feed/', $rss_export.access_url )|ezurl( 'no' )}" title="{$rss_export.title|wash()}"><img src="{'rss-icon.gif'|ezimage( 'no' )}" alt="{$rss_export.title|wash()}" /></a>
+        </div>
+        {/if}
+
         <div class="attribute-header">
             <h1>{attribute_view_gui attribute=$node.data_map.name}</h1>
         </div>
-        
+
         {if eq( ezini( 'folder', 'SummaryInFullView', 'content.ini' ), 'enabled' )}
             {if $node.object.data_map.short_description.has_content}
                 <div class="attribute-short">
