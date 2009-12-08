@@ -47,17 +47,17 @@
     <div class="buttonblock">
          <input class="button" type="hidden" name="UserID" value="{$content_attributes[0].contentobject_id}" />
     {if and( is_set( $checkErrNodeId ), $checkErrNodeId )|not()}
-        <input class="button" type="submit" name="PublishButton" value="{'Register'|i18n('design/ezwebin/user/register')}" />
+        <input class="button" type="submit" id="PublishButton" name="PublishButton" value="{'Register'|i18n('design/ezwebin/user/register')}" onclick="window.setTimeout( disableButtons, 1 ); return true;" />
     {else}    
-           <input class="button" type="submit" name="PublishButton" disabled="disabled" value="{'Register'|i18n('design/ezwebin/user/register')}" />
+           <input class="button" type="submit" id="PublishButton" name="PublishButton" disabled="disabled" value="{'Register'|i18n('design/ezwebin/user/register')}" onclick="window.setTimeout( disableButtons, 1 ); return true;" />
     {/if}
-    <input class="button" type="submit" name="CancelButton" value="{'Discard'|i18n('design/ezwebin/user/register')}" />
+    <input class="button" type="submit" id="CancelButton" name="CancelButton" value="{'Discard'|i18n('design/ezwebin/user/register')}" onclick="window.setTimeout( disableButtons, 1 ); return true;" />
     </div>
 {else}
     <div class="warning">
          <h2>{"Unable to register new user"|i18n("design/ezwebin/user/register")}</h2>
     </div>
-    <input class="button" type="submit" name="CancelButton" value="{'Back'|i18n('design/ezwebin/user/register')}" />
+    <input class="button" type="submit" id="CancelButton" name="CancelButton" value="{'Back'|i18n('design/ezwebin/user/register')}" onclick="window.setTimeout( disableButtons, 1 ); return true;" />
 {/if}
 </form>
 
@@ -66,3 +66,15 @@
 </div></div></div>
 <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
+
+{literal}
+<script language="JavaScript" type="text/javascript">
+<!--
+    function disableButtons()
+    {
+        document.getElementById( 'PublishButton' ).disabled = true;
+        document.getElementById( 'CancelButton' ).disabled = true;
+    }
+-->
+</script>
+{/literal}
