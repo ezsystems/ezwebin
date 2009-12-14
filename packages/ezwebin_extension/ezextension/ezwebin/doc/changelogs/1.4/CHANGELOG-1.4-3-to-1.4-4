@@ -1,0 +1,6 @@
+Changes from 1.4-2 to 1.4-3
+
+*Bugs*
+
+- Fixed bug #15849: Unknown session variable 'LastAccessesURI'
+  (Merged from ezwebin trunk rev. 4341)
