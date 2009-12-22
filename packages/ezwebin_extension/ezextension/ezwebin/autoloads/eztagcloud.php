@@ -151,6 +151,20 @@ class eZTagCloud
                     $tags[$row['keyword']] = $row['keyword_count'];
                 }
 
+                // To be able to combine count sorting with keyword sorting
+                // without being limited by sql LIMIT result clipping
+                if ( isset( $params['post_sort_by'] ) )
+                {
+                    if ( $params['post_sort_by'] === 'keyword' )
+                        ksort( $tags, SORT_LOCALE_STRING );
+                    else if ( $params['post_sort_by'] === 'keyword_reverse' )
+                        krsort( $tags, SORT_LOCALE_STRING );
+                    else if ( $params['post_sort_by'] === 'count' )
+                        asort( $tags, SORT_NUMERIC );
+                    else if ( $params['post_sort_by'] === 'count_reverse' )
+                        arsort( $tags, SORT_NUMERIC );
+                }
+
                 $maxFontSize = 200;
                 $minFontSize = 100;
 
