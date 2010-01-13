@@ -1500,7 +1500,7 @@ class eZWebinInstaller extends eZSiteInstaller
                 "MatrixCells" => $siteaccessAliasTable 
             ), 
             "footer_text" => array( 
-                "DataText" => "Copyright &#169; " . date( 'Y' ) . " eZ Systems AS. All rights reserved." 
+                "DataText" => "Copyright &#169; " . date( 'Y' ) . " <a href=\"http://ez.no\" title=\"eZ Systems\">eZ Systems AS</a> (except where otherwise noted). All rights reserved." 
             ), 
             "hide_powered_by" => array( 
                 "DataInt" => 0 
