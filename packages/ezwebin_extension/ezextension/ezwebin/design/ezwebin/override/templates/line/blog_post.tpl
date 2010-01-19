@@ -9,7 +9,7 @@
     <div class="attribute-byline">
         <p class="date">{$node.data_map.publication_date.content.timestamp|l10n(shortdatetime)}</p>
         <p class="author">{$node.object.owner.name}</p>
-        <p class="tags"> Tags: {foreach $node.data_map.tags.content.keywords as $keyword}
+        <p class="tags"> {"Tags:"|i18n("design/ezwebin/full/blog_post")} {foreach $node.data_map.tags.content.keywords as $keyword}
                                            <a href={concat( $node.parent.url_alias, "/(tag)/", $keyword|rawurlencode )|ezurl} title="{$keyword}">{$keyword}</a>
                                            {delimiter}
                                                ,

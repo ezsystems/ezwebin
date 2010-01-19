@@ -3,6 +3,8 @@ Changes from 1.5-0 to 1.5-1
 *Bugs*
 - Fixed bug #15849: Unknown session variable 'LastAccessesURI'
   (Merged from ezwebin trunk rev. 4341)
+- Fixed bug #16029: Word "Tags" is added to template without i18n in line/blog_post
+  (Merged from ezwebin trunk rev. 4383)
   
 *Enhancements*
 
