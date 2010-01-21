@@ -25,9 +25,7 @@
 //
 
 $eZTemplateOperatorArray = array();
-$eZTemplateOperatorArray[] = array( 'script' => 'extension/ezwebin/autoloads/ezcreateclasslistgroups.php',
-                                    'class' => 'eZCreateClassListGroups',
-                                    'operator_names' => array( 'ezcreateclasslistgroups' ) );
+
 $eZTemplateOperatorArray[] = array( 'script' => 'extension/ezwebin/autoloads/ezkeywordlist.php',
                                     'class' => 'eZKeywordList',
                                     'operator_names' => array( 'ezkeywordlist' ) );
