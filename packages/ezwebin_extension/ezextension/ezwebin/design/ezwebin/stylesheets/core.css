@@ -523,6 +523,35 @@ div.break /* Old method for terminating floating elements flow; kept for backwar
     margin-bottom: -1px;
 }
 
+/* SPLIT THREE */
+
+div.split
+{
+    clear: both;
+}
+
+div.split-content
+{
+    border: none;
+}
+
+div.split div.three-left
+{
+    width: 31%;
+    float: left;
+}
+
+div.split div.three-right
+{
+    width: 31%;
+    float: right;
+}
+
+div.split div.three-center
+{
+    margin: 0 35% 0 35%;
+}
+
 
 /* MISCELLANEOUS STYLES */
 

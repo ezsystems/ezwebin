@@ -2283,43 +2283,6 @@ div.separator
     clear: both;
 }
 
-/* SPLIT THREE */
-
-div.split
-{
-    clear: both;
-}
-
-div.split-content
-{
-    border: none;
-}
-
-div.split div.three-left
-{
-    width: 31%;
-    float: left;
-}
-
-div.split div.three-right
-{
-    width: 31%;
-    float: right;
-}
-
-div.split div.three-center
-{
-    margin: 0 35% 0 35%;
-}
-
-div.break
-{
-    clear: both;
-    font-size: 1px; /* Fix for IE */
-    height: 1px;
-    margin-bottom: -1px;
-}
-
 /* AGENDA */
 
 div#ezagenda_calendar_left
