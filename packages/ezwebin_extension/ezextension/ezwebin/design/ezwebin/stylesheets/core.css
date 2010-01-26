@@ -301,13 +301,24 @@ optgroup
     font-style: normal;
 }
 
-input.button, button, input.defaultbutton
+input.button, button, input.defaultbutton, input.button-disabled
 {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     text-align: center;
     vertical-align: middle;
     font-size: 0.8em;
     color: #343434;
+}
+
+input.defaultbutton
+{
+	font-weight: bold;
+}
+
+input.button-disabled
+{
+    cursor: default;
+    color: #999;
 }
 
 input.box, textarea.box
@@ -415,10 +426,15 @@ div.block /* Used around groups of objects which are connected in some way, and 
     clear: both;
 }
 
-div.block div.element /* Used if several objects are to be stacked horizontally within the same block */
+div.block div.element, div.block div.halfelement /* Used if several objects are to be stacked horizontally within the same block */
 {
     padding-right: 1em;
     float: left;
+}
+
+div.halfelement
+{
+    width: 48%;
 }
 
 div.block div.left /* Floats elements to the left in a block */
@@ -433,6 +449,16 @@ div.block div.right /* Floats elements to the right in a block */
     width: 48%;
     float: right;
     clear: right;
+}
+
+div.button-left
+{
+    float: left;
+}
+
+div.button-right
+{
+    float: right;
 }
 
 p.text-left, td.text-left, th.text-left, *.text-left
@@ -503,6 +529,11 @@ div.break /* Old method for terminating floating elements flow; kept for backwar
 div.oe-window /* Needed by OE 5.0 when translating content */
 {
     clear: both;
+}
+
+.small
+{
+    font-size: 85%;
 }
 
 .hide /* Used on elements which should only be visible if CSS in disabled or unavailable */
