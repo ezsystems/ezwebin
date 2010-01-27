@@ -4,6 +4,8 @@
 {def $basket_is_empty   = cond( $current_user.is_logged_in, fetch( shop, basket ).is_empty, 1 )
      $user_hash         = concat( $current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ) )}
 
+{include uri='design:page_head_displaystyles.tpl'}
+
 {if is_set( $extra_cache_key )|not}
     {def $extra_cache_key = ''}
 {/if}
