@@ -4,3 +4,5 @@ Changes from 1.4-3 to 1.4-4
 
 - Fixed bug #15849: Unknown session variable 'LastAccessesURI'
   (Merged from ezwebin trunk rev. 4341)
+- Fixed bug #11532: it is not possible to use " in title of site without corupting html
+  (Merged from ezwebin trunk rev. 4400)
