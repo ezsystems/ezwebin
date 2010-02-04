@@ -388,6 +388,8 @@ class eZWebinInstaller extends eZSiteInstaller
                                                                                    array( 'module' => 'rss',
                                                                                           'function' => 'feed' ),
                                                                                    array( 'module' => 'content',
+                                                                                          'function' => 'bookmark' ),
+                                                                                   array( 'module' => 'content',
                                                                                           'function' => 'pendinglist' ) ) ) ),
                                    array( '_function' => 'createContentObject',
                                           '_params' => array( 'class_identifier' => 'user_group',
