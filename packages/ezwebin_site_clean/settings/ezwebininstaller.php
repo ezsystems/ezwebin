@@ -836,6 +836,10 @@ class eZWebinInstaller extends eZSiteInstaller
                         array( 
                             'module' => 'content', 
                             'function' => 'pendinglist' 
+                        ), 
+                        array( 
+                            'module' => 'content', 
+                            'function' => 'dashboard' 
                         ) 
                     ) 
                 ) 
