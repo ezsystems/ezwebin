@@ -26,39 +26,39 @@
         </div>
 
         {def $page_limit=12
-             $children = fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
-                                                         'offset', $view_parameters.offset,
-                                                         'limit', $page_limit,
-                                                         'class_filter_type', 'include',
-                                                         'class_filter_array', array( 'image', 'flash_player' ),
-                                                         'sort_by', $node.sort_array ) )
              $children_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id,
                                                                      'class_filter_type', 'include',
                                                                      'class_filter_array', array( 'image', 'flash_player' ) ) )}
 
-        {if $children|count}
+        {if $children_count}
+            {def $children = fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
+                                                             'offset', $view_parameters.offset,
+                                                             'limit', $page_limit,
+                                                             'class_filter_type', 'include',
+                                                             'class_filter_array', array( 'image', 'flash_player' ),
+                                                             'sort_by', $node.sort_array ) )}
             <div class="attribute-link">
                 <p>
                 <a href={$children[0].url_alias|ezurl}>{'View as slideshow'|i18n( 'design/ezwebin/full/gallery' )}</a>
                 </p>
             </div>
 
-           <div class="content-view-children">
-               {def $filters = ezini( 'gallerythumbnail', 'Filters', 'image.ini' )}
-               
-                {foreach $filters as $filter}
-                   {if or($filter|contains( "geometry/scale" ), $filter|contains( "geometry/scaledownonly" ), $filter|contains( "geometry/crop" ) )}
-                      {def $image_style = $filter|explode("=").1}
-                      {set $image_style = concat("width:", $image_style|explode(";").0, "px ;", "height:", $image_style|explode(";").1, "px")}
-                      {break}
-                   {/if}
-                {/foreach}
-           
-               {foreach $children as $child}
-                   {node_view_gui view=galleryline content_node=$child}
-               {/foreach}
+            <div class="content-view-children">
+                {def $filters = ezini( 'gallerythumbnail', 'Filters', 'image.ini' )}
 
-           </div>
+                    {foreach $filters as $filter}
+                    {if or($filter|contains( "geometry/scale" ), $filter|contains( "geometry/scaledownonly" ), $filter|contains( "geometry/crop" ) )}
+                        {def $image_style = $filter|explode("=").1}
+                        {set $image_style = concat("width:", $image_style|explode(";").0, "px ;", "height:", $image_style|explode(";").1, "px")}
+                        {break}
+                    {/if}
+                    {/foreach}
+
+                {foreach $children as $child}
+                    {node_view_gui view=galleryline content_node=$child}
+                {/foreach}
+
+            </div>
         {/if}
 
         {include name=navigator

@@ -1,7 +1,5 @@
 {def $page_limit=15
-     $list_count=fetch( 'content', 'pending_count' )
-     $pending_list=fetch( 'content', 'pending_list', hash( 'limit', $page_limit,
-                                                           'offset', $view_parameters.offset ) )}
+     $list_count=fetch( 'content', 'pending_count' )}
 <div class="border-box">
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
 <div class="border-ml"><div class="border-mr"><div class="border-mc">
@@ -14,7 +12,7 @@
     <h1 class="long">{'My pending items [%pending_count]'|i18n( 'design/ezwebin/content/pendinglist',, hash( '%pending_count', $list_count ) )}</h1>
 </div>
 
-{if $pending_list|count()}
+{if $list_count}
 
 <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
@@ -25,7 +23,9 @@
     <th>{"Last modified"|i18n("design/ezwebin/content/pendinglist")}</th>
 </tr>
 
-{foreach $pending_list as $pending_item sequence array( 'bglight', 'bgdark' ) as $style}
+{foreach fetch( 'content', 'pending_list', hash( 'limit', $page_limit,
+                                                 'offset', $view_parameters.offset ) ) as $pending_item
+         sequence array( 'bglight', 'bgdark' ) as $style}
 <tr class="{$style}">
    <td>
         {$pending_item.contentobject.content_class.identifier|class_icon( small, $pending_item.contentobject.content_class.name )}&nbsp;<a href={concat( "/content/versionview/", $pending_item.contentobject.id, "/", $pending_item.version )|ezurl} title="{$pending_item.contentobject.name|wash}">{$pending_item.contentobject.name|wash}</a>

@@ -1,12 +1,11 @@
 {def $number_of_items=10
-     $subscribed_nodes=fetch( 'notification', 'subscribed_nodes', hash( 'limit', $number_of_items, 'offset', $view_parameters.offset ) )
      $subscribed_nodes_count=fetch( 'notification', 'subscribed_nodes_count' )}
 
 <br />
 
 <h2>{'My item notifications [%notification_count]'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit', , hash( '%notification_count', $subscribed_nodes_count ) )}</h2>
 
-{if $subscribed_nodes_count|gt( 0 )}
+{if $subscribed_nodes_count}
 
 <table class="list" width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
@@ -24,7 +23,9 @@
     </th>
 </tr>
 
-{foreach $subscribed_nodes as $rule sequence array( 'bgdark', 'bglight' ) as $style}
+{foreach fetch( 'notification', 'subscribed_nodes', hash( 'limit', $number_of_items,
+                                                          'offset', $view_parameters.offset ) ) as $rule
+         sequence array( 'bgdark', 'bglight' ) as $style}
 <tr class="{$style}">
     <td>
           <input type="checkbox" name="SelectedRuleIDArray_{$handler.id_string}[]" value="{$rule.id}" />
@@ -57,7 +58,7 @@
          item_limit=$number_of_items}
 
 <div class="buttonblock">
-{if $subscribed_nodes_count|gt( 0 )}
+{if $subscribed_nodes_count}
 <input class="button" type="submit" name="RemoveRule_{$handler.id_string}" value="{'Remove selected'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}" /> 
 {/if}
 <input class="button" type="submit" name="NewRule_{$handler.id_string}" value="{'Add items'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}" />

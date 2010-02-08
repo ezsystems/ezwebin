@@ -1,5 +1,4 @@
 {def $plimit=30
-     $version_list=fetch('content','version_list',hash(contentobject, $object,limit,$plimit,offset,$view_parameters.offset))
      $list_count=fetch( content, version_count, hash( contentobject, $object ) )
      $languages=fetch( content, prioritized_languages )
      $initLang=false()
@@ -14,7 +13,7 @@
     <h1 class="long">{'Versions for <%object_name> [%version_count]'|i18n( 'design/ezwebin/content/diff',, hash( '%object_name', $object.name, '%version_count', $list_count ) )|wash}</h1>
 </div>
 
-{if $version_list}
+{if $list_count}
     <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">
         <tr>
             <th>
@@ -33,7 +32,9 @@
                 {"Modified"|i18n("design/ezwebin/content/diff")}:
             </th>
         </tr>
-        {foreach $version_list as $version
+        {foreach fetch( 'content', 'version_list', hash( 'contentobject', $object,
+                                                         'limit', $plimit,
+                                                         'offset', $view_parameters.offset ) ) as $version
                  sequence array( 'bglight', 'bgdark' ) as $seq}
         {set $initLang=$version.initial_language}
         <tr class="{$seq}">

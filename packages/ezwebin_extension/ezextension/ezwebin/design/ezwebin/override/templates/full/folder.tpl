@@ -42,20 +42,21 @@
                 {set $classes = $classes|merge( ezini( 'ChildrenNodeList', 'ExcludedClasses', 'content.ini' ) )}
             {/if}
 
-            {set $children=fetch_alias( 'children', hash( 'parent_node_id', $node.node_id,
-                                                          'offset', $view_parameters.offset,
-                                                          'sort_by', $node.sort_array,
-                                                          'class_filter_type', 'exclude',
-                                                          'class_filter_array', $classes,
-                                                          'limit', $page_limit ) )
-                 $children_count=fetch_alias( 'children_count', hash( 'parent_node_id', $node.node_id,
+            {set $children_count=fetch_alias( 'children_count', hash( 'parent_node_id', $node.node_id,
                                                                       'class_filter_type', 'exclude',
                                                                       'class_filter_array', $classes ) )}
 
             <div class="content-view-children">
-                {foreach $children as $child }
-                    {node_view_gui view='line' content_node=$child}
-                {/foreach}
+                {if $children_count}
+                    {foreach fetch_alias( 'children', hash( 'parent_node_id', $node.node_id,
+                                                            'offset', $view_parameters.offset,
+                                                            'sort_by', $node.sort_array,
+                                                            'class_filter_type', 'exclude',
+                                                            'class_filter_array', $classes,
+                                                            'limit', $page_limit ) ) as $child }
+                        {node_view_gui view='line' content_node=$child}
+                    {/foreach}
+                {/if}
             </div>
 
             {include name=navigator

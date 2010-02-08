@@ -1,8 +1,4 @@
 {def $page_limit = 20
-     $topic_list = fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
-                                                  'limit', $page_limit,
-                                                  'offset', $view_parameters.offset,
-                                                  'sort_by', array( array( attribute, false(), 'forum_topic/sticky' ), array( 'modified_subnode', false() ), array( 'node_id', false() ) ) ) )
      $topic_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id ) )}
 
 <div class="border-box">
@@ -62,61 +58,68 @@
             </th>
         </tr>
 
-        {section var=topic loop=$topic_list sequence=array( bglight, bgdark )}
-        {let topic_reply_count=fetch( 'content', 'tree_count', hash( parent_node_id, $topic.node_id ) )
-             topic_reply_pages=sum( int( div( sum( $topic_reply_count, 1 ), 20 ) ), cond( mod( sum( $topic_reply_count, 1 ), 20 )|gt( 0 ), 1, 0 ) )}
-        <tr class="{$topic.sequence}">
-            <td class="topic">
-                <p>{section show=$topic.object.data_map.sticky.content}<img class="forum-topic-sticky" src={"sticky-16x16-icon.gif"|ezimage} height="16" width="16" align="middle" alt="" />{/section}
-                <a href={$topic.url_alias|ezurl}>{$topic.object.name|wash}</a></p>
-                {section show=$topic_reply_count|gt( sub( 20, 1 ) )}
-                    <p>
-                    {'Pages'|i18n( 'design/ezwebin/full/forum' )}:
-                    {section show=$topic_reply_pages|gt( 5 )}
-                        <a href={$topic.url_alias|ezurl}>1</a>...
-                        {section var=reply_page loop=$topic_reply_pages offset=sub( $topic_reply_pages, sub( 5, 1 ) )}
-                            <a href={concat( $topic.url_alias, '/(offset)/', mul( sub( $reply_page, 1 ), 20 ) )|ezurl}>{$reply_page}</a>
+        {if $topic_count}
+            {section var=topic
+                     loop=fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
+                                                          'limit', $page_limit,
+                                                          'offset', $view_parameters.offset,
+                                                          'sort_by', array( array( attribute, false(), 'forum_topic/sticky' ), array( 'modified_subnode', false() ), array( 'node_id', false() ) ) ) )
+                     sequence=array( bglight, bgdark )}
+            {let topic_reply_count=fetch( 'content', 'tree_count', hash( parent_node_id, $topic.node_id ) )
+                topic_reply_pages=sum( int( div( sum( $topic_reply_count, 1 ), 20 ) ), cond( mod( sum( $topic_reply_count, 1 ), 20 )|gt( 0 ), 1, 0 ) )}
+            <tr class="{$topic.sequence}">
+                <td class="topic">
+                    <p>{section show=$topic.object.data_map.sticky.content}<img class="forum-topic-sticky" src={"sticky-16x16-icon.gif"|ezimage} height="16" width="16" align="middle" alt="" />{/section}
+                    <a href={$topic.url_alias|ezurl}>{$topic.object.name|wash}</a></p>
+                    {section show=$topic_reply_count|gt( sub( 20, 1 ) )}
+                        <p>
+                        {'Pages'|i18n( 'design/ezwebin/full/forum' )}:
+                        {section show=$topic_reply_pages|gt( 5 )}
+                            <a href={$topic.url_alias|ezurl}>1</a>...
+                            {section var=reply_page loop=$topic_reply_pages offset=sub( $topic_reply_pages, sub( 5, 1 ) )}
+                                <a href={concat( $topic.url_alias, '/(offset)/', mul( sub( $reply_page, 1 ), 20 ) )|ezurl}>{$reply_page}</a>
+                            {/section}
+                        {section-else}
+                            <a href={$topic.url_alias|ezurl}>1</a>
+                            {section var=reply_page loop=$topic_reply_pages offset=1}
+                                <a href={concat( $topic.url_alias, '/(offset)/', mul( sub( $reply_page, 1 ), 20 ) )|ezurl}>{$reply_page}</a>
+                            {/section}
                         {/section}
-                    {section-else}
-                        <a href={$topic.url_alias|ezurl}>1</a>
-                        {section var=reply_page loop=$topic_reply_pages offset=1}
-                            <a href={concat( $topic.url_alias, '/(offset)/', mul( sub( $reply_page, 1 ), 20 ) )|ezurl}>{$reply_page}</a>
-                        {/section}
+                        </p>
                     {/section}
+                </td>
+                <td class="replies">
+                    <p>{$topic_reply_count}</p>
+                </td>
+                <td class="author">
+                    <div class="attribute-byline">
+                    <p class="author">{$topic.object.owner.name|wash}</p>
+                    </div>
+                </td>
+                <td class="lastreply">
+                {let last_reply=fetch('content','list',hash( parent_node_id, $topic.node_id,
+                                                            sort_by, array( array( 'published', false() ) ),
+                                                            limit, 1 ) )}
+                    {section var=reply loop=$last_reply show=$last_reply}
+                    <div class="attribute-byline">
+                    <p class="date">{$reply.object.published|l10n(shortdatetime)}</p>
+                    <p class="author">
+                    {section show=$topic_reply_count|gt( 19 )}
+                        <a href={concat( $reply.parent.url_alias, '/(offset)/', sub( $topic_reply_count, mod( $topic_reply_count, 20 ) ) , '#msg', $reply.node_id )|ezurl}>Last reply by:</a>
+                    {section-else}
+                        <a href={concat( $reply.parent.url_alias, '#msg', $reply.node_id )|ezurl}>Last reply by:</a>
+                    {/section}
+                    {$reply.object.owner.name|wash}
                     </p>
-                {/section}
+                    </div>
+
+                    {/section}
+            {/let}
             </td>
-            <td class="replies">
-                <p>{$topic_reply_count}</p>
-            </td>
-            <td class="author">
-                <div class="attribute-byline">
-                   <p class="author">{$topic.object.owner.name|wash}</p>
-                </div>
-            </td>
-            <td class="lastreply">
-            {let last_reply=fetch('content','list',hash( parent_node_id, $topic.node_id,
-                                                         sort_by, array( array( 'published', false() ) ),
-                                                         limit, 1 ) )}
-                {section var=reply loop=$last_reply show=$last_reply}
-                <div class="attribute-byline">
-                   <p class="date">{$reply.object.published|l10n(shortdatetime)}</p>
-                   <p class="author">
-{section show=$topic_reply_count|gt( 19 )}
-                    <a href={concat( $reply.parent.url_alias, '/(offset)/', sub( $topic_reply_count, mod( $topic_reply_count, 20 ) ) , '#msg', $reply.node_id )|ezurl}>Last reply by:</a> 
-                {section-else}
-                    <a href={concat( $reply.parent.url_alias, '#msg', $reply.node_id )|ezurl}>Last reply by:</a> 
-                {/section}                   
-                   {$reply.object.owner.name|wash}
-                   </p>
-                </div>
-                
-                {/section}
-           {/let}
-           </td>
-        </tr>
-        {/let}
-        {/section}
+            </tr>
+            {/let}
+            {/section}
+        {/if}
         </table>
 
     </div>

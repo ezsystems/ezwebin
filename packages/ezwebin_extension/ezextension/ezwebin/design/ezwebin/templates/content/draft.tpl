@@ -52,9 +52,7 @@ function checkAll()
     <h1 class="long">{"My drafts"|i18n("design/ezwebin/content/draft")}</h1>
 </div>
 
-{def $draft_list=fetch('content','draft_version_list',hash(limit,$page_limit,offset,$view_parameters.offset))}
-
-{if $draft_list|count()}
+{if $list_count}
 
 <div class="buttonblock">
 <input class="button" type="submit" name="EmptyButton" value="{'Empty draft'|i18n('design/ezwebin/content/draft')}" />
@@ -77,7 +75,8 @@ function checkAll()
     <th>{"Edit"|i18n("design/ezwebin/content/draft")}</th>
 </tr>
 
-{foreach $draft_list as $draft sequence array(bglight,bgdark) as $style}
+{foreach fetch('content', 'draft_version_list', hash( 'limit', $page_limit, 'offset', $view_parameters.offset ) ) as $draft
+         sequence array(bglight,bgdark) as $style}
 <tr class="{$style}">
     <td align="left" width="1">
         <input type="checkbox" name="DeleteIDArray[]" value="{$draft.id}" />

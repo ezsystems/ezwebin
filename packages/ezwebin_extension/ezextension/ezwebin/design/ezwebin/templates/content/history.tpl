@@ -38,7 +38,6 @@
 
 
 {def $page_limit   = 30
-     $version_list = fetch(content,version_list,hash(contentobject, $object,limit,$page_limit,offset,$view_parameters.offset))
      $list_count   = fetch(content,version_count, hash(contentobject, $object))
      $current_user = fetch( 'user', 'current_user' )}
 
@@ -49,7 +48,7 @@
     <h1 class="long">{'Versions for <%object_name> [%version_count]'|i18n( 'design/ezwebin/content/history',, hash( '%object_name', $object.name, '%version_count', $list_count ) )|wash}</h1>
 </div>
 
-{if $version_list}
+{if $list_count}
 <table class="list" cellspacing="0">
 <tr>
     <th class="tight"><img src={'toggle-button-16x16.gif'|ezimage} alt="{'Toggle selection'|i18n( 'design/ezwebin/content/history' )}" onclick="ezjs_toggleCheckboxes( document.versionsform, 'DeleteIDArray[]' ); return false;" /></th>
@@ -64,8 +63,10 @@
 </tr>
 
 
-{foreach $version_list as $version
-    sequence array( bglight, bgdark ) as $seq
+{foreach fetch( content, version_list, hash( 'contentobject', $object,
+                                             'limit', $page_limit,
+                                             'offset', $view_parameters.offset ) ) as $version
+         sequence array( bglight, bgdark ) as $seq
 }
 
 {def $initial_language = $version.initial_language}

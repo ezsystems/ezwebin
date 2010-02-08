@@ -29,20 +29,21 @@
 
         {if $node.object.data_map.show_children.data_int}
             {def $page_limit=10
-                 $children=fetch_alias( 'children', hash( parent_node_id, $node.node_id,
-                                                             offset, $view_parameters.offset,
-                                                             sort_by, $node.sort_array,
-                                                             class_filter_type, exclude,
-                                                             class_filter_array, ezini( 'MenuContentSettings', 'ExtraIdentifierList', 'menu.ini' ),
-                                                             limit, $page_limit ) )
                  $children_count=fetch_alias( 'children_count', hash( parent_node_id, $node.node_id,
                                                              class_filter_type, exclude,
                                                              class_filter_array, ezini( 'MenuContentSettings', 'ExtraIdentifierList', 'menu.ini' ) ) )}
 
             <div class="content-view-children">
-                {foreach $children as $child }
-                    {node_view_gui view='line' content_node=$child}
-                {/foreach}
+                {if $children_count}
+                    {foreach fetch_alias( 'children', hash( 'parent_node_id', $node.node_id,
+                                                            'offset', $view_parameters.offset,
+                                                            'sort_by', $node.sort_array,
+                                                            'class_filter_type', exclude,
+                                                            'class_filter_array', ezini( 'MenuContentSettings', 'ExtraIdentifierList', 'menu.ini' ),
+                                                            'limit', $page_limit ) ) as $child }
+                        {node_view_gui view='line' content_node=$child}
+                    {/foreach}
+                {/if}
             </div>
 
             {include name=navigator

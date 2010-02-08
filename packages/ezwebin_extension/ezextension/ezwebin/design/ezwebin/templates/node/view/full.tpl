@@ -68,26 +68,26 @@
         {elseif and( is_set( $node.data_map.show_children ), $node.data_map.show_children.data_int )}
                 {def $page_limit = first_set($node.data_map.show_children_pr_page.data_int, 10)
                      $classes = ezini( 'MenuContentSettings', 'ExtraIdentifierList', 'menu.ini' )
-                     $children = array()
                      $children_count = ''}
                 {if is_set( $node.data_map.show_children_exclude )}
                     {set $classes = $node.data_map.show_children_exclude.content|explode(',')}
                 {/if}
 
-                {set $children=fetch_alias( 'children', hash( 'parent_node_id', $node.node_id,
-                                                              'offset', $view_parameters.offset,
-                                                              'sort_by', $node.sort_array,
-                                                              'class_filter_type', 'exclude',
-                                                              'class_filter_array', $classes,
-                                                              'limit', $page_limit ) )
-                     $children_count=fetch_alias( 'children_count', hash( 'parent_node_id', $node.node_id,
+                {set $children_count=fetch_alias( 'children_count', hash( 'parent_node_id', $node.node_id,
                                                                           'class_filter_type', 'exclude',
                                                                           'class_filter_array', $classes ) )}
 
                 <div class="content-view-children">
-                    {foreach $children as $child }
-                        {node_view_gui view='line' content_node=$child}
-                    {/foreach}
+                    {if $children_count}
+                        {foreach fetch_alias( 'children', hash( 'parent_node_id', $node.node_id,
+                                                                'offset', $view_parameters.offset,
+                                                                'sort_by', $node.sort_array,
+                                                                'class_filter_type', 'exclude',
+                                                                'class_filter_array', $classes,
+                                                                'limit', $page_limit ) ) as $child }
+                            {node_view_gui view='line' content_node=$child}
+                        {/foreach}
+                    {/if}
                 </div>
 
                 {include name=navigator

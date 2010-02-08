@@ -3,10 +3,6 @@
                        19 )
      reply_offset=cond( $view_parameters.offset|gt( 0 ), sub( $view_parameters.offset, 1 ),
                         $view_parameters.offset )
-     reply_list=fetch('content','list', hash( parent_node_id, $node.node_id,
-                                              limit, $reply_limit,
-                                              offset, $reply_offset,
-                                              sort_by, array( array( published, true() ) ) ) )
      reply_count=fetch('content','list_count', hash( parent_node_id, $node.node_id ) )
      previous_topic=fetch_alias( subtree, hash( parent_node_id, $node.parent_node_id,
                                                 class_filter_type, include,
@@ -157,73 +153,79 @@
            </tr>
            {/section}
 
-           {section var=reply loop=$reply_list sequence=array( bgdark, bglight )}
-           <tr class="{$reply.sequence}">
-               <td class="author">
-               {let owner=$reply.object.owner owner_map=$owner.data_map}
-                   <p class="author">{$owner.name|wash}
-                   {section show=is_set( $owner_map.title )}
-                       <br/>{$owner_map.title.content|wash}
-                   {/section}</p>
+            {if $reply_count}
+                {section var=reply
+                         loop=fetch('content','list', hash( 'parent_node_id', $node.node_id,
+                                                            'limit', $reply_limit,
+                                                            'offset', $reply_offset,
+                                                            'sort_by', array( array( published, true() ) ) ) )
+                         sequence=array( bgdark, bglight )}
+                <tr class="{$reply.sequence}">
+                    <td class="author">
+                    {let owner=$reply.object.owner owner_map=$owner.data_map}
+                        <p class="author">{$owner.name|wash}
+                        {section show=is_set( $owner_map.title )}
+                            <br/>{$owner_map.title.content|wash}
+                        {/section}</p>
 
-                   {section show=$owner_map.image.has_content}
-                   <div class="authorimage">
-                      {attribute_view_gui attribute=$owner_map.image image_class=small}
-                   </div>
-                   {/section}
+                        {section show=$owner_map.image.has_content}
+                        <div class="authorimage">
+                            {attribute_view_gui attribute=$owner_map.image image_class=small}
+                        </div>
+                        {/section}
 
-                   {section show=is_set( $owner_map.location )}
-                       <p>{"Location"|i18n( "design/ezwebin/full/forum_topic" )}: {$owner_map.location.content|wash}</p>
-                   {/section}
+                        {section show=is_set( $owner_map.location )}
+                            <p>{"Location"|i18n( "design/ezwebin/full/forum_topic" )}: {$owner_map.location.content|wash}</p>
+                        {/section}
 
-                   {let owner_id=$reply.object.owner.id}
-                       {section var=author loop=$reply.object.author_array}
-                           {section show=ne( $reply.object.owner_id, $author.contentobject_id )}
-                               <p>
-                                   {'Moderated by'|i18n( 'design/ezwebin/full/forum_topic' )}: {$author.contentobject.name|wash}
-                               </p>
-                           {/section}
-                       {/section}
-                   {/let}
+                        {let owner_id=$reply.object.owner.id}
+                            {section var=author loop=$reply.object.author_array}
+                                {section show=ne( $reply.object.owner_id, $author.contentobject_id )}
+                                    <p>
+                                        {'Moderated by'|i18n( 'design/ezwebin/full/forum_topic' )}: {$author.contentobject.name|wash}
+                                    </p>
+                                {/section}
+                            {/section}
+                        {/let}
 
-                   {switch match=$reply.object.can_edit}
-                   {case match=1}
-                       <form method="post" action={"content/action/"|ezurl}>
-                       <input type="hidden" name="ContentObjectID" value="{$reply.object.id}" />
-                       <input class="button" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/full/forum_topic')}" />
-                       <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
-                       </form>
-                   {/case}
-                   {case match=0}
-                   {/case}
-                   {/switch}
-                  {section show=$node.object.can_remove}
-                      <form method="post" action={"content/action/"|ezurl}>
-                          <input type="hidden" name="ContentObjectID" value="{$reply.object.id}" />
-                          <input type="hidden" name="ContentNodeID" value="{$reply.node_id}" />
-                          <input class="button" type="submit" name="ActionRemove" value="{'Remove'|i18n( 'design/ezwebin/full/forum_topic' )}" title="{'Remove this item.'|i18n( 'design/ezwebin/full/forum_topic' )}" />
-                          </form>
-                  {/section}
+                        {switch match=$reply.object.can_edit}
+                        {case match=1}
+                            <form method="post" action={"content/action/"|ezurl}>
+                            <input type="hidden" name="ContentObjectID" value="{$reply.object.id}" />
+                            <input class="button" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/full/forum_topic')}" />
+                            <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
+                            </form>
+                        {/case}
+                        {case match=0}
+                        {/case}
+                        {/switch}
+                        {section show=$node.object.can_remove}
+                            <form method="post" action={"content/action/"|ezurl}>
+                                <input type="hidden" name="ContentObjectID" value="{$reply.object.id}" />
+                                <input type="hidden" name="ContentNodeID" value="{$reply.node_id}" />
+                                <input class="button" type="submit" name="ActionRemove" value="{'Remove'|i18n( 'design/ezwebin/full/forum_topic' )}" title="{'Remove this item.'|i18n( 'design/ezwebin/full/forum_topic' )}" />
+                                </form>
+                        {/section}
 
 
-               </td>
-               <td class="message">
-                   <p class="date">{$reply.object.published|l10n( datetime )}</p>
+                    </td>
+                    <td class="message">
+                        <p class="date">{$reply.object.published|l10n( datetime )}</p>
 
-                   <a id="msg{$reply.node_id}"></a>
-                   <p>
-                       {$reply.object.data_map.message.content|simpletags|wordtoimage|autolink}
-                   </p>
+                        <a id="msg{$reply.node_id}"></a>
+                        <p>
+                            {$reply.object.data_map.message.content|simpletags|wordtoimage|autolink}
+                        </p>
 
-                   {section show=$owner_map.signature.has_content}
-                       <p class="author-signature">{$owner_map.signature.content|simpletags|autolink}</p>
-                   {/section}
-               {/let}
-               </td>
-           </tr>
-           {/section}
-
-           </table>
+                        {section show=$owner_map.signature.has_content}
+                            <p class="author-signature">{$owner_map.signature.content|simpletags|autolink}</p>
+                        {/section}
+                    {/let}
+                    </td>
+                </tr>
+                {/section}
+            {/if}
+            </table>
 
 
 
