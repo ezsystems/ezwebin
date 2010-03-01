@@ -15,7 +15,7 @@
             <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="203" ezremote:identifier="center_column" name="Center column" type="ezxmltext">
               <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                 <section>
-                  <header>Welcome to your new eZ Publish 4.2 installation</header>
+                  <header>Welcome to your new eZ Publish installation</header>
                   <paragraph align="LEFT">You chose the Website Interface package with a clean install and no evaluation data, this installation is empty of content.</paragraph>
                   <paragraph align="LEFT">This page is the home page of your website, you can access the administration interface of your website by selecting the appropriate check box on the <link href="/user/login">login page</link>. You will need to use the "admin" username and the password you defined when installing eZ Publish.</paragraph>
                   <paragraph align="LEFT">If you want to use the eZ toolbar for front end editing, please <link href="/user/login">login</link> to the website with the same administrator account or with any account you might have setup with sufficient rights.</paragraph>
