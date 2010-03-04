@@ -9,6 +9,7 @@ Changes from 1.5-0 to 1.6-0
 - Fixed bug #16117: Some default user groups does not have access to dashboard
 - Fixed bug #16245: Discard draft in frontend editing eZ Redirects to /1
 - Fixed bug #16293: date picker navigation icons problem
+- Fixed bug #16310: Class "Templates settings" should not have attribute "Language settings"
 
 *Enhancements*
 
