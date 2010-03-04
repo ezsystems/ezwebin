@@ -1,3 +1,25 @@
+{ezscript_require( 'ezjsc::yui2' )}
+{ezcss_require( 'calendar.css' )}
+
+<script type="text/javascript">
+(function() {ldelim}
+    YUILoader.addModule({ldelim}
+        name: 'datepicker',
+        type: 'js',
+        fullpath: '{"javascript/ezdatepicker.js"|ezdesign( 'no' )}',
+        requires: ["calendar"],
+        after: ["calendar"],
+        skinnable: false
+    {rdelim});
+
+    YUILoader.require(["datepicker"]);
+
+    // Load the files using the insert() method.
+    var options = [];
+    YUILoader.insert(options, "js");
+{rdelim})();
+</script>
+
 {default attribute_base=ContentObjectAttribute}
 <div class="block">
 <div class="date">
