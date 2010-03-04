@@ -1,5 +1,7 @@
+{def $base = ezini('eZJSCore', 'LocalScriptBasePath', 'ezjscore.ini')}
+
 {ezscript_require( 'ezjsc::yui2' )}
-{ezcss_require( 'calendar.css' )}
+{ezcss_require( concat( '/', $base.yui2, 'calendar/assets/calendar.css' ) )}
 
 <script type="text/javascript">
 (function() {ldelim}
