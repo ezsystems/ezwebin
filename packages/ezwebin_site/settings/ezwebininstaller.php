@@ -27,7 +27,6 @@
 //
 
 include_once( 'kernel/classes/ezsiteinstaller.php' );
-include_once( 'kernel/classes/datatypes/ezmatrix/ezmatrixdefinition.php' );
 
 class eZWebinInstaller extends eZSiteInstaller
 {
@@ -609,21 +608,8 @@ class eZWebinInstaller extends eZSiteInstaller
         $ini->setVariable( 'FileSettings', 'VarDir', $this->setting( 'var_dir' ) );
     }
 
-    function languageMatrixDefinition()
-    {
-        $matrixDefinition = new eZMatrixDefinition();
-        $matrixDefinition->addColumn( "Site URL", "site_url" );
-        $matrixDefinition->addColumn( "Siteaccess", "siteaccess" );
-        $matrixDefinition->addColumn( "Language name", "language_name" );
-        $matrixDefinition->decodeClassAttribute( $matrixDefinition->xmlString() );
-
-        return $matrixDefinition;
-    }
-
     function updateTemplateLookClassAttributes( $params = false )
     {
-        $languageSettingsMatrixDefinition = $this->languageMatrixDefinition();
-
         $newAttributesInfo = array( array( "data_type_string" => "ezurl",
                                            "name" => "Site map URL",
                                            "identifier" => "site_map_url" ),
@@ -651,10 +637,6 @@ class eZWebinInstaller extends eZSiteInstaller
                                     array( "data_type_string" => "ezstring",
                                            "name" => "Site settings (label)",
                                            "identifier" => "site_settings_label" ),
-                                    array( "data_type_string" => "ezmatrix",
-                                           "name" => "Language settings",
-                                           "identifier" => "language_settings",
-                                           "content" => $languageSettingsMatrixDefinition ),
                                     array( "data_type_string" => "eztext",
                                            "name" => "Footer text",
                                            "identifier" => "footer_text" ),
@@ -671,18 +653,6 @@ class eZWebinInstaller extends eZSiteInstaller
 
     function updateTemplateLookObjectAttributes( $params = false )
     {
-        $languageSettingsMatrixDefinition = $this->languageMatrixDefinition();
-
-        // set 'language settings' matrix data
-        $siteaccessAliasTable = array();
-        $siteaccessUrls = $this->setting( 'siteaccess_urls' );
-        foreach( $siteaccessUrls['translation'] as $name => $urlInfo )
-        {
-            $siteaccessAliasTable[] = $urlInfo['url'];
-            $siteaccessAliasTable[] = $name;
-            $siteaccessAliasTable[] = ucfirst( $name );
-        }
-
         //create data array
         $templateLookData = array( "site_map_url" => array( "DataText" => "Site map",
                                                             "Content" => "/content/view/sitemap/2" ),
@@ -695,9 +665,6 @@ class eZWebinInstaller extends eZSiteInstaller
                                     "rss_feed" => array( "DataText" => "/rss/feed/my_feed" ),
                                     "shopping_basket_label" => array( "DataText" => "Shopping basket" ),
                                     "site_settings_label" => array( "DataText" => "Site settings" ),
-                                    "language_settings" => array( "MatrixTitle" => "Language settings",
-                                                                  "MatrixDefinition" => $languageSettingsMatrixDefinition,
-                                                                  "MatrixCells" => $siteaccessAliasTable ),
                                     "footer_text" => array( "DataText" => "Copyright &#169; " . date( 'Y' ) . " eZ Systems AS. All rights reserved." ),
                                     "hide_powered_by" => array( "DataInt" => 0 ),
                                     "footer_script" => array( "DataText" => "" ) );

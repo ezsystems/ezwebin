@@ -6,3 +6,5 @@ Changes from 1.4-3 to 1.4-4
   (Merged from ezwebin trunk rev. 4341)
 - Fixed bug #11532: it is not possible to use " in title of site without corupting html
   (Merged from ezwebin trunk rev. 4400)
+- Fixed bug #16310: Class "Templates settings" should not have attribute "Language settings"
+  (Merged from ezwebin trunk rev. 4463)
