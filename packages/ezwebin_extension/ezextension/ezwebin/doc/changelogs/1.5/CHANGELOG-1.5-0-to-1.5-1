@@ -7,6 +7,8 @@ Changes from 1.5-0 to 1.5-1
   (Merged from ezwebin trunk rev. 4383)
 - Fixed bug #11532: it is not possible to use " in title of site without corupting html
   (Merged from ezwebin trunk rev. 4400)
-  
+- Fixed bug #16293: date picker navigation icons problem
+  (Merged from ezwebin trunk rev. 4459)
+
 *Enhancements*
 
