@@ -438,7 +438,8 @@
     <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">現在作業中のオブジェクトです。下書きの所有者はあなたです、そのためあなたしか見えないです。
+下書きの編集するか、必要ない場合に削除します。</translation>
     </message>
 </context>
 <context>
@@ -532,17 +533,20 @@
     <message>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">このオブジェクトはすでに編集されています
+下書きを編集するか、新しい下書きを作ることができます。</translation>
     </message>
     <message>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">このオブジェクトをすでに編集しています。
+下書きを編集するか、新しい下書きを作ることができます。</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">他人がすでにこのオブジェクトを編集しています。
+編集者に連絡をするか、新しい下書きを作成することができます。</translation>
     </message>
 </context>
 <context>
@@ -1042,7 +1046,10 @@
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">OpenOffice.orgオブジェクトの配置先を選択してください。
+    配置先を選んで、%buttonnameボタンをクリックしてください。
+    お気に入りを利用する事もできます。
+    配置先名にクリックして、ブラウズリストを変更できます。</translation>
     </message>
 </context>
 <context>
@@ -1115,7 +1122,9 @@
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">OpenOffice.org Writerドキュメントを直接eZ Publishにインポートします。ドキュメントの配置先を選択する必要があります。
+ドキュメントは自動的に適切なクラスに変換されます。インポートが終わりましたら、通知が表示されます。
+画像はメディアリソースに登録されるため、他のオブジェクトと共有できます。</translation>
     </message>
 </context>
 <context>
@@ -1138,7 +1147,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">関連コンテント</translation>
     </message>
 </context>
 <context>
@@ -1396,7 +1405,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">関連コンテント</translation>
     </message>
 </context>
 <context>
@@ -2295,7 +2304,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Access not allowed</source>
-        <translation>アクセスがきょかされていません。</translation>
+        <translation type="unfinished">アクセスできません。</translation>
     </message>
     <message>
         <source>You are not allowed to access %1.</source>
