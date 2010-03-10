@@ -1,6 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0">
+<!DOCTYPE TS><TS>
+<context>
+    <name>design/admin/node/view/full</name>
+    <message>
+        <source>Object states for object</source>
+        <translation>Estados de los objetos</translation>
+    </message>
+    <message>
+        <source>Content object state group</source>
+        <translation>Grupo de estado del objeto</translation>
+    </message>
+    <message>
+        <source>Available states</source>
+        <translation>Estados disponibles</translation>
+    </message>
+    <message>
+        <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
+        <translation>No está configurador el estado del objeto de contenido. Puede hacerse %urlstart aquí %urlend.</translation>
+    </message>
+    <message>
+        <source>Set states</source>
+        <translation>Establecer estados</translation>
+    </message>
+    <message>
+        <source>Apply states from the list above.</source>
+        <translation>Aplicar estados de la lista de arriba.</translation>
+    </message>
+    <message>
+        <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
+        <translation>Este objeto de contendio no tiene aplicado un estado. Necesitas ser asignado en una política de acceso más permisiva.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezflow/parts/website_toolbar</name>
+    <message>
+        <source>Edit object states</source>
+        <translation>Editar estado del objeto</translation>
+    </message>
+</context>
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
@@ -399,6 +435,12 @@
         <translation>Borrador vacío</translation>
     </message>
     <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation>Estos son los objetos con los que estás trabajando. Los borradores te pertenecen y sólo los puedes ver tú.
+      Puedes editar o eliminar los borradores si ya no los necesitas más.</translation>
+    </message>
+    <message>
         <source>Name</source>
         <translation>Nombre</translation>
     </message>
@@ -434,11 +476,6 @@
         <source>You have no drafts</source>
         <translation>No tienes borradores</translation>
     </message>
-    <message>
-        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
@@ -457,6 +494,30 @@
     <message>
         <source>Discard draft</source>
         <translation>Descartar borrador</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Gestionar versiones</translation>
+    </message>
+    <message>
+        <source>Store and exit</source>
+        <translation>Guardar y salir</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Previsualizar</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Traducir de</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Traducir</translation>
+    </message>
+    <message>
+        <source>Documentation</source>
+        <translation type="obsolete">Documentación</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
@@ -497,6 +558,24 @@
         <translation>El objeto pertenece a %owner.</translation>
     </message>
     <message>
+        <source>This object is already being edited by yourself and others.
+    You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation>Este objeto ya está siendo editado por otros y por ti.
+    Puedes continuar editando uno de tus borradores o puedes crear uno nuevo.</translation>
+    </message>
+    <message>
+        <source>This object is already being edited by you.
+        You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation>Este objeto ya está siendo editado por ti.
+        Puedes continuar editando uno de tus borradores o puedes crear uno nuevo.</translation>
+    </message>
+    <message>
+        <source>This object is already being edited by someone else.
+        You should either contact the person about their draft or create a new draft for your own use.</source>
+        <translation>Este objeto ya está siendo editado por alguien más.
+        Deberías contactar con la persona que lo está editando o puedes crear un nuevo borrador para tu propio uso.</translation>
+    </message>
+    <message>
         <source>Current drafts</source>
         <translation>Borradores actuales</translation>
     </message>
@@ -527,21 +606,6 @@
     <message>
         <source>New draft</source>
         <translation>Nuevo borrador</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by yourself and others.
-    You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This object is already being edited by you.
-        You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This object is already being edited by someone else.
-        You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -920,6 +984,21 @@
     </message>
 </context>
 <context>
+    <name>design/ezwebin/content/view/versionview</name>
+    <message>
+        <source>Manage versions</source>
+        <translation>Gestionar versiones</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editar</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publicar</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
@@ -1031,16 +1110,20 @@
         <translation>Seleccione la ubicación del documento</translation>
     </message>
     <message>
-        <source>Select</source>
-        <translation>Seleccionar</translation>
-    </message>
-    <message>
         <source>Please choose the placement for the OpenOffice.org object.
 
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por favor elige la ubicación para el objeto OpenOffice.org
+
+    Elige las ubicaciones y pulsa el botón %buttonname.
+    También puedes utilizar los elementos recientes y los favoritos para una ubicación rápida.
+    Pulsa en los nombres de las ubicaciones para cambiar la lista de navegación.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Seleccionar</translation>
     </message>
 </context>
 <context>
@@ -1113,7 +1196,10 @@
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Puedes importar documentos OpenOffice.org directamente dentro de eZ publish desde esta página. Sólo te
+preguntará dónde colocar el documento, el resto lo hará eZ publish. El documento se convierte
+en la clase apropiada durante la importación, recibirás una notificación sobre esto cuando acabe la importación.
+Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas en otros artículos.</translation>
     </message>
 </context>
 <context>
@@ -1133,10 +1219,6 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Tip a friend</source>
         <translation>Avisa a un amigo</translation>
-    </message>
-    <message>
-        <source>Related content</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1267,7 +1349,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Replies</source>
-        <translation>Respuestas</translation>
+        <translation>Comentarios</translation>
     </message>
     <message>
         <source>Author</source>
@@ -1275,7 +1357,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Last reply</source>
-        <translation>Última respuesta</translation>
+        <translation>Último comentario</translation>
     </message>
     <message>
         <source>Pages</source>
@@ -1321,7 +1403,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>New reply</source>
-        <translation>Nuevo asunto</translation>
+        <translation>Nuevo comentario</translation>
     </message>
     <message>
         <source>Keep me updated</source>
@@ -1372,7 +1454,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Last reply</source>
-        <translation>Última respuesta</translation>
+        <translation>Último comentario</translation>
     </message>
 </context>
 <context>
@@ -1391,10 +1473,6 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Next image</source>
         <translation>Imagen siguiente</translation>
-    </message>
-    <message>
-        <source>Related content</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1486,7 +1564,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Last reply</source>
-        <translation>Última respuesta</translation>
+        <translation>Último comentario</translation>
     </message>
     <message>
         <source>Enter forum</source>
@@ -1681,6 +1759,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>Opciones de notificación</translation>
     </message>
     <message>
+        <source>Store</source>
+        <translation type="obsolete">Almacenar</translation>
+    </message>
+    <message>
         <source>Apply changes</source>
         <translation>Aplicar cambios</translation>
     </message>
@@ -1698,6 +1780,80 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>Buscar texto:</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/parts/website_toolbar</name>
+    <message>
+        <source>About</source>
+        <translation>Acerca de</translation>
+    </message>
+    <message>
+        <source>Create here</source>
+        <translation>Crear aquí</translation>
+    </message>
+    <message>
+        <source>Edit: %node_name [%class_name]</source>
+        <translation>Editar: %node_name [%class_name]</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Mover</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eliminar</translation>
+    </message>
+    <message>
+        <source>Add locations</source>
+        <translation>Añadir localizaciones</translation>
+    </message>
+    <message>
+        <source>Documentation</source>
+        <translation>Documentación</translation>
+    </message>
+    <message>
+        <source>Replace</source>
+        <translation>Reemplazar</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>Exportar</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>Importar</translation>
+    </message>
+    <message>
+        <source>Sorting</source>
+        <translation>Ordenación</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/settings/edit</name>
+    <message>
+        <source>Node notification</source>
+        <translation type="obsolete">Notificación de nodo</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="obsolete">Nombre</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="obsolete">Clase</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="obsolete">Sección</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="obsolete">Seleccionar</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation type="obsolete">Eliminar</translation>
     </message>
 </context>
 <context>
@@ -2461,34 +2617,118 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
-    <name>design/ezwebin/websitetoolbar/objectstates</name>
+    <name>design/ezwebin/websitetoolbar/sort</name>
     <message>
-        <source>Object states for object</source>
-        <translation>Estados de los objetos</translation>
+        <source>Sub items [%children_count]</source>
+        <translation>Sub elementos [%children_count]</translation>
     </message>
     <message>
-        <source>Content object state group</source>
-        <translation>Grupo de estado del objeto</translation>
+        <source>Show 10 items per page.</source>
+        <translation>Mostrar 10 elementos por página.</translation>
     </message>
     <message>
-        <source>Available states</source>
-        <translation>Estados disponibles</translation>
+        <source>Show 50 items per page.</source>
+        <translation>Mostrar 50 elementos por página.</translation>
     </message>
     <message>
-        <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
-        <translation>No está configurador el estado del objeto de contenido. Puede hacerse %urlstart aquí %urlend.</translation>
+        <source>Show 25 items per page.</source>
+        <translation>Mostrar 25 elementos por página.</translation>
     </message>
     <message>
-        <source>Set states</source>
-        <translation>Establecer estados</translation>
+        <source>Priority</source>
+        <translation>Prioridad</translation>
     </message>
     <message>
-        <source>Apply states from the list above.</source>
-        <translation>Aplicar estados de la lista de arriba.</translation>
+        <source>Name</source>
+        <translation>Nombre</translation>
     </message>
     <message>
-        <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation>Este objeto de contendio no tiene aplicado un estado. Necesitas ser asignado en una política de acceso más permisiva.</translation>
+        <source>Type</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>Modifier</source>
+        <translation>Modificador</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modificado</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sección</translation>
+    </message>
+    <message>
+        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
+        <translation>Utiliza los campos de prioridad para controlar el orden en el que aparecen los elementos. Puede usar números enteros positivos y negativos. Persiona el botón &quot;Actualizar prioridades&quot; para aplicar los cambios.</translation>
+    </message>
+    <message>
+        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
+        <translation>No está autorizado para actualizar las prioridades debido a que no tiene permisos de edición &lt;%node_name&gt;.</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Desconocido</translation>
+    </message>
+    <message>
+        <source>The current item does not contain any sub items.</source>
+        <translation>El elemento actual no contiene ningún sub elemento.</translation>
+    </message>
+    <message>
+        <source>Update priorities</source>
+        <translation>Actualizar prioridades</translation>
+    </message>
+    <message>
+        <source>Apply changes to the priorities of the items in the list above.</source>
+        <translation>Aplicar cambios a las prioridades de los elementos de la lista de arriba.</translation>
+    </message>
+    <message>
+        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
+        <translation>No puede actualizar las prioridades debido a que no tiene permiso para editar el elemento actual o porque no esta utilizando un método de ordenación por prioridades.</translation>
+    </message>
+    <message>
+        <source>Sorting</source>
+        <translation>Ordenación</translation>
+    </message>
+    <message>
+        <source>Class identifier</source>
+        <translation>Identificador de clase</translation>
+    </message>
+    <message>
+        <source>Class name</source>
+        <translation>Nombre de la clase</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Profundidad</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publicado</translation>
+    </message>
+    <message>
+        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
+        <translation>No puede establecer el método de ordenación de la ubicación actual debido a que no tiene permisos para editar el elemento actual.</translation>
+    </message>
+    <message>
+        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
+        <translation>Utiliza estos controles para establecer el método de ordenación para los sub elementos de la ubicación actual.</translation>
+    </message>
+    <message>
+        <source>Descending</source>
+        <translation>Descendente</translation>
+    </message>
+    <message>
+        <source>Ascending</source>
+        <translation>Ascendente</translation>
+    </message>
+    <message>
+        <source>Set</source>
+        <translation>Establecer</translation>
+    </message>
+    <message>
+        <source>Invalid or missing parameter: %parameter</source>
+        <translation>Parametro inválido o no introducido: %parameter</translation>
     </message>
 </context>
 </TS>
