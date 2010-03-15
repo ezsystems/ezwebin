@@ -85,7 +85,6 @@ class eZWebinInstaller extends eZSiteInstaller
         $this->addSetting( 'main_site_design', strtolower( $this->solutionName() ) );
         $this->addSetting( 'extension_list', array( 
             'ezwt', 
-            'ezjscore', 
             'ezstarrating', 
             'ezgmaplocation', 
             strtolower( $this->solutionName() ) 
