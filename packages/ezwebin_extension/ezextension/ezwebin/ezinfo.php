@@ -30,7 +30,7 @@ class ezwebinInfo
     {
         return array( 'Name' => 'eZ Publish Website Interface',
                       'Version' => '1.6-0',
-                      'Copyright' => 'Copyright (C) 1999-' . date('Y') . ' eZ Systems AS',
+                      'Copyright' => 'Copyright (C) 1999-2010 eZ Systems AS',
                       'License' => 'GNU General Public License v2.0'
                      );
     }
