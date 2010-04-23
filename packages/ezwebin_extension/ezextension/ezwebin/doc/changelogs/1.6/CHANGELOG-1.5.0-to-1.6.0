@@ -13,6 +13,7 @@ Changes from 1.5-0 to 1.6-0
 
 *Enhancements*
 
+- Implemented enhancement #16711: Making extension aware of the order/priority in which they need to be loaded
 - Implemented enhancement #15707: Simplify creating new RSS feed from a node
 - Implemented enhancement #14819: eztagcloud post sorting support (be able to combine most common and alphabetical sorting)
 - Implemented enhancement #15820: Simplify overriding TopIdentifierList parameter from ezwebin
