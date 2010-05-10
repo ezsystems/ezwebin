@@ -19,3 +19,4 @@ Changes from 1.5-0 to 1.6-0
 - Implemented enhancement #15820: Simplify overriding TopIdentifierList parameter from ezwebin
 - Implemented enhancement #16059: DEPRECATED CSSFileList|JavaScriptList in favour of [Frontend|Backend][CSSFileList|JavaScriptList] settings
 - Implemented enhancement #15741: Optimize templates to not call count and fetch withouth checking count value first
+- Added extension.xml that replaces both loading.php and ezinfo.php (deprecated)
