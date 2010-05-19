@@ -1350,6 +1350,13 @@ div.content-edit div.attribute-language
     padding-left: 2px;
 }
 
+div.context-information
+{
+    margin-top: -43px;
+    margin-bottom: 20px;
+    padding-left: 2px;
+}
+
 /* EDIT - MULTIOPTION */
 
 div.block table.special
@@ -2926,4 +2933,33 @@ div.controlbar label
 div.controlbar div.right
 {
     text-align:right;
+}
+
+/* CLASS ATTRIBUTE GROUPING */
+
+fieldset.ezcca-collapsible legend a
+{
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+fieldset.ezcca-collapsible.ezcca-collapsed
+{
+    border-width: 1px 0 0 0;
+    height: 1em;
+}
+
+fieldset.ezcca-collapsible.ezcca-collapsed legend
+{
+    margin-left: 1px;
+}
+
+fieldset.ezcca-collapsible legend a
+{
+    background: url("../images/minus.png") no-repeat left center;
+}
+
+fieldset.ezcca-collapsible.ezcca-collapsed legend a
+{
+    background: url("../images/plus.png") no-repeat left center;
 }
