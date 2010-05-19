@@ -26,7 +26,7 @@ LeftIdentifierList[]=blog
 LeftIdentifierList[]=frontpage
 
 # Classes to use in extra menu (infobox)
-ExtraIdentifierList[]
+#ExtraIdentifierList[]
 ExtraIdentifierList[]=infobox
 
 # Control extra menu visibility depening on
@@ -38,7 +38,7 @@ ExtraMenuSubitemsCheck=enabled
 #                                            'extra_menu', false(),
 #                                            'show_path', false())}
 [MenuSettings]
-HideLeftMenuClasses[]
+#HideLeftMenuClasses[]
 HideLeftMenuClasses[]=frontpage
 HideLeftMenuClasses[]=blog
 HideLeftMenuClasses[]=blog_post
