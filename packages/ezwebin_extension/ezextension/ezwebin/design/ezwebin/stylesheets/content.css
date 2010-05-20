@@ -1354,15 +1354,14 @@ div.context-information, span.classattribute-description
 {
     color: #333333;
     font-size: 0.8em;
-    margin-bottom: 2em;
-    font-weight:normal;
+    font-weight: normal;
 }
-
 
 div.context-information
 {
-    margin-top: -43px;
-    background-color:#f8f8f8;
+    margin-top: -4em;
+    margin-bottom: 2em;
+    background-color: #f8f8f8;
     border: 1px solid #ccc;
     padding: 0 0.5em;
 }
