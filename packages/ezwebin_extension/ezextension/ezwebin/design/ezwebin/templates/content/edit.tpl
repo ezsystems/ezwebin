@@ -48,6 +48,7 @@
 
     {/if}
     </p>
+    <div class="break"></div>
     </div>
 
     {include uri='design:content/edit_validation.tpl'}

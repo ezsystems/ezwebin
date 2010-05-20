@@ -1350,11 +1350,34 @@ div.content-edit div.attribute-language
     padding-left: 2px;
 }
 
+div.context-information, span.classattribute-description 
+{
+    color: #333333;
+    font-size: 0.8em;
+    margin-bottom: 2em;
+    font-weight:normal;
+}
+
+
 div.context-information
 {
     margin-top: -43px;
-    margin-bottom: 20px;
-    padding-left: 2px;
+    background-color:#f8f8f8;
+    border: 1px solid #ccc;
+    padding: 0 0.5em;
+}
+
+div.context-information p.left
+{
+    float: left;
+    width: 48.5%;
+}
+
+div.context-information p.right
+{
+    float: right;
+    text-align: right;
+    width: 48.5%;
 }
 
 /* EDIT - MULTIOPTION */
