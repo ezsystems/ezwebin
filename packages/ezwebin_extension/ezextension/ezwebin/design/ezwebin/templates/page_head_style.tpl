@@ -1,18 +1,25 @@
-<style type="text/css">
-    @import url({"stylesheets/core.css"|ezdesign(no)});
-    @import url({"stylesheets/debug.css"|ezdesign(no)});
-    @import url({"stylesheets/pagelayout.css"|ezdesign(no)});
-    @import url({"stylesheets/content.css"|ezdesign(no)});
-    @import url({"stylesheets/websitetoolbar.css"|ezdesign(no)});
-    {foreach ezini( 'StylesheetSettings', 'CSSFileList', 'design.ini' ) as $css_file}
-    @import url({concat( 'stylesheets/', $css_file )|ezdesign});
-    {/foreach}
-    {foreach ezini( 'StylesheetSettings', 'FrontendCSSFileList', 'design.ini' ) as $css_file}
-    @import url({concat( 'stylesheets/', $css_file )|ezdesign});
-    {/foreach}
-    @import url({ezini('StylesheetSettings','ClassesCSS','design.ini')|ezroot(no)});
-    @import url({ezini('StylesheetSettings','SiteCSS','design.ini')|ezroot(no)});
-</style>
+{if is_unset( $load_css_file_list )}
+    {def $load_css_file_list = true()}
+{/if}
+
+{if $load_css_file_list}
+  {ezcss_load( array( 'core.css',
+                      'debug.css',
+                      'pagelayout.css',
+                      'content.css',
+                      'websitetoolbar.css',
+                      ezini( 'StylesheetSettings', 'CSSFileList', 'design.ini' ),
+                      ezini( 'StylesheetSettings', 'FrontendCSSFileList', 'design.ini' ) ))}
+{else}
+  {ezcss_load( array( 'core.css',
+                      'debug.css',
+                      'pagelayout.css',
+                      'content.css',
+                      'websitetoolbar.css' ))}
+{/if}
+
+<link rel="stylesheet" type="text/css" href={ezini('StylesheetSettings','ClassesCSS','design.ini')|ezroot()} />
+<link rel="stylesheet" type="text/css" href={ezini('StylesheetSettings','SiteCSS','design.ini')|ezroot()} />
 <link rel="stylesheet" type="text/css" href={"stylesheets/print.css"|ezdesign} media="print" />
 <!-- IE conditional comments; for bug fixes for different IE versions -->
 <!--[if IE 5]>     <style type="text/css"> @import url({"stylesheets/browsers/ie5.css"|ezdesign(no)});    </style> <![endif]-->
