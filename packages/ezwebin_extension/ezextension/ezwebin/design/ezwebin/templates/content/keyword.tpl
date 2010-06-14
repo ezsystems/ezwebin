@@ -16,7 +16,7 @@
 
 <div class="attribute-header">
     <h1 class="long">{'Keyword: %keyword'|i18n( 'design/ezwebin/content/keyword', ,
-hash( '%keyword', $alphabet ) )}</h1>
+hash( '%keyword', $alphabet ) )|wash()}</h1>
 </div>
 
 <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">
