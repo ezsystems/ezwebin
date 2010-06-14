@@ -13,10 +13,8 @@ Changes from 1.5-0 to 1.6-0
 
 *Enhancements*
 
-- Implemented enhancement #16711: Making extension aware of the order/priority in which they need to be loaded
 - Implemented enhancement #15707: Simplify creating new RSS feed from a node
 - Implemented enhancement #14819: eztagcloud post sorting support (be able to combine most common and alphabetical sorting)
 - Implemented enhancement #15820: Simplify overriding TopIdentifierList parameter from ezwebin
 - Implemented enhancement #16059: DEPRECATED CSSFileList|JavaScriptList in favour of [Frontend|Backend][CSSFileList|JavaScriptList] settings
 - Implemented enhancement #15741: Optimize templates to not call count and fetch withouth checking count value first
-- Added extension.xml that replaces both loading.php and ezinfo.php (deprecated)

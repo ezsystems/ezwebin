@@ -8,4 +8,6 @@ Changes from 1.5-0 to 1.6-0
 
 *Enhancements*
 
-
+- Implemented enhancement #16711: Making extension aware of the order/priority in which they need to be loaded
+- Implemented enhancement #16724: Attribute grouping and description missing in Front End editing
+- Added extension.xml that replaces both loading.php and ezinfo.php (deprecated)
