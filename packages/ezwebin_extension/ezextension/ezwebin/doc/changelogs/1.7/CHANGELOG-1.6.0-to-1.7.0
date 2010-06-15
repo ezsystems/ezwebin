@@ -1,4 +1,4 @@
-Changes from 1.5-0 to 1.6-0
+Changes from 1.6-0 to 1.7-0
 
 *Bugs*
 
@@ -8,6 +8,7 @@ Changes from 1.5-0 to 1.6-0
 
 *Enhancements*
 
+- Implemented enhancement #13643: eztagcloud() performance optimization
 - Implemented enhancement #16711: Making extension aware of the order/priority in which they need to be loaded
 - Implemented enhancement #16724: Attribute grouping and description missing in Front End editing
 - Implemented enhancement #16825: Add support for html5 <video> and <audio> to eZmedia datatype
