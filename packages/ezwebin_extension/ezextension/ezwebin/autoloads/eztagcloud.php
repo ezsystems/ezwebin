@@ -123,17 +123,17 @@ class eZTagCloud
 
                 $languageFilter = 'AND ' . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
 
-                $rs = $db->arrayQuery( "SELECT ezkeyword.keyword, count(*) as keyword_count
+                $rs = $db->arrayQuery( "SELECT ezkeyword.keyword, count(ezkeyword.keyword) AS keyword_count
                                         FROM ezkeyword,
-                                            ezkeyword_attribute_link,
-                                            ezcontentobject,
-                                            ezcontentobject_attribute,
-                                            ezcontentobject_tree
+                                            ezkeyword_attribute_link
                                             $sqlPermissionChecking[from]
+                                        LEFT JOIN ezcontentobject_attribute
+                                            ON ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
+                                        LEFT JOIN ezcontentobject
+                                            ON ezcontentobject_attribute.contentobject_id = ezcontentobject.id
+                                        LEFT JOIN ezcontentobject_tree
+                                            ON ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
                                         WHERE ezkeyword.id = ezkeyword_attribute_link.keyword_id
-                                            AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
-                                            AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
-                                            AND ezcontentobject_attribute.contentobject_id = ezcontentobject.id
                                             AND ezcontentobject.status = " . eZContentObject::STATUS_PUBLISHED . "
                                             AND ezcontentobject_attribute.version = ezcontentobject.current_version
                                             AND ezcontentobject_tree.main_node_id = ezcontentobject_tree.node_id
