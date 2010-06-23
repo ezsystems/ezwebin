@@ -42,17 +42,20 @@ class eZKeywordList
 
     function namedParameterList()
     {
-        return array( 'ezkeywordlist' => array( 'class_identifier' => array( 'type' => 'string',
-                                                               'required' => true,
-                                                               'default' => '' ),
-                                                'parent_node_id' => array( 'type' => 'integer',
-                                                                'required' => true,
-                                                                'default' => 0 ) ) );
+        return array( 'ezkeywordlist' => array( 'class_identifier' => array( 'type'     => 'mixed',
+                                                                             'required' => true,
+                                                                             'default'  => ''
+                                                                           ),
+                                                'parent_node_id'   => array( 'type'     => 'integer',
+                                                                             'required' => true,
+                                                                             'default'  => 0
+                                                                           ),
+                                              )
+        );
     }
 
     function modify( $tpl, $operatorName, $operatorParameters, &$rootNamespace, &$currentNamespace, &$operatorValue, &$namedParameters )
     {
-        $classIdentifier = $namedParameters['class_identifier'];
         $parentNodeID = $namedParameters['parent_node_id'];
 
         switch ( $operatorName )
@@ -80,6 +83,12 @@ class eZKeywordList
                 $languageFilter = " AND " . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
                 $versionNameJoins .= eZContentLanguage::sqlFilter( 'ezcontentobject_name', 'ezcontentobject' );
 
+                $quotedClassIdentifiers = array();
+                foreach ( (array)$namedParameters['class_identifier'] as $classIdentifier )
+                {
+                    $quotedClassIdentifiers[] = "'" . $db->escapeString( $classIdentifier ) . "'";
+                }
+
                 $rs = $db->arrayQuery( "SELECT DISTINCT ezkeyword.keyword
                                             FROM ezkeyword_attribute_link,
                                                  ezkeyword,
@@ -93,7 +102,7 @@ class eZKeywordList
                                                 AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
                                                 AND ezcontentobject_tree.contentobject_id = ezcontentobject_attribute.contentobject_id
                                                 AND ezkeyword.class_id = ezcontentclass.id
-                                                AND ezcontentclass.identifier = '" . $classIdentifier . "'
+                                                AND " . $db->generateSQLINStatement( $quotedClassIdentifiers, 'ezcontentclass.identifier' ) . "
                                                 $pathString
                                                 $parentNodeIDSQL
                                                 $showInvisibleNodesCond
