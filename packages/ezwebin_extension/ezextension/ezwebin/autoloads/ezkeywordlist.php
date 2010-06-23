@@ -50,6 +50,10 @@ class eZKeywordList
                                                                              'required' => true,
                                                                              'default'  => 0
                                                                            ),
+                                                'depth'            => array( 'type'     => 'integer',
+                                                                             'required' => false,
+                                                                             'default'  => 0
+                                                                           ),
                                               )
         );
     }
@@ -104,7 +108,8 @@ class eZKeywordList
                                                 AND ezkeyword.class_id = ezcontentclass.id
                                                 AND " . $db->generateSQLINStatement( $quotedClassIdentifiers, 'ezcontentclass.identifier' ) . "
                                                 $pathString
-                                                $parentNodeIDSQL
+                                                $parentNodeIDSQL " .
+                                                ( $namedParameters['depth'] > 0 ? ("AND ezcontentobject_tree.depth=" . (int)$namedParameters['depth']) : '' ) . "
                                                 $showInvisibleNodesCond
                                                 $sqlPermissionChecking[where]
                                                 $languageFilter
