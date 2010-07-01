@@ -192,12 +192,12 @@ class eZPageData
                 else
                 {
                     // Get template_look eZContentObject
-                    if ( !isset( $pageData['template_look_class'] ) )
+                    if ( !isset( $parameters['template_look_class'] ) )
                     {
-                        $pageData['template_look_class'] = 'template_look';
+                        $parameters['template_look_class'] = 'template_look';
                     }
 
-                    $templateLookClassID    = eZContentObjectTreeNode::classIDByIdentifier( $pageData['template_look_class'] );
+                    $templateLookClassID    = eZContentObjectTreeNode::classIDByIdentifier( $parameters['template_look_class'] );
                     $templateLookObjectList = eZContentObject::fetchFilteredList( array( 'contentclass_id' => $templateLookClassID ), 0, 1 );
 
                     if ( $templateLookObjectList )
@@ -296,7 +296,7 @@ class eZPageData
                 // Use custom top menu template. bool|string ( default: from menu.ini[SelectedMenu]TopMenu )
                 if ( isset( $parameters['top_menu'] ) && $parameters['top_menu'] !== true )
                 {
-                    $pageData['top_menu'] = $persistent['top_menu'];
+                    $pageData['top_menu'] = $parameters['top_menu'];
                 }
 
                 // Use custom left menu template. bool|string ( default: from menu.ini[SelectedMenu]LeftMenu )
