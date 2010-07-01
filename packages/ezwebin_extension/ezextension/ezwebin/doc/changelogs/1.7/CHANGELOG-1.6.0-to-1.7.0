@@ -5,6 +5,7 @@ Changes from 1.6-0 to 1.7-0
 - Fixed bug #016803: Fix some settings that were changed in the default eZ Publish install
 - Fixed bug #016799: CSS class doesn't show when link is image, not text
   (merged from eZ Publish trunk rev. 25306)
+- Fixed bug #016955: $persistent['top_menu'] should be $parameters['top_menu'] in ezpagedata
 
 *Enhancements*
 
