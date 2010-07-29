@@ -843,7 +843,11 @@ class eZWebinInstaller extends eZSiteInstaller
                         array( 
                             'module' => 'content', 
                             'function' => 'dashboard' 
-                        ) 
+                        ), 
+                        array( 
+                            'module' => 'content', 
+                            'function' => 'view_embed' 
+                        )
                     ) 
                 ) 
             ), 
