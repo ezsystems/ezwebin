@@ -11,6 +11,8 @@ Changes from 1.5-0 to 1.5-1
   (Merged from ezwebin trunk rev. 4459)
 - Fixed bug #16310: Class "Templates settings" should not have attribute "Language settings"
   (Merged from ezwebin trunk rev. 4463)
+- Fixed bug #016562: EZOE shows to editor in edit mode mesasage "You do not have permission to view this object" instead of embed files
+  (Merged from ezwebin trunk rev. 4709)
 
 *Enhancements*
 
