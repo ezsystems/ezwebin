@@ -80,7 +80,8 @@ class eZArchive
                                     AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
                                     AND ezcontentobject_tree.parent_node_id = " . $parentNodeID . "
                                 GROUP BY YEAR( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) DESC,
-                                         MONTH( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) DESC";
+                                         MONTH( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) DESC,
+                                         UNIX_TIMESTAMP( CONCAT( YEAR( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) , '-', MONTH( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) , '-', 01 ) ) DESC";
                         break;
                     case 'postgresql':
                         $SQL = "SELECT EXTRACT(MONTH FROM to_timestamp( ezcontentobject_attribute.data_int ) ) AS month,
