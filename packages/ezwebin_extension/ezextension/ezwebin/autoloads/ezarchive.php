@@ -78,6 +78,8 @@ class eZArchive
                                     AND ezcontentclass_attribute.id = ezcontentobject_attribute.contentclassattribute_id
                                     AND ezcontentclass_attribute.identifier = 'publication_date'
                                     AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
+                                    AND ezcontentobject_attribute.version = ezcontentobject_tree.contentobject_version
+                                    AND ezcontentobject_tree.is_hidden = 0
                                     AND ezcontentobject_tree.parent_node_id = " . $parentNodeID . "
                                 GROUP BY YEAR( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) DESC,
                                          MONTH( FROM_UNIXTIME( ezcontentobject_attribute.data_int ) ) DESC,
@@ -96,6 +98,8 @@ class eZArchive
                                     AND ezcontentclass_attribute.id = ezcontentobject_attribute.contentclassattribute_id
                                     AND ezcontentclass_attribute.identifier = 'publication_date'
                                     AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
+                                    AND ezcontentobject_attribute.version = ezcontentobject_tree.contentobject_version
+                                    AND ezcontentobject_tree.is_hidden = 0
                                     AND ezcontentobject_tree.parent_node_id = " . $parentNodeID . "
                                 GROUP BY EXTRACT(YEAR FROM to_timestamp( ezcontentobject_attribute.data_int ) ),
                                          EXTRACT(MONTH FROM to_timestamp( ezcontentobject_attribute.data_int ) ),
