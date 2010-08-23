@@ -1690,7 +1690,8 @@ class eZWebinInstaller extends eZSiteInstaller
                         'documentation_page', 
                         'event_calender', 
                         'frontpage', 
-                        'forums' 
+                        'forums', 
+                        'gallery' 
                     ) 
                 ) 
             ) 
