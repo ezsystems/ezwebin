@@ -17,6 +17,8 @@ Changes from 1.5-0 to 1.5-1
   (Merged from ezwebin trunk rev. 4757)
 - Fixed bug #017041: full/forums.tpl contains title "Forum" without i18n
   (Merged from ezwebin trunk rev. 4760)
+- Fixed bug #016077: missing i18n in extension/ezwebin/design/ezwebin/templates/shop/confirmorder.tpl
+  (Merged from ezwebin trunk rev. 4763)
 
 *Enhancements*
 
