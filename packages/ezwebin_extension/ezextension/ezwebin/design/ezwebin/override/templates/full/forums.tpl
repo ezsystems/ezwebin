@@ -25,7 +25,7 @@
                                                              limit, $page_limit ) )}
         <table class="list forum" cellspacing="0">
             <tr>
-                <th> Forum </th>
+                <th>{"Forum"|i18n( "design/ezwebin/full/forums" )}</th>
                 <th class="topic">{"Topics"|i18n( "design/ezwebin/full/forums" )}</th>
                 <th class="replies">{"Posts"|i18n( "design/ezwebin/full/forums" )}</th>
                 <th class="lastreply">{"Last reply"|i18n( "design/ezwebin/full/forums" )}</th>
