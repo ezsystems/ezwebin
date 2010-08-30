@@ -215,7 +215,7 @@
 <h2>{$temp_ts|datetime( custom, '%F %Y' )|upfirst()}:</h2> 
 {foreach $events as $event}
     {if and( ne($view_parameters.offset, 2), eq($loop_count, 8))}
-        <a id="ezagenda_month_hidden_show" href={$url_reload|ezurl} onclick="document.getElementById('ezagenda_month_hidden').style.display='';this.style.display='none';return false;">Show All Events..</a>
+        <a id="ezagenda_month_hidden_show" href={$url_reload|ezurl} onclick="document.getElementById('ezagenda_month_hidden').style.display='';this.style.display='none';return false;">{"Show All Events.."|i18n("design/ezwebin/full/event_view_calendar")}</a>
         <div id="ezagenda_month_hidden" style="display:none;">
     {/if}
     
