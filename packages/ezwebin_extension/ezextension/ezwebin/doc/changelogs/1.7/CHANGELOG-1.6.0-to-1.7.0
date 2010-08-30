@@ -10,6 +10,7 @@ Changes from 1.6-0 to 1.7-0
 - Fixed bug #016744: ezarchive.php Query error (1055): 'trunk.ezcontentobject_attribute.data_int' isn't in GROUP BY
 - Fixed bug #014614: ezarchive doesn't take into account the visibility nor the version of the object
 - Fixed bug #017042: full/event calendar shows "Show All Events.." without i18n
+- Fixed bug #017041: full/forums.tpl contains title "Forum" without i18n
 
 *Enhancements*
 
