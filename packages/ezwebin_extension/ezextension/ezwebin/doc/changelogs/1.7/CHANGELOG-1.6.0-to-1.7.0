@@ -11,6 +11,7 @@ Changes from 1.6-0 to 1.7-0
 - Fixed bug #014614: ezarchive doesn't take into account the visibility nor the version of the object
 - Fixed bug #017042: full/event calendar shows "Show All Events.." without i18n
 - Fixed bug #017041: full/forums.tpl contains title "Forum" without i18n
+- Fixed bug #016077: missing i18n in extension/ezwebin/design/ezwebin/templates/shop/confirmorder.tpl
 
 *Enhancements*
 
