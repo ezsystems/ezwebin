@@ -117,9 +117,9 @@
 <h3>{"Order summary"|i18n("design/ezwebin/shop/confirmorder")}:</h3>
 <table class="list" cellspacing="0" cellpadding="0" border="0">
 <tr>
-    <th>Summary</th>
-    <th>Total ex. VAT</th>
-    <th>Total inc. VAT</th>
+    <th>{"Summary"|i18n("design/ezwebin/shop/confirmorder")}</th>
+    <th>{"Total ex. VAT"|i18n("design/ezwebin/shop/confirmorder")}</th>
+    <th>{"Total inc. VAT"|i18n("design/ezwebin/shop/confirmorder")}</th>
 </tr>
 <tr class="bglight">
     <td>
