@@ -1,40 +1,19 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
-    <name>design/admin/node/view/full</name>
+    <name>design/admin/content/edit_attribute</name>
     <message>
-        <source>Object states for object</source>
-        <translation>Estados de los objetos</translation>
+        <source>not translatable</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Content object state group</source>
-        <translation>Grupo de estado del objeto</translation>
+        <source>required</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Available states</source>
-        <translation>Estados disponibles</translation>
-    </message>
-    <message>
-        <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
-        <translation>No está configurador el estado del objeto de contenido. Puede hacerse %urlstart aquí %urlend.</translation>
-    </message>
-    <message>
-        <source>Set states</source>
-        <translation>Establecer estados</translation>
-    </message>
-    <message>
-        <source>Apply states from the list above.</source>
-        <translation>Aplicar estados de la lista de arriba.</translation>
-    </message>
-    <message>
-        <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation>Este objeto de contendio no tiene aplicado un estado. Necesitas ser asignado en una política de acceso más permisiva.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezflow/parts/website_toolbar</name>
-    <message>
-        <source>Edit object states</source>
-        <translation>Editar estado del objeto</translation>
+        <source>information collector</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -480,10 +459,6 @@
 <context>
     <name>design/ezwebin/content/edit</name>
     <message>
-        <source>Edit %1 - %2</source>
-        <translation>Editar %1 - %2</translation>
-    </message>
-    <message>
         <source>Send for publishing</source>
         <translation>Enviar para ser publicado</translation>
     </message>
@@ -496,30 +471,6 @@
         <translation>Descartar borrador</translation>
     </message>
     <message>
-        <source>Manage versions</source>
-        <translation>Gestionar versiones</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation>Guardar y salir</translation>
-    </message>
-    <message>
-        <source>Preview</source>
-        <translation>Previsualizar</translation>
-    </message>
-    <message>
-        <source>Translate from</source>
-        <translation>Traducir de</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation>Traducir</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation type="obsolete">Documentación</translation>
-    </message>
-    <message>
         <source>Translating content from %from_lang to %to_lang</source>
         <translation>Traduciendo contenido de %from_lang a %to_lang</translation>
     </message>
@@ -527,20 +478,9 @@
         <source>Content in %language</source>
         <translation>Contenido en %language</translation>
     </message>
-</context>
-<context>
-    <name>design/ezwebin/content/edit_attribute</name>
     <message>
-        <source>Not translatable</source>
-        <translation>No traducible</translation>
-    </message>
-    <message>
-        <source>Required</source>
-        <translation>Requerido</translation>
-    </message>
-    <message>
-        <source>Information collector</source>
-        <translation>Colector de información</translation>
+        <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -984,21 +924,6 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/view/versionview</name>
-    <message>
-        <source>Manage versions</source>
-        <translation>Gestionar versiones</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Editar</translation>
-    </message>
-    <message>
-        <source>Publish</source>
-        <translation>Publicar</translation>
-    </message>
-</context>
-<context>
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
@@ -1220,6 +1145,10 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
         <source>Tip a friend</source>
         <translation>Avisa a un amigo</translation>
     </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_mainpage</name>
@@ -1309,6 +1238,10 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
     <message>
         <source>Category</source>
         <translation>Categoría</translation>
+    </message>
+    <message>
+        <source>Show All Events..</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1456,6 +1389,10 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
         <source>Last reply</source>
         <translation>Último comentario</translation>
     </message>
+    <message>
+        <source>Forum</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/gallery</name>
@@ -1473,6 +1410,10 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
     <message>
         <source>Next image</source>
         <translation>Imagen siguiente</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1529,6 +1470,10 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
     <message>
         <source>Add comment</source>
         <translation>Añadir comentarios</translation>
+    </message>
+    <message>
+        <source>Tags:</source>
+        <translation type="unfinished">Etiquetas:</translation>
     </message>
 </context>
 <context>
@@ -1759,10 +1704,6 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
         <translation>Opciones de notificación</translation>
     </message>
     <message>
-        <source>Store</source>
-        <translation type="obsolete">Almacenar</translation>
-    </message>
-    <message>
         <source>Apply changes</source>
         <translation>Aplicar cambios</translation>
     </message>
@@ -1785,75 +1726,429 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
 <context>
     <name>design/ezwebin/parts/website_toolbar</name>
     <message>
-        <source>About</source>
-        <translation>Acerca de</translation>
+        <source>Remove node RSS/ATOM feed</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Create here</source>
-        <translation>Crear aquí</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation>Editar: %node_name [%class_name]</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation>Mover</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Eliminar</translation>
-    </message>
-    <message>
-        <source>Add locations</source>
-        <translation>Añadir localizaciones</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>Documentación</translation>
-    </message>
-    <message>
-        <source>Replace</source>
-        <translation>Reemplazar</translation>
-    </message>
-    <message>
-        <source>Export</source>
-        <translation>Exportar</translation>
-    </message>
-    <message>
-        <source>Import</source>
-        <translation>Importar</translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation>Ordenación</translation>
+        <source>Create node RSS/ATOM feed</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
-    <name>design/ezwebin/settings/edit</name>
+    <name>design/ezwebin/rss/edit_export</name>
     <message>
-        <source>Node notification</source>
-        <translation type="obsolete">Notificación de nodo</translation>
+        <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid input</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If RSS Export is Active then a valid Access URL is required.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="obsolete">Nombre</translation>
+        <translation type="unfinished">Nombre</translation>
+    </message>
+    <message>
+        <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Descripción</translation>
+    </message>
+    <message>
+        <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Site URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse</source>
+        <translation type="unfinished">Navegar</translation>
+    </message>
+    <message>
+        <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click to remove image from RSS export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>RSS version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of objects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Main node only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check if you want to only feed the object from the main node.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Access URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subnodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="obsolete">Clase</translation>
+        <translation type="unfinished">Clase</translation>
     </message>
     <message>
-        <source>Section</source>
-        <translation type="obsolete">Sección</translation>
+        <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Select</source>
-        <translation type="obsolete">Seleccionar</translation>
+        <source>Set</source>
+        <translation type="unfinished">Establecer</translation>
     </message>
     <message>
-        <source>Remove</source>
-        <translation type="obsolete">Eliminar</translation>
+        <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>optional</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Skip</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished">Categoría</translation>
+    </message>
+    <message>
+        <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove this source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click to remove this source from the RSS export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click to add a new source to the RSS export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="unfinished">De acuerdo</translation>
+    </message>
+    <message>
+        <source>Apply the changes and return to the RSS overview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancelar</translation>
+    </message>
+    <message>
+        <source>Cancel the changes and return to the RSS overview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/rss/edit_import</name>
+    <message>
+        <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Nombre</translation>
+    </message>
+    <message>
+        <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this field to enter the source URL of the RSS feed to import.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update</source>
+        <translation type="unfinished">Actualizar</translation>
+    </message>
+    <message>
+        <source>Click this button to proceed and analyze the import feed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>RSS Version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Destination path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse</source>
+        <translation type="unfinished">Navegar</translation>
+    </message>
+    <message>
+        <source>Click this button to select the destination node where objects created by the import are located.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Imported objects will be owned by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to select the user who should own the objects created by the import.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="unfinished">Clase</translation>
+    </message>
+    <message>
+        <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set</source>
+        <translation type="unfinished">Establecer</translation>
+    </message>
+    <message>
+        <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="unfinished">De acuerdo</translation>
+    </message>
+    <message>
+        <source>Apply the changes and return to the RSS overview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancelar</translation>
+    </message>
+    <message>
+        <source>Cancel the changes and return to the RSS overview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/rss/list</name>
+    <message>
+        <source>RSS exports [%exports_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection</source>
+        <translation type="unfinished">Invertir selección</translation>
+    </message>
+    <message>
+        <source>Invert selection.</source>
+        <translation type="unfinished">Invertir selección.</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Nombre</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished">Versión</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished">Estado</translation>
+    </message>
+    <message>
+        <source>Modifier</source>
+        <translation type="unfinished">Modificador</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished">Modificado</translation>
+    </message>
+    <message>
+        <source>Select RSS export for removal.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Inactive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished">Editar</translation>
+    </message>
+    <message>
+        <source>Edit the &lt;%name&gt; RSS export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The RSS export list is empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected RSS exports.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New export</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new RSS export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>RSS imports [%imports_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select RSS import for removal.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit the &lt;%name&gt; RSS import.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The RSS import list is empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected RSS imports.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new RSS import.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2032,6 +2327,18 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
     <message>
         <source>Confirm</source>
         <translation>Confirmar</translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation type="unfinished">Sumario</translation>
+    </message>
+    <message>
+        <source>Total ex. VAT</source>
+        <translation type="unfinished">Total sin IVA</translation>
+    </message>
+    <message>
+        <source>Total inc. VAT</source>
+        <translation type="unfinished">Total con IVA</translation>
     </message>
 </context>
 <context>
@@ -2593,6 +2900,14 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
         <source>No media file is available.</source>
         <translation>No existe ningún archivo multimedia disponible.</translation>
     </message>
+    <message>
+        <source>Your browser does not support html5 video.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your browser does not support html5 audio.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/view/ezprice</name>
@@ -2617,118 +2932,34 @@ Las imágenes se colocan en la biblioteca multimedia para poder ser reutilizadas
     </message>
 </context>
 <context>
-    <name>design/ezwebin/websitetoolbar/sort</name>
+    <name>design/ezwebin/websitetoolbar/objectstates</name>
     <message>
-        <source>Sub items [%children_count]</source>
-        <translation>Sub elementos [%children_count]</translation>
+        <source>Object states for object</source>
+        <translation type="unfinished">Estados de los objetos</translation>
     </message>
     <message>
-        <source>Show 10 items per page.</source>
-        <translation>Mostrar 10 elementos por página.</translation>
+        <source>Content object state group</source>
+        <translation type="unfinished">Grupo de estado del objeto</translation>
     </message>
     <message>
-        <source>Show 50 items per page.</source>
-        <translation>Mostrar 50 elementos por página.</translation>
+        <source>Available states</source>
+        <translation type="unfinished">Estados disponibles</translation>
     </message>
     <message>
-        <source>Show 25 items per page.</source>
-        <translation>Mostrar 25 elementos por página.</translation>
+        <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
+        <translation type="unfinished">No está configurador el estado del objeto de contenido. Puede hacerse %urlstart aquí %urlend.</translation>
     </message>
     <message>
-        <source>Priority</source>
-        <translation>Prioridad</translation>
+        <source>Set states</source>
+        <translation type="unfinished">Establecer estados</translation>
     </message>
     <message>
-        <source>Name</source>
-        <translation>Nombre</translation>
+        <source>Apply states from the list above.</source>
+        <translation type="unfinished">Aplicar estados de la lista de arriba.</translation>
     </message>
     <message>
-        <source>Type</source>
-        <translation>Tipo</translation>
-    </message>
-    <message>
-        <source>Modifier</source>
-        <translation>Modificador</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation>Modificado</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation>Sección</translation>
-    </message>
-    <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation>Utiliza los campos de prioridad para controlar el orden en el que aparecen los elementos. Puede usar números enteros positivos y negativos. Persiona el botón &quot;Actualizar prioridades&quot; para aplicar los cambios.</translation>
-    </message>
-    <message>
-        <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation>No está autorizado para actualizar las prioridades debido a que no tiene permisos de edición &lt;%node_name&gt;.</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Desconocido</translation>
-    </message>
-    <message>
-        <source>The current item does not contain any sub items.</source>
-        <translation>El elemento actual no contiene ningún sub elemento.</translation>
-    </message>
-    <message>
-        <source>Update priorities</source>
-        <translation>Actualizar prioridades</translation>
-    </message>
-    <message>
-        <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation>Aplicar cambios a las prioridades de los elementos de la lista de arriba.</translation>
-    </message>
-    <message>
-        <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation>No puede actualizar las prioridades debido a que no tiene permiso para editar el elemento actual o porque no esta utilizando un método de ordenación por prioridades.</translation>
-    </message>
-    <message>
-        <source>Sorting</source>
-        <translation>Ordenación</translation>
-    </message>
-    <message>
-        <source>Class identifier</source>
-        <translation>Identificador de clase</translation>
-    </message>
-    <message>
-        <source>Class name</source>
-        <translation>Nombre de la clase</translation>
-    </message>
-    <message>
-        <source>Depth</source>
-        <translation>Profundidad</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation>Publicado</translation>
-    </message>
-    <message>
-        <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation>No puede establecer el método de ordenación de la ubicación actual debido a que no tiene permisos para editar el elemento actual.</translation>
-    </message>
-    <message>
-        <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation>Utiliza estos controles para establecer el método de ordenación para los sub elementos de la ubicación actual.</translation>
-    </message>
-    <message>
-        <source>Descending</source>
-        <translation>Descendente</translation>
-    </message>
-    <message>
-        <source>Ascending</source>
-        <translation>Ascendente</translation>
-    </message>
-    <message>
-        <source>Set</source>
-        <translation>Establecer</translation>
-    </message>
-    <message>
-        <source>Invalid or missing parameter: %parameter</source>
-        <translation>Parametro inválido o no introducido: %parameter</translation>
+        <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
+        <translation type="unfinished">Este objeto de contendio no tiene aplicado un estado. Necesitas ser asignado en una política de acceso más permisiva.</translation>
     </message>
 </context>
 </TS>
