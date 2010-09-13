@@ -805,10 +805,6 @@ class eZWebinInstaller extends eZSiteInstaller
                             'function' => '*' 
                         ), 
                         array( 
-                            'module' => 'shop', 
-                            'function' => 'administrate' 
-                        ), 
-                        array( 
                             'module' => 'content', 
                             'function' => 'diff' 
                         ), 
@@ -1000,10 +996,6 @@ class eZWebinInstaller extends eZSiteInstaller
                         array( 
                             'module' => 'notification', 
                             'function' => 'use' 
-                        ), 
-                        array( 
-                            'module' => 'shop', 
-                            'function' => 'administrate' 
                         ) 
                     ) 
                 ) 
@@ -1148,10 +1140,6 @@ class eZWebinInstaller extends eZSiteInstaller
                         array( 
                             'module' => 'notification', 
                             'function' => 'use' 
-                        ), 
-                        array( 
-                            'module' => 'shop', 
-                            'function' => 'buy' 
                         ), 
                         array( 
                             'module' => 'user', 
