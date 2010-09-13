@@ -21,4 +21,5 @@ Changes from 1.6-0 to 1.7-0
 - Implemented enhancement #16825: Add support for html5 <video> and <audio> to eZmedia datatype
 - Implemented enhancement #16930: Enabling ezkeywordlist operator to accept an array of class identifiers as first parameter
 - Implemented enhancement #16931: Enabling ezkeywordlist operator to accept a new optional 'depth' third parameter
+- Implemented enhancement #17271: eZ publish 4.4 beta3: eZ flow my profile page
 - Added extension.xml that replaces both loading.php and ezinfo.php (deprecated)

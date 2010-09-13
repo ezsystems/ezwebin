@@ -25,11 +25,26 @@
   <p class="box">{$userAccount.contentobject.name|wash}</p>
 </div>
 
+{if fetch( 'user', 'has_access_to', hash( 'module', 'content',
+                                          'function', 'edit' ) )}
 <p><a href={"content/draft"|ezurl}>{"My drafts"|i18n("design/ezwebin/user/edit")}</a></p>
+{/if}
+{if fetch( 'user', 'has_access_to', hash( 'module', 'shop',
+                                          'function', 'administrate' ) )}
 <p><a href={concat("/shop/customerorderview/", $userID, "/", $userAccount.email)|ezurl}>{"My orders"|i18n("design/ezwebin/user/edit")}</a></p>
+{/if}
+{if fetch( 'user', 'has_access_to', hash( 'module', 'content',
+                                          'function', 'pendinglist' ) )}
 <p><a href={"/content/pendinglist"|ezurl}>{"My pending items"|i18n("design/ezwebin/user/edit")}</a></p>
+{/if}
+{if fetch( 'user', 'has_access_to', hash( 'module', 'notification',
+                                          'function', 'use' ) )}
 <p><a href={"notification/settings"|ezurl}>{"My notification settings"|i18n("design/ezwebin/user/edit")}</a></p>
+{/if}
+{if fetch( 'user', 'has_access_to', hash( 'module', 'shop',
+                                          'function', 'buy' ) )}
 <p><a href={"/shop/wishlist"|ezurl}>{"My wish list"|i18n("design/ezwebin/user/edit")}</a></p>
+{/if}
 
 <div class="buttonblock">
 <input class="button" type="submit" name="EditButton" value="{'Edit profile'|i18n('design/ezwebin/user/edit')}" />
