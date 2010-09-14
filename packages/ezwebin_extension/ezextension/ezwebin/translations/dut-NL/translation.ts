@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0">
+<TS version="2.0" language="nl_NL" sourcelanguage="en_GB">
 <context>
     <name>design/admin/content/edit_attribute</name>
     <message>
@@ -458,6 +458,10 @@
 <context>
     <name>design/ezwebin/content/edit</name>
     <message>
+        <source>Edit %1 - %2</source>
+        <translation>Bewerk %1 - %2</translation>
+    </message>
+    <message>
         <source>Translating content from %from_lang to %to_lang</source>
         <translation>Vertaal inhoud van %from_lang naar %to_lang</translation>
     </message>
@@ -476,6 +480,21 @@
     <message>
         <source>Discard draft</source>
         <translation>Concept verwerpen</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/edit_attribute</name>
+    <message>
+        <source>Not translatable</source>
+        <translation>Niet te vertalen</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Vereist</translation>
+    </message>
+    <message>
+        <source>Information collector</source>
+        <translation>Informatieverzamelaar</translation>
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
@@ -1136,7 +1155,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished"></translation>
+        <translation>Gerelateerde content</translation>
     </message>
 </context>
 <context>
@@ -1402,7 +1421,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished"></translation>
+        <translation>Gerelateerde content</translation>
     </message>
 </context>
 <context>
@@ -1459,10 +1478,6 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Add comment</source>
         <translation>Commentaren toevoegen</translation>
-    </message>
-    <message>
-        <source>Tags:</source>
-        <translation type="unfinished">Labels:</translation>
     </message>
 </context>
 <context>
@@ -2317,18 +2332,6 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Confirm</source>
         <translation>Bevestigen</translation>
     </message>
-    <message>
-        <source>Summary</source>
-        <translation type="unfinished">Samenvatting</translation>
-    </message>
-    <message>
-        <source>Total ex. VAT</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Total inc. VAT</source>
-        <translation type="unfinished">Toaal incl. btw</translation>
-    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/customerorderview</name>
@@ -2754,9 +2757,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Username</source>
         <comment>User name</comment>
-        <translation>Gebruikersnaam
-
-Gebruikersnaam</translation>
+        <translation>Gebruikersnaam</translation>
     </message>
     <message>
         <source>Password</source>
@@ -2773,16 +2774,12 @@ Gebruikersnaam</translation>
     <message>
         <source>Login</source>
         <comment>Button</comment>
-        <translation>Aanmelden
-
-Knop</translation>
+        <translation>Log in</translation>
     </message>
     <message>
         <source>Sign up</source>
         <comment>Button</comment>
-        <translation>Aanmelden
-
-Knop</translation>
+        <translation>Registreren</translation>
     </message>
     <message>
         <source>Forgot your password?</source>
