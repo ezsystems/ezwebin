@@ -19,6 +19,8 @@ Changes from 1.5-0 to 1.5-1
   (Merged from ezwebin trunk rev. 4760)
 - Fixed bug #016077: missing i18n in extension/ezwebin/design/ezwebin/templates/shop/confirmorder.tpl
   (Merged from ezwebin trunk rev. 4763)
+- Fixed bug #017211: Fix html stripping in password field
+  (Merged from ezwebin trunk rev. 4800)
 
 *Enhancements*
 
