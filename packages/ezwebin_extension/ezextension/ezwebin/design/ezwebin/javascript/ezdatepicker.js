@@ -28,8 +28,8 @@ function showDatePicker( base, id, datatype ) {
 
     var xy = YAHOO.util.Dom.getXY( calIconID );
 
-    calContainer.style.left = ( xy[0] + 26 ) + 'px';
-    calContainer.style.top = ( xy[1] + 30 ) + 'px';
+    //calContainer.style.left = ( xy[0] + 26 ) + 'px';
+    //calContainer.style.top = ( xy[1] + 30 ) + 'px';
     calContainer.style.display = 'block';
 
     window['cal'+id] = new YAHOO.widget.Calendar( base + '_' + datatype + '_cal_' + id , calContainerID, { close: true, 
