@@ -1,31 +1,5 @@
 {* Image - Full view *}
 
-{def $sort_order=$node.parent.sort_array[0][1]
-     $sort_column=$node.parent.sort_array[0][0]
-     $sort_column_value=cond( $sort_column|eq( 'published' ), $node.object.published,
-                             $sort_column|eq( 'modified' ), $node.object.modified,
-                             $sort_column|eq( 'name' ), $node.object.name,
-                             $sort_column|eq( 'priority' ), $node.priority,
-                             $sort_column|eq( 'modified_subnode' ), $node.modified_subnode,
-                             false() ) }
-{if $sort_column_value|eq( false() )}
-    {set $sort_column_value = $node.object.published
-         $sort_column = 'published'}
-{/if}
-
-{def $previous_image = fetch( 'content', 'list', hash( 'parent_node_id', $node.parent_node_id,
-                                                       'class_filter_type', 'include',
-                                                       'class_filter_array', array( 'image' ),
-                                                       'limit', '1',
-                                                       'attribute_filter', array( 'and', array( $sort_column, $sort_order|choose( '>', '<' ), $sort_column_value ) ),
-                                                       'sort_by', array( array( $sort_column, $sort_order|not ), array( 'node_id', $sort_order|not ) ) ) )
-     $next_image = fetch( 'content', 'list', hash( 'parent_node_id', $node.parent_node_id,
-                                                   'class_filter_type', 'include',
-                                                   'class_filter_array', array( 'image' ),
-                                                   'limit', '1',
-                                                   'attribute_filter', array( 'and', array( $sort_column, $sort_order|choose( '<', '>' ), $sort_column_value ) ),
-                                                   'sort_by', array( array( $sort_column, $sort_order ), array( 'node_id', $sort_order ) ) ) ) }
-
 <div class="border-box">
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
 <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
@@ -39,40 +13,56 @@
 
         {if is_unset( $versionview_mode )}
         <div class="content-navigator">
-            {if $previous_image}
+            {* NOTE: Remember to modify gallery.tpl and templates for classes listed in class_filter_array if filters / sort_by is changed! *}
+            {def $node_id  = $node.node_id
+                 $parent   = $node.parent
+                 $siblings = fetch( 'content', 'list', hash( 'parent_node_id', $parent.node_id,
+                                                             'as_object', false(),
+                                                             'class_filter_type', 'include',
+                                                             'class_filter_array', array( 'image', 'flash_player' ),
+                                                             'sort_by', $parent.sort_array ) )
+                 $prev_node_id = 0
+                 $next_node_id = 0}
+
+            {* Figgure out current position and hence prev and next as well *}
+            {foreach $siblings as $index => $sibling}
+                {if $sibling['node_id']|eq( $node_id )}
+                     {if is_set( $siblings[ $index|inc ] )}
+                         {set $next_node_id = $siblings[ $index|inc ]['node_id']}
+                     {/if}
+                    {break}
+                {/if}
+                {set $prev_node_id = $sibling['node_id']}
+            {/foreach}
+
+            {if $prev_node_id}
+                {def $prev_node = fetch('content', 'node', hash( 'node_id', $prev_node_id ))}
                 <div class="content-navigator-previous">
-                    <div class="content-navigator-arrow">&laquo;&nbsp;</div><a href={$previous_image[0].url_alias|ezurl} title="{$previous_image[0].name|wash}">{'Previous image'|i18n( 'design/ezwebin/full/image' )}</a>
+                    <div class="content-navigator-arrow">&laquo;&nbsp;</div><a href={$prev_node.url_alias|ezurl} title="{$prev_node.name|wash}">{'Previous image'|i18n( 'design/ezwebin/full/image' )}</a>
                 </div>
+                <div class="content-navigator-separator">|</div>
             {else}
                 <div class="content-navigator-previous-disabled">
                     <div class="content-navigator-arrow">&laquo;&nbsp;</div>{'Previous image'|i18n( 'design/ezwebin/full/image' )}
                 </div>
-            {/if}
-
-            {if $previous_image}
-                <div class="content-navigator-separator">|</div>
-            {else}
                 <div class="content-navigator-separator-disabled">|</div>
             {/if}
 
-            {def $parent=$node.parent}
-                <div class="content-navigator-forum-link"><a href={$parent.url_alias|ezurl}>{$parent.name|wash}</a></div>
+            <div class="content-navigator-forum-link"><a href={$parent.url_alias|ezurl}>{$parent.name|wash}</a></div>
 
-            {if $next_image}
+            {if $next_node_id}
                 <div class="content-navigator-separator">|</div>
-            {else}
-                <div class="content-navigator-separator-disabled">|</div>
-            {/if}
-
-            {if $next_image}
+                {def $next_node = fetch('content', 'node', hash( 'node_id', $next_node_id ))}
                 <div class="content-navigator-next">
-                    <a href={$next_image[0].url_alias|ezurl} title="{$next_image[0].name|wash}">{'Next image'|i18n( 'design/ezwebin/full/image' )}</a><div class="content-navigator-arrow">&nbsp;&raquo;</div>
+                    <a href={$next_node.url_alias|ezurl} title="{$next_node.name|wash}">{'Next image'|i18n( 'design/ezwebin/full/image' )}</a><div class="content-navigator-arrow">&nbsp;&raquo;</div>
                 </div>
             {else}
+                <div class="content-navigator-separator-disabled">|</div>
                 <div class="content-navigator-next-disabled">
                     {'Next image'|i18n( 'design/ezwebin/full/image' )}<div class="content-navigator-arrow">&nbsp;&raquo;</div>
                 </div>
             {/if}
+            {undef $siblings $parent $node_id $prev_node_id $next_node_id}
         </div>
         {/if}
 

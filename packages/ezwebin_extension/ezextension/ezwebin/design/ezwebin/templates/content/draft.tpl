@@ -4,7 +4,7 @@
 
 <div class="content-draft">
 
-<script language="javascript" type="text/javascript">
+<script type="text/javascript">
 <!--
 {literal}
 function checkAll()

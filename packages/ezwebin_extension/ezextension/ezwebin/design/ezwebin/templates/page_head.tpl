@@ -1,4 +1,4 @@
-{default enable_help=true() enable_link=true()}
+{default enable_help=true() enable_link=true() canonical_link=true()}
 
 {if is_set($module_result.content_info.persistent_variable.site_title)}
     {set scope=root site_title=$module_result.content_info.persistent_variable.site_title}
@@ -46,8 +46,19 @@
     {/if}
 
     {/foreach}
+
+    {* Prefer chrome frame on IE 8 and lower, or at least as new engine as possible *}
+    <!--[if lt IE 9 ]>
+        <meta http-equiv="X-UA-Compatible" content="IE=8,chrome=1" />
+    <![endif]-->
+
     <meta name="MSSmartTagsPreventParsing" content="TRUE" />
     <meta name="generator" content="eZ Publish" />
+
+    {if $pagedata.canonical_url}
+        {* Multiple locations, pointing Search Engines to the original *}
+        <link rel="canonical" href={$pagedata.canonical_url|ezurl('no','full')} />
+    {/if}
 
 {if $enable_link}
     {include uri="design:link.tpl" enable_help=$enable_help enable_link=$enable_link}

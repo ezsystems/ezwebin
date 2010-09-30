@@ -33,8 +33,7 @@
  Gets its parameters directly from template.
  module_result.path | content_info | persistant_variable | menu.ini ++
  are all used to generate page data, what menues to show
- and so on.  
- 
+ and so on.
 */
 
 class eZPageData
@@ -59,14 +58,14 @@ class eZPageData
                            'params' => array( 'type' => 'array',
                                               'required' => false,
                                               'default' => array() ) ),
-                      'ezpagedata_set' => array( 
+                      'ezpagedata_set' => array(
                               'key' => array( 'type' => 'string',
                                               'required' => true,
                                               'default' => false ),
                             'value' => array( 'type' => 'mixed',
                                               'required' => true,
                                               'default' => false ) ),
-                      'ezpagedata_append' => array( 
+                      'ezpagedata_append' => array(
                               'key' => array( 'type' => 'string',
                                               'required' => true,
                                               'default' => false ),
@@ -87,11 +86,11 @@ class eZPageData
                 self::setPersistentVariable( $namedParameters['key'], $namedParameters['value'], $tpl, $operatorName === 'ezpagedata_append' );
             }break;
             case 'ezpagedata':
-            {                    
+            {
                 $currentNodeId = 0;
                 $pageData      = array();
                 $parameters    = $namedParameters['params'];
-                
+
                 // Get module_result for later use
                 if ( $tpl->hasVariable('module_result') )
                 {
@@ -165,16 +164,17 @@ class eZPageData
                 $pageData['page_root_depth']     = 0;
                 $pageData['page_depth']          = count( $moduleResult['path'] );
                 $pageData['root_node']           = (int) $contentIni->variable( 'NodeSettings', 'RootNode' );
+                $pageData['canonical_url']       = false;
 
                 // is_edit if not on user/edit and not on content/action when
-                // you get info collector warning about missing attributes 
+                // you get info collector warning about missing attributes
                 if ( $uiContext === 'edit'
                   && strpos( $uriString, 'user/edit' ) === false
                   &&  ( !isset( $moduleResult['content_info'] ) || strpos( $uriString, 'content/action' ) === false ) )
                 {
                     $pageData['is_edit'] = true;
                 }
-                  
+
                 if ( isset( $moduleResult['content_info']['viewmode'] ) )
                 {
                     $viewMode = $moduleResult['content_info']['viewmode'];
@@ -209,10 +209,16 @@ class eZPageData
                         $pageData['template_look'] = false;
                     }
                 }
-                
+
+                // canonical url, to let search engines know about main location on content with multiple locations
+                if ( isset( $parameters['canonical_url'] ) )
+                {
+                    $pageData['canonical_url'] = $parameters['canonical_url'];
+                }
+
                 /*
                   RootNodeDepth is a setting for letting you have a very simple multisite, single database and singe siteaccess setup.
-                  The content of the menues will be the same on all system pages like user/login, content/edit 
+                  The content of the menues will be the same on all system pages like user/login, content/edit
                   and so on, and also when you surf bellow the defined page_root_depth.
                   The sites will also share siteaccess and thus also the same ez publish design and templates.
                   You can however custimize the design with css using the class on div#page html output:
@@ -238,7 +244,7 @@ class eZPageData
 
                     if ( isset( $moduleResult['path'][ $pageData['page_root_depth'] ]['node_id'] ))
                     {
-                        $pageData['root_node'] = $moduleResult['path'][$pageData['page_root_depth'] ]['node_id'];        
+                        $pageData['root_node'] = $moduleResult['path'][$pageData['page_root_depth'] ]['node_id'];
                     }
                 }
 
@@ -481,11 +487,11 @@ class eZPageData
 
         // set the finnished array in the template
         $tpl->setVariable('persistent_variable', $persistentVariable);
-        
+
         // storing the value internally as well in case this is not a view that supports persistent_variable (ezpagedata will look for it)
         self::$persistentVariable = $persistentVariable;
     }
-    
+
     // reusable function for getting persistent_variable
     static public function getPersistentVariable( $key = null )
     {
@@ -500,7 +506,6 @@ class eZPageData
 
     // Internal version of the $persistent_variable used on view that don't support it
     static protected $persistentVariable = null;
-    
 }
 
 ?>

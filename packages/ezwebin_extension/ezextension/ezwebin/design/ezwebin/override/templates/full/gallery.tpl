@@ -31,6 +31,7 @@
                                                                      'class_filter_array', array( 'image', 'flash_player' ) ) )}
 
         {if $children_count}
+            {* NOTE: Remember to modify templates for classes listed in class_filter_array if filters / sort_by is changed! *}
             {def $children = fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
                                                              'offset', $view_parameters.offset,
                                                              'limit', $page_limit,

@@ -204,7 +204,7 @@
 </form>
 
 {literal}
-<script language="JavaScript" type="text/javascript">
+<script type="text/javascript">
 <!--
     window.onload=function()
     {
