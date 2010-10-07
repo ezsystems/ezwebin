@@ -122,6 +122,7 @@ class eZTagCloud
                 $sqlPermissionChecking = eZContentObjectTreeNode::createPermissionCheckingSQL( $limitationList );
 
                 $languageFilter = 'AND ' . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
+                $languageFilter .= 'AND ' . eZContentLanguage::languagesSQLFilter( 'ezcontentobject_attribute', 'language_id' );
 
                 $rs = $db->arrayQuery( "SELECT ezkeyword.keyword, count(ezkeyword.keyword) AS keyword_count
                                         FROM ezkeyword,
