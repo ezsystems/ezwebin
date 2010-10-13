@@ -192,8 +192,7 @@ class eZTagCloud
                                          'tag' => $key );
                 }
 
-                require_once( 'kernel/common/template.php' );
-                $tpl = templateInit();
+                $tpl = eZTemplate::factory();
                 $tpl->setVariable( 'tag_cloud', $tagCloud );
                 $operatorValue = $tpl->fetch( 'design:tagcloud/tagcloud.tpl' );
             } break;
