@@ -32,7 +32,7 @@
 <!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
 <div id="page" class="{$pagestyle}">
 
-  {if and( is_set( $pagedata.persistent_variable.extra_template_list ), 
+  {if and( is_set( $pagedata.persistent_variable.extra_template_list ),
              $pagedata.persistent_variable.extra_template_list|count() )}
     {foreach $pagedata.persistent_variable.extra_template_list as $extra_template}
       {include uri=concat('design:extra/', $extra_template)}
@@ -42,7 +42,7 @@
   <!-- Header area: START -->
   {include uri='design:page_header.tpl'}
   <!-- Header area: END -->
-  
+
   {cache-block keys=array( $module_result.uri, $user_hash, $extra_cache_key )}
 
   <!-- Top menu area: START -->
@@ -56,7 +56,7 @@
     {include uri='design:page_toppath.tpl'}
   {/if}
   <!-- Path area: END -->
-  
+
   <!-- Toolbar area: START -->
   {if and( $pagedata.website_toolbar, $pagedata.is_edit|not)}
     {include uri='design:page_toolbar.tpl'}
@@ -109,6 +109,6 @@
 {/cache-block}
 
 {* This comment will be replaced with actual debug report (if debug is on). *}
-<div id="debug"><!--DEBUG_REPORT--></div>
+<!--DEBUG_REPORT-->
 </body>
 </html>
