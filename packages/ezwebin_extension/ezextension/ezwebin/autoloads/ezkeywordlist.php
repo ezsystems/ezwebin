@@ -70,38 +70,27 @@ class eZKeywordList
                     $parentNodeIDSQL = "AND ezcontentobject_tree.node_id != " . (int)$parentNodeID;
                 }
 
-                $showInvisibleNodesCond = eZContentObjectTreeNode::createShowInvisibleSQLString( true, false );
                 $limitation = false;
-                $limitationList = eZContentObjectTreeNode::getLimitationList( $limitation );
-                $sqlPermissionChecking = eZContentObjectTreeNode::createPermissionCheckingSQL( $limitationList );
+                $sqlPermissionChecking = eZContentObjectTreeNode::createPermissionCheckingSQL( eZContentObjectTreeNode::getLimitationList( $limitation ) );
 
-                $versionNameJoins = " AND ezcontentobject_tree.contentobject_id = ezcontentobject_name.contentobject_id AND
-                                            ezcontentobject_tree.contentobject_version = ezcontentobject_name.content_version AND ";
-                $languageFilter = " AND " . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
-                $versionNameJoins .= eZContentLanguage::sqlFilter( 'ezcontentobject_name', 'ezcontentobject' );
-
-                $rs = $db->arrayQuery( "SELECT DISTINCT ezkeyword.keyword
-                                            FROM ezkeyword_attribute_link,
-                                                 ezkeyword,
-                                                 ezcontentobject,
-                                                 ezcontentobject_name,
-                                                 ezcontentobject_attribute,
-                                                 ezcontentobject_tree,
-                                                 ezcontentclass
-                                                 $sqlPermissionChecking[from]
-                                            WHERE ezkeyword.id = ezkeyword_attribute_link.keyword_id
-                                                AND ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
-                                                AND ezcontentobject_tree.contentobject_id = ezcontentobject_attribute.contentobject_id
-                                                AND ezkeyword.class_id = ezcontentclass.id
-                                                AND ezcontentclass.identifier = '" . $classIdentifier . "'
-                                                $pathString
-                                                $parentNodeIDSQL
-                                                $showInvisibleNodesCond
-                                                $sqlPermissionChecking[where]
-                                                $languageFilter
-                                                $versionNameJoins
-                                            ORDER BY ezkeyword.keyword ASC" );
-                $operatorValue = $rs;
+                $operatorValue = $db->arrayQuery(
+                    "SELECT DISTINCT ezkeyword.keyword
+                     FROM ezkeyword
+                          JOIN ezkeyword_attribute_link ON ezkeyword.id = ezkeyword_attribute_link.keyword_id
+                          JOIN ezcontentobject_attribute ON ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
+                          JOIN ezcontentobject ON ezcontentobject_attribute.contentobject_id = ezcontentobject.id
+                          JOIN ezcontentobject_name ON ezcontentobject.id = ezcontentobject_name.contentobject_id
+                          JOIN ezcontentobject_tree ON ezcontentobject_name.contentobject_id = ezcontentobject_tree.contentobject_id AND ezcontentobject_name.content_version = ezcontentobject_tree.contentobject_version
+                          JOIN ezcontentclass ON ezcontentobject ON ezkeyword.class_id = ezcontentclass.id
+                          $sqlPermissionChecking[from]
+                     WHERE " . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' ) . "
+                         AND " . eZContentLanguage::sqlFilter( 'ezcontentobject_name', 'ezcontentobject' ) . "
+                         AND ezcontentclass.identifier = '" . $classIdentifier . "'
+                         $pathString
+                         $parentNodeIDSQL
+                         " . eZContentObjectTreeNode::createShowInvisibleSQLString( true, false ) . "
+                         $sqlPermissionChecking[where]
+                     ORDER BY ezkeyword.keyword ASC" );
             } break;
         }
     }
