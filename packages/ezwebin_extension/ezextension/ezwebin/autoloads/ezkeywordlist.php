@@ -94,7 +94,7 @@ class eZKeywordList
                           $sqlPermissionChecking[from]
                      WHERE " . eZContentLanguage::languagesSQLFilter( 'ezcontentobject' ) . "
                          AND " . eZContentLanguage::sqlFilter( 'ezcontentobject_name', 'ezcontentobject' ) .
-                         ( empty( $classIDs ) ? '' : ( ' AND ' . $db->generateSQLINStatement( $classIDs, 'ezcontentobject.contentclass_id' ) ) ) . "
+                         ( empty( $classIDs ) ? '' : ( ' AND ' . $db->generateSQLINStatement( $classIDs, 'ezkeyword.class_id' ) ) ) . "
                          $pathString
                          $parentNodeIDSQL " .
                          ( $namedParameters['depth'] > 0 ? ("AND ezcontentobject_tree.depth=" . (int)$namedParameters['depth']) : '' ) . "
