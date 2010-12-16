@@ -12,19 +12,83 @@
     {set $sort_column_value = $node.object.published
          $sort_column = 'published'}
 {/if}
-
-{def $previous_image = fetch( 'content', 'list', hash( 'parent_node_id', $node.parent_node_id,
+{def $previous_image_array = fetch( 'content', 'list', hash( 'parent_node_id', $node.parent_node_id,
                                                        'class_filter_type', 'include',
                                                        'class_filter_array', array( 'image' ),
-                                                       'limit', '1',
-                                                       'attribute_filter', array( 'and', array( $sort_column, $sort_order|choose( '>', '<' ), $sort_column_value ) ),
-                                                       'sort_by', array( array( $sort_column, $sort_order|not ), array( 'node_id', $sort_order|not ) ) ) )
-     $next_image = fetch( 'content', 'list', hash( 'parent_node_id', $node.parent_node_id,
+                                                       'limit', '2',
+                                                       'attribute_filter', array( 'AND', array( $sort_column, $sort_order|choose( '>=', '<=' ), $sort_column_value ) ),
+                                                       'sort_by', array( $sort_column, $sort_order|not ) ) )}
+
+     {def $previous_image = array() }
+     {if $previous_image_array|count|eq( 2 )}
+        {if $previous_image_array.0.$sort_column|eq( $previous_image_array.1.$sort_column )}
+        {* If the current and previous items are sort_column-equal *}
+            {def $previous_last_image = fetch( 'content', 'list', hash( 'parent_node_id', $node.parent_node_id,
                                                    'class_filter_type', 'include',
                                                    'class_filter_array', array( 'image' ),
                                                    'limit', '1',
-                                                   'attribute_filter', array( 'and', array( $sort_column, $sort_order|choose( '<', '>' ), $sort_column_value ) ),
-                                                   'sort_by', array( array( $sort_column, $sort_order ), array( 'node_id', $sort_order ) ) ) ) }
+                                                   'attribute_filter', array( 'AND', array( $sort_column, '=', $sort_column_value ) ),
+                                                   'sort_by', array( array( 'node_id', true() ) ) ) )}
+            {if $previous_last_image.0.node_id|eq( $node.node_id )}
+            {* This is the first equal item , then find the previous non-sort_column-equal item*}
+                {set $previous_image = fetch( 'content', 'list', hash( 'parent_node_id', $node.parent_node_id,
+                                                   'class_filter_type', 'include',
+                                                   'class_filter_array', array( 'image' ),
+                                                   'limit', '1',
+                                                   'attribute_filter', array( 'AND', array( $sort_column, $sort_order|choose( '>', '<' ), $sort_column_value ) ),
+                                                   'sort_by', array( $sort_column, $sort_order|not ) ) )}
+            {else}
+            {* This is not the first equal item, then find the previous sort_column-equal item *}
+                {set $previous_image = fetch( 'content', 'list', hash( 'parent_node_id', $node.parent_node_id,
+                                                       'class_filter_type', 'include',
+                                                       'class_filter_array', array( 'image' ),
+                                                       'limit', '1',
+                                                       'attribute_filter', array( 'AND', array( $sort_column, '=', $sort_column_value ), array( 'node_id', '<', $node.node_id  ) ),
+                                                       'sort_by', array( 'node_id', false() ) ) )}
+            {/if}
+        {else}
+          {set $previous_image = array( $previous_image_array.1 )}
+        {/if}
+     {/if}
+
+     {def $next_image_array = fetch( 'content', 'list', hash( 'parent_node_id', $node.parent_node_id,
+                                                   'class_filter_type', 'include',
+                                                   'class_filter_array', array( 'image' ),
+                                                   'limit', '2',
+                                                   'attribute_filter', array( 'AND', array( $sort_column, $sort_order|choose( '<=', '>=' ), $sort_column_value ) ),
+                                                   'sort_by', array( $sort_column, $sort_order ) ) ) }
+
+      {def $next_image = array() }
+      {if $next_image_array|count|eq( 2 )}
+          {if $next_image_array.0.$sort_column|eq( $next_image_array.1.$sort_column )}
+          {* If the current and next items are sort_column-equal *}
+            {def $next_last_image = fetch( 'content', 'list', hash( 'parent_node_id', $node.parent_node_id,
+                                               'class_filter_type', 'include',
+                                               'class_filter_array', array( 'image' ),
+                                               'limit', '1',
+                                               'attribute_filter', array( 'AND', array( $sort_column, '=', $sort_column_value ) ),
+                                               'sort_by', array( array( 'node_id', false() ) ) ) )}
+            {if $next_last_image.0.node_id|eq( $node.node_id )}
+            {* This is the last equal item , then find the next non-sort_column-equal item*}
+                {set $next_image = fetch( 'content', 'list', hash( 'parent_node_id', $node.parent_node_id,
+                                               'class_filter_type', 'include',
+                                               'class_filter_array', array( 'image' ),
+                                               'limit', '1',
+                                               'attribute_filter', array( 'AND', array( $sort_column, $sort_order|choose( '<', '>' ), $sort_column_value ) ),
+                                               'sort_by', array( $sort_column, $sort_order ) ) )}
+            {else}
+            {* This is not the last equal item, then find the next sort_column-equal item *}
+            {set $next_image = fetch( 'content', 'list', hash( 'parent_node_id', $node.parent_node_id,
+                                               'class_filter_type', 'include',
+                                               'class_filter_array', array( 'image' ),
+                                               'limit', '1',
+                                               'attribute_filter', array( 'AND', array( $sort_column, '=', $sort_column_value ), array( 'node_id', '>', $node.node_id  ) ),
+                                               'sort_by', array( 'node_id', true() ) ) )}
+            {/if}
+          {else}
+            {set $next_image = array( $next_image_array.1 )}
+          {/if}
+      {/if}
 
 <div class="border-box">
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
