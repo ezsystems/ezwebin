@@ -1,3 +1,6 @@
+{if is_unset( $exceeded_limit ) }
+    {def $exceeded_limit=false()};
+{/if}
 
 <div class="border-box">
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
@@ -6,7 +9,12 @@
 <form action={concat($module.functions.removeobject.uri)|ezurl} method="post" name="ObjectRemove">
 
 <div class="warning">
+{if eq( $exceeded_limit, true() )}
+<h2>Warning:</h2>
+<p>{'The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.'|i18n( 'design/ezwebin/node/removeobject' )}</p>
+{else}
 <h2>{"Are you sure you want to remove these items?"|i18n("design/ezwebin/node/removeobject")}</h2>
+{/if}
 <ul>
 {foreach $remove_list as $remove_item}
     {if $remove_item.childCount|gt(0)}
@@ -25,7 +33,7 @@
 </ul>
 </div>
 
-{if $move_to_trash_allowed}
+{if and( $move_to_trash_allowed, eq( $exceeded_limit, false() ) )}
   <input type="hidden" name="SupportsMoveToTrash" value="1" />
   <p><input type="checkbox" name="MoveToTrash" value="1" checked="checked" />{'Move to trash'|i18n('design/ezwebin/node/removeobject')}</p>
 
@@ -37,7 +45,7 @@
 
 
 <div class="buttonblock">
-{include uri="design:gui/button.tpl" name=Store id_name=ConfirmButton value="Confirm"|i18n("design/ezwebin/node/removeobject")}
+{include uri="design:gui/button.tpl" name=Store id_name=ConfirmButton value="Confirm"|i18n("design/ezwebin/node/removeobject") disabled=$exceeded_limit}
 {include uri="design:gui/defaultbutton.tpl" name=Discard id_name=CancelButton value="Cancel"|i18n("design/ezwebin/node/removeobject")}
 </div>
 
