@@ -125,8 +125,8 @@ class eZTagCloud
                 $languageFilter .= 'AND ' . eZContentLanguage::languagesSQLFilter( 'ezcontentobject_attribute', 'language_id' );
 
                 $rs = $db->arrayQuery( "SELECT ezkeyword.keyword, count(ezkeyword.keyword) AS keyword_count
-                                        FROM ( ezkeyword, ezkeyword_attribute_link
-                                               $sqlPermissionChecking[from] )
+                                        FROM ezkeyword, ezkeyword_attribute_link
+                                               $sqlPermissionChecking[from]
                                         LEFT JOIN ezcontentobject_attribute
                                             ON ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
                                         LEFT JOIN ezcontentobject
