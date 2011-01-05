@@ -1,5 +1,5 @@
 {if is_unset( $exceeded_limit ) }
-    {def $exceeded_limit=false()};
+    {def $exceeded_limit=false()}
 {/if}
 
 <div class="border-box">
