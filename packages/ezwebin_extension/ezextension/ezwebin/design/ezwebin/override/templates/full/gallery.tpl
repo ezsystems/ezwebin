@@ -32,29 +32,12 @@
 
         {if $children_count}
             {* NOTE: Remember to modify templates for classes listed in class_filter_array if filters / sort_by is changed! *}
-            {* only allow published, modified, name, priority, modified_subnode field for sorting. For others 'published' will be used*}
-            {def $sort_array = $node.sort_array}
-            {switch match=$node.sort_array[0][0]}
-                {case match='published'}
-                {/case}
-                {case match='modified'}
-                {/case}
-                {case match='name'}
-                {/case}
-                {case match='priority'}
-                {/case}
-                {case match='modified_subnode'}
-                {/case}
-                {case}
-                    {set $sort_array=array( array( 'published', $node.sort_array[0][1] ) )}
-                {/case}
-            {/switch}
             {def $children = fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
                                                              'offset', $view_parameters.offset,
                                                              'limit', $page_limit,
                                                              'class_filter_type', 'include',
                                                              'class_filter_array', array( 'image', 'flash_player' ),
-                                                             'sort_by', $sort_array ) )}
+                                                             'sort_by', $node.sort_array ) )}
             <div class="attribute-link">
                 <p>
                 <a href={$children[0].url_alias|ezurl}>{'View as slideshow'|i18n( 'design/ezwebin/full/gallery' )}</a>
