@@ -101,18 +101,27 @@ class eZPageData
                     $moduleResult = array();
                 }
 
-                // Get persistent_variable
-                if ( isset( $moduleResult['content_info']['persistent_variable'] ) && is_array( $moduleResult['content_info']['persistent_variable'] ) )
+                if ( isset( $moduleResult['content_info'] ) )
                 {
-                    $pageData['persistent_variable'] = $moduleResult['content_info']['persistent_variable'];
-                }
-                else if ( self::$persistentVariable !== null )
-                {
-                    $pageData['persistent_variable'] = self::$persistentVariable;
+                    $contentInfo = $moduleResult['content_info'];
                 }
                 else
                 {
-                     $pageData['persistent_variable'] = array();
+                    $contentInfo = array();
+                }
+
+                // Get persistent_variable
+                if ( isset( $contentInfo['persistent_variable'] ) && is_array( $contentInfo['persistent_variable'] ) )
+                {
+                    $pageData['persistent_variable'] = $contentInfo['persistent_variable'];
+                }
+                else
+                {
+                     $pageData['persistent_variable'] = self::getPersistentVariable();
+                     if ( $pageData['persistent_variable'] === null )
+                     {
+                         $pageData['persistent_variable'] = array();
+                     }
                 }
 
                 // Merge parameters with persistent_variable
@@ -152,11 +161,12 @@ class eZPageData
                 }
 
                 // Init variables and return values
-                $ini          = eZINI::instance( 'site.ini' );
-                $menuIni      = eZINI::instance( 'menu.ini' );
-                $contentIni   = eZINI::instance( 'content.ini' );
-                $uiContext    = $tpl->variable('ui_context');
-                $uriString    = $tpl->variable('uri_string');
+                $ini                      = eZINI::instance( 'site.ini' );
+                $menuIni                  = eZINI::instance( 'menu.ini' );
+                $contentIni               = eZINI::instance( 'content.ini' );
+                $uiContext                = $tpl->variable('ui_context');
+                $uriString                = $tpl->variable('uri_string');
+                $pageData['main_node_id'] = isset( $contentInfo['main_node_id'] ) ? $contentInfo['main_node_id'] : $currentNodeId;
                 $pageData['show_path']           = 'path';
                 $pageData['website_toolbar']     = false;
                 $pageData['node_id']             = $currentNodeId;
@@ -165,19 +175,20 @@ class eZPageData
                 $pageData['page_depth']          = count( $moduleResult['path'] );
                 $pageData['root_node']           = (int) $contentIni->variable( 'NodeSettings', 'RootNode' );
                 $pageData['canonical_url']       = false;
+                $pageData['canonical_language_url'] = false;
 
                 // is_edit if not on user/edit and not on content/action when
                 // you get info collector warning about missing attributes
                 if ( $uiContext === 'edit'
                   && strpos( $uriString, 'user/edit' ) === false
-                  &&  ( !isset( $moduleResult['content_info'] ) || strpos( $uriString, 'content/action' ) === false ) )
+                  && ( empty( $contentInfo ) || strpos( $uriString, 'content/action' ) === false ) )
                 {
                     $pageData['is_edit'] = true;
                 }
 
-                if ( isset( $moduleResult['content_info']['viewmode'] ) )
+                if ( isset( $contentInfo['viewmode'] ) )
                 {
-                    $viewMode = $moduleResult['content_info']['viewmode'];
+                    $viewMode = $contentInfo['viewmode'];
                 }
                 else
                 {
@@ -215,6 +226,33 @@ class eZPageData
                 {
                     $pageData['canonical_url'] = $parameters['canonical_url'];
                 }
+                elseif ( isset( $contentInfo['main_node_url_alias'] ) && $contentInfo['main_node_url_alias'] )
+                {
+                    $pageData['canonical_url'] = $contentInfo['main_node_url_alias'];
+                }
+                elseif ( isset( $contentInfo['current_language'] )
+                      && $contentInfo['current_language'] !== $ini->variable( 'RegionalSettings', 'ContentObjectLocale' ) )
+                {
+                    $sa = explode( '-', $contentInfo['current_language'] );
+                    if ( in_array( $sa[0], $ini->variable( 'SiteAccessSettings', 'RelatedSiteAccessList' ) ) )
+                    {
+                        $lang = eZContentLanguage::fetchByLocale($ini->variable( 'RegionalSettings', 'ContentObjectLocale' ));
+                        if ( ( $contentInfo['language_mask'] & $lang->attribute('id') ) < 1 )
+                        {
+                            $handlerOptions = new ezpExtensionOptions();
+                            $handlerOptions->iniFile = 'site.ini';
+                            $handlerOptions->iniSection = 'RegionalSettings';
+                            $handlerOptions->iniVariable = 'LanguageSwitcherClass';
+                            $handlerOptions->handlerParams = array( array( 'Parameters' => array( 'sa', $currentNodeId ),
+                                                                           'UserParameters' => array() ) );
+                            $langSwitch = eZExtension::getHandlerClass( $handlerOptions );
+
+                            $langSwitch->setDestinationSiteAccess( $sa[0] );
+                            $langSwitch->process();
+                            $pageData['canonical_language_url'] = $langSwitch->destinationUrl();
+                        }
+                    }
+                }
 
                 /*
                   RootNodeDepth is a setting for letting you have a very simple multisite, single database and singe siteaccess setup.
@@ -250,9 +288,9 @@ class eZPageData
 
                 // Get class identifier for easier access in tempaltes
                 $pageData['class_identifier'] = '';
-                if ( isset( $moduleResult['content_info']['class_identifier'] ) )
+                if ( isset( $contentInfo['class_identifier'] ) )
                 {
-                    $pageData['class_identifier'] = $moduleResult['content_info']['class_identifier'];
+                    $pageData['class_identifier'] = $contentInfo['class_identifier'];
                 }
 
                 // Use custom path template. bool|string ( default: path )

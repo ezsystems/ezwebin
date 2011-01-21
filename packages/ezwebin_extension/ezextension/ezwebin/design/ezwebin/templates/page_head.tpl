@@ -55,10 +55,9 @@
     <meta name="MSSmartTagsPreventParsing" content="TRUE" />
     <meta name="generator" content="eZ Publish" />
 
-    {if $pagedata.canonical_url}
-        {* Multiple locations, pointing Search Engines to the original *}
-        <link rel="canonical" href={$pagedata.canonical_url|ezurl('no','full')} />
-    {/if}
+{if $canonical_link}
+    {include uri="design:canonical_link.tpl"}
+{/if}
 
 {if $enable_link}
     {include uri="design:link.tpl" enable_help=$enable_help enable_link=$enable_link}
