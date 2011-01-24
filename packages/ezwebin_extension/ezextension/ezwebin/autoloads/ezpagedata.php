@@ -494,56 +494,35 @@ class eZPageData
         return $path;
     }
 
-    // reusable function for setting persistent_variable
+    /**
+     * @uses ezjscPackerTemplateFunctions::setPersistentArray()
+     *
+     * @deprecated
+     * @param string $key Key to store values on
+     * @param string|array $value Value(s) to store
+     * @param object $tpl Template object to get values from
+     * @param bool $append Append or set value?
+     * @return array
+     */
     static public function setPersistentVariable( $key, $value, $tpl, $append = false )
     {
-        $persistentVariable = array();
-        if ( $tpl->hasVariable('persistent_variable') && is_array( $tpl->variable('persistent_variable') ) )
-        {
-           $persistentVariable = $tpl->variable('persistent_variable');
-        }
-        else if ( self::$persistentVariable !== null && is_array( self::$persistentVariable ) )
-        {
-            $persistentVariable = self::$persistentVariable;
-        }
-
         if ( $append )
-        {
-            if ( isset( $persistentVariable[ $key ] ) && is_array( $persistentVariable[ $key ] ) )
-            {
-                $persistentVariable[ $key ][] = $value;
-            }
-            else
-            {
-                $persistentVariable[ $key ] = array( $value );
-            }
-        }
-        else
-        {
-            $persistentVariable[ $key ] = $value;
-        }
-
-        // set the finnished array in the template
-        $tpl->setVariable('persistent_variable', $persistentVariable);
-
-        // storing the value internally as well in case this is not a view that supports persistent_variable (ezpagedata will look for it)
-        self::$persistentVariable = $persistentVariable;
+            return ezjscPackerTemplateFunctions::setPersistentArray( $key, $value, $tpl, $append );
+        else// if not, then override value
+            return ezjscPackerTemplateFunctions::setPersistentArray( $key, $value, $tpl, $append, false, false, true );
     }
 
-    // reusable function for getting persistent_variable
+    /**
+     * @uses ezjscPackerTemplateFunctions::getPersistentVariable()
+     *
+     * @deprecated
+     * @param string $key Optional, return all values if null
+     * @return array|string
+     */
     static public function getPersistentVariable( $key = null )
     {
-        if ( $key !== null )
-        {
-            if ( isset( self::$persistentVariable[ $key ] ) )
-                return self::$persistentVariable[ $key ];
-            return null;
-        }
-        return self::$persistentVariable;
+        return ezjscPackerTemplateFunctions::getPersistentVariable( $key );
     }
-
-    // Internal version of the $persistent_variable used on view that don't support it
-    static protected $persistentVariable = null;
 }
 
 ?>
