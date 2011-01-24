@@ -233,10 +233,10 @@ class eZPageData
                 elseif ( isset( $contentInfo['current_language'] )
                       && $contentInfo['current_language'] !== $ini->variable( 'RegionalSettings', 'ContentObjectLocale' ) )
                 {
-                    $sa = explode( '-', $contentInfo['current_language'] );
-                    if ( in_array( $sa[0], $ini->variable( 'SiteAccessSettings', 'RelatedSiteAccessList' ) ) )
+                    $siteaccess = eZSiteAccess::saNameByLanguage( $contentInfo['current_language'] );
+                    if ( $siteaccess !== null )
                     {
-                        $lang = eZContentLanguage::fetchByLocale($ini->variable( 'RegionalSettings', 'ContentObjectLocale' ));
+                        $lang = eZContentLanguage::fetchByLocale( $ini->variable( 'RegionalSettings', 'ContentObjectLocale' ) );
                         if ( ( $contentInfo['language_mask'] & $lang->attribute('id') ) < 1 )
                         {
                             $handlerOptions = new ezpExtensionOptions();
@@ -247,7 +247,7 @@ class eZPageData
                                                                            'UserParameters' => array() ) );
                             $langSwitch = eZExtension::getHandlerClass( $handlerOptions );
 
-                            $langSwitch->setDestinationSiteAccess( $sa[0] );
+                            $langSwitch->setDestinationSiteAccess( $siteaccess );
                             $langSwitch->process();
                             $pageData['canonical_language_url'] = $langSwitch->destinationUrl();
                         }
