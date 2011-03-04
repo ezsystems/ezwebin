@@ -5,15 +5,15 @@
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>翻訳できません</translation>
     </message>
     <message>
         <source>required</source>
-        <translation type="unfinished"></translation>
+        <translation>必須</translation>
     </message>
     <message>
         <source>information collector</source>
-        <translation type="unfinished"></translation>
+        <translation>情報コレクター</translation>
     </message>
 </context>
 <context>
@@ -345,7 +345,7 @@
     </message>
     <message>
         <source>Draft</source>
-        <translation>下書き</translation>
+        <translation>ドラフト</translation>
     </message>
     <message>
         <source>Published</source>
@@ -365,7 +365,7 @@
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>未変更の下書き</translation>
+        <translation>未変更ドラフト</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
@@ -408,7 +408,7 @@
     </message>
     <message>
         <source>My drafts</source>
-        <translation>編集中の下書き</translation>
+        <translation>編集中ドラフト</translation>
     </message>
     <message>
         <source>Name</source>
@@ -448,13 +448,13 @@
     </message>
     <message>
         <source>Empty draft</source>
-        <translation>下書きを空にする</translation>
+        <translation>ドラフトを空にする</translation>
     </message>
     <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation type="unfinished">現在作業中のオブジェクトです。下書きの所有者はあなたです、そのためあなたしか見えないです。
-下書きの編集するか、必要ない場合に削除します。</translation>
+        <translation>現在作業中のオブジェクトです。ドラフトの所有者はあなたです、そのためあなたしか見えないです。
+ドラフトを編集するか、必要ない場合に削除することができます。</translation>
     </message>
 </context>
 <context>
@@ -465,11 +465,11 @@
     </message>
     <message>
         <source>Store draft</source>
-        <translation>下書きを保存</translation>
+        <translation>ドラフトの保存</translation>
     </message>
     <message>
         <source>Discard draft</source>
-        <translation>下書きの破棄</translation>
+        <translation>ドラフトの破棄</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
@@ -481,7 +481,7 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;%object_name&gt; (%class_name)の編集</translation>
     </message>
 </context>
 <context>
@@ -500,7 +500,7 @@
     </message>
     <message>
         <source>Current drafts</source>
-        <translation>現在の下書き</translation>
+        <translation>現在のドラフト</translation>
     </message>
     <message>
         <source>Version</source>
@@ -528,25 +528,25 @@
     </message>
     <message>
         <source>New draft</source>
-        <translation>新規下書き</translation>
+        <translation>新規ドラフト</translation>
     </message>
     <message>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished">このオブジェクトはすでに編集されています
-下書きを編集するか、新しい下書きを作ることができます。</translation>
+        <translation>このオブジェクトはすでに編集されています
+ドラフトを編集するか、新しいドラフトを作ることができます。</translation>
     </message>
     <message>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished">このオブジェクトをすでに編集しています。
-下書きを編集するか、新しい下書きを作ることができます。</translation>
+        <translation>このオブジェクトをすでに編集しています。
+ドラフトを編集するか、新しいドラフトを作ることができます。</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation type="unfinished">他人がすでにこのオブジェクトを編集しています。
-編集者に連絡をするか、新しい下書きを作成することができます。</translation>
+        <translation>他人がすでにこのオブジェクトを編集しています。
+編集者に連絡をするか、新しいドラフトを作成することができます。</translation>
     </message>
 </context>
 <context>
@@ -585,7 +585,7 @@
     </message>
     <message>
         <source>Use an empty, untranslated draft</source>
-        <translation>翻訳されていない、空の下書きを使う</translation>
+        <translation>翻訳されていない、空のドラフトを使う</translation>
     </message>
     <message>
         <source>You do not have permission to create a translation in another language.</source>
@@ -649,7 +649,7 @@
     </message>
     <message>
         <source>Draft</source>
-        <translation>下書き</translation>
+        <translation>ドラフト</translation>
     </message>
     <message>
         <source>Published</source>
@@ -709,11 +709,11 @@
     </message>
     <message>
         <source>New drafts [%newerDraftCount]</source>
-        <translation>新規下書き</translation>
+        <translation>新規ドラフト</translation>
     </message>
     <message>
         <source>This object does not have any drafts.</source>
-        <translation>このオブジェクトには下書きはありません。</translation>
+        <translation>このオブジェクトにはドラフトはありません。</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
@@ -741,7 +741,7 @@
     </message>
     <message>
         <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
-        <translation>バージョン%1は編集することができません。下書きを編集して下さい。</translation>
+        <translation>バージョン%1は編集することができません。ドラフトを編集して下さい。</translation>
     </message>
     <message>
         <source>To edit this version, first create a copy of it.</source>
@@ -749,11 +749,11 @@
     </message>
     <message>
         <source>Version %1 was not created by you. Only your own drafts can be edited.</source>
-        <translation>%1バージョンの作成者ではありません。自分が作成した下書きのみ編集出来ます。</translation>
+        <translation>%1バージョンの作成者ではありません。自分が作成したドラフトのみ編集出来ます。</translation>
     </message>
     <message>
         <source>You can either change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation>content.iniでバージョン履歴の設定を変えるか、下書きバージョンを削除するか、すでに存在する下書きを編集することができます。</translation>
+        <translation>content.iniでバージョン履歴の設定を変えるか、ドラフトバージョンを削除するか、すでに存在するドラフトを編集することができます。</translation>
     </message>
     <message>
         <source>Toggle selection</source>
@@ -765,7 +765,7 @@
     </message>
     <message>
         <source>There is no need to do a copies of untouched drafts.</source>
-        <translation>編集されてない下書きをコピーすることは出来ません。</translation>
+        <translation>編集されてないドラフトをコピーすることは出来ません。</translation>
     </message>
     <message>
         <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
@@ -773,7 +773,7 @@
     </message>
     <message>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
-        <translation>#%version_numberバージョンは、下書きではないか、編集権限を持っていないため、コンテンツを編集できません。</translation>
+        <translation>#%version_numberバージョンは、ドラフトではないか、編集権限を持っていないため、コンテンツを編集できません。</translation>
     </message>
     <message>
         <source>Modified translation</source>
@@ -1046,7 +1046,7 @@
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation type="unfinished">OpenOffice.orgオブジェクトの配置先を選択してください。
+        <translation>OpenOffice.orgオブジェクトの配置先を選択してください。
     配置先を選んで、%buttonnameボタンをクリックしてください。
     お気に入りを利用する事もできます。
     配置先名にクリックして、ブラウズリストを変更できます。</translation>
@@ -1122,7 +1122,7 @@
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="unfinished">OpenOffice.org Writerドキュメントを直接eZ Publishにインポートします。ドキュメントの配置先を選択する必要があります。
+        <translation>OpenOffice.org Writerドキュメントを直接eZ Publishにインポートします。ドキュメントの配置先を選択する必要があります。
 ドキュメントは自動的に適切なクラスに変換されます。インポートが終わりましたら、通知が表示されます。
 画像はメディアリソースに登録されるため、他のオブジェクトと共有できます。</translation>
     </message>
@@ -1147,7 +1147,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished">関連コンテント</translation>
+        <translation>関連コンテンツ</translation>
     </message>
 </context>
 <context>
@@ -1241,7 +1241,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Show All Events..</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのイベントを表示。</translation>
     </message>
 </context>
 <context>
@@ -1391,7 +1391,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Forum</source>
-        <translation type="unfinished"></translation>
+        <translation>掲示板</translation>
     </message>
 </context>
 <context>
@@ -1413,7 +1413,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished">関連コンテント</translation>
+        <translation>関連コンテンツ</translation>
     </message>
 </context>
 <context>
@@ -1473,7 +1473,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Tags:</source>
-        <translation type="unfinished">タグ:</translation>
+        <translation>タグ:</translation>
     </message>
 </context>
 <context>
@@ -1727,428 +1727,428 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/parts/website_toolbar</name>
     <message>
         <source>Remove node RSS/ATOM feed</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS/ATOMフィードの削除</translation>
     </message>
     <message>
         <source>Create node RSS/ATOM feed</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS/ATOMフィードの作成</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/edit_export</name>
     <message>
         <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;%rss_export_name&gt; [RSSエクスポート]の編集</translation>
     </message>
     <message>
         <source>Invalid input</source>
-        <translation type="unfinished"></translation>
+        <translation>無効入力</translation>
     </message>
     <message>
         <source>If RSS Export is Active then a valid Access URL is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポートは有効の場合、有効なURLは必要になります。</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名前</translation>
+        <translation>名前</translation>
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポート名。この名前は、インポートを区別出きるように、管理画面で利用されています。</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">概要</translation>
+        <translation>概要</translation>
     </message>
     <message>
         <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>この概要フィールドを使って、RSSの概要を設定する事ができます。</translation>
     </message>
     <message>
         <source>Site URL</source>
-        <translation type="unfinished"></translation>
+        <translation>サイトURL</translation>
     </message>
     <message>
         <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
-        <translation type="unfinished"></translation>
+        <translation>サイトのベースURLはこのフィールドで設定できます。エクスポートする際のURLに使われます、サイトURL（例えば&quot;http://www.example.com/index.php&quot;）とオブジェクトへのパス(例えば&quot;/articles/my_article&quot;)の組み合わせになります。サイトURLはeZ Publishの設定とウェブサーバに依存します。</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
-        <translation type="unfinished"></translation>
+        <translation>システムが自動的にサイトURLを検出する様にこのフィールドをからにしてください</translation>
     </message>
     <message>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>画像</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">ブラウズ</translation>
+        <translation>ブラウズ</translation>
     </message>
     <message>
         <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポート画像を選ぶ様にこのボタンをクリックしてください。画像はRSSバージョン2.0から使えるの注意してください</translation>
     </message>
     <message>
         <source>Remove image</source>
-        <translation type="unfinished"></translation>
+        <translation>画像の削除</translation>
     </message>
     <message>
         <source>Click to remove image from RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポート画像を削除する様にこのボタンをクリックしてください。</translation>
     </message>
     <message>
         <source>RSS version</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSバージョン</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
-        <translation type="unfinished"></translation>
+        <translation>このドロップダウンでRSSバージョンを選択できます。上記に選択したイメージをエクスポートする様にRSS2.0が必要です。</translation>
     </message>
     <message>
         <source>Number of objects</source>
-        <translation type="unfinished"></translation>
+        <translation>オブジェクト数</translation>
     </message>
     <message>
         <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSフィードの最大オブジェクトを設定するには、このドロップダウンを使ってください。</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>有効</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポートが有効か無効を設定する様にこのチェックボックスを使ってください。無効なエクスポートは自動的に更新されません。</translation>
     </message>
     <message>
         <source>Main node only</source>
-        <translation type="unfinished"></translation>
+        <translation>メインノードのみ</translation>
     </message>
     <message>
         <source>Check if you want to only feed the object from the main node.</source>
-        <translation type="unfinished"></translation>
+        <translation>フィードにメインノードオブジェクトだけを含む場合、このチェックボックスにチェック入れてください。</translation>
     </message>
     <message>
         <source>Access URL</source>
-        <translation type="unfinished"></translation>
+        <translation>アクセスURL</translation>
     </message>
     <message>
         <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
-        <translation type="unfinished"></translation>
+        <translation>このフィールドでRSSエクスポートが利用できるURLを設定できます。&quot;rss/feed/&quot;はURLに追加される様に注意してください。</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>ソース</translation>
     </message>
     <message>
         <source>Source path</source>
-        <translation type="unfinished"></translation>
+        <translation>ソースパス</translation>
     </message>
     <message>
         <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポートソースのソースノードを選ぶ様にこのボタンをクリックしてください。下記のドロップダウンで選択されたオブジェクトタイプの選択されたノードのサブノードはRSSエクスポートに含まれます。</translation>
     </message>
     <message>
         <source>Subnodes</source>
-        <translation type="unfinished"></translation>
+        <translation>サブノード</translation>
     </message>
     <message>
         <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
-        <translation type="unfinished"></translation>
+        <translation>ソースのサブノードオブジェクトを連携する様にこのチェックボックスにチェックしてください。</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">クラス</translation>
+        <translation>クラス</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>エクスポートをトリガーするオブジェクト種類をこのドロップダウンを使ってください。他のフィールドに正確な属性タイプを読み込む様にセットボタンにクリックしてください。</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>下のドロップダウンフィールドに正確な値を読み込む様にこのボタンを使ってください。クラスを選択する様に左のドロップダウンメニューを使ってください。</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>タイトル</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポートのタイトルになる属性をこのドロップダウンで選んでください。</translation>
     </message>
     <message>
         <source>optional</source>
-        <translation type="unfinished"></translation>
+        <translation>任意</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポートの概要になる属性をこのドロップダウンで選んでください。</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>スキップ</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">カテゴリー</translation>
+        <translation>カテゴリー</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポートのカテゴリになる属性をこのドロップダウンで選んでください。</translation>
     </message>
     <message>
         <source>Remove this source</source>
-        <translation type="unfinished"></translation>
+        <translation>このソースを削除する</translation>
     </message>
     <message>
         <source>Click to remove this source from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポートソースを削除する様にこのボタンをクリックしてください。</translation>
     </message>
     <message>
         <source>Add source</source>
-        <translation type="unfinished"></translation>
+        <translation>ソースの追加</translation>
     </message>
     <message>
         <source>Click to add a new source to the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポートに新しいソースを追加する様に、このボタンをクリックしてください。</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>変更を保存して、RSS概要に戻ります。</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>変更をキャンセルして、RSS概要に戻ります。</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/edit_import</name>
     <message>
         <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;%rss_import_name&gt; [RSSインポート]の編集</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名前</translation>
+        <translation>名前</translation>
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSインポート名。この名前は、インポートを区別出きるように、管理画面で利用されています。</translation>
     </message>
     <message>
         <source>Source URL</source>
-        <translation type="unfinished"></translation>
+        <translation>ソースURL</translation>
     </message>
     <message>
         <source>Use this field to enter the source URL of the RSS feed to import.</source>
-        <translation type="unfinished"></translation>
+        <translation>このフィールドにインポートするRSSフィードのソースを入力してください。</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished">更新</translation>
+        <translation>更新</translation>
     </message>
     <message>
         <source>Click this button to proceed and analyze the import feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>このボータンをクリックして、インポートフィードの分析を実効できます。</translation>
     </message>
     <message>
         <source>RSS Version</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSバージョン</translation>
     </message>
     <message>
         <source>Destination path</source>
-        <translation type="unfinished"></translation>
+        <translation>宛先パス</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">ブラウズ</translation>
+        <translation>ブラウズ</translation>
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートされたオブジェクトの保存先を設定するにはこのボタンを使ってください。</translation>
     </message>
     <message>
         <source>Imported objects will be owned by</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートされたオブジェクトの所有者は</translation>
     </message>
     <message>
         <source>Change user</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザ変更</translation>
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートされたオブジェクトの所有者を設定するにはこのボタンを使ってください。</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">クラス</translation>
+        <translation>クラス</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートはどのオブジェクト種類を作るのを選ぶにはこのドロップダウンを使ってください。他のフィールドの属性タイプを読み込む様に、「設定」ボタンを使ってください。</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>下のドロップダウンフィールドに正確な値を読み込む様にこのボタンを使ってください。クラスを選択する様に左のドロップダウンメニューを使ってください。</translation>
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>クラス属性</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSストリームの情報になる属性をこのドロップダウンメニューで選んでください。</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"></translation>
+        <translation>無視</translation>
     </message>
     <message>
         <source>Object attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>オブジェクト属性</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>有効</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>このチェックボックスでRSSフィードはか無効に設定できます。無効なフィードは自動更新されません。</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>変更を保存し、RSS概要に戻る。</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>変更をキャンセルし、RSS概要に戻る。</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/list</name>
     <message>
         <source>RSS exports [%exports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポート [%exports_count]</translation>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished">選択の反転</translation>
+        <translation>選択の反転</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished">選択の反転</translation>
+        <translation>選択の反転。</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名前</translation>
+        <translation>名前</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">バージョン</translation>
+        <translation>バージョン</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished">ステータス</translation>
+        <translation>ステータス</translation>
     </message>
     <message>
         <source>Modifier</source>
-        <translation type="unfinished"></translation>
+        <translation>編集者</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished">修正日時</translation>
+        <translation>修正日時</translation>
     </message>
     <message>
         <source>Select RSS export for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>削除するRSSエクスポートを選択してください。</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>有効</translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation type="unfinished"></translation>
+        <translation>無効</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">編集</translation>
+        <translation>編集</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;%name&gt; RSSエクスポートの編集。</translation>
     </message>
     <message>
         <source>The RSS export list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSエクスポートリストは空。</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">選択項目の削除</translation>
+        <translation>選択項目の削除</translation>
     </message>
     <message>
         <source>Remove selected RSS exports.</source>
-        <translation type="unfinished"></translation>
+        <translation>選択されたRSSエクスポートの削除。</translation>
     </message>
     <message>
         <source>New export</source>
-        <translation type="unfinished"></translation>
+        <translation>新規エクスポート</translation>
     </message>
     <message>
         <source>Create a new RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>新規RSSエクスポートの作成。</translation>
     </message>
     <message>
         <source>RSS imports [%imports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSインポート [%imports_count]</translation>
     </message>
     <message>
         <source>Select RSS import for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>削除するRSSインポートの選択。</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;%name&gt; RSSインポートの編集。</translation>
     </message>
     <message>
         <source>The RSS import list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSSインポートリストは空です。</translation>
     </message>
     <message>
         <source>Remove selected RSS imports.</source>
-        <translation type="unfinished"></translation>
+        <translation>選択されたRSSインポートの削除。</translation>
     </message>
     <message>
         <source>New import</source>
-        <translation type="unfinished"></translation>
+        <translation>新規インポート</translation>
     </message>
     <message>
         <source>Create a new RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>新規RSSインポートの作成。</translation>
     </message>
 </context>
 <context>
@@ -2330,15 +2330,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Summary</source>
-        <translation type="unfinished">サマリ</translation>
+        <translation>サマリ</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished">合計（税別）</translation>
+        <translation>合計（税別）</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished">合計（税込）</translation>
+        <translation>合計（税込）</translation>
     </message>
 </context>
 <context>
@@ -2674,11 +2674,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>My drafts</source>
-        <translation>編集中の下書き</translation>
+        <translation>ドラフト</translation>
     </message>
     <message>
         <source>My orders</source>
-        <translation>マイオーダー</translation>
+        <translation>オーダー</translation>
     </message>
     <message>
         <source>My notification settings</source>
@@ -2756,7 +2756,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Access not allowed</source>
-        <translation type="unfinished">アクセスできません。</translation>
+        <translation>アクセスできません</translation>
     </message>
     <message>
         <source>You are not allowed to access %1.</source>
@@ -2902,11 +2902,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your browser does not support html5 video.</source>
-        <translation type="unfinished"></translation>
+        <translation>利用しているブラウザはHTML5ビデオを対応しません。</translation>
     </message>
     <message>
         <source>Your browser does not support html5 audio.</source>
-        <translation type="unfinished"></translation>
+        <translation>利用しているブラウザはHTML5オーディオを対応しません。</translation>
     </message>
 </context>
 <context>
