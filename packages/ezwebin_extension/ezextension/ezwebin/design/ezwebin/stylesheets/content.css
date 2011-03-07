@@ -544,6 +544,7 @@ div.content-view-full div.content-view-line div.attribute-byline p
 div.content-navigator
 {
     display: block;
+    text-align: center;
 }
 
 div.content-navigator div
