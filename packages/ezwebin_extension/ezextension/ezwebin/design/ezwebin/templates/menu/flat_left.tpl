@@ -10,7 +10,6 @@
     {def $root_node=fetch( 'content', 'node', hash( 'node_id', $pagedata.path_array[$left_menu_depth].node_id ) )
          $left_menu_items = fetch( 'content', 'list', hash( 'parent_node_id', $root_node.node_id,
                                                             'sort_by', $root_node.sort_array,
-                                                            'data_map_load', false(),
                                                             'class_filter_type', 'include',
                                                             'class_filter_array', ezini( 'MenuContentSettings', 'LeftIdentifierList', 'menu.ini' ) ) )
          $left_menu_items_count = $left_menu_items|count()
@@ -40,7 +39,6 @@
             {if eq( $current_node_in_path_2, $item.node_id )}
                 {def $sub_menu_items = fetch( 'content', 'list', hash( 'parent_node_id', $item.node_id,
                                                                       'sort_by', $item.sort_array,
-                                                                      'data_map_load', false(),
                                                                       'class_filter_type', 'include',
                                                                       'class_filter_array', ezini( 'MenuContentSettings', 'LeftIdentifierList', 'menu.ini' ) ) )
                      $sub_menu_items_count = $sub_menu_items|count}
