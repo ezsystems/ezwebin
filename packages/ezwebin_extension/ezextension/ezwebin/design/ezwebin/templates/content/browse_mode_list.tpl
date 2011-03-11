@@ -1,3 +1,4 @@
+{ezscript_require( 'tools/ezjsselection.js' )}
 <table class="list" cellspacing="0">
 <tr>
     <th class="tight">
