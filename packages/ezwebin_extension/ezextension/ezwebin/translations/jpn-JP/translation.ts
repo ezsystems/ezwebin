@@ -2,6 +2,29 @@
 <!DOCTYPE TS>
 <TS version="2.0" language="en_US">
 <context>
+    <name>design/admin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished">年</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished">月</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished">日</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished">時間</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished">分</translation>
+    </message>
+</context>
+<context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
@@ -309,91 +332,95 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation>時間</translation>
+        <translation type="obsolete">時間</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>分</translation>
+        <translation type="obsolete">分</translation>
+    </message>
+    <message>
+        <source>Show calendar to select a date.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>&lt;%object_name&gt; [%version_count] 
+        <translation type="obsolete">&lt;%object_name&gt; [%version_count] 
 のバージョン</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>バージョン</translation>
+        <translation type="obsolete">バージョン</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>ステータス</translation>
+        <translation type="obsolete">ステータス</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>翻訳</translation>
+        <translation type="obsolete">翻訳</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>作成者</translation>
+        <translation type="obsolete">作成者</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>修正日時</translation>
+        <translation type="obsolete">修正日時</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>ドラフト</translation>
+        <translation type="obsolete">ドラフト</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>公開中</translation>
+        <translation type="obsolete">公開中</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>保留中</translation>
+        <translation type="obsolete">保留中</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>保管</translation>
+        <translation type="obsolete">保管</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>非承認</translation>
+        <translation type="obsolete">非承認</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>未変更ドラフト</translation>
+        <translation type="obsolete">未変更ドラフト</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>このオブジェクトにはバージョンが存在しません。</translation>
+        <translation type="obsolete">このオブジェクトにはバージョンが存在しません。</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>違いを表示</translation>
+        <translation type="obsolete">違いを表示</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>%oldVersion と %newVersionの違い</translation>
+        <translation type="obsolete">%oldVersion と %newVersionの違い</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>旧バージョン</translation>
+        <translation type="obsolete">旧バージョン</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>インライン変更</translation>
+        <translation type="obsolete">インライン変更</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>ブロック変更</translation>
+        <translation type="obsolete">ブロック変更</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>新バージョン</translation>
+        <translation type="obsolete">新バージョン</translation>
     </message>
 </context>
 <context>
@@ -482,6 +509,26 @@
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
         <translation>&lt;%object_name&gt; (%class_name)の編集</translation>
+    </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1611,6 +1658,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>If %trashname is checked, removed items can be found in the trash.</source>
         <translation>%trashnameにチェックをすると、削除されたオジェクトはゴミ箱へ移動されます。</translation>
     </message>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/notification/addingresult</name>
@@ -2643,15 +2694,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation>アカウントは有効になりました。</translation>
+        <translation type="obsolete">アカウントは有効になりました。</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>パスワードが無効なためアカウントを有効に出来ません。</translation>
+        <translation type="obsolete">パスワードが無効なためアカウントを有効に出来ません。</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation>あなたのアカウントは既に有効です。</translation>
+        <translation type="obsolete">あなたのアカウントは既に有効です。</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2960,6 +3011,32 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
         <translation>このコンテンツオブジェクトに適応出来るステートはありません。より高いアクセス権限が必要かもしれません。</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>Second</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user</name>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation type="unfinished">アカウントは有効になりました。</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation type="unfinished">あなたのアカウントは既に有効です。</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation type="unfinished">パスワードが無効なためアカウントを有効に出来ません。</translation>
     </message>
 </context>
 </TS>

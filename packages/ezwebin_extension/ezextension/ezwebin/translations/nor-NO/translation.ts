@@ -2,6 +2,29 @@
 <!DOCTYPE TS>
 <TS version="2.0">
 <context>
+    <name>design/admin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished">År</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished">Måned</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished">Dag</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished">Time</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished">Minutt</translation>
+    </message>
+</context>
+<context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
@@ -309,90 +332,94 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation>Time</translation>
+        <translation type="obsolete">Time</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minutt</translation>
+        <translation type="obsolete">Minutt</translation>
+    </message>
+    <message>
+        <source>Show calendar to select a date.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Versjoner av &lt;%object_name&gt; [%version_count]</translation>
+        <translation type="obsolete">Versjoner av &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versjon</translation>
+        <translation type="obsolete">Versjon</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation type="obsolete">Status</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Oversettelser</translation>
+        <translation type="obsolete">Oversettelser</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Opprettet av</translation>
+        <translation type="obsolete">Opprettet av</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Endret</translation>
+        <translation type="obsolete">Endret</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>Utkast</translation>
+        <translation type="obsolete">Utkast</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Publisert</translation>
+        <translation type="obsolete">Publisert</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>Venter</translation>
+        <translation type="obsolete">Venter</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>Arkivert</translation>
+        <translation type="obsolete">Arkivert</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>Forkastet</translation>
+        <translation type="obsolete">Forkastet</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>Urørt utkast</translation>
+        <translation type="obsolete">Urørt utkast</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Dette objektet har ingen versjoner.</translation>
+        <translation type="obsolete">Dette objektet har ingen versjoner.</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>Vis forskjeller</translation>
+        <translation type="obsolete">Vis forskjeller</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Forskjeller mellom versjonene %oldVersion og %newVersion</translation>
+        <translation type="obsolete">Forskjeller mellom versjonene %oldVersion og %newVersion</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>Gammel versjon</translation>
+        <translation type="obsolete">Gammel versjon</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>Linjeendringer</translation>
+        <translation type="obsolete">Linjeendringer</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>Avsnittendringer</translation>
+        <translation type="obsolete">Avsnittendringer</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>Ny versjon</translation>
+        <translation type="obsolete">Ny versjon</translation>
     </message>
 </context>
 <context>
@@ -479,6 +506,26 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1600,6 +1647,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>If %trashname is checked, removed items can be found in the trash.</source>
         <translation>Hvis det er krysset av for %trashname, så kan slettet innhold bli gjenfunnet i papirkurven.</translation>
     </message>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/notification/addingresult</name>
@@ -2632,15 +2683,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation>Din konto er nå aktivert.</translation>
+        <translation type="obsolete">Din konto er nå aktivert.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Beklager, aktiveringsnøkkelen var ikke gyldig. Kontoen ble ikke aktivert.</translation>
+        <translation type="obsolete">Beklager, aktiveringsnøkkelen var ikke gyldig. Kontoen ble ikke aktivert.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation>Kontoen din er alt aktivert.</translation>
+        <translation type="obsolete">Kontoen din er alt aktivert.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2949,6 +3000,32 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>Second</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user</name>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation type="unfinished">Din konto er nå aktivert.</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation type="unfinished">Kontoen din er alt aktivert.</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation type="unfinished">Beklager, aktiveringsnøkkelen var ikke gyldig. Kontoen ble ikke aktivert.</translation>
     </message>
 </context>
 </TS>

@@ -2,6 +2,29 @@
 <!DOCTYPE TS>
 <TS version="2.0">
 <context>
+    <name>design/admin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
@@ -308,11 +331,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Hour</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Minute</source>
+        <source>Show calendar to select a date.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -320,79 +339,79 @@
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>&lt;%object_name&gt;的版本数[%version_count]</translation>
+        <translation type="obsolete">&lt;%object_name&gt;的版本数[%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>版本</translation>
+        <translation type="obsolete">版本</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>状态</translation>
+        <translation type="obsolete">状态</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>翻译</translation>
+        <translation type="obsolete">翻译</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>作者</translation>
+        <translation type="obsolete">作者</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>修改</translation>
+        <translation type="obsolete">修改</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>草稿</translation>
+        <translation type="obsolete">草稿</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>发布</translation>
+        <translation type="obsolete">发布</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>等待</translation>
+        <translation type="obsolete">等待</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>归档</translation>
+        <translation type="obsolete">归档</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>拒否</translation>
+        <translation type="obsolete">拒否</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>未修改的草稿</translation>
+        <translation type="obsolete">未修改的草稿</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>该对象没有任何版本。</translation>
+        <translation type="obsolete">该对象没有任何版本。</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>显示差别</translation>
+        <translation type="obsolete">显示差别</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>%oldVersion与%newVersion的差别</translation>
+        <translation type="obsolete">%oldVersion与%newVersion的差别</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>旧版本</translation>
+        <translation type="obsolete">旧版本</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>行内修改</translation>
+        <translation type="obsolete">行内修改</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>块修改</translation>
+        <translation type="obsolete">块修改</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>新版本</translation>
+        <translation type="obsolete">新版本</translation>
     </message>
 </context>
 <context>
@@ -479,6 +498,26 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1600,6 +1639,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/notification/addingresult</name>
@@ -2632,15 +2675,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation>您的帐号被激活。</translation>
+        <translation type="obsolete">您的帐号被激活。</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation>您的帐号已经被激活。</translation>
+        <translation type="obsolete">您的帐号已经被激活。</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>抱歉，您发送的key不是一个合法的key。帐号没有被激活。</translation>
+        <translation type="obsolete">抱歉，您发送的key不是一个合法的key。帐号没有被激活。</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2949,6 +2992,32 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>Second</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user</name>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation type="unfinished">您的帐号被激活。</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation type="unfinished">您的帐号已经被激活。</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation type="unfinished">抱歉，您发送的key不是一个合法的key。帐号没有被激活。</translation>
     </message>
 </context>
 </TS>

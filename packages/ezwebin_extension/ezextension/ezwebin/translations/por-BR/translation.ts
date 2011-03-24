@@ -2,6 +2,29 @@
 <!DOCTYPE TS>
 <TS version="2.0">
 <context>
+    <name>design/admin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished">Ano</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished">Mês</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished">Dia</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished">Hora</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished">Minuto</translation>
+    </message>
+</context>
+<context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
@@ -309,90 +332,94 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation>Hora</translation>
+        <translation type="obsolete">Hora</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minuto</translation>
+        <translation type="obsolete">Minuto</translation>
+    </message>
+    <message>
+        <source>Show calendar to select a date.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Versões para &lt;%object_name&gt; [%version_count]</translation>
+        <translation type="obsolete">Versões para &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versão</translation>
+        <translation type="obsolete">Versão</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation type="obsolete">Status</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Traduções</translation>
+        <translation type="obsolete">Traduções</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Criado por</translation>
+        <translation type="obsolete">Criado por</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Modificado</translation>
+        <translation type="obsolete">Modificado</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>Rascunho</translation>
+        <translation type="obsolete">Rascunho</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Publicado</translation>
+        <translation type="obsolete">Publicado</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>Pendente</translation>
+        <translation type="obsolete">Pendente</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>Arquivado</translation>
+        <translation type="obsolete">Arquivado</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>Rejeitado</translation>
+        <translation type="obsolete">Rejeitado</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>Rascunho não tocado</translation>
+        <translation type="obsolete">Rascunho não tocado</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Este objeto não tem nenhuma versão.</translation>
+        <translation type="obsolete">Este objeto não tem nenhuma versão.</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>Mostrar diferenças</translation>
+        <translation type="obsolete">Mostrar diferenças</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Diferenças entre as versões %oldVersion e %newVersion</translation>
+        <translation type="obsolete">Diferenças entre as versões %oldVersion e %newVersion</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>Versão antiga</translation>
+        <translation type="obsolete">Versão antiga</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>Modificações em linha</translation>
+        <translation type="obsolete">Modificações em linha</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>Modificações em parágrafo</translation>
+        <translation type="obsolete">Modificações em parágrafo</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>Nova versão</translation>
+        <translation type="obsolete">Nova versão</translation>
     </message>
 </context>
 <context>
@@ -480,6 +507,26 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1613,6 +1660,10 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
         <source>If %trashname is checked, removed items can be found in the trash.</source>
         <translation>Se %trashname for marcado, os itens removidos podem ser encontrados na lixeira.</translation>
     </message>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/notification/addingresult</name>
@@ -2645,15 +2696,15 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation>Sua conta está ativa agora.</translation>
+        <translation type="obsolete">Sua conta está ativa agora.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Desculpa, a chave submetida não é válida. A conta não foi ativada.</translation>
+        <translation type="obsolete">Desculpa, a chave submetida não é válida. A conta não foi ativada.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation>Sua conta já está ativa.</translation>
+        <translation type="obsolete">Sua conta já está ativa.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2962,6 +3013,32 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
         <translation>Nenhum estado pode ser aplicado a este objeto de conteúdo. Você precisa pertencer a uma política de acesso mais permissiva.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>Second</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user</name>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation type="unfinished">Sua conta está ativa agora.</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation type="unfinished">Sua conta já está ativa.</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation type="unfinished">Desculpa, a chave submetida não é válida. A conta não foi ativada.</translation>
     </message>
 </context>
 </TS>

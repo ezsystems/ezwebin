@@ -2,6 +2,29 @@
 <!DOCTYPE TS>
 <TS version="2.0" language="nl_NL" sourcelanguage="en_GB">
 <context>
+    <name>design/admin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished">Jaar</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished">Maand</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished">Dag</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished">Uur</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished">Minuut</translation>
+    </message>
+</context>
+<context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
@@ -309,90 +332,94 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation>Uur</translation>
+        <translation type="obsolete">Uur</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minuut</translation>
+        <translation type="obsolete">Minuut</translation>
+    </message>
+    <message>
+        <source>Show calendar to select a date.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Versies voor &lt;%object_name&gt; (%version_count)</translation>
+        <translation type="obsolete">Versies voor &lt;%object_name&gt; (%version_count)</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versie</translation>
+        <translation type="obsolete">Versie</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation type="obsolete">Status</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Vertalingen</translation>
+        <translation type="obsolete">Vertalingen</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Creator</translation>
+        <translation type="obsolete">Creator</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Gewijzigd</translation>
+        <translation type="obsolete">Gewijzigd</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>Concept</translation>
+        <translation type="obsolete">Concept</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Gepubliceerd</translation>
+        <translation type="obsolete">Gepubliceerd</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>In behandeling</translation>
+        <translation type="obsolete">In behandeling</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>Gearchiveerd</translation>
+        <translation type="obsolete">Gearchiveerd</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>Verworpen</translation>
+        <translation type="obsolete">Verworpen</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>Onaangeroerd concept</translation>
+        <translation type="obsolete">Onaangeroerd concept</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Dit object heeft geen versies.</translation>
+        <translation type="obsolete">Dit object heeft geen versies.</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>Verschillen weergeven</translation>
+        <translation type="obsolete">Verschillen weergeven</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Verschillen tussen versies %oldVersion en %newVersion</translation>
+        <translation type="obsolete">Verschillen tussen versies %oldVersion en %newVersion</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>Oude versie</translation>
+        <translation type="obsolete">Oude versie</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>Inline wijzigingen</translation>
+        <translation type="obsolete">Inline wijzigingen</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>Wijzigingen blokkeren</translation>
+        <translation type="obsolete">Wijzigingen blokkeren</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>Nieuwe versie</translation>
+        <translation type="obsolete">Nieuwe versie</translation>
     </message>
 </context>
 <context>
@@ -459,7 +486,7 @@
     <name>design/ezwebin/content/edit</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Bewerk %1 - %2</translation>
+        <translation type="obsolete">Bewerk %1 - %2</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
@@ -481,24 +508,44 @@
         <source>Discard draft</source>
         <translation>Concept verwerpen</translation>
     </message>
+    <message>
+        <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_attribute</name>
     <message>
         <source>Not translatable</source>
-        <translation>Niet te vertalen</translation>
+        <translation type="obsolete">Niet te vertalen</translation>
     </message>
     <message>
         <source>Required</source>
-        <translation>Vereist</translation>
+        <translation type="obsolete">Vereist</translation>
     </message>
     <message>
         <source>Information collector</source>
-        <translation>Informatieverzamelaar</translation>
-    </message>
-    <message>
-        <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Informatieverzamelaar</translation>
     </message>
 </context>
 <context>
@@ -1479,6 +1526,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Add comment</source>
         <translation>Commentaren toevoegen</translation>
     </message>
+    <message>
+        <source>Tags:</source>
+        <translation type="unfinished">Labels:</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/line/event</name>
@@ -1614,6 +1665,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Cancel</source>
         <translation>Annuleren</translation>
+    </message>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2332,6 +2387,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Confirm</source>
         <translation>Bevestigen</translation>
     </message>
+    <message>
+        <source>Summary</source>
+        <translation type="unfinished">Samenvatting</translation>
+    </message>
+    <message>
+        <source>Total ex. VAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total inc. VAT</source>
+        <translation type="unfinished">Toaal incl. btw</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/customerorderview</name>
@@ -2635,15 +2702,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation>Uw account is nu geactiveerd.</translation>
+        <translation type="obsolete">Uw account is nu geactiveerd.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation>Uw account is reeds actief.</translation>
+        <translation type="obsolete">Uw account is reeds actief.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Soory, de ingegeven sleutel was geen geldige sleutel. De account werd niet geactiveerd.</translation>
+        <translation type="obsolete">Soory, de ingegeven sleutel was geen geldige sleutel. De account werd niet geactiveerd.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2952,6 +3019,32 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>Second</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user</name>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation type="unfinished">Uw account is nu geactiveerd.</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation type="unfinished">Uw account is reeds actief.</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation type="unfinished">Soory, de ingegeven sleutel was geen geldige sleutel. De account werd niet geactiveerd.</translation>
     </message>
 </context>
 </TS>
