@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="208" name="Isola2000 in white - beautiful skiing!" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="30" ezremote:published="Thu, 10 Mar 2011 16:08:42 GMT" ezremote:modified="Thu, 10 Mar 2011 16:10:10 GMT" remote_id="a1375875fc7657d934d402e20b76bce2" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Thu, 10 Mar 2011 16:09:57 GMT" ezremote:modified="Thu, 10 Mar 2011 16:10:10 GMT" initial_language="eng-GB">
+      <ezobject:object-translation language="eng-GB" object_name="Isola2000 in white - beautiful skiing!">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1185" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Isola2000 in white - beautiful skiing!</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1186" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1187" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="9316aa3f8b01dfa5daa8d8352e8360e4" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1188" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ae32173cedf3a5ec441e3afcadc4abcb" name="Isola2000 in white - beautiful skiing!" node-id="209" remote-id="f368c4ae469c596344e15fca8c7370c2" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

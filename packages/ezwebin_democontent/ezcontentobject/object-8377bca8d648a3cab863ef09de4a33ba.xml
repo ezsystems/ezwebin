@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="224" name="Support for Red Hat Enterprise" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 10 Mar 2011 16:14:36 GMT" ezremote:modified="Fri, 11 Mar 2011 06:50:24 GMT" remote_id="8377bca8d648a3cab863ef09de4a33ba" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Fri, 11 Mar 2011 06:50:13 GMT" ezremote:modified="Fri, 11 Mar 2011 06:50:23 GMT" initial_language="eng-GB">
+      <ezobject:object-translation language="eng-GB" object_name="Support for Red Hat Enterprise">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1281" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Support for Red Hat Enterprise</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1282" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1283" ezremote:identifier="author" name="Author" type="ezauthor">
+          <ezauthor>
+            <authors>
+              <author id="0" name="Administrator User" email="bk@ez.no"/>
+            </authors>
+          </ezauthor>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1284" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>combined with eZ Publish Enterprise, you can now enjoy a system supported all through the stack!</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1285" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>
+              <embed align="center" view="embed" size="original" object_remote_id="ezoo-312c7da896e31f74afa5bdfcf2ec3c4b"/>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1286" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1287" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1288" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1289" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1290" ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+          <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1291" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1292" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="423b6d20325263abaa2012536cc736a4" name="Support for Red Hat Enterprise" node-id="224" remote-id="8c0133434d7bea077a614e1a85fca5b7" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+      <ezobject:object-relation-list>
+        <related-object-remote-id>ezoo-312c7da896e31f74afa5bdfcf2ec3c4b</related-object-remote-id>
+      </ezobject:object-relation-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

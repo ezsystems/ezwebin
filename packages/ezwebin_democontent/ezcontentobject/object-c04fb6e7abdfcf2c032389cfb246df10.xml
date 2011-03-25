@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="221" name="Improved front-end editing" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 10 Mar 2011 16:14:16 GMT" ezremote:modified="Thu, 10 Mar 2011 18:31:54 GMT" remote_id="c04fb6e7abdfcf2c032389cfb246df10" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="5">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="5" ezremote:status="1" ezremote:created="Thu, 10 Mar 2011 18:31:13 GMT" ezremote:modified="Thu, 10 Mar 2011 18:31:54 GMT" initial_language="eng-GB">
+      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB" object_name="Improved front-end editing">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1253" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Improved front-end editing</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1254" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1255" ezremote:identifier="author" name="Author" type="ezauthor">
+          <ezauthor>
+            <authors>
+              <author id="0" name="Administrator User" email="bk@ez.no"/>
+            </authors>
+          </ezauthor>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1256" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>
+              <embed align="center" view="embed-inline" size="medium" custom:offset="0" custom:limit="5" object_remote_id="ezoo-e8c8e5be0ab861883249f1f140645d1b"/>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1257" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Front-end editing toolbar always in top of browser window</paragraph>
+            <paragraph>Aligned with the Admin2 look and feel</paragraph>
+            <paragraph>New button to open the administration interface in a new window (12)</paragraph>
+            <paragraph>New and higher contrast icons</paragraph>
+            <paragraph>Toolbar changes according to use, and also which extensions and program you run</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <ul>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">In opening window</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">In editing mode</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">When editing folders</paragraph>
+                </li>
+              </ul>
+            </paragraph>
+            <paragraph>
+              <embed align="center" view="embed-inline" size="large" custom:offset="0" custom:limit="5" object_remote_id="ezoo-25c6a6c4283f817e868846e4e4e047bc"/>
+            </paragraph>
+            <paragraph>
+              <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Front-end toolbar: </line>
+              <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">&amp;nbsp;Timeline is marked.</line>
+            </paragraph>
+            <paragraph>
+              <embed align="center" view="embed-inline" size="large" custom:offset="0" custom:limit="5" object_remote_id="ezoo-e8c8e5be0ab861883249f1f140645d1b"/>
+            </paragraph>
+            <paragraph>
+              <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Editing folder toolbar: </line>
+              <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">&amp;nbsp;9-RSS feed, 10-Add to block, 11-Multiupload, 12-Administration interface</line>
+            </paragraph>
+            <paragraph>
+              <embed align="center" view="embed-inline" size="large" custom:offset="0" custom:limit="5" object_remote_id="ezoo-d91c6b1b2436f599b0c235f1d49bffe6"/>
+            </paragraph>
+            <paragraph>Editing mode toolbar:&amp;nbsp;</paragraph>
+            <paragraph>6-Preview, 7-Translate + translation button with flags</paragraph>
+            <paragraph>
+              <embed align="center" view="embed-inline" size="large" custom:offset="0" custom:limit="5" object_remote_id="ezoo-834c4dc12c2470e235dfca5a9b56a751"/>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1258" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1259" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1260" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1261" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1262" ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+          <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1263" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1264" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="423b6d20325263abaa2012536cc736a4" name="Improved front-end editing" node-id="218" remote-id="facfd2587054ea863cbe53768da04a47" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+      <ezobject:object-relation-list>
+        <related-object-remote-id>ezoo-25c6a6c4283f817e868846e4e4e047bc</related-object-remote-id>
+        <related-object-remote-id>ezoo-e8c8e5be0ab861883249f1f140645d1b</related-object-remote-id>
+        <related-object-remote-id>ezoo-d91c6b1b2436f599b0c235f1d49bffe6</related-object-remote-id>
+        <related-object-remote-id>ezoo-834c4dc12c2470e235dfca5a9b56a751</related-object-remote-id>
+      </ezobject:object-relation-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

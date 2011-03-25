@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="228" name="REST API interface" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 10 Mar 2011 16:15:17 GMT" ezremote:modified="Thu, 10 Mar 2011 18:24:36 GMT" remote_id="a7bf7875d4f020de21f7fd6281eb7922" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="3" ezremote:status="1" ezremote:created="Thu, 10 Mar 2011 18:24:31 GMT" ezremote:modified="Thu, 10 Mar 2011 18:24:36 GMT" initial_language="eng-GB">
+      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB" object_name="REST API interface">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1321" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>REST API interface</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1322" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1323" ezremote:identifier="author" name="Author" type="ezauthor">
+          <ezauthor>
+            <authors>
+              <author id="0" name="Administrator User" email="bk@ez.no"/>
+            </authors>
+          </ezauthor>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1324" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>New RESTful interface, which will allow external client implementations, to access and query content resources inside an eZ Publish installation.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1325" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Version 1.0 of eZ Publish REST API contains:</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <ul>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">&amp;nbsp;OAUTH authentication</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">&amp;nbsp;Basic content retrieval</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">&amp;nbsp;REST API Extension mechanism</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">&amp;nbsp;REST API versioning</paragraph>
+                </li>
+              </ul>
+            </paragraph>
+            <paragraph>
+              <strong>Presentation</strong>
+            </paragraph>
+            <paragraph>
+              <link target="_blank" href="http://www.slideshare.net/ezcommunity/ole-marius-smestad-rest-api-how-to-turn-ez-publish-into-a-multichannel-machine">
+                <embed align="left" view="embed" size="original" custom:offset="0" custom:limit="5" object_remote_id="800a632abc6258f5e0a6229c2ff55b46"/>
+              </link>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1326" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1327" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1328" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1329" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1330" ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+          <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1331" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1332" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="423b6d20325263abaa2012536cc736a4" name="REST API interface" node-id="229" remote-id="60adbb1e37a6524246d3af372366754f" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

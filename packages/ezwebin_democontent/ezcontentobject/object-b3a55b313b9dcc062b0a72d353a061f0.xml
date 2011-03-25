@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="213" name="Improved user registration workflow" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 10 Mar 2011 16:13:51 GMT" ezremote:modified="Thu, 10 Mar 2011 18:33:21 GMT" remote_id="b3a55b313b9dcc062b0a72d353a061f0" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="3" ezremote:status="1" ezremote:created="Thu, 10 Mar 2011 18:33:05 GMT" ezremote:modified="Thu, 10 Mar 2011 18:33:21 GMT" initial_language="eng-GB">
+      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB" object_name="Improved user registration workflow">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1205" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Improved user registration workflow</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1206" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1207" ezremote:identifier="author" name="Author" type="ezauthor">
+          <ezauthor>
+            <authors>
+              <author id="0" name="Administrator User" email="bk@ez.no"/>
+            </authors>
+          </ezauthor>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1208" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Approval workflow for the front-end user self-registration</paragraph>
+            <paragraph>Useful when you wish to control who logs on to your system</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1209" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Enable and configure the workflow:</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <ul>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Create workflow</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Connect workflow to new triggers</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Register user with approval workflow enabled</paragraph>
+                </li>
+              </ul>
+            </paragraph>
+            <paragraph>Enable the approval workflow functionality:</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <ul>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Go to the Administration Interface - “Setup” - “Workflows”</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                    <line>Create a user registration workflow, e.g “UserRegistration1”</line>
+                    <ul>
+                      <li>
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">The FinishUserRegistration workflow is used to end the registration and trigger a confirmation notification that the user is successfully registered&amp;nbsp;</paragraph>
+                      </li>
+                    </ul>
+                  </paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Create a workflow to finish the user registration, e.g “FinishUserRegistration”</paragraph>
+                </li>
+              </ul>
+            </paragraph>
+            <paragraph>
+              <embed align="center" view="embed-inline" size="original" custom:offset="0" custom:limit="5" object_remote_id="ezoo-824ecec8d77eacebe80a14de50be1407"/>
+            </paragraph>
+            <paragraph>Connect the two workflows to triggers:</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <ul>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">“UserRegistration1” to “content-publish-before”</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">“FinishUserRegistration” to “content-publish-after”</paragraph>
+                </li>
+              </ul>
+            </paragraph>
+            <paragraph>
+              <embed align="center" view="embed-inline" size="imagelarge" custom:offset="0" custom:limit="5" object_remote_id="ezoo-be5800de6f1768c0246c98fb8ab82ae8"/>
+            </paragraph>
+            <paragraph>Now you have set up a workflow approval process. When a user logs in to register himself as a user he is presented with an approval workflow</paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <ul>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">At first time login the user clicks "Sign up" to register an account</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">&amp;nbsp;When finished a mail is sent to to confirm the user email</paragraph>
+                </li>
+              </ul>
+            </paragraph>
+            <paragraph>
+              <embed align="center" view="embed-inline" size="imagelarge" custom:offset="0" custom:limit="5" object_remote_id="ezoo-898e714f495796d827e14fabcad39004"/>
+            </paragraph>
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <ul>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">In the administration interface an event is created in the Dashboard’s&amp;nbsp; “Collaboration” screen of an administrator or another role with the right policies</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">The administrator can now either comment, approve or deny the request for user registration</paragraph>
+                </li>
+                <li>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">The user gets a confirmation mail and can log in to eZ Publish.</paragraph>
+                </li>
+              </ul>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1210" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1211" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1212" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1213" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1214" ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+          <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1215" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1216" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="423b6d20325263abaa2012536cc736a4" name="Improved user registration workflow" node-id="211" remote-id="07f0de334c83d631a59defe61f1a7cbf" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+      <ezobject:object-relation-list>
+        <related-object-remote-id>ezoo-824ecec8d77eacebe80a14de50be1407</related-object-remote-id>
+        <related-object-remote-id>ezoo-be5800de6f1768c0246c98fb8ab82ae8</related-object-remote-id>
+        <related-object-remote-id>ezoo-898e714f495796d827e14fabcad39004</related-object-remote-id>
+      </ezobject:object-relation-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>
