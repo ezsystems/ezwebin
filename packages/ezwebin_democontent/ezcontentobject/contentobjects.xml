@@ -8,9 +8,7 @@
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="242" ezremote:identifier="name" name="Name" type="ezstring">
                 <text>Home</text>
               </ezobject:attribute>
-              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="243" ezremote:identifier="billboard" name="Billboard" type="ezobjectrelation">
-                <related-object-remote-id>768a04778081c6e08db5d77dd01f98a9</related-object-remote-id>
-              </ezobject:attribute>
+              <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="243" ezremote:identifier="billboard" name="Billboard" type="ezobjectrelation"/>
               <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="244" ezremote:identifier="left_column" name="Left column" type="ezxmltext">
                 <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
               </ezobject:attribute>
