@@ -51,7 +51,7 @@
                         <td>
                           <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                             <custom name="quote" custom:align="right">
-                              <paragraph>If you want to create your own custom site on a solid framework, <link node_remote_id="f4bf2e6c1cf75e15b15f0123a82778a1">this CMS could be for you</link>".</paragraph>
+                              <paragraph>If you want to create your own custom site on a solid framework, <link object_remote_id="bea2aa5ed17c617531344b6c71aff596">this CMS could be for you</link>".</paragraph>
                             </custom>
                           </paragraph>
                         </td>
