@@ -1676,7 +1676,7 @@ class eZWebinInstaller extends eZSiteInstaller
                         'folder', 
                         'user_group', 
                         'documentation_page', 
-                        'event_calender', 
+                        'event_calendar', 
                         'frontpage', 
                         'forums', 
                         'gallery' 
@@ -2416,7 +2416,7 @@ class eZWebinInstaller extends eZSiteInstaller
             ), 
             'event' => array( 
                 'DependentClassIdentifier' => array( 
-                    '0' => 'event_calender' 
+                    '0' => 'event_calendar' 
                 ), 
                 'ClearCacheMethod' => array( 
                     '0' => 'object', 
