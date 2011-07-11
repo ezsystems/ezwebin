@@ -13,7 +13,7 @@
 {/if}
 
 {if $enable_print}
-<link rel="Alternate" href={concat("layout/set/print/", $site.uri.original_uri)|ezurl} media="print" title="{'Printable version'|i18n('design/ezwebin/link')}" />
+<link rel="Alternate" href={concat("layout/set/print/", $site.uri.original_uri, $site.uri.query_string)|ezurl} media="print" title="{'Printable version'|i18n('design/ezwebin/link')}" />
 {/if}
 
 {/default}
