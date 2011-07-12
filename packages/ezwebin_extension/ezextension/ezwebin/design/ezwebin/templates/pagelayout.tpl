@@ -4,6 +4,12 @@
 {def $basket_is_empty   = cond( $current_user.is_logged_in, fetch( shop, basket ).is_empty, 1 )
      $user_hash         = concat( $current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ) )}
 
+{* Workaround for IE9+ potential issues with eZOE *}
+{if eq( $ui_context, 'edit' )}
+
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+{/if}
+
 {include uri='design:page_head_displaystyles.tpl'}
 
 {if is_set( $extra_cache_key )|not}
