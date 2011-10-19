@@ -40,34 +40,9 @@
 <input class="halfbox" type="password" size="10" name="Password" id="id2" value="" tabindex="1" />
 </div>
 {if ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )}
-<div class="block">
-<label for="id3">{"Log in to the eZ Publish Administration Interface"|i18n("design/ezwebin/user/login")}</label><div class="labelbreak"></div>
-<input type="checkbox" size="10" name="AdminSiteaccessURI" id="id3" value="" tabindex="1" onclick="AdminSiteaccessCheckbox(this);" />
-</div>
-
-{*
-    Set URL for login form action
-    site.ini.[SiteSettings].AdditionalLoginFormActionURL
-    If empty then checkbox will not appear
-*}
-<script type="text/javascript">
-<!--
-
-var loginForm = document.loginform;
-var loginFormDefaultAction = loginForm.action;
-
-function AdminSiteaccessCheckbox( val )
-{ldelim}
-
-    if( val.checked )
-        loginForm.action = '{ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )}';
-    else 
-        loginForm.action = loginFormDefaultAction;
-
-{rdelim} 
-
--->
-</script>
+    <div class="button-right">
+    <a href="{ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )}">{"Log in to the eZ Publish Administration Interface"|i18n("design/ezwebin/user/login")}</a>
+    </div>
 {/if}
 {if ezini( 'Session', 'RememberMeTimeout' )}
 <div class="block">
