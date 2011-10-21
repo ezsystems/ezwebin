@@ -1,3 +1,5 @@
+@media print {
+
 /* PRINT CSS - 20060522 */
 
 /* This CSS file hides unwanted elements when a page is printed out, 
@@ -53,4 +55,6 @@ div.box div.box-content
 div.box div.tl, div.box div.tr, div.box div.br, div.box div.bl
 {
     background: none;
+}
+
 }
