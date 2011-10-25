@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="157"
+                 name="Penatibus et magnis dis" ezremote:section_id="6" ezremote:owner_id="14" ezremote:class_id="16"
+                 ezremote:published="Mon, 02 Apr 2007 07:30:50 GMT" ezremote:modified="Mon, 02 Apr 2007 07:32:16 GMT"
+                 remote_id="b76742278b7144f55c8c8dddc496d762" class_remote_id="c15b600eb9198b1924063b5a68758232"
+                 ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Mon, 02 Apr 2007 07:32:02 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 07:32:16 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Penatibus et magnis dis">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="903" ezremote:identifier="title"
+                                    name="Title" type="ezstring">
+                    <text>Penatibus et magnis dis</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="904"
+                                    ezremote:identifier="short_title" name="Short title" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="905"
+                                    ezremote:identifier="author" name="Author" type="ezauthor">
+                    <ezauthor>
+                        <authors>
+                            <author id="0" name="Administrator User" email="nospam@ez.no"/>
+                        </authors>
+                    </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="906" ezremote:identifier="intro"
+                                    name="Summary" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Pellentesque quam mauris, sodales at, rutrum eu, pulvinar ut, velit. Aliquam
+                            consequat tempus dolor. Pellentesque dignissim.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="907" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="908"
+                                    ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="909" ezremote:identifier="image"
+                                    name="Image" type="ezimage" image-file-key="6576a12764680ee88601cf606bce19aa"
+                                    alternative-text="Penatibus et magnis dis"/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="910"
+                                    ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="911"
+                                    ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                    <date_time>Mon, 02 Apr 2007 07:29:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="912"
+                                    ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="913" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="914"
+                                    ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                    <data-int>0</data-int>
+                    <data-float>0</data-float>
+                    <data-text></data-text>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="f5db8acf1150afc15eb514d380e3855d"
+                                 name="Penatibus et magnis dis" node-id="159"
+                                 remote-id="7ee406cb6e5f0b2a29bc9f97f5a5b9db" sort-field="path" sort-order="1"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

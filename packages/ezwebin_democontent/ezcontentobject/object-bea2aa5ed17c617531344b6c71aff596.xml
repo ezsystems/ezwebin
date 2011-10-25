@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/"
+                 xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="151"
+                 name="eZ Publish Enterprise" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16"
+                 ezremote:published="Thu, 10 Mar 2011 18:05:55 GMT" ezremote:modified="Thu, 10 Mar 2011 18:10:53 GMT"
+                 remote_id="bea2aa5ed17c617531344b6c71aff596" class_remote_id="c15b600eb9198b1924063b5a68758232"
+                 ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/"
+                           xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject"
+                          xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="1"
+                          ezremote:status="1" ezremote:created="Thu, 10 Mar 2011 18:10:33 GMT"
+                          ezremote:modified="Thu, 10 Mar 2011 18:10:53 GMT" initial_language="eng-GB">
+            <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB"
+                                         object_name="eZ Publish Enterprise">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="857" ezremote:identifier="title"
+                                    name="Title" type="ezstring">
+                    <text>eZ Publish Enterprise</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="858"
+                                    ezremote:identifier="short_title" name="Short title" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="859"
+                                    ezremote:identifier="author" name="Author" type="ezauthor">
+                    <ezauthor>
+                        <authors>
+                            <author id="0" name="Administrator User" email="bk@ez.no"/>
+                        </authors>
+                    </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="860" ezremote:identifier="intro"
+                                    name="Summary" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Enterprise Web Content Management</paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="861"
+                                    ezremote:identifier="body" name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                            <table class="default" width="100%" border="0" custom:summary="paragraph" custom:caption="">
+                                <tr>
+                                    <td>
+                                        <paragraph>A global web content management system leader, eZ Systems was founded
+                                            in 1999 and has 10 offices worldwide. eZ Systems’ flagship product, eZ
+                                            Publish, is the leading enterprise Web Content Management (WCM) platform
+                                            specializing in multichannel content distribution for web, mobile, tablets,
+                                            print and more.
+                                        </paragraph>
+                                        <paragraph>Because eZ Publish is a commercial open source product, eZ Systems
+                                            engineers can leverage the innovation from a global community of over 38 000
+                                            developers and certified implementation partners. This innovation drives
+                                            over 200 000 worldwide installations, proving that eZ Publish is one of the
+                                            most adaptable, open and reliable WCM platforms in the market.
+                                        </paragraph>
+                                    </td>
+                                    <td>
+                                        <paragraph>
+                                            <embed align="center" view="embed-inline" size="listitem" custom:offset="0"
+                                                   custom:limit="5"
+                                                   object_remote_id="ezoo-0b8f65be2b80b4a7138990b335736563"/>
+                                        </paragraph>
+                                    </td>
+                                </tr>
+                            </table>
+                        </paragraph>
+                        <paragraph>The eZ Publish Enterprise Edition is the perfect blend of reliable vendor support and
+                            quality
+                        </paragraph>
+                        <paragraph>assured innovation: enterprise customers pay a cost effective yearly subscription fee
+                            for support, maintenance, update training and other services, and eZ Systems releases major
+                            software updates every 6 months. All of this comes with no license fee.
+                        </paragraph>
+                        <paragraph>With offices in Europe, the Nordics, the Americas and Asia, eZ Systems is a
+                            recognized global WCM leader in the media and publishing industry. This industry demands the
+                            most flexible, secure, maintainable and complex solutions to power large web properties and
+                            generate revenue from an array of content sources. With a track record spanning more than 10
+                            years in this space, eZ Publish has now become the software of choice for customers in
+                            banking and finance, retail, government and non- government organizations. If you have
+                            advanced publishing needs, eZ Publish is right for you.
+                        </paragraph>
+                        <section>
+                            <section>
+                                <header>Multichannel Content Distribution</header>
+                                <paragraph>eZ Publish delivers unsurpassed multichannel capabilities that enable
+                                    customers to reach out and engage your audience. eZ’s out-of-the-box functionality,
+                                    intrinsic scalability and robust API help you to do this quickly, accelerating your
+                                    time to market while reducing your implementation costs.&amp;nbsp;
+                                </paragraph>
+                                <paragraph>
+                                    <strong>&amp;nbsp;</strong>
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Enabling Editors</header>
+                                <paragraph>eZ Publish provides a rich tool set that makes authoring and editing content
+                                    simple and engaging. eZ Publish frees your editorial and creative staff to do what
+                                    they do best: publish content with enthusiasm and minimal effort.
+                                </paragraph>
+                                <section>
+                                    <header>Plan, Review, Automate</header>
+                                    <paragraph>Publishing is one thing, but managing portals and front pages is a
+                                        different story. eZ Publish Enterprise has a unique portal management solution
+                                        that enables editors to build complex page layouts and plan, review and automate
+                                        the publication schedule to ensure a constant flow of rich content through
+                                        portal pages.
+                                    </paragraph>
+                                    <paragraph>For example, editors can define multiple “zones” within a single page
+                                        layout. Within each zone, editors create “blocks” that promote content in a
+                                        certain way. Next, editors explicitly or implicitly add content objects to these
+                                        blocks and then schedule
+                                    </paragraph>
+                                    <paragraph>the promotion, flow and rotation of content. To “look into the future,”
+                                        editors simply drag a slider across a timeline to preview content before it goes
+                                        live. This entire process can be managed without the support of a web developer.
+                                    </paragraph>
+                                </section>
+                                <section>
+                                    <header>Collaborate</header>
+                                    <paragraph>We know that editors do not work alone. eZ Publish provides flexible
+                                        workflow and collaboration tools and dashboards to keep your team in sync. And
+                                        you can configure the system to adapt to your own workflows, however intricate
+                                        they may be.
+                                    </paragraph>
+                                </section>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Adaptable Content Engine and User Interfaces</header>
+                                <paragraph>eZ’s unique, flexible content model completely separates content from
+                                    presentation, so that the delivery of your content can adapt to any current or
+                                    future distribution channel. Furthermore, you can design the system to fit your
+                                    needs—your do not have to force your content into a “one size fits all” construct.
+                                    This structure sets your content free for re-use and re-purposing. This powerful
+                                    flexibility is the source of eZ’s strength as multichannel content management
+                                    platform.
+                                </paragraph>
+                                <paragraph>The system also adapts to your editors’ style of work. They can choose to
+                                    import content from multiple sources, utilize a simple editing toolbar while
+                                    browsing your site, or use the powerful back office editing suite. The efficient
+                                    user interfaces and flexibility flattens the learning curve and accelerates internal
+                                    adoption of eZ Publish.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Open Enterprise Technology</header>
+                                <paragraph>eZ Publish’s open architecture supports Interoperability Open Standards like
+                                    XML, ODF, SOAP, REST, JSON. When you utilize the powerful API, it’s simple to
+                                    integrate the eZ Enterprise platform with all of your information management
+                                    systems. In fact, there are over 1000 extensions available to accelerate your
+                                    project and reduce development costs.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Reliable Vendor Support</header>
+                                <paragraph>eZ Systems is dedicated to your success. We succeed only if you do. Our
+                                    customers benefit from our commercial support packages that are customized to meet
+                                    the nature of your project and service level agreements. Our highly qualified
+                                    product support engineers thrive on your complete satisfaction, and enjoy enabling
+                                    our partners and customers with accurate and thorough responses to support requests.
+                                </paragraph>
+                                <paragraph>In addition to this unlimited product support, we provide a variety of expert
+                                    training and consulting services to certify and assist developers and implementation
+                                    partners around the globe. We host self-service tools like user and technical
+                                    documentation, forums, books, tutorials, articles and community sites to distribute
+                                    and share best practices. Our dedication to supporting our clients and partners is
+                                    the core service of eZ’s Enterprise Open Source Business model.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>They trust in eZ</header>
+                                <paragraph>
+                                    <embed view="embed-inline" size="large" custom:offset="0" custom:limit="5"
+                                           object_remote_id="ezoo-db3fcade578f2fc9da52a81f503394c2"/>
+                                </paragraph>
+                            </section>
+                        </section>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="862"
+                                    ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="863" ezremote:identifier="image"
+                                    name="Image" type="ezimage" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="864"
+                                    ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="865"
+                                    ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="866"
+                                    ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="867" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="868"
+                                    ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                    <data-int>0</data-int>
+                    <data-float>0</data-float>
+                    <data-text></data-text>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" name="eZ Publish Enterprise" node-id="153"
+                                 remote-id="f4bf2e6c1cf75e15b15f0123a82778a1" sort-field="published" sort-order="0"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

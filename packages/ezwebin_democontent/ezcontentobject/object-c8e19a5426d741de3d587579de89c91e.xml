@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="222"
+                 name="Contact" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="22"
+                 ezremote:published="Mon, 19 Mar 2007 12:52:37 GMT" ezremote:modified="Mon, 19 Mar 2007 12:52:37 GMT"
+                 remote_id="c8e19a5426d741de3d587579de89c91e" class_remote_id="df0257b8fc55f6b8ab179d6fb915455e"
+                 ezremote:class_identifier="feedback_form" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Mon, 19 Mar 2007 12:52:18 GMT"
+                          ezremote:modified="Mon, 19 Mar 2007 12:52:36 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Contact">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1302" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>Contact</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1303"
+                                    ezremote:identifier="description" name="Description" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1304"
+                                    ezremote:identifier="sender_name" name="Sender name" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1305"
+                                    ezremote:identifier="subject" name="Subject" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1306"
+                                    ezremote:identifier="message" name="Message" type="eztext">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1307"
+                                    ezremote:identifier="email" name="Email" type="ezemail">
+                    <email></email>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1308"
+                                    ezremote:identifier="recipient" name="Recipient" type="ezemail">
+                    <email></email>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="e060ff40aa17eb21dc1e4595c9a5eb9a"
+                                 name="Contact" node-id="224" remote-id="daa3004ede25b0130ca5bef83c1922c3"
+                                 sort-field="path" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

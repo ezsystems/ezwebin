@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="96"
+                 name="Sed suscipit" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="24"
+                 ezremote:published="Fri, 30 Mar 2007 11:15:54 GMT" ezremote:modified="Fri, 30 Mar 2007 11:15:54 GMT"
+                 remote_id="c8294dd0b321e556905fa73df3d7ca8e" class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
+                 ezremote:class_identifier="documentation_page" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Fri, 30 Mar 2007 11:15:54 GMT"
+                          ezremote:modified="Fri, 30 Mar 2007 11:15:54 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Sed suscipit">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="502" ezremote:identifier="title"
+                                    name="Title" type="ezstring">
+                    <text>Sed suscipit</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="503" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Sed suscipit feugiat erat. Vestibulum interdum congue arcu. Ut euismod, arcu a ornare
+                            auctor, sapien nisl viverra arcu, in mattis nibh justo ac ipsum. Nunc nibh urna, nonummy id,
+                            vestibulum eget, interdum at, erat. Nulla consequat.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="504" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="505"
+                                    ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="89ce8eed8fa06c4105fd612aa83d87d6"
+                                 name="Sed suscipit" node-id="98" remote-id="78f3b9a9268c7b0206bf1c4d39211495"
+                                 sort-field="path" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

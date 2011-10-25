@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="226"
+                 name="eZ Publish YouTube Channel" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16"
+                 ezremote:published="Fri, 21 Oct 2011 14:02:15 GMT" ezremote:modified="Fri, 21 Oct 2011 14:02:15 GMT"
+                 remote_id="ca237aaf5803bf93df6d5deed3c3b378" class_remote_id="c15b600eb9198b1924063b5a68758232"
+                 ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Fri, 21 Oct 2011 14:01:32 GMT"
+                          ezremote:modified="Fri, 21 Oct 2011 14:02:15 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="eZ Publish YouTube Channel">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1332"
+                                    ezremote:identifier="title" name="Title" type="ezstring">
+                    <text>eZ Publish YouTube Channel</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1333"
+                                    ezremote:identifier="short_title" name="Short title" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1334"
+                                    ezremote:identifier="author" name="Author" type="ezauthor">
+                    <ezauthor>
+                        <authors>
+                            <author id="0" name="Administrator User" email="nospam@ez.no"/>
+                        </authors>
+                    </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1335"
+                                    ezremote:identifier="intro" name="Summary" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Check out the<link href="http://www.youtube.com/user/ezpublish">eZ Publish YouTube
+                            Channel</link>.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1336" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1337"
+                                    ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1338"
+                                    ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1339"
+                                    ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1340"
+                                    ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1341"
+                                    ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1342" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1343"
+                                    ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                    <data-int></data-int>
+                    <data-float>0</data-float>
+                    <data-text></data-text>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="423b6d20325263abaa2012536cc736a4"
+                                 name="eZ Publish YouTube Channel" node-id="228"
+                                 remote-id="067b4e09fa465e0c7bddee58b7a74816" sort-field="path" sort-order="1"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

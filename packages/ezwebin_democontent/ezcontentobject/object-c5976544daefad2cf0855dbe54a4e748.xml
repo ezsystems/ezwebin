@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="167"
+                 name="Nulla vitae tellus sit amet" ezremote:section_id="1" ezremote:owner_id="14"
+                 ezremote:class_id="38" ezremote:published="Thu, 01 Nov 2007 08:33:59 GMT"
+                 ezremote:modified="Thu, 01 Nov 2007 08:33:59 GMT" remote_id="c5976544daefad2cf0855dbe54a4e748"
+                 class_remote_id="71f99c516743a33562c3893ef98c9b60" ezremote:class_identifier="forum_topic"
+                 ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 08:33:59 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:33:59 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Nulla vitae tellus sit amet">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="993"
+                                    ezremote:identifier="subject" name="Subject" type="ezstring">
+                    <text>Nulla vitae tellus sit amet</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="994"
+                                    ezremote:identifier="message" name="Message" type="eztext">
+                    <text>Nulla vitae tellus sit amet velit tincidunt gravida. Vivamus cursus, pede et lacinia
+                        porttitor, urna ante sagittis velit, id vulputate dui metus a erat.
+                    </text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="995"
+                                    ezremote:identifier="sticky" name="Sticky" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="996"
+                                    ezremote:identifier="notify_me" name="Notify me about updates"
+                                    type="ezsubtreesubscription">
+                    <value>0</value>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="5e6762a083ab4c0357bad163902ba8f7"
+                                 name="Nulla vitae tellus sit amet" node-id="169"
+                                 remote-id="2549eee03064d55ae7fc84fe41ae1ef6" sort-field="path" sort-order="1"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

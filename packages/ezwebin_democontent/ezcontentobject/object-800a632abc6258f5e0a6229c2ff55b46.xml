@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="66"
+                 name="rest_api" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="30"
+                 ezremote:published="Thu, 10 Mar 2011 18:23:56 GMT" ezremote:modified="Thu, 10 Mar 2011 18:23:56 GMT"
+                 remote_id="800a632abc6258f5e0a6229c2ff55b46" class_remote_id="f6df12aa74e36230eb675f364fccd25a"
+                 ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Thu, 10 Mar 2011 18:23:56 GMT"
+                          ezremote:modified="Thu, 10 Mar 2011 18:23:56 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="rest_api">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="249" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>rest_api</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="250"
+                                    ezremote:identifier="caption" name="Caption" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="251" ezremote:identifier="image"
+                                    name="Image" type="ezimage" image-file-key="7406466dd0075bb53d8d055a8998e7a2"
+                                    alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="252" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb"
+                                 name="rest_api" node-id="68" remote-id="31fd28362c18a36cb56223f3609d5d90"
+                                 sort-field="published" sort-order="0" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

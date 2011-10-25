@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/"
+                 xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"
+                 xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="188" name="Company"
+                 ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="1"
+                 ezremote:published="Wed, 10 Jan 2007 11:27:49 GMT" ezremote:modified="Fri, 30 Mar 2007 08:18:27 GMT"
+                 remote_id="b4668ac60d726ddfb655c3895cb0cae5" class_remote_id="a3d405b81be900468eb153d774f4f0d2"
+                 ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/"
+                           xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"
+                           xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject"
+                          xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"
+                          xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:version="1"
+                          ezremote:status="1" ezremote:created="Fri, 30 Mar 2007 08:18:16 GMT"
+                          ezremote:modified="Fri, 30 Mar 2007 08:18:26 GMT" initial_language="eng-GB">
+            <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"
+                                         xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" language="eng-GB"
+                                         object_name="Company">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1080" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>Company</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1081"
+                                    ezremote:identifier="short_name" name="Short name" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1082"
+                                    ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <embed size="original" align="center" custom:offset="0" custom:limit="5"
+                                   object_remote_id="a457bec5fb0afe243c16fe254e2fbcdf"/>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="1083"
+                                    ezremote:identifier="description" name="Description" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Vivamus non neque. Proin id augue. Aliquam a tellus.
+                            <strong>Donec cursus rutrum purus.</strong>
+                            Aliquam tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos hymenaeos. In suscipit dictum augue. Donec arcu ante, consequat a, feugiat in,
+                            posuere hendrerit, dolor. Morbi tempus, sem ac interdum scelerisque, justo nisi egestas
+                            nisl, et mattis dui est at velit. Aliquam in libero ac urna molestie eleifend.
+                        </paragraph>
+                        <paragraph>
+                            <table class="list" width="100%" border="0">
+                                <tr>
+                                    <th xhtml:width="50%">
+                                        <paragraph>Aliquam a tellus</paragraph>
+                                    </th>
+                                    <th>
+                                        <paragraph>Class aptent</paragraph>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <paragraph>Donec cursus rutrum purus.</paragraph>
+                                    </td>
+                                    <td>
+                                        <paragraph>Proin id augue.</paragraph>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <paragraph>Aliquam in libero ac urna molestie eleifend.</paragraph>
+                                    </td>
+                                    <td>
+                                        <paragraph>Morbi tempus, sem ac interdum.</paragraph>
+                                    </td>
+                                </tr>
+                            </table>
+                        </paragraph>
+                        <paragraph>Quisque fringilla hendrerit turpis. Curabitur suscipit blandit nulla. Sed mauris
+                            justo, iaculis vel, dictum ut, molestie et, purus. Fusce ut risus. Nulla mauris magna,
+                            vulputate quis, dignissim vel, lobortis ut, neque. Etiam sed ante.
+                        </paragraph>
+                        <paragraph>Curabitur in dolor nec tellus consequat gravida. Proin faucibus viverra eros.
+                            Suspendisse fringilla. Etiam eget elit eu augue euismod lobortis. Sed urna elit, volutpat
+                            vel, ultricies id, molestie a, ligula. In cursus nonummy quam. Sed malesuada iaculis magna.
+                            Curabitur mollis vehicula nibh. Curabitur at orci at leo vulputate vestibulum.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1084"
+                                    ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1085" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string>company</keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1086"
+                                    ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                    <date_time>Tue, 10 Apr 2007 06:47:50 GMT</date_time>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" name="Company" node-id="190"
+                                 remote-id="e060ff40aa17eb21dc1e4595c9a5eb9a" sort-field="published" sort-order="0"
+                                 priority="6"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

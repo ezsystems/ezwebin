@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="223"
+                 name="Morbi neque" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="25"
+                 ezremote:published="Fri, 23 Mar 2007 12:59:11 GMT" ezremote:modified="Fri, 23 Mar 2007 13:00:30 GMT"
+                 remote_id="73ab8d14922e13d67ef3c295d0663fa9" class_remote_id="0b4e8accad5bec5ba2d430acb25c1ff6"
+                 ezremote:class_identifier="infobox" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Fri, 23 Mar 2007 13:00:20 GMT"
+                          ezremote:modified="Fri, 23 Mar 2007 13:00:30 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Morbi neque">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1309"
+                                    ezremote:identifier="header" name="Header" type="ezstring">
+                    <text>Morbi neque</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1310"
+                                    ezremote:identifier="image" name="Image" type="ezimage"
+                                    image-file-key="5c280ebbdd44ace619b7dadbb3b3b5a8" alternative-text="Morbi neque"/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1311"
+                                    ezremote:identifier="image_url" name="URL (image)" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1312"
+                                    ezremote:identifier="content" name="Content" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <strong>Morbi neque. Proin porta dapibus turpis.</strong>
+                        </paragraph>
+                        <paragraph>Vivamus placerat fringilla purus. Pellentesque at libero. In hac habitasse platea
+                            dictumst. Pellentesque ante.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1313" ezremote:identifier="url"
+                                    name="URL" type="ezurl"/>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="daa3004ede25b0130ca5bef83c1922c3"
+                                 name="Morbi neque" node-id="225" remote-id="9d2bdcb8b35464ee03651c191ac4d1ff"
+                                 sort-field="published" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

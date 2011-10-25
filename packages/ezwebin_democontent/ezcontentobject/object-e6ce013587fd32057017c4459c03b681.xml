@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="168"
+                 name="Ut mollis sodales nibh" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="38"
+                 ezremote:published="Thu, 01 Nov 2007 08:42:59 GMT" ezremote:modified="Thu, 01 Nov 2007 08:42:59 GMT"
+                 remote_id="e6ce013587fd32057017c4459c03b681" class_remote_id="71f99c516743a33562c3893ef98c9b60"
+                 ezremote:class_identifier="forum_topic" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 08:42:59 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:42:59 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Ut mollis sodales nibh">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="997"
+                                    ezremote:identifier="subject" name="Subject" type="ezstring">
+                    <text>Ut mollis sodales nibh</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="998"
+                                    ezremote:identifier="message" name="Message" type="eztext">
+                    <text>Donec vulputate lectus. Suspendisse tempus molestie metus. Nullam non velit eget elit iaculis
+                        fringilla. Ut interdum auctor orci. Ut mollis sodales nibh.
+                    </text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="999"
+                                    ezremote:identifier="sticky" name="Sticky" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1000"
+                                    ezremote:identifier="notify_me" name="Notify me about updates"
+                                    type="ezsubtreesubscription">
+                    <value>0</value>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="5e6762a083ab4c0357bad163902ba8f7"
+                                 name="Ut mollis sodales nibh" node-id="170"
+                                 remote-id="7bfca4bdde619ac9104e235629e2dbc7" sort-field="path" sort-order="1"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

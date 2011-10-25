@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="159"
+                 name="Curabitur hendrerit dignissim" ezremote:section_id="6" ezremote:owner_id="14"
+                 ezremote:class_id="16" ezremote:published="Mon, 02 Apr 2007 07:15:36 GMT"
+                 ezremote:modified="Mon, 02 Apr 2007 07:17:22 GMT" remote_id="95edc648f6300157ecd3749b2adf8ab0"
+                 class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article"
+                 ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Mon, 02 Apr 2007 07:17:04 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 07:17:22 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Curabitur hendrerit dignissim">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="922" ezremote:identifier="title"
+                                    name="Title" type="ezstring">
+                    <text>Curabitur hendrerit dignissim</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="923"
+                                    ezremote:identifier="short_title" name="Short title" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="924"
+                                    ezremote:identifier="author" name="Author" type="ezauthor">
+                    <ezauthor>
+                        <authors>
+                            <author id="0" name="Administrator User" email="nospam@ez.no"/>
+                        </authors>
+                    </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="925" ezremote:identifier="intro"
+                                    name="Summary" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Curabitur hendrerit dignissim justo. Aliquam erat volutpat. Phasellus sollicitudin,
+                            magna dictum placerat consequat. Praesent eu quam. Nam sollicitudin congue augue.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="926" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Sem enim porttitor odio, vel tempor enim felis et justo. Duis sollicitudin eros id
+                            eros. Nunc convallis tristique est. Nam vel ligula. Sed augue. Aliquam erat volutpat.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="927"
+                                    ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="928" ezremote:identifier="image"
+                                    name="Image" type="ezimage" image-file-key="a4e0f5e6428886346de10b6dc1d9c6ce"
+                                    alternative-text="Curabitur hendrerit dignissim"/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="929"
+                                    ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Curabitur hendrerit</paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="930"
+                                    ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                    <date_time>Mon, 02 Apr 2007 07:12:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="931"
+                                    ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="932" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="933"
+                                    ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                    <data-int>0</data-int>
+                    <data-float>0</data-float>
+                    <data-text></data-text>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="007109e7f353c86dfd48d844cb18ce73"
+                                 name="Curabitur hendrerit dignissim" node-id="161"
+                                 remote-id="63769c39380a45a731aa44068c0f4e33" sort-field="path" sort-order="1"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

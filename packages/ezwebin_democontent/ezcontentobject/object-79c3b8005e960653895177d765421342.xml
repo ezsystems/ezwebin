@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/"
+                 xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                 xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="84" name="Training"
+                 ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23"
+                 ezremote:published="Tue, 20 Mar 2007 11:18:54 GMT" ezremote:modified="Mon, 02 Apr 2007 11:38:35 GMT"
+                 remote_id="79c3b8005e960653895177d765421342" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4"
+                 ezremote:class_identifier="frontpage" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                           xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                          xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="1"
+                          ezremote:status="1" ezremote:created="Mon, 02 Apr 2007 11:38:10 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 11:38:34 GMT" initial_language="eng-GB">
+            <ezobject:object-translation xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                                         xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB"
+                                         object_name="Training">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="410" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>Training</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="411"
+                                    ezremote:identifier="billboard" name="Billboard" type="ezobjectrelation">
+                    <related-object-remote-id>a7c0be8039efe452ca7d1e7ec1d28dcf</related-object-remote-id>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="412"
+                                    ezremote:identifier="left_column" name="Left column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="413"
+                                    ezremote:identifier="center_column" name="Center column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <table class="default" width="100%" border="0">
+                                <tr>
+                                    <td xhtml:width="49%">
+                                        <paragraph>
+                                            <embed size="medium" align="center"
+                                                   object_remote_id="6a18ed16e2ea7618cc57b45791287408"/>
+                                        </paragraph>
+                                    </td>
+                                    <td/>
+                                    <td xhtml:width="49%">
+                                        <paragraph>
+                                            <embed size="medium" align="center"
+                                                   object_remote_id="34ceeed46f3ff3a5b29b8f96eb5d0d81"/>
+                                        </paragraph>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <paragraph>
+                                            <embed size="medium" align="center"
+                                                   object_remote_id="bafe7b5d33ea8ff41c0b8eab1bf8fc04"/>
+                                        </paragraph>
+                                    </td>
+                                    <td/>
+                                    <td>
+                                        <paragraph>
+                                            <embed size="medium" align="center"
+                                                   object_remote_id="b2b0a9addbbe01a7cb0160e70e42645c"/>
+                                        </paragraph>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td/>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <paragraph>
+                                            <strong>Training by Type:</strong>
+                                        </paragraph>
+                                        <paragraph>
+                                            <ul>
+                                                <li>
+                                                    <paragraph>Technical training
+                                                    </paragraph>
+                                                </li>
+                                                <li>
+                                                    <paragraph>Standard exam
+                                                    </paragraph>
+                                                </li>
+                                            </ul>
+                                        </paragraph>
+                                        <paragraph>
+                                            <strong>Training by Delivery Method:</strong>
+                                        </paragraph>
+                                        <paragraph>
+                                            <ul>
+                                                <li>
+                                                    <paragraph>Classroom
+                                                    </paragraph>
+                                                </li>
+                                                <li>
+                                                    <paragraph>Online
+                                                    </paragraph>
+                                                </li>
+                                            </ul>
+                                        </paragraph>
+                                    </td>
+                                    <td/>
+                                    <td>
+                                        <paragraph>
+                                            <embed class="itemized_sub_items" size="medium" align="center"
+                                                   custom:offset="0" custom:limit="5"
+                                                   object_remote_id="895d89a8052f65834296b66318586044"/>
+                                        </paragraph>
+                                    </td>
+                                </tr>
+                            </table>
+                        </paragraph>
+                        <paragraph>
+                            <custom name="separator"/>
+                        </paragraph>
+                        <paragraph>
+                            <embed size="medium" align="center" custom:offset="0" custom:limit="5"
+                                   object_remote_id="926e4fa2734f1fb6c73865417d374fea"/>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="414"
+                                    ezremote:identifier="right_column" name="Right column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <custom name="factbox" custom:title="Next steps">
+                                <paragraph>Vivamus suscipit. Praesent tincidunt adipiscing urna. Etiam ligula velit,
+                                    tincidunt accumsan, feugiat sit amet, malesuada vel, tellus.
+                                </paragraph>
+                                <paragraph>
+                                    <ol>
+                                        <li>
+                                            <paragraph>Donec magna felis
+                                            </paragraph>
+                                        </li>
+                                        <li>
+                                            <paragraph>Mauris sed lectus vel
+                                            </paragraph>
+                                        </li>
+                                        <li>
+                                            <paragraph>Praesent pharetra
+                                            </paragraph>
+                                        </li>
+                                    </ol>
+                                </paragraph>
+                            </custom>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="415"
+                                    ezremote:identifier="bottom_column" name="Bottom column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="416" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" name="Training" node-id="86"
+                                 remote-id="95f3c4261719ea27ab67f980fbee0694" sort-field="published" sort-order="1"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

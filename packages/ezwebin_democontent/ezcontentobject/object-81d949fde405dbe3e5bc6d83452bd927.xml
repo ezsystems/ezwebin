@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/"
+                 xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="202"
+                 name="How to manage eZ Publish" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16"
+                 ezremote:published="Thu, 01 Nov 2007 09:13:18 GMT" ezremote:modified="Thu, 10 Mar 2011 18:36:47 GMT"
+                 remote_id="81d949fde405dbe3e5bc6d83452bd927" class_remote_id="c15b600eb9198b1924063b5a68758232"
+                 ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/"
+                           xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject"
+                          xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="1"
+                          ezremote:status="1" ezremote:created="Thu, 10 Mar 2011 18:36:38 GMT"
+                          ezremote:modified="Thu, 10 Mar 2011 18:36:47 GMT" initial_language="eng-GB">
+            <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB"
+                                         object_name="How to manage eZ Publish">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1161"
+                                    ezremote:identifier="title" name="Title" type="ezstring">
+                    <text>How to manage eZ Publish</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1162"
+                                    ezremote:identifier="short_title" name="Short title" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1163"
+                                    ezremote:identifier="author" name="Author" type="ezauthor">
+                    <ezauthor>
+                        <authors>
+                            <author id="0" name="Administrator User" email="nospam@ez.no"/>
+                        </authors>
+                    </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1164"
+                                    ezremote:identifier="intro" name="Summary" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>To provide you with full control over your website, eZ Publish has many features that
+                            make it easy to manage both content and users.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1165"
+                                    ezremote:identifier="body" name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                            <ul>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Administration
+                                        Interface
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Permission and
+                                        access control
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Workflows
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Versioning and
+                                        modification tracking
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">A unique
+                                        content model
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Content cross
+                                        publishing
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Multi-site
+                                        deployment
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Search engine
+                                        optimization
+                                    </paragraph>
+                                </li>
+                            </ul>
+                        </paragraph>
+                        <section>
+                            <section>
+                                <header>A rich and powerful Administration Interface</header>
+                                <paragraph>
+                                    <embed view="embed" size="original" custom:offset="0" custom:limit="5"
+                                           object_remote_id="58f0b7745496ec9ba4e3238dbd481a4b"/>
+                                </paragraph>
+                                <paragraph>The content of a site can be displayed (and modified) in various ways. The
+                                    Administration Interface is the advanced back-end interface, providing powerful
+                                    tools for content management and editing as well as site management, configuration,
+                                    customization and development.
+                                </paragraph>
+                                <paragraph>In other words, you can change almost everything about a site in the
+                                    Administration Interface.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Permission, rights management and access control</header>
+                                <paragraph>
+                                    <embed view="embed" size="original" custom:offset="0" custom:limit="5"
+                                           object_remote_id="344e4197cdaf6ad6f06e0c99ad81dbed"/>
+                                </paragraph>
+                                <paragraph>The eZ Publish access system is multi-level and role-based. This means that
+                                    you can give a user or a group of users access to a combination of functions across
+                                    the whole site or within a specific area of the site. For example, you restrict a
+                                    certain part of a site to community or partner members.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Workflows</header>
+                                <paragraph>
+                                    <embed view="embed" size="original" custom:offset="0" custom:limit="5"
+                                           object_remote_id="ffc4840fd5b1f8c7ec21d569787252ed"/>
+                                </paragraph>
+                                <paragraph>eZ Publish comes with an integrated workflow mechanism. An example of this is
+                                    the built-in collaboration system, which defines an ordered sequence of actions to
+                                    be executed after a content editor has published an object.
+                                </paragraph>
+                                <paragraph>Suppose that your site has a restriction that all content has to go through
+                                    an editor-in-chief before being published. It can be set as “pending” before being
+                                    approved to be published. On the other hand, if a pending version is rejected by the
+                                    editor, it can be set as “rejected”.
+                                </paragraph>
+                                <paragraph>&amp;nbsp;Another example is the e-commerce engine, which can be used to
+                                    manage subscriptions on a media site, automating access for paid subscribers to read
+                                    premium news content, watch videos, and so on.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Versioning and modification tracking</header>
+                                <paragraph>
+                                    <embed view="embed" size="original" custom:offset="0" custom:limit="5"
+                                           object_remote_id="3e192eaaaaaceea57be51f2fec5b4abd"/>
+                                </paragraph>
+                                <paragraph>Having access to older versions of content enables supervisors or
+                                    editors-in-chief to check for inconsistency or errors in the content. eZ Publish
+                                    automatically keeps track of which content changes were made by which users at what
+                                    time, and provides the option to revert content to a previous version.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>A unique content model</header>
+                                <paragraph>
+                                    <embed view="embed" size="original" custom:offset="0" custom:limit="5"
+                                           object_remote_id="ee5ad7e637d4da303960cc8800ced740"/>
+                                </paragraph>
+                                <paragraph>Publishing content is no longer only about publishing articles. Depending on
+                                    your needs you must define specific content structures for cars, recipes, specific
+                                    products for your webshop and more. eZ Publish has a flexible content engine that
+                                    enables administrators to create these content definitions directly through
+                                    graphical user interfaces.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Content cross publishing</header>
+                                <paragraph>
+                                    <embed view="embed" size="original" custom:offset="0" custom:limit="5"
+                                           object_remote_id="59a7ab331d043dddcf9011a8ef32a32b"/>
+                                </paragraph>
+                                <paragraph>Using the cross publishing feature, you can re-use content throughout the
+                                    site while avoiding inconsistent duplicates of content that are hard to maintain. If
+                                    content appears at multiple locations, you only have to edit the object once – the
+                                    changes will be reflected at all locations.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Multi-site deployment</header>
+                                <paragraph>
+                                    <embed view="embed" size="original" custom:offset="0" custom:limit="5"
+                                           object_remote_id="e9ba83a65cdaf91039bbffbbfdc5d77b"/>
+                                </paragraph>
+                                <paragraph>One installation of eZ Publish can host many different websites with the
+                                    possibility to re-use content, functionality and design across the different sites.
+                                    You can have a continuous overview of all your sites and can even industrialize this
+                                    deployment via the Site Factory management service in
+                                    <link href="http://ez.no/support_and_services/ez_publish_premium">eZ Publish Premium
+                                    </link>
+                                    subscription services.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>URL management and search engine optimization</header>
+                                <paragraph>
+                                    <embed view="embed" size="original" custom:offset="0" custom:limit="5"
+                                           object_remote_id="46683944a42aefbbb42cf615489f3627"/>
+                                </paragraph>
+                                <paragraph>eZ Publish makes it easy for you to create content that will be effectively
+                                    indexed by search engines. Sitemaps, friendly URLs, and easy management of key XHTML
+                                    tags are all built-in features.
+                                </paragraph>
+                            </section>
+                        </section>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1166"
+                                    ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1167"
+                                    ezremote:identifier="image" name="Image" type="ezimage"
+                                    image-file-key="a9b067ffb407622329638964172d422e" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1168"
+                                    ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1169"
+                                    ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1170"
+                                    ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1171" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1172"
+                                    ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                    <data-int>0</data-int>
+                    <data-float>0</data-float>
+                    <data-text></data-text>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="9f804eee139dcee343dbe4175d14654c"
+                                 name="How to manage eZ Publish" node-id="204"
+                                 remote-id="42a3b07037390457ad0f2c65494bfd97" sort-field="path" sort-order="1"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

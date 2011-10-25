@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="176"
+                 name="Pictures" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="35"
+                 ezremote:published="Thu, 01 Nov 2007 09:42:58 GMT" ezremote:modified="Thu, 10 Mar 2011 16:10:49 GMT"
+                 remote_id="c0180d604d5f5d273702b7d675d6c0cd" class_remote_id="6a320cdc3e274841b82fcd63a86f80d1"
+                 ezremote:class_identifier="gallery" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Thu, 10 Mar 2011 16:10:37 GMT"
+                          ezremote:modified="Thu, 10 Mar 2011 16:10:49 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Pictures">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1029" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>Pictures</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1030"
+                                    ezremote:identifier="short_description" name="Short description" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>images&amp;nbsp;by Quoc Huy and Paal Berg</paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1031"
+                                    ezremote:identifier="description" name="Description" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1032"
+                                    ezremote:identifier="image" name="Image" type="ezobjectrelation"/>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae"
+                                 name="Pictures" node-id="178" remote-id="ae32173cedf3a5ec441e3afcadc4abcb"
+                                 sort-field="path" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

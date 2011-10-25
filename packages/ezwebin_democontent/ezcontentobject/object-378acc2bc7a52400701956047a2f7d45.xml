@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/"
+                 xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="165" name="Community"
+                 ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23"
+                 ezremote:published="Thu, 01 Nov 2007 08:33:57 GMT" ezremote:modified="Thu, 01 Nov 2007 11:15:32 GMT"
+                 remote_id="378acc2bc7a52400701956047a2f7d45" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4"
+                 ezremote:class_identifier="frontpage" ezremote:always_available="1" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/"
+                           xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject"
+                          xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="1"
+                          ezremote:status="1" ezremote:created="Thu, 01 Nov 2007 11:15:15 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 11:15:32 GMT" initial_language="eng-GB">
+            <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB"
+                                         object_name="Community">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="984" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>Community</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="985"
+                                    ezremote:identifier="billboard" name="Billboard" type="ezobjectrelation">
+                    <related-object-remote-id>99730850bd806030c4ae9ea92571bdd0</related-object-remote-id>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="986"
+                                    ezremote:identifier="left_column" name="Left column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <embed size="medium" class="itemized_sub_items" align="center" custom:offset="0"
+                                   custom:limit="5" object_remote_id="27c68e844e2663ddd20dfb59961d5268"/>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="987"
+                                    ezremote:identifier="center_column" name="Center column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <embed size="medium" class="itemized_sub_items" align="center" custom:offset="0"
+                                   custom:limit="5" object_remote_id="6a715c29ec67ed5e13ded872e1615690"/>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="988"
+                                    ezremote:identifier="right_column" name="Right column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <embed size="medium" class="itemized_sub_items" align="center" custom:offset="0"
+                                   custom:limit="5" object_remote_id="219ca29549fe687005593716f9fe5d68"/>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="989"
+                                    ezremote:identifier="bottom_column" name="Bottom column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <embed size="medium" class="horizontally_listed_sub_items" align="center" custom:offset="0"
+                                   custom:limit="5" object_remote_id="c0180d604d5f5d273702b7d675d6c0cd"/>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="990" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" name="Community" node-id="167"
+                                 remote-id="c4604fb2e100a6681a4f53fbe6e5eeae" sort-field="published" sort-order="0"
+                                 priority="4"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="99"
+                 name="Mauris pretium" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="24"
+                 ezremote:published="Wed, 28 Mar 2007 11:40:05 GMT" ezremote:modified="Wed, 28 Mar 2007 11:40:06 GMT"
+                 remote_id="89a584d09ab2f7dbc3374aad02839f21" class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
+                 ezremote:class_identifier="documentation_page" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Wed, 28 Mar 2007 11:40:05 GMT"
+                          ezremote:modified="Wed, 28 Mar 2007 11:40:05 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Mauris pretium">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="514" ezremote:identifier="title"
+                                    name="Title" type="ezstring">
+                    <text>Mauris pretium</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="515" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Praesent pretium mi eget odio. Nunc sed lectus eget purus eleifend mattis. Vivamus
+                            aliquam, metus quis rutrum venenatis, mi felis tempus ipsum, sed varius metus erat eget leo.
+                            Ut fringilla, urna vel consectetuer dignissim, tellus ante mattis quam, semper scelerisque
+                            nulla tortor eu enim. Vivamus tortor. Donec eleifend fringilla dui. Nullam semper interdum
+                            ipsum. Proin quam. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                            fames ac turpis egestas. In hac habitasse platea dictumst. Mauris pretium posuere justo.
+                            Proin vestibulum cursus odio.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="516" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="517"
+                                    ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="0f9c7380f8af1f29f1017e412bdd4016"
+                                 name="Mauris pretium" node-id="101" remote-id="036394ec8b160f0782bec2dda452d798"
+                                 sort-field="path" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

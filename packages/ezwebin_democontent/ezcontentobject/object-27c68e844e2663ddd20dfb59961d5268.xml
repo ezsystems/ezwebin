@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="170"
+                 name="Wiki" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="24"
+                 ezremote:published="Thu, 01 Nov 2007 08:34:05 GMT" ezremote:modified="Thu, 01 Nov 2007 08:34:05 GMT"
+                 remote_id="27c68e844e2663ddd20dfb59961d5268" class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
+                 ezremote:class_identifier="documentation_page" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 08:34:05 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:34:05 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Wiki">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1005"
+                                    ezremote:identifier="title" name="Title" type="ezstring">
+                    <text>Wiki</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1006" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Vestibulum ultricies lorem sed pede. Donec massa. Cras imperdiet, lectus mollis
+                            rhoncus gravida, enim lacus iaculis libero, consectetuer lobortis sapien purus nec purus.
+                            Donec nulla dui, commodo et, porttitor eu, malesuada id, nisi. Cras in mi in dolor ultricies
+                            pretium. Curabitur pellentesque auctor ligula. Suspendisse malesuada, nunc a tempor lacinia,
+                            lectus turpis commodo urna, eu porta risus nisl nec dui. Sed suscipit feugiat erat.
+                            Vestibulum interdum congue arcu. Ut euismod, arcu a ornare auctor, sapien nisl viverra arcu,
+                            in mattis nibh justo ac ipsum. Nunc nibh urna, nonummy id, vestibulum eget, interdum at,
+                            erat. Nulla consequat.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1007" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1008"
+                                    ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="c4604fb2e100a6681a4f53fbe6e5eeae" name="Wiki"
+                                 node-id="172" remote-id="8b570ac03318b7e29eb5fd1bae15efde" sort-field="published"
+                                 sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

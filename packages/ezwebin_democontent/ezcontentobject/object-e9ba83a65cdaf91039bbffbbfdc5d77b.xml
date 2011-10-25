@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="208"
+                 name="multisite_deployment_large" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="30"
+                 ezremote:published="Tue, 15 Sep 2009 10:26:07 GMT" ezremote:modified="Tue, 15 Sep 2009 10:26:07 GMT"
+                 remote_id="e9ba83a65cdaf91039bbffbbfdc5d77b" class_remote_id="f6df12aa74e36230eb675f364fccd25a"
+                 ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Tue, 15 Sep 2009 10:26:07 GMT"
+                          ezremote:modified="Tue, 15 Sep 2009 10:26:07 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="multisite_deployment_large">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1193" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>multisite_deployment_large</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1194"
+                                    ezremote:identifier="caption" name="Caption" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1195"
+                                    ezremote:identifier="image" name="Image" type="ezimage"
+                                    image-file-key="0d545a88205d9530b5f3195f66069788" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1196" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="42a3b07037390457ad0f2c65494bfd97"
+                                 name="multisite_deployment_large" node-id="210"
+                                 remote-id="5625695a66034f53b9b6e14029e06e80" sort-field="published" sort-order="0"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

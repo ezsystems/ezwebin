@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/"
+                 xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="107" name="Get involved"
+                 ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16"
+                 ezremote:published="Thu, 03 Mar 2011 13:31:12 GMT" ezremote:modified="Thu, 10 Mar 2011 18:41:30 GMT"
+                 remote_id="5bae6a310785e4f43fcc592e28eb7fd0" class_remote_id="c15b600eb9198b1924063b5a68758232"
+                 ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                           active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                          ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 10 Mar 2011 18:40:57 GMT"
+                          ezremote:modified="Thu, 10 Mar 2011 18:41:30 GMT" initial_language="eng-GB">
+            <ezobject:object-translation xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" language="eng-GB"
+                                         object_name="Get involved">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="574" ezremote:identifier="title"
+                                    name="Title" type="ezstring">
+                    <text>Get involved</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="575"
+                                    ezremote:identifier="short_title" name="Short title" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="576"
+                                    ezremote:identifier="author" name="Author" type="ezauthor">
+                    <ezauthor>
+                        <authors>
+                            <author id="0" name="Administrator User" email="bk@ez.no"/>
+                        </authors>
+                    </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="577"
+                                    ezremote:identifier="intro" name="Summary" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph><link target="_blank" xhtml:id="internal-source-marker_0.15448186383582652"
+                                         href="http://share.ez.no/forums">Forums</link>,&amp;nbsp;<link target="_blank"
+                                                                                                        href="http://share.ez.no/blogs">
+                            Blogs</link>,&amp;nbsp;<link target="_blank" href="http://twitter.com/ezcommunity">
+                            Twitter</link>,&amp;nbsp;
+                            <link target="_blank" href="http://www.linkedin.com/groups?gid=2759">LinkedIn</link>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="578"
+                                    ezremote:identifier="body" name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>[<link target="_self" anchor_name="contact"
+                                          href="http://share.ez.no/about/get-involved">contact</link>] [<link
+                                target="_self" anchor_name="share" href="http://share.ez.no/about/get-involved">
+                            share</link>] [<link target="_self" anchor_name="develop"
+                                                 href="http://share.ez.no/about/get-involved">develop</link>]
+                        </paragraph>
+                        <paragraph>If you want to get involved in the eZ Community's life, help, be helped, share and
+                            participate, this page is for you. It gives you a list of hints and tricks on how to
+                            actually get involved.
+                        </paragraph>
+                        <paragraph>Make sure you also read the&amp;nbsp;
+                            <link target="_self"
+                                  href="http://share.ez.no/about/etiquette-blogging-and-usage-guidelines">Etiquette,
+                                blogging and usage guidelines
+                            </link>
+                        </paragraph>
+                        <paragraph>
+                            <anchor name="contact"/>
+                        </paragraph>
+                        <paragraph>
+                            <anchor name="eztoc772_1"/>
+                        </paragraph>
+                        <paragraph>
+                            <anchor name="eztoc1010_1_1"/>
+                        </paragraph>
+                        <paragraph>
+                            <anchor name="eztoc1031_0_1_1"/>
+                        </paragraph>
+                        <section>
+                            <section>
+                                <section>
+                                    <section>
+                                        <header>Contact</header>
+                                        <paragraph>Should anything be unclear ( after having read through the following
+                                            :) ), or if you would like to ask a question, feel free to send an email to
+                                            community@ez.no.
+                                        </paragraph>
+                                        <paragraph>
+                                            <anchor name="share"/>
+                                        </paragraph>
+                                        <paragraph>
+                                            <anchor name="eztoc772_2"/>
+                                        </paragraph>
+                                        <paragraph>
+                                            <anchor name="eztoc1010_1_2"/>
+                                        </paragraph>
+                                        <paragraph>
+                                            <anchor name="eztoc1031_0_1_2"/>
+                                        </paragraph>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <section>
+                                    <section>
+                                        <header>Sharing</header>
+                                        <paragraph>
+                                            <anchor name="eztoc772_2_1"/>
+                                        </paragraph>
+                                        <paragraph>
+                                            <anchor name="eztoc1010_1_2_1"/>
+                                        </paragraph>
+                                        <paragraph>
+                                            <anchor name="eztoc1031_0_1_2_1"/>
+                                        </paragraph>
+                                        <section>
+                                            <header>Forums</header>
+                                            <paragraph>From&amp;nbsp;<link target="_self"
+                                                                           xhtml:title="eZ Community forums"
+                                                                           href="http://share.ez.no/forums">
+                                                http://share.ez.no/forums</link>, you can pick one of the existing
+                                                forums and ask a question, make a remark, answers others' questions, or
+                                                simply read through, looking for a bit of information. The following
+                                                forums are available:
+                                            </paragraph>
+                                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                <ul>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/forums/install-configuration">
+                                                                Install &amp; configuration</link>&amp;nbsp;(<link
+                                                                target="_self" anchor_name="RSS"
+                                                                href="http://share.ez.no/about/get-involved">rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/forums/setup-design">Setup
+                                                                &amp; design</link>&amp;nbsp;(<link target="_self"
+                                                                                                    anchor_name="RSS"
+                                                                                                    href="http://share.ez.no/about/get-involved">
+                                                            rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/forums/general">
+                                                                General</link>&amp;nbsp;(<link target="_self"
+                                                                                               anchor_name="RSS"
+                                                                                               href="http://share.ez.no/about/get-involved">
+                                                            rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/forums/developer">
+                                                                Developer</link>&amp;nbsp;(<link target="_self"
+                                                                                                 anchor_name="RSS"
+                                                                                                 href="http://share.ez.no/about/get-involved">
+                                                            rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/forums/suggestions">
+                                                                Suggestions</link>&amp;nbsp;(<link target="_self"
+                                                                                                   anchor_name="RSS"
+                                                                                                   href="http://share.ez.no/about/get-involved">
+                                                            rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/forums/extensions">
+                                                                Extensions</link>&amp;nbsp;(<link target="_self"
+                                                                                                  anchor_name="RSS"
+                                                                                                  href="http://share.ez.no/about/get-involved">
+                                                            rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                </ul>
+                                            </paragraph>
+                                            <paragraph>The "Extensions" forum is broken down into extension-specific
+                                                subforums:
+                                            </paragraph>
+                                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                <ul>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/forums/extensions/ez-newsletter">
+                                                                eZ Newsletter</link>&amp;nbsp;(<link target="_self"
+                                                                                                     anchor_name="RSS"
+                                                                                                     href="http://share.ez.no/about/get-involved">
+                                                            rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/forums/extensions/website-interface">
+                                                                Website Interface</link>&amp;nbsp;(<link target="_self"
+                                                                                                         anchor_name="RSS"
+                                                                                                         href="http://share.ez.no/about/get-involved">
+                                                            rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/forums/extensions/ez-flow">eZ
+                                                                Flow</link>&amp;nbsp;(<link target="_self"
+                                                                                            anchor_name="RSS"
+                                                                                            href="http://share.ez.no/about/get-involved">
+                                                            rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/forums/extensions/ez-find">eZ
+                                                                Find</link>&amp;nbsp;(<link target="_self"
+                                                                                            anchor_name="RSS"
+                                                                                            href="http://share.ez.no/about/get-involved">
+                                                            rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                </ul>
+                                            </paragraph>
+                                            <paragraph>One forum is dedicated to translators and linguists translating
+                                                eZ Publish :
+                                            </paragraph>
+                                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                <ul>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self"
+                                                                  xhtml:title="Forum dedicated to translators"
+                                                                  href="http://share.ez.no/forums/translation">
+                                                                Translations</link>&amp;nbsp;(<link target="_self"
+                                                                                                    anchor_name="RSS"
+                                                                                                    href="http://share.ez.no/about/get-involved">
+                                                            rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                </ul>
+                                            </paragraph>
+                                            <paragraph>One forum is dedicated to local eZ Publish communities who do not
+                                                have a dedicated platform and would like to share in their native
+                                                language :
+                                            </paragraph>
+                                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                <ul>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self" xhtml:title="Localized forums"
+                                                                  href="http://share.ez.no/forums/localized-forums">
+                                                                Localized forums</link>&amp;nbsp;(<link target="_self"
+                                                                                                        anchor_name="RSS"
+                                                                                                        href="http://share.ez.no/about/get-involved">
+                                                            rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                </ul>
+                                            </paragraph>
+                                            <paragraph>A last forum welcomes suggestions for this portal:</paragraph>
+                                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                <ul>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/forums/feedback-and-ideas-for-this-portal">
+                                                                Feedback and ideas for this portal</link>&amp;nbsp;(
+                                                            <link target="_self" anchor_name="RSS"
+                                                                  href="http://share.ez.no/about/get-involved">
+                                                                rss</link>)
+                                                        </paragraph>
+                                                    </li>
+                                                </ul>
+                                            </paragraph>
+                                            <paragraph>It is often used in conjunction with the&amp;nbsp;<link
+                                                    target="_blank" xhtml:title="Issue tracker for the Community Portal"
+                                                    href="http://issues.ez.no/ProjectSelect.php?Id=6">
+                                                share.ez.no-dedicated issue tracker</link>&amp;nbsp;(not to be confused
+                                                with the&amp;nbsp;<link target="_blank"
+                                                                        xhtml:title="General eZ Publish issue tracker"
+                                                                        href="http://issues.ez.no/ProjectSelect.php?Id=3">
+                                                    general eZ Publish issue tracker</link>).
+                                            </paragraph>
+                                            <paragraph>&amp;nbsp;
+                                                <anchor name="eztoc772_2_2"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1010_1_2_2"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1031_0_1_2_2"/>
+                                            </paragraph>
+                                        </section>
+                                        <section>
+                                            <header>Your experience through an article or tutorial</header>
+                                            <paragraph>The&amp;nbsp;<link target="_self"
+                                                                          xhtml:title="eZ Community Articles"
+                                                                          href="http://share.ez.no/articles">
+                                                Articles</link>&amp;nbsp;and&amp;nbsp;<link target="_self"
+                                                                                            xhtml:title="eZ Community Tutorials"
+                                                                                            href="http://share.ez.no/tutorials">
+                                                Tutorials</link>&amp;nbsp;sections are gold mines of useful, practical
+                                                information on eZ Publish and eZ Software usage. You may be willing to
+                                                contribute to growing the amount of common gold by sharing one of your
+                                                experiences, right here. Read more on this here :<link target="_self"
+                                                                                                       href="http://share.ez.no/blogs/share.ez.no-team/share-your-experience-write-a-tutorial-for-the-community">
+                                                    Share your experience, write a tutorial for the Community</link>.
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="IRC"/>
+                                            </paragraph>
+                                            <paragraph>&amp;nbsp;
+                                                <anchor name="eztoc772_2_3"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1010_1_2_3"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1031_0_1_2_3"/>
+                                            </paragraph>
+                                        </section>
+                                        <section>
+                                            <header>Live chat on IRC</header>
+                                            <paragraph>Two channels are dedicated to live chat (mostly around eZ Publish
+                                                and eZ Components), here they are :
+                                            </paragraph>
+                                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                <ul>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            eZ Publish room:&amp;nbsp;
+                                                            <link target="_self" anchor_name="ezpublish"
+                                                                  href="irc://irc.freenode.net/">
+                                                                irc://irc.freenode.net/#ezpublish
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            eZ Components room:&amp;nbsp;
+                                                            <link target="_self" anchor_name="zetacomponents"
+                                                                  href="irc://irc.freenode.net/">
+                                                                irc://irc.freenode.net/#zetacomponents
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                </ul>
+                                            </paragraph>
+                                            <paragraph>
+                                                <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Feel
+                                                    free and join the chat. Usually there is a number of people willing
+                                                    to help you out with your problem or discuss features.&amp;nbsp;
+                                                </line>
+                                                <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">You need
+                                                    an&amp;nbsp;<link target="_self" anchor_name="Clients"
+                                                                      href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">
+                                                        IRC Client</link>&amp;nbsp;for joining the channel. Here is an
+                                                    indicative list of popular IRC clients :
+                                                </line>
+                                            </paragraph>
+                                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                <ul>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self" href="http://www.xchat.org/">XChat
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self" href="http://www.mirc.com/">mIRC</link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self" href="http://www.pidgin.im/">Pidgin
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            <link target="_self" href="http://colloquy.info/">Colloquy
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                </ul>
+                                            </paragraph>
+                                            <paragraph>&amp;nbsp;
+                                                <anchor name="eztoc772_2_4"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1010_1_2_4"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1031_0_1_2_4"/>
+                                            </paragraph>
+                                        </section>
+                                        <section>
+                                            <header>Blogging</header>
+                                            <paragraph>
+                                                <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">A
+                                                    central blog planet is aggregating many community members' blogs:
+                                                    <link target="_blank" xhtml:title="Planet eZ Publish"
+                                                          href="http://planetezpublish.org/">
+                                                        http://planetezpublish.org/</link>&amp;nbsp;(available through&amp;nbsp;
+                                                    <link target="_blank" xhtml:title="planetezpublish RSS feed"
+                                                          href="http://planetezpublish.org/rss/feed/rss20.xml">
+                                                        RSS</link>&amp;nbsp;).
+                                                </line>
+                                                <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Local
+                                                    initiatives exists, among them the french-speaking blog-planet :&amp;nbsp;
+                                                    <link target="_blank" xhtml:title="French eZ Publish blog planet"
+                                                          href="http://www.planet-ezpublish.fr/">
+                                                        http://www.planet-ezpublish.fr/</link>.
+                                                </line>
+                                            </paragraph>
+                                            <paragraph>Atop, this platform will soon open to public blogging, stay
+                                                tuned.
+                                            </paragraph>
+                                            <paragraph>&amp;nbsp;
+                                                <anchor name="eztoc772_2_5"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1010_1_2_5"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1031_0_1_2_5"/>
+                                            </paragraph>
+                                        </section>
+                                        <section>
+                                            <header>Mailing-lists</header>
+                                            <paragraph>Feel free to register on the eZ Community mailing-list. You can
+                                                do so here :<link target="_blank"
+                                                                  xhtml:title="eZ Community mailing-list"
+                                                                  href="http://lists.ez.no/mailman/listinfo/sdk-public">
+                                                    http://lists.ez.no/mailman/listinfo/sdk-public</link>. It serves as
+                                                a community support channel, obviously less responsive than IRC or
+                                                twitter, but more persistent, which can be preferred in some cases.
+                                            </paragraph>
+                                            <paragraph>Another mailing-list helps you see pass by every commit messages
+                                                on eZ Publish's development trunk. If you are eager to see one specific
+                                                feature implemented, or simply like to be updated with the
+                                                bleeding-edge, vip status of eZ Publish, you should subscribe to that
+                                                one :&amp;nbsp;
+                                                <link target="_blank"
+                                                      href="http://lists.ez.no/mailman/listinfo/sdk-svn">
+                                                    http://lists.ez.no/mailman/listinfo/sdk-svn
+                                                </link>
+                                            </paragraph>
+                                            <paragraph>&amp;nbsp;
+                                                <anchor name="eztoc772_2_6"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1010_1_2_6"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1031_0_1_2_6"/>
+                                            </paragraph>
+                                        </section>
+                                        <section>
+                                            <header>RSS</header>
+                                            <paragraph>
+                                                <anchor name="RSS"/>
+                                            </paragraph>
+                                            <paragraph>Follow the eZ Community activity through RSS. Here are the feeds
+                                                at your disposal:
+                                            </paragraph>
+                                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                <ul>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            All forums (topics &amp; replies):&amp;nbsp;
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/rss/feed/all_forums">
+                                                                http://share.ez.no/rss/feed/all_forums
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Forum topics ONLY :&amp;nbsp;
+                                                            <link target="_self"
+                                                                  xhtml:title="RSS feed for forum topics ONLY"
+                                                                  href="http://share.ez.no/rss/feed/forum_topics_only">
+                                                                http://share.ez.no/rss/feed/forum_topics_only
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Articles and Tutorials :&amp;nbsp;
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/rss/feed/articles">
+                                                                http://share.ez.no/rss/feed/articles
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Blogs :&amp;nbsp;
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/rss/feed/blogs">
+                                                                http://share.ez.no/rss/feed/blogs
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Forums &gt; Developer :&amp;nbsp;
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/rss/feed/forums_developer">
+                                                                http://share.ez.no/rss/feed/forums_developer
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Forums &gt; Discussions :&amp;nbsp;
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/rss/feed/forums_discussions">
+                                                                http://share.ez.no/rss/feed/forums_discussions
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Forums &gt; Extensions :&amp;nbsp;
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/rss/feed/forums_extensions">
+                                                                http://share.ez.no/rss/feed/forums_extensions
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Forums &gt; Feedback :&amp;nbsp;
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/rss/feed/forums_feedback">
+                                                                http://share.ez.no/rss/feed/forums_feedback
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Forums &gt; General :&amp;nbsp;
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/rss/feed/forums_general">
+                                                                http://share.ez.no/rss/feed/forums_general
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Forums &gt; Install and Configuration :
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/rss/feed/forums_install_and_configuration">
+                                                                http://share.ez.no/rss/feed/forums_install_and_configuration
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Forums &gt; Setup and Design :&amp;nbsp;
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/rss/feed/forums_setup_and_design">
+                                                                http://share.ez.no/rss/feed/forums_setup_and_design
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Forums &gt; Suggestions :&amp;nbsp;
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/rss/feed/forums_suggestions">
+                                                                http://share.ez.no/rss/feed/forums_suggestions
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Forums &gt; Translation :&amp;nbsp;
+                                                            <link target="_self" xhtml:title="Translation related forum"
+                                                                  href="http://share.ez.no/rss/feed/forums_translation">
+                                                                http://share.ez.no/rss/feed/forums_translation
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            Projects :&amp;nbsp;
+                                                            <link target="_self"
+                                                                  href="http://share.ez.no/rss/feed/projects">
+                                                                http://share.ez.no/rss/feed/projects
+                                                            </link>
+                                                        </paragraph>
+                                                    </li>
+                                                </ul>
+                                            </paragraph>
+                                            <paragraph>&amp;nbsp;
+                                                <anchor name="eztoc772_2_7"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1010_1_2_7"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1031_0_1_2_7"/>
+                                            </paragraph>
+                                        </section>
+                                        <section>
+                                            <header>Social networks</header>
+                                            <paragraph>Stay tuned on the portal's activity by following&amp;nbsp;<link
+                                                    target="_blank" xhtml:title="eZ Publish Community on twitter"
+                                                    href="http://twitter.com/ezcommunity">@ezcommunity</link>. Also,
+                                                cool instant pings happen on Twitter, where many community members are
+                                                active. Feel free to join this sphere, and the first step could be to
+                                                follow this Twitter list :&amp;nbsp;<link target="_blank"
+                                                                                          xhtml:title="eZ Community members on Twitter"
+                                                                                          href="http://twitter.com/i_robin/cms-ezpublish/members">
+                                                    http://twitter.com/i_robin/cms-ezpublish/members</link>.
+                                            </paragraph>
+                                            <paragraph>The eZ Publish Community is also gathered on LinkedIn, swing by&amp;nbsp;
+                                                <link target="_blank" xhtml:title="eZ Ecosystem on LinkedIn"
+                                                      href="http://www.linkedin.com/groups?gid=2759">there</link>!
+                                            </paragraph>
+                                            <paragraph>Some&amp;nbsp;<link target="_blank" xhtml:title="Google Wave"
+                                                                           href="https://wave.google.com/">Waves</link>
+                                                &amp;nbsp;also got attention from the community members. One way to see
+                                                them is to search, from Google Wave, the following: "with:public
+                                                ezpublish". So come by and wave on with us. In case you need an
+                                                invitation, drop a word here :<link target="_self"
+                                                                                    href="http://share.ez.no/forums/general/ez-publish-on-google-wave">
+                                                    http://share.ez.no/forums/general/ez-publish-on-google-wave</link>.
+                                            </paragraph>
+                                            <paragraph><anchor name="develop"/>[<link target="_self"
+                                                                                      xhtml:title="Back to top"
+                                                                                      anchor_name="top"
+                                                                                      href="http://share.ez.no/about/get-involved">
+                                                back to top</link>]
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc772_3"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1010_1_3"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1031_0_1_3"/>
+                                            </paragraph>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <section>
+                                    <section>
+                                        <header>Developing</header>
+                                        <paragraph>
+                                            <anchor name="eztoc772_3_8"/>
+                                        </paragraph>
+                                        <paragraph>
+                                            <anchor name="eztoc1010_1_3_8"/>
+                                        </paragraph>
+                                        <paragraph>
+                                            <anchor name="eztoc1031_0_1_3_8"/>
+                                        </paragraph>
+                                        <section>
+                                            <header>Collaborative development</header>
+                                            <paragraph>You have developed a cool extension for eZ Publish ? You would
+                                                like to share it, and get other community members to help you push it
+                                                ahead ? Then you should visit<link target="_blank"
+                                                                                   xhtml:title="eZ Community projects"
+                                                                                   href="http://projects.ez.no/">
+                                                    http://projects.ez.no</link>&amp;nbsp;and open-source it there. You
+                                                can log in with your ez.no account (the same as your share.ez.no
+                                                account), and create a new project there. You may want to first check
+                                                that no similar extension already exists, in which case you would
+                                                probably prefer joining the existing team and tell about your ideas,
+                                                suggestions and already crafted code.
+                                            </paragraph>
+                                            <paragraph>This platform gives every project a simple collaborative
+                                                development sandbox:
+                                            </paragraph>
+                                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                <ul>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            forums
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            a subversion repository
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            a news wall
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            a home page
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            a rating system for people to praise or blame
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            galleries for screenshots
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph
+                                                                xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                                            a download section
+                                                        </paragraph>
+                                                    </li>
+                                                </ul>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="doc"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc772_3_9"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1010_1_3_9"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1031_0_1_3_9"/>
+                                            </paragraph>
+                                        </section>
+                                        <section>
+                                            <header>Documentation</header>
+                                            <paragraph>Online documentation helps you in your daily development and
+                                                administration tasks. The official documentation for eZ Publish is
+                                                available at&amp;nbsp;<link target="_blank"
+                                                                            xhtml:title="eZ Publish documentation"
+                                                                            href="http://doc.ez.no/">
+                                                    http://doc.ez.no</link>. A community initiative,<link
+                                                        target="_blank" xhtml:title="ez Publish community documentation"
+                                                        href="http://ezpedia.org/">http://ezpedia.org</link>, comes as a
+                                                relevant and handy knowledge base, very complimentary to the online
+                                                documentation. The eZ Publish API documentation is&amp;nbsp;<link
+                                                        target="_blank" xhtml:title="eZ Publish API documentation"
+                                                        href="http://pubsvn.ez.no/doxygen/trunk/html/index.html">
+                                                    here</link>, and the official documentation for the Apache Zeta
+                                                Components (formerly known as eZ Components) lies<link target="_blank"
+                                                                                                       xhtml:title="Apache Zeta Components"
+                                                                                                       href="http://incubator.apache.org/zetacomponents/documentation/overview.html">
+                                                    here</link>. The Apache Zeta Components serve nowadays, in many
+                                                places, as base libraries for eZ Publish, and are a generally
+                                                high-quality set of libraries for web application development.
+                                            </paragraph>
+                                            <paragraph>&amp;nbsp;
+                                                <anchor name="eztoc772_3_10"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1010_1_3_10"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1031_0_1_3_10"/>
+                                            </paragraph>
+                                        </section>
+                                        <section>
+                                            <header>Trunk, testing and sending feedback</header>
+                                            <paragraph>
+                                                <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">For
+                                                    every eZ Publish release, the usual alpha-beta-rc countdown should
+                                                    happen, and the eZ Community will be in first line to check these
+                                                    pre-release versions of eZ Publish Community Project and push
+                                                    feedback on them.
+                                                </line>
+                                                <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">On top
+                                                    of these regular fevers, on a daily basis you may want to report
+                                                    issues found on eZ Publish, as well as propose enhancements. And
+                                                    this happens here :<link target="_blank"
+                                                                             xhtml:title="eZ Publish general issue tracker"
+                                                                             href="http://issues.ez.no/ezpublish">
+                                                        http://issues.ez.no/ezpublish</link>.
+                                                </line>
+                                            </paragraph>
+                                            <paragraph>You can as well follow every step of eZ Publish's development by
+                                                checking out the trunk version of it. It is hosted on a Github server.
+                                                All you need is to visit&amp;nbsp;<link target="_blank"
+                                                                                        xhtml:title="eZ Publish Community Project's github repository"
+                                                                                        href="http://share.ez.no/github.com/ezsystems/ezpublish">
+                                                    eZ Publish Community Project's github repository</link>, and enjoy
+                                                :)
+                                            </paragraph>
+                                            <paragraph>&amp;nbsp;
+                                                <anchor name="eztoc772_3_11"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1010_1_3_11"/>
+                                            </paragraph>
+                                            <paragraph>
+                                                <anchor name="eztoc1031_0_1_3_11"/>
+                                            </paragraph>
+                                        </section>
+                                        <section>
+                                            <header>Translation and localisation</header>
+                                            <paragraph>A central community translation initiative is hosted here<link
+                                                    target="_blank" xhtml:title="Community Translation Initiative"
+                                                    href="http://projects.ez.no/ezpublish_translation">
+                                                http://projects.ez.no/ezpublish_translation</link>. The homepage of the
+                                                project gives you all necessary details to get involved in translating
+                                                eZ Publish into your preferred language. If you feel you have a linguist
+                                                soul, or simply are fed up with not being able to use eZ Publish in your
+                                                native language, this initiative is for you!
+                                            </paragraph>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="579"
+                                    ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="580" ezremote:identifier="image"
+                                    name="Image" type="ezimage" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="581"
+                                    ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="582"
+                                    ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="583"
+                                    ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="584" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="585"
+                                    ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                    <data-int>0</data-int>
+                    <data-float>0</data-float>
+                    <data-text></data-text>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="e81507d3446726ebd7361352fef5fad3"
+                                 name="Get involved" node-id="109" remote-id="33151e24acea9c837d2b9fc52e03b1de"
+                                 sort-field="path" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

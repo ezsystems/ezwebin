@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="90"
+                 name="Events and seminars" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="41"
+                 ezremote:published="Tue, 20 Mar 2007 11:20:33 GMT" ezremote:modified="Tue, 20 Mar 2007 11:20:33 GMT"
+                 remote_id="8ce63c01bab6005a389b7bde97f67dae" class_remote_id="020cbeb6382c8c89dcec2cd406fb47a8"
+                 ezremote:class_identifier="event_calendar" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Tue, 20 Mar 2007 11:20:26 GMT"
+                          ezremote:modified="Tue, 20 Mar 2007 11:20:33 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Events and seminars">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="467" ezremote:identifier="title"
+                                    name="Full Title" type="ezstring">
+                    <text>Events and seminars</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="468"
+                                    ezremote:identifier="short_title" name="Short Title" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="469" ezremote:identifier="view"
+                                    name="View" type="ezselection">
+                    <data-int>0</data-int>
+                    <data-float>0</data-float>
+                    <data-text>0</data-text>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="95f3c4261719ea27ab67f980fbee0694"
+                                 name="Events and seminars" node-id="92" remote-id="2acc8bb8f7eda4de2cf74f6dc277661f"
+                                 sort-field="published" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

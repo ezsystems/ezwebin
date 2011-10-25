@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/"
+                 xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="130"
+                 name="Adding Siteaccesses in eZ Publish" ezremote:section_id="1" ezremote:owner_id="14"
+                 ezremote:class_id="16" ezremote:published="Mon, 13 Sep 2010 17:19:17 GMT"
+                 ezremote:modified="Mon, 13 Sep 2010 17:19:17 GMT" remote_id="e02b80d7cd9059cf469aafbe7d2d1969"
+                 class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article"
+                 ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                           active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                          ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 13 Sep 2010 17:16:11 GMT"
+                          ezremote:modified="Mon, 13 Sep 2010 17:19:17 GMT" initial_language="eng-GB">
+            <ezobject:object-translation xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" language="eng-GB"
+                                         object_name="Adding Siteaccesses in eZ Publish">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="698" ezremote:identifier="title"
+                                    name="Title" type="ezstring">
+                    <text>Lots of Websites, One eZ Publish Installation</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="699"
+                                    ezremote:identifier="short_title" name="Short title" type="ezstring">
+                    <text>Adding Siteaccesses in eZ Publish</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="700"
+                                    ezremote:identifier="author" name="Author" type="ezauthor">
+                    <ezauthor>
+                        <authors>
+                            <author id="0" name="Greg McAvoy-Jensen" email="admin@myportal.com"/>
+                        </authors>
+                    </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="701" ezremote:identifier="intro"
+                                    name="Summary" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>This tutorial gives developers the power to extend the features and flexibility of eZ
+                            Publish beyond a single website, to having an unlimited number in one installation. At the
+                            end of this tutorial you will have learned how to best leverage eZ Publish's siteaccess
+                            concept to create multiple websites. It will let you apply this concept through the concrete
+                            case of building two different, multilingual websites on one single eZ Publish instance.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="702"
+                                    ezremote:identifier="body" name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <section>
+                            <header>Introduction</header>
+                            <paragraph>Users of eZ Publish sometimes wonder if it is possible to make use of a single
+                                installation of eZ Publish for multiple websites. The answer is yes—through the power of
+                                the “siteaccess”. In fact, an understanding of siteaccesses gives one the ability to do
+                                much more than just host multiple sites in one installation. With this technique you
+                                can:
+                            </paragraph>
+                            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                <ul>
+                                    <li>
+                                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">make it
+                                            easier to share content between databases
+                                        </paragraph>
+                                    </li>
+                                    <li>
+                                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">copy and
+                                            add locations to objects
+                                        </paragraph>
+                                    </li>
+                                    <li>
+                                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">use a
+                                            single Premium agreement and one eZ Network extension for multiple sites
+                                            with the same or different content
+                                        </paragraph>
+                                    </li>
+                                    <li>
+                                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">simplify eZ
+                                            Publish upgrades by consolidating several sites on one installation
+                                        </paragraph>
+                                    </li>
+                                </ul>
+                            </paragraph>
+                            <paragraph>This is demo content, to continue real reading, please visit&amp;nbsp;
+                                <link target="_blank"
+                                      href="http://share.ez.no/tutorials/ez-publish/lots-of-websites-one-ez-publish-installation-adding-siteaccesses-in-ez-publish">
+                                    share.ez.no
+                                </link>
+                            </paragraph>
+                        </section>
+                        <section>
+                            <header>About the author : Greg McAvoy-Jensen</header>
+                            <paragraph>Greg is the executive director of&amp;nbsp;<link target="_blank"
+                                                                                        xhtml:title="Granite Horizon"
+                                                                                        href="http://granitehorizon.com/">
+                                Granite Horizon</link>, one of the largest eZ Publish development firms in the United
+                                States of America. A certified eZ Publish developer, he has served clients and trained
+                                developers on four continents since he started working with eZ Publish in 2003. His wife
+                                Heather and he are proud parents of three wonderful children.
+                            </paragraph>
+                        </section>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="703"
+                                    ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+                    <value>1</value>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="704" ezremote:identifier="image"
+                                    name="Image" type="ezimage" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="705"
+                                    ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="706"
+                                    ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="707"
+                                    ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="708" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string>siteaccess, multiple sites, internationalization</keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="709"
+                                    ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                    <data-int>0</data-int>
+                    <data-float>0</data-float>
+                    <data-text></data-text>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="e81507d3446726ebd7361352fef5fad3"
+                                 name="Adding Siteaccesses in eZ Publish" node-id="132"
+                                 remote-id="19ae9fcb7334a0e407b2781920247122" sort-field="path" sort-order="1"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

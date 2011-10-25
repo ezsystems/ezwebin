@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="172"
+                 name="Ut interdum" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="24"
+                 ezremote:published="Thu, 01 Nov 2007 08:34:06 GMT" ezremote:modified="Thu, 01 Nov 2007 08:34:06 GMT"
+                 remote_id="4ce7df1966ec83aadb0901ed6162bf9b" class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
+                 ezremote:class_identifier="documentation_page" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 08:34:06 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:34:06 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Ut interdum">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1013"
+                                    ezremote:identifier="title" name="Title" type="ezstring">
+                    <text>Ut interdum</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1014" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Etiam nec metus. Proin mauris lorem, lobortis dapibus, semper id, nonummy eu, lacus.
+                            Aliquam erat volutpat. Vivamus hendrerit aliquam ipsum. Maecenas suscipit ante sit amet
+                            risus. Nullam lacus. Praesent varius imperdiet sapien. Nulla sit amet massa nonummy felis
+                            aliquam varius. Vivamus sed arcu. Mauris sodales tristique risus. Cras sed sem. Quisque est
+                            eros, lacinia id, placerat sit amet, varius ac, odio. Aenean placerat, justo eu laoreet
+                            laoreet, purus quam faucibus risus, vel accumsan mauris ligula in magna.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1015" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1016"
+                                    ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+                    <value>1</value>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="4329dcc6a8d441aa7253660512dfd5b6"
+                                 name="Ut interdum" node-id="174" remote-id="6cf7b9370a0d9800ed49ba3be13b6be5"
+                                 sort-field="path" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

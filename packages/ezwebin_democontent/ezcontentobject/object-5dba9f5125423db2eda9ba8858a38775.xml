@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/"
+                 xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="67" name="Products"
+                 ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23"
+                 ezremote:published="Mon, 19 Mar 2007 11:05:16 GMT" ezremote:modified="Thu, 22 Mar 2007 12:44:34 GMT"
+                 remote_id="5dba9f5125423db2eda9ba8858a38775" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4"
+                 ezremote:class_identifier="frontpage" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/"
+                           xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject"
+                          xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="1"
+                          ezremote:status="1" ezremote:created="Thu, 22 Mar 2007 12:44:18 GMT"
+                          ezremote:modified="Thu, 22 Mar 2007 12:44:34 GMT" initial_language="eng-GB">
+            <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB"
+                                         object_name="Products">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="253" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>Products</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="254"
+                                    ezremote:identifier="billboard" name="Billboard" type="ezobjectrelation">
+                    <related-object-remote-id>ec19f2662ebb0f930ce024a48f17f7ee</related-object-remote-id>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="255"
+                                    ezremote:identifier="left_column" name="Left column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <custom name="factbox" custom:title="Next steps">
+                                <paragraph>Vivamus suscipit. Praesent tincidunt adipiscing urna. Etiam ligula velit,
+                                    tincidunt accumsan, feugiat sit amet, malesuada vel, tellus.
+                                </paragraph>
+                                <paragraph>
+                                    <ol>
+                                        <li>
+                                            <paragraph>Donec magna felis
+                                            </paragraph>
+                                        </li>
+                                        <li>
+                                            <paragraph>Mauris sed lectus vel
+                                            </paragraph>
+                                        </li>
+                                        <li>
+                                            <paragraph>Praesent pharetra
+                                            </paragraph>
+                                        </li>
+                                    </ol>
+                                </paragraph>
+                            </custom>
+                        </paragraph>
+                        <section>
+                            <header>Products sheets</header>
+                            <paragraph>
+                                <ul>
+                                    <li>
+                                        <paragraph>Donec magna felis
+                                        </paragraph>
+                                    </li>
+                                    <li>
+                                        <paragraph>Maecenas quam nisi
+                                        </paragraph>
+                                    </li>
+                                </ul>
+                            </paragraph>
+                        </section>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="256"
+                                    ezremote:identifier="center_column" name="Center column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <section>
+                            <header>Products by Category</header>
+                            <paragraph>
+                                <table class="default" width="100%" border="0">
+                                    <tr>
+                                        <td>
+                                            <paragraph>
+                                                <ul>
+                                                    <li>
+                                                        <paragraph>Donec magna felis
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph>Mauris sed lectus vel
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph>Praesent pharetra
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph>Maecenas quam nisi
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph>Phasellus ut ante eu nunc
+                                                        </paragraph>
+                                                    </li>
+                                                </ul>
+                                            </paragraph>
+                                        </td>
+                                        <td>
+                                            <paragraph>
+                                                <ul>
+                                                    <li>
+                                                        <paragraph>Donec hendrerit
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph>Vivamus turpis
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph>Vestibulum laoreet erat id tellus
+                                                        </paragraph>
+                                                    </li>
+                                                    <li>
+                                                        <paragraph>Maecenas quam nisi
+                                                        </paragraph>
+                                                    </li>
+                                                </ul>
+                                            </paragraph>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </paragraph>
+                            <paragraph>
+                                <custom name="separator"/>
+                            </paragraph>
+                        </section>
+                        <section>
+                            <header>Featured Products</header>
+                            <paragraph>
+                                <table class="default" border="0">
+                                    <tr>
+                                        <td>
+                                            <paragraph>
+                                                <embed size="medium" align="center"
+                                                       object_remote_id="c0e62f667c7edf5b69f3131c98292387"/>
+                                            </paragraph>
+                                        </td>
+                                        <td>
+                                            <paragraph>
+                                                <embed size="medium" align="center"
+                                                       object_remote_id="71692736085cf6f8a36cdbb082249764"/>
+                                            </paragraph>
+                                        </td>
+                                        <td>
+                                            <paragraph>
+                                                <embed size="medium" align="center"
+                                                       object_remote_id="14f969f0d7f75f507394372c22919d00"/>
+                                            </paragraph>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </paragraph>
+                        </section>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="257"
+                                    ezremote:identifier="right_column" name="Right column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="258"
+                                    ezremote:identifier="bottom_column" name="Bottom column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="259" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" name="Products" node-id="69"
+                                 remote-id="9cec85d730eec7578190ee95ce5a36f5" sort-field="published" sort-order="1"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="73"
+                 name="CD/DVD Box III" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="21"
+                 ezremote:published="Mon, 19 Mar 2007 11:36:21 GMT" ezremote:modified="Mon, 19 Mar 2007 11:48:54 GMT"
+                 remote_id="14f969f0d7f75f507394372c22919d00" class_remote_id="77f3ede996a3a39c7159cc69189c5307"
+                 ezremote:class_identifier="product" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Mon, 19 Mar 2007 11:48:46 GMT"
+                          ezremote:modified="Mon, 19 Mar 2007 11:48:54 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="CD/DVD Box III">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="301" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>CD/DVD Box III</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="302"
+                                    ezremote:identifier="product_number" name="Product number" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="303"
+                                    ezremote:identifier="short_description" name="Short description" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Aliquam sem felis, lobortis sed, bibendum quis, viverra vestibulum, elit. Sed
+                            placerat lectus vel odio. Nunc quis magna. Nam at massa. Vestibulum porta vestibulum metus.
+                            Aliquam adipiscing arcu quis magna. Aliquam nulla tortor, accumsan non, egestas non, feugiat
+                            vel, ante. Aenean iaculis facilisis arcu. Curabitur porta sollicitudin turpis. Curabitur sit
+                            amet erat. Praesent quis pede egestas tellus porta rhoncus. Curabitur a ligula quis lorem
+                            consectetuer varius.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="304"
+                                    ezremote:identifier="description" name="Description" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Aliquam sem felis, lobortis sed, bibendum quis, viverra vestibulum, elit. Sed
+                            placerat lectus vel odio. Nunc quis magna. Nam at massa. Vestibulum porta vestibulum metus.
+                            Aliquam adipiscing arcu quis magna. Aliquam nulla tortor, accumsan non, egestas non, feugiat
+                            vel, ante. Aenean iaculis facilisis arcu. Curabitur porta sollicitudin turpis. Curabitur sit
+                            amet erat. Praesent quis pede egestas tellus porta rhoncus. Curabitur a ligula quis lorem
+                            consectetuer varius.
+                        </paragraph>
+                        <paragraph>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            Phasellus venenatis elementum dolor. Praesent velit. Aliquam erat volutpat. Donec auctor.
+                            Etiam accumsan libero vel ipsum. Sed ligula turpis, lobortis in, aliquet a, dapibus non,
+                            eros. Nunc nulla arcu, pharetra nec, pellentesque at, malesuada quis, diam. Nulla
+                            pellentesque volutpat arcu. Vestibulum eros nulla, dignissim id, pulvinar sed, rutrum non,
+                            nisl. Quisque id nisi quis dolor suscipit ultrices. Vivamus dapibus tincidunt nunc.
+                            Curabitur nec massa nec ipsum tristique accumsan. Praesent tempus. Nunc posuere pretium
+                            lectus. Ut magna.
+                        </paragraph>
+                        <paragraph>
+                            <ol>
+                                <li>
+                                    <paragraph>Quisque id nisi quis</paragraph>
+                                </li>
+                                <li>
+                                    <paragraph>Vivamus dapibus tincidunt</paragraph>
+                                </li>
+                                <li>
+                                    <paragraph>Curabitur nec</paragraph>
+                                </li>
+                            </ol>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="305" ezremote:identifier="price"
+                                    name="Price" type="ezprice">
+                    <price>99</price>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="306" ezremote:identifier="image"
+                                    name="Image" type="ezimage" image-file-key="064825fcc6f66aa540277d0e23de28f4"
+                                    alternative-text="CD/DVD Box III"/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="307"
+                                    ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>CD/DVD Box III</paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="308"
+                                    ezremote:identifier="additional_options" name="Additional options"
+                                    type="ezmultioption">
+                    <ezmultioption option_counter="2">
+                        <name>Additional options</name>
+                        <multioptions>
+                            <multioption id="1" name="Cover type" priority="1" default_option_id="">
+                                <option id="1" option_id="1" value="Soft" additional_price="10.00"/>
+                                <option id="2" option_id="2" value="Hard" additional_price="15.00"/>
+                            </multioption>
+                        </multioptions>
+                    </ezmultioption>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="309" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="e607aab6e924091909f3def02415bc53"
+                                 name="CD/DVD Box III" node-id="75" remote-id="005067a5eee6505aa0f601cca30681d0"
+                                 sort-field="published" sort-order="0" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

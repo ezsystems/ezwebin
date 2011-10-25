@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/"
+                 xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="75" name="Solutions"
+                 ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23"
+                 ezremote:published="Tue, 20 Mar 2007 11:16:13 GMT" ezremote:modified="Mon, 02 Apr 2007 07:57:53 GMT"
+                 remote_id="3388409c96f37a7974f35befa5a14650" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4"
+                 ezremote:class_identifier="frontpage" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                           active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                          ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 02 Apr 2007 07:57:47 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 07:57:53 GMT" initial_language="eng-GB">
+            <ezobject:object-translation xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" language="eng-GB"
+                                         object_name="Solutions">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="317" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>Solutions</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="318"
+                                    ezremote:identifier="billboard" name="Billboard" type="ezobjectrelation">
+                    <related-object-remote-id>1000aa14a05b968a2faa3def83aa1994</related-object-remote-id>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="319"
+                                    ezremote:identifier="left_column" name="Left column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="320"
+                                    ezremote:identifier="center_column" name="Center column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <embed class="highlighted_object" size="medium" align="center"
+                                   object_remote_id="91ac81d846554a305a4029b19ba52d31"/>
+                        </paragraph>
+                        <paragraph>
+                            <table class="default" width="100%" border="0">
+                                <tr>
+                                    <td xhtml:width="50%">
+                                        <paragraph>Solutions by industry:</paragraph>
+                                        <paragraph>
+                                            <ul>
+                                                <li>
+                                                    <paragraph>Banking
+                                                    </paragraph>
+                                                </li>
+                                                <li>
+                                                    <paragraph>Automotive
+                                                    </paragraph>
+                                                </li>
+                                                <li>
+                                                    <paragraph>Education
+                                                    </paragraph>
+                                                </li>
+                                                <li>
+                                                    <paragraph>Electronics
+                                                    </paragraph>
+                                                </li>
+                                            </ul>
+                                        </paragraph>
+                                    </td>
+                                    <td>
+                                        <paragraph>Solutions by business topics:</paragraph>
+                                        <paragraph>
+                                            <ul>
+                                                <li>
+                                                    <paragraph>
+                                                        <link object_remote_id="f21f7c41fd73c70814c46cb26b0851ed">Web
+                                                            publishing
+                                                        </link>
+                                                    </paragraph>
+                                                </li>
+                                                <li>
+                                                    <paragraph>
+                                                        <link object_remote_id="7dfe6d524e63a6759fd31db11a3e1490">
+                                                            Content management
+                                                        </link>
+                                                    </paragraph>
+                                                </li>
+                                                <li>
+                                                    <paragraph>Information integration
+                                                    </paragraph>
+                                                </li>
+                                                <li>
+                                                    <paragraph>Enterprise resource
+                                                    </paragraph>
+                                                </li>
+                                            </ul>
+                                        </paragraph>
+                                    </td>
+                                </tr>
+                            </table>
+                        </paragraph>
+                        <paragraph>
+                            <custom name="separator"/>
+                        </paragraph>
+                        <paragraph>
+                            <embed size="medium" align="center" object_remote_id="b703033b4165a4e5b13a5b8d36b02cd1"/>
+                        </paragraph>
+                        <paragraph>
+                            <embed size="medium" align="center" object_remote_id="f20f40a2f49aeec1ec40e9fb5d7cb86c"/>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="321"
+                                    ezremote:identifier="right_column" name="Right column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <embed class="itemized_sub_items" size="medium" align="center"
+                                   object_remote_id="f21f7c41fd73c70814c46cb26b0851ed"/>
+                        </paragraph>
+                        <paragraph>
+                            <embed class="itemized_sub_items" size="medium" align="center"
+                                   object_remote_id="7dfe6d524e63a6759fd31db11a3e1490"/>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="322"
+                                    ezremote:identifier="bottom_column" name="Bottom column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="323" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" name="Solutions" node-id="77"
+                                 remote-id="dbc2f3c8716c12f32c379dbf0b1cb133" sort-field="published" sort-order="1"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

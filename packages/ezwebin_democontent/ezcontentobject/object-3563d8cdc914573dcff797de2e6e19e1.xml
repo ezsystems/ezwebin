@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="180"
+                 name="The Mediterranean seen from Nice!" ezremote:section_id="1" ezremote:owner_id="14"
+                 ezremote:class_id="30" ezremote:published="Thu, 10 Mar 2011 16:01:48 GMT"
+                 ezremote:modified="Thu, 10 Mar 2011 16:07:55 GMT" remote_id="3563d8cdc914573dcff797de2e6e19e1"
+                 class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image"
+                 ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Thu, 10 Mar 2011 16:07:46 GMT"
+                          ezremote:modified="Thu, 10 Mar 2011 16:07:55 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="The Mediterranean seen from Nice!">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1045" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>The Mediterranean seen from Nice!</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1046"
+                                    ezremote:identifier="caption" name="Caption" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1047"
+                                    ezremote:identifier="image" name="Image" type="ezimage"
+                                    image-file-key="256b7cb03a357fa4060d90b8af7e7290" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1048" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="ae32173cedf3a5ec441e3afcadc4abcb"
+                                 name="The Mediterranean seen from Nice!" node-id="182"
+                                 remote-id="40d743025e4ec4d813bd864dad08e0cc" sort-field="published" sort-order="0"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

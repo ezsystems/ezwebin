@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/"
+                 xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="193"
+                 name="How to use eZ Publish" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16"
+                 ezremote:published="Thu, 01 Nov 2007 09:11:44 GMT" ezremote:modified="Thu, 01 Nov 2007 10:55:52 GMT"
+                 remote_id="afad8dfca54311e15bfd241ef09da280" class_remote_id="c15b600eb9198b1924063b5a68758232"
+                 ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/"
+                           xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject"
+                          xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="1"
+                          ezremote:status="1" ezremote:created="Thu, 01 Nov 2007 10:54:59 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 10:55:51 GMT" initial_language="eng-GB">
+            <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB"
+                                         object_name="How to use eZ Publish">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1117"
+                                    ezremote:identifier="title" name="Title" type="ezstring">
+                    <text>How to use eZ Publish</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1118"
+                                    ezremote:identifier="short_title" name="Short title" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1119"
+                                    ezremote:identifier="author" name="Author" type="ezauthor">
+                    <ezauthor>
+                        <authors>
+                            <author id="0" name="Administrator User" email="nospam@ez.no"/>
+                        </authors>
+                    </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1120"
+                                    ezremote:identifier="intro" name="Summary" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>eZ Publish comes with a multitude of features out of the box, ensuring that you can
+                            quickly put your content online.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="1121"
+                                    ezremote:identifier="body" name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                            <ul>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                        <link anchor_name="eztoolbar" href="http://ez.no/ezpublish/use_ez_publish">
+                                            Publish content from your web browser
+                                        </link>
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                        <link anchor_name="openofficeimport"
+                                              href="http://ez.no/ezpublish/use_ez_publish">Publish content from word
+                                            processors
+                                        </link>
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                        <link anchor_name="contenttranslation"
+                                              href="http://ez.no/ezpublish/use_ez_publish">Translate your content
+                                        </link>
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                        <link anchor_name="multiupload" href="http://ez.no/ezpublish/use_ez_publish">
+                                            Upload multiple files at once
+                                        </link>
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                        <link anchor_name="picturegalleries"
+                                              href="http://ez.no/ezpublish/use_ez_publish">Picture galleries
+                                        </link>
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                        <link anchor_name="videopublishing"
+                                              href="http://ez.no/ezpublish/use_ez_publish">Video publishing
+                                        </link>
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                        <link anchor_name="web2.0" href="http://ez.no/ezpublish/use_ez_publish">Web 2.0
+                                            features
+                                        </link>
+                                    </paragraph>
+                                </li>
+                                <li>
+                                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                                        <link anchor_name="defaultsearch" href="http://ez.no/ezpublish/use_ez_publish">
+                                            Search
+                                        </link>
+                                    </paragraph>
+                                </li>
+                            </ul>
+                        </paragraph>
+                        <section>
+                            <section>
+                                <header>Publish content from your web browser</header>
+                                <paragraph>
+                                    <embed size="original" view="embed" custom:offset="0" custom:limit="5"
+                                           object_remote_id="ab7ed2ea1e71e7ec0479195fc0dc5440"/>
+                                </paragraph>
+                                <paragraph>With eZ Publish, you can publish content like articles, pictures and files
+                                    directly from your web browser, using the Website Toolbar.
+                                </paragraph>
+                                <paragraph>This toolbar appears when you log in and enables you to publish, move,
+                                    replace or translate any kind of content.
+                                </paragraph>
+                                <paragraph>The Online Editor is a WYSIWYG editor integrated into the website (no HTML
+                                    coding required), providing formatting functions similar to word processing
+                                    applications.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Publish content from your favourite word processor</header>
+                                <paragraph>
+                                    <embed size="original" view="embed" custom:offset="0" custom:limit="5"
+                                           object_remote_id="0df4432f360b63cc55331524bea095bc"/>
+                                </paragraph>
+                                <paragraph>Many content managers prefer working directly in Microsoft Word or Open
+                                    Office. The import / export feature enables you to create or edit site content in
+                                    your favorite word processor, even when you might not have Internet access.
+                                </paragraph>
+                                <paragraph>Afterwards, you can upload the document through either a WebDAV client or the
+                                    front-end of your site to generate or update articles, documentation pages and so
+                                    on.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Translate your content</header>
+                                <paragraph>
+                                    <embed size="original" view="embed" custom:offset="0" custom:limit="5"
+                                           object_remote_id="632542f33d621670300a843c2c3d7790"/>
+                                </paragraph>
+                                <paragraph>All content in eZ Publish can be translated to multiple languages. Having
+                                    only one website to administer is efficient and makes it easier to maintain a
+                                    consistent brand across languages and countries.
+                                </paragraph>
+                                <paragraph>An international corporation or organization can have one website with
+                                    content in several languages. When a visitor selects a language, the menus and
+                                    content are displayed accordingly. If you have not yet translated specific content,
+                                    it will be shown in the source language or not at all (depending on your
+                                    configuration).
+                                </paragraph>
+                                <paragraph>When you are editing content, you can choose to switch the language you are
+                                    currently editing or to translate from one language to another. Content in the
+                                    source language is shown when you are translating, to aid in the process. When
+                                    creating or updating content translations, you can also use the built-in content
+                                    “diff” functionality to see the added or removed text in the source language.
+                                </paragraph>
+                                <paragraph>Multiple, multilingual URLs can be created for each page. By default, you can
+                                    have an object called "Easy" with a URL "/easy" but also create a French translation
+                                    with a URL "/facile".
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Upload multiple files at once</header>
+                                <paragraph>
+                                    <embed size="original" view="embed" custom:offset="0" custom:limit="5"
+                                           object_remote_id="be4b68a49195b504f7854e38ee97c9e6"/>
+                                </paragraph>
+                                <paragraph>If you want to upload more than one document, picture or video at a time, eZ
+                                    Publish has multi-upload functionality.
+                                </paragraph>
+                                <paragraph>You simply select the content you want from your computer or from the server
+                                    where your content is stored. eZ Publish can detect the type of content uploaded and
+                                    creates the appropriate web pages.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Picture galleries</header>
+                                <paragraph>
+                                    <embed size="original" view="embed" custom:offset="0" custom:limit="5"
+                                           object_remote_id="9737ed22471ac3baf2dbbb45fcb3af5c"/>
+                                </paragraph>
+                                <paragraph>eZ Publish makes it easy to create picture galleries. With the multi-upload
+                                    functionality, you can add many pictures at once, then eZ Publish will scale, format
+                                    and resize the pictures automatically.
+                                </paragraph>
+                                <paragraph>You can then browse through the galleries and re-use images elsewhere in your
+                                    website.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Video publishing</header>
+                                <paragraph>
+                                    <embed size="original" view="embed" custom:offset="0" custom:limit="5"
+                                           object_remote_id="4cf0621be70d809727b8a3581343dee1"/>
+                                </paragraph>
+                                <paragraph>Basically, a video is another type of content you or users of your website
+                                    can publish. You can use eZ Publish to store and display any video format for web TV
+                                    functionality or video publishing similar to Youtube.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Web 2.0 features</header>
+                                <paragraph>
+                                    <embed size="original" view="embed" custom:offset="0" custom:limit="5"
+                                           object_remote_id="fad6a8133332373683847f76158e8719"/>
+                                </paragraph>
+                                <paragraph>Tag clouds, blogs, forums and polls are all built-in eZ Publish features.
+                                    Make your users contribute and build communities.
+                                </paragraph>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <header>Search</header>
+                                <paragraph>
+                                    <embed size="original" view="embed" custom:offset="0" custom:limit="5"
+                                           object_remote_id="2ff25f3949e9c4d49442170ca0726fea"/>
+                                </paragraph>
+                                <paragraph>To find any content on your eZ Publish site, you can use the integrated
+                                    search engine in eZ Publish. To add more functionality and scale high-loaded
+                                    websites,
+                                    <link href="http://ez.no/ezfind">eZ Find</link>
+                                    is an enterprise search extension for eZ Publish.
+                                </paragraph>
+                            </section>
+                        </section>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1122"
+                                    ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1123"
+                                    ezremote:identifier="image" name="Image" type="ezimage"
+                                    image-file-key="905e3a25f20f8a22b3bcd8fc9d2546e3" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1124"
+                                    ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1125"
+                                    ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1126"
+                                    ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1127" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1128"
+                                    ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                    <data-int>0</data-int>
+                    <data-float>0</data-float>
+                    <data-text></data-text>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="9f804eee139dcee343dbe4175d14654c"
+                                 name="How to use eZ Publish" node-id="195" remote-id="fd56d839df6e2b52055d4a62f4df7c3e"
+                                 sort-field="path" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

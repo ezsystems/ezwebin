@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="194"
+                 name="openoffice_import_large" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="30"
+                 ezremote:published="Tue, 15 Sep 2009 10:14:01 GMT" ezremote:modified="Tue, 15 Sep 2009 10:14:01 GMT"
+                 remote_id="0df4432f360b63cc55331524bea095bc" class_remote_id="f6df12aa74e36230eb675f364fccd25a"
+                 ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Tue, 15 Sep 2009 10:14:01 GMT"
+                          ezremote:modified="Tue, 15 Sep 2009 10:14:01 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="openoffice_import_large">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1129" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>openoffice_import_large</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1130"
+                                    ezremote:identifier="caption" name="Caption" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1131"
+                                    ezremote:identifier="image" name="Image" type="ezimage"
+                                    image-file-key="75303536312da506314487cb42a1cd42" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1132" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="fd56d839df6e2b52055d4a62f4df7c3e"
+                                 name="openoffice_import_large" node-id="196"
+                                 remote-id="ab2f2093f16c56ac2e61f40f25d2dbe0" sort-field="published" sort-order="0"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="174"
+                 name="Duis id tortor" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="24"
+                 ezremote:published="Thu, 01 Nov 2007 08:34:07 GMT" ezremote:modified="Thu, 01 Nov 2007 08:34:07 GMT"
+                 remote_id="e20a6ec858de6a28a7ba14c26164753a" class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
+                 ezremote:class_identifier="documentation_page" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 08:34:07 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:34:07 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Duis id tortor">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1021"
+                                    ezremote:identifier="title" name="Title" type="ezstring">
+                    <text>Duis id tortor</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1022" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Fusce iaculis. Duis id tortor sit amet quam interdum accumsan. Vestibulum imperdiet
+                            odio non nisl. Nulla in odio. Sed sed libero sed risus eleifend bibendum. Cras arcu tellus,
+                            congue ac, ornare eget, vulputate non, pede. Vivamus molestie purus ut orci. Integer congue
+                            aliquam purus. Fusce eu metus eu mauris imperdiet porta. Nam urna mi, consequat in, iaculis
+                            eget, tempor eu, elit. Fusce lorem. Sed nec velit sed augue malesuada blandit. Nullam quis
+                            elit id lorem adipiscing condimentum. Nullam aliquam justo nec urna. Integer eget libero.
+                            Sed in tellus non lorem iaculis consequat. Aenean at lorem dictum mi imperdiet consequat.
+                            Sed euismod sodales magna. Cras consectetuer pede ac massa porta lacinia.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1023" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1024"
+                                    ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="8b570ac03318b7e29eb5fd1bae15efde"
+                                 name="Duis id tortor" node-id="176" remote-id="2d3cf4fe8d439e16e0ed75ef947b5e3d"
+                                 sort-field="path" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

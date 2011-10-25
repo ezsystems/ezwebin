@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="219"
+                 name="Events" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="26"
+                 ezremote:published="Mon, 19 Mar 2007 12:00:43 GMT" ezremote:modified="Mon, 19 Mar 2007 12:00:43 GMT"
+                 remote_id="36a66a1bf73a17b098642b52c7b62c35" class_remote_id="99aec4e5682414517ed929ecd969439f"
+                 ezremote:class_identifier="multicalendar" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Mon, 19 Mar 2007 12:00:36 GMT"
+                          ezremote:modified="Mon, 19 Mar 2007 12:00:43 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Events">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1285" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>Events</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1286"
+                                    ezremote:identifier="description" name="Description" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1287"
+                                    ezremote:identifier="calendars" name="Calendars" type="ezobjectrelationlist">
+                    <related-objects>
+                        <relation-list/>
+                    </related-objects>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="e060ff40aa17eb21dc1e4595c9a5eb9a" name="Events"
+                                 node-id="221" remote-id="ae6afe955af19209125961b6c0d9a840" sort-field="path"
+                                 sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

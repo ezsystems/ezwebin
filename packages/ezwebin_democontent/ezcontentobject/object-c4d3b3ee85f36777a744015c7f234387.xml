@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="95"
+                 name="Knowledgebase" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="24"
+                 ezremote:published="Wed, 21 Mar 2007 06:50:37 GMT" ezremote:modified="Fri, 30 Mar 2007 12:46:58 GMT"
+                 remote_id="c4d3b3ee85f36777a744015c7f234387" class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
+                 ezremote:class_identifier="documentation_page" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Fri, 30 Mar 2007 12:46:47 GMT"
+                          ezremote:modified="Fri, 30 Mar 2007 12:46:57 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Knowledgebase">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="498" ezremote:identifier="title"
+                                    name="Title" type="ezstring">
+                    <text>Knowledgebase</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="499" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Mauris in est. Mauris fringilla egestas nisl. Vestibulum commodo tristique mi. Morbi
+                            congue. Aliquam erat volutpat. Donec pharetra. Maecenas at nibh. Proin adipiscing vehicula
+                            nisi. Aliquam interdum erat et urna. Integer quis felis gravida est bibendum iaculis. Etiam
+                            nec quam quis nisi euismod dictum. Proin ut diam ut metus condimentum posuere. Praesent id
+                            ligula vitae felis lacinia feugiat. Ut dictum hendrerit nunc. Cras magna nisl, auctor non,
+                            varius non, laoreet ac, orci. In pellentesque aliquam pede. Nam metus magna, porta ut,
+                            feugiat eget, consectetuer sit amet, elit. Vivamus ac orci vitae nunc facilisis consequat.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="500" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="501"
+                                    ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="0d55a3f510cc7cd9a7b8eb838f50ff5c"
+                                 name="Knowledgebase" node-id="97" remote-id="89ce8eed8fa06c4105fd612aa83d87d6"
+                                 sort-field="published" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/"
+                 xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="154" name="Partners"
+                 ezremote:section_id="6" ezremote:owner_id="14" ezremote:class_id="23"
+                 ezremote:published="Wed, 10 Jan 2007 11:27:00 GMT" ezremote:modified="Mon, 02 Apr 2007 07:36:05 GMT"
+                 remote_id="4ce71da8102ee02db016158cd06895ed" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4"
+                 ezremote:class_identifier="frontpage" ezremote:always_available="1" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/"
+                           xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject"
+                          xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="1"
+                          ezremote:status="1" ezremote:created="Mon, 02 Apr 2007 07:35:20 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 07:36:05 GMT" initial_language="eng-GB">
+            <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-GB"
+                                         object_name="Partners">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="877" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>Partners</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="878"
+                                    ezremote:identifier="billboard" name="Billboard" type="ezobjectrelation">
+                    <related-object-remote-id>55e6c9acf534ff2f3564290cb38ffddc</related-object-remote-id>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="879"
+                                    ezremote:identifier="left_column" name="Left column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="880"
+                                    ezremote:identifier="center_column" name="Center column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <table class="default" width="100%" border="0">
+                                <tr>
+                                    <td>
+                                        <paragraph>
+                                            <embed size="medium" align="center" custom:offset="0" custom:limit="5"
+                                                   object_remote_id="18ed8ae5378a8a1431fc5c8f88f0a86a"/>
+                                        </paragraph>
+                                    </td>
+                                    <td>
+                                        <paragraph>
+                                            <embed size="medium" align="center" custom:offset="0" custom:limit="5"
+                                                   object_remote_id="3f1c8e4d7736f54032138ea330ee461a"/>
+                                        </paragraph>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <paragraph>
+                                            <embed size="medium" align="center" custom:offset="0" custom:limit="5"
+                                                   object_remote_id="9e60cb050cfd8faf02af8fed62e37d94"/>
+                                        </paragraph>
+                                    </td>
+                                    <td>
+                                        <paragraph>
+                                            <embed size="medium" align="center" custom:offset="0" custom:limit="5"
+                                                   object_remote_id="96525aef27696fa39e69d43481ffc2b1"/>
+                                        </paragraph>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                            </table>
+                        </paragraph>
+                        <paragraph>
+                            <custom name="separator"/>
+                        </paragraph>
+                        <paragraph>
+                            <embed size="medium" align="center" custom:offset="0" custom:limit="5"
+                                   object_remote_id="cc72df346e00e35cc78d5c6b466a2c11"/>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="881"
+                                    ezremote:identifier="right_column" name="Right column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <embed class="vertically_listed_sub_items" size="medium" align="center" custom:offset="0"
+                                   custom:limit="5" object_remote_id="96525aef27696fa39e69d43481ffc2b1"/>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject"
+                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="882"
+                                    ezremote:identifier="bottom_column" name="Bottom column" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>
+                            <embed class="horizontally_listed_sub_items" size="medium" align="center" custom:offset="0"
+                                   custom:limit="5" object_remote_id="9e60cb050cfd8faf02af8fed62e37d94"/>
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="883" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" name="Partners" node-id="156"
+                                 remote-id="0c523dfd6b1eccbfb0d1bfe632ee7411" sort-field="published" sort-order="0"
+                                 priority="3"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="175"
+                 name="Curabitur lacinia" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="24"
+                 ezremote:published="Thu, 01 Nov 2007 08:34:07 GMT" ezremote:modified="Thu, 01 Nov 2007 08:34:07 GMT"
+                 remote_id="5a3d6806ccd2f6edd86f6219ddc51525" class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
+                 ezremote:class_identifier="documentation_page" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 08:34:07 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:34:07 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Curabitur lacinia">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1025"
+                                    ezremote:identifier="title" name="Title" type="ezstring">
+                    <text>Curabitur lacinia</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1026" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Mauris pede libero, accumsan vel, tristique eget, tempus sit amet, sapien. Fusce sed
+                            arcu. Pellentesque pharetra mattis velit. In nec eros. Praesent viverra metus ut tellus. In
+                            tellus elit, imperdiet at, tincidunt egestas, malesuada sed, nisl. Aliquam posuere mattis
+                            pede. Curabitur lacinia condimentum nunc. Phasellus mattis. Fusce ac pede. Ut in neque.
+                            Fusce adipiscing mi sit amet velit. Cras varius. Vivamus elementum dui id lectus.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1027" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1028"
+                                    ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="2d3cf4fe8d439e16e0ed75ef947b5e3d"
+                                 name="Curabitur lacinia" node-id="177" remote-id="49c9ad954328ab5f5a76d580873961a4"
+                                 sort-field="path" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

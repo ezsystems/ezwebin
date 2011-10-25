@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="100"
+                 name="Aliquam posuere" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="24"
+                 ezremote:published="Wed, 28 Mar 2007 11:40:07 GMT" ezremote:modified="Wed, 28 Mar 2007 11:40:07 GMT"
+                 remote_id="f6e9707b5c57b6559f71d1c208452586" class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
+                 ezremote:class_identifier="documentation_page" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Wed, 28 Mar 2007 11:40:07 GMT"
+                          ezremote:modified="Wed, 28 Mar 2007 11:40:07 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Aliquam posuere">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="518" ezremote:identifier="title"
+                                    name="Title" type="ezstring">
+                    <text>Aliquam posuere</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="519" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Nam at nulla id lectus vehicula sollicitudin. Nullam lobortis facilisis mi. In hac
+                            habitasse platea dictumst. Aliquam dignissim iaculis est. Mauris egestas. Phasellus at mi.
+                            Mauris pede libero, accumsan vel, tristique eget, tempus sit amet, sapien. Fusce sed arcu.
+                            Pellentesque pharetra mattis velit. In nec eros. Praesent viverra metus ut tellus. In tellus
+                            elit, imperdiet at, tincidunt egestas, malesuada sed, nisl. Aliquam posuere mattis pede.
+                            Curabitur lacinia condimentum nunc. Phasellus mattis. Fusce ac pede. Ut in neque. Fusce
+                            adipiscing mi sit amet velit. Cras varius. Vivamus elementum dui id lectus.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="520" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="521"
+                                    ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="036394ec8b160f0782bec2dda452d798"
+                                 name="Aliquam posuere" node-id="102" remote-id="78da6a4fae1c2eaabe1dbe7af818d970"
+                                 sort-field="path" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

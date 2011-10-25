@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="173"
+                 name="Fusce pulvinar" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="24"
+                 ezremote:published="Thu, 01 Nov 2007 08:34:06 GMT" ezremote:modified="Thu, 01 Nov 2007 08:34:06 GMT"
+                 remote_id="fa54ccddf28481b513b60c68911baef8" class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2"
+                 ezremote:class_identifier="documentation_page" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Thu, 01 Nov 2007 08:34:06 GMT"
+                          ezremote:modified="Thu, 01 Nov 2007 08:34:06 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Fusce pulvinar">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1017"
+                                    ezremote:identifier="title" name="Title" type="ezstring">
+                    <text>Fusce pulvinar</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1018" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Donec consectetuer sodales urna. Nam iaculis. Duis cursus nisl ut lorem. Vivamus
+                            pharetra pretium nulla. Mauris pharetra augue a dolor. Duis neque lorem, rhoncus nec, mattis
+                            id, dapibus vel, nisl. Quisque aliquam pellentesque leo. Ut in ante. Aliquam mollis, dolor
+                            eget malesuada euismod, tellus mi hendrerit dui, sit amet vestibulum neque massa ut mauris.
+                            Phasellus sed nisi. In eget odio nec tellus semper placerat. Fusce pulvinar malesuada nibh.
+                            Aliquam feugiat ligula ut nulla. Phasellus vitae felis in nulla gravida commodo. Cras magna
+                            justo, ultricies ut, euismod vitae, congue quis, quam. Mauris est purus, lobortis vitae,
+                            rutrum eu, dictum sed, mauris. In vehicula viverra dui. Curabitur id neque. Praesent
+                            facilisis. Mauris est.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1019" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1020"
+                                    ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="4329dcc6a8d441aa7253660512dfd5b6"
+                                 name="Fusce pulvinar" node-id="175" remote-id="f71191fcce35c83530cddde467a908b2"
+                                 sort-field="path" sort-order="1" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

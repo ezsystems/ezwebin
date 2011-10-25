@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="164"
+                 name="Neque orci malesuada felis" ezremote:section_id="6" ezremote:owner_id="14" ezremote:class_id="16"
+                 ezremote:published="Mon, 02 Apr 2007 07:35:08 GMT" ezremote:modified="Mon, 02 Apr 2007 07:39:24 GMT"
+                 remote_id="cc72df346e00e35cc78d5c6b466a2c11" class_remote_id="c15b600eb9198b1924063b5a68758232"
+                 ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Mon, 02 Apr 2007 07:39:11 GMT"
+                          ezremote:modified="Mon, 02 Apr 2007 07:39:23 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Neque orci malesuada felis">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="972" ezremote:identifier="title"
+                                    name="Title" type="ezstring">
+                    <text>Neque orci malesuada felis</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="973"
+                                    ezremote:identifier="short_title" name="Short title" type="ezstring">
+                    <text></text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="974"
+                                    ezremote:identifier="author" name="Author" type="ezauthor">
+                    <ezauthor>
+                        <authors>
+                            <author id="0" name="Administrator User" email="nospam@ez.no"/>
+                        </authors>
+                    </ezauthor>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="975" ezremote:identifier="intro"
+                                    name="Summary" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Cras facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                            fames ac turpis egestas. Duis sollicitudin eros id eros. Nunc convallis tristique est. Nam
+                            vel ligula. Sed augue. Aliquam erat volutpat. Maecenas vulputate facilisis velit. Cum sociis
+                            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras facilisis.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="976" ezremote:identifier="body"
+                                    name="Body" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Vivamus aliquet, pede vitae facilisis bibendum, neque orci malesuada felis, at
+                            bibendum est mi nec ipsum. Sed egestas blandit neque. Curabitur hendrerit dignissim justo.
+                            Aliquam erat volutpat. Phasellus sollicitudin, magna dictum placerat consequat, sem enim
+                            porttitor odio, vel tempor enim felis et justo. Duis sollicitudin eros id eros. Nunc
+                            convallis tristique est. Nam vel ligula. Sed augue. Aliquam erat volutpat.
+                        </paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="977"
+                                    ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+                    <value>0</value>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="978" ezremote:identifier="image"
+                                    name="Image" type="ezimage" image-file-key="dd95563a7ad4b7b04c79204bc6fc91b8"
+                                    alternative-text="Neque orci malesuada felis"/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="979"
+                                    ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+                        <paragraph>Neque orci malesuada</paragraph>
+                    </section>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="980"
+                                    ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+                    <date_time>Mon, 02 Apr 2007 07:33:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="981"
+                                    ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+                    <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="982" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="983"
+                                    ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+                    <data-int>0</data-int>
+                    <data-float>0</data-float>
+                    <data-text></data-text>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="b1a68df10cdf379cf78999c8012db679"
+                                 name="Neque orci malesuada felis" node-id="166"
+                                 remote-id="e9ee6724fffb012f918300de66af27e1" sort-field="path" sort-order="1"
+                                 priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="177"
+                 name="Ivo on eZ Tags" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="30"
+                 ezremote:published="Thu, 10 Mar 2011 16:01:42 GMT" ezremote:modified="Thu, 10 Mar 2011 16:06:50 GMT"
+                 remote_id="32709d6df489b5debc03caddec908363" class_remote_id="f6df12aa74e36230eb675f364fccd25a"
+                 ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-GB">
+    <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+        <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
+                          ezremote:created="Thu, 10 Mar 2011 16:06:44 GMT"
+                          ezremote:modified="Thu, 10 Mar 2011 16:06:50 GMT" initial_language="eng-GB">
+            <ezobject:object-translation language="eng-GB" object_name="Ivo on eZ Tags">
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1033" ezremote:identifier="name"
+                                    name="Name" type="ezstring">
+                    <text>Ivo on eZ Tags</text>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1034"
+                                    ezremote:identifier="caption" name="Caption" type="ezxmltext">
+                    <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/"
+                             xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
+                             xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+                </ezobject:attribute>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1035"
+                                    ezremote:identifier="image" name="Image" type="ezimage"
+                                    image-file-key="daf77f25ed9b3bc620691e9653417c46" alternative-text=""/>
+                <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1036" ezremote:identifier="tags"
+                                    name="Tags" type="ezkeyword">
+                    <keyword-string></keyword-string>
+                </ezobject:attribute>
+            </ezobject:object-translation>
+            <ezobject:node-assignment-list>
+                <node-assignment is-main-node="1" parent-node-remote-id="ae32173cedf3a5ec441e3afcadc4abcb"
+                                 name="Ivo on eZ Tags" node-id="179" remote-id="c6c32c884db955ea09338c90eee84746"
+                                 sort-field="published" sort-order="0" priority="0"/>
+            </ezobject:node-assignment-list>
+        </ezobject:version>
+    </ezobject:version-list>
+</ezremote:object>
