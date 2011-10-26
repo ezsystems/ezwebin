@@ -361,10 +361,12 @@
 {elseif and( is_set( $object ), is_set( $diff ), is_set( $oldVersion ), is_set( $newVersion ) )}
 {literal}
 <script type="text/javascript">
+//<![CDATA[
 function show( element, method )
 {
     document.getElementById( element ).className = method;
 }
+//]]>
 </script>
 {/literal}
 
@@ -375,7 +377,9 @@ function show( element, method )
 <div id="diffview">
 
 <script type="text/javascript">
+//<![CDATA[
 document.write('<div class="context-toolbar"><div class="block"><ul><li><a href="#" onclick="show(\'diffview\', \'previous\'); return false;">{'Old version'|i18n( 'design/ezwebin/content/history' )}</a></li><li><a href="#" onclick="show(\'diffview\', \'inlinechanges\'); return false;">{'Inline changes'|i18n( 'design/ezwebin/content/history' )}</a></li><li><a href="#" onclick="show(\'diffview\', \'blockchanges\'); return false;">{'Block changes'|i18n( 'design/ezwebin/content/history' )}</a></li><li><a href="#" onclick="show(\'diffview\', \'latest\'); return false;">{'New version'|i18n( 'design/ezwebin/content/history' )}</a></li></ul></div></div>');
+//]]>
 </script>
 
 {foreach $object.data_map as $attr}

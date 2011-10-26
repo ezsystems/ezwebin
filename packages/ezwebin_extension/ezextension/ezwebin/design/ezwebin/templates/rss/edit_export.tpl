@@ -205,13 +205,13 @@
 
 {literal}
 <script type="text/javascript">
-<!--
+//<![CDATA[
     window.onload=function()
     {
         document.getElementById('exportName').select();
         document.getElementById('exportName').focus();
     }
--->
+//]]>
 </script>
 {/literal}
 
