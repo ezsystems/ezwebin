@@ -1953,22 +1953,6 @@ class eZWebinInstaller extends eZSiteInstaller
                         'class_identifier' => 'image' 
                     ) 
                 ), 
-                'window_controls' => array( 
-                    'Source' => 'window_controls.tpl', 
-                    'MatchFile' => 'window_controls_user.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'navigation_part_identifier' => 'ezusernavigationpart' 
-                    ) 
-                ), 
-                'windows' => array( 
-                    'Source' => 'windows.tpl', 
-                    'MatchFile' => 'windows_user.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'navigation_part_identifier' => 'ezusernavigationpart' 
-                    ) 
-                ), 
                 'embed_image' => array( 
                     'Source' => 'content/view/embed.tpl', 
                     'MatchFile' => 'embed_image.tpl', 
