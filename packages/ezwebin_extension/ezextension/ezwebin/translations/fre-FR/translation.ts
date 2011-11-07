@@ -1092,7 +1092,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation type="unfinished">Choissisez l&apos;emplacement pour les objets OpenOffice.org
+        <translation>Choissisez l&apos;emplacement pour les objets OpenOffice.org
 
     Selectionnez l&apos;emplacement et cliquer sur le bouton %buttonname.
     Utilisez les éléments récents et les signets pour définir l&apos;emplacement est aussi possible.
