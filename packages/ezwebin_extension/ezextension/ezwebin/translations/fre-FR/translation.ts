@@ -466,7 +466,7 @@
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -507,7 +507,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation>Editer &lt;%object_name&gt; (%class_name)</translation>
+        <translation>Modifier &lt;%object_name&gt; (%class_name)</translation>
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
@@ -570,7 +570,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>New draft</source>
@@ -636,7 +636,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -755,7 +755,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     </message>
     <message>
         <source>Edit the contents of version #%version_number.</source>
-        <translation>Editer le contenu de la version #%version_number.</translation>
+        <translation>Modifier le contenu de la version #%version_number.</translation>
     </message>
     <message>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
@@ -975,7 +975,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     <name>design/ezwebin/edit/comment</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Editer %1 - %2</translation>
+        <translation>Modifier %1 - %2</translation>
     </message>
     <message>
         <source>Send for publishing</source>
@@ -990,7 +990,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     <name>design/ezwebin/edit/file</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Editer %1 - %2</translation>
+        <translation>Modifier %1 - %2</translation>
     </message>
     <message>
         <source>Send for publishing</source>
@@ -1005,7 +1005,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     <name>design/ezwebin/edit/forum_reply</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Editer %1 - %2</translation>
+        <translation>Modifier %1 - %2</translation>
     </message>
     <message>
         <source>Send for publishing</source>
@@ -1020,7 +1020,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     <name>design/ezwebin/edit/forum_topic</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Editer %1 - %2</translation>
+        <translation>Modifier %1 - %2</translation>
     </message>
     <message>
         <source>Send for publishing</source>
@@ -1094,7 +1094,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     Click on placement names to change the browse listing.</source>
         <translation>Choissisez l&apos;emplacement pour les objets OpenOffice.org
 
-    Selectionnez l&apos;emplacement et cliquer sur le bouton %buttonname.
+    Sélectionnez l&apos;emplacement et cliquer sur le bouton %buttonname.
     Utilisez les éléments récents et les signets pour définir l&apos;emplacement est aussi possible.
     Cliquez sur les noms des emplacements pour modifier la liste Parcourir.</translation>
     </message>
@@ -1367,7 +1367,7 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
 </context>
 <context>
@@ -1410,7 +1410,7 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -1788,7 +1788,7 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <name>design/ezwebin/rss/edit_export</name>
     <message>
         <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
-        <translation>Editer &lt;%rss_export_name&gt; [RSS Export]</translation>
+        <translation>Modifier &lt;%rss_export_name&gt; [RSS Export]</translation>
     </message>
     <message>
         <source>Invalid input</source>
@@ -1987,7 +1987,7 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <name>design/ezwebin/rss/edit_import</name>
     <message>
         <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
-        <translation>Editer &lt;%rss_import_name&gt; [RSS Import]</translation>
+        <translation>Modifier &lt;%rss_import_name&gt; [RSS Import]</translation>
     </message>
     <message>
         <source>Name</source>
@@ -2146,11 +2146,11 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS export.</source>
-        <translation>Editer l&apos;export RSS &lt;%name&gt;.</translation>
+        <translation>Modifier l&apos;export RSS &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS export list is empty.</source>
@@ -2182,7 +2182,7 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS import.</source>
-        <translation>Editer l&apos;import RSS &lt;%name&gt;.</translation>
+        <translation>Modifier l&apos;import RSS &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS import list is empty.</source>
@@ -2600,7 +2600,7 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>Email</source>
-        <translation>email</translation>
+        <translation>Courriel</translation>
     </message>
     <message>
         <source>Company</source>
@@ -2720,7 +2720,7 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>Courriel</translation>
     </message>
     <message>
         <source>Name</source>
@@ -2744,7 +2744,7 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>Edit profile</source>
-        <translation>Editer le profil</translation>
+        <translation>Modifier le profil</translation>
     </message>
     <message>
         <source>Change password</source>
@@ -2783,7 +2783,7 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>Courriel</translation>
     </message>
     <message>
         <source>Generate new password</source>
@@ -2926,7 +2926,7 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
-        <translation>Votre compte a été créé avec succès. Un email vous sera envoyé à l&apos;adresse spécifiée. Suivez les instructions de cet email pour activer votre compte.</translation>
+        <translation>Votre compte a été créé avec succès. Un courriel vous sera envoyé à l&apos;adresse spécifiée. Suivez les instructions de ce courriel pour activer votre compte.</translation>
     </message>
     <message>
         <source>Your account was successfully created.</source>
@@ -3027,15 +3027,15 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation>Votre compte est désormais actif.</translation>
+        <translation>Votre compte est désormais activé.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation>Votre compte est déjà actif.</translation>
+        <translation>Votre compte est déjà activé.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Désolé, la clef fournit n&apos;est pas une clef valide. Le compte n&apos;a pas été activé.</translation>
+        <translation>Désolé, la clé transmise est invalide. Le compte n&apos;a pas été activé.</translation>
     </message>
 </context>
 </TS>
