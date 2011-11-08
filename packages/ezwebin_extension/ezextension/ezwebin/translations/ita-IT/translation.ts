@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished">Anno</translation>
+        <translation>Anno</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished">Mese</translation>
+        <translation>Mese</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished">Giorno</translation>
+        <translation>Giorno</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished">Ora</translation>
+        <translation>Ora</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished">Minuto</translation>
+        <translation>Minuto</translation>
     </message>
 </context>
 <context>
@@ -340,7 +340,7 @@
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra il calendario per selezionare una data.</translation>
     </message>
 </context>
 <context>
@@ -511,23 +511,23 @@
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pubblica i contenuti delle bozze in fase di modifica. Le bozze diverranno la versione pubblicata dell&apos;oggetto.</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Registra i contenuti della bozza in fase di modifica e continua a modificarla. Usa questo pulsante per salvare periodicamente il tuo lavoro mentre stai modificando.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Registra la bozza ed esci</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>Registra la bozza in fase di modifica ed esci dalla modalità di modifica. Usa questo pulsante per uscire dal tuo lavoro e tornare più tardi per continuare.</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation type="unfinished"></translation>
+        <translation>Annulla la bozza che viene modificata. Ciò eliminerà anche le traduzioni che appartengono alla bozza (qualora ve ne siano).</translation>
     </message>
 </context>
 <context>
@@ -1660,7 +1660,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gli elementi contengono più nodi del numero massimo possibile per l&apos;eliminazione del sotto-albero e non verranno eliminati. Puoi eliminare questo sotto-albero usando lo script ezsubtreeremove.php.</translation>
     </message>
 </context>
 <context>
@@ -3017,26 +3017,26 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>Secondo</translation>
     </message>
 </context>
 <context>
     <name>design/standard/user</name>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il tuo indirizzo email è stato confermato. Un amministratore deve approvare la tua richiesta di registrazione, prima che il tuo login diventi valido.</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="unfinished">Il tuo account ora è attivo.</translation>
+        <translation>Il tuo account ora è attivo.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="unfinished">Il tuo account è già attivo.</translation>
+        <translation>Il tuo account è già attivo.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished">Spiacenti, la chiave inserita non è valida. L&apos;account non è stato attivato.</translation>
+        <translation>Spiacenti, la chiave inserita non è valida. L&apos;account non è stato attivato.</translation>
     </message>
 </context>
 </TS>
