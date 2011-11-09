@@ -1,64 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="1.9-0"
+<package version="1.5-0rc2"
          development="false"
          install_type="install">
-    <name>ezwebin_democontent_clean</name>
-    <summary></summary>
-    <description></description>
-    <vendor>eZ systems</vendor>
-    <type value="contentobject"/>
-    <ezpublish>
-        <version>4.6.0</version>
-        <named-version>4.6</named-version>
-    </ezpublish>
-    <maintainers>
-        <maintainer>
-            <name>Administrator User</name>
-            <email>nospam@ez.no</email>
-            <role>lead</role>
-        </maintainer>
-    </maintainers>
-    <packaging>
-        <timestamp>1163689610</timestamp>
-        <host>packages.ez.no</host>
-    </packaging>
-    <documents>
-        <document mime-type="text/plain"
-                  name="LICENCE"/>
-    </documents>
-    <changelog>
-        <entry timestamp="1163689610"
-               person="Administrator User"
-               email="nospam@ez.no"
-               release="1">
-            <change>Creation of package.</change>
-        </entry>
-    </changelog>
-    <simple-files>
-        <simple-file key="a5c4e45a977a01b2d8af166fa9fefaab"
-                     original-path="var/storage/images/media/images/original_outlined_ez_logo-mini/224-1-eng-GB/original_outlined_ez_logo-mini.gif"
-                     package-path="simplefiles/fa39f4b4.gif"/>
-    </simple-files>
-    <version>
-        <number>1.9</number>
-        <release>0</release>
-    </version>
-    <licence>GPL</licence>
-    <state>stable</state>
-    <dependencies>
-        <provides/>
-        <requires/>
-        <obsoletes/>
-        <conflicts/>
-    </dependencies>
-    <install>
-        <item type="ezcontentobject"
-              filename="contentobjects"
-              sub-directory="ezcontentobject"/>
-    </install>
-    <uninstall>
-        <item type="ezcontentobject"
-              filename="contentobjects"
-              sub-directory="ezcontentobject"/>
-    </uninstall>
+  <name>ezwebin_democontent_clean</name>
+  <summary></summary>
+  <description></description>
+  <vendor>eZ systems</vendor>
+  <type value="contentobject" />
+  <ezpublish>
+    <version>4.2.0rc2</version>
+    <named-version>4.2</named-version>
+  </ezpublish>
+  <maintainers>
+    <maintainer>
+      <name>Administrator User</name>
+      <email>nospam@ez.no</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <packaging>
+    <timestamp>1163689610</timestamp>
+    <host>packages.ez.no</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain"
+              name="LICENCE" />
+  </documents>
+  <changelog>
+    <entry timestamp="1163689610"
+           person="Administrator User"
+           email="nospam@ez.no"
+           release="1">
+      <change>Creation of package.</change>
+    </entry>
+  </changelog>
+  <simple-files>
+    <simple-file key="a5c4e45a977a01b2d8af166fa9fefaab" original-path="var/storage/images/media/images/original_outlined_ez_logo-mini/224-1-eng-GB/original_outlined_ez_logo-mini.gif" package-path="simplefiles/fa39f4b4.gif"/>
+  </simple-files>
+  <version>
+    <number>1.5</number>
+    <release>0rc2</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides />
+    <requires />
+    <obsoletes />
+    <conflicts />
+  </dependencies>
+  <install>
+    <item type="ezcontentobject"
+          filename="contentobjects"
+          sub-directory="ezcontentobject" />
+  </install>
+  <uninstall>
+    <item type="ezcontentobject"
+          filename="contentobjects"
+          sub-directory="ezcontentobject" />
+  </uninstall>
 </package>

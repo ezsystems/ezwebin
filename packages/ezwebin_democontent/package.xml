@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package version="1.9-0" development="false" install_type="install">
+<package version="3.5.2" development="false" install_type="install">
     <name>ezwebin_democontent</name>
     <summary>Products, Solutions, Training, Support, Getting started, eZ Publish Enterprise, Partners, Community,
         Company
@@ -18,19 +18,19 @@
     <vendor>eZ systems</vendor>
     <type value="contentobject"/>
     <ezpublish>
-        <version>4.6.0</version>
-        <named-version>4.6</named-version>
+        <version>4.5.0</version>
+        <named-version>4.5</named-version>
     </ezpublish>
     <maintainers>
         <maintainer>
             <name>Administrator User</name>
-            <email>nospam@ez.no</email>
+            <email>bk@ez.no</email>
             <role>lead</role>
         </maintainer>
     </maintainers>
     <packaging>
         <timestamp>1300177857</timestamp>
-        <host>packages.ez.no</host>
+        <host>localhost</host>
     </packaging>
     <documents>
         <document mime-type="text/plain" name="LICENCE"/>
@@ -268,7 +268,7 @@
                      package-path="simplefiles/7ddd3112.png"/>
     </simple-files>
     <version>
-        <number>1.9</number>
+        <number>1.8</number>
         <release>0</release>
     </version>
     <licence>GPL</licence>
