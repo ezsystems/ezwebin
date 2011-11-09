@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="1.5-0rc2"
+<package version="1.9-0"
          development="false"
          install_type="install">
   <name>ezwebin_democontent_clean</name>
@@ -8,8 +8,8 @@
   <vendor>eZ systems</vendor>
   <type value="contentobject" />
   <ezpublish>
-    <version>4.2.0rc2</version>
-    <named-version>4.2</named-version>
+    <version>4.6.0</version>
+    <named-version>4.6</named-version>
   </ezpublish>
   <maintainers>
     <maintainer>
@@ -38,8 +38,8 @@
     <simple-file key="a5c4e45a977a01b2d8af166fa9fefaab" original-path="var/storage/images/media/images/original_outlined_ez_logo-mini/224-1-eng-GB/original_outlined_ez_logo-mini.gif" package-path="simplefiles/fa39f4b4.gif"/>
   </simple-files>
   <version>
-    <number>1.5</number>
-    <release>0rc2</release>
+    <number>1.9</number>
+    <release>0</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>
