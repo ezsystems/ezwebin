@@ -5,7 +5,7 @@
 <div class="content-draft">
 
 <script type="text/javascript">
-<!--
+//<![CDATA[
 {literal}
 function checkAll()
 {
@@ -41,7 +41,7 @@ function checkAll()
      }
 }
 {/literal}
-//-->
+//]]>
 </script>
 {def $page_limit=30
      $list_count=fetch('content','draft_count')}

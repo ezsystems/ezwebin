@@ -69,12 +69,12 @@
 
 {literal}
 <script type="text/javascript">
-<!--
+//<![CDATA[
     function disableButtons()
     {
         document.getElementById( 'PublishButton' ).disabled = true;
         document.getElementById( 'CancelButton' ).disabled = true;
     }
--->
+//]]>
 </script>
 {/literal}

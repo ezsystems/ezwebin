@@ -27,6 +27,7 @@
 
     {literal}
     <script type="text/javascript">
+    //<![CDATA[
         function onErrorHandler(sender, args) { };
 
         function onLoadHandler(sender, args) { };
@@ -36,6 +37,7 @@
             slPlugin.width = sender.content.actualWidth;
             slPlugin.height = sender.content.actualHeight; 
         };
+    //]]>
     </script>
     {/literal}
 

@@ -3,7 +3,9 @@
     {switch name=mediaType match=$attribute.contentclass_attribute.data_text1}
     {case match=flash}
     <script type="text/javascript">
+    //<![CDATA[
         insertMedia( '<object type="application/x-shockwave-flash" data={concat("content/download/",$attribute.contentobject_id,"/",$attribute.content.contentobject_attribute_id,"/",$attribute.content.original_filename)|ezurl} {if $attribute.content.width|gt( 0 )}width="{$attribute.content.width}"{/if} {if $attribute.content.height|gt( 0 )}height="{$attribute.content.height}"{/if}>', '<param name="movie" value={concat("content/download/",$attribute.contentobject_id,"/",$attribute.content.contentobject_attribute_id,"/",$attribute.content.original_filename)|ezurl} />', '<param name="loop" value="{if $attribute.content.is_loop}true{/if}" />', '<param name="play" value="{if $attribute.content.is_autoplay}true{/if}" />', '<param name="quality" value="{$attribute.content.quality}" />', '<p>No <a href="http://www.macromedia.com/go/getflashplayer">Flash player<\/a> avaliable!<\/p>', '<\/object>' );
+    //]]>
     </script>
     <noscript>
     <object type="application/x-shockwave-flash" data={concat("content/download/",$attribute.contentobject_id,"/",$attribute.content.contentobject_attribute_id,"/",$attribute.content.original_filename)|ezurl} {if $attribute.content.width|gt( 0 )}width="{$attribute.content.width}"{/if} {if $attribute.content.height|gt( 0 )}height="{$attribute.content.height}"{/if}>
@@ -72,8 +74,10 @@
     {case match=silverlight}
     {literal}
     <script type="text/javascript">
+    //<![CDATA[
         function onErrorHandler(sender, args) { }
         function onResizeHandler(sender, args) { }
+    //]]>
     </script>
     {/literal}
     <div id="silverlightControlHost">

@@ -81,7 +81,7 @@
 {* if is_set( $content_attributes_grouped_data_map[1] ) *}
 {ezscript_require(array( 'ezjsc::jquery' ) )}
 <script type="text/javascript">
-<!--
+//<![CDATA[
 {literal}
 
 jQuery(function( $ )
@@ -106,7 +106,7 @@ jQuery(function( $ )
 });
 
 {/literal}
--->
+//]]>
 </script>
 {* /if *}
 {/run-once}
