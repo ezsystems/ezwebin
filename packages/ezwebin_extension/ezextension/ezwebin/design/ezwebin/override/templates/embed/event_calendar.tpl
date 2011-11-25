@@ -52,11 +52,23 @@
                     array( 'event/from_time', 'between', array( sum($first_ts,1), sub($last_ts,1)  )),
                     array( 'event/to_time', 'between', array( sum($first_ts,1), sub($last_ts,1) )) )
                 ))
+     $events_range=fetch( 'content', 'list', hash(
+            'parent_node_id', $event_node_id,
+            'sort_by', array( 'attribute', true(), 'event/from_time'),
+            'class_filter_type',  'include',
+            'class_filter_array', array( 'event' ),
+            'main_node_only', true(),
+             'attribute_filter',
+            array( 'and',
+                    array( 'event/from_time', '<', sum($first_ts,1) ),
+                    array( 'event/to_time', '>', sub($last_ts,1) ) )
+                ))
 
     $url_reload=concat( $event_node.url_alias, "/(day)/", $temp_today, "/(month)/", $temp_month, "/(year)/", $temp_year, "/offset/2")
     $url_back=concat( $event_node.url_alias,  "/(month)/", sub($temp_month, 1), "/(year)/", $temp_year)
     $url_forward=concat( $event_node.url_alias, "/(month)/", sum($temp_month, 1), "/(year)/", $temp_year)
 }
+{set $events = $events_range|merge($events)}
 
 {if eq($temp_month, 1)}
     {set $url_back=concat( $event_node.url_alias,"/(month)/", "12", "/(year)/", sub($temp_year, 1))}
@@ -108,7 +120,13 @@
 </thead>
 <tbody>
 
-{def $counter=1 $col_counter=1 $css_col_class='' $col_end=0}
+{if is_unset( $counter )}
+    {def $counter=1}
+{else}
+    {set $counter=1}
+{/if}
+
+{def $col_counter=1 $css_col_class='' $col_end=0}
 {while le( $counter, $days )}
     {set $dayofweek     = makedate( $temp_month, $counter, $temp_year )|datetime( custom, '%w' )
          $css_col_class = ''
