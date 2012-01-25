@@ -24,7 +24,11 @@
 <h2>{"Document is now imported"|i18n("design/ezwebin/ezodf/import")}</h2>
 <ul>
   <li>{"The object was imported as: %class_name"|i18n('design/ezwebin/ezodf/import','', hash( '%class_name', $class_identifier ) )}</li>
-  <li>{"Document imported as"|i18n("design/ezwebin/ezodf/import")} <a href={$url_alias|ezurl}>{$node_name}</a>.</li>
+  {if $published}
+  <li>{"Document imported as"|i18n("extension/ezodf")} <a href={$url_alias|ezurl}>{$node_name|wash}</a>.</li>
+  {else}
+  <li>{"The imported document is waiting for an approbation to be published."|i18n( "extension/ezodf" )}</li>
+  {/if}
   <li>{"The images are placed in the media and can be re-used."|i18n("design/ezwebin/ezodf/import")}</li>
   <li><a href={"/ezodf/import"|ezurl}>{"Import another document"|i18n("design/ezwebin/ezodf/import")}</a></li>
 </ul>
