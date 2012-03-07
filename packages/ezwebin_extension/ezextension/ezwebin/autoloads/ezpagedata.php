@@ -155,7 +155,7 @@ class eZPageData
                 {
                    $currentNodeId = (int) $moduleResult['node_id'];
                 }
-                else if ( isset( $moduleResult['path'] ) && isset( $moduleResult['path'][count( $moduleResult['path'] ) - 1]['node_id'] ) )
+                else if ( isset( $moduleResult['path'], $moduleResult['path'][count( $moduleResult['path'] ) - 1]['node_id'] ) )
                 {
                    $currentNodeId = (int) $moduleResult['path'][count( $moduleResult['path'] ) - 1]['node_id'];
                 }
