@@ -51,7 +51,7 @@
 </div>
 
 <p>
-    Copyright &copy; 1999-2011 <a href="http://ez.no/">eZ Systems AS</a>, with portions copyright by other parties. A complete list of all contributors and third-party
+    Copyright &copy; 1999-2012 <a href="http://ez.no/">eZ Systems AS</a>, with portions copyright by other parties. A complete list of all contributors and third-party
     software follows.
 </p>
 
