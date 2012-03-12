@@ -2,7 +2,7 @@
 //
 // Created on: <21-Oct-2006 11:26:42 jkn>
 //
-// Copyright (C) 1999-2011 eZ Systems AS. All rights reserved.
+// Copyright (C) 1999-2012 eZ Systems AS. All rights reserved.
 //
 // This source file is part of the eZ publish (tm) Open Source Content
 // Management System.
