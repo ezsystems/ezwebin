@@ -3042,11 +3042,11 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <name>extension/ezodf</name>
     <message>
         <source>Document imported as</source>
-        <translation type="unfinished">Document importé en tant que</translation>
+        <translation>Document importé en tant que</translation>
     </message>
     <message>
         <source>The imported document is waiting for an approbation to be published.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le document importé est en attente d&apos;une approbation pour être publié.</translation>
     </message>
 </context>
 </TS>
