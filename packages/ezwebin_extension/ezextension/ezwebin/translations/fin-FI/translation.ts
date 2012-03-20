@@ -1131,7 +1131,7 @@ Parametrit ovat linkitettynä alku- ja loppumerkkeihin</translation>
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Dokumentti on tuotu nimellä</translation>
+        <translation type="obsolete">Dokumentti on tuotu nimellä</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -3034,6 +3034,17 @@ Nappi</translation>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">Anteeksi, annettu avain ei ollu kelvollinen. Tiliä ei aktivoitu.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished">Dokumentti on tuotu nimellä</translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

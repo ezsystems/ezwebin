@@ -1138,7 +1138,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Document importé en tant que</translation>
+        <translation type="obsolete">Document importé en tant que</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -3036,6 +3036,17 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation>Désolé, la clé transmise est invalide. Le compte n&apos;a pas été activé.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished">Document importé en tant que</translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

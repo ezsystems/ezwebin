@@ -1139,7 +1139,7 @@
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Documento importado como</translation>
+        <translation type="obsolete">Documento importado como</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -3039,6 +3039,17 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">Desculpa, a chave submetida não é válida. A conta não foi ativada.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished">Documento importado como</translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

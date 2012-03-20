@@ -1129,7 +1129,7 @@
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Dokument importeret som</translation>
+        <translation type="obsolete">Dokument importeret som</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -3026,6 +3026,17 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">Beklager, aktiveringsnøglen var ikke gyldig. Kontoen blev ikke aktiveret.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished">Dokument importeret som</translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

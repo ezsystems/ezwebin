@@ -1138,7 +1138,7 @@
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Document importat com</translation>
+        <translation type="obsolete">Document importat com</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -3038,6 +3038,17 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">Ho sentim, la clau subministrada no és vàlida. El compte no s&apos;ha activat.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished">Document importat com</translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

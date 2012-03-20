@@ -1121,7 +1121,7 @@
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>文档被导入为</translation>
+        <translation type="obsolete">文档被导入为</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -3018,6 +3018,17 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">抱歉，您发送的key不是一个合法的key。帐号没有被激活。</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished">文档被导入为</translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

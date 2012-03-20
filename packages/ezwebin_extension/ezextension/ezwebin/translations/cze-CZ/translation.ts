@@ -1129,7 +1129,7 @@
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Dokument importován jako</translation>
+        <translation type="obsolete">Dokument importován jako</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -3026,6 +3026,17 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">Lituji, ale klíč není platný. Uživatelský účet nebude aktivován.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished">Dokument importován jako</translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

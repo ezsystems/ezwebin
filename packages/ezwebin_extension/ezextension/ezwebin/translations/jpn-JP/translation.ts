@@ -1138,7 +1138,7 @@
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>ドキュメントは次の名前でインポートされました: </translation>
+        <translation type="obsolete">ドキュメントは次の名前でインポートされました: </translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -3037,6 +3037,17 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation type="unfinished">パスワードが無効なためアカウントを有効に出来ません。</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished">ドキュメントは次の名前でインポートされました: </translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
