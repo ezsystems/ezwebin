@@ -2193,7 +2193,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Remove selected RSS imports.</source>
-        <translation>Remover as importações RSS selecionadas.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>New import</source>
