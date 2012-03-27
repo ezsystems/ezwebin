@@ -5,38 +5,38 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished">Ano</translation>
+        <translation>Ano</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished">Mês</translation>
+        <translation>Mês</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished">Dia</translation>
+        <translation>Dia</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished">Hora</translation>
+        <translation>Hora</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished">Minuto</translation>
+        <translation>Minuto</translation>
     </message>
 </context>
 <context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>não traduzível</translation>
     </message>
     <message>
         <source>required</source>
-        <translation type="unfinished"></translation>
+        <translation>obrigatório</translation>
     </message>
     <message>
         <source>information collector</source>
-        <translation type="unfinished"></translation>
+        <translation>coletor de informação</translation>
     </message>
 </context>
 <context>
@@ -173,11 +173,11 @@
     <name>design/ezwebin/collectedinfomail/feedback</name>
     <message>
         <source>Feedback from %1</source>
-        <translation type="unfinished">Feedback de %1</translation>
+        <translation>Feedback de %1</translation>
     </message>
     <message>
         <source>The following feedback was collected</source>
-        <translation type="unfinished">O seguinte feedback foi colectado</translation>
+        <translation>O seguinte feedback foi colectado</translation>
     </message>
 </context>
 <context>
@@ -340,7 +340,7 @@
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar calendário da data selecionada.</translation>
     </message>
 </context>
 <context>
@@ -507,27 +507,27 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar &lt;%object_name&gt; (%class_name)</translation>
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Publicar os conteúdos do rascunho que está sendo editado. O rascunho se tornará a versão publicada do objeto.</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Armazenar os conteúdos do rascunho que está sendo editado e continuar editando. Utilize este botão periodicamente para salvar seu trabalho enquanto estiver editando.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Armazenar rascunho e sair</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>Armazenar o rascunho que está sendo editado e sair do modo de edição. Utilize quando você precisa sair de seu trabalho e retornar mais tarde para continuar.</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation type="unfinished"></translation>
+        <translation>Descartar o rascunho que está sendo editado. Isto irá também remover as traduções que pertencem ao rascunho (se alguma)</translation>
     </message>
 </context>
 <context>
@@ -1196,7 +1196,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished"></translation>
+        <translation>Conteúdo relacionado</translation>
     </message>
 </context>
 <context>
@@ -1290,7 +1290,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Show All Events..</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar Todos Eventos..</translation>
     </message>
 </context>
 <context>
@@ -1440,7 +1440,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Forum</source>
-        <translation type="unfinished"></translation>
+        <translation>Fórum</translation>
     </message>
 </context>
 <context>
@@ -1462,7 +1462,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished"></translation>
+        <translation>Conteúdo relacionado</translation>
     </message>
 </context>
 <context>
@@ -1522,7 +1522,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Tags:</source>
-        <translation type="unfinished">Tags:</translation>
+        <translation>Tags:</translation>
     </message>
 </context>
 <context>
@@ -1662,7 +1662,7 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
-        <translation type="unfinished"></translation>
+        <translation>Os itens possuem mais que o máximo possível de nós para remoção de subárvore e não serão removidos. Você pode remover esta subárvore utilizando o script ezsubtreeremove.php.</translation>
     </message>
 </context>
 <context>
@@ -1780,428 +1780,428 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     <name>design/ezwebin/parts/website_toolbar</name>
     <message>
         <source>Remove node RSS/ATOM feed</source>
-        <translation type="unfinished"></translation>
+        <translation>Remover nó de feed RSS/ATOM</translation>
     </message>
     <message>
         <source>Create node RSS/ATOM feed</source>
-        <translation type="unfinished"></translation>
+        <translation>Criar nó de feed RSS/ATOM</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/edit_export</name>
     <message>
         <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar &lt;%rss_export_name&gt; [Exportação RSS]</translation>
     </message>
     <message>
         <source>Invalid input</source>
-        <translation type="unfinished"></translation>
+        <translation>Entrada inválida</translation>
     </message>
     <message>
         <source>If RSS Export is Active then a valid Access URL is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se a Exportação de RSS está ativa então uma URL de acesso válida é necessária.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nome</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome da exportação de RSS. Este nome é utilizado apenas na Interface Administrativa, para diferenciar exportações.</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Descrição</translation>
+        <translation>Descrição</translation>
     </message>
     <message>
         <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este campo para escrever um texto explicando o que os usuários esperam da exportação RSS.</translation>
     </message>
     <message>
         <source>Site URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL do site</translation>
     </message>
     <message>
         <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este campo para preencher uma URL base para seu site. Isto é utilizado para produzir as URLs na exportação, composta pela URL do site ( ex: &quot;http://www.example.com/index.php&quot;) e o caminho do objeto (ex: &quot;/articles/my_article&quot;). A URL do site depende do seu servidor web e da configuração do eZ publish.</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
-        <translation type="unfinished"></translation>
+        <translation>Deixe este campo vazio se você deseja que seu sistema identifique automaticamente a URL do seu site a partir da URL que o feed é acessado</translation>
     </message>
     <message>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Imagem</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Procurar</translation>
+        <translation>Procurar</translation>
     </message>
     <message>
         <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique neste botão para selecionar uma imagem para a exportação RSS. Note que as imagens apenas funcionam com a versão de RSS 2.0</translation>
     </message>
     <message>
         <source>Remove image</source>
-        <translation type="unfinished"></translation>
+        <translation>Remover imagem</translation>
     </message>
     <message>
         <source>Click to remove image from RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique para remover a imagem da exportação RSS.</translation>
     </message>
     <message>
         <source>RSS version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versão RSS</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize o menu do tipo drop-down para selecionar a versão RSS para utilizar na exportação. Você deve selecionar RSS 2.0 para ser possível exportar a imagem selecionada acima.</translation>
     </message>
     <message>
         <source>Number of objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Número de objetos</translation>
     </message>
     <message>
         <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este drop-down para selecionar o número máximo de objetos incluídos no feed RSS.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativo</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este checkbox para controlar se a exportação RSS está ativa ou não. Uma exportação inativa ão será atualizada automaticamente.</translation>
     </message>
     <message>
         <source>Main node only</source>
-        <translation type="unfinished"></translation>
+        <translation>Apenas nó principal</translation>
     </message>
     <message>
         <source>Check if you want to only feed the object from the main node.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecione se você deseja alimentar o objeto a partir do nó principal.</translation>
     </message>
     <message>
         <source>Access URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL de acesso</translation>
     </message>
     <message>
         <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este campo para definir a URL onde a exportação RSS deve ficar disponível. Note que &quot;rss/feed/&quot; será inserido na URL real.</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonte</translation>
     </message>
     <message>
         <source>Source path</source>
-        <translation type="unfinished"></translation>
+        <translation>Caminho da fonte</translation>
     </message>
     <message>
         <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique no botão para selecionar o nó fonte para a fonte da exportação RSS. Objetos do tipo selecionado no drop-down abaixo, publicados como subitens do nó selecionado, serão incluídos na exportação RSS.</translation>
     </message>
     <message>
         <source>Subnodes</source>
-        <translation type="unfinished"></translation>
+        <translation>Subnós</translation>
     </message>
     <message>
         <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ative este checkbox se os objetos dos subnós da fonte devem ser também incluídos.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Classe</translation>
+        <translation>Classe</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este drop-down para selecionar o tipo de objeto que dispara a exportação. Clique no botão &quot;Definir&quot; para carregar os atributos corretos para os campos restantes.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished">Definir</translation>
+        <translation>Definir</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique neste botão para carregar os valores corretos nos campos drop-down abaixo. Use o drop-down a esquerda para selecionar a classe.</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Título</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este drop-down para selecionar o atributo que deve ser exportado como título da entrada da exportação RSS.</translation>
     </message>
     <message>
         <source>optional</source>
-        <translation type="unfinished"></translation>
+        <translation>opcional</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este drop-down para selecionar o atributo que deve ser exportado como descrição da entrada da exportação RSS.</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>Pular</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">Categoria</translation>
+        <translation>Categoria</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este drop-down para selecionar o atributo que deve ser exportado como categoria da entrada da exportação RSS.</translation>
     </message>
     <message>
         <source>Remove this source</source>
-        <translation type="unfinished"></translation>
+        <translation>Remover esta fonte</translation>
     </message>
     <message>
         <source>Click to remove this source from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique para remover esta fonte da exportação RSS.</translation>
     </message>
     <message>
         <source>Add source</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar fonte</translation>
     </message>
     <message>
         <source>Click to add a new source to the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique para adicionar uma nova fonte para a exportação RSS.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicar as mudanças e retornar para a visão geral do RSS.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Cancelar</translation>
+        <translation>Cancelar</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cancelar as mudanças e retornar para a visão geral do RSS.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/edit_import</name>
     <message>
         <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar &lt;%rss_import_name&gt; [Importação RSS]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nome</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome da importação RSS. Este nome é utilizado na Interface Administrativa apenas, para diferenciar as diferentes importações entra elas mesmos.</translation>
     </message>
     <message>
         <source>Source URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL da fonte</translation>
     </message>
     <message>
         <source>Use this field to enter the source URL of the RSS feed to import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este campo para preencher a URL fonte para o feed de importação RSS.</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished">Atualizar</translation>
+        <translation>Atualizar</translation>
     </message>
     <message>
         <source>Click this button to proceed and analyze the import feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique neste botão para continuar e analisar o feed de importação.</translation>
     </message>
     <message>
         <source>RSS Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versão do RSS</translation>
     </message>
     <message>
         <source>Destination path</source>
-        <translation type="unfinished"></translation>
+        <translation>Caminho do destino</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Procurar</translation>
+        <translation>Procurar</translation>
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique neste botão para selecionar o nó destino onde os objetos criados pela importação são localizados.</translation>
     </message>
     <message>
         <source>Imported objects will be owned by</source>
-        <translation type="unfinished"></translation>
+        <translation>Objetos importados serão possuídos por</translation>
     </message>
     <message>
         <source>Change user</source>
-        <translation type="unfinished"></translation>
+        <translation>Mudar usuário</translation>
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique no botão para selecionar o usuário que deverá possuir os objetos criados pela importação.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Classe</translation>
+        <translation>Classe</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este drop-down para selecionar o tipo de objeto que a importação deverá criar. Clique no botão &quot;Definir&quot; para carregar os tipos de atributos para os campos restantes.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished">Definir</translation>
+        <translation>Definir</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique neste botão para carregar os valores corretos nos campos drop-down abaixo. Use o menu drop-down a esquerda para selecionar a classe.</translation>
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributos da classe</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este menu drop-down para selecionar o atributo que deve ser definido como informação para a stream RSS.</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorar</translation>
     </message>
     <message>
         <source>Object attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributos do objeto</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativo</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este checkbox para controlar se o feed RSS está ativo ou não. Um feed inativo não será atualizado automaticamente.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicar as mudanças e retornar para a visão geral do RSS.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Cancelar</translation>
+        <translation>Cancelar</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cancelar as mudanças e retornar para a visão geral do RSS.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/list</name>
     <message>
         <source>RSS exports [%exports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportações RSS [%exports_count]</translation>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished">Inverter seleção</translation>
+        <translation>Inverter seleção</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished">Inverter seleção.</translation>
+        <translation>Inverter seleção.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nome</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">Versão</translation>
+        <translation>Versão</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished">Status</translation>
+        <translation>Status</translation>
     </message>
     <message>
         <source>Modifier</source>
-        <translation type="unfinished">Modificado por</translation>
+        <translation>Modificado por</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished">Modificado</translation>
+        <translation>Modificado</translation>
     </message>
     <message>
         <source>Select RSS export for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecione a exportação RSS para remoção.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativo</translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation type="unfinished"></translation>
+        <translation>Inativo</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Editar</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar a exportação de RSS &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS export list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>A lista de exportação RSS está vazia.</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">Remover selecionados</translation>
+        <translation>Remover selecionados</translation>
     </message>
     <message>
         <source>Remove selected RSS exports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Remover as exportações RSS selecionadas.</translation>
     </message>
     <message>
         <source>New export</source>
-        <translation type="unfinished"></translation>
+        <translation>Nova exportação</translation>
     </message>
     <message>
         <source>Create a new RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Criar uma nova exportação RSS.</translation>
     </message>
     <message>
         <source>RSS imports [%imports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Importações RSS [%imports_count]</translation>
     </message>
     <message>
         <source>Select RSS import for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecionar a importação RSS para remoção.</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar a importação RSS &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS import list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>A lista de importação RSS está vazia.</translation>
     </message>
     <message>
         <source>Remove selected RSS imports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Remover as importações RSS selecionadas.</translation>
     </message>
     <message>
         <source>New import</source>
-        <translation type="unfinished"></translation>
+        <translation>Nova importação</translation>
     </message>
     <message>
         <source>Create a new RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Criar nova importação de RSS.</translation>
     </message>
 </context>
 <context>
@@ -2383,15 +2383,15 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Summary</source>
-        <translation type="unfinished">Resumo</translation>
+        <translation>Resumo</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished">Total sem ICMS</translation>
+        <translation>Total sem ICMS</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished">Total com ICMS</translation>
+        <translation>Total com ICMS</translation>
     </message>
 </context>
 <context>
@@ -2955,11 +2955,11 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     </message>
     <message>
         <source>Your browser does not support html5 video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seu navegador não suporta video html5.</translation>
     </message>
     <message>
         <source>Your browser does not support html5 audio.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seu navegador não suporta áudio html5.</translation>
     </message>
 </context>
 <context>
@@ -3019,37 +3019,37 @@ As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>Segundo</translation>
     </message>
 </context>
 <context>
     <name>design/standard/user</name>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seu endereço de email foi confirmado. Um administrador precisa aprovar sua requisição de cadastro para seu nome de usuário se tornar válido.</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="unfinished">Sua conta está ativa agora.</translation>
+        <translation>Sua conta está ativa agora.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="unfinished">Sua conta já está ativa.</translation>
+        <translation>Sua conta já está ativa.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished">Desculpa, a chave submetida não é válida. A conta não foi ativada.</translation>
+        <translation>Desculpa, a chave submetida não é válida. A conta não foi ativada.</translation>
     </message>
 </context>
 <context>
     <name>extension/ezodf</name>
     <message>
         <source>Document imported as</source>
-        <translation type="unfinished">Documento importado como</translation>
+        <translation>Documento importado como</translation>
     </message>
     <message>
         <source>The imported document is waiting for an approbation to be published.</source>
-        <translation type="unfinished"></translation>
+        <translation>O documento importado está aguardando por uma aprovação para ser publicado.</translation>
     </message>
 </context>
 </TS>
