@@ -3043,11 +3043,11 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <name>extension/ezodf</name>
     <message>
         <source>Document imported as</source>
-        <translation type="unfinished">Il documento è stato importato come</translation>
+        <translation>Il documento è stato importato come</translation>
     </message>
     <message>
         <source>The imported document is waiting for an approbation to be published.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il documento importato attende l&apos;approvazione per essere pubblicato.</translation>
     </message>
 </context>
 </TS>
