@@ -4,7 +4,7 @@
          is_active="true"
          install_type="import">
   <name>ezwebin_site</name>
-  <summary>Website Interface</summary>
+  <summary>Website Interface LS</summary>
   <description>Website Interface is a web based CMS solution based on eZ Publish. It contains templates and settings that meets the most common requirements for content management systems.</description>
   <vendor>eZ systems</vendor>
   <type value="site" />
