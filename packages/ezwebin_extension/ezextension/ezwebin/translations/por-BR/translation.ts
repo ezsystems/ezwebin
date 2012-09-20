@@ -40,6 +40,25 @@
     </message>
 </context>
 <context>
+    <name>design/ezodf/import</name>
+    <message>
+        <source>Create or update the translation in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Existing translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/article/article_index</name>
     <message>
         <source>Article index</source>
@@ -1174,6 +1193,10 @@ Images are placed in the media library so you can re-use them in other articles.
 Você escolherá onde colocar o documento e o eZ Publish fará o resto. O documento é convertido para
 a classe apropriada durante a importação, você receberá um aviso sobre isto após concluída a importação.
 As imagens são colocadas na biblioteca e você poderá reutilizá-las em outros artigos.</translation>
+    </message>
+    <message>
+        <source>File:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
