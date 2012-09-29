@@ -43,19 +43,19 @@
     <name>design/ezodf/import</name>
     <message>
         <source>Create or update the translation in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Créer ou mettre à jour la traduction dans:</translation>
     </message>
     <message>
         <source>Existing translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Traductions disponibles</translation>
     </message>
     <message>
         <source>New translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Nouvelle traduction</translation>
     </message>
     <message>
         <source>Import in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Importer dans:</translation>
     </message>
 </context>
 <context>
@@ -1193,7 +1193,7 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>File:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fichier:</translation>
     </message>
 </context>
 <context>
