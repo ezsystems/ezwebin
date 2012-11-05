@@ -40,6 +40,25 @@
     </message>
 </context>
 <context>
+    <name>design/ezodf/import</name>
+    <message>
+        <source>Create or update the translation in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Existing translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/article/article_index</name>
     <message>
         <source>Article index</source>
@@ -635,7 +654,7 @@
     </message>
     <message>
         <source>Published</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Опубликовано</translation>
     </message>
     <message>
         <source>Pending</source>
@@ -679,7 +698,7 @@
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Удалить выделенное</translation>
     </message>
     <message>
         <source>Remove the selected versions from the object.</source>
@@ -761,27 +780,27 @@
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Имя</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Класс</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Секция</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Версия</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Последние изменения</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Неизвестно</translation>
     </message>
     <message>
         <source>Your pending list is empty</source>
@@ -829,7 +848,7 @@
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Вы искали &quot;%1&quot; было найдено %2</translation>
     </message>
 </context>
 <context>
@@ -996,7 +1015,7 @@
     </message>
     <message>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Выбрать</translation>
     </message>
     <message>
         <source>Please choose the placement for the OpenOffice.org object.
@@ -1073,6 +1092,10 @@
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1166,7 +1189,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Thu</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Чтв</translation>
     </message>
     <message>
         <source>Fri</source>
@@ -1735,7 +1758,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Выбрать</translation>
     </message>
     <message>
         <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
@@ -1811,7 +1834,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Класс</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
@@ -1847,7 +1870,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Категория</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
@@ -1879,7 +1902,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Отмена</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
@@ -1894,7 +1917,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Имя</translation>
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
@@ -1926,7 +1949,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Выбрать</translation>
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
@@ -1946,7 +1969,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Класс</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
@@ -1994,7 +2017,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Отмена</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
@@ -2009,11 +2032,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Инвертировать выбранное</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Инвертировать выделенное.</translation>
     </message>
     <message>
         <source>Name</source>
@@ -2021,11 +2044,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Версия</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Статус</translation>
     </message>
     <message>
         <source>Modifier</source>
@@ -2061,7 +2084,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Удалить выделенное</translation>
     </message>
     <message>
         <source>Remove selected RSS exports.</source>
@@ -2116,7 +2139,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Confirm order</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Подтвердить заказ</translation>
     </message>
     <message>
         <source>Basket</source>
@@ -2160,7 +2183,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Discount</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Скидка</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
@@ -2172,7 +2195,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Неизвестно</translation>
     </message>
     <message>
         <source>Update</source>
@@ -2180,7 +2203,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Удалить</translation>
     </message>
     <message>
         <source>Selected options</source>
@@ -2227,7 +2250,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Confirm order</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Подтвердить заказ</translation>
     </message>
     <message>
         <source>Product items</source>
@@ -2247,7 +2270,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Discount</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Скидка</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
@@ -2275,11 +2298,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Отмена</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Подтвердить</translation>
     </message>
     <message>
         <source>Summary</source>
@@ -2310,7 +2333,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дата</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
@@ -2326,7 +2349,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Product</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Продукт</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -2503,7 +2526,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">email</translation>
     </message>
     <message>
         <source>Company</source>
