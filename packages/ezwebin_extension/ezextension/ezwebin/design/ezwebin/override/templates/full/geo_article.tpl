@@ -51,7 +51,7 @@
         {/if}
 
         <div class="attribute-location">
-            {attribute_view_gui attribute=$node.data_map.location}
+            {attribute_view_gui attribute=$node.data_map.location width=440}
         </div>
 
         <div class="attribute-star-rating">
