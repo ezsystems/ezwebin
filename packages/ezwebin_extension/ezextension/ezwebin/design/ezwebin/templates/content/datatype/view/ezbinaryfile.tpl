@@ -1,6 +1,6 @@
-{def $icon_size='normal'
-     $icon_title=$attribute.content.mime_type
-     $icon='no'}
+{if is_unset( $icon_size )}{def $icon_size = 'normal'}{/if}
+{if is_unset( $icon_title )}{def $icon_title = $attribute.content.mime_type}{/if}
+{if is_unset( $icon )}{def $icon = 'no'}{/if}
 {if $attribute.has_content}
 {if $attribute.content}
 {switch match=$icon}
