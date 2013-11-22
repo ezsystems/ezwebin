@@ -4,7 +4,7 @@
 {def $left_menu_depth = $pagedata.current_menu|eq('LeftOnly')|choose( 1, 0 )
      $left_menu_root_url = cond( $pagedata.path_array[$left_menu_depth].url_alias, $pagedata.path_array[$left_menu_depth].url_alias, $requested_uri_string )}
 
-    <h4><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $pagedata.path_array[$left_menu_depth].node_id)|ezurl}{else}{$left_menu_root_url|ezurl}{/if}>{$pagedata.path_array[$left_menu_depth].text}</a></h4>
+    <h4><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $pagedata.path_array[$left_menu_depth].node_id)|ezurl}{else}{$left_menu_root_url|ezurl}{/if}>{$pagedata.path_array[$left_menu_depth].text|wash}</a></h4>
 
 {if ne( $pagedata.class_identifier, 'documentation_page' )}
     {def $root_node=fetch( 'content', 'node', hash( 'node_id', $pagedata.path_array[$left_menu_depth].node_id ) )
