@@ -502,6 +502,16 @@ div.object-center, table.object-center
     margin: 0.25em auto 0.25em auto;
 }
 
+.embed-inline-left
+{
+    float: left;
+}
+
+.embed-inline-right
+{
+    float: right;
+}
+
 .float-break
 {
     height: 1%; /* Fix for IE */
