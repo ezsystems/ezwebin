@@ -238,7 +238,7 @@ class eZPageData
                     if ( $siteaccess !== null )
                     {
                         $lang = eZContentLanguage::fetchByLocale( $ini->variable( 'RegionalSettings', 'ContentObjectLocale' ) );
-                        if ( ( $contentInfo['language_mask'] & $lang->attribute('id') ) < 1 )
+                        if ( ( (int)$contentInfo['language_mask'] & (int)$lang->attribute('id') ) < 1 )
                         {
                             $handlerOptions = new ezpExtensionOptions();
                             $handlerOptions->iniFile = 'site.ini';
