@@ -17,7 +17,7 @@
                                                  'contentobject', $object,
                                                  'language', $language.locale ) )}
                 <label>
-                    <input name="EditLanguage" type="radio" value="{$language.locale}"{run-once} checked="checked"{/run-once} /> {$language.name|wash}
+                    <input name="EditLanguage" type="radio" value="{$language.locale|wash}"{run-once} checked="checked"{/run-once} /> {$language.name|wash}
                 </label>
                 <div class="labelbreak"></div>
             {/if}
@@ -43,7 +43,7 @@
                                              'contentobject', $object,
                                              'language', $language.locale ) )}
             <label>
-               <input name="EditLanguage" type="radio" value="{$language.locale}"{run-once} checked="checked"{/run-once} /> {$language.name|wash}
+               <input name="EditLanguage" type="radio" value="{$language.locale|wash}"{run-once} checked="checked"{/run-once} /> {$language.name|wash}
             </label>
             <div class="labelbreak"></div>
         {/if}
@@ -67,7 +67,7 @@
 
     {foreach $object.languages as $language}
         <label>
-            <input name="FromLanguage" type="radio" value="{$language.locale}" /> {$language.name|wash}
+            <input name="FromLanguage" type="radio" value="{$language.locale|wash}" /> {$language.name|wash}
         </label>
         <div class="labelbreak"></div>
     {/foreach}
@@ -85,7 +85,7 @@
                                                      'contentobject', $object,
                                                      'language', $language.locale ) )}
                     <label>
-                        <input name="EditLanguage" type="radio" value="{$language.locale}"{run-once} checked="checked"{/run-once} /> {$language.name|wash}
+                        <input name="EditLanguage" type="radio" value="{$language.locale|wash}"{run-once} checked="checked"{/run-once} /> {$language.name|wash}
                     </label>
                     <div class="labelbreak"></div>
                 {/if}
