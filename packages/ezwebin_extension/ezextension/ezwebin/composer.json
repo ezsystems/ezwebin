@@ -1,0 +1,22 @@
+{
+    "name": "ezsystems/ezwebin-extension",
+    "description": "eZ Publish Legacy website interface extension",
+    "type": "ezpublish-legacy-extension",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "eZ Publish dev-team & eZ Community",
+            "homepage": "https://github.com/ezsystems/ezwebin-extension"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ezsystems/ezwt-extension": "~5.3",
+        "ezsystems/ezstarrating-extension": "~5.3",
+        "ezsystems/ezgmaplocation-extension": "~5.3",
+        "ezsystems/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "ezwebin"
+    }
+}
