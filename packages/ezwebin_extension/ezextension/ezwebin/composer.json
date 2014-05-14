@@ -1,5 +1,5 @@
 {
-    "name": "ezsystems/ezwebin-extension",
+    "name": "ezsystems/ezwebin-ls",
     "description": "eZ Publish Legacy website interface extension",
     "type": "ezpublish-legacy-extension",
     "license": "GPL-2.0",
