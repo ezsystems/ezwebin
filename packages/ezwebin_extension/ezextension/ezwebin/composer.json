@@ -1,5 +1,5 @@
 {
-    "name": "ezsystems/ezwebin-ls",
+    "name": "ezsystems/ezwebin-ls-extension",
     "description": "eZ Publish Legacy website interface extension",
     "type": "ezpublish-legacy-extension",
     "license": "GPL-2.0",
@@ -16,7 +16,7 @@
     "suggest": {
         "ezsystems/ezwt-extension": "~5.3",
         "ezsystems/ezstarrating-extension": "~5.3",
-        "ezsystems/ezgmaplocation-extension": "~5.3",
+        "ezsystems/ezgmaplocation-extension": "~5.3"
     },
     "extra": {
         "ezpublish-legacy-extension-name": "ezwebin"
